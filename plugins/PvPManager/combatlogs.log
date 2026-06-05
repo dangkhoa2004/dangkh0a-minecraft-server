@@ -1,8 +1,0 @@
-This file logs every player that disconnected during combat
-You can disable the logging in the config file
-
-[2026/05/19 21:56:42] FaintAbyss2538 tried to escape combat! (1.493s left) | In combat with: [yunnie] | World:world, X:-244.30, Y:68.79, Z:-615.85
-[2026/05/26 22:49:22] yunnie tried to escape combat! (10.861s left) | In combat with: [nqocvinhhh] | World:world, X:-237.50, Y:55.50, Z:-714.68
-[2026/05/26 22:49:47] nqocvinhhh tried to escape combat! (10.683s left) | In combat with: [KaiseFitzs] | World:world, X:-238.06, Y:55.50, Z:-722.00
-[2026/05/26 22:59:11] nqocvinhhh tried to escape combat! (14.653s left) | In combat with: [KaiseFitzs] | World:world, X:-261.13, Y:64.00, Z:-728.66
-[2026/05/28 21:58:48] Taoquametmoi tried to escape combat! (8.753s left) | In combat with: [Yuui_MC] | World:world, X:-216.30, Y:49.00, Z:-687.70

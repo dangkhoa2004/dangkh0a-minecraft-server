@@ -1,0 +1,29 @@
+# Lịch sử Console và Logs (File ghi chú quá trình chạy, thay đổi liên tục)
+.console_history
+logs/
+*.log
+
+# Caches, thư viện và phiên bản tải về (Server tự động sinh ra khi chạy)
+cache/
+libraries/
+versions/
+usercache.json
+version_history.json
+
+# Dữ liệu người chơi & Trạng thái máy chủ (Không nên đồng bộ lên Git)
+banned-ips.json
+banned-players.json
+ops.json
+whitelist.json
+
+# Dữ liệu Bản đồ / World 
+# Chú ý: Dữ liệu world thay đổi liên tục khi có người chơi và dung lượng rất nặng.
+# Nếu bạn MỚI XÂY DỰNG map 'lobby' và 'world' (ở ảnh 1) và muốn lưu trữ bản gốc, 
+# bạn có thể bỏ comment (xóa dấu #) ở các dòng tương ứng bên dưới.
+world_nether/
+world_the_end/
+world/
+lobby/
+
+# Các file tự động sinh khác
+wepif.yml

@@ -1,8 +1,0 @@
-{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.7.1) has been enabled.","timestamp":1754983040216,"threadID":36,"threadName":"Server thread","properties":{}}
-{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs has been disabled.","timestamp":1754997342881,"threadID":36,"threadName":"Server thread","properties":{}}
-{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.7.1) has been enabled.","timestamp":1754997435401,"threadID":37,"threadName":"Server thread","properties":{}}
-{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs has been disabled.","timestamp":1755003392321,"threadID":37,"threadName":"Server thread","properties":{}}
-{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.7.1) has been enabled.","timestamp":1755003487747,"threadID":36,"threadName":"Server thread","properties":{}}
-{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs has been disabled.","timestamp":1755003748759,"threadID":36,"threadName":"Server thread","properties":{}}
-{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.7.1) has been enabled.","timestamp":1755003846811,"threadID":36,"threadName":"Server thread","properties":{}}
-{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs has been disabled.","timestamp":1755103132925,"threadID":36,"threadName":"Server thread","properties":{}}

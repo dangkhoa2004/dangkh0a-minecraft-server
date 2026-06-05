@@ -1,4 +1,0 @@
-{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.7.1) has been enabled.","timestamp":1765607872166,"threadID":112,"threadName":"Server thread","properties":{}}
-{"loggerName":"FancyNpcs","logLevel":"WARN","message":"You are not using the latest version of the FancyNpcs plugin.","timestamp":1765607872802,"threadID":121,"threadName":"ForkJoinPool.commonPool-worker-1","properties":{}}
-{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.7.1) has been enabled.","timestamp":1765629231784,"threadID":117,"threadName":"Server thread","properties":{}}
-{"loggerName":"FancyNpcs","logLevel":"WARN","message":"You are not using the latest version of the FancyNpcs plugin.","timestamp":1765629232476,"threadID":293,"threadName":"ForkJoinPool.commonPool-worker-3","properties":{}}
