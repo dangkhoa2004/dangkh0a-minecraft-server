@@ -17,9 +17,6 @@ ops.json
 whitelist.json
 
 # Dữ liệu Bản đồ / World 
-# Chú ý: Dữ liệu world thay đổi liên tục khi có người chơi và dung lượng rất nặng.
-# Nếu bạn MỚI XÂY DỰNG map 'lobby' và 'world' (ở ảnh 1) và muốn lưu trữ bản gốc, 
-# bạn có thể bỏ comment (xóa dấu #) ở các dòng tương ứng bên dưới.
 world_nether/
 world_the_end/
 world/
@@ -27,3 +24,9 @@ lobby/
 
 # Các file tự động sinh khác
 wepif.yml
+
+# --- BỔ SUNG: Dữ liệu và rác của Plugins ---
+# Bỏ qua các file database cục bộ do plugin sinh ra
+*.db
+*.sqlite
+*.sqlite-journal
