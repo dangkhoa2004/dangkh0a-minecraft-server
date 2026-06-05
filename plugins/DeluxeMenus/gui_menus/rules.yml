@@ -1,0 +1,153 @@
+menu_title: '&#BDB2FF&l❁ ʟᴜậᴛ ᴍáʏ ᴄʜủ ❁'
+open_command:
+- serverrules
+- guidelines
+register_command: true
+size: 45
+
+items:
+  'Filler_Outer':
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+    - 0-9
+    - 17-18
+    - 26-27
+    - 35-39
+    - 41-44
+    display_name: ' '
+    priority: 10
+
+  'Filler_Inner':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 10
+    - 16
+    - 19-20
+    - 24-25
+    - 28-34
+    display_name: ' '
+    priority: 10
+
+  'chat_rules':
+    slot: 11
+    material: WRITABLE_BOOK
+    display_name: '&#AEC6CF&l❁ ǫᴜʏ địɴʜ ᴄʜᴀᴛ & ɢɪᴀᴏ ᴛɪếᴘ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Hãy tôn trọng mọi người trong cộng đồng.'
+    - ' &#fcfcfc❖ &#E0E0E0Giữ kênh chat thân thiện và hòa đồng.'
+    - ''
+    - ' &#ED4245✖ Nghiêm cấm:'
+    - '  &#888888• &#E0E0E0Quấy rối, bắt nạt, chửi thề.'
+    - '  &#888888• &#E0E0E0Spam, quảng cáo máy chủ khác.'
+    - '  &#888888• &#E0E0E0Phân biệt đối xử hoặc thù ghét.'
+
+  'civic_sense':
+    slot: 12
+    material: head-MHF_Alex
+    display_name: '&#57F287&l❁ ᴠăɴ ʜóᴀ ᴄộɴɢ đồɴɢ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Cùng nhau xây dựng môi trường tích cực.'
+    - ''
+    - ' &#57F287✔ Khuyến khích:'
+    - '  &#888888• &#E0E0E0Giúp đỡ người chơi mới.'
+    - '  &#888888• &#E0E0E0Sử dụng ngôn từ chuẩn mực.'
+    - '  &#888888• &#E0E0E0Tôn trọng quyết định của Staff.'
+
+  'pvp_rules':
+    slot: 13
+    material: DIAMOND_SWORD
+    item_flags:
+      - HIDE_ATTRIBUTES
+    display_name: '&#FFB7B2&l❁ ʟᴜậᴛ ᴘᴠᴘ (ᴄʜɪếɴ đấᴜ) ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0PvP mang tính giải trí, không gây ức chế.'
+    - ''
+    - ' &#57F287✔ Được phép:'
+    - '  &#888888• &#E0E0E0PvP khi cả hai cùng đồng ý, giao lưu.'
+    - ''
+    - ' &#ED4245✖ Nghiêm cấm:'
+    - '  &#888888• &#E0E0E0Giết newbie, camp spawn, chặn cửa.'
+    - '  &#888888• &#E0E0E0Dụ dỗ PvP để cướp đồ.'
+
+  'no_hacking':
+    slot: 14
+    material: BARRIER
+    display_name: '&#ED4245&l❁ ᴄấᴍ ʜᴀᴄᴋ & ɢɪᴀɴ ʟậɴ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Mọi hình thức gian lận đều bị trừng phạt.'
+    - ''
+    - ' &#ED4245✖ Nghiêm cấm tuyệt đối:'
+    - '  &#888888• &#E0E0E0Dùng Hack, Client thứ 3, X-ray.'
+    - '  &#888888• &#E0E0E0Sử dụng Auto-clicker hoặc Macro.'
+    - ''
+    - '&#ED4245⚠ &#E0E0E0Vi phạm sẽ bị cấm vĩnh viễn (Permaban)!'
+
+  'no_exploits':
+    slot: 15
+    material: TNT
+    display_name: '&#FCD05C&l❁ ᴄấᴍ ᴛʀụᴄ ʟợɪ ʟỗɪ (ᴇxᴘʟᴏɪᴛ) ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Hãy báo cáo lỗi ngay lập tức cho Staff.'
+    - ''
+    - ' &#ED4245✖ Nghiêm cấm:'
+    - '  &#888888• &#E0E0E0Lợi dụng bug/glitch để tạo lợi thế.'
+    - '  &#888888• &#E0E0E0Dùng lỗi nhân bản đồ (Dupe).'
+    - '  &#888888• &#E0E0E0Lợi dụng lỗ hổng kinh tế.'
+
+  'account_security':
+    slot: 21
+    material: head-MHF_Steve
+    display_name: '&#BDB2FF&l❁ ʙảᴏ ᴍậᴛ ᴛàɪ ᴋʜᴏảɴ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn hoàn toàn chịu trách nhiệm cho mọi'
+    - '  &#E0E0E0hành động diễn ra trên tài khoản của mình.'
+    - ''
+    - ' &#ED4245✖ Không được phép:'
+    - '  &#888888• &#E0E0E0Dùng chung tài khoản (Sharing).'
+    - '  &#888888• &#E0E0E0Mua bán hoặc trao đổi tài khoản.'
+
+  'general_guidelines':
+    slot: 22
+    material: ENCHANTED_BOOK
+    display_name: '&#FCD05C&l❁ ǫᴜʏ địɴʜ ᴄʜᴜɴɢ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Việc không biết luật không phải là cớ'
+    - '  &#E0E0E0để bào chữa khi bạn vi phạm.'
+    - ''
+    - ' &#57F287✔ Hãy ghi nhớ:'
+    - '  &#888888• &#E0E0E0Quyết định của Staff là quyết định cuối cùng.'
+    - '  &#888888• &#E0E0E0Mọi khiếu nại (Appeal) thực hiện qua Discord.'
+
+  'punishment_info':
+    slot: 23
+    material: IRON_BARS
+    display_name: '&#FFB7B2&l❁ ʜệ ᴛʜốɴɢ ʜìɴʜ ᴘʜạᴛ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Vi phạm sẽ bị xử lý tùy theo mức độ nghiêm trọng.'
+    - ''
+    - ' &#ED4245⚠ Khung hình phạt:'
+    - '  &#888888• &#E0E0E0Nhẹ: Cảnh cáo hoặc Cấm chat (Mute).'
+    - '  &#888888• &#E0E0E0Vừa: Cấm chơi tạm thời (Ban).'
+    - '  &#888888• &#E0E0E0Nặng: Cấm chơi vĩnh viễn (Permaban).'
+
+  'close_button':
+    slot: 40
+    material: WRITABLE_BOOK
+    display_name: '&#57F287&l❁ ᴛôɪ đã ʜɪểᴜ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Khi tham gia máy chủ, bạn đã đồng ý'
+    - '  &#E0E0E0tuân thủ toàn bộ các quy định trên.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để đóng menu'
+    click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_PLING'
+    - '[close]'

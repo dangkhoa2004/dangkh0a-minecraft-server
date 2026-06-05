@@ -1,0 +1,9 @@
+data:
+  session: 2049
+  dice1: 4
+  dice2: 4
+  dice3: 4
+  result: TAI
+  currency: VAULT
+  xiuPlayers:
+    KaiseFitzs: 200

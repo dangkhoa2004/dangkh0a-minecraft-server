@@ -1,0 +1,90 @@
+# General settings related to alchemist inventory system.
+# Remaked & Optimized for Pastel Premium HEX
+general:
+  settings:
+    # The alchemist should accept books.
+    # If false, the alchemist will not accept books.
+    combine-books: true
+    # The alchemist should accept dust.
+    # If false, the alchemist will not accept dusts.
+    combine-dust: true
+    books:
+      # This method adds chances together and splits by 2 (x+y/2)
+      add-up-chances: true
+      pre-set-chances:
+        enabled: false
+        success: 50
+        destroy: 50
+    dusts:
+      # This method just adds up chances together
+      add-up: true
+    price:
+      economy: EXP # MONEY, EXP, LEVEL
+      # If true the plugin will calculate the price.
+      let-plugin-count: true
+      # Your custom price here.
+      # Only works if let-plugin-count is false.
+      custom-price: 250
+    other-items-slot:
+      first-item-slot: 11
+      second-item-slot: 15
+
+# Options for customization of alchemist inventory.
+inventory:
+  # Set to "none' to disable
+  # the sound when opening the inventory.
+  open-sound: "BLOCK_CHEST_OPEN"
+
+  # The title of the inventory.
+  name: "{#BDB2FF}&l❁ ᴅᴜɴɢ ʜợᴘ ❁"
+
+  # The size of the inventory.
+  # Must be a multiple of 9. (9, 18, 27, 36, 45, 54)
+  size: 54
+
+  items:
+    preview-item:
+      type: BARRIER
+      damage: 0
+      custom-model-data: 0
+      slot: 31
+      name: "{#FCD05C}&l❁ Ô ɴʜậɴ đồ ❁"
+      lore:
+      - ""
+      - " {#fcfcfc}❖ {#E0E0E0}ᴠậᴛ ᴘʜẩᴍ sᴀᴜ ᴋʜɪ ᴅᴜɴɢ ʜợᴘ"
+      - " {#E0E0E0}sẽ đượᴄ ᴅɪ ᴄʜᴜʏểɴ ᴠàᴏ đâʏ."
+    explanation-item:
+      type: STAINED_GLASS_PANE
+      damage: 0
+      custom-model-data: 0
+      slot: 49
+      name: "{#AEC6CF}&l❁ ᴄáᴄʜ ʜᴏạᴛ độɴɢ ❁"
+      lore:
+      - ""
+      - " {#fcfcfc}❖ {#E0E0E0}ᴋếᴛ ʜợᴘ {#AEC6CF}2 sáᴄʜ {#E0E0E0}(ᴄùɴɢ ʟᴏạɪ/ᴄấᴘ)"
+      - " {#E0E0E0}để ɴʜậɴ {#AEC6CF}1 sáᴄʜ {#E0E0E0}ᴄấᴘ ᴄᴀᴏ ʜơɴ."
+      - ""
+      - " {#fcfcfc}❖ {#E0E0E0}áᴘ ᴅụɴɢ ᴛươɴɢ ᴛự ᴠớɪ {#AEC6CF}ʙụɪ ᴍᴀ ᴛʜᴜậᴛ"
+      - " {#E0E0E0}(ʏêᴜ ᴄầᴜ ᴛỉ ʟệ % ᴘʜảɪ ʙằɴɢ ɴʜᴀᴜ)."
+      - ""
+    confirm-item:
+      type: STAINED_GLASS_PANE
+      damage: 5
+      custom-model-data: 0
+      slot: 13
+      name: "{#57F287}&l✔ xáᴄ ɴʜậɴ ᴅᴜɴɢ ʜợᴘ"
+      lore:
+      - ""
+      - " {#fcfcfc}❖ {#E0E0E0}ᴄʜɪ ᴘʜí: {#57F287}%price% EXP"
+      - ""
+      - " {#fcfcfc}❖ {#E0E0E0}ʙắᴛ đầᴜ ǫᴜá ᴛʀìɴʜ ᴅᴜɴɢ ʜợᴘ"
+      - " {#E0E0E0}để ɴâɴɢ ᴄấᴘ ᴠậᴛ ᴘʜẩᴍ ᴄủᴀ ʙạɴ!"
+      - ""
+      - "{#57F287}▶ {#E0E0E0}ɴʜấɴ để ʙắᴛ đầᴜ"
+    filler-item:
+      # Enable or disable the filler item.
+      enabled: true
+      type: STAINED_GLASS_PANE
+      damage: 0
+      name: " "
+      lore: []

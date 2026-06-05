@@ -1,0 +1,262 @@
+inventory:
+  armor:
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_boots
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:depth_strider":3,"minecraft:fire_protection":4,"minecraft:unbreaking":3}'
+      minecraft:damage: '84'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:iron_leggings
+    count: 1
+    components:
+      minecraft:damage: '137'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_chestplate
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:protection":4,"minecraft:unbreaking":3}'
+      minecraft:damage: '58'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_helmet
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:protection":3,"minecraft:respiration":3,"minecraft:unbreaking":3}'
+      minecraft:damage: '87'
+    schema_version: 1
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:iron_sword
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:knockback":2,"minecraft:looting":2,"minecraft:smite":4,"minecraft:sweeping_edge":3}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:repaircost":3}}'
+      minecraft:damage: '106'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:golden_shovel
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:efficiency":3}'
+      minecraft:damage: '23'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:iron_pickaxe
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:unbreaking":2}'
+      minecraft:damage: '174'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:iron_pickaxe
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:efficiency":3,"minecraft:silk_touch":1,"minecraft:unbreaking":3}'
+      minecraft:damage: '105'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:bread
+    count: 12
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:iron_shovel
+    count: 1
+    components:
+      minecraft:damage: '13'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_pickaxe
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:efficiency":2,"minecraft:unbreaking":1}'
+      minecraft:damage: '845'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:lapis_lazuli
+    count: 18
+    schema_version: 1
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:dirt
+    count: 4
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:bow
+    count: 1
+    components:
+      minecraft:damage: '380'
+    schema_version: 1
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:amethyst_shard
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"#AAAAAA",italic:0b,obfuscated:0b,strikethrough:0b,text:"Vật
+        phẩm này dùng để trao đổi.",underlined:0b}],text:""}]'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"#B955FF",italic:0b,obfuscated:0b,strikethrough:0b,text:"💎
+        Mảnh Vỡ Tinh Thể 💎",underlined:0b}],text:""}'
+      minecraft:custom_model_data: '{floats:[1000.0f]}'
+      minecraft:custom_data: '{PublicBukkitValues:{"customitemaction:is_shard_item":1b}}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:iron_block
+    count: 19
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:book
+    count: 12
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:iron_boots
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:soul_speed":3}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:golden_apple
+    count: 11
+    schema_version: 1
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:arrow
+    count: 3
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:cobbled_deepslate
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:enchanted_book
+    count: 1
+    components:
+      minecraft:stored_enchantments: '{"minecraft:fire_protection":1}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:blackstone
+    count: 48
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:iron_shovel
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:efficiency":1}'
+      minecraft:damage: '50'
+    schema_version: 1
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:spider_eye
+    count: 2
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:potion
+    count: 1
+    components:
+      minecraft:potion_contents: '{potion:"minecraft:night_vision"}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:tnt
+    count: 24
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:paper
+    count: 9
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:ender_pearl
+    count: 13
+    schema_version: 1
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond
+    count: 2
+    schema_version: 1
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:coal
+    count: 31
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:string
+    count: 9
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:enchanted_golden_apple
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_boots
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:depth_strider":3,"minecraft:fire_protection":4,"minecraft:unbreaking":3}'
+      minecraft:damage: '84'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:iron_leggings
+    count: 1
+    components:
+      minecraft:damage: '137'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_chestplate
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:protection":4,"minecraft:unbreaking":3}'
+      minecraft:damage: '58'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_helmet
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:protection":3,"minecraft:respiration":3,"minecraft:unbreaking":3}'
+      minecraft:damage: '87'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:shield
+    count: 1
+    components:
+      minecraft:damage: '64'
+    schema_version: 1
+  - null
+  - null

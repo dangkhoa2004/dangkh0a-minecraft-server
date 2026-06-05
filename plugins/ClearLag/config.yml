@@ -1,0 +1,316 @@
+#--------------------------------------------------------------------#
+#                  ClearLag Configuration File                       #
+#--------------------------------------------------------------------#
+# Configure to your liking, reload the config by tying: /lagg reload #
+#                                -                                   #
+#  Here is a helpful tutorial on this configuration setup! (Updated) #
+# http://dev.bukkit.org/bukkit-plugins/clearlagg/pages/config-setup/ #
+#--------------------------------------------------------------------#
+#          All possible mob names: https://goo.gl/cch8YK             #
+#--------------------------------------------------------------------#
+config-version: 20
+
+settings:
+  language: English
+  auto-update: false
+  enable-api: true
+  use-internal-tps: true
+
+global-broadcasts:
+  enabled: true
+  async: false
+  use-permission-for-broadcasts: false
+  permission: bukkit.broadcast
+
+lag-spike-helper:
+  enabled: false
+  min-elapsed-time: 500
+  check-interval: 100
+  follow-stack: true
+
+hopper-limiter:
+  enabled: false
+  transfer-limit: 5
+  check-interval: 1
+
+ram-meter:
+  enabled: false
+  interval: 20
+  ram-limit: 5000
+  commands:
+    - 'lagg killmobs'
+    - 'lagg clear'
+
+halt-command:
+  remove-entities: true
+  disable-natural-entity-spawning: true
+  halted:
+    fire: true
+    fire-burn: true
+    explosion: true
+    decay: true
+    block-fade: true
+    block-form: true
+    block-spread: true
+    block-natural-change: true
+
+player-speed-limiter:
+  enabled: false
+  move-max-speed: 0.7
+  fly-max-speed: 0.8
+
+item-spawn-age-setter:
+  enabled: true
+  items:
+    cobblestone: 120
+    stone: 120
+    gravel: 120
+    dirt: 120
+    sand: 120
+    rotten_flesh: 120
+    bone: 120
+
+mob-breeding-limiter:
+  enabled: true
+  max-mobs: 25
+  check-radius: 15
+
+log-purger:
+  enabled: false
+  days-old: 3
+
+area-filter:
+    - Itemframe
+    - Minecart
+    - Wolf
+    - Villager
+    - Horse
+    - ARMOR_STAND
+
+config-updater:
+  force-update: false
+
+mobegg-limiter:
+  enabled: false
+  check-radius: 8
+  max-mobs: 5
+
+chunk-limiter:
+  enabled: false
+  limit: 6000
+  create-new-chunks: true
+
+mob-range:
+  enabled: false
+  zombie: 30
+  skeleton: 30
+  creeper: 20
+
+live-time:
+  enabled: false
+  interval: 10
+  mobtimer: true
+  itemtimer: true
+  arrowtimer: true
+  arrowkilltime: 15
+  moblivetime: 600
+  itemlivetime: 240
+
+tnt-minecart:
+  enabled: false
+  max: 2
+  radius: 6
+
+dispenser-reducer:
+  enabled: false
+  time: 100
+
+tnt-reducer:
+  enabled: false
+  check-radius: 5
+  max-primed: 3
+
+firespread-reducer:
+  enabled: false
+  time: 2000
+
+chunk-entity-limiter:
+  enabled: true
+  limit: 40
+  entities:
+    - Zombie
+    - Skeleton
+    - Creeper
+    - Spider
+    - Slime
+
+per-entity-chunk-entity-limiter:
+  enabled: false
+  entity-limits:
+    - Squid limit:1
+    - Zombie limit:2
+    - Skeleton limit:2
+    - Creeper limit:2
+    - Chicken limit:3
+    - Pig limit:5
+    - Sheep limit:5
+    - Cow limit:5
+    - Horse limit:3 !hasName
+    - Villager limit:4
+    - Arrow limit:4 inGround
+    - Rabbit limit:2
+    - PufferFish limit:2
+    - Silverfish limit:2
+    - TROPICAL_FISH limit:2
+    - COD limit:2
+    - DOLPHIN limit:2
+    - Bat limit:1
+    - Armorstand limit:10
+  passive-cleaner:
+    passive-cleaning-enabled: false
+    check-interval: 20
+    chunk-batch-size: 100
+
+spawn-limiter:
+  enabled: false
+  interval: 15
+  mobs: 300
+  animals: 300
+
+tps-meter:
+  enabled: false
+  trigger-broadcast-message: '&x&E&D&4&2&4&5[ʜệ ᴛʜốɴɢ] &fᴍáʏ ᴄʜủ đᴀɴɢ ǫᴜá ᴛảɪ, ᴛʜựᴄ ʜɪệɴ ᴅọɴ ʀáᴄ ᴋʜẩɴ ᴄấᴘ'
+  recover-broadcast-message: '&x&5&7&F&2&8&7[ʜệ ᴛʜốɴɢ] &fᴍáʏ ᴄʜủ đã ổɴ địɴʜ ᴛʀở ʟạɪ!'
+  broadcast-enabled: false
+  interval: 15
+  tps-trigger: 14.0
+  tps-recover: 19.0
+  commands:
+    - 'lagg killmobs'
+    - 'lagg clear'
+    - 'lagg halt on'
+  recover-commands:
+    - 'lagg halt off'
+
+kill-mobs:
+   remove-named: false
+   mob-filter:
+   - Villager
+   - Wolf
+   - ARMOR_STAND
+   - Horse
+   - Iron_Golem
+   - Snowman
+
+mobspawner:
+  enabled: false
+  max-spawn: 4
+  remove-mobs-on-chunk-unload: true
+
+item-merger:
+  enabled: false
+  radius: 6
+
+auto-removal:
+  enabled: true
+  broadcast-message: '&x&F&F&D&7&0&0[ᴅọɴ ʀáᴄ] &x&5&7&F&2&8&7đã xóᴀ ᴛʜàɴʜ ᴄôɴɢ &f+RemoveAmount &x&5&7&F&2&8&7ᴠậᴛ ᴘʜẩᴍ ᴠà ᴛʜựᴄ ᴛʜể ʀáᴄ!'
+  broadcast-removal: true
+  autoremoval-interval: 300
+  world-filter:
+  boat: false
+  falling-block: true
+  experience-orb: true
+  painting: false
+  projectile: false
+  item: true
+  itemframe: false
+  minecart: false
+  primed-tnt: true
+  item-filter:
+  remove-entities:
+    - Arrow onGround
+    - Snowball
+    - Egg
+    - Fireball
+  warnings:
+        - 'time:240 msg:&x&F&F&D&7&0&0[ᴅọɴ ʀáᴄ] &x&E&D&4&2&4&5ᴄảɴʜ ʙáᴏ! ʀáᴄ ѕẽ ʙị xóᴀ ѕᴀᴜ &f+remaining &x&E&D&4&2&4&5ɢɪâʏ ɴữᴀ!'
+        - 'time:290 msg:&x&F&F&D&7&0&0[ᴅọɴ ʀáᴄ] &x&E&D&4&2&4&5ᴄảɴʜ ʙáᴏ! ʀáᴄ ѕẽ ʙị xóᴀ ѕᴀᴜ &f+remaining &x&E&D&4&2&4&5ɢɪâʏ ɴữᴀ!'
+
+command-remove:
+  world-filter:
+  broadcast-removal: false
+  boat: true
+  falling-block: true
+  experience-orb: true
+  painting: false
+  projectile: true
+  item: true
+  itemframe: false
+  minecart: true
+  primed-tnt: true
+  item-filter:
+  remove-entities:
+
+limit:
+  enabled: false
+  max: 1000
+  check-interval: 60
+  broadcast-message: '&x&F&F&D&7&0&0[ᴅọɴ ʀáᴄ] &x&E&D&4&2&4&5đạᴛ ɢɪớɪ ʜạɴ, đã xóᴀ &f+RemoveAmount &x&E&D&4&2&4&5ᴛʜựᴄ ᴛʜể!'
+  world-filter:
+  broadcast-removal: true
+  boat: true
+  falling-block: true
+  experience-orb: true
+  painting: false
+  projectile: true
+  item: true
+  itemframe: false
+  minecart: true
+  primed-tnt: true
+  item-filter:
+
+custom-trigger-removal:
+  enabled: false
+  triggers:
+    trigger1:
+      trigger-type: tps-trigger
+      run-interval: 5
+      tps-trigger: 14.0
+      tps-recover: 19.0
+      jobs:
+        command-executor:
+          commands:
+            - 'lagg killmobs'
+            - 'lagg clear'
+            - 'lagg halt'
+          recover-commands:
+            - 'lagg halt'
+        entity-clearer:
+          execute-job-time: 120
+          warnings:
+            - 'time:60 msg:&x&F&F&D&7&0&0[ᴅọɴ ʀáᴄ] &x&E&D&4&2&4&5ʀáᴄ ѕẽ ʙị xóᴀ ѕᴀᴜ &f+remaining &x&E&D&4&2&4&5ɢɪâʏ ɴữᴀ!'
+            - 'time:100 msg:&x&F&F&D&7&0&0[ᴅọɴ ʀáᴄ] &x&E&D&4&2&4&5ʀáᴄ ѕẽ ʙị xóᴀ ѕᴀᴜ &f20 &x&E&D&4&2&4&5ɢɪâʏ ɴữᴀ!'
+            - 'time:110 msg:&x&F&F&D&7&0&0[ᴅọɴ ʀáᴄ] &x&E&D&4&2&4&5ʀáᴄ ѕẽ ʙị xóᴀ ѕᴀᴜ &f10 &x&E&D&4&2&4&5ɢɪâʏ ɴữᴀ!'
+          world-filter:
+          removeEntities:
+            - item
+            - zombie !hasName
+            - skeleton !hasName
+            - pig !hasName
+            - cow !hasName
+    trigger2:
+      trigger-type: entity-limit-trigger
+      run-interval: 25
+      limit: 200
+      world-filter:
+      entity-limits:
+        - zombie
+        - skeleton
+        - enderman
+      jobs:
+        entity-clearer:
+          world-filter:
+          remove-entities:
+            - zombie
+            - skeleton
+            - enderman

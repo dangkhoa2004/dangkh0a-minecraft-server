@@ -1,0 +1,31 @@
+tasks:
+  consume:
+    type: "consume"
+    item: COOKED_PORKCHOP
+    amount: 4
+display:
+  name: "&#A3C4F3&nᴛɪêᴜ ᴛʜụ ʟxɪx:&r &#FDFD96#69"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó'
+    - '&#D1E8E2ăɴ ᴛʜịᴛ ʜᴇᴏ ᴄʜíɴ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴛɪêᴜ ᴛʜụ ᴛʜịᴛ ʜᴇᴏ ᴄʜíɴ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{consume:progress}/4 ʟầɴ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC04 ᴋɪᴍ ᴄươɴɢ & 200 xu'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "COOKED_PORKCHOP"
+rewards:
+  - "eco give {player} 200"
+options:
+  category: "consume"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 69
+  requires:
+    - "consume68"
+  itemflags:
+    - "HIDE_ATTRIBUTES"

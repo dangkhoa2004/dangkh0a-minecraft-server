@@ -1,0 +1,316 @@
+# +--------------------------------------------------------------------------+ #
+# <                   PvPManager Premium Configuration File                  > #
+# <--------------------------------------------------------------------------> #
+# <                  For help with the config options go to                  > #
+# <           https://www.spigotmc.org/resources/pvpmanager.10610            > #
+# <                  or Discord https://discord.gg/QFTjs3g                   > #
+# +--------------------------------------------------------------------------+ #
+
+General Settings:
+  Locale: EN
+  Auto Respawn: true
+  Deaths While Tagged Count PvP: true
+  Use Scoreboard Teams: true
+  World Exclusions:
+  - 'world_minigame'
+  - 'world_lobby'
+
+######################
+####  Combat Tag  ####
+######################
+Combat Tag:
+  Enabled: true
+  Time: 15
+  Glowing: false
+  Untag On Kill: false
+  Self Tag: false
+  EnderPearl Renews Tag: true
+  WindCharge Renews Tag: true
+  Commands On Tag:
+  - '!CONSOLE no_command'
+  Commands On Untag:
+  - '!CONSOLE no_command'
+  WorldGuard Exclusions:
+  - 'spawn'
+
+  PvE Tag:
+    Enabled: false
+    Only Hostile: true
+    Any Damage: false
+
+  Display:
+    Nametags:
+      Enabled: true
+      Prefix: '&#FF6B6B⚔ &#888888(&#FDFD96%pvpmanager_combat_timeleft%s&#888888) &#FF6B6B'
+      Suffix: ' &#FFFFFF%pvpmanager_player_health%&#FF6B6B❤'
+    Action Bar:
+      Enabled: true
+      Message: '&#FF8B94&l[ᴄʜɪếɴ đấᴜ] &#FDFD96<time>s &#888888• &#B9FBC0<barsLeft>&#FF6B6B<barsPassed> &#888888• &#D1E8E2%pvpmanager_current_enemy% &#888888(&#FF6B6B%pvpmanager_current_enemy_health%❤&#888888)'
+      Symbol: '|'
+      Total Bars: 20
+    Boss Bar:
+      Enabled: true
+      Message: '&#FF8B94&l[ᴄʜɪếɴ đấᴜ] &#FDFD96&l<time> ɢɪâʏ'
+      BarColor: RED
+      BarStyle: SOLID
+
+  Actions Blocked:
+    EnderPearls: true
+    ChorusFruits: true
+    Teleport: true
+    Unsafe Teleports: false
+    Riptide: true
+    Eat: false
+    Totem of Undying: false
+    Place Blocks: false
+    Break Blocks: false
+    Open Inventory: false
+    Enter Portal: true
+    Elytra:
+      Block Gliding: true
+      Block Fireworks: true
+      Firework Power Limit: -1
+    Interact:
+      Enabled: false
+      List:
+      - 'DOOR'
+      - 'FENCE_GATE'
+      - 'BUTTON'
+      - 'BED'
+      - 'PRESSURE_PLATE'
+      - 'SLAB'
+      - 'STAIRS'
+      - 'CARPET'
+    Commands:
+      Enabled: true
+      Whitelist: true
+      Command List:
+      - 'tell'
+      - 'msg'
+      - 'm'
+      - 'w'
+      - 'r'
+      - 'combattag'
+
+##################################
+####  Combat Log Punishments  ####
+##################################
+Combat Log Punishments:
+  Money Penalty: 0.0
+  Spawn NPC:
+    Enabled: true
+    NPC Name: ''
+    NPC Despawn Time: 30
+    Block Login: true
+    Targetable By Mobs: true
+    Spawn On All Logouts: false
+    WorldGuard Exclusions:
+    - 'spawn'
+  Kill on Logout:
+    Enabled: true
+    Player Drops:
+      Inventory: true
+      Experience: true
+      Armor: true
+  Punish On Kick:
+    Enabled: true
+    Match Kick Reason: false
+    Kick Reasons:
+    - 'Kicked for spamming'
+    - 'disconnect.spam'
+  Commands On Combat Log:
+  - 'announce {prefix} &#FFB347{player} &#FF6B6Bđã ᴄố ɢắɴɢ ᴛʜᴏáᴛ ɢᴀᴍᴇ để ᴛʀốɴ ᴄʜạʏ ᴋʜỏɪ ᴛʀậɴ ᴄʜɪếɴ!'
+
+######################
+####  PvP Toggle  ####
+######################
+PvP Toggle:
+  Default PvP: true
+  Cooldown: 15
+  Protection Effect:
+    Enabled: true
+    Particle: ENCHANT
+    Cooldown: 0
+  State Cooldown:
+    Enabled: false
+    Time: 30
+    Commands On Cooldown Start:
+    - '!CONSOLE'
+  NameTags:
+    Enabled: false
+    Prefix On: '&#FF6B6Bᴘᴠᴘ ᴏɴ ⚔ '
+    Prefix Off: '&#B9FBC0ᴘᴠᴘ ᴏꜰꜰ ⚔ '
+  PvP Disabled Money Fee: 0
+  Commands PvP On:
+  - ''
+  Commands PvP Off:
+  - ''
+  WorldGuard Overrides: true
+
+PvP Grant:
+  Block Pick Items: false
+
+###############################
+####  Anti Border Hopping  ####
+###############################
+Anti Border Hopping:
+  Vulnerable:
+    Enabled: true
+    Renew Combat Tag: true
+  Barrier:
+    Enabled: true
+    Mode: FAST
+    Material: RED_STAINED_GLASS
+    Radius: 6
+    Update Rate: 3
+  Push Back:
+    Enabled: true
+    Force: 1.2
+    Block EnderPearl: true
+    Hologram Display: true
+    Remove Elytra: true
+
+#############################
+####  Newbie Protection  ####
+#############################
+Newbie Protection:
+  Enabled: true
+  Time: 1800
+  Allow Player Disable: true
+  Block Pick Items: false
+  Block Place Blocks: false
+  Block Break Blocks: false
+  Protect From Everything: false
+  Boss Bar:
+    Enabled: true
+    Message: '&#F8E9A1✦ &#B9FBC0&lʙảᴏ ᴠệ ᴛâɴ ᴛʜủ &#F8E9A1✦ &#FDFD96&l<time>'
+    BarColor: GREEN
+    BarStyle: SOLID
+  Command Blacklist:
+  - 'example'
+
+#####################
+####  Cooldowns  ####
+#####################
+Item Cooldowns:
+  Combat:
+    ENDER_PEARL: 8
+    WIND_CHARGE: 1
+    GOLDEN_APPLE: 30
+    ENCHANTED_GOLDEN_APPLE: 60
+  Global:
+    GOLDEN_APPLE: 10
+    ENCHANTED_GOLDEN_APPLE: 30
+
+########################
+####  Player Kills  ####
+########################
+Player Kills:
+  Money Reward: 0.0
+  Money Penalty: 0.0
+  Money Steal: false
+  Exp Steal: 0.0
+  Death Effects:
+    Lightning: true
+  Commands On Kill:
+    Cooldown: -1
+    Commands:
+    - ''
+  Commands On Respawn:
+  - ''
+  WorldGuard Exclusions:
+  - 'arena'
+  Extra Drops: []
+
+  Loot Protection:
+    Time: 20
+    Hologram:
+      Mode: PER_ITEM
+      Top Message: "&#F8E9A1⚡ &#FDFD96ʟᴏᴏᴛ ᴄủᴀ &#FF6B6B<player> &#F8E9A1⚡"
+      Bottom Message: "&#B9FBC0<progress> &#D1E8E2<time>s"
+
+  Anti Kill Abuse:
+    Enabled: true
+    Max Kills: 5
+    Time Limit: 20
+    Warn Before: true
+    Commands on Abuse:
+    - 'kick {player} &#FF6B6Bᴄấᴍ ʟạᴍ ᴅụɴɢ ᴄàʏ ᴍạɴɢ (ᴋɪʟʟ ᴀʙᴜꜱᴇ)!'
+    Respawn Protection: 3
+    Teleport Protection: 3
+    WorldGuard Exclusions:
+    - 'arena'
+    Command Cooldown After Death:
+      Time: 5
+      Commands:
+      - 'back'
+      - 'tpa'
+
+##########################
+####  Other Settings  ####
+##########################
+Other Settings:
+  PvP Blood: true
+  Ignore No Damage Hits: true
+  Protection Messages to Action Bar: true
+  Player Drop Mode: ALWAYS
+  Show health under name:
+    Enabled: false
+    Display Name: '&c❤'
+  Auto Soup:
+    Health: 0
+  Recycling:
+    Enabled: true
+    List:
+    - BUCKET
+    - GLASS_BOTTLE
+    - BOWL
+
+Disable On Hit:
+  Fly: true
+  Restore Fly: true
+  GameMode: true
+  Disguise: true
+  GodMode: true
+  Elytra: true
+  Invisibility: false
+
+Database:
+  Type: SQLite
+  MySQL:
+    Host: 127.0.0.1
+    Port: 3306
+    Username: root
+    Password: '12345'
+    Database: minecraft
+
+Placeholders:
+  Boolean Format:
+    True: '&#B9FBC0✓'
+    False: '&#FF6B6B✗'
+
+Update Check:
+  Enabled: true
+
+Harmful Potions:
+- SLOW
+- SLOWNESS
+- SLOW_DIGGING
+- MINING_FATIGUE
+- CONFUSION
+- NAUSEA
+- BLINDNESS
+- HUNGER
+- WEAKNESS
+- POISON
+- WITHER
+- GLOWING
+- LEVITATION
+- UNLUCK
+- BAD_OMEN
+- INFESTED
+
+Debug Mode: false
+
+Config Version: 206
+Database Version: 2

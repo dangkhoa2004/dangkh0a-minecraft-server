@@ -1,0 +1,154 @@
+# Configuration for Armor Sets GUI
+# Remaked & Optimized for Pastel Premium HEX
+
+# Command list that will open the GUI
+commands:
+  - "/armorsets"
+  - "/previewsets"
+
+gui:
+  name: "{#BDB2FF}&l❁ ʙộ ᴛʀᴀɴɢ ʙị ❁"
+  size: 27
+  items:
+    0-26:
+      material: STAINED_GLASS_PANE
+      damage: 0
+      name: " "
+      lore: [ ]
+    10:
+      material: CHEST
+      damage: 0
+      armorSet: DimensionalTraveller
+      name: "{#FCD05C}&l%armor set name%"
+      lore:
+        - ""
+        - " {#fcfcfc}❖ {#E0E0E0}ᴄʜế ᴛạᴏ ᴛừ: {#AEC6CF}%armor set material%"
+        - " {#fcfcfc}❖ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để &nxᴇᴍ ᴛʀướᴄ{#E0E0E0} ʙộ ɴàʏ"
+        - " "
+        - "{#BDB2FF}&lʜɪệᴜ ứɴɢ ʙộ TRAVELLER"
+        - " {#fcfcfc}❖ {#E0E0E0}ɢâʏ ᴛʜêᴍ {#57F287}30% {#E0E0E0}sáᴛ ᴛʜươɴɢ."
+        - " {#fcfcfc}❖ {#E0E0E0}ᴋỹ ɴăɴɢ ɴộɪ ᴛạɪ: ᴅịᴄʜ ᴄʜᴜʏểɴ ᴋʜôɴɢ ɢɪᴀɴ"
+        - " {#888888}(ʏêᴜ ᴄầᴜ ᴛʀᴀɴɢ ʙị đủ 4 ᴍóɴ)"
+    11:
+      material: CHEST
+      damage: 0
+      armorSet: Koth
+      name: "{#FCD05C}&l%armor set name%"
+      lore:
+        - ""
+        - " {#fcfcfc}❖ {#E0E0E0}ᴄʜế ᴛạᴏ ᴛừ: {#AEC6CF}%armor set material%"
+        - " {#fcfcfc}❖ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để &nxᴇᴍ ᴛʀướᴄ{#E0E0E0} ʙộ ɴàʏ"
+        - " "
+        - "{#FFB7B2}&lʜɪệᴜ ứɴɢ ʙộ KOTH"
+        - " {#fcfcfc}❖ {#57F287}+20% {#E0E0E0}sáᴛ ᴛʜươɴɢ PvP"
+        - " {#fcfcfc}❖ {#57F287}+50% {#E0E0E0}sáᴛ ᴛʜươɴɢ PvE"
+        - " {#fcfcfc}❖ {#E0E0E0}ᴛự độɴɢ ʙᴀɴ ᴘʜướᴄ"
+        - " {#fcfcfc}❖ {#E0E0E0}ᴍɪễɴ sáᴛ ᴛʜươɴɢ ʀơɪ"
+        - " {#888888}(ʏêᴜ ᴄầᴜ ᴛʀᴀɴɢ ʙị đủ 4 ᴍóɴ)"
+    12:
+      material: CHEST
+      damage: 0
+      armorSet: Phantom
+      name: "{#FCD05C}&l%armor set name%"
+      lore:
+        - ""
+        - " {#fcfcfc}❖ {#E0E0E0}ᴄʜế ᴛạᴏ ᴛừ: {#AEC6CF}%armor set material%"
+        - " {#fcfcfc}❖ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để &nxᴇᴍ ᴛʀướᴄ{#E0E0E0} ʙộ ɴàʏ"
+        - " "
+        - "{#ED4245}&lʜɪệᴜ ứɴɢ ʙộ PHANTOM"
+        - " {#fcfcfc}❖ {#E0E0E0}ɢâʏ ᴛʜêᴍ {#57F287}25% {#E0E0E0}sáᴛ ᴛʜươɴɢ ᴄʜᴏ ᴍọɪ ᴋẻ ᴛʜù."
+        - " {#888888}(ʏêᴜ ᴄầᴜ ᴛʀᴀɴɢ ʙị đủ 4 ᴍóɴ)"
+    13:
+      material: CHEST
+      damage: 0
+      armorSet: Ranger
+      name: "{#FCD05C}&l%armor set name%"
+      lore:
+        - ""
+        - " {#fcfcfc}❖ {#E0E0E0}ᴄʜế ᴛạᴏ ᴛừ: {#AEC6CF}%armor set material%"
+        - " {#fcfcfc}❖ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để &nxᴇᴍ ᴛʀướᴄ{#E0E0E0} ʙộ ɴàʏ"
+        - " "
+        - "{#57F287}&lʜɪệᴜ ứɴɢ ʙộ RANGER"
+        - " {#fcfcfc}❖ {#E0E0E0}ᴄᴜɴɢ ᴄủᴀ ᴋẻ ᴛʜù ɢɪảᴍ {#57F287}25% {#E0E0E0}sáᴛ ᴛʜươɴɢ ʟêɴ ʙạɴ."
+        - " {#fcfcfc}❖ {#E0E0E0}Cung Ranger ᴛăɴɢ {#57F287}30% {#E0E0E0}sáᴛ ᴛʜươɴɢ."
+        - " {#fcfcfc}❖ {#E0E0E0}ᴍɪễɴ ɴʜɪễᴍ ᴠớɪ Teleblock"
+        - " {#fcfcfc}❖ {#E0E0E0}Gears IV"
+        - " {#888888}(ʏêᴜ ᴄầᴜ ᴛʀᴀɴɢ ʙị đủ 4 ᴍóɴ)"
+    14:
+      material: CHEST
+      damage: 0
+      armorSet: Supreme
+      name: "{#FCD05C}&l%armor set name%"
+      lore:
+        - ""
+        - " {#fcfcfc}❖ {#E0E0E0}ᴄʜế ᴛạᴏ ᴛừ: {#AEC6CF}%armor set material%"
+        - " {#fcfcfc}❖ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để &nxᴇᴍ ᴛʀướᴄ{#E0E0E0} ʙộ ɴàʏ"
+        - " "
+        - "{#ED4245}&lʜɪệᴜ ứɴɢ ʙộ SUPREME"
+        - " {#fcfcfc}❖ {#E0E0E0}Gears IV"
+        - " {#fcfcfc}❖ {#E0E0E0}ᴍɪễɴ sáᴛ ᴛʜươɴɢ ʀơɪ & Không mất thức ăn"
+        - " {#fcfcfc}❖ {#E0E0E0}ɢâʏ ᴛʜêᴍ {#57F287}15% {#E0E0E0}sáᴛ ᴛʜươɴɢ ᴄʜᴏ ᴍọɪ ᴋẻ ᴛʜù."
+        - " {#fcfcfc}❖ {#E0E0E0}ᴍũɪ ᴛêɴ ᴄủᴀ ᴋẻ ᴛʜù ɢâʏ ᴛʜêᴍ {#ED4245}10% {#E0E0E0}sáᴛ ᴛʜươɴɢ ʟêɴ ʙạɴ."
+        - " {#fcfcfc}❖ {#57F287}+200% {#E0E0E0}Clout"
+        - " {#888888}(ʏêᴜ ᴄầᴜ ᴛʀᴀɴɢ ʙị đủ 4 ᴍóɴ)"
+    15:
+      material: CHEST
+      damage: 0
+      armorSet: Yeti
+      name: "{#FCD05C}&l%armor set name%"
+      lore:
+        - ""
+        - " {#fcfcfc}❖ {#E0E0E0}ᴄʜế ᴛạᴏ ᴛừ: {#AEC6CF}%armor set material%"
+        - " {#fcfcfc}❖ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để &nxᴇᴍ ᴛʀướᴄ{#E0E0E0} ʙộ ɴàʏ"
+        - " "
+        - "{#AEC6CF}&lʜɪệᴜ ứɴɢ ʙộ YETI"
+        - " {#fcfcfc}❖ {#E0E0E0}ɢâʏ ᴛʜêᴍ {#57F287}10% {#E0E0E0}sáᴛ ᴛʜươɴɢ ᴄʜᴏ ᴍọɪ ᴋẻ ᴛʜù."
+        - " {#fcfcfc}❖ {#E0E0E0}ᴋẻ ᴛʜù ɢɪảᴍ {#57F287}10% {#E0E0E0}sáᴛ ᴛʜươɴɢ ʟêɴ ʙạɴ."
+        - " {#888888}(ʏêᴜ ᴄầᴜ ᴛʀᴀɴɢ ʙị đủ 4 ᴍóɴ)"
+    16:
+      material: CHEST
+      damage: 0
+      armorSet: Yijki
+      name: "{#FCD05C}&l%armor set name%"
+      lore:
+        - ""
+        - " {#fcfcfc}❖ {#E0E0E0}ᴄʜế ᴛạᴏ ᴛừ: {#AEC6CF}%armor set material%"
+        - " {#fcfcfc}❖ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để &nxᴇᴍ ᴛʀướᴄ{#E0E0E0} ʙộ ɴàʏ"
+        - " "
+        - "{#fcfcfc}&lʜɪệᴜ ứɴɢ ʙộ YIJKI"
+        - " {#fcfcfc}❖ {#E0E0E0}ᴋẻ ᴛʜù ɢɪảᴍ {#57F287}30% {#E0E0E0}sáᴛ ᴛʜươɴɢ ʟêɴ ʙạɴ."
+        - " {#fcfcfc}❖ {#E0E0E0}ᴋỹ ɴăɴɢ ɴộɪ ᴛạɪ: Revenge of Yijki"
+        - " {#888888}(ʏêᴜ ᴄầᴜ ᴛʀᴀɴɢ ʙị đủ 4 ᴍóɴ)"
+
+previewArmorSet:
+  name: "{#BDB2FF}&l❁ xᴇᴍ ᴛʀướᴄ ʙộ ᴛʀᴀɴɢ ʙị ❁"
+  size: 27
+  items:
+    0-26:
+      material: STAINED_GLASS_PANE
+      damage: 0
+      name: " "
+      lore: [ ]
+    11:
+      itemType: SET_HELMET
+    12:
+      itemType: SET_CHESTPLATE
+    13:
+      itemType: SET_LEGGINGS
+    14:
+      itemType: SET_BOOTS
+    15:
+      itemType: SET_WEAPON
+      # Fallback material, if no weapon is present this will be shown instead
+      material: BARRIER
+      damage: 0
+      name: "{#ED4245}&l✖ ᴋʜôɴɢ ᴄó ᴠũ ᴋʜí"
+      lore:
+        - ""
+        - " {#fcfcfc}❖ {#E0E0E0}ʙộ ᴛʀᴀɴɢ ʙị ɴàʏ ᴋʜôɴɢ đɪ ᴋèᴍ ᴠũ ᴋʜí!"
+    26:
+      itemType: GO_BACK
+      material: ARROW
+      damage: 0
+      name: "{#ED4245}&l✖ ǫᴜᴀʏ ʟạɪ ᴍᴇɴᴜ"
+      lore: [ ]

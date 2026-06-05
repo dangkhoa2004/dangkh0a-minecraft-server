@@ -1,0 +1,11 @@
+data:
+  session: 24
+  dice1: 4
+  dice2: 3
+  dice3: 4
+  result: TAI
+  currency: VAULT
+  taiPlayers:
+    KaiseFitzs: 250000
+  xiuPlayers:
+    DaoMinhKhoi_: 1000000

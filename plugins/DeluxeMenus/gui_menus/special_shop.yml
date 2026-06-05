@@ -1,0 +1,50 @@
+#
+# ѕʜᴏᴘ đặᴄ ʙɪệᴛ (ѕᴘᴇᴄɪᴀʟ ѕʜᴏᴘ)
+#
+
+menu_title: '&#FFD700ѕʜᴏᴘ đặᴄ ʙɪệᴛ'
+open_command: specialshop
+register_command: true
+size: 27
+update_interval: -1
+
+items:
+  # === [ TRANG TRÍ GUI / FILLER ] ===
+  filler_glass:
+    display_name: ' '
+    material: BLACK_STAINED_GLASS_PANE
+    slots: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 ]
+
+  # === [ MUA KEY ] ===
+  buy_key:
+    display_name: '&#57F287&lᴍᴜᴀ ᴋᴇʏ'
+    material: TRIPWIRE_HOOK
+    slot: 11
+    lore:
+    - '&#AAAAAAᴍᴜᴀ ᴄʜìᴀ ᴋʜóᴀ để ᴍở ʀươɴɢ'
+    - '&#AAAAAAᴘʜầɴ ᴛʜưởɴɢ đặᴄ ʙɪệᴛ.'
+    - ''
+    - '&#FFD700ɴʜấɴ để ᴍᴜᴀ ɴɢᴀʏ'
+    left_click_commands:
+
+    - '[player] muakey'
+    right_click_commands:
+
+    - '[player] muakey'
+
+  # === [ MUA CLAIM ] ===
+  buy_claim:
+    display_name: '&#5865F2&lᴍᴜᴀ ᴄʟᴀɪᴍ'
+    material: GOLDEN_SHOVEL
+    slot: 15
+    lore:
+    - '&#AAAAAAᴍᴜᴀ ᴛʜêᴍ ᴋʜốɪ ʙảᴏ ᴠệ đấᴛ'
+    - '&#AAAAAAđể ᴍở ʀộɴɢ ʟãɴʜ ᴛʜổ ᴄủᴀ ʙạɴ.'
+    - ''
+    - '&#FFD700ɴʜấɴ để ᴍᴜᴀ ɴɢᴀʏ'
+    left_click_commands:
+
+    - '[player] muaclaim'
+    right_click_commands:
+
+    - '[player] muaclaim'

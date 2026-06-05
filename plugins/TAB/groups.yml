@@ -1,0 +1,70 @@
+# File: groups.yml
+# Cấu hình hiển thị cho từng nhóm.
+# Rank sẽ được lấy tự động từ LuckPerms thông qua biến %luckperms_prefix%
+
+owner:
+  tabprefix: "%luckperms_prefix%"
+  tagprefix: "%luckperms_prefix%"
+  tagsuffix: "&f %deluxetags_tag%"
+  tabsuffix: "&f %deluxetags_tag%"
+admin:
+  tabprefix: "%luckperms_prefix%"
+  tagprefix: "%luckperms_prefix%"
+  tagsuffix: "&f %deluxetags_tag%"
+  tabsuffix: "&f %deluxetags_tag%"
+helper:
+  tabprefix: "%luckperms_prefix%"
+  tagprefix: "%luckperms_prefix%"
+  tagsuffix: "&f %deluxetags_tag%"
+  tabsuffix: "&f %deluxetags_tag%"
+mod:
+  tabprefix: "%luckperms_prefix%"
+  tagprefix: "%luckperms_prefix%"
+  tagsuffix: "&f %deluxetags_tag%"
+  tabsuffix: "&f %deluxetags_tag%"
+elite:
+  tabprefix: "%luckperms_prefix%"
+  tagprefix: "%luckperms_prefix%"
+  tagsuffix: "&f %deluxetags_tag%"
+  tabsuffix: "&f %deluxetags_tag%"
+king:
+  tabprefix: "%luckperms_prefix%"
+  tagprefix: "%luckperms_prefix%"
+  tagsuffix: "&f %deluxetags_tag%"
+  tabsuffix: "&f %deluxetags_tag%"
+donate:
+  tabprefix: "%luckperms_prefix%"
+  tagprefix: "%luckperms_prefix%"
+  tagsuffix: "&f %deluxetags_tag%"
+  tabsuffix: "&f %deluxetags_tag%"
+mvp:
+  tabprefix: "%luckperms_prefix%"
+  tagprefix: "%luckperms_prefix%"
+  tagsuffix: "&f %deluxetags_tag%"
+  tabsuffix: "&f %deluxetags_tag%"
+beauty:
+  tabprefix: "%luckperms_prefix%"
+  tagprefix: "%luckperms_prefix%"
+  tagsuffix: "&f %deluxetags_tag%"
+  tabsuffix: "&f %deluxetags_tag%"
+vip:
+  tabprefix: "%luckperms_prefix%"
+  tagprefix: "%luckperms_prefix%"
+  tagsuffix: "&f %deluxetags_tag%"
+  tabsuffix: "&f %deluxetags_tag%"
+builder:
+  tabprefix: "%luckperms_prefix%"
+  tagprefix: "%luckperms_prefix%"
+  tagsuffix: "&f %deluxetags_tag%"
+  tabsuffix: "&f %deluxetags_tag%"
+default:
+  tabprefix: "%luckperms_prefix%"
+  tagprefix: "%luckperms_prefix%"
+  tagsuffix: "&f %deluxetags_tag%"
+  tabsuffix: "&f %deluxetags_tag%"
+
+_DEFAULT_:
+  tabprefix: "%luckperms_prefix%"
+  tagprefix: "%luckperms_prefix%"
+  tagsuffix: "&f %deluxetags_tag%"
+  tabsuffix: "&f %deluxetags_tag%"

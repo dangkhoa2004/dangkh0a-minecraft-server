@@ -1,0 +1,196 @@
+menu_title: '&#BDB2FF&l❁ xáᴄ ɴʜậɴ: %deluxemenus_meta_betterteamsconfirmaction_string% ❁'
+size: 9
+open_command: []
+items:
+  'Filler 1':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 8
+    display_name: '&r'
+  'Filler 2':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 1-2
+    - 4
+    - 6-7
+    display_name: '&r'
+  'Cancel':
+    material: RED_WOOL
+    slot: 5
+    display_name: '&#ED4245&l✖ ʜủʏ ʙỏ'
+    lore:
+    - ''
+    - '&#ED4245▶ &#E0E0E0Nhấn để quay lại'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] %deluxemenus_meta_BetterTeamsConfirmActionBack_STRING_BetterTeamsMain%'
+
+  'Disband':
+    material: GREEN_WOOL
+    slot: 3
+    display_name: '&#57F287&l✔ xáᴄ ɴʜậɴ ɢɪảɪ ᴛáɴ'
+    lore:
+    - ''
+    - ' &#ED4245⚠ Cảnh báo: Không thể khôi phục!'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để đồng ý giải tán team'
+    priority: 1
+    view_requirement:
+      requirements:
+        meta:
+          type: has meta
+          key: betterTeamsConfirmAction
+          meta_type: STRING
+          value: disband
+    click_commands:
+    - '[sound] ENTITY_ZOMBIE_VILLAGER_CURE'
+    - '[console] teama disband %betterteams_name%'
+    - '[close]'
+
+  'Leave Private':
+    material: GREEN_WOOL
+    slot: 3
+    display_name: '&#57F287&l✔ xáᴄ ɴʜậɴ ʀờɪ độɪ'
+    lore:
+    - ''
+    - ' &#ED4245⚠ Lưu ý: Team đang khóa!'
+    - ' &#E0E0E0Bạn sẽ không thể vào lại nếu không có lời mời.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để rời đội'
+    priority: 2
+    view_requirement:
+      requirements:
+        meta:
+          type: has meta
+          key: betterTeamsConfirmAction
+          meta_type: STRING
+          value: 'leave'
+        isPrivate:
+          type: string equals
+          input: '%betterteams_open%'
+          output: 'false'
+    click_commands:
+    - '[sound] ENTITY_ZOMBIE_VILLAGER_CURE'
+    - '[console] team leave'
+    - '[close]'
+
+  'Leave Public':
+    material: GREEN_WOOL
+    slot: 3
+    display_name: '&#57F287&l✔ xáᴄ ɴʜậɴ ʀờɪ độɪ'
+    lore:
+    - ''
+    - ' &#57F287ℹ Lưu ý: Team đang mở cửa tự do!'
+    - ' &#E0E0E0Bạn có thể vào lại bất kỳ lúc nào.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để rời đội'
+    priority: 3
+    view_requirement:
+      requirements:
+        meta:
+          type: has meta
+          key: betterTeamsConfirmAction
+          meta_type: STRING
+          value: 'leave'
+        isOpen:
+          type: string equals
+          input: '%betterteams_open%'
+          output: 'true'
+    click_commands:
+    - '[sound] ENTITY_ZOMBIE_VILLAGER_CURE'
+    - '[player] team leave'
+    - '[close]'
+
+  'Name Change':
+    material: GREEN_WOOL
+    slot: 3
+    display_name: '&#57F287&l✔ xáᴄ ɴʜậɴ đổɪ ᴛêɴ'
+    lore:
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để nhập tên mới'
+    priority: 4
+    view_requirement:
+      requirements:
+        meta:
+          type: has meta
+          key: betterTeamsConfirmAction
+          meta_type: STRING
+          value: 'name change'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team name '
+
+  'Home Deletion':
+    material: GREEN_WOOL
+    slot: 3
+    display_name: '&#57F287&l✔ xáᴄ ɴʜậɴ xóᴀ ʜᴏᴍᴇ'
+    lore:
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xóa'
+    priority: 5
+    view_requirement:
+      requirements:
+        meta:
+          type: has meta
+          key: betterTeamsConfirmAction
+          meta_type: STRING
+          value: 'home deletion'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] team delhome'
+    - '[close]'
+
+  'Alliance Termination':
+    material: GREEN_WOOL
+    slot: 3
+    display_name: '&#57F287&l✔ xáᴄ ɴʜậɴ ʜủʏ ʟɪêɴ ᴍɪɴʜ'
+    lore:
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để hủy'
+    priority: 6
+    view_requirement:
+      requirements:
+        meta:
+          type: has meta
+          key: betterTeamsConfirmAction
+          meta_type: STRING
+          value: 'alliance termination'
+    click_requirement:
+      requirements:
+        hasOneAlly:
+          type: string equals
+          input: '%betterteamsextra_allycount%'
+          output: '1'
+          success_commands:
+          - '[player] team neutral %betterteamsextra_allyname_0%'
+          - '[sound] ENTITY_ZOMBIE_VILLAGER_CURE'
+          deny_commands:
+          - '[sound] UI_BUTTON_CLICK'
+          - '[close]'
+          - '[suggest_command] /team neutral '
+    click_commands:
+    - '[close]'
+
+  'All Chest Disclaim':
+    material: GREEN_WOOL
+    slot: 3
+    display_name: '&#57F287&l✔ xáᴄ ɴʜậɴ ɢỡ ᴛᴏàɴ ʙộ ʀươɴɢ'
+    lore:
+    - ''
+    - ' &#ED4245⚠ Cảnh báo: Không thể hoàn tác!'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để gỡ bỏ toàn bộ bảo vệ rương'
+    priority: 7
+    view_requirement:
+      requirements:
+        meta:
+          type: has meta
+          key: betterTeamsConfirmAction
+          meta_type: STRING
+          value: 'all chest disclaim'
+    click_commands:
+    - '[sound] ENTITY_ZOMBIE_VILLAGER_CURE'
+    - '[player] team chest removeall'
+    - '[close]'

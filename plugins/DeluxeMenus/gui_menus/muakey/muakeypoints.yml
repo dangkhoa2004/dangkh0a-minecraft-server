@@ -1,0 +1,106 @@
+open_command: muakeypoints
+register_command: true
+size: 27
+menu_title: 'Mua key bằng points'
+
+items:
+
+  'filler':
+    material: GRAY_STAINED_GLASS_PANE
+    display_name: "&f"
+    damage: 1
+    slots: [0-26]
+
+  'pointkeythuong':
+    material: tripwire_hook
+    slot: 12
+    display_name: "&a&lMua key thường bằng point"
+    lore:
+      - "&aMua key thường để mở rương"
+      - ""
+      - "&fKhi mua, bạn sẽ được 1 key để mở rương"
+      - "&fNhập /warps crates để đến khu vực quay thưởng"
+      - "&fSố point của bạn là: &e%playerpoints_points%"
+      - "&8&lGiá: &f1 point"
+    click_commands:
+    - '[console] points take %player_name% 1 '
+    - '[console] crate key give %player_name% key-all_key'
+    - '[message] &fBạn đã mua thành công.'
+    - '[close]'
+    click_requirement:
+      requirements:
+        Du-Xu:
+          type: '>='
+          input: "%playerpoints_points%"
+          output: "1"
+          deny_commands:
+          - '[close]'
+          - '[sound] BLOCK_ANVIL_PLACE 1 5'
+          - '[message] &f'
+          - '[message] &8 >&f Bạn không có đủ points để'
+          - '[message] &8 >&f mua &#FFC700key!'
+          - '[message] &f'
+  'pointkeycaocap':
+    material: trial_key
+    slot: 13
+    display_name: "&a&lMua key cao cấp bằng point"
+    lore:
+      - "&aMua key cao cấp để mở rương"
+      - ""
+      - "&fKhi mua, bạn sẽ được 1 key để mở rương"
+      - "&fNhập /warps crates để đến khu vực quay thưởng"
+      - "&fSố point của bạn là: &e%playerpoints_points%"
+      - "&8&lGiá: &f5 point"
+    click_commands:
+    - '[console] points take %player_name% 5 '
+    - '[console] crate key give %player_name% mvp_key'
+    - '[message] &fBạn đã mua thành công.'
+    - '[close]'
+    click_requirement:
+      requirements:
+        Du-Xu:
+          type: '>='
+          input: "%playerpoints_points%"
+          output: "10"
+          deny_commands:
+          - '[close]'
+          - '[sound] BLOCK_ANVIL_PLACE 1 5'
+          - '[message] &f'
+          - '[message] &8 >&f Bạn không có đủ points để'
+          - '[message] &8 >&f mua &#FFC700key!'
+          - '[message] &f'
+  'pointkeyvip':
+    material: ominous_trial_key
+    slot: 14
+    display_name: "&a&lMua key vip bằng point"
+    lore:
+      - "&aMua key vip để mở rương"
+      - ""
+      - "&fKhi mua, bạn sẽ được 1 key để mở rương"
+      - "&fNhập /warps crates để đến khu vực quay thưởng"
+      - "&fSố point của bạn là: &e%playerpoints_points%"
+      - "&8&lGiá: &f10 point"
+    click_commands:
+    - '[console] points take %player_name% 10 '
+    - '[console] crate key give %player_name% titanium_key'
+    - '[message] &fBạn đã mua thành công.'
+    - '[close]'
+    click_requirement:
+      requirements:
+        Du-Xu:
+          type: '>='
+          input: "%playerpoints_points%"
+          output: "10"
+          deny_commands:
+          - '[close]'
+          - '[sound] BLOCK_ANVIL_PLACE 1 5'
+          - '[message] &f'
+          - '[message] &8 >&f Bạn không có đủ points để'
+          - '[message] &8 >&f mua &#FFC700key!'
+          - '[message] &f'   
+  'back':
+    material: barrier
+    slot: 22
+    display_name: "&c&lBACK"
+    click_commands:
+    - '[player] muakey'

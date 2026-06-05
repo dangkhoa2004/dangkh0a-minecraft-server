@@ -1,0 +1,357 @@
+pages:
+  page1:
+    gui-rows: 6
+    items:
+      REDSTONE:
+        material: REDSTONE
+        displayname: '&eBột Redstone'
+        buy: 18.0
+        sell: 32.0
+      REDSTONE_BLOCK:
+        material: REDSTONE_BLOCK
+        displayname: '&eKhối Redstone'
+        buy: 162
+        sell: 81
+      REDSTONE_TORCH:
+        material: REDSTONE_TORCH
+        displayname: '&eĐuốc Redstone'
+        buy: 20
+        sell: 10
+      REDSTONE_LAMP:
+        material: REDSTONE_LAMP
+        displayname: '&eĐèn Redstone'
+        buy: 172
+        sell: 86
+      REPEATER:
+        material: REPEATER
+        displayname: '&eBộ lặp Redstone'
+        buy: 76
+        sell: 38
+      COMPARATOR:
+        material: COMPARATOR
+        displayname: '&eMạch so sánh Redstone'
+        buy: 138
+        sell: 69
+      TARGET:
+        material: TARGET
+        displayname: '&eKhối hồng tâm'
+        buy: 252
+        sell: 126
+      LEVER:
+        material: LEVER
+        displayname: '&eCần gạt'
+        buy: 6.0
+        sell: 1.0
+      LIGHTNING_ROD:
+        material: LIGHTNING_ROD
+        displayname: '&eCột thu lôi'
+        buy: 60
+        sell: 30
+      DAYLIGHT_DETECTOR:
+        material: DAYLIGHT_DETECTOR
+        displayname: '&eCảm biến ánh sáng'
+        buy: 222
+        sell: 111
+      SCULK_SENSOR:
+        material: SCULK_SENSOR
+        displayname: '&eCảm biến Sculk'
+        buy: 400
+        sell: 200
+      CALIBRATED_SCULK_SENSOR:
+        material: CALIBRATED_SCULK_SENSOR
+        displayname: '&eCảm biến Sculk đã hiệu chỉnh'
+        buy: 520
+        sell: 260
+      TRIPWIRE_HOOK:
+        material: TRIPWIRE_HOOK
+        displayname: '&eMóc bẫy'
+        buy: 32
+        sell: 16
+      STONE_BUTTON:
+        material: STONE_BUTTON
+        displayname: '&eNút bấm đá'
+        buy: 6.0
+        sell: 6.0
+      OAK_BUTTON:
+        material: OAK_BUTTON
+        displayname: '&eNút bấm gỗ sồi'
+        buy: 4
+        sell: 2
+      SPRUCE_BUTTON:
+        material: SPRUCE_BUTTON
+        displayname: '&eNút bấm gỗ vân sam'
+        buy: 4
+        sell: 2
+      BIRCH_BUTTON:
+        material: BIRCH_BUTTON
+        displayname: '&eNút bấm gỗ bạch dương'
+        buy: 4
+        sell: 2
+      JUNGLE_BUTTON:
+        material: JUNGLE_BUTTON
+        displayname: '&eNút bấm gỗ rừng'
+        buy: 4
+        sell: 2
+      ACACIA_BUTTON:
+        material: ACACIA_BUTTON
+        displayname: '&eNút bấm gỗ xiêm gai'
+        buy: 4
+        sell: 2
+      DARK_OAK_BUTTON:
+        material: DARK_OAK_BUTTON
+        displayname: '&eNút bấm gỗ sồi sẫm'
+        buy: 4
+        sell: 2
+      MANGROVE_BUTTON:
+        material: MANGROVE_BUTTON
+        displayname: '&eNút bấm gỗ đước'
+        buy: 4
+        sell: 2
+      CHERRY_BUTTON:
+        material: CHERRY_BUTTON
+        displayname: '&eNút bấm gỗ anh đào'
+        buy: 4
+        sell: 2
+      BAMBOO_BUTTON:
+        material: BAMBOO_BUTTON
+        displayname: '&eNút bấm tre'
+        buy: 4
+        sell: 2
+      CRIMSON_BUTTON:
+        material: CRIMSON_BUTTON
+        displayname: '&eNút bấm đỏ thẫm'
+        buy: 4
+        sell: 2
+      WARPED_BUTTON:
+        material: WARPED_BUTTON
+        displayname: '&eNút bấm kì dị'
+        buy: 4
+        sell: 2
+      POLISHED_BLACKSTONE_BUTTON:
+        material: POLISHED_BLACKSTONE_BUTTON
+        displayname: '&eNút bấm đá đen'
+        buy: 8
+        sell: 4
+      STONE_PRESSURE_PLATE:
+        material: STONE_PRESSURE_PLATE
+        displayname: '&eBàn dẫm đá'
+        buy: 12
+        sell: 6
+      OAK_PRESSURE_PLATE:
+        material: OAK_PRESSURE_PLATE
+        displayname: '&eBàn dẫm gỗ sồi'
+        buy: 8
+        sell: 4
+      SPRUCE_PRESSURE_PLATE:
+        material: SPRUCE_PRESSURE_PLATE
+        displayname: '&eBàn dẫm gỗ vân sam'
+        buy: 8
+        sell: 4
+      BIRCH_PRESSURE_PLATE:
+        material: BIRCH_PRESSURE_PLATE
+        displayname: '&eBàn dẫm gỗ bạch dương'
+        buy: 8
+        sell: 4
+      JUNGLE_PRESSURE_PLATE:
+        material: JUNGLE_PRESSURE_PLATE
+        displayname: '&eBàn dẫm gỗ rừng'
+        buy: 8
+        sell: 4
+      ACACIA_PRESSURE_PLATE:
+        material: ACACIA_PRESSURE_PLATE
+        displayname: '&eBàn dẫm gỗ xiêm gai'
+        buy: 8
+        sell: 4
+      DARK_OAK_PRESSURE_PLATE:
+        material: DARK_OAK_PRESSURE_PLATE
+        displayname: '&eBàn dẫm gỗ sồi sẫm'
+        buy: 8
+        sell: 4
+      MANGROVE_PRESSURE_PLATE:
+        material: MANGROVE_PRESSURE_PLATE
+        displayname: '&eBàn dẫm gỗ đước'
+        buy: 8
+        sell: 4
+      CHERRY_PRESSURE_PLATE:
+        material: CHERRY_PRESSURE_PLATE
+        displayname: '&eBàn dẫm gỗ anh đào'
+        buy: 8
+        sell: 4
+      BAMBOO_PRESSURE_PLATE:
+        material: BAMBOO_PRESSURE_PLATE
+        displayname: '&eBàn dẫm tre'
+        buy: 8
+        sell: 4
+      CRIMSON_PRESSURE_PLATE:
+        material: CRIMSON_PRESSURE_PLATE
+        displayname: '&eBàn dẫm đỏ thẫm'
+        buy: 8
+        sell: 4
+      WARPED_PRESSURE_PLATE:
+        material: WARPED_PRESSURE_PLATE
+        displayname: '&eBàn dẫm kì dị'
+        buy: 8
+        sell: 4
+      POLISHED_BLACKSTONE_PRESSURE_PLATE:
+        material: POLISHED_BLACKSTONE_PRESSURE_PLATE
+        displayname: '&eBàn dẫm đá đen'
+        buy: 16
+        sell: 8
+      LIGHT_WEIGHTED_PRESSURE_PLATE:
+        material: LIGHT_WEIGHTED_PRESSURE_PLATE
+        displayname: '&eBàn dẫm cảm biến (Nhẹ)'
+        buy: 252
+        sell: 126
+      HEAVY_WEIGHTED_PRESSURE_PLATE:
+        material: HEAVY_WEIGHTED_PRESSURE_PLATE
+        displayname: '&eBàn dẫm cảm biến (Nặng)'
+        buy: 120
+        sell: 60
+      PISTON:
+        material: PISTON
+        displayname: '&ePiston'
+        buy: 106
+        sell: 53
+      STICKY_PISTON:
+        material: STICKY_PISTON
+        displayname: '&ePiston dính'
+        buy: 186
+        sell: 93
+      SLIME_BLOCK:
+        material: SLIME_BLOCK
+        displayname: '&eKhối chất nhờn'
+        buy: 720
+        sell: 360
+      HONEY_BLOCK:
+        material: HONEY_BLOCK
+        displayname: '&eKhối mật ong'
+        buy: 240
+        sell: 120
+  page2:
+    gui-rows: 6
+    items:
+      OBSERVER:
+        material: OBSERVER
+        displayname: '&eKhối theo dõi'
+        buy: 120
+        sell: 60
+      DISPENSER:
+        material: DISPENSER
+        displayname: '&eMáy phân phát'
+        buy: 96.0
+        sell: 58.0
+      DROPPER:
+        material: DROPPER
+        displayname: '&eMáy thả'
+        buy: 46
+        sell: 23
+      CRAFTER:
+        material: CRAFTER
+        displayname: '&eBàn chế tạo tự động'
+        buy: 398
+        sell: 199
+      HOPPER:
+        material: HOPPER
+        displayname: '&eCái phễu'
+        buy: 332
+        sell: 166
+      NOTE_BLOCK:
+        material: NOTE_BLOCK
+        displayname: '&eKhối nốt nhạc'
+        buy: 50.0
+        sell: 36.0
+      JUKEBOX:
+        material: JUKEBOX
+        displayname: '&eMáy phát nhạc'
+        buy: 432
+        sell: 216
+      TNT:
+        material: TNT
+        displayname: '&eTNT'
+        buy: 282.0
+        sell: 100.0
+      RAIL:
+        material: RAIL
+        displayname: '&eĐường ray'
+        buy: 24.0
+        sell: 22.0
+      POWERED_RAIL:
+        material: POWERED_RAIL
+        displayname: '&eĐường ray tăng tốc'
+        buy: 130
+        sell: 65
+      DETECTOR_RAIL:
+        material: DETECTOR_RAIL
+        displayname: '&eĐường ray cảm biến'
+        buy: 64
+        sell: 32
+      ACTIVATOR_RAIL:
+        material: ACTIVATOR_RAIL
+        displayname: '&eĐường ray kích hoạt'
+        buy: 64
+        sell: 32
+      MINECART:
+        material: MINECART
+        displayname: '&eXe mỏ'
+        buy: 300.0
+        sell: 23.0
+      CHEST_MINECART:
+        material: CHEST_MINECART
+        displayname: '&eXe mỏ có rương'
+        buy: 332.0
+        sell: 30.0
+      HOPPER_MINECART:
+        material: HOPPER_MINECART
+        displayname: '&eXe mỏ có phễu'
+        buy: 632
+        sell: 316
+      FURNACE_MINECART:
+        material: FURNACE_MINECART
+        displayname: '&eXe mỏ có lò nung'
+        buy: 332.0
+        sell: 32.0
+      TNT_MINECART:
+        material: TNT_MINECART
+        displayname: '&eXe mỏ có TNT'
+        buy: 582
+        sell: 291
+      COPPER_BULB:
+        material: COPPER_BULB
+        displayname: '&eBóng đèn đồng'
+        buy: 170
+        sell: 85
+      EXPOSED_COPPER_BULB:
+        material: EXPOSED_COPPER_BULB
+        displayname: '&eBóng đèn đồng phơi sương'
+        buy: 170
+        sell: 85
+      WEATHERED_COPPER_BULB:
+        material: WEATHERED_COPPER_BULB
+        displayname: '&eBóng đèn đồng phong hóa'
+        buy: 170
+        sell: 85
+      OXIDIZED_COPPER_BULB:
+        material: OXIDIZED_COPPER_BULB
+        displayname: '&eBóng đèn đồng oxy hóa'
+        buy: 170
+        sell: 85
+      WAXED_COPPER_BULB:
+        material: WAXED_COPPER_BULB
+        displayname: '&eBóng đèn đồng phủ sáp'
+        buy: 180
+        sell: 90
+      WAXED_EXPOSED_COPPER_BULB:
+        material: WAXED_EXPOSED_COPPER_BULB
+        displayname: '&eBóng đèn đồng phơi sương phủ sáp'
+        buy: 180
+        sell: 90
+      WAXED_WEATHERED_COPPER_BULB:
+        material: WAXED_WEATHERED_COPPER_BULB
+        displayname: '&eBóng đèn đồng phong hóa phủ sáp'
+        buy: 180
+        sell: 90
+      WAXED_OXIDIZED_COPPER_BULB:
+        material: WAXED_OXIDIZED_COPPER_BULB
+        displayname: '&eBóng đèn đồng oxy hóa phủ sáp'
+        buy: 180
+        sell: 90

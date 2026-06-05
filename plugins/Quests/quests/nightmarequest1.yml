@@ -1,0 +1,33 @@
+tasks:
+  riddle:
+    type: "inventory"
+    item: "COMPASS"
+    amount: 1
+    remove-items-when-complete: true
+display:
+  name: "&#A3C4F3&nɴʜɪệᴍ ᴠụ áᴄ ᴍộɴɢ:&r &#FDFD96#1"
+  lore-normal:
+  - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ ɢɪảɪ'
+  - '&#D1E8E2ᴄâᴜ đố ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+  - ''
+  - '&#FFB347◆ &#FDFD96ᴄâᴜ đố: &#D1E8E2ʙắᴄ, đôɴɢ, ɴᴀᴍ, ᴛâʏ...'
+  - '&#D1E8E2                  ᴛôɪ ɴêɴ đɪ ʜướɴɢ ɴàᴏ?'
+  - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{riddle:progress}/1'
+  - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC01x ᴍũ áᴄ ᴍộɴɢ'
+  - '&#D1E8E2&o(ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ɪᴠ, ғɪʀᴇ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ɪɪɪ, ᴜɴʙʀᴇᴀᴋɪɴɢ ɪɪɪ)'
+  - ''
+  lore-started:
+  - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "IRON_BARS"
+  itemflags:
+  - "HIDE_ATTRIBUTES"
+rewards:
+- "give {player} NETHERITE_HELMET 1 protection:4 unbreaking:3 mending:1 thorns:3 respiration:3 aqua_affinity:1 name:&#800000&l◆_&#FF0000&lNIGHTMARE_HELMET_&#800000&l◆"
+options:
+  category: "nightmare"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 2880
+  sort-order: 1

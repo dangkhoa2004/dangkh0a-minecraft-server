@@ -1,0 +1,30 @@
+tasks:
+  killing:
+    type: "mobkillingcertain"
+    amount: 250
+    mob: SLIME
+display:
+  name: "&#A3C4F3&nɴʜɪệᴍ ᴠụ ᴄʜɪếɴ đấᴜ:&r &#FDFD96#19"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏᴇᴜ ᴄầᴜ ʙạɴ ᴛɪêᴜ ᴅɪệᴛ'
+    - '&#D1E8E2ᴄáᴄ ᴍụᴄ ᴛɪêᴜ ᴄụ ᴛʜể ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜậɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴛɪêᴜ ᴅɪệᴛ 250 ᴄᴏɴ sʟɪᴍᴇ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{killing:progress}/250 ᴄᴏɴ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC064x ᴄʜᴀɪ ᴋɪɴʜ ɴɢʜɪệᴍ'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "SLIME_BALL"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "give {player} EXPERIENCE_BOTTLE 64"
+options:
+  category: "combat"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 2880
+  sort-order: 19

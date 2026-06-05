@@ -1,0 +1,30 @@
+tasks:
+  taming:
+    type: "taming"
+    amount: 900
+display:
+  item: "LEAD"
+  name: "&#A3C4F3&nʜᴜấɴ ʟᴜʏệɴ ᴠɪêɴ:&r &#FDFD96#13"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ᴛʜᴜầɴ ᴘʜụᴄ ᴛʜú'
+    - '&#D1E8E2ᴛʜᴜầɴ ᴘʜụᴄ ᴛʜú ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴛʜᴜầɴ ᴘʜụᴄ đéɴ ʟượᴛ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{taming:progress}/900 ᴄᴏɴ ᴠậᴛ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$5,800'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+rewards:
+  - "eco give {player} 5800"
+options:
+  category: "taming"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 13
+  requires:
+   - "taming12"

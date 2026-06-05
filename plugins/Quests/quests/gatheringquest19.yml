@@ -1,0 +1,31 @@
+tasks:
+  gathering:
+    type: "inventory"
+    item: "RED_TULIP"
+    amount: 64
+    remove-items-when-complete: true
+display:
+  name: "&#A3C4F3&nɴʜɪệᴍ ᴠụ ᴛʜᴜ ᴛʜậᴘ:&r &#FDFD96#19"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó'
+    - '&#D1E8E2ᴛʜᴜ ᴛʜậᴘ ᴛàɪ ɴɢᴜʏêɴ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴛʜᴜ ᴛʜậᴘ 64 ʜᴏᴀ ᴛᴜʟɪᴘ đỏ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{gathering:progress}/64 ʙó ʜᴏᴀ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0500 ᴋɪɴʜ ɴɢʜɪệᴍ'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "RED_TULIP"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "xp give {player} 500"
+options:
+  category: "gathering"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 2880
+  sort-order: 19

@@ -1,0 +1,31 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    block: ACACIA_LOG
+    amount: 48
+display:
+  name: "&#A3C4F3&nᴛɪềɴ ᴛʀạᴍ ᴄʜặᴛ ɢỗ:&r &#FDFD96#XIV"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ᴄʜặᴛ ɢỗ ᴛʀêɴ ʜàɴʜ ᴛʀɪ̀ɴʜ.'
+    - '&#D1E8E2ᴘʜá ʜủʏ ɢỗ ʙạᴄʜ đàɴ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴄʜặᴛ ɢỗ ʙạᴄʜ đàɴ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{mining:progress}/48 ᴋʜốɪ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$800'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "IRON_AXE"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 800"
+options:
+  category: "woodcutting"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 14
+  requires:
+    - "woodcutting13"

@@ -1,0 +1,185 @@
+server:
+  change-interval: 50
+  texts:
+  - "&#FFFFFF&lᴡ&#BDB2FF&lɪʙᴜʟᴀɴᴅ sᴜʀᴠɪᴠᴀʟ"
+  - "&#BDB2FF&lᴡ&#FFFFFF&lɪ&#BDB2FF&lʙᴜʟᴀɴᴅ sᴜʀᴠɪᴠᴀʟ"
+  - "&#BDB2FF&lᴡɪ&#FFFFFF&lʙ&#BDB2FF&lᴜʟᴀɴᴅ sᴜʀᴠɪᴠᴀʟ"
+  - "&#BDB2FF&lᴡɪʙ&#FFFFFF&lᴜ&#BDB2FF&lʟᴀɴᴅ sᴜʀᴠɪᴠᴀʟ"
+  - "&#BDB2FF&lᴡɪʙᴜ&#FFFFFF&lʟ&#BDB2FF&lᴀɴᴅ sᴜʀᴠɪᴠᴀʟ"
+  - "&#BDB2FF&lᴡɪʙᴜʟ&#FFFFFF&lᴀ&#BDB2FF&lɴᴅ sᴜʀᴠɪᴠᴀʟ"
+  - "&#BDB2FF&lᴡɪʙᴜʟᴀ&#FFFFFF&lɴ&#BDB2FF&lᴅ sᴜʀᴠɪᴠᴀʟ"
+  - "&#BDB2FF&lᴡɪʙᴜʟᴀɴ&#FFFFFF&lᴅ&#BDB2FF&l sᴜʀᴠɪᴠᴀʟ"
+  - "&#BDB2FF&lᴡɪʙᴜʟᴀɴᴅ &#FFFFFF&ls&#BDB2FF&lᴜʀᴠɪᴠᴀʟ"
+  - "&#BDB2FF&lᴡɪʙᴜʟᴀɴᴅ s&#FFFFFF&lᴜ&#BDB2FF&lʀᴠɪᴠᴀʟ"
+  - "&#BDB2FF&lᴡɪʙᴜʟᴀɴᴅ sᴜ&#FFFFFF&lʀ&#BDB2FF&lᴠɪᴠᴀʟ"
+  - "&#BDB2FF&lᴡɪʙᴜʟᴀɴᴅ sᴜʀ&#FFFFFF&lᴠ&#BDB2FF&lɪᴠᴀʟ"
+  - "&#BDB2FF&lᴡɪʙᴜʟᴀɴᴅ sᴜʀᴠ&#FFFFFF&lɪ&#BDB2FF&lᴠᴀʟ"
+  - "&#BDB2FF&lᴡɪʙᴜʟᴀɴᴅ sᴜʀᴠɪ&#FFFFFF&lᴠ&#BDB2FF&lᴀʟ"
+  - "&#BDB2FF&lᴡɪʙᴜʟᴀɴᴅ sᴜʀᴠɪᴠ&#FFFFFF&lᴀ&#BDB2FF&lʟ"
+  - "&#BDB2FF&lᴡɪʙᴜʟᴀɴᴅ sᴜʀᴠɪᴠᴀ&#FFFFFF&lʟ"
+  - "&#BDB2FF&lᴡɪʙᴜʟᴀɴᴅ sᴜʀᴠɪᴠᴀʟ"
+  - "&#BDB2FF&lᴡɪʙᴜʟᴀɴᴅ sᴜʀᴠɪᴠᴀʟ"
+  - "&#BDB2FF&lᴡɪʙᴜʟᴀɴᴅ sᴜʀᴠɪᴠᴀʟ"
+
+profile:
+  change-interval: 50
+  texts:
+  - "&#FFFFFF&lʏ&#AEC6CF&lᴏᴜʀ ᴘʀᴏғɪʟᴇ"
+  - "&#AEC6CF&lʏ&#FFFFFF&lᴏ&#AEC6CF&lᴜʀ ᴘʀᴏғɪʟᴇ"
+  - "&#AEC6CF&lʏᴏ&#FFFFFF&lᴜ&#AEC6CF&lʀ ᴘʀᴏғɪʟᴇ"
+  - "&#AEC6CF&lʏᴏᴜ&#FFFFFF&lʀ&#AEC6CF&l ᴘʀᴏғɪʟᴇ"
+  - "&#AEC6CF&lʏᴏᴜʀ &#FFFFFF&lᴘ&#AEC6CF&lʀᴏғɪʟᴇ"
+  - "&#AEC6CF&lʏᴏᴜʀ ᴘ&#FFFFFF&lʀ&#AEC6CF&lᴏғɪʟᴇ"
+  - "&#AEC6CF&lʏᴏᴜʀ ᴘʀ&#FFFFFF&lᴏ&#AEC6CF&lғɪʟᴇ"
+  - "&#AEC6CF&lʏᴏᴜʀ ᴘʀᴏ&#FFFFFF&lғ&#AEC6CF&lɪʟᴇ"
+  - "&#AEC6CF&lʏᴏᴜʀ ᴘʀᴏғ&#FFFFFF&lɪ&#AEC6CF&lʟᴇ"
+  - "&#AEC6CF&lʏᴏᴜʀ ᴘʀᴏғɪ&#FFFFFF&lʟ&#AEC6CF&lᴇ"
+  - "&#AEC6CF&lʏᴏᴜʀ ᴘʀᴏғɪʟ&#FFFFFF&lᴇ"
+  - "&#AEC6CF&lʏᴏᴜʀ ᴘʀᴏғɪʟᴇ"
+  - "&#AEC6CF&lʏᴏᴜʀ ᴘʀᴏғɪʟᴇ"
+
+ip:
+  change-interval: 50
+  texts:
+  - "&#FFFFFFᴘ&#BDB2FFʟᴀʏ.ᴡɪʙᴜʟᴀɴᴅ.ɪᴏ.ᴠɴ"
+  - "&#BDB2FFᴘ&#FFFFFFʟ&#BDB2FFᴀʏ.ᴡɪʙᴜʟᴀɴᴅ.ɪᴏ.ᴠɴ"
+  - "&#BDB2FFᴘʟ&#FFFFFFᴀ&#BDB2FFʏ.ᴡɪʙᴜʟᴀɴᴅ.ɪᴏ.ᴠɴ"
+  - "&#BDB2FFᴘʟᴀ&#FFFFFFʏ&#BDB2FF.ᴡɪʙᴜʟᴀɴᴅ.ɪᴏ.ᴠɴ"
+  - "&#BDB2FFᴘʟᴀʏ&#FFFFFF.&#BDB2FFᴡɪʙᴜʟᴀɴᴅ.ɪᴏ.ᴠɴ"
+  - "&#BDB2FFᴘʟᴀʏ.&#FFFFFFᴡ&#BDB2FFɪʙᴜʟᴀɴᴅ.ɪᴏ.ᴠɴ"
+  - "&#BDB2FFᴘʟᴀʏ.ᴡ&#FFFFFFɪ&#BDB2FFʙᴜʟᴀɴᴅ.ɪᴏ.ᴠɴ"
+  - "&#BDB2FFᴘʟᴀʏ.ᴡɪ&#FFFFFFʙ&#BDB2FFᴜʟᴀɴᴅ.ɪᴏ.ᴠɴ"
+  - "&#BDB2FFᴘʟᴀʏ.ᴡɪʙ&#FFFFFFᴜ&#BDB2FFʟᴀɴᴅ.ɪᴏ.ᴠɴ"
+  - "&#BDB2FFᴘʟᴀʏ.ᴡɪʙᴜ&#FFFFFFʟ&#BDB2FFᴀɴᴅ.ɪᴏ.ᴠɴ"
+  - "&#BDB2FFᴘʟᴀʏ.ᴡɪʙᴜʟ&#FFFFFFᴀ&#BDB2FFɴᴅ.ɪᴏ.ᴠɴ"
+  - "&#BDB2FFᴘʟᴀʏ.ᴡɪʙᴜʟᴀ&#FFFFFFɴ&#BDB2FFᴅ.ɪᴏ.ᴠɴ"
+  - "&#BDB2FFᴘʟᴀʏ.ᴡɪʙᴜʟᴀɴ&#FFFFFFᴅ&#BDB2FF.ɪᴏ.ᴠɴ"
+  - "&#BDB2FFᴘʟᴀʏ.ᴡɪʙᴜʟᴀɴᴅ&#FFFFFF.&#BDB2FFɪᴏ.ᴠɴ"
+  - "&#BDB2FFᴘʟᴀʏ.ᴡɪʙᴜʟᴀɴᴅ.&#FFFFFFɪ&#BDB2FFᴏ.ᴠɴ"
+  - "&#BDB2FFᴘʟᴀʏ.ᴡɪʙᴜʟᴀɴᴅ.ɪ&#FFFFFFᴏ&#BDB2FF.ᴠɴ"
+  - "&#BDB2FFᴘʟᴀʏ.ᴡɪʙᴜʟᴀɴᴅ.ɪᴏ&#FFFFFF.&#BDB2FFᴠɴ"
+  - "&#BDB2FFᴘʟᴀʏ.ᴡɪʙᴜʟᴀɴᴅ.ɪᴏ.&#FFFFFFᴠ&#BDB2FFɴ"
+  - "&#BDB2FFᴘʟᴀʏ.ᴡɪʙᴜʟᴀɴᴅ.ɪᴏ.ᴠ&#FFFFFFɴ"
+  - "&#BDB2FFᴘʟᴀʏ.ᴡɪʙᴜʟᴀɴᴅ.ɪᴏ.ᴠɴ"
+  - "&#BDB2FFᴘʟᴀʏ.ᴡɪʙᴜʟᴀɴᴅ.ɪᴏ.ᴠɴ"
+  - "&#BDB2FFᴘʟᴀʏ.ᴡɪʙᴜʟᴀɴᴅ.ɪᴏ.ᴠɴ"
+
+info:
+  change-interval: 50
+  texts:
+  - "&#FFFFFF&ls&#FCD05C&lᴇʀᴠᴇʀ ɪɴғᴏ"
+  - "&#FCD05C&ls&#FFFFFF&lᴇ&#FCD05C&lʀᴠᴇʀ ɪɴғᴏ"
+  - "&#FCD05C&lsᴇ&#FFFFFF&lʀ&#FCD05C&lᴠᴇʀ ɪɴғᴏ"
+  - "&#FCD05C&lsᴇʀ&#FFFFFF&lᴠ&#FCD05C&lᴇʀ ɪɴғᴏ"
+  - "&#FCD05C&lsᴇʀᴠ&#FFFFFF&lᴇ&#FCD05C&lʀ ɪɴғᴏ"
+  - "&#FCD05C&lsᴇʀᴠᴇ&#FFFFFF&lʀ&#FCD05C&l ɪɴғᴏ"
+  - "&#FCD05C&lsᴇʀᴠᴇʀ &#FFFFFF&lɪ&#FCD05C&lɴғᴏ"
+  - "&#FCD05C&lsᴇʀᴠᴇʀ ɪ&#FFFFFF&lɴ&#FCD05C&lғᴏ"
+  - "&#FCD05C&lsᴇʀᴠᴇʀ ɪɴ&#FFFFFF&lғ&#FCD05C&lᴏ"
+  - "&#FCD05C&lsᴇʀᴠᴇʀ ɪɴғ&#FFFFFF&lᴏ"
+  - "&#FCD05C&lsᴇʀᴠᴇʀ ɪɴғᴏ"
+  - "&#FCD05C&lsᴇʀᴠᴇʀ ɪɴғᴏ"
+
+owner:
+  change-interval: 100
+  texts:
+  - "&#FFB7B2&lᴏ&#ED4245&lᴡɴᴇʀ"
+  - "&#ED4245&lᴏ&#FFB7B2&lᴡ&#ED4245&lɴᴇʀ"
+  - "&#ED4245&lᴏᴡ&#FFB7B2&lɴ&#ED4245&lᴇʀ"
+  - "&#ED4245&lᴏᴡɴ&#FFB7B2&lᴇ&#ED4245&lʀ"
+  - "&#ED4245&lᴏᴡɴᴇ&#FFB7B2&lʀ"
+  - "&#ED4245&lᴏᴡɴᴇʀ"
+  - "&#ED4245&lᴏᴡɴᴇʀ"
+
+dev:
+  change-interval: 150
+  texts:
+  - "&#FFB7B2&lᴅ&#ED4245&lᴇᴠ"
+  - "&#ED4245&lᴅ&#FFB7B2&lᴇ&#ED4245&lᴠ"
+  - "&#ED4245&lᴅᴇ&#FFB7B2&lᴠ"
+  - "&#ED4245&lᴅᴇᴠ"
+  - "&#ED4245&lᴅᴇᴠ"
+
+admin:
+  change-interval: 100
+  texts:
+  - "&#FFB7B2&lᴀ&#ED4245&lᴅᴍɪɴ"
+  - "&#ED4245&lᴀ&#FFB7B2&lᴅ&#ED4245&lᴍɪɴ"
+  - "&#ED4245&lᴀᴅ&#FFB7B2&lᴍ&#ED4245&lɪɴ"
+  - "&#ED4245&lᴀᴅᴍ&#FFB7B2&lɪ&#ED4245&lɴ"
+  - "&#ED4245&lᴀᴅᴍɪ&#FFB7B2&lɴ"
+  - "&#ED4245&lᴀᴅᴍɪɴ"
+  - "&#ED4245&lᴀᴅᴍɪɴ"
+
+mod:
+  change-interval: 150
+  texts:
+  - "&#FFF5A5&lᴍ&#FCD05C&lᴏᴅ"
+  - "&#FCD05C&lᴍ&#FFF5A5&lᴏ&#FCD05C&lᴅ"
+  - "&#FCD05C&lᴍᴏ&#FFF5A5&lᴅ"
+  - "&#FCD05C&lᴍᴏᴅ"
+  - "&#FCD05C&lᴍᴏᴅ"
+
+helper:
+  change-interval: 100
+  texts:
+  - "&#B9FBC0&lʜ&#57F287&lᴇʟᴘᴇʀ"
+  - "&#57F287&lʜ&#B9FBC0&lᴇ&#57F287&lʟᴘᴇʀ"
+  - "&#57F287&lʜᴇ&#B9FBC0&lʟ&#57F287&lᴘᴇʀ"
+  - "&#57F287&lʜᴇʟ&#B9FBC0&lᴘ&#57F287&lᴇʀ"
+  - "&#57F287&lʜᴇʟᴘ&#B9FBC0&lᴇ&#57F287&lʀ"
+  - "&#57F287&lʜᴇʟᴘᴇ&#B9FBC0&lʀ"
+  - "&#57F287&lʜᴇʟᴘᴇʀ"
+  - "&#57F287&lʜᴇʟᴘᴇʀ"
+
+Labels:
+  change-interval: 6400
+  texts:
+  - "&#FCD05C&nWEBSITE &8● &#E0E0E0DISCORD"
+  - "&#E0E0E0WEBSITE &8● &#BDB2FF&nDISCORD"
+
+InfoText:
+  change-interval: 6400
+  texts:
+  - " &#E0E0E0Hãy ủng hộ máy chủ bằng cách mua Rank và Xu tại &#FCD05C&lCỬA HÀNG&#E0E0E0!\ 
+
+    \ &#E0E0E0Nhận ngay các đặc quyền và vật phẩm độc quyền cực xịn."
+  - " &#E0E0E0Tham gia cộng đồng &#BDB2FF&lDISCORD &#E0E0E0ngay hôm nay!\ 
+
+    \ &#E0E0E0Nơi giao lưu, kết bạn và cùng nhau xây dựng thế lực vững mạnh."
+
+ProgressBar:
+  change-interval: 400
+  texts:
+  - "&#e30ea4□□□□□□□□□□□□□□□"
+  - "&#e30ea4■□□□□□□□□□□□□□□"
+  - "#e30ea4■■□□□□□□□□□□□□□"
+  - "#e30ea4■■■□□□□□□□□□□□□"
+  - "#e30ea4■■■■□□□□□□□□□□□"
+  - "#e30ea4■■■■■□□□□□□□□□□"
+  - "#e30ea4■■■■■■□□□□□□□□□"
+  - "#e30ea4■■■■■■■□□□□□□□□"
+  - "#e30ea4■■■■■■■■□□□□□□□"
+  - "#e30ea4■■■■■■■■■□□□□□□"
+  - "#e30ea4■■■■■■■■■■□□□□□"
+  - "#e30ea4■■■■■■■■■■■□□□□"
+  - "#e30ea4■■■■■■■■■■■■□□□"
+  - "#e30ea4■■■■■■■■■■■■■□□"
+  - "#e30ea4■■■■■■■■■■■■■■□"
+  - "#e30ea4■■■■■■■■■■■■■■■"
+  - "&#22dcdc□□□□□□□□□□□□□□□"
+  - "&#22dcdc■□□□□□□□□□□□□□□"
+  - "&#22dcdc■■□□□□□□□□□□□□□"
+  - "&#22dcdc■■■□□□□□□□□□□□□"
+  - "&#22dcdc■■■■□□□□□□□□□□□"
+  - "&#22dcdc■■■■■□□□□□□□□□□"
+  - "&#22dcdc■■■■■■□□□□□□□□□"
+  - "&#22dcdc■■■■■■■□□□□□□□□"
+  - "&#22dcdc■■■■■■■■□□□□□□□"
+  - "&#22dcdc■■■■■■■■■□□□□□□"
+  - "&#22dcdc■■■■■■■■■■□□□□□"
+  - "&#22dcdc■■■■■■■■■■■□□□□"
+  - "&#22dcdc■■■■■■■■■■■■□□□"
+  - "&#22dcdc■■■■■■■■■■■■■□□"
+  - "&#22dcdc■■■■■■■■■■■■■■□"
+  - "&#22dcdc■■■■■■■■■■■■■■■"

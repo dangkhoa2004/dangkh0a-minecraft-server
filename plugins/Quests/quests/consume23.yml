@@ -1,0 +1,31 @@
+tasks:
+  consume:
+    type: "consume"
+    item: RAW_BEEF
+    amount: 16
+display:
+  name: "&#A3C4F3&nɴʜɪệᴍ ᴠụ ᴛɪêᴜ ᴛʜụ:&r &#FDFD96#23"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó'
+    - '&#D1E8E2ᴛɪêᴜ ᴛʜụ ᴠậᴛ ᴘʜẩᴍ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ăɴ 16 ᴛʜịᴛ ʙò ꜱốɴɢ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{consume:progress}/16 ᴛʜịᴛ ʙò.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$450'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "RAW_BEEF"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 450"
+options:
+  category: "consume"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 23
+  requires:
+   - "consume22"

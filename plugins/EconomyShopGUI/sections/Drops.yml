@@ -1,0 +1,29 @@
+# ###########################
+#
+# ITSMYSTUDIO - A configuration for EconomyShopGui
+# https://itsmy.studio/discord
+#
+# ###########################
+enable: true
+slot: 16
+title: Chiến lợi phẩm
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: BONE
+  lore:
+  - '&8Xem trước danh mục'
+  - '#63dfd5 ▪ &fMũi tên'
+  - '#63dfd5 ▪ &fXương'
+  - '#63dfd5 ▪ &fSợi chỉ'
+  - '#63dfd5 ▪ &fLông'
+  - '#63dfd5 ▪ &fQue lửa'
+  - '#f48ce2 ▪ &fvà 5 thêm...'
+  - ''
+  - '&7◆ #f48ce2Nhấn: &fMở'
+  name: '#63dfd5Chiến lợi phẩm'

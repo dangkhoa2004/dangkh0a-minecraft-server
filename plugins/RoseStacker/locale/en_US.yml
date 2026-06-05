@@ -1,0 +1,223 @@
+# Plugin Message Prefix
+prefix: '&x&F&2&7&1&2&1[&x&E&9&4&0&5&7R&x&8&A&2&3&8&7oseStacker&x&F&2&7&1&2&1] '
+
+# Stack Display Tags
+entity-stack-display: '&x&E&D&4&2&4&5%amount%x &x&A&A&A&A&A&A%name%'
+entity-stack-display-custom-name: '%name% &x&A&A&A&A&A&A[&x&E&D&4&2&4&5%amount%x&x&A&A&A&A&A&A]'
+entity-stack-display-spawn-egg: '&x&E&D&4&2&4&5%amount%x &x&A&A&A&A&A&Aᴛʀứɴɢ ѕɪɴʜ ѕảɴ %name%'
+item-stack-display: '&x&E&D&4&2&4&5%amount%x &x&A&A&A&A&A&A%name%'
+item-stack-display-single: '&x&A&A&A&A&A&A%name%'
+block-stack-display: '&x&E&D&4&2&4&5%amount%x &x&A&A&A&A&A&A%name%'
+spawner-stack-display: '&x&E&D&4&2&4&5%amount%x &x&A&A&A&A&A&A%name%'
+spawner-stack-display-single: '&x&A&A&A&A&A&A%name%'
+
+# Hologram Display Tags
+# Available spawner placeholders: %name%, %amount%, %max_amount%, %time_remaining%, %ticks_remaining%, %total_spawned%
+# Multiple lines are supported
+block-hologram-display:
+  - '&x&E&D&4&2&4&5%amount%x &x&A&A&A&A&A&A%name%'
+spawner-hologram-display:
+  - '&x&E&D&4&2&4&5%amount%x &x&A&A&A&A&A&A%name%'
+spawner-hologram-display-single:
+  - '&x&A&A&A&A&A&A%name%'
+spawner-hologram-display-empty:
+  - '&x&E&D&4&2&4&5%amount%x &x&A&A&A&A&A&A%name%'
+spawner-hologram-display-empty-single:
+  - '&x&A&A&A&A&A&A%name%'
+
+# Base Command Message
+base-command-color: '&x&F&F&D&7&0&0'
+base-command-help: '&x&F&F&D&7&0&0ᴅùɴɢ &x&B&D&B&2&F&F/%cmd% help &x&F&F&D&7&0&0để xᴇᴍ ᴛʜôɴɢ ᴛɪɴ ʟệɴʜ.'
+
+# Help Command
+command-help-description: 'ʜɪểɴ ᴛʜị ᴍᴇɴᴜ ᴛʀợ ɢɪúᴘ...'
+command-help-title: '&x&F&F&D&7&0&0ᴄáᴄ ʟệɴʜ ᴄó ѕẵɴ:'
+command-help-list-description: '&x&A&A&A&A&A&A - &x&E&D&4&2&4&5/%cmd% %subcmd% %args% &x&A&A&A&A&A&A- %desc%'
+command-help-list-description-no-args: '&x&A&A&A&A&A&A - &x&E&D&4&2&4&5/%cmd% %subcmd% &x&A&A&A&A&A&A- %desc%'
+
+# Reload Command
+command-reload-description: 'ᴛảɪ ʟạɪ ᴘʟᴜɢɪɴ'
+command-reload-reloaded: '&x&F&F&D&7&0&0ᴅữ ʟɪệᴜ ᴘʟᴜɢɪɴ, ᴄấᴜ ʜìɴʜ ᴠà ɴɢôɴ ɴɢữ đã đượᴄ ᴛảɪ ʟạɪ.'
+
+# Give Command
+command-give-description: 'ᴄấᴘ ᴠậᴛ ᴘʜẩᴍ đã ᴄộɴɢ ᴅồɴ'
+command-give-usage: '&x&E&D&4&2&4&5ᴄú ᴘʜáᴘ: &x&F&F&D&7&0&0/rs give <block|spawner|entity> <người_chơi> <loại> [kích_thước] [số_lượng]'
+command-give-given: '&x&F&F&D&7&0&0đã đưᴀ ᴄʜᴏ &x&B&D&B&2&F&F%player% &x&F&F&D&7&0&0[%display%&x&F&F&D&7&0&0].'
+command-give-given-multiple: '&x&F&F&D&7&0&0đã đưᴀ ᴄʜᴏ &x&B&D&B&2&F&F%player% &x&F&F&D&7&0&0%amount%x [%display%&x&F&F&D&7&0&0].'
+command-give-unstackable: '&x&E&D&4&2&4&5ʟᴏạɪ ᴠậᴛ ᴘʜẩᴍ ʙạɴ ᴄʜọɴ ᴋʜôɴɢ ᴛʜể ᴄộɴɢ ᴅồɴ.'
+command-give-too-large: '&x&E&D&4&2&4&5ѕố ʟượɴɢ ʙạɴ ᴄʜọɴ ᴠượᴛ ǫᴜá ɢɪớɪ ʜạɴ ᴄộɴɢ ᴅồɴ ᴛốɪ đᴀ.'
+
+# Clearall Command
+command-clearall-description: 'xóᴀ ᴛᴏàɴ ʙộ ᴍộᴛ ʟᴏạɪ ᴄộɴɢ ᴅồɴ'
+command-clearall-killed-entities: '&x&F&F&D&7&0&0đã xóᴀ &x&B&D&B&2&F&F%amount% &x&F&F&D&7&0&0ѕᴛᴀᴄᴋ ᴛʜựᴄ ᴛʜể.'
+command-clearall-killed-items: '&x&F&F&D&7&0&0đã xóᴀ &x&B&D&B&2&F&F%amount% &x&F&F&D&7&0&0ѕᴛᴀᴄᴋ ᴠậᴛ ᴘʜẩᴍ.'
+command-clearall-killed-all: '&x&F&F&D&7&0&0đã xóᴀ &x&B&D&B&2&F&F%entityAmount% &x&F&F&D&7&0&0ѕᴛᴀᴄᴋ ᴛʜựᴄ ᴛʜể ᴠà &x&B&D&B&2&F&F%itemAmount% &x&F&F&D&7&0&0ѕᴛᴀᴄᴋ ᴠậᴛ ᴘʜẩᴍ.'
+
+# Stats Command
+command-stats-description: 'ʜɪểɴ ᴛʜị ᴛʜốɴɢ ᴋê ᴄủᴀ ᴘʟᴜɢɪɴ'
+command-stats-header: '&x&5&7&F&2&8&7ᴛʜốɴɢ ᴋê ᴘʟᴜɢɪɴ ʜɪệɴ ᴛạɪ:'
+command-stats-threads: '&x&B&D&B&2&F&F%amount% &x&F&F&D&7&0&0ʟᴜồɴɢ ᴄộɴɢ ᴅồɴ đᴀɴɢ ʜᴏạᴛ độɴɢ.'
+command-stats-stacked-entities: '&x&B&D&B&2&F&F%stackAmount% &x&F&F&D&7&0&0ѕᴛᴀᴄᴋ ᴛʜựᴄ ᴛʜể đượᴄ ᴛảɪ, ᴛổɴɢ ᴄộɴɢ &x&B&D&B&2&F&F%total% &x&F&F&D&7&0&0ᴛʜựᴄ ᴛʜể.'
+command-stats-stacked-items: '&x&B&D&B&2&F&F%stackAmount% &x&F&F&D&7&0&0ѕᴛᴀᴄᴋ ᴠậᴛ ᴘʜẩᴍ đượᴄ ᴛảɪ, ᴛổɴɢ ᴄộɴɢ &x&B&D&B&2&F&F%total% &x&F&F&D&7&0&0ᴠậᴛ ᴘʜẩᴍ.'
+command-stats-stacked-blocks: '&x&B&D&B&2&F&F%stackAmount% &x&F&F&D&7&0&0ѕᴛᴀᴄᴋ ᴋʜốɪ ʙʟᴏᴄᴋ đượᴄ ᴛảɪ, ᴛổɴɢ ᴄộɴɢ &x&B&D&B&2&F&F%total% &x&F&F&D&7&0&0ᴋʜốɪ.'
+command-stats-stacked-spawners: '&x&B&D&B&2&F&F%stackAmount% &x&F&F&D&7&0&0ѕᴛᴀᴄᴋ ѕᴘᴀᴡɴᴇʀ đượᴄ ᴛảɪ, ᴛổɴɢ ᴄộɴɢ &x&B&D&B&2&F&F%total% &x&F&F&D&7&0&0ѕᴘᴀᴡɴᴇʀ.'
+command-stats-active-tasks: '&x&B&D&B&2&F&F%amount% &x&F&F&D&7&0&0ᴛáᴄ ᴠụ đᴀɴɢ ʜᴏạᴛ độɴɢ.'
+
+# Translate Command
+command-translate-description: 'ᴅịᴄʜ ᴛêɴ ᴄáᴄ ѕᴛᴀᴄᴋ'
+command-translate-loading: '&x&F&F&D&7&0&0đᴀɴɢ ᴛảɪ ᴠà áᴘ ᴅụɴɢ ᴅữ ʟɪệᴜ ᴅịᴄʜ ᴛʜᴜậᴛ, ᴠᴜɪ ʟòɴɢ đợɪ...'
+command-translate-failure: '&x&E&D&4&2&4&5ᴋʜôɴɢ ᴛʜể ᴅịᴄʜ ᴛêɴ ѕᴛᴀᴄᴋ. đã ᴄó ʟỗɪ xảʏ ʀᴀ ᴋʜɪ ᴛảɪ ᴅữ ʟɪệᴜ ɴɢôɴ ɴɢữ. ᴠᴜɪ ʟòɴɢ ᴛʜử ʟạɪ ѕᴀᴜ.'
+command-translate-invalid-locale: '&x&E&D&4&2&4&5ᴋʜôɴɢ ᴛʜể ᴅịᴄʜ ᴛêɴ ѕᴛᴀᴄᴋ. ᴍã ɴɢôɴ ɴɢữ ʙạɴ ɴʜậᴘ ᴋʜôɴɢ ʜợᴘ ʟệ.'
+command-translate-spawner-format: '&x&F&F&D&7&0&0ᴛêɴ ѕᴘᴀᴡɴᴇʀ ᴋʜôɴɢ ᴛʜể ᴅịᴄʜ ᴄʜíɴʜ xáᴄ. để ѕửᴀ ʟỗɪ ɴàʏ, ʙạɴ ᴄó ᴛʜể ᴅùɴɢ &x&B&D&B&2&F&F/rs translate en_us &x&5&8&6&5&F&2ʟồɴɢ ѕɪɴʜ ѕảɴ {} &x&F&F&D&7&0&0để ѕᴘᴀᴡɴᴇʀ ʜɪểɴ ᴛʜị ᴛʜàɴʜ "ʟồɴɢ ѕɪɴʜ ѕảɴ ʙò". ѕử ᴅụɴɢ &x&B&D&B&2&F&F{} &x&F&F&D&7&0&0ʟàᴍ ʙɪếɴ ᴄʜᴏ ᴛêɴ ǫᴜáɪ ᴠậᴛ.'
+command-translate-spawner-format-invalid: '&x&E&D&4&2&4&5địɴʜ ᴅạɴɢ ѕᴘᴀᴡɴᴇʀ ʙạɴ ᴄᴜɴɢ ᴄấᴘ ᴋʜôɴɢ ʜợᴘ ʟệ. ɴó ᴘʜảɪ ᴄʜứᴀ &x&B&D&B&2&F&F{} &x&E&D&4&2&4&5ᴄʜᴏ ᴠị ᴛʀí ᴛêɴ ǫᴜáɪ ᴠậᴛ.'
+command-translate-success: '&x&5&7&F&2&8&7đã ᴅịᴄʜ ᴛʜàɴʜ ᴄôɴɢ ᴛêɴ ᴄáᴄ ѕᴛᴀᴄᴋ.'
+
+# Stacking Tool Command
+command-stacktool-description: 'ᴄấᴘ ᴄʜᴏ ɴɢườɪ ᴄʜơɪ ᴄôɴɢ ᴄụ ᴄộɴɢ ᴅồɴ'
+command-stacktool-given: '&x&F&F&D&7&0&0ʙạɴ đã ɴʜậɴ đượᴄ ᴄôɴɢ ᴄụ ᴄộɴɢ ᴅồɴ.'
+command-stacktool-given-other: '&x&B&D&B&2&F&F%player% &x&5&7&F&2&8&7đã ɴʜậɴ đượᴄ ᴄôɴɢ ᴄụ ᴄộɴɢ ᴅồɴ.'
+command-stacktool-no-console: '&x&E&D&4&2&4&5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴄấᴘ ᴄôɴɢ ᴄụ ᴄộɴɢ ᴅồɴ ᴄʜᴏ ᴄᴏɴѕᴏʟᴇ.'
+command-stacktool-no-permission: '&x&E&D&4&2&4&5ʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ѕử ᴅụɴɢ ᴄôɴɢ ᴄụ ᴄộɴɢ ᴅồɴ.'
+command-stacktool-invalid-entity: '&x&E&D&4&2&4&5ᴛʜựᴄ ᴛʜể đó ᴋʜôɴɢ ɴằᴍ ᴛʀᴏɴɢ ѕᴛᴀᴄᴋ, đâʏ ᴄó ᴘʜảɪ ʟà ǫᴜáɪ ᴠậᴛ ᴄᴜѕᴛᴏᴍ ᴋʜôɴɢ?'
+command-stacktool-marked-unstackable: '&x&F&F&D&7&0&0&x&B&D&B&2&F&F%type% &x&F&F&D&7&0&0đã đượᴄ đáɴʜ ᴅấᴜ ʟà &x&E&D&4&2&4&5ᴋʜôɴɢ ᴛʜể ᴄộɴɢ ᴅồɴ&x&F&F&D&7&0&0.'
+command-stacktool-marked-stackable: '&x&F&F&D&7&0&0&x&B&D&B&2&F&F%type% &x&F&F&D&7&0&0đã đượᴄ đáɴʜ ᴅấᴜ ʟà &x&5&7&F&2&8&7ᴄó ᴛʜể ᴄộɴɢ ᴅồɴ&x&F&F&D&7&0&0.'
+command-stacktool-marked-all-unstackable: '&x&F&F&D&7&0&0ᴛᴏàɴ ʙộ ѕᴛᴀᴄᴋ &x&B&D&B&2&F&F%type% &x&F&F&D&7&0&0đã đượᴄ đáɴʜ ᴅấᴜ ʟà &x&E&D&4&2&4&5ᴋʜôɴɢ ᴛʜể ᴄộɴɢ ᴅồɴ&x&F&F&D&7&0&0.'
+command-stacktool-select-1: '&x&F&F&D&7&0&0&x&B&D&B&2&F&F%type% &x&F&F&D&7&0&0đã đượᴄ ᴄʜọɴ ʟàᴍ ᴛʜựᴄ ᴛʜể #1. ʜãʏ ᴄʜọɴ ᴛʜựᴄ ᴛʜể ᴋʜáᴄ để ᴋɪểᴍ ᴛʀᴀ xᴇᴍ ᴄʜúɴɢ ᴄó ᴛʜể ᴄộɴɢ ᴅồɴ ᴋʜôɴɢ.'
+command-stacktool-unselect-1: '&x&F&F&D&7&0&0&x&B&D&B&2&F&F%type% &x&F&F&D&7&0&0đã ʙị ʜủʏ ᴄʜọɴ.'
+command-stacktool-select-2: '&x&F&F&D&7&0&0&x&B&D&B&2&F&F%type% &x&F&F&D&7&0&0đã đượᴄ ᴄʜọɴ ʟàᴍ ᴛʜựᴄ ᴛʜể #2.'
+command-stacktool-can-stack: '&x&5&7&F&2&8&7ᴛʜựᴄ ᴛʜể #1 ᴄó ᴛʜể ᴄộɴɢ ᴅồɴ ᴠớɪ ᴛʜựᴄ ᴛʜể #2.'
+command-stacktool-can-not-stack: '&x&E&D&4&2&4&5ᴛʜựᴄ ᴛʜể #1 ᴋʜôɴɢ ᴛʜể ᴄộɴɢ ᴅồɴ ᴠớɪ ᴛʜựᴄ ᴛʜể #2. ʟý ᴅᴏ: &x&B&D&B&2&F&F%reason%'
+command-stacktool-info: '&x&F&F&D&7&0&0ᴛʜôɴɢ ᴛɪɴ ѕᴛᴀᴄᴋ:'
+command-stacktool-info-uuid: '&x&F&F&D&7&0&0ᴜᴜɪᴅ: &x&B&D&B&2&F&F%uuid%'
+command-stacktool-info-entity-id: '&x&F&F&D&7&0&0ɪᴅ ᴛʜựᴄ ᴛʜể: &x&B&D&B&2&F&F%id%'
+command-stacktool-info-custom-name: '&x&F&F&D&7&0&0ᴛêɴ ᴄᴜѕᴛᴏᴍ: &r%name%'
+command-stacktool-info-location: '&x&F&F&D&7&0&0ᴠị ᴛʀí: x: &x&B&D&B&2&F&F%x% &x&F&F&D&7&0&0ʏ: &x&B&D&B&2&F&F%y% &x&F&F&D&7&0&0ᴢ: &x&B&D&B&2&F&F%z% &x&F&F&D&7&0&0ᴛʜế ɢɪớɪ: &x&B&D&B&2&F&F%world%'
+command-stacktool-info-chunk: '&x&F&F&D&7&0&0ᴄʜᴜɴᴋ: &x&B&D&B&2&F&F%x%&x&F&F&D&7&0&0, &x&B&D&B&2&F&F%z%'
+command-stacktool-info-true: '&x&5&7&F&2&8&7ᴄó'
+command-stacktool-info-false: '&x&E&D&4&2&4&5ᴋʜôɴɢ'
+command-stacktool-info-entity-type: '&x&F&F&D&7&0&0ʟᴏạɪ ᴛʜựᴄ ᴛʜể: &x&B&D&B&2&F&F%type%'
+command-stacktool-info-entity-stackable: '&x&F&F&D&7&0&0ᴄộɴɢ ᴅồɴ: %value%'
+command-stacktool-info-entity-has-ai: '&x&F&F&D&7&0&0ᴄó ᴀɪ: %value%'
+command-stacktool-info-entity-from-spawner: '&x&F&F&D&7&0&0ᴛừ ѕᴘᴀᴡɴᴇʀ: %value%'
+command-stacktool-info-item-type: '&x&F&F&D&7&0&0ʟᴏạɪ ᴠậᴛ ᴘʜẩᴍ: &x&B&D&B&2&F&F%type%'
+command-stacktool-info-block-type: '&x&F&F&D&7&0&0ʟᴏạɪ ʙʟᴏᴄᴋ: &x&B&D&B&2&F&F%type%'
+command-stacktool-info-spawner-type: '&x&F&F&D&7&0&0ʟᴏạɪ ѕᴘᴀᴡɴᴇʀ: &x&B&D&B&2&F&F%type%'
+command-stacktool-info-stack-size: '&x&F&F&D&7&0&0ᴋíᴄʜ ᴛʜướᴄ ѕᴛᴀᴄᴋ: &x&B&D&B&2&F&F%amount%'
+command-stacktool-info-data-storage-type: '&x&F&F&D&7&0&0ʟᴏạɪ ʟưᴜ ᴛʀữ ᴅữ ʟɪệᴜ: &x&B&D&B&2&F&F%type%'
+
+# Stacked Block GUI
+gui-stacked-block-title: '&lđᴀɴɢ ᴄʜỉɴʜ ѕửᴀ ѕᴛᴀᴄᴋ %name%'
+gui-stacked-block-page-back:
+  - '&x&F&F&D&7&0&0ᴛʀᴀɴɢ ᴛʀướᴄ (%previousPage%/%maxPage%)'
+gui-stacked-block-page-forward:
+  - '&x&F&F&D&7&0&0ᴛʀᴀɴɢ ᴛɪếᴘ (%nextPage%/%maxPage%)'
+gui-stacked-block-destroy:
+  - '&x&E&D&4&2&4&5&lᴘʜá ʜủʏ ѕᴛᴀᴄᴋ'
+  - '&x&F&F&D&7&0&0ᴘʜá ʜủʏ ѕᴛᴀᴄᴋ ᴠà ʀớᴛ ʀᴀ ᴠậᴛ ᴘʜẩᴍ'
+gui-stacked-block-destroy-title: '&lᴘʜá ʜủʏ ѕᴛᴀᴄᴋ ʙʟᴏᴄᴋ?'
+gui-stacked-block-destroy-confirm:
+  - '&x&5&7&F&2&8&7&lxáᴄ ɴʜậɴ'
+  - '&x&F&F&D&7&0&0ᴄó, ᴘʜá ʜủʏ ѕᴛᴀᴄᴋ ɴàʏ'
+gui-stacked-block-destroy-cancel:
+  - '&x&E&D&4&2&4&5&lʜủʏ ʙỏ'
+  - '&x&F&F&D&7&0&0ᴋʜôɴɢ, ǫᴜᴀʏ ʟạɪ ᴍàɴ ʜìɴʜ ᴛʀướᴄ'
+
+# Stacked Spawner GUI
+gui-stacked-spawner-title: '&lđᴀɴɢ xᴇᴍ %name%'
+gui-stacked-spawner-stats: '&x&F&F&B&7&B&2&lᴛʜốɴɢ ᴋê ѕᴘᴀᴡɴᴇʀ'
+gui-stacked-spawner-min-spawn-delay: '&x&F&F&D&7&0&0độ ᴛʀễ ѕɪɴʜ ѕảɴ ᴛốɪ ᴛʜɪểᴜ: &x&B&D&B&2&F&F%delay%'
+gui-stacked-spawner-max-spawn-delay: '&x&F&F&D&7&0&0độ ᴛʀễ ѕɪɴʜ ѕảɴ ᴛốɪ đᴀ: &x&B&D&B&2&F&F%delay%'
+gui-stacked-spawner-disabled-mob-ai: '&x&F&F&D&7&0&0ᴛắᴛ ᴀɪ ǫᴜáɪ ᴠậᴛ: &x&B&D&B&2&F&F%disabled%'
+gui-stacked-spawner-entity-search-range: '&x&F&F&D&7&0&0ᴘʜạᴍ ᴠɪ ᴛìᴍ ᴋɪếᴍ ᴛʜựᴄ ᴛʜể: &x&B&D&B&2&F&F%range%'
+gui-stacked-spawner-player-activation-range: '&x&F&F&D&7&0&0ᴘʜạᴍ ᴠɪ ᴋíᴄʜ ʜᴏạᴛ ɴɢườɪ ᴄʜơɪ: &x&B&D&B&2&F&F%range%'
+gui-stacked-spawner-spawn-range: '&x&F&F&D&7&0&0ᴘʜạᴍ ᴠɪ ѕɪɴʜ ѕảɴ: &x&B&D&B&2&F&F%range%'
+gui-stacked-spawner-min-spawn-amount: '&x&F&F&D&7&0&0ѕố ʟượɴɢ ѕɪɴʜ ѕảɴ ᴛốɪ ᴛʜɪểᴜ: &x&B&D&B&2&F&F%amount%'
+gui-stacked-spawner-max-spawn-amount: '&x&F&F&D&7&0&0ѕố ʟượɴɢ ѕɪɴʜ ѕảɴ ᴛốɪ đᴀ: &x&B&D&B&2&F&F%amount%'
+gui-stacked-spawner-spawn-amount: '&x&F&F&D&7&0&0ѕố ʟượɴɢ ѕɪɴʜ ѕảɴ: &x&B&D&B&2&F&F%amount%'
+gui-stacked-spawner-spawn-conditions: '&x&F&F&B&7&B&2&lđɪềᴜ ᴋɪệɴ ѕɪɴʜ ѕảɴ'
+gui-stacked-spawner-time-until-next-spawn: '&x&F&F&D&7&0&0ᴛʜờɪ ɢɪᴀɴ ᴄʜờ ʟầɴ ѕɪɴʜ ѕảɴ ᴛɪếᴘ ᴛʜᴇᴏ: &x&B&D&B&2&F&F%time% ᴛɪᴄᴋѕ'
+gui-stacked-spawner-total-spawns: '&x&F&F&D&7&0&0ᴛổɴɢ ѕố ǫᴜáɪ ᴠậᴛ đã ѕɪɴʜ ѕảɴ: &x&B&D&B&2&F&F%amount%'
+gui-stacked-spawner-valid-spawn-conditions: '&x&5&7&F&2&8&7&lđɪềᴜ ᴋɪệɴ ѕɪɴʜ ѕảɴ ʜợᴘ ʟệ'
+gui-stacked-spawner-invalid-spawn-conditions: '&x&E&D&4&2&4&5&lđɪềᴜ ᴋɪệɴ ѕɪɴʜ ѕảɴ ᴋʜôɴɢ ʜợᴘ ʟệ'
+gui-stacked-spawner-entities-can-spawn: '&x&5&7&F&2&8&7ᴛʜựᴄ ᴛʜể ᴄó ᴛʜể ѕɪɴʜ ѕảɴ ʙìɴʜ ᴛʜườɴɢ'
+gui-stacked-spawner-conditions-preventing-spawns: '&x&F&F&D&7&0&0ᴄáᴄ đɪềᴜ ᴋɪệɴ đᴀɴɢ ɴɢăɴ ᴄʜặɴ ѕɪɴʜ ѕảɴ:'
+
+# Spawn Condition Messages
+spawner-condition-invalid: '&x&A&A&A&A&A&A - &x&E&D&4&2&4&5%message%'
+spawner-condition-info: '&x&F&F&D&7&0&0%condition%'
+spawner-condition-single: '&x&F&F&D&7&0&0%condition%: &x&B&D&B&2&F&F%value%'
+spawner-condition-list: '&x&F&F&D&7&0&0%condition%:'
+spawner-condition-list-item: '&x&A&A&A&A&A&A - &x&B&D&B&2&F&F%message%'
+spawner-condition-above-sea-level-info: 'ᴛʀêɴ ᴍựᴄ ɴướᴄ ʙɪểɴ'
+spawner-condition-above-sea-level-invalid: 'ᴋʜôɴɢ ᴄó ᴋʜᴜ ᴠựᴄ ѕɪɴʜ ѕảɴ ᴛʀêɴ ᴍựᴄ ɴướᴄ ʙɪểɴ'
+spawner-condition-above-y-axis-info: 'ᴛʀêɴ ᴛʀụᴄ ʏ'
+spawner-condition-above-y-axis-invalid: 'ᴋʜôɴɢ ᴄó ᴋʜᴜ ᴠựᴄ ѕɪɴʜ ѕảɴ ᴛʀêɴ ᴛʀụᴄ ʏ ʏêᴜ ᴄầᴜ'
+spawner-condition-air-info: 'ᴋʜôɴɢ ɢɪᴀɴ ᴍở'
+spawner-condition-air-invalid: 'ᴋʜôɴɢ ᴄó đủ ᴋʜôɴɢ ɢɪᴀɴ ᴛʀốɴɢ ᴄầɴ ᴛʜɪếᴛ'
+spawner-condition-below-sea-level-info: 'ᴅướɪ ᴍựᴄ ɴướᴄ ʙɪểɴ'
+spawner-condition-below-sea-level-invalid: 'ᴋʜôɴɢ ᴄó ᴋʜᴜ ᴠựᴄ ѕɪɴʜ ѕảɴ ᴅướɪ ᴍựᴄ ɴướᴄ ʙɪểɴ'
+spawner-condition-below-y-axis-info: 'ᴅướɪ ᴛʀụᴄ ʏ'
+spawner-condition-below-y-axis-invalid: 'ᴋʜôɴɢ ᴄó ᴋʜᴜ ᴠựᴄ ѕɪɴʜ ѕảɴ ᴅướɪ ᴛʀụᴄ ʏ ʏêᴜ ᴄầᴜ'
+spawner-condition-biome-info: 'ǫᴜầɴ xã'
+spawner-condition-biome-invalid: 'ѕᴀɪ ǫᴜầɴ xã'
+spawner-condition-block-info: 'ʙʟᴏᴄᴋ ѕɪɴʜ ѕảɴ'
+spawner-condition-block-invalid: 'ᴋʜôɴɢ ᴄó ʙʟᴏᴄᴋ ѕɪɴʜ ѕảɴ ʜợᴘ ʟệ'
+spawner-condition-block-exception-info: 'ɴɢᴏạɪ ʟệ ʙʟᴏᴄᴋ ѕɪɴʜ ѕảɴ'
+spawner-condition-block-exception-invalid: 'ʙʟᴏᴄᴋ ѕɪɴʜ ѕảɴ ʙị ʟᴏạɪ ᴛʀừ'
+spawner-condition-darkness-info: 'ᴍứᴄ độ ѕáɴɢ ᴛʜấᴘ'
+spawner-condition-darkness-invalid: 'ᴋʜᴜ ᴠựᴄ ǫᴜá ѕáɴɢ'
+spawner-condition-total-darkness-info: 'ʙóɴɢ ᴛốɪ ʜᴏàɴ ᴛᴏàɴ'
+spawner-condition-total-darkness-invalid: 'ᴋʜᴜ ᴠựᴄ ᴘʜảɪ ʜᴏàɴ ᴛᴏàɴ ᴋʜôɴɢ ᴄó áɴʜ ѕáɴɢ'
+spawner-condition-fluid-info: 'ʏêᴜ ᴄầᴜ ᴄʜấᴛ ʟỏɴɢ'
+spawner-condition-fluid-invalid: 'ᴋʜôɴɢ ᴄó ᴄʜấᴛ ʟỏɴɢ ɢầɴ đâʏ'
+spawner-condition-lightness-info: 'ᴍứᴄ độ ѕáɴɢ ᴄᴀᴏ'
+spawner-condition-lightness-invalid: 'ᴋʜᴜ ᴠựᴄ ǫᴜá ᴛốɪ'
+spawner-condition-max-nearby-entities-info: 'ᴛốɪ đᴀ ᴛʜựᴄ ᴛʜể ɢầɴ đâʏ'
+spawner-condition-max-nearby-entities-invalid: 'ǫᴜá ɴʜɪềᴜ ᴛʜựᴄ ᴛʜể ɢầɴ đâʏ'
+spawner-condition-no-skylight-access-info: 'ᴋʜôɴɢ ᴛɪếᴘ xúᴄ áɴʜ ѕáɴɢ ᴛʀờɪ'
+spawner-condition-no-skylight-access-invalid: 'ᴋʜôɴɢ ᴄó ʙʟᴏᴄᴋ ѕɪɴʜ ѕảɴ ɴàᴏ ᴋʜôɴɢ ᴛɪếᴘ xúᴄ áɴʜ ѕáɴɢ ᴛʀờɪ'
+spawner-condition-on-ground-info: 'ᴛʀêɴ ᴍặᴛ đấᴛ'
+spawner-condition-on-ground-invalid: 'ᴋʜôɴɢ ᴄó ᴍặᴛ đấᴛ ᴠữɴɢ ᴄʜắᴄ ɢầɴ đâʏ'
+spawner-condition-skylight-access-info: 'ᴛɪếᴘ xúᴄ áɴʜ ѕáɴɢ ᴛʀờɪ'
+spawner-condition-skylight-access-invalid: 'ᴋʜôɴɢ ᴄó ʙʟᴏᴄᴋ ѕɪɴʜ ѕảɴ ɴàᴏ ᴛɪếᴘ xúᴄ áɴʜ ѕáɴɢ ᴛʀờɪ'
+spawner-condition-none-invalid: 'ᴠượᴛ ǫᴜá ѕố ʟầɴ ᴛʜử ѕɪɴʜ ѕảɴ ᴛốɪ đᴀ'
+spawner-condition-not-player-placed-invalid: 'ᴘʜảɪ đượᴄ đặᴛ ʙởɪ ɴɢườɪ ᴄʜơɪ'
+
+# Given Stack Item Lore
+# Note: This will appear in the lore of the items given from the '/rs give' command
+stack-item-lore-spawner: []
+stack-item-lore-spawner-plural: []
+stack-item-lore-block: []
+stack-item-lore-entity: []
+
+# Generic Command Messages
+no-permission: '&x&E&D&4&2&4&5ʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ʟàᴍ đɪềᴜ ɴàʏ!'
+only-player: '&x&E&D&4&2&4&5ʟệɴʜ ɴàʏ ᴄʜỉ ᴄó ᴛʜể đượᴄ ᴛʜựᴄ ʜɪệɴ ʙởɪ ɴɢườɪ ᴄʜơɪ.'
+unknown-command: '&x&E&D&4&2&4&5ʟệɴʜ ᴋʜôɴɢ xáᴄ địɴʜ, ѕử ᴅụɴɢ &x&B&D&B&2&F&F/%cmd% help &x&E&D&4&2&4&5để ʙɪếᴛ ᴛʜêᴍ ᴛʜôɴɢ ᴛɪɴ.'
+unknown-command-error: '&x&E&D&4&2&4&5đã xảʏ ʀᴀ ʟỗɪ ᴋʜôɴɢ xáᴄ địɴʜ; ᴄʜɪ ᴛɪếᴛ đã đượᴄ ɪɴ ʀᴀ ᴄᴏɴѕᴏʟᴇ. ᴠᴜɪ ʟòɴɢ ʟɪêɴ ʜệ ǫᴜảɴ ᴛʀị ᴠɪêɴ ᴍáʏ ᴄʜủ.'
+invalid-subcommand: '&x&E&D&4&2&4&5ʟệɴʜ ᴘʜụ ᴋʜôɴɢ ʜợᴘ ʟệ.'
+invalid-argument: '&x&E&D&4&2&4&5đốɪ ѕố ᴋʜôɴɢ ʜợᴘ ʟệ: %message%.'
+invalid-argument-null: '&x&E&D&4&2&4&5đốɪ ѕố ᴋʜôɴɢ ʜợᴘ ʟệ: %name% ʙị ᴛʀốɴɢ.'
+missing-arguments: '&x&E&D&4&2&4&5ᴛʜɪếᴜ đốɪ ѕố, ʏêᴜ ᴄầᴜ &x&B&D&B&2&F&F%amount%&x&E&D&4&2&4&5.'
+missing-arguments-extra: '&x&E&D&4&2&4&5ᴛʜɪếᴜ đốɪ ѕố, ʏêᴜ ᴄầᴜ ᴛừ &x&B&D&B&2&F&F%amount%+&x&E&D&4&2&4&5.'
+
+# Argument Handler Error Messages
+argument-handler-enum: 'ʟᴏạɪ %enum% [%input%] ᴋʜôɴɢ ᴛồɴ ᴛạɪ'
+argument-handler-enum-list: 'ʟᴏạɪ %enum% [%input%] ᴋʜôɴɢ ᴛồɴ ᴛạɪ. ᴄáᴄ ʟᴏạɪ ʜợᴘ ʟệ: %types%'
+argument-handler-string: 'ᴄʜᴜỗɪ ᴋʜôɴɢ đượᴄ để ᴛʀốɴɢ'
+argument-handler-integer: 'ѕố ɴɢᴜʏêɴ [%input%] ᴘʜảɪ ʟà ѕố ɴɢᴜʏêɴ ᴛʀᴏɴɢ ᴋʜᴏảɴɢ ᴛừ -2^31 đếɴ 2^31-1'
+argument-handler-player: 'ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ɴɢườɪ ᴄʜơɪ ɴàᴏ ᴄó ᴛêɴ [%input%] đᴀɴɢ ᴏɴʟɪɴᴇ'
+argument-handler-stackplugin: 'ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴘʟᴜɢɪɴ ɴàᴏ ᴄó ᴛêɴ [%input%]'
+argument-handler-material: 'ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴠậᴛ ᴘʜẩᴍ ɴàᴏ ᴄó ᴛêɴ [%input%]'
+argument-handler-stackamount: 'ᴋíᴄʜ ᴛʜướᴄ ѕᴛᴀᴄᴋ [%input%] ᴋʜôɴɢ ʜợᴘ ʟệ, ᴘʜảɪ ʟà ѕố ʟớɴ ʜơɴ 0'
+argument-handler-stacktype: 'ʟᴏạɪ ѕᴛᴀᴄᴋ [%input%] ᴋʜôɴɢ ʜợᴘ ʟệ'
+argument-handler-translationlocale: 'ᴍã ɴɢôɴ ɴɢữ ᴅịᴄʜ ᴛʜᴜậᴛ [%input%] ᴋʜôɴɢ ʜợᴘ ʟệ'
+
+# Misc Messages
+spawner-silk-touch-protect: '&x&E&D&4&2&4&5&lᴄảɴʜ ʙáᴏ! &x&F&F&D&7&0&0ʙạɴ ᴄầɴ ѕử ᴅụɴɢ ᴄúᴘ ᴄó ᴘʜù ᴘʜéᴘ ɢɪᴀ ᴛàɪ (ѕɪʟᴋ ᴛᴏᴜᴄʜ) ᴠà/ʜᴏặᴄ ᴄó ǫᴜʏềɴ đậᴘ ѕᴘᴀᴡɴᴇʀ. ɴếᴜ ᴋʜôɴɢ, ʙạɴ ѕẽ ᴋʜôɴɢ ᴛʜể ɴʜặᴛ ɴó.'
+spawner-advanced-place-no-permission: '&x&E&D&4&2&4&5&lᴄảɴʜ ʙáᴏ! &x&F&F&D&7&0&0ʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ đặᴛ ʟᴏạɪ ѕᴘᴀᴡɴᴇʀ ɴàʏ.'
+spawner-advanced-break-no-permission: '&x&E&D&4&2&4&5&lᴄảɴʜ ʙáᴏ! &x&F&F&D&7&0&0ʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ đậᴘ ʟᴏạɪ ѕᴘᴀᴡɴᴇʀ ɴàʏ.'
+spawner-advanced-break-silktouch-no-permission: '&x&E&D&4&2&4&5&lᴄảɴʜ ʙáᴏ! &x&F&F&D&7&0&0ʙạɴ ᴄầɴ ѕử ᴅụɴɢ ᴄúᴘ ᴄó ᴘʜù ᴘʜéᴘ ɢɪᴀ ᴛàɪ (ѕɪʟᴋ ᴛᴏᴜᴄʜ) để đậᴘ ʟᴏạɪ ѕᴘᴀᴡɴᴇʀ ɴàʏ.'
+spawner-convert-not-enough: '&x&E&D&4&2&4&5&lᴄảɴʜ ʙáᴏ! &x&F&F&D&7&0&0ᴋʜôɴɢ ᴛʜể ᴄʜᴜʏểɴ đổɪ ѕᴘᴀᴡɴᴇʀ ʙằɴɢ ᴛʀứɴɢ ѕɪɴʜ ѕảɴ. ʙạɴ ᴋʜôɴɢ ᴄầᴍ đủ ѕố ʟượɴɢ ᴛʀứɴɢ để ᴛʜựᴄ ʜɪệɴ ᴠɪệᴄ ɴàʏ.'
+number-separator: ','
+silktouch-chance-placeholder: '%chance%%'

@@ -1,0 +1,10 @@
+data:
+  session: 1972
+  dice1: 6
+  dice2: 1
+  dice3: 2
+  result: XIU
+  currency: VAULT
+  xiuPlayers:
+    yunnie: 10000000
+    KaiseFitzs: 1000000

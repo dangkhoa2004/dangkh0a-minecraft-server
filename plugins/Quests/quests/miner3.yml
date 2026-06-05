@@ -1,0 +1,26 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    block: COAL_ORE
+    amount: 64
+display:
+  name: "&#A3C4F3&nᴛʜợ ᴍỏ:&r &#FDFD96#III"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ ᴋʜᴀɪ ᴛʜáᴄ'
+    - '&#D1E8E2ᴛàɪ ɴɢᴜʏêɴ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴘʜá 64 ᴋʜốɪ Than.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{mining:progress}/64 ᴋʜốɪ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0900 ᴛɪềɴ'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "WOODEN_PICKAXE"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 900"
+options:
+  category: "miner"
+  repeatable: false
+  sort-order: 3

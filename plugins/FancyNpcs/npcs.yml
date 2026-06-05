@@ -1,0 +1,128 @@
+npcs:
+  b52fdf66-ec8c-4d3d-9d95-c4c555027973:
+    name: tutorial
+    creator: b809730c-939e-4ec8-a675-b1d5c60cedca
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: lobby
+      x: 4.5
+      y: -5.0
+      z: -15.5
+      yaw: 29.934109
+      pitch: 0.7811773
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    skin:
+      identifier: OliverKi
+      variant: AUTO
+      mirrorSkin: false
+    visibility: ALL
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: tutorial
+  0c86cec3-2a24-464d-840a-3653b7477a13:
+    name: shop
+    creator: b809730c-939e-4ec8-a675-b1d5c60cedca
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: lobby
+      x: -3.5
+      y: -5.0
+      z: -15.5
+      yaw: -30.0
+      pitch: 0.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    skin:
+      identifier: hxhz
+      variant: AUTO
+      mirrorSkin: false
+    visibility: ALL
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: shop
+  8e94e102-cccf-4af1-92c5-91e713fe8a7c:
+    name: rtp
+    creator: b809730c-939e-4ec8-a675-b1d5c60cedca
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: lobby
+      x: 0.5
+      y: -5.0
+      z: -16.5
+      yaw: 0.0
+      pitch: -0.14687198
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    skin:
+      identifier: bestgenius
+      variant: AUTO
+      mirrorSkin: false
+    visibility: ALL
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: rtp
+  b243676a-9315-4f3f-85ec-17a38fdb956b:
+    name: settings
+    creator: 72c68ff5-641b-3dd5-b3f7-4871c2ad0f56
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: Market
+      x: 16.54516276075886
+      y: 73.0
+      z: -6.48213842324555
+      yaw: 90.33484
+      pitch: -0.6235713
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    skin:
+      identifier: foxythekiller123
+      variant: AUTO
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: settings

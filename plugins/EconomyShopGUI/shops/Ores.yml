@@ -1,0 +1,197 @@
+pages:
+  page1:
+    gui-rows: 5
+    items:
+      COAL:
+        material: COAL
+        displayname: '&eThan'
+        buy: 30.0
+        sell: 15.0
+      
+      RAW_COPPER:
+        material: RAW_COPPER
+        displayname: '&eĐồng thô'
+        buy: 16
+        sell: 8
+      RAW_IRON:
+        material: RAW_IRON
+        displayname: '&eSắt thô'
+        buy: 45
+        sell: 30
+      RAW_GOLD:
+        material: RAW_GOLD
+        displayname: '&eVàng thô'
+        buy: 90
+        sell: 50
+      
+      RAW_COPPER_BLOCK:
+        material: RAW_COPPER_BLOCK
+        displayname: '&eKhối đồng thô'
+        buy: 144
+        sell: 72
+      RAW_IRON_BLOCK:
+        material: RAW_IRON_BLOCK
+        displayname: '&eKhối sắt thô'
+        buy: 405
+        sell: 270
+      RAW_GOLD_BLOCK:
+        material: RAW_GOLD_BLOCK
+        displayname: '&eKhối vàng thô'
+        buy: 810
+        sell: 450
+      
+      IRON_INGOT:
+        material: IRON_INGOT
+        displayname: '&ePhôi sắt'
+        buy: 60.0
+        sell: 22.0
+      
+      GOLD_INGOT:
+        material: GOLD_INGOT
+        displayname: '&ePhôi vàng'
+        buy: 126.0
+        sell: 105.0
+      
+      REDSTONE:
+        material: REDSTONE
+        displayname: '&eBột Redstone'
+        buy: 18.0
+        sell: 32.0
+      
+      LAPIS_LAZULI:
+        material: LAPIS_LAZULI
+        displayname: '&eNgọc lưu ly'
+        buy: 24
+        sell: 15
+      
+      DIAMOND:
+        material: DIAMOND
+        displayname: '&eKim cương'
+        buy: 400.0
+        sell: 200.0
+      
+      EMERALD:
+        material: EMERALD
+        displayname: '&eNgọc lục bảo'
+        buy: 300
+        sell: 150
+      
+      NETHERITE_INGOT:
+        material: NETHERITE_INGOT
+        displayname: '&ePhôi Netherit'
+        buy: 3744
+        sell: 2080
+      
+      COPPER_INGOT:
+        material: COPPER_INGOT
+        displayname: '&ePhôi đồng'
+        buy: 20
+        sell: 10
+      
+      COAL_ORE:
+        material: COAL_ORE
+        displayname: '&eQuặng than'
+        buy: 40.0
+        sell: 15.0
+      
+      IRON_ORE:
+        material: IRON_ORE
+        displayname: '&eQuặng sắt'
+        buy: 75.0
+        sell: 18.0
+      
+      GOLD_ORE:
+        material: GOLD_ORE
+        displayname: '&eQuặng vàng'
+        buy: 144.0
+        sell: 45.0
+      
+      REDSTONE_ORE:
+        material: REDSTONE_ORE
+        displayname: '&eQuặng Redstone'
+        buy: 80.0
+        sell: 30.0
+      
+      LAPIS_ORE:
+        material: LAPIS_ORE
+        displayname: '&eQuặng ngọc lưu ly'
+        buy: 120.0
+        sell: 100.0
+      
+      DIAMOND_ORE:
+        material: DIAMOND_ORE
+        displayname: '&eQuặng kim cương'
+        buy: 500.0
+        sell: 200.0
+      
+      EMERALD_ORE:
+        material: EMERALD_ORE
+        displayname: '&eQuặng ngọc lục bảo'
+        buy: 350
+        sell: 175
+      
+      ANCIENT_DEBRIS:
+        material: ANCIENT_DEBRIS
+        displayname: '&eMảnh vỡ cổ đại'
+        buy: 810
+        sell: 450
+      
+      COPPER_ORE:
+        material: COPPER_ORE
+        displayname: '&eQuặng đồng'
+        buy: 24
+        sell: 12
+      
+      COAL_BLOCK:
+        material: COAL_BLOCK
+        displayname: '&eKhối than'
+        buy: 270
+        sell: 180
+      
+      IRON_BLOCK:
+        material: IRON_BLOCK
+        displayname: '&eKhối sắt'
+        buy: 540.0
+        sell: 190.0
+      
+      GOLD_BLOCK:
+        material: GOLD_BLOCK
+        displayname: '&eKhối vàng'
+        buy: 1134.0
+        sell: 450.0
+      
+      REDSTONE_BLOCK:
+        material: REDSTONE_BLOCK
+        displayname: '&eKhối Redstone'
+        buy: 162
+        sell: 90
+      
+      LAPIS_BLOCK:
+        material: LAPIS_BLOCK
+        displayname: '&eKhối ngọc lưu ly'
+        buy: 216.0
+        sell: 950.0
+      
+      DIAMOND_BLOCK:
+        material: DIAMOND_BLOCK
+        displayname: '&eKhối kim cương'
+        buy: 3600.0
+        sell: 2000.0
+      
+      EMERALD_BLOCK:
+        material: EMERALD_BLOCK
+        displayname: '&eKhối ngọc lục bảo'
+        buy: 2700
+        sell: 1350
+      
+      NETHERITE_BLOCK:
+        material: NETHERITE_BLOCK
+        displayname: '&eKhối Netherit'
+        buy: 33696
+        sell: 18720
+      
+      COPPER_BLOCK:
+        material: COPPER_BLOCK
+        displayname: '&eKhối đồng'
+        buy: 180
+        sell: 90

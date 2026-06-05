@@ -1,0 +1,519 @@
+Animation:
+  Enabled: false
+  Id: default
+Block:
+  Effect:
+    Model: HELIX
+    Enabled: true
+    Particle:
+      Name: BUBBLE_POP
+  Hologram:
+    Enabled: true
+    Template: default4
+    Y_Offset: 0.0
+  Positions: []
+  Pushback:
+    Enabled: true
+ItemProvider:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_name":''{"bold":false,"extra":[{"bold":false,"extra":[{"color":"#74EA31","text":"Economy Crate"}],"italic":false,"obfuscated":false,"strikethrough":false,"text":"","underlined":false}],"italic":false,"obfuscated":false,"strikethrough":false,"text":"","underlined":false}''},count:1,id:"minecraft:player_head"}'
+    DataVersion: 4082
+Last_Opener: flameon111
+Last_Reward: '&a&l29K$'
+Milestones:
+  Repeatable: false
+Name: '#541c80ECONOMY CRATE'
+Permission_Required: false
+Preview:
+  Enabled: true
+  Id: default
+Rewards:
+  List:
+    1000$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l1000$'
+      Description: []
+      Commands:
+      - eco give %player_name% 1000
+    11k$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l11K$'
+      Description: []
+      Commands:
+      - eco give %player_name% 11000
+    14k$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l14K$'
+      Description: []
+      Commands:
+      - eco give %player_name% 14000
+    17k$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: true
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l17K$'
+      Description: []
+      Commands:
+      - eco give %player_name% 17000
+    2000$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l2000$'
+      Description: []
+      Commands:
+      - eco give %player_name% 2000
+    20k$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l20K$'
+      Description: []
+      Commands:
+      - eco give %player_name% 20000
+    23k$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l23K$'
+      Description: []
+      Commands:
+      - eco give %player_name% 23000
+    26k$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l26K$'
+      Description: []
+      Commands:
+      - eco give %player_name% 26000
+    29k$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l29K$'
+      Description: []
+      Commands:
+      - eco give %player_name% 29000
+    '33':
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 0.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l32k$'
+      Description: []
+      Commands:
+      - eco give %player_name% 32000
+    3500$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l3500$'
+      Description: []
+      Commands:
+      - eco give %player_name% 3500
+    37k$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l37K$'
+      Description: []
+      Commands:
+      - eco give %player_name% 37000
+    40k$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l40K$'
+      Description: []
+      Commands:
+      - eco give %player_name% 40000
+    43k$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l43K$'
+      Description: []
+      Commands:
+      - eco give %player_name% 43000
+    45k$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l45K$'
+      Description: []
+      Commands:
+      - eco give %player_name% 45000
+    48k$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l48K$'
+      Description: []
+      Commands:
+      - eco give %player_name% 48000
+    500$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l500$'
+      Description: []
+      Commands:
+      - eco give %player_name% 500
+    5000$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l5000$'
+      Description: []
+      Commands:
+      - eco give %player_name% 5000
+    50k$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l50K$'
+      Description: []
+      Commands:
+      - eco give %player_name% 50000
+    8000$:
+      Type: COMMAND
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{count:1,id:"minecraft:sunflower"}'
+          DataVersion: 4082
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: '&a&l8000$'
+      Description: []
+      Commands:
+      - eco give %player_name% 8000
+_dataver: 600
+Description: []
+ItemStackable: true
+OpeningCooldown:
+  Enabled: false
+  Value: 0
+OpeningLimits:
+  Amount: 1
+CostOptions:
+  key_economy:
+    Enabled: true
+    Name: economy Key
+    Icon:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:trial_key"}'
+        DataVersion: 4671
+    Entries:
+      '0':
+        Type: key
+        Key: economy
+        Amount: 1
+Post-Open:
+  Commands: []
+
+
+# 990820LI0XEZ

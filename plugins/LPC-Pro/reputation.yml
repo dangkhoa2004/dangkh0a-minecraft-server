@@ -1,0 +1,77 @@
+# LPC Pro V2 - Reputation System Configuration
+# This file controls the player reputation/karma system
+
+# ===========================================
+# General Settings
+# ===========================================
+enabled: true
+
+# Permissions
+permissions:
+  # Permission to use /rep command
+  base: "lpcpro.rep"
+  # Permission to give reputation
+  give: "lpcpro.rep.give"
+  # Permission to view reputation
+  view: "lpcpro.rep.view"
+  # Permission to view leaderboard
+  top: "lpcpro.rep.top"
+  # Permission to bypass cooldowns
+  bypass-cooldown: "lpcpro.rep.bypass.cooldown"
+
+# ===========================================
+# Reputation Settings
+# ===========================================
+reputation:
+  # Cooldown between giving rep to the same player (in hours)
+  cooldown-hours: 24
+
+  # Points given per /rep command
+  points-per-rep: 1
+
+  # Starting reputation for new players
+  starting-reputation: 0
+
+  # Allow negative reputation
+  allow-negative: false
+
+  # Minimum reputation (if negative allowed)
+  min-reputation: -100
+
+  # Maximum reputation a player can have
+  max-reputation: 999999
+
+# ===========================================
+# Restrictions
+# ===========================================
+restrictions:
+  # Prevent giving rep to yourself
+  no-self-rep: true
+
+  # Minimum time played before can give rep (in hours)
+  min-playtime-hours: 1
+
+  # Minimum time played before can receive rep (in hours)
+  min-playtime-receive: 0
+
+# ===========================================
+# Leaderboard
+# ===========================================
+leaderboard:
+  # Number of players to show on leaderboard
+  display-count: 10
+
+  # Update interval for cached leaderboard (seconds)
+  cache-seconds: 60
+
+# ===========================================
+# Notifications
+# ===========================================
+notifications:
+  # Notify player when they receive rep
+  notify-recipient: true
+
+  # Sound to play when receiving rep
+  sound: "ENTITY_PLAYER_LEVELUP"
+  sound-volume: 0.5
+  sound-pitch: 1.5

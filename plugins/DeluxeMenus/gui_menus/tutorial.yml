@@ -1,0 +1,114 @@
+menu_title: '&#a8e6cf&l❁ ʜướɴɢ ᴅẫɴ ᴛâɴ ᴛʜủ ❁'
+open_command: tutorial
+register_command: true
+size: 45
+update_interval: -1
+
+items:
+  # ==================================================
+  # BỐ CỤC CHỮ THẬP Ở TRUNG TÂM (5 MỤC HƯỚNG DẪN)
+  # ==================================================
+  'getting-started':
+    material: BOOK
+    slot: 13
+    display_name: '&#B5EAD7&lʜướɴɢ ᴅẫɴ ᴋʜởɪ đầᴜ'
+    lore:
+      - ''
+      - '&#fcfcfcʙắᴛ đầᴜ ᴋʜáᴍ ᴘʜá ʙằɴɢ ᴄáᴄʜ'
+      - '&#fcfcfcɴʜậᴘ ʟệɴʜ &#FFD700/rtp &#fcfcfcđể ᴅịᴄʜ ᴄʜᴜʏểɴ'
+      - '&#fcfcfcđếɴ ᴍộᴛ ᴠị ᴛʀí ɴɢẫᴜ ɴʜɪêɴ.'
+      - ''
+      - '&#fcfcfcᴛìᴍ ᴋɪếᴍ ᴛàɪ ɴɢᴜʏêɴ, xâʏ ᴅựɴɢ ɴʜà ᴄửᴀ'
+      - '&#fcfcfcᴠà ᴋʜáᴍ ᴘʜá ᴛʜế ɢɪớɪ ѕɪɴʜ ᴛồɴ!'
+      - ''
+      - '&#FFD700⭐ &#E0E0E0ʟưᴜ ᴛọᴀ độ ɴʜà: &#FFD700/sethome'
+      - '&#FFD700⭐ &#E0E0E0ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề ɴʜà: &#FFD700/home'
+    click_commands:
+      - '[sound] ITEM_BOOK_PAGE_TURN'
+
+  'economy':
+    material: EMERALD
+    slot: 21
+    display_name: '&#B9FBC0&lʜệ ᴛʜốɴɢ ᴛɪềɴ ᴛệ'
+    lore:
+      - ''
+      - '&#fcfcfcᴋɪếᴍ ᴛɪềɴ ᴛừ ᴠɪệᴄ ʙáɴ ᴄáᴄ ᴍặᴛ ʜàɴɢ'
+      - '&#fcfcfcɴôɴɢ ѕảɴ, ǫᴜặɴɢ ᴠà ᴠậᴛ ᴘʜẩᴍ ᴛʜᴜ ᴛʜậᴘ đượᴄ.'
+      - ''
+      - '&#fcfcfcđể ѕử ᴅụɴɢ ᴄửᴀ ʜàɴɢ, ʜãʏ ɴʜậᴘ &#FFD700/shop'
+      - ''
+      - '&#E0E0E0ᴅùɴɢ ᴛɪềɴ ᴄủᴀ ʙạɴ để ᴍᴜᴀ ᴄáᴄ ᴠậᴛ ᴘʜẩᴍ'
+      - '&#E0E0E0ᴄầɴ ᴛʜɪếᴛ ᴛừ ᴄửᴀ ʜàɴɢ ѕᴇʀᴠᴇʀ.'
+    click_commands:
+      - '[sound] ITEM_BOOK_PAGE_TURN'
+
+  'claim':
+    material: GOLDEN_SHOVEL
+    slot: 22
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&lǫᴜảɴ ʟý đấᴛ đᴀɪ (ᴄʟᴀɪᴍ)'
+    lore:
+      - ''
+      - '&#fcfcfcѕᴇʀᴠᴇʀ ᴄó ʜệ ᴛʜốɴɢ ʙảᴏ ᴠệ đấᴛ để'
+      - '&#fcfcfcʙảᴏ ᴠệ ᴄôɴɢ ᴛʀìɴʜ ᴄủᴀ ʙạɴ ᴋʜỏɪ ɴɢườɪ ʟạ.'
+      - ''
+      - '&#fcfcfcᴄʜᴏ ᴘʜéᴘ ʙạɴ ʙè xâʏ ᴅựɴɢ ᴄùɴɢ ᴛʀêɴ đấᴛ'
+      - '&#fcfcfcʙằɴɢ ᴄáᴄʜ ѕử ᴅụɴɢ ʟệɴʜ &#FFD700/trust <tên>&#fcfcfc.'
+      - ''
+      - '&#57F287▶ ʜãʏ ᴄùɴɢ ɴʜᴀᴜ xâʏ ᴅựɴɢ ɴʜữɴɢ ᴄôɴɢ ᴛʀìɴʜ đẹᴘ!'
+    click_commands:
+      - '[sound] ITEM_BOOK_PAGE_TURN'
+
+  'auction':
+    material: GOLD_BLOCK
+    slot: 23
+    display_name: '&#FCD05C&lᴄʜợ đᴇɴ (đấᴜ ɢɪá)'
+    lore:
+      - ''
+      - '&#fcfcfcᴛʀᴀᴏ đổɪ, ᴍᴜᴀ ʙáɴ ᴠớɪ ɴɢườɪ ᴄʜơɪ ᴋʜáᴄ'
+      - '&#fcfcfcᴛʀêɴ ʜệ ᴛʜốɴɢ ᴄʜợ đᴇɴ ᴄủᴀ ѕᴇʀᴠᴇʀ!'
+      - ''
+      - '&#fcfcfcđể ʙáɴ ᴠậᴛ ᴘʜẩᴍ ɴʜư áᴏ ɢɪáᴘ, ᴠũ ᴋʜí, ᴛàɪ ɴɢᴜʏêɴ'
+      - '&#fcfcfcʙạɴ ʜãʏ ᴄầᴍ ᴠậᴛ ᴘʜẩᴍ ᴠà ɢõ &#FFD700/ah sell <giá>&#fcfcfc.'
+      - ''
+      - '&#E0E0E0để xᴇᴍ ᴠà ᴍᴜᴀ ᴠậᴛ ᴘʜẩᴍ ɴɢườɪ ᴋʜáᴄ ʙáɴ, ɢõ &#FFD700/ah&#E0E0E0.'
+    click_commands:
+      - '[sound] ITEM_BOOK_PAGE_TURN'
+
+  'pvp':
+    material: DIAMOND_SWORD
+    slot: 31
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#ffaaa5&lᴄʜɪếɴ đấᴜ & ѕɪɴʜ ᴛồɴ'
+    lore:
+      - ''
+      - '&#fcfcfcᴘᴠᴘ ѕẽ đượᴄ ʙậᴛ ᴋʜɪ ʙạɴ ʀᴀ ᴋʜỏɪ ᴋʜᴜ ᴠựᴄ ᴀɴ ᴛᴏàɴ,'
+      - '&#fcfcfcʜãʏ ᴄẩɴ ᴛʜậɴ ᴠà ʙảᴏ ᴠệ ᴄăɴ ᴄứ ᴄủᴀ ᴍìɴʜ!'
+      - ''
+      - '&#fcfcfcᴄẩɴ ᴛʜậɴ ᴛʀướᴄ ɴʜữɴɢ ɴɢườɪ ʟạ xâᴍ ɴʜậᴘ ᴄăɴ ᴄứ,'
+      - '&#fcfcfcʜãʏ ᴄùɴɢ đồɴɢ độɪ đồɴɢ ʜàɴʜ ᴠà ѕɪɴʜ ᴛồɴ.'
+      - ''
+      - '&#FFD700⭐ &#E0E0E0ѕử ᴅụɴɢ &#FFD700/tpa <tên> &#E0E0E0để ᴅịᴄʜ ᴄʜᴜʏểɴ đếɴ ʙạɴ ʙè.'
+    click_commands:
+      - '[sound] ITEM_BOOK_PAGE_TURN'
+
+  # ==================================================
+  # NÚT ĐÓNG & VIỀN KÍNH TRANG TRÍ CHUẨN PASTEL
+  # ==================================================
+  'close_button':
+    material: BARRIER
+    slot: 40
+    display_name: '&#FFB7B2&l✖ đóɴɢ ᴍᴇɴᴜ'
+    click_commands:
+      - '[close]'
+      - '[sound] BLOCK_WOODEN_BUTTON_CLICK_ON'
+
+  'border_white':
+    material: WHITE_STAINED_GLASS_PANE
+    slots: ['0', '1', '7', '8', '9', '17', '27', '35', '36', '37', '43', '44']
+    display_name: ' '
+    
+  'border_blue':
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    slots: ['2', '3', '4', '5', '6', '18', '26', '38', '39', '41', '42']
+    display_name: ' '

@@ -1,0 +1,79 @@
+anti-spam:
+  enabled: false
+  message-delay: 3
+  similarity-threshold: 80
+  similarity-check-count: 3
+  actions:
+  - CANCEL
+  - WARN
+  bypass-permission: lpcpro.bypass.spam
+anti-caps:
+  enabled: false
+  minimum-length: 5
+  caps-threshold: 70
+  action: LOWERCASE
+  bypass-permission: lpcpro.bypass.caps
+anti-advertising:
+  enabled: false
+  block-urls: true
+  block-ips: true
+  allowed-domains:
+  - example.com
+  - yourserver.com
+  actions:
+  - CANCEL
+  - WARN
+  bypass-permission: lpcpro.bypass.advertising
+swear-filter:
+  enabled: false
+  action: CENSOR
+  censor-char: '*'
+  filter-private-messages: true
+  blocked-words:
+  - fuck
+  - shit
+  - ass
+  - asshole
+  - bitch
+  - cunt
+  - dick
+  - cock
+  - pussy
+  - whore
+  - slut
+  - fag
+  - faggot
+  - nigger
+  - nigga
+  - retard
+  - bastard
+  - twat
+  - piss
+  - stfu
+  - gtfo
+  - kys
+  - dumbass
+  - jackass
+  - bullshit
+  - dipshit
+  - motherfucker
+  blocked-patterns: []
+  bypass-permission: lpcpro.bypass.filter
+infractions:
+  enabled: false
+  default-expiry-days: 7
+  points:
+    ai-filter: 2
+    swear-filter: 1
+  thresholds:
+    mute:
+      enabled: true
+      points: 5
+      duration: 30m
+    kick:
+      enabled: true
+      points: 10
+    ban:
+      enabled: true
+      points: 15
+      duration: 7d

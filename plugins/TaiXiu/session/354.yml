@@ -1,0 +1,10 @@
+data:
+  session: 354
+  dice1: 3
+  dice2: 6
+  dice3: 6
+  result: TAI
+  currency: VAULT
+  taiPlayers:
+    LokiTheStone: 9000000
+    KaiseFitzs: 15000000

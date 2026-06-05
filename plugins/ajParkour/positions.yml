@@ -1,0 +1,14 @@
+#  This is where the plugin stores all the areas and portals.
+#  Be careful when editing this file, it could cause some areas or portals to fail to load!
+
+areas:
+  spawn:
+    difficulty: MEDIUM
+    max: 2147483647
+    pos1: lobby,15,60,34,127.18393,68.34414
+    pos2: lobby,-24,32,-26,135.62944,38.181767
+    fallpos: lobby,-13,-7,8,90.02146,-0.37571037
+portals:
+  start:
+    area: spawn
+    loc: lobby,-16,-6,8,88.948,40.687386

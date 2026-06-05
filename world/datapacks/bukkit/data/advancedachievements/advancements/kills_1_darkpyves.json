@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:bone"
+    },
+    "title":"\u00A7x\u00A7A\u00A7C\u00A7FS\u00E1\u1D1B \u1D1B\u029C\u1EE7 \u029C\u1D1C\u028F\u1EC1\u0274 \u1D1B\u029C\u1D0F\u1EA1\u026A",
+    "description":"\u00A7x\u00A7D\u00A7E\u00A7E\u00C1\u1D0D \uA731\u00E1\u1D1B T\u00E1\u1D04 \u0262\u026A\u1EA3 \u1D18\u029F\u1D1C\u0262\u026A\u0274.",
+    "frame":"challenge",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:kills_1_skeletal_night"
+}

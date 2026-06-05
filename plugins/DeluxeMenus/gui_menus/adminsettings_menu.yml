@@ -1,0 +1,115 @@
+menu_title: '&#BDB2FF&l❁ ᴄàɪ đặᴛ ǫᴜảɴ ᴛʀị (ᴀᴅᴍɪɴ) ❁'
+open_command:
+- adminsettings
+register_command: true
+size: 27
+
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+      - "[message] &#ED4245✖ &8| &#ED4245Bạn không có quyền mở menu này!"
+
+items:
+  'Filler_Outer':
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+    - 0-9
+    - 17-26
+    display_name: ' '
+    priority: 10
+
+  'Filler_Inner':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 11
+    - 13
+    - 15
+    display_name: ' '
+    priority: 10
+
+  'vanish':
+    material: POTION
+    potion_effects:
+    - INVISIBILITY;1;0
+    slot: 10
+    priority: 1
+    update: true
+    item_flags:
+    - HIDE_ATTRIBUTES
+    - HIDE_ADDITIONAL_TOOLTIP
+    display_name: '&#57F287&l❁ ᴛàɴɢ ʜìɴʜ (ᴠᴀɴɪsʜ) ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Trạng thái: &#57F287%changeoutput_equals_input:{essentials_vanished}_matcher:yes_ifmatch:✔ ĐANG BẬT_else:&#ED4245✘ ĐANG TẮT%'
+    - ' &#fcfcfc❖ &#E0E0E0Lệnh nhanh: &#57F287/vanish'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để chuyển đổi trạng thái'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] vanish'
+    - '[refresh]'
+
+  'flymode':
+    material: FEATHER
+    slot: 12
+    priority: 1
+    update: true
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#FCD05C&l❁ ᴄʜế độ ʙᴀʏ (ꜰʟʏ) ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Trạng thái: &#FCD05C%changeoutput_equals_input:{essentials_fly}_matcher:yes_ifmatch:✔ ĐANG BẬT_else:&#ED4245✘ ĐANG TẮT%'
+    - ' &#fcfcfc❖ &#E0E0E0Lệnh nhanh: &#FCD05C/fly'
+    - ''
+    - ' &#fcfcfc❖ &#AEC6CFChuột trái &#E0E0E0để BẬT/TẮT bay'
+    - ' &#fcfcfc❖ &#FCD05CChuột phải &#E0E0E0để ĐỔI TỐC ĐỘ bay'
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] fly'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+
+    - '[openguimenu] adminsettings_flyspeed_menu'
+
+  'godmode':
+    material: TOTEM_OF_UNDYING
+    slot: 14
+    priority: 1
+    update: true
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#FFB7B2&l❁ ʙấᴛ ᴛử (ɢᴏᴅᴍᴏᴅᴇ) ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Trạng thái: &#FFB7B2%changeoutput_equals_input:{essentials_godmode}_matcher:yes_ifmatch:✔ ĐANG BẬT_else:&#ED4245✘ ĐANG TẮT%'
+    - ' &#fcfcfc❖ &#E0E0E0Lệnh nhanh: &#FFB7B2/godmode'
+    - ''
+    - '&#FFB7B2▶ &#E0E0E0Nhấn để chuyển đổi trạng thái'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] godmode'
+    - '[refresh]'
+
+  'gamemode':
+    material: LIGHT_BLUE_DYE
+    slot: 16
+    priority: 1
+    update: true
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#BDB2FF&l❁ ᴄʜế độ ᴄʜơɪ (ɢᴀᴍᴇᴍᴏᴅᴇ) ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Chế độ hiện tại: &#BDB2FF%player_gamemode%'
+    - ' &#fcfcfc❖ &#E0E0E0Lệnh nhanh: &#BDB2FF/gamemode'
+    - ''
+    - '&#BDB2FF▶ &#E0E0E0Nhấn để mở menu đổi chế độ'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+
+    - '[openguimenu] adminsettings_gamemode_menu'

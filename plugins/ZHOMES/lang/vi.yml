@@ -1,0 +1,62 @@
+# Vietnamese Language File for ZHOMES
+
+prefix: "&#BDB2FF[ᴡɪʙᴜʟᴀɴᴅ]"
+
+messages:
+  home-set: "&aĐã đặt nhà thành công! &7(Home #{number})"
+  home-deleted: "&cĐã xóa Home #{number}."
+  home-max-reached: "&cBạn đã đạt giới hạn số nhà tối đa!"
+  home-not-exist: "&cNhà này không tồn tại."
+  home-no-permission: "&cBạn không có quyền đặt home này! &7(Cần quyền: &ezhomes.home.{number}&7)"
+  teleporting: "&aTeleport trong &e{seconds}&a giây. Đừng di chuyển!"
+  teleport-success: "&aBạn đã được dịch chuyển về nhà."
+  teleport-cancelled: "&cĐã hủy dịch chuyển vì bạn di chuyển!"
+  invalid-number: "&cSố không hợp lệ!"
+
+gui:
+  home-title: "&8Homes"
+  delete-title: "&8Xóa home #{number}"
+
+  # Home slot items
+  no-home-set:
+    name: "&7&lCHƯA ĐẶT NHÀ"
+    lore:
+    - "&7Nhấp để tạo nhà."
+
+  home-set:
+    name: "&x&9&8&f&d&0&f&lHOME #{number}"
+    lore:
+    - "&fNhấp để dịch chuyển đến nhà này"
+
+  # Delete button
+  delete-button:
+    name: "&x&9&8&f&d&0&f&lXÓA #{number}"
+    lore:
+    - "&fNhấp để xóa nhà này."
+
+  # Pagination
+  next-page:
+    name: "&a&lTRANG TIẾP &7({current}/{total})"
+    lore:
+    - "&7Nhấp để xem trang tiếp theo"
+
+  previous-page:
+    name: "&c&lTRANG TRƯỚC &7({current}/{total})"
+    lore:
+    - "&7Nhấp để xem trang trước"
+
+  # Delete confirmation GUI
+  confirm:
+    name: "&a&lXÁC NHẬN"
+    lore:
+    - "&fNhấp để xác nhận."
+
+  cancel:
+    name: "&c&lHỦY"
+    lore:
+    - "&fNhấp để hủy."
+
+  back:
+    name: "&e&lTRỞ LẠI"
+    lore:
+    - "&fNhấp để quay lại."

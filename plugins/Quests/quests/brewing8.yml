@@ -1,0 +1,30 @@
+tasks:
+  brewing:
+    type: "brewing"
+    amount: 1024
+display:
+  name: "&#A3C4F3&nɴʜɪệᴍ ᴠụ ᴘʜᴀ ᴄʜế:&r &#FDFD96ᴠɪɪɪ"
+  lore-normal:
+  - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó'
+  - '&#D1E8E2ᴠớɪ ᴘʜᴀ ᴄʜế ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+  - ''
+  - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴘʜᴀ 1024 ʙìɴʜ ᴛʜᴜốᴄ.'
+  - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{brewing:progress}/1024 ʙìɴʜ.'
+  - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC02750$'
+  - ''
+  lore-started:
+  - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "POTION"
+  itemflags:
+  - "HIDE_ATTRIBUTES"
+rewards:
+- "eco give {player} 2750"
+options:
+  category: "brewing"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 8
+  requires:
+  - "brewing7"

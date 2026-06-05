@@ -1,0 +1,105 @@
+menu_title: '&#5865F2&lǫᴜảɴ ʟý ᴄʟᴀɪᴍ'
+open_command:
+- claims
+- claim
+open_commands:
+- '[sound] BLOCK_NOTE_BLOCK_PLING'
+size: 45
+update_interval: -1
+
+items:
+  'sodat':
+    material: WRITTEN_BOOK
+    slot: 4
+    priority: 0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#FFD700&lѕổ đấᴛ'
+    lore:
+    - ' &#FFD700⌂ &#AAAAAAѕố ᴍảɴʜ đấᴛ đã ᴄʜɪếᴍ: &#57F287%griefprevention_claims%'
+    - ' &#FFD700⌂ &#AAAAAAѕố ʙʟᴏᴄᴋ ᴄó ᴛʜể ᴄʜɪếᴍ: &#57F287%griefprevention_remainingclaims%'
+    - ''
+    - ' &#5865F2&lᴄáᴄ ʟệɴʜ ᴄơ ʙảɴ'
+    - ' &#FFD700○ &#FFFFFF/claim &#AAAAAAᴍở ᴄàɪ đặᴛ ᴄʟᴀɪᴍ'
+    - ' &#FFD700○ &#FFFFFF/unclaim &#AAAAAAxóᴀ ᴄʟᴀɪᴍ đᴀɴɢ đứɴɢ'
+    - ' &#FFD700○ &#FFFFFF/abandonallclaims &#AAAAAAxóᴀ ᴛấᴛ ᴄả ᴄʟᴀɪᴍ ᴄủᴀ ʙạɴ '
+    - ' &#FFD700○ &#FFFFFF/claimlist &#AAAAAAᴍở ᴅᴀɴʜ ѕáᴄʜ ᴄʟᴀɪᴍ'
+    - ' &#FFD700○ &#FFFFFF/trust <tên> &#AAAAAAᴄấᴘ ǫᴜʏềɴ ᴄʜᴏ ɴɢườɪ ᴋʜáᴄ'
+    - ' &#FFD700○ &#FFFFFF/untrust <tên> &#AAAAAAxóᴀ ǫᴜʏềɴ đã ᴄấᴘ'
+    - ' &#FFD700○ &#FFFFFF/trustlist &#AAAAAAxᴇᴍ ᴅᴀɴʜ ѕáᴄʜ ɴɢườɪ đượᴄ ᴄấᴘ ǫᴜʏềɴ'
+    - ''
+    left_click_commands:
+    - '[refresh]'
+
+  'claimlist':
+    material: PAPER
+    slot: 21
+    priority: 0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#AEC6CF&lᴅᴀɴʜ ѕáᴄʜ ᴄʟᴀɪᴍ'
+    lore:
+
+    - ' &#AAAAAAɢɪᴀᴏ ᴅɪệɴ ɢɪúᴘ ʙạɴ ᴅịᴄʜ ᴄʜᴜʏểɴ'
+    - ' &#AAAAAAᴋʜẩɴ ᴄấᴘ ᴠề ᴄʟᴀɪᴍ ᴄủᴀ ʙạɴ ɴếᴜ'
+    - ' &#AAAAAAǫᴜêɴ ѕᴇᴛʜᴏᴍᴇ.'
+    - ''
+    - ' &#57F287➥ &lBẢO TRÌ '
+    - ''
+  #  lore:
+  #
+  #    - ' &#AAAAAAɢɪᴀᴏ ᴅɪệɴ ɢɪúᴘ ʙạɴ ᴅịᴄʜ ᴄʜᴜʏểɴ'
+  #    - ' &#AAAAAAᴋʜẩɴ ᴄấᴘ ᴠề ᴄʟᴀɪᴍ ᴄủᴀ ʙạɴ ɴếᴜ'
+  #    - ' &#AAAAAAǫᴜêɴ ѕᴇᴛʜᴏᴍᴇ.'
+  #    - ''
+  #    - ' &#57F287➥ &lɴʜấɴ để ᴍở ɢɪᴀᴏ ᴅɪệɴ '
+  #    - ''
+  #  left_click_commands:
+  #    - '[player] claimlist'
+
+  'claimsettings':
+    material: SMITHING_TABLE
+    slot: 22
+    priority: 0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#BDB2FF&lᴄàɪ đặᴛ ᴄʟᴀɪᴍ'
+    lore:
+
+    - ' &#AAAAAAɢɪᴀᴏ ᴅɪệɴ ɢɪúᴘ ʙạɴ ᴛʜᴜậɴ ᴛɪệɴ'
+    - ' &#AAAAAAᴛùʏ ᴄʜỉɴʜ ᴄʟᴀɪᴍ ᴄủᴀ ʙạɴ.'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴍở ɢɪᴀᴏ ᴅɪệɴ '
+    - ''
+    left_click_commands:
+    - '[player] claimsettings'
+
+  'muaclaim':
+    material: GRASS_BLOCK
+    slot: 23
+    priority: 0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#57F287&lᴍᴜᴀ đấᴛ ᴄʟᴀɪᴍ'
+    lore:
+
+    - ' &#AAAAAAᴄửᴀ ʜàɴɢ ᴍᴜᴀ ᴛʜêᴍ ʙʟᴏᴄᴋ đấᴛ.'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴍở ɢɪᴀᴏ ᴅɪệɴ '
+    - ''
+    left_click_commands:
+    - '[player] muaclaim'
+
+  'exit':
+    material: BARRIER
+    slot: 40
+    priority: 0
+    display_name: '&#ED4245&lᴛʜᴏáᴛ'
+    left_click_commands:
+    - '[close]'
+    - '[sound] UI_BUTTON_CLICK'
+
+  'fill':
+    material: GRAY_STAINED_GLASS_PANE
+    slots: [ '0-8', '9', '17', '18', '26', '27', '35', '36-44' ]
+    display_name: ' '

@@ -1,0 +1,18 @@
+name: ShadowPulse
+description: ''
+open: false
+pvp: false
+anchor: false
+home: world:148.0097909413457:260.0:105.33634624308526:106.52205:12.9002695
+color: d
+chests: []
+players:
+- 6f256c54-06db-379e-bc95-e65f6ba9714c,DEFAULT
+- ccad908b-8d09-3aae-80ce-0560ee1814c7,OWNER
+anchoredPlayers: []
+level: 1
+tag: ''
+score: 0
+warps:
+- trade;world:133.69999998807907:36.0:95.69999998807907:175.44833:51.750072
+- farm;world_the_end:567.4743591599763:5.0:149.28181053486873:100.08936:27.15004

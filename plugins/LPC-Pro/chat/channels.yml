@@ -1,0 +1,115 @@
+# LPC Pro V2 - Chat Channels Configuration
+# Define custom chat channels for your server
+
+# ===========================================
+# Global Settings
+# ===========================================
+settings:
+  # Default channel for new players
+  default-channel: "global"
+
+  # Allow players to be in multiple channels at once
+  allow-multi-channel: true
+
+  # Show channel prefix in chat
+  show-channel-prefix: true
+
+  # Channel switch message
+  channel-switch-message: "<gray>You are now chatting in <{color}>{name}<gray>."
+
+# ===========================================
+# Channel Definitions
+# ===========================================
+channels:
+
+  # Global Channel - Everyone can see
+  global:
+    display-name: "Global"
+    color: "#FFFFFF"
+    # Chat range (0 = unlimited, >0 = blocks)
+    range: 0
+    # Permission to join this channel
+    permission: ""
+    # Auto-join on server join
+    auto-join: true
+    # Quick prefix (e.g., type "!message" to send to this channel)
+    quick-prefix: "!"
+    # Restrict to same world
+    same-world: false
+    # Cross-server (for proxy networks)
+    cross-server: false
+    # Format file (in formats/ folder)
+    format: "chat.yml"
+
+  # Local Channel - Range-based
+  local:
+    display-name: "Local"
+    color: "#AAAAAA"
+    range: 100
+    permission: ""
+    auto-join: false
+    quick-prefix: "."
+    same-world: true
+    cross-server: false
+    format: "chat.yml"
+
+  # Staff Channel - Staff only
+  staff:
+    display-name: "Staff"
+    color: "#FF5555"
+    range: 0
+    permission: "lpcpro.channel.staff"
+    auto-join: true
+    quick-prefix: "#"
+    same-world: false
+    cross-server: true
+    format: "staff-chat.yml"
+
+  # Trade Channel - For trading
+  trade:
+    display-name: "Trade"
+    color: "#FFAA00"
+    range: 0
+    permission: ""
+    auto-join: false
+    quick-prefix: "$"
+    same-world: false
+    cross-server: false
+    format: "chat.yml"
+
+  # Help Channel - For questions
+  help:
+    display-name: "Help"
+    color: "#55FF55"
+    range: 0
+    permission: ""
+    auto-join: false
+    quick-prefix: "?"
+    same-world: false
+    cross-server: false
+    format: "chat.yml"
+
+# ===========================================
+# Channel Commands
+# ===========================================
+commands:
+  # Main channel command
+  channel-command: "channel"
+  channel-aliases:
+    - "ch"
+    - "chat"
+
+  # Subcommands
+  join-subcommand: "join"
+  leave-subcommand: "leave"
+  list-subcommand: "list"
+
+# ===========================================
+# Channel Permissions
+# ===========================================
+# Additional permissions:
+# - lpcpro.channel.join.<channel> - Join specific channel
+# - lpcpro.channel.autojoin.<channel> - Auto-join on server join
+# - lpcpro.channel.speak.<channel> - Speak in channel (separate from join)
+# - lpcpro.channel.deny.speak.<channel> - Deny speaking in a channel
+# - lpcpro.channel.spy - Spy on channel messages

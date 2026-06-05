@@ -1,0 +1,94 @@
+pages:
+  page1:
+    gui-rows: 3
+    items:
+      BREWING_STAND:
+        material: BREWING_STAND
+        displayname: '&eGiàn pha thuốc'
+        buy: 132
+        sell: 66
+      CAULDRON:
+        material: CAULDRON
+        displayname: '&eCái vạc'
+        buy: 420
+        sell: 280
+      GLASS_BOTTLE:
+        material: GLASS_BOTTLE
+        displayname: '&eChai thuỷ tinh'
+        buy: 12
+        sell: 6
+      SPIDER_EYE:
+        material: SPIDER_EYE
+        displayname: '&eMắt nhện'
+        buy: 30
+        sell: 15
+      RABBIT_FOOT:
+        material: RABBIT_FOOT
+        displayname: '&eChân thỏ'
+        buy: 80
+        sell: 40
+      PUFFERFISH:
+        material: PUFFERFISH
+        displayname: '&eCá nóc'
+        buy: 60
+        sell: 30
+      PHANTOM_MEMBRANE:
+        material: PHANTOM_MEMBRANE
+        displayname: '&eMàng da Phantom'
+        buy: 100
+        sell: 50
+      GHAST_TEAR:
+        material: GHAST_TEAR
+        displayname: '&eNước mắt Ghast'
+        buy: 300
+        sell: 150
+      BLAZE_POWDER:
+        material: BLAZE_POWDER
+        displayname: '&eBột quỷ lửa'
+        buy: 60
+        sell: 30
+      SUGAR:
+        material: SUGAR
+        displayname: '&eĐường'
+        buy: 20.0
+        sell: 10.0
+      GUNPOWDER:
+        material: GUNPOWDER
+        displayname: '&eThuốc súng'
+        buy: 50
+        sell: 25
+      GLOWSTONE_DUST:
+        material: GLOWSTONE_DUST
+        displayname: '&eBột đá phát sáng'
+        buy: 25.0
+        sell: 10.0
+      REDSTONE:
+        material: REDSTONE
+        displayname: '&eBột Redstone'
+        buy: 18.0
+        sell: 32.0
+      NETHER_WART:
+        material: NETHER_WART
+        displayname: '&eBướu Nether'
+        buy: 40
+        sell: 20
+      FERMENTED_SPIDER_EYE:
+        material: FERMENTED_SPIDER_EYE
+        displayname: '&eMắt nhện được lên men'
+        buy: 66
+        sell: 33
+      MAGMA_CREAM:
+        material: MAGMA_CREAM
+        displayname: '&eKem dung nham'
+        buy: 140
+        sell: 70
+      GLISTERING_MELON_SLICE:
+        material: GLISTERING_MELON_SLICE
+        displayname: '&eLát cắt dưa hấu lấp lánh'
+        buy: 122
+        sell: 61
+      GOLDEN_CARROT:
+        material: GOLDEN_CARROT
+        displayname: '&eCà rốt vàng'
+        buy: 132
+        sell: 72

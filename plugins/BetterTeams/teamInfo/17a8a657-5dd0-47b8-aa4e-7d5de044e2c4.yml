@@ -1,0 +1,284 @@
+name: Lethal
+description: ''
+open: false
+pvp: false
+anchor: false
+home: ''
+color: '0'
+chests: []
+players:
+- 7ebd9eeb-c367-37e7-bd6d-64004b62f063,OWNER
+anchoredPlayers: []
+level: 1
+tag: L003
+echest:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:end_crystal
+    count: 34
+    schema_version: 1
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:beacon
+    count: 1
+    schema_version: 1
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:written_book
+    count: 1
+    components:
+      minecraft:written_book_content: '{author:"Frozytime",pages:[{raw:{bold:1b,color:"black",text:"\n\n\n  Mine
+        Treasure\n\n - Loot Crates.\n\n/trigger mt_stats\n\nto view your stats"}},{raw:{bold:1b,color:"black",extra:[{bold:0b,color:"black",italic:0b,text:"\nPage:
+        2"},{bold:1b,color:"black",italic:0b,text:"\nTreasure-types:"},{bold:0b,color:"black",italic:0b,text:"\nPage:
+        3-7"},{bold:1b,color:"black",italic:0b,text:"\nBiome-specific:\n"},{bold:0b,text:"Page:
+        8-14"},{bold:1b,text:"\nStone-types:\n"},{bold:0b,text:"Page: 15-17"},"\nLoot
+        Progression:\n",{bold:0b,italic:0b,text:"Page: 18"},"\nCustom Items:\n",{bold:0b,text:"Page:
+        19-21"}],italic:0b,text:"\nIntroduction:"}},{raw:{color:"black",italic:0b,text:"Mine
+        Treasure is designed to add chance to Minecraft''s mining. Mining stone-related
+        blocks will give the player the possibility to find a treasure. These treasures
+        differ in rarity and types such as tiers and biome-specific loot."}},{raw:{color:"#8C817E",extra:[{color:"black",text:"Has
+        the highest chance to spawn. Meaning it is the most common out of any Treasure.
+        The loot contained in them is very basic and mediocre. Their convenience comes
+        in an easier way of obtaining common resources."}],italic:0b,text:"Common
+        Treasure:\n"}},{raw:{color:"blue",extra:[{color:"black",text:"Has a lower
+        chance to spawn. Contains decent loot such as tools, armor, and other utilities
+        which are quite useful. These can hold quite powerful items if the player
+        is lucky enough to stumble upon them."}],italic:0b,text:"Rare Treasure:\n"}},{raw:{color:"red",extra:[{color:"black",text:"Has
+        a slim chance to spawn. The loot is reaching end-game levels of strength.
+        Extremely useful items and utilities can be found in these treasures. Potentially
+        changing the game for the player who finds one."}],italic:0b,text:"Epic Treasure:\n"}},{raw:{color:"gold",extra:[{color:"black",text:"Has
+        a really low chance to spawn. The best tier of loot one could imagine. Powerful
+        weapons, armor, and utility items which determine the outcome in any fight.
+        If one is lucky enough to find one, they have a severe advantage."}],italic:0b,text:"Legendary
+        Treasure:\n"}},{raw:{color:"light_purple",extra:[{color:"black",text:"Rarest
+        tier, progression is not needed to obtain powerful items locked behind progression.
+        These powerful weapons, armor, and utility items determine the outcome in
+        any fight. Finding one gives a severe advantage."}],italic:0b,text:"Mythical
+        Treasure:\n"}},{raw:{bold:1b,color:"black",extra:[{color:"black",text:"Common:
+        1.000%\nRare: 0.250%\nEpic: 0.032%\nLegendary: 0.016%\nMythical: 0.004%"}],text:"Treasure
+        Spawn Rates:\n"}},{raw:{bold:1b,extra:[{bold:0b,text:"\nPlains\nRiver\nForest\nBirch
+        Forest\nOld Growth B. Forest\nStony Shore\nBeach"}],text:"Default biomes:"}},{raw:{bold:1b,extra:[{bold:0b,text:"Ocean\nWarm
+        Ocean\nLukewarm Ocean\nCold Ocean\nDeep Ocean\nDeep Cold Ocean\nDeep Lukewarm
+        Ocean\nDeep Frozen Ocean\nFrozen Ocean"}],text:"Ocean biomes:\n"}},{raw:{bold:1b,extra:[{bold:0b,text:"Jagged
+        Peaks\nFrozen Peaks\nStony Peaks\nGrove\nSnowy Slopes\n"},"Ice biomes:\n",{bold:0b,text:"Snowy
+        Beach\nSnowy Plains\nIce Spikes\nFrozen River"},"\n\n",{bold:1b,text:"Dark
+        Forest biome"}],text:"Mountain biomes:\n"}},{raw:{bold:1b,extra:[{bold:0b,text:"Badlands\nWooded
+        Badlands\nEroded Badlands\n"},{bold:1b,text:"\nLush Caves biome\n\nDripstone
+        C. biome\n"},{bold:1b,text:"\nMushroom F. biome\n\nSwamp biomes:\n"},{bold:0b,text:"Swamp\nMangrove
+        Swamp"},{bold:1b,text:"\n"}],text:"Badlands biomes:\n"}},{raw:{bold:1b,extra:[{bold:0b,text:"Taiga\nSnowy
+        Taiga\nOld G. Pine Taiga\nOld G. Spruce Taiga\n"},{bold:1b,text:"\nDesert
+        biome\n\nSavanna biomes:\n"},{bold:0b,text:"Savanna\nSavanna Plateau\nWindswept
+        Savanna"}],text:"Taiga biomes:\n"}},{raw:{bold:1b,extra:[{bold:0b,text:"Jungle\nSparse
+        Jungle\nBamboo Jungle\n"},{bold:1b,text:"Flower biomes:\n"},{bold:0b,text:"Flower
+        Forest\nSunflower Plains\nMeadow\n"},{bold:1b,text:"Wind Biomes:"},{bold:0b,text:"\nWindswept
+        Forest\nWindswept Hills\nWindswept G. Hills\n\n"}],text:"Jungle biomes:\n"}},{raw:{bold:1b,extra:[{bold:1b,text:"Basalt
+        Deltas biome\n\nEnd biome\n\n"}],text:"Deep Dark biome\n\nSoul Valley biome
+        \n\nNether Wastes\n\nCrimson Forest\n\nWarped Forest\n\n"}},{raw:{bold:1b,extra:[{bold:0b,text:"Stone-types
+        are extremely important in Mine Treasure. They have different treasure spawn
+        rates.\n\nStone:\nCommon: 1%\nRare: 0.25%\nEpic: 0.032%\nLegendary: 0.016%\nMythical:
+        0.008%"}],italic:0b,text:"Stone-types:\n"}},{raw:"Granite: Higher epic rates
+        at the cost of lower common and rare\nDiorite: Higher common rates, but lower
+        epic and rare\nAndesite/Magma Block: Higher rare, lower common and epic\nOres:
+        Higher everything"},{raw:"Deepslate/End Stone: Higher everything\nDeepslate
+        Ore: Even higher\nDiamond Ore: Highest possible chance for everything. Strategy
+        is to instamine Stone ASAP and try to find an Efficiency 9+ Pickaxe in the
+        Deep Dark or Mountain."},{raw:{bold:1b,extra:[{bold:0b,text:"The amount of
+        blocks mined will be counted towards unlocking new items in treasures. The
+        loot amount is also increased the more blocks you mine, usually it can be
+        noticeable per 10,000 blocks."}],text:"Loot Progression:\n"}},{raw:{bold:1b,extra:[{bold:0b,text:"Most
+        custom items spawn with random attributes, making every weapon feel unique.
+        Many of them are Biome Pieces. These pieces of armor are extremely powerful
+        and easily surpass Netherite. Armor values may go up as high as 25% higher
+        than Netherite."}],text:"Custom Items:\n"}},{raw:"Custom weapons rival End
+        Crystal explosions. Combine different sets to utilize a weapon to its full
+        potential. Utility items such as arrows, potions, runes, and food can define
+        the outcome of battles."},{raw:{bold:1b,extra:[{bold:0b,text:"The faster one
+        mines, the higher likelihood of finding treasures. Mountain Common Treasures
+        may give Haste II potions, while the Deep Dark biomes often contain Diamond
+        Pickaxes."}],text:"Tips and Tricks:\n"}},{raw:"Thank you for downloading my
+        data pack! Feedback is appreciated. Enjoy your adventure!\n\n- Frozytime"}],title:{raw:"Mine
+        Treasure"}}'
+      minecraft:lore: '[" ",{color:"gray",italic:0b,text:"A guide to the Mine Treasure"}]'
+      minecraft:custom_name: '{color:"gold",italic:0b,text:"Mine Treasure - Guidebook"}'
+    schema_version: 1
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:gold_block
+    count: 13
+    schema_version: 1
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:coal
+    count: 64
+    schema_version: 1
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:iron_block
+    count: 11
+    schema_version: 1
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:arrow
+    count: 7
+    schema_version: 1
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:bow
+    count: 1
+    components:
+      minecraft:damage: '365'
+    schema_version: 1
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_helmet
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:protection":3}'
+    schema_version: 1
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:wooden_hoe
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:2.0d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"}]'
+      minecraft:lore: '["  ",{color:"gray",italic:0b,text:"When in Main Hand:"},{color:"dark_green",italic:0b,text:"
+        2 Attack Damage"},{color:"dark_green",italic:0b,text:" 4 Attack Speed"}]'
+      minecraft:enchantments: '{"minecraft:efficiency":1,"minecraft:sharpness":5,"minecraft:silk_touch":1}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers"]}'
+      minecraft:custom_name: '{color:"aqua",italic:0b,text:"Wooden Hoe"}'
+      minecraft:damage: '4'
+    schema_version: 1
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_boots
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:fire_protection":3,"minecraft:unbreaking":3}'
+    schema_version: 1
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:lapis_lazuli
+    count: 38
+    schema_version: 1
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:enchanted_book
+    count: 1
+    components:
+      minecraft:stored_enchantments: '{"minecraft:protection":1}'
+    schema_version: 1
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:golden_shovel
+    count: 1
+    components:
+      minecraft:damage: '18'
+    schema_version: 1
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_block
+    count: 19
+    schema_version: 1
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:string
+    count: 13
+    schema_version: 1
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:honey_bottle
+    count: 13
+    schema_version: 1
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:bone
+    count: 64
+    schema_version: 1
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:bow
+    count: 1
+    components:
+      minecraft:damage: '254'
+    schema_version: 1
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:wooden_hoe
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:2.0d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"}]'
+      minecraft:lore: '["  ",{color:"gray",italic:0b,text:"When in Main Hand:"},{color:"dark_green",italic:0b,text:"
+        2 Attack Damage"},{color:"dark_green",italic:0b,text:" 4 Attack Speed"}]'
+      minecraft:enchantments: '{"minecraft:efficiency":3,"minecraft:sharpness":3,"minecraft:silk_touch":1,"minecraft:unbreaking":3}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers"]}'
+      minecraft:custom_name: '{color:"aqua",italic:0b,text:"Wooden Hoe"}'
+    schema_version: 1
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:experience_bottle
+    count: 64
+    schema_version: 1
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:dark_oak_planks
+    count: 64
+    schema_version: 1
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:iron_ingot
+    count: 54
+    schema_version: 1
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:book
+    count: 10
+    schema_version: 1
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:bookshelf
+    count: 1
+    schema_version: 1
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_block
+    count: 64
+    schema_version: 1
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:spawner
+    count: 1
+    components:
+      minecraft:block_entity_data: '{Delay:20s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:cave_spider"}},SpawnPotentials:[],SpawnRange:4s,id:"minecraft:mob_spawner"}'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"#AAAAAA",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cave
+        Spider Spawner",underlined:0b}],text:""}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:bees","minecraft:block_state","minecraft:written_book_content","minecraft:bundle_contents","minecraft:map_id","minecraft:potion_contents","minecraft:charged_projectiles","minecraft:fireworks","minecraft:painting/variant","minecraft:banner_patterns","minecraft:jukebox_playable","minecraft:block_entity_data","minecraft:firework_explosion","minecraft:tropical_fish/pattern","minecraft:container_loot"]}'
+      minecraft:custom_data: '{StackSize:1}'
+    schema_version: 1
+score: 0

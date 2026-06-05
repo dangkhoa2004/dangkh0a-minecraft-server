@@ -1,0 +1,242 @@
+inventory:
+  armor:
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_boots
+    count: 1
+    components:
+      minecraft:damage: '40'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_leggings
+    count: 1
+    components:
+      minecraft:damage: '40'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_chestplate
+    count: 1
+    components:
+      minecraft:damage: '40'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_helmet
+    count: 1
+    components:
+      minecraft:damage: '40'
+    schema_version: 1
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_pickaxe
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"#CCCCCC",italic:0b,obfuscated:0b,strikethrough:0b,text:"Kinh
+        Nghiệm IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#CCCCCC",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thủy
+        Sinh I",underlined:0b}],text:""},{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thu
+        Gom I",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khai
+        Mỏ III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Tái
+        Tạo III",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 4"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:efficiency":5,"minecraft:silk_touch":1,"minecraft:unbreaking":3}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-khaimo":3,"advancedenchantments:ae_enchantment-kinhnghiem":4,"advancedenchantments:ae_enchantment-taitao":3,"advancedenchantments:ae_enchantment-thugom":1,"advancedenchantments:ae_enchantment-thuysinh":1,"advancedenchantments:repaircost":3,"advancedenchantments:slots":5}}'
+      minecraft:damage: '59'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:ender_pearl
+    count: 16
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:golden_apple
+    count: 38
+    schema_version: 1
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:spawner
+    count: 6
+    components:
+      minecraft:block_entity_data: '{Delay:20s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:spider"}},SpawnPotentials:[],SpawnRange:4s,id:"minecraft:mob_spawner"}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:bees","minecraft:block_state","minecraft:written_book_content","minecraft:bundle_contents","minecraft:map_id","minecraft:potion_contents","minecraft:charged_projectiles","minecraft:fireworks","minecraft:painting/variant","minecraft:banner_patterns","minecraft:jukebox_playable","minecraft:block_entity_data","minecraft:firework_explosion","minecraft:tropical_fish/pattern","minecraft:container_loot"]}'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"#AAAAAA",italic:0b,obfuscated:0b,strikethrough:0b,text:"Spider
+        Spawner",underlined:0b}],text:""}'
+      minecraft:custom_data: '{StackSize:1}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:spawner
+    count: 10
+    components:
+      minecraft:block_entity_data: '{Delay:20s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:cave_spider"}},SpawnPotentials:[],SpawnRange:4s,id:"minecraft:mob_spawner"}'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"#AAAAAA",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cave
+        Spider Spawner",underlined:0b}],text:""}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:bees","minecraft:block_state","minecraft:written_book_content","minecraft:bundle_contents","minecraft:map_id","minecraft:potion_contents","minecraft:charged_projectiles","minecraft:fireworks","minecraft:painting/variant","minecraft:banner_patterns","minecraft:jukebox_playable","minecraft:block_entity_data","minecraft:firework_explosion","minecraft:tropical_fish/pattern","minecraft:container_loot"]}'
+      minecraft:custom_data: '{StackSize:1}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:spawner
+    count: 7
+    components:
+      minecraft:block_entity_data: '{Delay:20s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:skeleton"}},SpawnPotentials:[],SpawnRange:4s,id:"minecraft:mob_spawner"}'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"#AAAAAA",italic:0b,obfuscated:0b,strikethrough:0b,text:"Skeleton
+        Spawner",underlined:0b}],text:""}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:bees","minecraft:block_state","minecraft:written_book_content","minecraft:bundle_contents","minecraft:map_id","minecraft:potion_contents","minecraft:charged_projectiles","minecraft:fireworks","minecraft:painting/variant","minecraft:banner_patterns","minecraft:jukebox_playable","minecraft:block_entity_data","minecraft:firework_explosion","minecraft:tropical_fish/pattern","minecraft:container_loot"]}'
+      minecraft:custom_data: '{StackSize:1}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:spawner
+    count: 5
+    components:
+      minecraft:block_entity_data: '{Delay:20s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:zombie"}},SpawnPotentials:[],SpawnRange:4s,id:"minecraft:mob_spawner"}'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"#AAAAAA",italic:0b,obfuscated:0b,strikethrough:0b,text:"Zombie
+        Spawner",underlined:0b}],text:""}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:bees","minecraft:block_state","minecraft:written_book_content","minecraft:bundle_contents","minecraft:map_id","minecraft:potion_contents","minecraft:charged_projectiles","minecraft:fireworks","minecraft:painting/variant","minecraft:banner_patterns","minecraft:jukebox_playable","minecraft:block_entity_data","minecraft:firework_explosion","minecraft:tropical_fish/pattern","minecraft:container_loot"]}'
+      minecraft:custom_data: '{StackSize:1}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:ender_pearl
+    count: 16
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:ender_pearl
+    count: 16
+    schema_version: 1
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_boots
+    count: 1
+    components:
+      minecraft:damage: '40'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_leggings
+    count: 1
+    components:
+      minecraft:damage: '40'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_chestplate
+    count: 1
+    components:
+      minecraft:damage: '40'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_helmet
+    count: 1
+    components:
+      minecraft:damage: '40'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  - null
+  - null

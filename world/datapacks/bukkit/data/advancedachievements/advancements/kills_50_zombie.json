@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:bone"
+    },
+    "title":"\u2623 \u00A7x\u00A7F\u00A7FT\u029C\u1EE3 S\u0103\u0274 Z\u1D0F\u1D0D\u0299\u026A\u1D07",
+    "description":"T\u026A\u00EA\u1D1C \u1D05\u026A\u1EC7\u1D1B \u00A7x\u00A7F\u00A7F50 \u1D22\u1D0F\u1D0D\u0299\u026A\u1D07.",
+    "frame":"challenge",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:kills_1_zombie"
+}

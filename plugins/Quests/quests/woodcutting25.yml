@@ -1,0 +1,31 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    block: BIRCH_PLANKS
+    amount: 256
+display:
+  name: "&#A3C4F3&nᴛɪềɴ ᴛʀạᴍ ᴄʜặᴛ ɢỗ:&r &#FDFD96#XXV"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ᴄʜặᴛ ɢỗ ᴛʀêɴ ʜàɴʜ ᴛʀɪ̀ɴʜ.'
+    - '&#D1E8E2ᴘʜá ʜủʏ ᴠáɴ ɢỗ ʙạᴄʜ ᴅươɴɢ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴘʜá ᴠáɴ ɢỗ ʙạᴄʜ ᴅươɴɢ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{mining:progress}/256 ᴋʜốɪ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$1000'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "DIAMOND_AXE"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 1000"
+options:
+  category: "woodcutting"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 25
+  requires:
+    - "woodcutting24"

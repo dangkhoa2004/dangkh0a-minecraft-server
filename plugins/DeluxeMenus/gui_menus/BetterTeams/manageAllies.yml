@@ -1,0 +1,176 @@
+menu_title: '&#AEC6CF&l❁ ʟɪêɴ ᴍɪɴʜ %changeoutput_equals_input:{betterteamsextra_allycount}_matcher:0_ifmatch:_else:({betterteamsextra_allycount})% ❁'
+size: 27
+open_command: []
+items:
+  'Close':
+    material: BARRIER
+    slot: 22
+    display_name: '&#ED4245&l✖ ĐÓɴɢ ᴍᴇɴᴜ'
+    lore:
+    - ''
+    - '&#ED4245▶ &#E0E0E0Nhấn để đóng giao diện'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+  'Go Back':
+    material: ARROW
+    slot: 21
+    display_name: '&#AEC6CF&l◀ ǫᴜᴀʏ ʟạɪ'
+    lore:
+    - ''
+    - '&#AEC6CF▶ &#E0E0E0Nhấn để quay lại'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] BetterTeamsMain'
+  'Filler 1':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    display_name: '&r'
+  'Filler 2':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 1-7
+    - 19-20
+    - 23-25
+    display_name: '&r'
+     
+  'No Allies Requests':
+    material: EMERALD
+    slot: 13
+    display_name: '&#57F287&l❁ ʏêᴜ ᴄầᴜ ʟɪêɴ ᴍɪɴʜ ❁'
+    lore:
+    - ''
+    - ' &#57F287[!] Bạn có %betterteamsextra_allyrequestcount% yêu cầu!'
+    - ''
+    - '%betterteamsextra_allyrequestlist%'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để CHẤP NHẬN liên minh'
+    priority: 1
+    view_requirement:
+      requirements:
+        hasNoAllies:
+          type: string equals
+          input: '%betterteamsextra_hasallies%'
+          output: 'no'
+        hasRequests:
+          type: string equals
+          input: '%betterteamsextra_hasallyrequests%'
+          output: 'yes'
+    click_requirement:
+      requirements:
+        hasOneRequest:
+          type: string equals
+          input: '%betterteamsextra_allyrequestcount%'
+          output: '1'
+          success_commands:
+          - '[sound] ENTITY_PLAYER_LEVELUP'
+          - '[player] team ally %betterteamsextra_allyrequestname_0%'
+          deny_commands:
+          - '[sound] UI_BUTTON_CLICK'
+          - '[close]'
+          - '[suggest_command] /team ally '
+    click_commands:
+    - '[close]'
+
+  'No Allies No Requests':
+    material: EMERALD
+    slot: 13
+    display_name: '&#57F287&l❁ ɢửɪ ʟờɪ ᴍờɪ ʟɪêɴ ᴍɪɴʜ ❁'
+    lore:
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để gửi lời mời'
+    priority: 2
+    view_requirement:
+      requirements:
+        hasAllies:
+          type: string equals
+          input: '%betterteamsextra_hasallies%'
+          output: 'no'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team ally '
+
+  'Allies Requests':
+    material: EMERALD
+    slot: 12
+    display_name: '&#57F287&l❁ ʏêᴜ ᴄầᴜ ʟɪêɴ ᴍɪɴʜ ❁'
+    lore:
+    - ''
+    - ' &#57F287[!] Bạn có %betterteamsextra_allyrequestcount% yêu cầu!'
+    - ''
+    - '%betterteamsextra_allyrequestlist%'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để CHẤP NHẬN'
+    priority: 1
+    view_requirement:
+      requirements:
+        hasAllies:
+          type: string equals
+          input: '%betterteamsextra_hasallies%'
+          output: 'yes'
+        hasRequests:
+          type: string equals
+          input: '%betterteamsextra_hasallyrequests%'
+          output: 'yes'
+    click_requirement:
+      requirements:
+        hasOneRequest:
+          type: string equals
+          input: '%betterteamsextra_allyrequestcount%'
+          output: '1'
+          success_commands:
+          - '[sound] ENTITY_PLAYER_LEVELUP'
+          - '[player] team ally %betterteamsextra_allyrequestname_0%'
+          - '[close]'
+          deny_commands:
+          - '[sound] UI_BUTTON_CLICK'
+          - '[close]'
+          - '[suggest_command] /team ally '
+          - '[close]'
+
+  'Allies No Requests':
+    material: EMERALD
+    slot: 12
+    display_name: '&#57F287&l❁ ɢửɪ ʟờɪ ᴍờɪ ʟɪêɴ ᴍɪɴʜ ❁'
+    lore:
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để gửi lời mời'
+    priority: 2
+    view_requirement:
+      requirements:
+        hasAllies:
+          type: string equals
+          input: '%betterteamsextra_hasallies%'
+          output: 'yes'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team ally '
+ 
+  'End Alliance':
+    material: ANVIL
+    slot: 14
+    display_name: '&#ED4245&l❁ ʜủʏ ʟɪêɴ ᴍɪɴʜ ❁'
+    lore:
+    - ''
+    - '%betterteamsextra_allylist%'
+    - ''
+    - '&#ED4245▶ &#E0E0E0Nhấn để hủy liên minh'
+    view_requirement:
+      requirements:
+        hasRequests:
+          type: string equals
+          input: '%betterteamsextra_hasallies%'
+          output: 'yes'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[meta] set BetterTeamsConfirmAction STRING alliance termination'
+    - '[meta] set BetterTeamsConfirmActionBack STRING BetterTeamsManageAllies'
+    - '[openguimenu] BetterTeamsConfirmAction'

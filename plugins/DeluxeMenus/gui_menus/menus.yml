@@ -1,0 +1,380 @@
+menu_title: '&#a8e6cf&lᴍᴇɴᴜ &#b8f2e6&lᴛɪệɴ íᴄʜ'
+open_command:
+- tienich
+- menu
+register_command: true
+size: 36
+update_interval: -1
+
+items:
+  'trash_menu':
+    material: CAULDRON
+    slot: 2
+    display_name: '&#B5EAD7&lᴛʜùɴɢ ʀáᴄ (/ᴛʀᴀsʜ)'
+    lore:
+    - '&#E0E0E0Mở thùng rác để vứt bỏ'
+    - '&#E0E0E0các khối/vật phẩm thừa.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để mở'
+    click_commands:
+
+    - '[player] trash'
+    - '[sound] BLOCK_COMPOSTER_EMPTY'
+  'skin_menu':
+    material: PLAYER_HEAD
+    slot: 6
+    display_name: '&#FFB7B2&lđổɪ ᴛʀᴀɴɢ ᴘʜụᴄ (sᴋɪɴ)'
+    lore:
+    - '&#E0E0E0Mở giao diện thay đổi'
+    - '&#E0E0E0Skin ngoại hình nhân vật.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để mở'
+    click_commands:
+
+    - '[player] skin gui'
+    - '[sound] ITEM_ARMOR_EQUIP_LEATHER'
+  'pv':
+    material: ENDER_CHEST
+    slot: 13
+    display_name: '&#B9FBC0&lᴋʜᴏ đồ ᴄá ɴʜâɴ'
+    lore:
+    - '&#fcfcfcᴍở ᴋʜᴏ đồ ᴅự ᴘʜòɴɢ ᴄủᴀ ʙạɴ'
+    - '&#fcfcfcđể ᴄấᴛ ɢɪữ ᴠậᴛ ᴘʜẩᴍ ǫᴜᴀɴ ᴛʀọɴɢ.'
+    - ''
+    - '&#a8e6cf▶ ɴʜấɴ để ᴍở ᴋʜᴏ đồ!'
+    left_click_commands:
+
+    - '[player] pvmenu'
+    right_click_commands:
+
+    - '[player] pvmenu'
+  'balo':
+    material: CHEST
+    slot: 10
+    display_name: '&#ffaaa5&lʙᴀ ʟô ᴄá ɴʜâɴ'
+    lore:
+    - '&#fcfcfcᴍở ᴛúɪ đồ ᴅự ᴘʜòɴɢ ᴄủᴀ ʙạɴ'
+    - '&#fcfcfcđể ᴄấᴛ ɢɪữ ᴠậᴛ ᴘʜẩᴍ ǫᴜᴀɴ ᴛʀọɴɢ.'
+    - ''
+    - '&#a8e6cf▶ ɴʜấɴ để ᴍở ʙᴀ ʟô!'
+    left_click_commands:
+
+    - '[player] backpack'
+    right_click_commands:
+
+    - '[player] backpack'
+
+  'dich_chuyen':
+    material: COMPASS
+    slot: 11
+    display_name: '&#c1ebf1&lᴅịᴄʜ ᴄʜᴜʏểɴ'
+    lore:
+    - '&#fcfcfcxᴇᴍ ᴅᴀɴʜ sáᴄʜ ᴄáᴄ ᴋʜᴜ ᴠựᴄ'
+    - '&#fcfcfcᴀɴ ᴛᴏàɴ ʜᴏặᴄ ʙãɪ ꜰᴀʀᴍ.'
+    - ''
+    - '&#a8e6cf▶ ɴʜấɴ để xᴇᴍ ᴅᴀɴʜ sáᴄʜ!'
+    left_click_commands:
+
+    - '[player] warps'
+    right_click_commands:
+
+    - '[player] warps'
+
+  'nhiem_vu':
+    material: WRITABLE_BOOK
+    slot: 12
+    display_name: '&#ffeb99&lɴʜɪệᴍ ᴠụ'
+    lore:
+    - '&#fcfcfcɴʜậɴ ᴠà ᴋɪểᴍ ᴛʀᴀ ᴛɪếɴ độ'
+    - '&#fcfcfcᴄáᴄ ɴʜɪệᴍ ᴠụ ʜàɴɢ ɴɢàʏ.'
+    - ''
+    - '&#a8e6cf▶ ɴʜấɴ để ᴍở ʙảɴɢ!'
+    left_click_commands:
+
+    - '[player] quest'
+    right_click_commands:
+
+    - '[player] quest'
+
+  'khu_trung_tam':
+    material: GRASS_BLOCK
+    slot: 14
+    display_name: '&#b8f2e6&lᴋʜᴜ ᴛʀᴜɴɢ ᴛâᴍ'
+    lore:
+    - '&#fcfcfcǫᴜᴀʏ ᴠề ᴋʜᴜ ᴠựᴄ sảɴʜ'
+    - '&#fcfcfcᴄʜíɴʜ ᴄủᴀ ᴍáʏ ᴄʜủ.'
+    - ''
+    - '&#a8e6cf▶ ɴʜấɴ để ᴠề sᴘᴀᴡɴ!'
+    left_click_commands:
+
+    - '[player] spawn'
+    right_click_commands:
+
+    - '[player] spawn'
+
+  'xep_hang':
+    material: DIAMOND
+    slot: 15
+    display_name: '&#ffd3b6&lʀᴀɴᴋ'
+    lore:
+    - '&#fcfcfcxᴇᴍ ᴛʜôɴɢ ᴛɪɴ ᴄấᴘ ʙậᴄ ᴠà'
+    - '&#fcfcfcǫᴜʏềɴ ʟợɪ ᴄủᴀ ʙạɴ.'
+    - ''
+    - '&#a8e6cf▶ ɴʜấɴ để xᴇᴍ ʀᴀɴᴋ!'
+    left_click_commands:
+
+    - '[player] rank'
+    right_click_commands:
+
+    - '[player] rank'
+
+  #'mua_key':
+  #  material: TRIPWIRE_HOOK
+  #  slot: 16
+  #  display_name: '&#eec8f5&lᴍᴜᴀ ᴄʜìᴀ ᴋʜóᴀ'
+  #  lore:
+  #  - '&#fcfcfcᴍở ᴄửᴀ ʜàɴɢ ᴍᴜᴀ ᴄʜìᴀ ᴋʜóᴀ'
+  #  - '&#fcfcfcđể ᴍở ᴄáᴄ ʜòᴍ ᴠậᴛ ᴘʜẩᴍ.'
+  #  - ''
+  #  - '&#a8e6cf▶ ɴʜấɴ để ᴍᴜᴀ ᴋᴇʏ!'
+  #  left_click_commands:
+  #
+  #  - '[player] muakey'
+  #  right_click_commands:
+  #
+  #  - '[player] muakey'
+  'special_shop_button':
+    display_name: '&#FFD700&lѕʜᴏᴘ đặᴄ ʙɪệᴛ'
+    material: NETHER_STAR
+    slot: 21
+    lore:
+    - '&#AAAAAAᴋʜáᴍ ᴘʜá ᴄáᴄ ᴠậᴛ ᴘʜẩᴍ ᴠà'
+    - '&#AAAAAAǫᴜʏềɴ ʟợɪ đặᴄ ʙɪệᴛ ᴛạɪ đâʏ!'
+    - ''
+    - '&#57F287ɴʜấɴ ᴠàᴏ để ᴍở ᴄửᴀ ʜàɴɢ'
+    left_click_commands:
+    - '[player] specialshop'
+    right_click_commands:
+    - '[player] specialshop'
+  'cong_dong':
+    material: SUNFLOWER
+    slot: 20
+    display_name: '&#ffaaa5&lᴍạɴɢ xã ʜộɪ'
+    lore:
+    - '&#fcfcfcᴋếᴛ ɴốɪ ᴠớɪ ᴄộɴɢ đồɴɢ'
+    - '&#fcfcfcɴɢườɪ ᴄʜơɪ ᴄủᴀ ᴍáʏ ᴄʜủ.'
+    - ''
+    - '&#a8e6cf▶ ɴʜấɴ để xᴇᴍ ʟɪɴᴋ!'
+    left_click_commands:
+
+    - '[player] socials'
+    right_click_commands:
+
+    - '[player] socials'
+
+  'huong_dan':
+    material: BOOK
+    slot: 16
+    display_name: '&#c1ebf1&lʜướɴɢ ᴅẫɴ'
+    lore:
+    - '&#fcfcfcᴄẩᴍ ɴᴀɴɢ ᴠà ǫᴜʏ địɴʜ ᴅàɴʜ'
+    - '&#fcfcfcᴄʜᴏ ʙᴀɴ ǫᴜảɴ ᴛʀị.'
+    - ''
+    - '&#a8e6cf▶ ɴʜấɴ để xᴇᴍ ʜướɴɢ ᴅẫɴ!'
+    left_click_commands:
+
+    - '[player] staffguide'
+    right_click_commands:
+
+    - '[player] staffguide'
+
+  'cai_dat':
+    material: REPEATER
+    slot: 22
+    display_name: '&#dcedc1&lᴄàɪ đặᴛ'
+    lore:
+    - '&#fcfcfcᴛùʏ ᴄʜỉɴʜ ᴄáᴄ ʜệ ᴛʜốɴɢ'
+    - '&#fcfcfcᴄá ɴʜâɴ ᴛʀᴏɴɢ ɢᴀᴍᴇ.'
+    - ''
+    - '&#a8e6cf▶ ɴʜấɴ để ᴍở ᴄàɪ đặᴛ!'
+    left_click_commands:
+
+    - '[player] caidat'
+    right_click_commands:
+
+    - '[player] caidat'
+
+  'ngoai_trang':
+    material: LEATHER_CHESTPLATE
+    slot: 23
+    display_name: '&#fde4cf&lɴɢᴏạɪ ᴛʀᴀɴɢ'
+    lore:
+    - '&#fcfcfcʟàᴍ đẹᴘ ᴄʜᴏ ɴʜâɴ ᴠậᴛ ᴠớɪ'
+    - '&#fcfcfcᴄáᴄ ʜɪệᴜ ứɴɢ đặᴄ ʙɪệᴛ.'
+    - ''
+    - '&#a8e6cf▶ ɴʜấɴ để ᴍở ᴛủ đồ!'
+    left_click_commands:
+
+    - '[player] cosmetics'
+    right_click_commands:
+
+    - '[player] cosmetics'
+
+  'bang_xep_hang':
+    material: GOLD_BLOCK
+    slot: 24
+    display_name: '&#b5ead7&lʙảɴɢ xếᴘ ʜạɴɢ'
+    lore:
+    - '&#fcfcfcᴠɪɴʜ ᴅᴀɴʜ ɴʜữɴɢ ɴɢườɪ ᴄʜơɪ'
+    - '&#fcfcfcxᴜấᴛ sắᴄ ɴʜấᴛ ᴍáʏ ᴄʜủ.'
+    - ''
+    - '&#a8e6cf▶ ɴʜấɴ để xᴇᴍ ᴛᴏᴘ!'
+    left_click_commands:
+
+    - '[player] leaderboards'
+    right_click_commands:
+
+    - '[player] leaderboards'
+  'thong_tin_ca_nhan':
+    material: head-%player_name%
+    slot: 4
+    display_name: '&#ffb7b2&lʜồ sơ ᴄủᴀ %player_name%'
+    lore:
+    - ''
+    - '&#fcfcfc❖ &fᴄấᴘ ʙậᴄ: &#ffeb99%vault_prefix%'
+    - '&#fcfcfc❖ &fᴛàɪ sảɴ: &#a8e6cf%vault_eco_balance_formatted% ⛃'
+    - '&#fcfcfc❖ &fđɪểᴍ (ᴘᴏɪɴᴛs): &#b5ead7%playerpoints_points% ✪'
+    - '&#fcfcfc❖ &fʙʟᴏᴄᴋ ᴄʟᴀɪᴍ: &#ffd3b6%griefprevention_remainingclaims% ▤'
+    - ''
+    - '&#fcfcfc⚔ &fʜạ ɢụᴄ (ᴋɪʟʟs): &#ffaaa5%statistic_player_kills%'
+    - '&#fcfcfc☠ &fᴛử ᴠᴏɴɢ (ᴅᴇᴀᴛʜs): &#c1ebf1%statistic_deaths%'
+    - '&#fcfcfc⭐ &fᴄấᴘ độ (ʟᴇᴠᴇʟ): &#eec8f5%player_level%'
+    - '&#fcfcfc⌚ &fᴛʜờɪ ɢɪᴀɴ ᴄʜơɪ: &#dcedc1%statistic_time_played%'
+    - '&#fcfcfc📶 &fđộ ᴛʀễ (ᴘɪɴɢ): &#fde4cf%player_ping% ᴍs'
+    - '&#fcfcfc📅 &fɴɢàʏ ᴛʜᴀᴍ ɢɪᴀ: &#ffecd6%player_first_join_date%'
+    - ''
+    - '&#a8e6cf▶ ᴄʜúᴄ ʙạɴ ᴄʜơɪ ɢᴀᴍᴇ ᴠᴜɪ ᴠẻ!'
+    left_click_commands:
+    - '[donothing]'
+    right_click_commands:
+    - '[donothing]'
+  'vien_trang_tri_trang':
+    material: White_STAINED_GLASS_PANE
+    slots:
+    - 0-1
+    - 7-8
+    - 27-35
+    display_name: ' '
+    left_click_commands:
+    - '[donothing]'
+    right_click_commands:
+    - '[donothing]'
+  # === [ CÁC LỆNH CƠ BẢN TRONG SERVER ] ===
+  server_commands:
+    material: KNOWLEDGE_BOOK
+    slot: 5 # Thay đổi số này sang slot bạn muốn đặt trong menu
+    display_name: '&#00D5FF&lᴄáᴄ ʟệɴʜ ᴄơ ʙảɴ ᴛʀᴏɴɢ ѕᴇʀᴠᴇʀ'
+    lore:
+    - ' &#FFD700/top &#E0E0E0- ᴅịᴄʜ ᴄʜᴜʏểɴ ʟêɴ ɴơɪ ᴄᴀᴏ ɴʜấᴛ'
+    - ' &#FFD700/bottom &#E0E0E0- ᴅịᴄʜ ᴄʜᴜʏểɴ xᴜốɴɢ ɴơɪ ᴛʜấᴘ ɴʜấᴛ'
+    - ' &#FFD700/pv1 &#E0E0E0- ᴍở ᴋʜᴏ đồ ᴘʜụ &#57F287(ʀᴀɴᴋ ᴄᴀᴏ ѕẽ +1 ᴋʜᴏ)'
+    - ' &#FFD700/tpa &#E0E0E0- ᴅịᴄʜ ᴄʜᴜʏểɴ đếɴ ʙạɴ ʙè &#57F287(/tpyes, /tpno để xử ʟý)'
+    - ' &#FFD700/back &#E0E0E0- ǫᴜᴀʏ ʟạɪ ᴄʜỗ ᴄʜếᴛ ʜᴏặᴄ ᴠị ᴛʀí ᴛᴘ ɢầɴ ɴʜấᴛ'
+    - ' &#FFD700/rtp &#E0E0E0- ᴅịᴄʜ ᴄʜᴜʏểɴ ɴɢẫᴜ ɴʜɪêɴ 1000 ʙʟᴏᴄᴋ &#57F287(ʜồɪ 5ᴘ)'
+    - ' &#FFD700/sethome &#E0E0E0- ᴛạᴏ ɴʜà &#57F287(ᴛốɪ đᴀ 3)&#E0E0E0. ᴅùɴɢ &#FFD700/home <tên> &#E0E0E0để ᴠề'
+    - ' &#FFD700/warps &#E0E0E0- ᴍở ᴍᴇɴᴜ ᴅịᴄʜ ᴄʜᴜʏểɴ ᴋʜᴜ ᴠựᴄ'
+    - ' &#FFD700/setting &#E0E0E0- ᴄàɪ đặᴛ ᴄáᴄ ᴛíɴʜ ɴăɴɢ ᴄá ɴʜâɴ'
+    - ' &#FFD700/stats &#E0E0E0- ᴍở ʙảɴɢ ᴛʜôɴɢ ᴛɪɴ ᴄá ɴʜâɴ'
+    - ' &#FFD700/ah &#E0E0E0- ᴍở ᴄʜợ đᴇɴ &#57F287(ᴅùɴɢ /ah sell <giá> để ʙáɴ)'
+    - ' &#FFD700/shop &#E0E0E0- ᴍở ᴄửᴀ ʜàɴɢ ѕᴇʀᴠᴇʀ'
+    - ' &#FFD700/diemdanh &#E0E0E0- Đɪểᴍ ᴅᴀɴʜ ʜàɴɢ ɴɢàʏ'
+    - ' &#FFD700/claim &#E0E0E0- ᴍở ᴍᴇɴᴜ ǫᴜảɴ ʟý ᴠà ᴄʜỉɴʜ ѕửᴀ ᴍảɴʜ đấᴛ'
+    - ' &#FFD700/muaclaim &#E0E0E0- ᴍᴜᴀ ᴛʜêᴍ đấᴛ ᴄʟᴀɪᴍ ʙằɴɢ xᴜ ʜᴏặᴄ ᴘᴏɪɴᴛ'
+    - ' &#FFD700/ce &#E0E0E0- ᴍở ᴍᴇɴᴜ ѕáᴄʜ ᴘʜù ᴘʜéᴘ ᴄᴜѕᴛᴏᴍ'
+    - ' &#FFD700/skin &#E0E0E0- ᴛʜᴀʏ đổɪ ѕᴋɪɴ &#57F287(/skin <tên_người_chơi>)'
+    - ' &#FFD700/taixiu &#E0E0E0- ᴍở ᴛàɪ xỉᴜ &#57F287(ʜᴏặᴄ /taixiu cuoc tai/xiu <giá>)'
+    - ' &#FFD700/trade &#E0E0E0- ɢɪᴀᴏ ᴅịᴄʜ ᴠớɪ ɴɢườɪ ᴄʜơɪ &#57F287(ʜᴏặᴄ ѕʜɪꜰᴛ + ᴄʟɪᴄᴋ)'
+    - ' &#FFD700/sb &#E0E0E0- ʙậᴛ / ᴛắᴛ ʙảɴɢ đɪểᴍ ѕᴄᴏʀᴇʙᴏᴀʀᴅ'
+    - ' &#FFD700/sit &#E0E0E0- ɴɢồɪ ʟêɴ ʙấᴛ ᴄứ đâᴜ ᴛʀᴏɴɢ ѕᴇʀᴠᴇʀ'
+    - ' &#FFD700/minebank &#E0E0E0- ɴạᴘ ᴛɪềɴ ᴠàᴏ ѕᴇʀᴠᴇʀ &#57F287(ʜᴏặᴄ /chuyenkhoan)'
+    - ' &#FFD700/shopdon &#E0E0E0- ᴍᴜᴀ ᴠậᴛ ᴘʜẩᴍ ᴅᴏɴᴀᴛᴇ &#57F287(ʜᴏặᴄ /warp shopdon)'
+  # === [ MENU ĐIỂM DANH ] ===
+  diemdanh_menu:
+    material: CLOCK
+    slot: 3 # Hãy đổi số này sang ô trống trong menu của bạn
+    display_name: '&#57F287&lđɪểᴍ ᴅᴀɴʜ ɴʜậɴ ǫᴜà'
+    lore:
+    - ' &#E0E0E0ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ ɢɪá ᴛʀị ᴍỗɪ ɴɢàʏ'
+    - ' &#E0E0E0ᴠà ᴍỗɪ ᴛᴜầɴ để ᴘʜáᴛ ᴛʀɪểɴ ɴʜᴀɴʜ ʜơɴ.'
+    - ''
+    - ' &#FFD700&lǫᴜà ʙᴀᴏ ɢồᴍ:'
+    - '  &#57F287• &#E0E0E0xᴜ, ᴘᴏɪɴᴛѕ ɴạᴘ'
+    - '  &#57F287• &#E0E0E0ᴠậᴛ ᴘʜẩᴍ ᴄᴜѕᴛᴏᴍ, ѕáᴄʜ ᴘʜéᴘ'
+    - ''
+    - '&#00D5FF➥ &#FFD700ɴʜấɴ để ᴍở ᴍᴇɴᴜ đɪểᴍ ᴅᴀɴʜ!'
+    left_click_commands:
+    - '[player] diemdanh'
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[player] diemdanh'
+    - '[sound] UI_BUTTON_CLICK'
+  'vien_trang_tri_xanh':
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    slots:
+    - 9
+    - 17
+    - 18
+    - 19
+    - 25
+    - 26
+    display_name: ' '
+    left_click_commands:
+    - '[donothing]'
+    right_click_commands:
+    - '[donothing]'
+  'fastce_shortcut':
+    material: ENCHANTED_BOOK
+    slot: 30
+    priority: 1
+    update: true
+    display_name: '&#BDB2FF&l❁ ᴍᴜᴀ ɴʜᴀɴʜ ᴄᴇ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Mở giao diện mua nhanh các loại'
+    - '  &#E0E0E0sách phù phép nâng cao của server.'
+    - ''
+    - '&#BDB2FF▶ &#E0E0E0Nhấn để mở giao diện'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] fastce'
+  'ky_nang_auraskills':
+    material: EXPERIENCE_BOTTLE
+    slot: 31
+    display_name: '&#00D5FF&lᴋỹ ɴăɴɢ ᴠà ᴄʜỉ ѕố'
+    lore:
+    - ''
+    - '&#E0E0E0ɴʜấɴ ᴠàᴏ đâʏ để ᴍở ʜệ ᴛʜốɴɢ'
+    - '&#E0E0E0ᴋỹ ɴăɴɢ, ᴄʜỉ ѕố ᴠà ᴍᴀ ᴘʜáᴘ.'
+    - ''
+    - '&#FFD700⭐ &#E0E0E0đạᴛ ᴄấᴘ ᴄᴀᴏ để ᴍở ᴋʜóᴀ'
+    - '&#FFD700   &#E0E0E0ɴʜɪềᴜ ᴘʜầɴ ᴛʜưởɴɢ ʜấᴘ ᴅẫɴ!'
+    - ''
+    - '&#57F287▶ ɴʜấɴ ᴄʜᴜộᴛ để ᴍở ᴍᴇɴᴜ'
+    click_commands:
+    - '[player] skill'
+    - '[sound] BLOCK_ENCHANTMENT_TABLE_USE'
+  'gsit_shortcut':
+    material: ARMOR_STAND
+    slot: 32
+    priority: 1
+    update: true
+    display_name: '&#BDB2FF&l❁ ᴄáᴄ ᴛư ᴛʜế (ɢsɪᴛ) ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Mở giao diện điều khiển hành động'
+    - '  &#E0E0E0tương tác như ngồi, nằm, bò, xoay...'
+    - ''
+    - '&#BDB2FF▶ &#E0E0E0Nhấn để mở giao diện'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[console] dmenu open G-sit %player_name%'

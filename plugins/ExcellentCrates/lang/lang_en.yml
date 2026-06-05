@@ -1,0 +1,1230 @@
+Command:
+  Argument:
+    Name:
+      Crate: Rương
+      Key: Chìa khoá
+      X: x
+      Y: y
+      Z: z
+  Editor:
+    Desc: Mở giao diện chỉnh sửa.
+  Drop:
+    Desc: Tạo ra rương vật lý trong thế giới.
+    Done: <gray>Đã thả <soft_yellow>%crate_name%</soft_yellow> tại <soft_yellow>%location_x%, %location_y%, %location_z%</soft_yellow> thuộc <soft_yellow>%location_world%</soft_yellow>.</gray>
+  DropKey:
+    Desc: Tạo ra chìa khoá vật lý trong thế giới.
+    Done: <gray>Đã thả <soft_yellow>%key_name%</soft_yellow> tại <soft_yellow>%location_x%, %location_y%, %location_z%</soft_yellow> thuộc <soft_yellow>%location_world%</soft_yellow>.</gray>
+  Open:
+    Desc: Mở một rương.
+  OpenFor:
+    Desc: Mở rương cho một người chơi.
+    Done: <gray>Đã mở <soft_yellow>%crate_name%</soft_yellow> cho <soft_yellow>%player_name%</soft_yellow>.</gray>
+    Notify: <gray>Bạn đã bị ép mở <soft_yellow>%crate_name%</soft_yellow>.</gray>
+  Give:
+    Desc: Đưa rương cho một người chơi.
+    Done: <gray>Đã trao <soft_yellow>x%amount%</soft_yellow> rương <soft_yellow>%crate_name%</soft_yellow> cho <soft_yellow>%player_name%</soft_yellow>.</gray>
+    Notify: <gray>Bạn đã nhận được <soft_yellow>x%amount%</soft_yellow> rương <soft_yellow>%crate_name%</soft_yellow>.</gray>
+  Key:
+    Desc: Quản lý chìa khoá của người chơi.
+    Give:
+      Desc: Đưa chìa khoá cho một người chơi.
+      Done: <gray>Đã trao <soft_yellow>x%amount%</soft_yellow> chìa khoá <soft_yellow>%key_name%</soft_yellow> cho <soft_yellow>%player_name%</soft_yellow>.</gray>
+      Notify: <gray>Bạn đã nhận được <soft_yellow>x%amount%</soft_yellow> chìa khoá <soft_yellow>%key_name%</soft_yellow>!</gray>
+    Take:
+      Desc: Lấy chìa khoá từ một người chơi.
+      Done: <gray>Đã lấy <soft_yellow>x%amount%</soft_yellow> chìa khoá <soft_yellow>%key_name%</soft_yellow> từ <soft_yellow>%player_name%</soft_yellow>.</gray>
+      Notify: <gray>Bạn đã mất <soft_red>x%amount%</soft_red> chìa khoá <soft_red>%key_name%</soft_red>.</gray>
+    Set:
+      Desc: Cài đặt số lượng chìa khoá cho một người chơi.
+      Done: <gray>Đã cài đặt <soft_yellow>x%amount%</soft_yellow> chìa khoá <soft_yellow>%key_name%</soft_yellow> cho <soft_yellow>%player_name%</soft_yellow>.</gray>
+      Notify: <gray>Số lượng chìa khoá <soft_yellow>%key_name%</soft_yellow> của bạn đã thay đổi thành <soft_yellow>x%amount%</soft_yellow>.</gray>
+    Show:
+      Desc: Xem số lượng chìa khoá ảo của [người chơi].
+      Format:
+        List:
+        - '[prefix="false"]'
+        - ' '
+        - '<soft_yellow><b>Chìa Khoá Ảo Của %player_name%: </b></soft_yellow>'
+        - '%entry%'
+        - ' '
+        Entry: '<soft_yellow>▪ <gray>%key_name%: </gray>x%amount%</soft_yellow>'
+    GiveAll:
+      Desc: Đưa chìa khoá cho tất cả người chơi đang trực tuyến.
+      Done: <gray>Đã trao <soft_yellow>x%amount%</soft_yellow> chìa khoá <soft_yellow>%key_name%</soft_yellow> cho <soft_yellow>Tất Cả Người Chơi</soft_yellow>.</gray>
+  Preview:
+    Desc: Mở giao diện xem trước phần thưởng của rương.
+    Done:
+      Others: <gray>Đã mở giao diện xem trước <soft_yellow>%crate_name%</soft_yellow> cho <soft_yellow>%player_display_name%</soft_yellow>.</gray>
+  ResetCooldown:
+    Desc: Xoá thời gian hồi mở rương của một người chơi.
+    Done: <gray>Đã xoá thời gian hồi khi mở <soft_yellow>%crate_name%</soft_yellow> của <soft_yellow>%player_name%</soft_yellow>.</gray>
+  Menu:
+    Desc: Mở menu chứa rương.
+    Done:
+      Others: <gray>Đã mở menu chứa rương cho <soft_yellow>%player_display_name%</soft_yellow>.</gray>
+Error:
+  Command:
+    Argument:
+      InvalidCrate: <gray><soft_red>%value%</soft_red> không phải là một rương hợp lệ!</gray>
+      InvalidKey: <gray><soft_red>%value%</soft_red> không phải là một chìa khoá hợp lệ!</gray>
+  DataIsLoading: <soft_red>Dữ liệu vẫn đang tải... Vui lòng thử lại sau.</soft_red>
+Crate:
+  Open:
+    Error:
+      InventorySpace:
+      - '[type="title",sound="minecraft:entity.villager.no;0.8;1.0",title_times="20:60:20"]'
+      - <soft_red><b>Túi Đồ Đã Đầy!</b></soft_red>
+      - <gray>Vui lòng dọn túi đồ trước khi mở rương.</gray>
+      Cooldown:
+        Temporary:
+        - '[type="title",sound="minecraft:entity.villager.no;0.8;1.0",title_times="20:60:20"]'
+        - <soft_red><b>Rương thưởng đang trong trạng thái hồi!</b></soft_red>
+        - <gray>Bạn có thể mở lại rương trong vòng <soft_red>%time%</soft_red> nữa</gray>
+        OneTimed:
+        - '[type="title",sound="minecraft:entity.villager.no;0.8;1.0",title_times="20:60:20"]'
+        - <soft_red><b>Rất Tiếc!</b></soft_red>
+        - <gray>Bạn đã mở rương giới hạn và không thể mở lại lần nữa!</gray>
+      NoRewards:
+      - '[type="title",sound="minecraft:entity.villager.no;0.8;1.0",title_times="20:60:20"]'
+      - <red><b>Rất Tiếc!</b></red>
+      - <gray>Không có phần thưởng nào trong rương này, thử lại sau.</gray>
+      Already:
+      - '[type="title",sound="minecraft:entity.villager.no;0.8;1.0",title_times="20:60:20"]'
+      - <red><b>Rất Tiếc!</b></red>
+      - <gray>Bạn đang mở rương này!</gray>
+    TooExpensive:
+    - '[prefix="false"]'
+    - ' '
+    - <red><b>MỞ RƯƠNG THẤT BẠI:</b></red>
+    - '<red>» </red><gray>Rương: </gray><white>%crate_name%</white>'
+    - '<red>» </red><gray>Bạn không thể trả chi phí mở rương: %costs%</gray>'
+    - ' '
+    Milestone:
+      Completed: '[sound="minecraft:entity.player.levelup;0.8;1.0",prefix="false"]<gray>Bạn đã hoàn thành cột mốc <green>%milestone_openings% Mở </green> và nhận được phần thưởng <green>%reward_name%</green>!</gray>'
+    Reward:
+      Broadcast:
+      - '[sound="minecraft:block.note_block.bell;0.8;1.0",prefix="false"]'
+      - ' '
+      - <gray><light_purple>%player_display_name%</light_purple> đã mở <light_purple>%crate_name%</light_purple> và nhận được <light_purple>%reward_name%</light_purple>!</gray>
+      - ' '
+      - '<gray>Mua chìa khoá: <click:open_url:"https://YOUR_LINK_HERE.xyz"><light_purple>[Nhấn để mở Cửa Hàng]</light_purple></click></gray>'
+      - ' '
+  Rewards:
+  - '[prefix="false"]'
+  - ' '
+  - <yellow><b>MỞ RƯƠNG THÀNH CÔNG:</b></yellow>
+  - '<yellow>» </yellow><gray>Rương: </gray><white>%crate_name%</white>'
+  - '<yellow>» </yellow><gray>Phần Thưởng: </gray><white>%rewards%</white>'
+  - ' '
+  Opened:
+    Result:
+      Reward: '%reward_name%'
+  Preview:
+    Error:
+      Cooldown: <gray>Bạn có thể xem trước rương này sau <soft_red>%time%</soft_red></gray>
+Other:
+  Cooldown:
+    Ready: <green>Sẵn sàng để mở!</green>
+  LastOpener:
+    Empty: '-'
+  LastReward:
+    Empty: '-'
+  NextMilestone:
+    Empty: '-'
+  Midnight: Nửa Đêm
+  Free: Miễn Phí
+EffectModel:
+  None: Không Có
+  Helix: Hình Xoắn Ốc
+  Spiral: Hình Xoắn Ốc Lớn
+  Sphere: Hình Cầu
+  Heart: Hình Trái Tim
+  Pulsar: Hình Sao Mới Tiếng
+  Beacon: Hình Đèn Hải Đăng
+  Tornado: Hình Vòi Rồng
+  Vortex: Hình Lốc Xoáy
+  Simple: Đơn Giản
+Inspections:
+  Generic:
+    Overview:
+      onTrue: Không phát hiện sự cố.
+      onFalse: Phát hiện sự cố!
+    Item:
+      onTrue: Vật phẩm hợp lệ.
+      onFalse: Vật phẩm không hợp lệ!
+    Commands:
+      onTrue: Tất cả câu lệnh đều hợp lệ.
+      onFalse: Phát hiện câu lệnh không hợp lệ!
+  Crate:
+    Preview:
+      onTrue: Xem trước hợp lệ.
+      onFalse: Xem trước không hợp lệ!
+    Opening:
+      onTrue: Mở rương hợp lệ.
+      onFalse: Mở rương không hợp lệ!
+    Hologram:
+      onTrue: Bản Hologram hợp lệ.
+      onFalse: Bản Hologram không hợp lệ!
+  Reward:
+    Preview:
+      onTrue: Phần thưởng xem trước hợp lệ.
+      onFalse: Phần thưởng xem trước không hợp lệ!
+    Items:
+      onTrue: Tất cả vật phẩm đều hợp lệ.
+      onFalse: Phát hiện vật phẩm không hợp lệ!
+    NoItems: Không có vật phẩm nào được thêm.
+    NoCommands: Không có câu lệnh nào được định nghĩa.
+UI:
+  Costs:
+    Option:
+      Available:
+        Name: <white>%cost_name%</white>
+        Lore:
+        - '%costs%'
+        - '%empty-if-above%'
+        - '<yellow><b>SỐ LƯỢNG MỞ: </b></yellow><white><u>%available%</u></white>'
+        - ''
+        - <green>→ <u>Nhấn để chọn</u></green>
+      Unavailable:
+        Name: <white>%cost_name%</white>
+        Lore:
+        - '%costs%'
+        - '%empty-if-above%'
+        - <red><b>BẠN KHÔNG ĐỦ KHẢ NĂNG ĐỂ TRẢ</b></red>
+    Entry0:
+      Available: <white>%entry%</white> <gray>(<green>✔</green>)</gray>
+      Unavailable: <white>%entry%</white> <gray>(<red>✘</red>)</gray>
+  OpenAmount:
+    Single:
+      Name: <yellow><b>Mở Một</b></yellow>
+      Lore:
+      - <gray>Mở một rương duy nhất.</gray>
+      - ''
+      - <yellow>→ <u>Nhấn để chọn</u></yellow>
+    All:
+      Name: <yellow><b>Mở Tất Cả</b></yellow>
+      Lore:
+      - <gray>Mở tối đa <white>%max%</white> rương.</gray>
+      - ''
+      - <yellow>→ <u>Nhấn để chọn</u></yellow>
+Editor:
+  Title:
+    Main: <black>Trình Chỉnh Sửa ExcellentCrates</black>
+    Crates: <black>Trình Chỉnh Sửa Rương</black>
+    Crate:
+      Settings: <black>Cài Đặt Rương</black>
+      CostOptions: <black>Lựa Chọn Chi Phí</black>
+      CostOption: <black>Cài Đặt Chi Phí Lựa Chọn</black>
+      Milestones: <black>Cột Mốc Của Rương</black>
+    Reward:
+      List: <black>Phần Thưởng Của Rương</black>
+      Content: <black>Vật Phẩm Phần Thưởng</black>
+      Settings: <black>Cài Đặt Phần Thưởng</black>
+    Keys: <black>Trình Chỉnh Sửa Chìa Khoá</black>
+    Key:
+      Settings: <black>Cài Đặt Chìa Khoá</black>
+  Enter:
+    Amount: <gray>Nhập <green>[Số Lượng]</green></gray>
+  Reward:
+    Enter:
+      Id: <gray>Nhập <green>[ID Phần Thưởng]</green></gray>
+  Button:
+    Main:
+      Crates:
+        Name: <green><b>Các Rương</b></green>
+        Lore:
+        - <gray>Có <green>%amount%</green> rương đã được tạo.</gray>
+        - ' '
+        - <green>→ <u>Nhấn để mở</u></green>
+      Keys:
+        Name: <gold><b>Các Chìa Khoá</b></gold>
+        Lore:
+        - <gray>Có <gold>%amount%</gold> chìa khoá đã được tạo.</gray>
+        - ' '
+        - <gold>→ <u>Nhấn để mở</u></gold>
+    Crates:
+      Crate:
+        Name: '%crate_name%'
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white>%inspection%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>ID: <white>%crate_id%</white></gray>'
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để mở</u></soft_yellow>
+      Create:
+        Name: <green><b>Tạo Rương Mới</b></green>
+        Lore:
+        - <gray>Sử dụng nút này để tạo ra</gray>
+        - <gray>những rương hoàn toàn mới!</gray>
+        - ' '
+        - <green>→ <u>Nhấn để tạo mới</u></green>
+    Crate:
+      Delete:
+        Name: <red><b>Xoá Rương Này</b></red>
+        Lore:
+        - <gray>Xoá rương này vĩnh viễn.</gray>
+        - ' '
+        - <red>→ <u>Nhấn [<key:key.drop>] để xoá</u></red>
+      DisplayName:
+        Name: <soft_yellow><b>Tên Hiển Thị</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Hiện Tại: <white>%crate_name%</white></gray>'
+        - ' '
+        - <gray>Đặt tên hiển thị cho rương này.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để thay đổi</u></soft_yellow>
+      Description:
+        Name: <soft_yellow><b>Mô Tả Của Rương</b></soft_yellow>
+        Lore:
+        - '%crate_description%'
+        - '%empty-if-above%'
+        - <gray>Đặt mô tả cho rương này.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để thay đổi</u></soft_yellow>
+      Item:
+        Name: <soft_yellow><b>Vật Phẩm Của Rương</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white>%inspection%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Cho Phép Xếp Chồng: <white>%state%</white></gray>'
+        - ' '
+        - <gray>Thả một vật phẩm lên nút <soft_yellow>này</soft_yellow></gray>
+        - <gray>để thay đổi vật phẩm của rương này.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để thay đổi cho phép xếp chồng</u></soft_yellow>
+      Preview:
+        Set:
+          Name: <soft_yellow><b>Xem Trước Giao Diện</b></soft_yellow>
+          Lore:
+          - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white>%inspection%</white></gray>'
+          - '<gray><dark_gray>» </dark_gray>ID Xem Trước: <white>%value%</white></gray>'
+          - ' '
+          - <gray>Đặt xem trước giao diện cho rương này.</gray>
+          - ' '
+          - <soft_yellow>→ <u>Nhấn để thay đổi</u></soft_yellow>
+        Unset:
+          Name: <soft_yellow><b>Xem Trước Giao Diện</b></soft_yellow>
+          Lore:
+          - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white><red>Đã Tắt</red></white></gray>'
+          - ' '
+          - <gray>Đặt xem trước giao diện cho rương này.</gray>
+          - ' '
+          - <soft_yellow>→ <u>Nhấn để thay đổi</u></soft_yellow>
+      Opening:
+        Set:
+          Name: <soft_yellow><b>Hiệu Ứng Hoạt Hình Mở Rương</b></soft_yellow>
+          Lore:
+          - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white>%inspection%</white></gray>'
+          - '<gray><dark_gray>» </dark_gray>ID Xem Trước: <white>%value%</white></gray>'
+          - ' '
+          - <gray>Đặt hiệu ứng hoạt hình mở rương cho rương này.</gray>
+          - ' '
+          - <soft_yellow>→ <u>Nhấn để thay đổi</u></soft_yellow>
+        Unset:
+          Name: <soft_yellow><b>Hiệu Ứng Hoạt Hình Mở Rương</b></soft_yellow>
+          Lore:
+          - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white><red>Đã Tắt</red></white></gray>'
+          - ' '
+          - <gray>Đặt hiệu ứng hoạt hình mở rương cho rương này.</gray>
+          - ' '
+          - <soft_yellow>→ <u>Nhấn để thay đổi</u></soft_yellow>
+      LinkedBlocks:
+        Name: <soft_yellow><b>Khối Được Liên Kết</b></soft_yellow>
+        Lore:
+        - <dark_gray>Nhấn <gold>[<key:key.drop>]</gold> để huỷ liên kết.</dark_gray>
+        - ' '
+        - '<gray><dark_gray>» </dark_gray>Liên Kết: <white>%state%</white></gray>'
+        - ' '
+        - <gray>Liên kết rương này đến một khối</gray>
+        - <gray>bằng công cụ liên kết.</gray>
+        - ' '
+        - <gray>Khi tương tác với khối đã liên kết</gray>
+        - <gray>bạn có thể xem trước và mở rương này.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để lấy công cụ liên kết</u></soft_yellow>
+      BlockPushback:
+        Name: <soft_yellow><b>Khối Đẩy Lùi Người Chơi</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white>%state%</white></gray>'
+        - ' '
+        - <gray>Đẩy người chơi lùi lại so với rương này</gray>
+        - <gray>nếu họ không đáp ứng được yêu cầu của rương.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để bật/tắt</u></soft_yellow>
+      CostOptions:
+        Name: <soft_yellow><b>Lựa Chọn Chi Phí</b></soft_yellow>
+        Lore:
+        - <gray>Trong mục này bạn có thể cài đặt <soft_yellow>'chi phí'</soft_yellow></gray>
+        - <gray>yêu cầu để có thể mở rương này - </gray>
+        - <gray>có thể là <soft_yellow>chìa khoá</soft_yellow>, <soft_yellow>tiền tệ</soft_yellow>, hoặc cả hai.</gray>
+        - ' '
+        - <gray>Bạn có thể thêm nhiều lựa chọn chi phí,</gray>
+        - <gray>cho phép người chơi được quyền lựa chọn</gray>
+        - <gray>cách họ muốn để có thể mở rương.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để mở</u></soft_yellow>
+      Permission:
+        Name: <soft_yellow><b>Yêu Cầu Phân Quyền</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white>%state%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Phân Quyền: <white>%value%</white></gray>'
+        - ' '
+        - <gray>Kiểm soát yêu cầu phân quyền để</gray>
+        - <gray>cho phép người chơi có thể mở rương.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để bật/tắt</u></soft_yellow>
+      OpeningCooldown:
+        Name: <soft_yellow><b>Giới Hạn Mở Rương</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white>%state%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Thời Gian Hồi Mở Rương: <white>%value%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Giới Hạn Số Lần Mở: <white>%amount%</white></gray>'
+        - ' '
+        - <gray>Giới hạn số lần mở rương cho</gray>
+        - <gray>mỗi người chơi cho đến khi họ phải</gray>
+        - <gray>chờ qua khoảng thời gian được đặt.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để thay đổi</u></soft_yellow>
+      Effect:
+        Name: <soft_yellow><b>Hiệu Ứng Của Rương</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Hình Dạng: <white>%type%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Hạt (Particle): <white>%value%</white></gray>'
+        - ' '
+        - <gray>Đặt hiệu ứng cho (các) khối đã liên kết với rương này.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để thay đổi</u></soft_yellow>
+      Hologram:
+        Name: <soft_yellow><b>Bản Hologram Của Rương</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white>%inspection%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Trạng Thái: <white>%state%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Mẫu Có Sẵn: <white>%value%</white></gray>'
+        - ' '
+        - <gray>Bản Hologram có thể được quản lý tự động bên trên</gray>
+        - <gray>của (các) khối đã liên kết với rương này.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để thay đổi</u></soft_yellow>
+      Rewards:
+        Name: <soft_yellow><b>Các Phần Thưởng</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white>%inspection%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Phần Thưởng Đã Được Cài: <white>%amount%</white></gray>'
+        - ' '
+        - <gray>Thêm và quản lý các phần thưởng của rương này!</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để mở</u></soft_yellow>
+      Milestones:
+        Name: <soft_yellow><b>Các Cột Mốc Mở Rương</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Các Cột Mốc Đã Được Cài: <white>%amount%</white></gray>'
+        - ' '
+        - <gray>Tạo một cột mốc do bạn chỉ định cùng</gray>
+        - <gray>với các phần thưởng phụ cho rương này!</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để mở</u></soft_yellow>
+      Post-Open-Commands:
+        Name: <soft_yellow><b>Câu Lệnh Xử Lí Sau Khi Mở Rương</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white>%inspection%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Các Câu Lệnh Đã Được Cài: <white>%amount%</white></gray>'
+        - ' '
+        - <gray>Khởi chạy các câu lệnh đã liệt kê</gray>
+        - <gray>mỗi khi có người chơi mở rương này.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để thay đổi</u></soft_yellow>
+    Milestone:
+      Create:
+        Name: <soft_yellow><b>Tạo Cột Mốc Mới</b></soft_yellow>
+        Lore: []
+      Object:
+        Name: '<soft_yellow><b>Cột Mốc Thứ: %milestone_openings%</b></soft_yellow>'
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white>%inspection%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Các Lượt Mở: <white>%milestone_openings%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>ID Phần Thưởng: <white>%milestone_reward_id%</white></gray>'
+        - ' '
+        - <soft_yellow>→ <u>Nhấn Chuột Trái để thay đổi lượt mở</u></soft_yellow>
+        - <soft_yellow>→ <u>Nhấn Chuột Phải để thay đổi phần thưởng</u></soft_yellow>
+        - <soft_yellow>→ <u>Nhấn Shift+Chuột Phải để xoá <soft_red>(không thể hoàn tác)</soft_red></u></soft_yellow>
+    Rewards:
+      Reward:
+        Name: '%reward_name%'
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white>%inspection%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>ID: <white>%reward_id%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Trọng Lượng (Weight): <white>%reward_weight% → <green>%reward_roll_chance%%</green></white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Độ Hiếm: <white>%reward_rarity_name% → <green>%reward_rarity_roll_chance%%</green></white></gray>'
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để chỉnh sửa</u></soft_yellow>
+      Creation:
+        Name: <green><b>Tạo Mới Phần Thưởng</b></green>
+        Lore:
+        - <gray>Thả vật phẩm lên nút <green>này</green></gray>
+        - <gray>để tạo ra một phần thưởng mới bằng vật phẩm đó.</gray>
+      Sorting:
+        Name: <soft_yellow><b>Sắp Xếp Của Các Phần Thưởng</b></soft_yellow>
+        Lore:
+        - <gray>Hệ thống tự động sắp xếp các phần thưởng</gray>
+        - <gray>theo một trật tự cụ thể.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để mở</u></soft_yellow>
+      MassMode:
+        Name: <soft_yellow><b>Chế Độ Tạo Phần Thưởng Hàng Loạt</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Trạng Thái: <white>%state%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Dạng Phần Thưởng: <white>%type%</white></gray>'
+        - ' '
+        - <gray>Cho phép bạn thêm nhiều phần thưởng một cách nhanh chóng</gray>
+        - <gray>vào trong rương này</gray>
+        - <gray>bằng cách nhấn vào các vật phẩm trong túi đồ</gray>
+        - <gray>của bạn.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để bật/tắt chế độ</u></soft_yellow>
+        - <soft_yellow>→ <u>Nhấn để thay đổi dạng phần thưởng</u></soft_yellow>
+      ArrangeMode:
+        Name: <soft_yellow><b>Chế Độ Sắp Xếp Trật Tự Phần Thưởng</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Trạng Thái: <white>%state%</white></gray>'
+        - ' '
+        - <gray>Cho phép bạn sắp xếp lại trật tự của các phần thưởng bằng</gray>
+        - <gray>cách chuyển chúng sang phía bên trái hoặc phía bên phải.</gray>
+        - ' '
+        - <gray>Nhấn <soft_yellow>Chuột Trái</soft_yellow> để chuyển phần thưởng sang phía bên trái,</gray>
+        - <gray>và nhấn <soft_yellow>Chuột Phải</soft_yellow> để chuyển phần thưởng sang phía bên phải.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để bật/tắt</u></soft_yellow>
+    Reward:
+      Items:
+        Name: <soft_yellow><b>Các Vật Phẩm Bạn Nhận Được Từ Phần Thưởng Này</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white>%inspection%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Số Lượng Vật Phẩm Sẽ Tặng: <white>%amount%</white></gray>'
+        - ' '
+        - <gray>Sẽ nhận được các vật phẩm đã được liệt kê mỗi khi trúng được.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để mở</u></soft_yellow>
+      Commands:
+        Name: <soft_yellow><b>Các Câu Lệnh Hệ Thống Sẽ Chạy Khi Trúng Phần Thưởng Này</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white>%inspection%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Số Lượng Câu Lệnh Sẽ Chạy: <white>%amount%</white></gray>'
+        - ' '
+        - <gray>Sẽ chạy các câu lệnh đã liệt kê mỗi khi trúng được.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để chỉnh sửa</u></soft_yellow>
+      PreviewNormal:
+        Name: <soft_yellow><b>Vật Phẩm Dùng Để Xem Trước</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white>%inspection%</white></gray>'
+        - ' '
+        - <gray>Thả một vật phẩm vào nút <soft_yellow>này</soft_yellow></gray>
+        - <gray>để thay đổi vật phẩm dùng để xem trước của phần thưởng.</gray>
+      PreviewCustom:
+        Name: <soft_yellow><b>Vật Phẩm Dùng Để Xem Trước</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white>%inspection%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Sử Dụng Vật Phẩm Tuỳ Chỉnh: <white>%state%</white></gray>'
+        - ' '
+        - <gray>Thả một vật phẩm vào nút <soft_yellow>này</soft_yellow></gray>
+        - <gray>để thay đổi vật phẩm dùng để xem trước của phần thưởng.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để bật/tắt vật phẩm tuỳ chỉnh</u></soft_yellow>
+      RarityWeight:
+        Name: <soft_yellow><b>Độ Hiếm & Trọng Lượng (Weight)</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Độ Hiếm: <white>%reward_rarity_name% → <soft_green>%reward_rarity_roll_chance%%</soft_green></white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Trọng Lượng (Weight): <white>%reward_weight% → <soft_green>%reward_roll_chance%%</soft_green></white></gray>'
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để thay đổi</u></soft_yellow>
+      Name:
+        Name: <soft_yellow><b>Tên Hiển Thị Của Phần Thưởng Này</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Hiện Tại: <white>%reward_name%</white></gray>'
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để thay đổi</u></soft_yellow>
+      Description:
+        Name: <soft_yellow><b>Mô Tả Của Phần Thưởng Này</b></soft_yellow>
+        Lore:
+        - '%reward_description%'
+        - '%empty-if-above%'
+        - <soft_yellow>→ <u>Nhấn để thay đổi</u></soft_yellow>
+      Broadcast:
+        Name: <soft_yellow><b>Thông Báo Cho Toàn Máy Chủ Khi Trúng</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Trạng Thái: <white>%state%</white></gray>'
+        - ' '
+        - <gray>Thông báo cho toàn máy chủ khi có người chơi trúng được</gray>
+        - <gray>phần thưởng này.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để bật/tắt</u></soft_yellow>
+      Permissions:
+        Name: <soft_yellow><b>Phân Quyền</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Các Phân Quyền Sẽ Dùng Để Giới Hạn: <white>%amount%</white></gray>'
+        - ' '
+        - <gray>Giới hạn khả năng tiếp cận phần thưởng dựa trên</gray>
+        - <gray>phân quyền của người chơi.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để chỉnh sửa</u></soft_yellow>
+      Limits:
+        Name: <soft_yellow><b>Giới Hạn Phần Thưởng Này</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Trạng Thái: <white>%state%</white></gray>'
+        - ' '
+        - <gray>Kiểm soát độ thường xuyên và tần suất</gray>
+        - <gray>mà phần thưởng này có thể trúng được.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để chỉnh sửa</u></soft_yellow>
+      Delete:
+        Name: <soft_red><b>Xoá Bỏ Phần Thưởng Này</b></soft_red>
+        Lore:
+        - <gray>Sẽ xoá bỏ vĩnh viễn phần thưởng này.</gray>
+        - ' '
+        - <soft_red>→ <u>Nhấn phím <key:key.drop> để xoá</u></soft_red>
+      ItemPlaceholders:
+        Name: <soft_yellow><b>Item Placeholders</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Trạng Thái: <white>%state%</white></gray>'
+        - ' '
+        - <gray>Allows to replace item placeholders:</gray>
+        - <gray><soft_yellow>→</soft_yellow> Crate placeholders <dark_gray>(see docs)</dark_gray></gray>
+        - <gray><soft_yellow>→</soft_yellow> Reward placeholders <dark_gray>(see docs)</dark_gray></gray>
+        - <gray><soft_yellow>→</soft_yellow> %player_name% placeholder.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Click to toggle</u></soft_yellow>
+    Keys:
+      Create:
+        Name: <green><b>Tạo Chìa Khoá Mới</b></green>
+        Lore:
+        - <gray>Sử dụng nút này để tạo ra</gray>
+        - <gray>những chìa khoá hoàn toàn mới!</gray>
+        - ' '
+        - <green>→ <u>Nhấn để tạo mới</u></green>
+      Key:
+        Name: '%key_name%'
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white>%inspection%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>ID: <white>%key_id%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Là Chìa Khoá Ảo: <white>%state%</white></gray>'
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để chỉnh sửa</u></soft_yellow>
+    Key:
+      Delete:
+        Name: <red><b>Xoá Bỏ Chìa Khoá Này</b></red>
+        Lore:
+        - <gray>Sẽ xoá bỏ vĩnh viễn chìa khoá này.</gray>
+        - ' '
+        - <red>→ <u>Nhấn phím [<key:key.drop>] để xoá</u></red>
+      Name:
+        Name: <soft_yellow><b>Tên Hiển Thị Của Chìa Khoá Này</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Hiện Tại: <white>%key_name%</white></gray>'
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để thay đổi</u></soft_yellow>
+      Item:
+        Name: <soft_yellow><b>Vật Phẩm Của Chìa Khoá</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Tình Trạng: <white>%inspection%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Cho Phép Xếp Chồng: <white>%state%</white></gray>'
+        - ' '
+        - <gray>Thả một vật phẩm vào nút <soft_yellow>này</soft_yellow></gray>
+        - <gray>để thay đổi vật phẩm chìa khoá của phần thưởng này.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để bật/tắt khả năng xếp chồng</u></soft_yellow>
+      Virtual:
+        Name: <soft_yellow><b>Chìa Khoá Ảo</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Trạng Thái: <white>%state%</white></gray>'
+        - ' '
+        - <gray>Kiểm soát khả năng hoạt động dưới dạng chìa khoá ảo của chìa khoá này.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Nhấn để bật/tắt</u></soft_yellow>
+  Costs:
+    Data:
+      Vacant:
+        Name: <soft_aqua><b>Chỗ Trống</b></soft_aqua>
+        Lore:
+        - <gray>Thêm một lựa chọn chi phí cho rương của bạn!</gray>
+        - ' '
+        - <soft_aqua>→ <u>Nhấn để tạo mới</u></soft_aqua>
+      Filled:
+        Name: '<yellow><b>Chi Phí Phải Trả: </b></yellow><white>%cost_name%</white> <gray>(ID: <white>%cost_id%</white>)</gray>'
+        Lore:
+        - <i><dark_gray>Nhấn phím <soft_red><key:key.drop></soft_red> để xoá.</dark_gray></i>
+        - ' '
+        - '%costs%'
+        - ' '
+        - <yellow>→ <u>Nhấn để thay đổi</u></yellow>
+      Empty:
+        Name: '<red><b>Chi Phí Phải Trả: </b></red><white>%cost_name%</white> <gray>(ID: <white>%cost_id%</white>)</gray>'
+        Lore:
+        - <i><dark_gray>Nhấn phím <soft_red><key:key.drop></soft_red> để xoá.</dark_gray></i>
+        - ' '
+        - <soft_red>Không có chi phí nào được cài!</soft_red>
+        - ' '
+        - <red>→ <u>Nhấn để chỉnh sửa</u></red>
+    Toggle:
+      Enabled:
+        Name: <green><b>Đang Bật</b></green>
+        Lore:
+        - <green>→ <u>Nhấn để bật/tắt</u></green>
+      Disabled:
+        Name: <white><b>Đang Tắt</b></white>
+        Lore:
+        - <white>→ <u>Nhấn để bật/tắt</u></white>
+      Nothing:
+        Name: <gray>< Không Có Dữ Liệu ></gray>
+        Lore: []
+    Status:
+      Good:
+        Name: '<green><b>Trạng Thái: </b></green><white>Tuyệt Vời</white>'
+        Lore:
+        - <gray>Tất cả mục đều đã hợp lệ!</gray>
+      Warn:
+        Name: '<yellow><b>Trạng Thái: </b></yellow><white>Cảnh Báo</white>'
+        Lore:
+        - <gray>Một số mục chưa hợp lệ!</gray>
+      Bad:
+        Name: '<red><b>Trạng Thái: </b></red><white>Không Hợp Lệ</white>'
+        Lore:
+        - <gray>Không có bất kỳ mục nào hợp lệ!</gray>
+      Nothing:
+        Name: '<gray><b>Trạng Thái: </b></gray><white>< Không Có Dữ Liệu></white>'
+        Lore: []
+  CostOptions:
+    Name:
+      Name: <soft_yellow><b>Tên Hiển Thị Của Tuỳ Chọn Chi Phí Này</b></soft_yellow>
+      Lore:
+      - '<gray><dark_gray>» </dark_gray>Hiện Tại: <white>%cost_name%</white></gray>'
+      - ' '
+      - <soft_yellow>→ <u>Nhấn để thay đổi</u></soft_yellow>
+    Icon:
+      Name: <soft_yellow><b>Icon Cho Tuỳ Chọn Chi Phí Này</b></soft_yellow>
+      Lore:
+      - '<gray><dark_gray>» </dark_gray>Sử Dụng Vật Phẩm Tuỳ Chọn: <white>%state%</white></gray>'
+      - ' '
+      - <gray>Kéo và thả một vật phẩm vào đây</gray>
+      - <gray>để thay đổi icon.</gray>
+      - ' '
+      - <soft_yellow>→ <u>Nhấn Chuột Phải để bật/tắt</u></soft_yellow>
+    VacantEntry:
+      Name: <green><b>Chỗ Trống Của Tuỳ Chọn</b></green>
+      Lore:
+      - <gray>Vị trí trống để thêm tuỳ chọn chi phí khác.</gray>
+      - ' '
+      - <green>→ <u>Nhấn để tạo mới</u></green>
+Dialog:
+  Generic:
+    Creation:
+      Body:
+        Contents:
+        - Nhập vào <soft_yellow>một đoạn ID dễ nhớ</soft_yellow> (ID) cho vật này để hệ thống tạo mới một đối tượng.
+        - ''
+        - <soft_orange>⚠</soft_orange> Bạn sẽ phải dùng ID này để thay đổi <soft_orange>trong các câu lệnh của plugins</soft_orange> và <soft_orange>trong config files</soft_orange>, nên tốt nhất bạn hãy lựa một cái <soft_orange>rõ ràng</soft_orange> và <soft_orange>dễ nhớ</soft_orange> cho chính bạn nhé.
+        - ''
+        - <soft_red>→</soft_red> Chỉ có <soft_red>chữ cái</soft_red>, <soft_red>chữ số</soft_red> và dấu <soft_red>gạch dưới_</soft_red> là được hệ thống cho phép.
+        Width: 400
+    Name:
+      Body:
+        Contents: Xin vui lòng nhập vào <soft_yellow>tên hiển thị mới</soft_yellow>.
+        Width: 400
+      Input:
+        Name: Tên Hiển Thị Mới
+        ReplaceName: Đổi Tên Thành Tên Của Vật Phẩm Bạn Định Làm Phần Thưởng
+    Description:
+      Body:
+        Contents: Nhập <soft_yellow>mô tả</soft_yellow>.
+        Width: 400
+      Input:
+        Description: Mô tả
+        ReplaceItemLore: Kế Thừa Mô Tả Từ Vật Phẩm
+    Item:
+      Body:
+        Normal:
+          Contents:
+          - Vui lòng xác nhận thay thế vật phẩm.
+          - <gray>Kiểm tra các trường bổ sung nếu cần thiết.</gray>
+          Width: 400
+        Custom:
+          Contents:
+          - Vui lòng xác nhận thay thế vật phẩm.
+          - <gray>Kiểm tra các trường bổ sung nếu cần thiết.</gray>
+          - ''
+          - <soft_red><b>GHI CHÚ QUAN TRỌNG:</b></soft_red>
+          - Nếu vật phẩm ở trên không khớp với vật phẩm bạn đã dùng, hãy bật tuỳ chọn <soft_red>Lưu dưới dạng NBT</soft_red>.
+          - <gray>Việc này đảm bảo dữ liệu vật phẩm chính xác được lưu chính xác.</gray>
+          Width: 400
+      Input:
+        NBT: <soft_red>Lưu dưới dạng NBT</soft_red>
+        ReplaceName: Kế thừa Tên của Vật phẩm
+        ReplaceDesc: Kế thừa Mô tả của Vật phẩm
+  Key:
+    Creation:
+      Title: <yellow><b>CHÌA KHOÁ</b></yellow><dark_gray> » </dark_gray><white>Tạo mới</white>
+    Name:
+      Title: <yellow><b>CHÌA KHOÁ</b></yellow><dark_gray> » </dark_gray><white>Tên Hiển Thị</white>
+    Item:
+      Title: <yellow><b>CHÌA KHOÁ</b></yellow><dark_gray> » </dark_gray><white>Vật Phẩm Dùng Làm Chìa Khoá</white>
+  Crates:
+    Creation:
+      Title: <yellow><b>CÁC RƯƠNG</b></yellow><dark_gray> » </dark_gray><white>Tạo Mới</white>
+  Crate:
+    Name:
+      Title: <yellow><b>RƯƠNG NÀY</b></yellow><dark_gray> » </dark_gray><white>Tên Hiển Thị</white>
+    Description:
+      Title: <yellow><b>RƯƠNG NÀY</b></yellow><dark_gray> » </dark_gray><white>Mô Tả Của Rương</white>
+    Item:
+      Title: <yellow><b>RƯƠNG NÀY</b></yellow><dark_gray> » </dark_gray><white>Vật Phẩm Của Rương</white>
+    Preview:
+      Title: <yellow><b>RƯƠNG NÀY</b></yellow><dark_gray> » </dark_gray><white>Bản Giao Diện Xem Trước</white>
+      Body:
+        Contents:
+        - Chọn một mẫu giao diện để làm bản xem trước cho rương này.
+        - Bạn có thể tạo và chỉnh sửa một bản giao diện trong thư mục <soft_yellow>/previews/</soft_yellow>.
+        - ''
+        - <soft_yellow>→ </soft_yellow>Để tắt xem trước rương, hãy bỏ tích ô <soft_yellow>Bật Xem Trước</soft_yellow>.
+        Width: 400
+      Input:
+        Enabled: Bật Xem Trước
+        Preview: <soft_yellow>Xem trước</soft_yellow>
+    Opening:
+      Title: <yellow><b>RƯƠNG NÀY</b></yellow><dark_gray> » </dark_gray><white>Hiệu Ứng Hoạt Hình Mở Rương</white>
+      Body:
+        Contents:
+        - Chọn một hiệu ứng hoạt hình mở rương cho rương này.
+        - Bạn có thể tạo và chỉnh sửa một hiệu ứng trong thư mục <soft_yellow>/openings/</soft_yellow>.
+        - ''
+        - <soft_yellow>→ </soft_yellow>Để tắt hiệu ứng hoạt hình mở rương, hãy bỏ tích ô <soft_yellow>Bật Hiệu Ứng</soft_yellow>.
+        Width: 400
+      Input:
+        Enabled: Bật Hiệu Ứng
+        Opening: <soft_yellow>Hiệu Ứng Được Mở</soft_yellow>
+    OpeningCooldown:
+      Title: <yellow><b>RƯƠNG NÀY</b></yellow><dark_gray> » </dark_gray><white>Các Tuỳ Chọn Giới Hạn Mở Rương</white>
+      Body:
+        Contents:
+        - Tại đây bạn có thể đặt giới hạn mở rương cho mỗi người chơi.
+        - ''
+        - <soft_yellow>Thời Gian Hồi</soft_yellow> thiết lập khoảng thời gian (tính bằng giây) mà trong đó người chơi có thể mở rương một số lần nhất định được chỉ định ở phần <soft_yellow>Số Lượng</soft_yellow>.
+        - ''
+        - Khi thời gian này hết hạn, bộ đếm số lần mở rương của người chơi sẽ được đặt lại, làm cho rương khả dụng trở lại.
+        - ''
+        - Đồng hồ đếm thời gian hồi chiêu sẽ bắt đầu với rương đầu tiên được mở sau khi bộ đếm được đặt lại.
+        - ''
+        - <soft_yellow>→</soft_yellow> Để làm cho rương chỉ được mở một lần (không bao giờ đặt lại), đặt <soft_yellow>Thời Gian Hồi</soft_yellow> thành <soft_yellow>-1</soft_yellow>.
+        - ''
+        - <soft_yellow>→</soft_yellow> Để tắt tính năng này, hãy bỏ tích ô <soft_yellow>Bật Giới Hạn</soft_yellow>.
+        Width: 400
+      Input:
+        Cooldown: Thời Gian Hồi <gray>(tính bằng giây)</gray>
+        Amount: Số Lượng <gray>(tối thiểu 1)</gray>
+    Effect:
+      Title: <yellow><b>RƯƠNG NÀY</b></yellow><dark_gray> » </dark_gray><white>Hiệu Ứng Cho Khối Đã Được Liên Kết</white>
+      Body:
+        Contents:
+        - Tại đây bạn có thể chọn <soft_yellow>mô hình hiệu ứng</soft_yellow> và <soft_yellow>loại hạt (particle)</soft_yellow> cho rương.
+        - Các hiệu ứng này sẽ được hiển thị xung quanh các khối liên kết với rương.
+        Width: 400
+      Input:
+        Enabled: Bật
+        Model: <soft_yellow>Mô Hình Hiệu Ứng</soft_yellow>
+      Button:
+        Particle:
+          Label: '<soft_yellow>Hạt: </soft_yellow>%s'
+          Width: 150
+    Particle:
+      Title: <yellow><b>RƯƠNG NÀY</b></yellow><dark_gray> » </dark_gray><white>Loại Hạt</white>
+      Body:
+        Contents:
+        - Chọn <soft_yellow>loại hạt</soft_yellow> mong muốn.
+        - ''
+        - Các hạt được đánh dấu sao <soft_red>(*)</soft_red> có các tùy chọn bổ sung cần phải điền.
+        Width: 400
+    ParticleData:
+      Title: <yellow><b>RƯƠNG NÀY</b></yellow><dark_gray> » </dark_gray><white>Dữ Liệu Hạt</white>
+      Body:
+        Color:
+          Contents: Loại hạt này yêu cầu một <soft_yellow>màu sắc</soft_yellow> được chỉ định dưới định dạng RGB.
+          Width: 400
+        Item:
+          Contents: Loại hạt này yêu cầu <soft_yellow>tên vật phẩm</soft_yellow> được chỉ định.
+          Width: 400
+        Block:
+          Contents: Loại hạt này yêu cầu <soft_yellow>tên khối</soft_yellow> được chỉ định.
+          Width: 400
+        Generic:
+          Contents: Loại hạt này yêu cầu <soft_yellow>tuỳ chọn bổ sung</soft_yellow> được chỉ định.
+          Width: 400
+      Input:
+        Red: <soft_red>Đỏ</soft_red>
+        Green: <soft_green>Xanh Lá</soft_green>
+        Blue: <soft_blue>Xanh Dương</soft_blue>
+        Alpha: Alpha
+        Size: Kích Thước
+        Power: Sức Mạnh
+        Delay: Độ Trễ
+        BlockName: Tên Khối
+        ItemName: Tên Vật Phẩm
+    Hologram:
+      Title: <yellow><b>RƯƠNG NÀY</b></yellow><dark_gray> » </dark_gray><white>Cài Đặt Hologram</white>
+      Body:
+        Contents:
+        - Tại đây bạn có thể chọn <soft_yellow>mẫu Hologram</soft_yellow> cho rương và điều chỉnh <soft_yellow>độ lệch Y</soft_yellow> của nó để phù hợp với chiều cao của khối.
+        - ''
+        - Bạn có thể tạo và chỉnh sửa các mẫu Hologram trong file <soft_yellow>config.yml</soft_yellow>.
+        - ''
+        - <soft_yellow>→ </soft_yellow>Để tắt Hologram của rương, hãy bỏ tích hộp <soft_yellow>Đã Bật</soft_yellow>.
+        Width: 400
+      Input:
+        Enabled: Đã Bật
+        Template: <soft_yellow>Mẫu</soft_yellow>
+        YOffset: <soft_yellow>Độ Lệch Y</soft_yellow>
+    Post-Open-Commands:
+      Title: <yellow><b>RƯƠNG NÀY</b></yellow><dark_gray> » </dark_gray><white>Các Câu Lệnh Chạy Sau Khi Mở</white>
+      Body:
+        Contents:
+        - Nhập tối đa <soft_yellow>5 lệnh</soft_yellow> sẽ được thực thi mỗi khi người chơi mở một rương.
+        - Các lệnh sẽ được thực thi theo thứ tự tương tự như các trường liệt kê dưới đây.
+        - ''
+        - <soft_yellow>→</soft_yellow> Sử dụng biến placeholder <soft_yellow>%player_name%</soft_yellow> để chèn tên của người chơi đã mở rương.
+        - ''
+        - '<soft_yellow>→</soft_yellow> Bạn có thể sử dụng các biến placeholder mặc định của bản thân <soft_yellow>Rương (Crate)</soft_yellow>: nhấp <click:open_url:"https://nightexpressdev.com/excellentcrates/placeholders/internal"><soft_green><u>VÀO ĐÂY</u></soft_green></click> để xem tài liệu hướng dẫn.'
+        - ''
+        - <soft_yellow>→</soft_yellow> Bạn có thể sử dụng bất kỳ biến placeholder nào từ plugin <soft_yellow>PlaceholderAPI</soft_yellow>.
+        Width: 400
+      Input:
+        Command: Lệnh <soft_yellow>#%s</soft_yellow>
+  Rewards:
+    Creation:
+      Title: <yellow><b>PHẦN THƯỞNG</b></yellow><dark_gray> » </dark_gray><white>Tạo Mới</white>
+      Input:
+        Method: Lưu Vật Phẩm dưới dạng NBT
+      Button:
+        ItemType:
+          Label: <soft_blue>Phần Thưởng Bằng Vật Phẩm</soft_blue>
+          Tooltip: Loại phần thưởng <soft_blue>Vật Phẩm</soft_blue> sẽ cung cấp cho người chơi một hoặc nhiều vật phẩm khi giành được.<br><br>Theo mặc định, <soft_yellow>%1$s</soft_yellow> sẽ được sử dụng như là vật phẩm, nhưng bạn có thể thay đổi nó bất cứ lúc nào.
+          Width: 150
+        CommandType:
+          Label: <soft_orange>Phần Thưởng Bằng Câu Lệnh</soft_orange>
+          Tooltip: Loại phần thưởng <soft_orange>Câu Lệnh</soft_orange> sẽ thực thi một hoặc nhiều lệnh khi giành được.<br><br>Theo mặc định, <soft_yellow>%1$s</soft_yellow> sẽ được sử dụng như là xem trước, nhưng bạn có thể thay đổi nó bất cứ lúc nào.
+          Width: 150
+      Body:
+        Normal:
+          Contents:
+          - Vui lòng chọn một loại phần thưởng để tạo.
+          - <gray>Di chuột qua một nút để xem mô tả ngắn gọn về mỗi loại.</gray>
+          Width: 400
+        Custom:
+          Contents:
+          - Vui lòng chọn một loại phần thưởng để tạo.
+          - <gray>Di chuột qua một nút để xem mô tả ngắn gọn về mỗi loại.</gray>
+          - ''
+          - <soft_red><b>GHI CHÚ QUAN TRỌNG:</b></soft_red>
+          - Nếu vật phẩm ở trên không khớp với vật phẩm bạn đã sử dụng, hãy bật tùy chọn <soft_red>Lưu Vật Phẩm dưới dạng NBT</soft_red>.
+          - <gray>Điều này đảm bảo dữ liệu vật phẩm chính xác được lưu trữ một cách chuẩn xác.</gray>
+          Width: 400
+    Sorting:
+      Mode:
+        ITEM: Vật Phẩm
+        RARITY: Độ Hiếm
+        NAME: Tên
+        CHANCE: Tỷ Lệ
+        WEIGHT: Trọng Lượng
+      Title: <yellow><b>CÁC PHẦN THƯỞNG</b></yellow><dark_gray> » </dark_gray><white>Sắp Xếp</white>
+      Body:
+        Contents: Vui lòng chọn một chế độ sắp xếp.
+        Width: 400
+      Input:
+        Reversed: Đảo Ngược
+      Button:
+        Mode:
+          Label: '<soft_yellow>→</soft_yellow> Chế Độ: <soft_yellow>%s</soft_yellow>'
+          Width: 150
+  Reward:
+    Preview:
+      Title: <yellow><b>PHẦN THƯỞNG</b></yellow><dark_gray> » </dark_gray><white>Xem Trước</white>
+      Input:
+        NBT: <soft_red>Lưu dưới dạng NBT</soft_red>
+        ReplaceName: Thay Thế Tên Phần Thưởng
+        ReplaceDesc: Thay Thế Mô Tả Phần Thưởng
+      Body:
+        Normal:
+          Contents:
+          - Vui lòng xác nhận thay thế bản xem trước phần thưởng.
+          - <gray>Kiểm tra các trường bổ sung nếu cần thiết.</gray>
+          Width: 400
+        Custom:
+          Contents:
+          - Vui lòng xác nhận thay thế bản xem trước phần thưởng.
+          - <gray>Kiểm tra các trường bổ sung nếu cần thiết.</gray>
+          - ''
+          - <soft_red><b>GHI CHÚ QUAN TRỌNG:</b></soft_red>
+          - Nếu vật phẩm ở trên không khớp với vật phẩm bạn đã sử dụng, hãy bật tùy chọn <soft_red>Lưu dưới dạng NBT</soft_red>.
+          - <gray>Điều này đảm bảo dữ liệu vật phẩm chính xác được lưu trữ một cách chuẩn xác.</gray>
+          Width: 400
+    Item:
+      Title: <yellow><b>PHẦN THƯỞNG</b></yellow><dark_gray> » </dark_gray><white>Vật Phẩm</white>
+      Body:
+        Contents:
+        - Vui lòng chọn phương thức lưu vật phẩm.
+        - ''
+        - <soft_red><b>GHI CHÚ QUAN TRỌNG:</b></soft_red>
+        - Nếu vật phẩm ở trên không khớp với vật phẩm bạn đã sử dụng, sử dụng tùy chọn <soft_red>Lưu dưới dạng NBT</soft_red>.
+        - <gray>Điều này đảm bảo dữ liệu vật phẩm chính xác được lưu trữ một cách chuẩn xác.</gray>
+        Width: 400
+      Button:
+        NBT:
+          Label: <sprite:"item/creeper_spawn_egg"> Lưu dưới dạng <soft_green>NBT</soft_green>
+          Width: 150
+        Reference:
+          Label: <sprite:"item/knowledge_book"> Lưu dưới dạng <soft_green>Tham Khảo</soft_green>
+          Width: 150
+    Commands:
+      Title: <yellow><b>PHẦN THƯỞNG</b></yellow><dark_gray> » </dark_gray><white>Câu Lệnh Sẽ Chạy</white>
+      Body:
+        Contents:
+        - Nhập tối đa <soft_yellow>5 lệnh</soft_yellow> sẽ được thực thi mỗi khi có người chơi nhận được phần thưởng.
+        - Các lệnh sẽ được thực thi theo thứ tự tương tự như các trường liệt kê dưới đây.
+        - ''
+        - <soft_yellow>→</soft_yellow> Sử dụng biến placeholder <soft_yellow>%player_name%</soft_yellow> để chèn tên của người chơi đã nhận được phần thưởng.
+        - ''
+        - '<soft_yellow>→</soft_yellow> Bạn có thể sử dụng các biến placeholder mặc định của <soft_yellow>Rương (Crate)</soft_yellow> và <soft_yellow>Phần Thưởng</soft_yellow>: nhấp <click:open_url:"https://nightexpressdev.com/excellentcrates/placeholders/internal"><soft_green><u>VÀO ĐÂY</u></soft_green></click> để xem tài liệu hướng dẫn.'
+        - ''
+        - <soft_yellow>→</soft_yellow> Bạn có thể sử dụng bất kỳ biến placeholder nào từ plugin <soft_yellow>PlaceholderAPI</soft_yellow>.
+        Width: 400
+      Input:
+        Command: Lệnh <soft_yellow>#%s</soft_yellow>
+    Name:
+      Title: <yellow><b>PHẦN THƯỞNG</b></yellow><dark_gray> » </dark_gray><white>Tên Hiển Thị</white>
+    Description:
+      Title: <yellow><b>PHẦN THƯỞNG</b></yellow><dark_gray> » </dark_gray><white>Mô Tả</white>
+    Weight:
+      Title: <yellow><b>PHẦN THƯỞNG</b></yellow><dark_gray> » </dark_gray><white>Trọng Lượng (Weight) & Độ Hiếm</white>
+      Body:
+        Contents:
+        - Thiết lập <soft_yellow>độ hiếm</soft_yellow> mong muốn và <soft_yellow>trọng lượng</soft_yellow> cho phần thưởng.
+        - ''
+        - Bạn có thể tìm hiểu thêm về cách hoạt động của độ hiếm và trọng lượng tại <click:open_url:"https://nightexpressdev.com/excellentcrates/rewards/rarity-weights/"><soft_green><u>ĐÂY</u></soft_green></click>.
+        Width: 400
+      Input:
+        Rarity: <soft_yellow>Độ Hiếm</soft_yellow>
+        Weight: <soft_yellow>Trọng Lượng</soft_yellow>
+    Permissions:
+      Title: <yellow><b>PHẦN THƯỞNG</b></yellow><dark_gray> » </dark_gray><white>Các Phân Quyền</white>
+      Body:
+        Contents:
+        - Chỉ định các quyền hạn mà một người chơi phải có hoặc không được có để truy cập phần thưởng này.
+        - ''
+        - Sử dụng tiền tố <green><b>+</b></green> để liệt kê các quyền hạn mà người chơi <green>phải có</green>, và tiền tố <red><b>-</b></red> cho các quyền hạn mà người chơi <red>không được phép có</red>.
+        - ''
+        - Người chơi phải sở hữu bất kỳ quyền hạn <green>'được phép'</green> nào và không sở hữu bất kỳ quyền hạn <red>'bị cấm'</red> nào.
+        Width: 400
+      Input:
+        Permissions: Các Phân Quyền
+    Limits:
+      Title: <yellow><b>PHẦN THƯỞNG</b></yellow><dark_gray> » </dark_gray><white>Các Giới Hạn</white>
+      Body:
+        Contents:
+        - Tại đây bạn có thể đặt mức độ thường xuyên và tần suất để có thể giành được phần thưởng này.
+        - ''
+        - Cài đặt <soft_orange>Tổng Thể</soft_orange> sẽ áp dụng cho tất cả người chơi cùng một lúc, trong khi cài đặt <soft_blue>Cá Nhân</soft_blue> sẽ được áp dụng riêng lẻ từng người chơi một.
+        - ''
+        - <sprite:"item/clock_00"> Sử dụng chế độ hồi chiêu <soft_yellow>Hàng Ngày</soft_yellow> để làm mới thời gian hồi chiêu vào lúc <soft_yellow>nửa đêm</soft_yellow> sau số ngày đã được chỉ định.
+        - <sprite:"item/clock_00"> Sử dụng chế độ hồi chiêu <soft_yellow>Tùy Chỉnh</soft_yellow> để thiết lập một thời gian hồi chiêu chính xác bằng <soft_yellow>giây</soft_yellow>.
+        - ''
+        - <sprite:"item/barrier"> Để vô hiệu hóa thời gian hồi chiêu, hãy đặt giá trị của nó là <soft_red>0</soft_red>.
+        - <sprite:"item/barrier"> Để xóa bỏ giới hạn số lần quay thưởng, hãy đặt giá trị của nó là <soft_red>-1</soft_red>.
+        Width: 400
+      Input:
+        Enabled: Bật Giới Hạn
+        CooldownMode: <soft_yellow>Chế Độ Hồi Chiêu</soft_yellow>
+        GlobalAmount: Tối Đa <soft_orange>(Tổng Thể)</soft_orange>
+        GlobalCooldown: Thời Gian Hồi <soft_orange>(Tổng Thể)</soft_orange>
+        PlayerAmount: Tối Đa <soft_blue>(Cá Nhân)</soft_blue>
+        Rolls: Các Lượt Mở
+        PlayerCooldown: Thời Gian Hồi <soft_blue>(Cá Nhân)</soft_blue>
+  CostOption:
+    Creation:
+      Title: <yellow><b>TÙY CHỌN CHI PHÍ</b></yellow><dark_gray> » </dark_gray><white>Tạo Mới</white>
+    Name:
+      Title: <yellow><b>TÙY CHỌN CHI PHÍ</b></yellow><dark_gray> » </dark_gray><white>Tên Hiển Thị</white>
+      Body:
+        Contents:
+        - Thiết lập <soft_yellow>tên hiển thị</soft_yellow> cho tùy chọn chi phí đã được chọn.
+        - Tốt nhất là chọn một cái tên chung, ví dụ như <soft_yellow>"Chìa Khóa"</soft_yellow> hoặc <soft_yellow>"Tiền Xu"</soft_yellow>.
+        Width: 400
+  CostEntry:
+    Creation:
+      Title: <yellow><b>LOẠI CHI PHÍ</b></yellow><dark_gray> » </dark_gray><white>Tạo Mới</white>
+      Body:
+        Contents: Chọn một loại chi phí.
+        Width: 400
+      BodyEmpty:
+        Contents:
+        - <soft_red><u>KHÔNG CÓ CÁC LOẠI CHI PHÍ NÀO SẴN DÙNG CẢ</u></soft_red>
+        - ''
+        - 'Bạn có thể sẽ thấy được tin nhắn này vì một trong các nguyên do sau:'
+        - ''
+        - <soft_red>→</soft_red> Không có module <soft_red>Chìa Khoá</soft_red> nào sẵn dùng hoặc bạn vẫn chưa có bất kỳ chìa khoá nào được tạo.
+        - Bạn có thể tạo ra các chìa khoá bằng cách sử dụng trình quản lí ExcellentCrates editor.
+        - ''
+        - <soft_red>→</soft_red> Không có bất kỳ plugin hỗ trợ <soft_red>kinh tế</soft_red> hoặc <soft_red>tiền tệ</soft_red> nào được bạn cài đặt, hoặc sự tích hợp của nó đã bị tắt trong file cấu hình <soft_red>nightcore</soft_red>.
+        Width: 400
+    Key:
+      Title: <yellow><b>COST ENTRY</b></yellow><dark_gray> » </dark_gray><white>Key Options</white>
+      Body:
+        Contents:
+        - Specify which key and how many of it are required to open the crate.
+        - ''
+        - You can create and edit keys in the <soft_yellow>ExcellentCrates Editor</soft_yellow>.
+        Width: 400
+      Input:
+        Key: <soft_yellow>Key</soft_yellow>
+        Amount: Amount
+Enums:
+  RewardType:
+    COMMAND: Lệnh
+    ITEM: Vật Phẩm
+  CooldownMode:
+    DAILY: Hàng Ngày
+    CUSTOM: Tùy Chỉnh
+Assets:
+  Particle:
+    spore_blossom_air: Không Khí Hoa Bào Tử
+    tinted_leaves: Lá Có Màu Đậm
+    flame: Ngọn Lửa
+    falling_water: Nước Rơi
+    item_cobweb: Vật Phẩm Mạng Nhện
+    elder_guardian: Giám Mục Cổ Đại
+    block_marker: Đánh Dấu Khối
+    firework: Pháo Hoa
+    infested: Bị Lây Nhiễm
+    happy_villager: Dân Làng Vui Vẻ
+    sneeze: Hắt Hơi
+    crit: Chí Mạng
+    gust: Cơn Gió Mạnh
+    soul: Linh Hồn
+    snowflake: Bông Tuyết
+    falling_honey: Mật Ong Rơi
+    underwater: Dưới Nước
+    dripping_lava: Dung Nham Nhỏ Giọt
+    enchanted_hit: Đòn Đánh Ma Thuật
+    item: Vật Phẩm
+    damage_indicator: Chỉ Báo Sát Thương
+    squid_ink: Mực Của Con Mực
+    campfire_signal_smoke: Khói Tín Hiệu Trại Lửa
+    ominous_spawning: Sinh Vật Đáng Ngờ Sinh Ra
+    raid_omen: Điềm Báo Cuộc Đột Kích
+    glow: Ánh Sáng
+    dolphin: Cá Heo
+    dust_color_transition: Chuyển Màu Bụi
+    entity_effect: Hiệu Ứng Thực Thể
+    flash: Chớp Sáng
+    dragon_breath: Hơi Thở Của Rồng
+    campfire_cosy_smoke: Khói Lửa Trại Ấm Cúng
+    sculk_charge_pop: Tiếng Bốp Sculk Charge
+    fishing: Câu Cá
+    small_gust: Gió Nhẹ
+    glow_squid_ink: Mực Phản Quang Của Con Mực
+    reverse_portal: Cổng Thông Tin Đảo Ngược
+    dripping_dripstone_water: Nước Nhỏ Giọt Dripstone
+    pale_oak_leaves: Lá Sồi Nhạt Màu
+    falling_nectar: Mật Hoa Rơi
+    electric_spark: Tia Lửa Điện
+    dust_pillar: Cột Bụi
+    falling_spore_blossom: Hoa Bào Tử Rơi
+    poof: Phụt
+    rain: Mưa
+    mycelium: Sợi Nấm
+    vibration: Độ Rung
+    falling_dripstone_lava: Dung Nham Nhỏ Giọt Dripstone Rơi
+    sculk_charge: Sạc Sculk
+    block_crumble: Vỡ Vụn Khối
+    dripping_honey: Mật Ong Nhỏ Giọt
+    trial_omen: Điềm Báo Thử Thách
+    large_smoke: Khói Lớn
+    wax_on: Đánh Bóng (Bằng Sáp)
+    spit: Phun Nước Bọt
+    gust_emitter_large: Nguồn Phát Gió Mạnh Lớn
+    explosion_emitter: Nguồn Phát Vụ Nổ
+    composter: Máy Phân Hủy
+    ash: Tro Bụi
+    current_down: Dòng Chảy Xuống
+    shriek: Tiếng La Hét
+    enchant: Ma Thuật
+    item_snowball: Vật Phẩm Bóng Tuyết
+    gust_emitter_small: Nguồn Phát Gió Mạnh Nhỏ
+    warped_spore: Bào Tử Kỳ Dị
+    white_smoke: Khói Trắng
+    smoke: Khói
+    soul_fire_flame: Lửa Linh Hồn
+    dripping_dripstone_lava: Dung Nham Nhỏ Giọt Dripstone
+    firefly: Đom Đóm
+    note: Ghi Chú
+    wax_off: Tẩy Bóng (Bằng Sáp)
+    cherry_leaves: Lá Anh Đào
+    dust: Bụi
+    white_ash: Tro Trắng
+    scrape: Cạo
+    bubble_column_up: Cột Bong Bóng Lên
+    witch: Phù Thủy
+    falling_dust: Bụi Rơi
+    dripping_obsidian_tear: Nước Mắt Obsidian Nhỏ Giọt
+    lava: Dung Nham
+    end_rod: Gậy Kết Thúc (End Rod)
+    copper_fire_flame: Lửa Đồng
+    angry_villager: Dân Làng Tức Giận
+    crimson_spore: Bào Tử Đỏ Chót (Crimson)
+    bubble: Bong Bóng
+    dripping_water: Nước Nhỏ Giọt
+    portal: Cổng Không Gian
+    landing_honey: Mật Ong Đáp Xuống
+    item_slime: Vật Phẩm Bùn Lầy
+    instant_effect: Hiệu Ứng Tức Thì
+    sculk_soul: Linh Hồn Sculk
+    effect: Hiệu Ứng
+    landing_obsidian_tear: Nước Mắt Obsidian Đáp Xuống
+    trial_spawner_detection: Máy Tính Sinh Thử Thách Phát Hiện
+    trial_spawner_detection_ominous: Máy Tính Sinh Thử Thách Phát Hiện Đáng Ngờ
+    cloud: Đám Mây
+    bubble_pop: Bong Bóng Nổ
+    falling_lava: Dung Nham Rơi
+    falling_dripstone_water: Nước Nhỏ Giọt Dripstone Rơi
+    landing_lava: Dung Nham Đáp Xuống
+    sonic_boom: Vụ Nổ Sonic
+    explosion: Vụ Nổ
+    nautilus: Ốc Anh Vũ
+    heart: Trái Tim
+    sweep_attack: Đòn Tấn Công Quét Quét
+    falling_obsidian_tear: Nước Mắt Obsidian Rơi
+    vault_connection: Kết Nối Hầm Kho Báu (Vault)
+    splash: Nước Bắn
+    small_flame: Ngọn Lửa Nhỏ
+    dust_plume: Cột Bụi
+    egg_crack: Trứng Nứt
+    trail: Dấu Vết
+    totem_of_undying: Biểu Tượng Bất Tử (Totem)
+    block: Khối
+Costs:
+  Currency:
+    Name: <green>[$]</green> <white>Tiền Tệ</white>
+    EditButton:
+      Name: <yellow><b>Chi Phí Tiền Tệ</b></yellow><gray> - </gray><white>%name%</white>
+      Lore:
+      - <i><dark_gray>Nhấn phím <soft_red><key:key.drop></soft_red> để xóa.</dark_gray></i>
+      - ' '
+      - '<gray><dark_gray>» </dark_gray>ID Tiền Tệ: <white>%id%</white></gray>'
+      - '<gray><dark_gray>» </dark_gray>Số Lượng: <white>%amount%</white></gray>'
+      - ' '
+      - <soft_yellow>→ <u>Nhấp để chỉnh sửa</u></soft_yellow>
+  Key:
+    Name: <yellow>[🔑]</yellow> <white>Chìa Khóa</white>
+    Format: <gray>x%amount% %name%</gray>
+    EditButton:
+      Name: <yellow><b>Chi Phí Chìa Khóa</b></yellow><gray> - </gray><white>%name%</white>
+      Lore:
+      - <i><dark_gray>Nhấn phím <soft_red><key:key.drop></soft_red> để xóa.</dark_gray></i>
+      - ' '
+      - '<gray><dark_gray>» </dark_gray>ID Chìa Khóa: <white>%id%</white></gray>'
+      - '<gray><dark_gray>» </dark_gray>Số Lượng: <white>%amount%</white></gray>'
+      - ' '
+      - <yellow>→ <u>Nhấp để chỉnh sửa</u></yellow>

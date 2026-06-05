@@ -1,0 +1,154 @@
+pages:
+  page1:
+    gui-rows: 6
+    items:
+      ROTTEN_FLESH:
+        material: ROTTEN_FLESH
+        displayname: '&eThịt thối rữa'
+        buy: 16
+        sell: 8
+      BONE:
+        material: BONE
+        displayname: '&eXương'
+        buy: 30.0
+        sell: 2.0
+      ARROW:
+        material: ARROW
+        displayname: '&eMũi tên'
+        buy: 10.0
+        sell: 3.5
+      STRING:
+        material: STRING
+        displayname: '&eSợi chỉ'
+        buy: 20.0
+        sell: 5.0
+      SPIDER_EYE:
+        material: SPIDER_EYE
+        displayname: '&eMắt nhện'
+        buy: 30
+        sell: 15
+      GUNPOWDER:
+        material: GUNPOWDER
+        displayname: '&eThuốc súng'
+        buy: 50
+        sell: 25
+      ENDER_PEARL:
+        material: ENDER_PEARL
+        displayname: '&eNgọc Ender'
+        buy: 100
+        sell: 50
+      SLIME_BALL:
+        material: SLIME_BALL
+        displayname: '&eBóng nhầy'
+        buy: 80.0
+        sell: 50.0
+      MAGMA_CREAM:
+        material: MAGMA_CREAM
+        displayname: '&eKem dung nham'
+        buy: 140
+        sell: 70
+      BLAZE_ROD:
+        material: BLAZE_ROD
+        displayname: '&eQue lửa'
+        buy: 120
+        sell: 60
+      GHAST_TEAR:
+        material: GHAST_TEAR
+        displayname: '&eNước mắt Ghast'
+        buy: 300
+        sell: 150
+      PHANTOM_MEMBRANE:
+        material: PHANTOM_MEMBRANE
+        displayname: '&eMàng da Phantom'
+        buy: 100
+        sell: 50
+      SHULKER_SHELL:
+        material: SHULKER_SHELL
+        displayname: '&eVỏ Shulker'
+        buy: 500
+        sell: 250
+      LEATHER:
+        material: LEATHER
+        displayname: '&eDa thuộc'
+        buy: 40.0
+        sell: 10.0
+      RABBIT_HIDE:
+        material: RABBIT_HIDE
+        displayname: '&eDa thỏ'
+        buy: 30
+        sell: 15
+      RABBIT_FOOT:
+        material: RABBIT_FOOT
+        displayname: '&eChân thỏ'
+        buy: 80
+        sell: 40
+      FEATHER:
+        material: FEATHER
+        displayname: '&eLông gà'
+        buy: 22.0
+        sell: 3.0
+      INK_SAC:
+        material: INK_SAC
+        displayname: '&eTúi mực'
+        buy: 20
+        sell: 10
+      GLOW_INK_SAC:
+        material: GLOW_INK_SAC
+        displayname: '&eTúi mực phát sáng'
+        buy: 40
+        sell: 20
+      PRISMARINE_SHARD:
+        material: PRISMARINE_SHARD
+        displayname: '&eMảnh Prismarin'
+        buy: 20
+        sell: 10
+      PRISMARINE_CRYSTALS:
+        material: PRISMARINE_CRYSTALS
+        displayname: '&ePha lê Prismarin'
+        buy: 30
+        sell: 15
+      SCUTE:
+        material: SCUTE
+        displayname: '&eVảy rùa'
+        buy: 150
+        sell: 75
+      ARMADILLO_SCUTE:
+        material: ARMADILLO_SCUTE
+        displayname: '&eVảy Armadillo'
+        buy: 160
+        sell: 80
+      BREEZE_ROD:
+        material: BREEZE_ROD
+        displayname: '&eQue gió'
+        buy: 700
+        sell: 350
+      DRAGON_BREATH:
+        material: DRAGON_BREATH
+        displayname: '&eHơi thở của Rồng'
+        buy: 240
+        sell: 120
+      SADDLE:
+        material: SADDLE
+        displayname: '&eYên cưỡi'
+        buy: 500.0
+        sell: 100.0
+      NAME_TAG:
+        material: NAME_TAG
+        displayname: '&eThẻ tên'
+        buy: 300
+        sell: 150
+      NAUTILUS_SHELL:
+        material: NAUTILUS_SHELL
+        displayname: '&eVỏ ốc anh vũ'
+        buy: 160
+        sell: 80
+      SNOWBALL:
+        material: SNOWBALL
+        displayname: '&eBóng tuyết'
+        buy: 4.0
+        sell: 1.0
+      HONEYCOMB:
+        material: HONEYCOMB
+        displayname: '&eSáp ong'
+        buy: 20
+        sell: 10

@@ -1,0 +1,29 @@
+# ###########################
+#
+# ITSMYSTUDIO - A configuration for EconomyShopGui
+# https://itsmy.studio/discord
+#
+# ###########################
+enable: true
+slot: 14
+title: Thực phẩm & Nông sản
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: CACTUS
+  lore:
+  - '&8Xem trước danh mục'
+  - '#b5a3f4 ▪ &fChồi cây sồi'
+  - '#b5a3f4 ▪ &fKhoai tây'
+  - '#b5a3f4 ▪ &fXương rồng'
+  - '#b5a3f4 ▪ &fThịt cừu chín'
+  - '#b5a3f4 ▪ &fTáo'
+  - '#f48ce2 ▪ &fvà 29 thêm...'
+  - ''
+  - '&7◆ #f48ce2Nhấn: &fMở'
+  name: '#b5a3f4Thực phẩm & Nông sản'

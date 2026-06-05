@@ -1,0 +1,168 @@
+currency-mode: points
+currency-name: Points
+earning:
+  chat:
+    enabled: true
+    points-per-message: 1
+    cooldown-seconds: 15
+  playtime:
+    enabled: true
+    points-per-hour: 10
+  games:
+    enabled: true
+    points-per-win: 5
+pagination:
+  items-per-page: 21
+items:
+  color_red:
+    enabled: true
+    name: Red Chat Color
+    category: CHAT_COLOR
+    material: RED_DYE
+    price: 100
+    value: <red>
+    permission: lpcpro.color.red
+  color_blue:
+    enabled: true
+    name: Blue Chat Color
+    category: CHAT_COLOR
+    material: BLUE_DYE
+    price: 100
+    value: <blue>
+    permission: lpcpro.color.blue
+  color_green:
+    enabled: true
+    name: Green Chat Color
+    category: CHAT_COLOR
+    material: GREEN_DYE
+    price: 100
+    value: <green>
+    permission: lpcpro.color.green
+  color_gold:
+    enabled: true
+    name: Gold Chat Color
+    category: CHAT_COLOR
+    material: GOLD_INGOT
+    price: 200
+    value: <gold>
+    permission: lpcpro.color.gold
+  color_aqua:
+    enabled: true
+    name: Aqua Chat Color
+    category: CHAT_COLOR
+    material: CYAN_DYE
+    price: 150
+    value: <aqua>
+    permission: lpcpro.color.aqua
+  color_gradient_fire:
+    enabled: true
+    name: Fire Gradient
+    category: CHAT_COLOR
+    material: BLAZE_POWDER
+    price: 500
+    value: <gradient:red:gold>
+    permission: lpcpro.color.gradient.fire
+  color_gradient_ocean:
+    enabled: true
+    name: Ocean Gradient
+    category: CHAT_COLOR
+    material: PRISMARINE_SHARD
+    price: 500
+    value: <gradient:blue:aqua>
+    permission: lpcpro.color.gradient.ocean
+  color_rainbow:
+    enabled: true
+    name: Rainbow Gradient
+    category: CHAT_COLOR
+    material: BEACON
+    price: 1000
+    value: <rainbow>
+    permission: lpcpro.color.rainbow
+  tag_star:
+    enabled: true
+    name: ★ Star Tag
+    category: TAG
+    material: NETHER_STAR
+    price: 300
+    value: ★
+    permission: lpcpro.tag.star
+  tag_crown:
+    enabled: true
+    name: 👑 Crown Tag
+    category: TAG
+    material: GOLDEN_HELMET
+    price: 500
+    value: 👑
+    permission: lpcpro.tag.crown
+  tag_diamond:
+    enabled: true
+    name: 💎 Diamond Tag
+    category: TAG
+    material: DIAMOND
+    price: 400
+    value: 💎
+    permission: lpcpro.tag.diamond
+  tag_fire:
+    enabled: true
+    name: 🔥 Fire Tag
+    category: TAG
+    material: FIRE_CHARGE
+    price: 350
+    value: 🔥
+    permission: lpcpro.tag.fire
+  tag_heart:
+    enabled: true
+    name: ❤ Heart Tag
+    category: TAG
+    material: RED_DYE
+    price: 250
+    value: ❤
+    permission: lpcpro.tag.heart
+  name_gold:
+    enabled: true
+    name: Gold Name
+    category: NAME_COLOR
+    material: GOLD_BLOCK
+    price: 300
+    value: <gold>
+    permission: lpcpro.namecolor.gold
+  name_aqua:
+    enabled: true
+    name: Aqua Name
+    category: NAME_COLOR
+    material: DIAMOND_BLOCK
+    price: 300
+    value: <aqua>
+    permission: lpcpro.namecolor.aqua
+  name_gradient_royal:
+    enabled: true
+    name: Royal Gradient Name
+    category: NAME_COLOR
+    material: EMERALD_BLOCK
+    price: 750
+    value: <gradient:gold:yellow>
+    permission: lpcpro.namecolor.gradient.royal
+  perk_extra_qr:
+    enabled: true
+    name: Extra Quick Replies (+5)
+    category: PERK
+    material: BOOK
+    price: 400
+    value: '5'
+    permission: lpcpro.quickreply.extra
+  perk_longer_msg:
+    enabled: true
+    name: Longer Messages (512 chars)
+    category: PERK
+    material: BOOK
+    price: 300
+    value: '512'
+    permission: lpcpro.message.long
+  perk_no_cooldown:
+    enabled: true
+    name: Reduced Cooldown
+    category: PERK
+    material: CLOCK
+    price: 600
+    value: reduced
+    permission: lpcpro.bypass.cooldown.partial

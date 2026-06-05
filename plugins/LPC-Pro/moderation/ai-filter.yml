@@ -1,0 +1,21 @@
+enabled: false
+api-key: your-api-key-here
+model: gpt-3.5-turbo
+api-endpoint: https://api.openai.com/v1/chat/completions
+timeout-seconds: 5
+toxicity-threshold: 0.7
+block-toxic: false
+log-analysis: false
+max-requests-per-minute: 30
+cache-size: 1000
+cache-ttl-minutes: 30
+post-hoc-moderation:
+  enabled: true
+  notify-staff: true
+  penalty-cooldown-seconds: 30
+  auto-delete-messages: true
+  auto-learn-words: true
+  auto-learn-threshold: 0.9
+  auto-learn-min-word-length: 4
+  auto-learn-min-occurrences: 3
+  auto-learn-max-per-day: 10

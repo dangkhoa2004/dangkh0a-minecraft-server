@@ -1,0 +1,29 @@
+tasks:
+  damage:
+    type: "dealdamage"
+    amount: 100
+display:
+  name: "&#A3C4F3&nᴄᴏᴍʙᴀᴛ ǫᴜᴇꜱᴛ:&r &#FDFD96#49"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ɢâʏ'
+    - '&#D1E8E2ꜱáᴛ ᴛʜươɴɢ ʟêɴ ǫᴜáɪ ᴠậᴛ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ɢâʏ 50 ᴛɪᴍ ꜱáᴛ ᴛʜươɴɢ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{damage:progress}/100 đɪểᴍ ᴍáᴜ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0300 ᴋɪɴʜ ɴɢʜɪệᴍ'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "DIAMOND_SWORD"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "xp give {player} 300"
+options:
+  category: "combat"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 2880
+  sort-order: 49

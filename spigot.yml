@@ -1,0 +1,181 @@
+# This is the Spigot configuration file for Paper.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+#
+# If you need help with the configuration or have any questions related to Paper,
+# join us in our Discord or check the docs page.
+#
+# File Reference: https://docs.papermc.io/paper/reference/spigot-configuration/
+# Docs: https://docs.papermc.io/
+# Discord: https://discord.gg/papermc
+# Website: https://papermc.io/
+
+settings:
+  debug: false
+  sample-count: 12
+  save-user-cache-on-stop-only: true
+  bungeecord: false # [!!!] If you're running a bungeecord proxy, you should set it to true
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh # if your server start-script is not named like this, change it to your one
+  log-villager-deaths: false
+  log-named-deaths: false
+  moved-wrongly-threshold: 10.0625 # those two values should prevent from console spam and players bugging when flying with elytra etc.
+  moved-too-quickly-multiplier: 99999999999
+  player-shuffle: 0
+  user-cache-size: 9999999
+  netty-threads: 4 # if you're experiencing lags due to packet stuff (many players on spawn sending many tracking packets), you could rise this value to 8 or more (depends on your hardware)
+  attribute:
+    maxAbsorption:
+      max: 2048.0
+    maxHealth:
+      max: 2048.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
+advancements:
+  disable-saving: false # if you don't use advancements, disable them by simply setting this value to "true" (if this setting was set to false before and now you want to turn off advancements, you should delete all files from /world/advancements directory!)
+  disabled: []
+messages:
+  whitelist: Máy chủ đang bảo trì!
+  unknown-command: §7Unknown command, use §f/help §7for further help.
+  server-full: Máy chủ đã đầy người, nếu bạn muốn tham gia, hãy báo cho admin!
+  outdated-client: Phiên bản của bạn đã quá cũ, vui lòng sử dụng bản {0}
+  outdated-server: Phiên bản của bạn quá mới, chúng mình đang dùng {0}
+  restart: Máy chủ đang khởi động lại
+world-settings:
+  default:
+    below-zero-generation-in-existing-chunks: true
+    nerf-spawner-mobs: true
+    arrow-despawn-rate: 300
+    trident-despawn-rate: 600
+    item-despawn-rate: 6000 # how frequent items should be cleared when dropped (by default it's 5 minutes)
+    mob-spawn-range: 3 # [your simulation-distance (in server.properties) - 1] - this value
+    view-distance: 10
+    simulation-distance: default
+    hanging-tick-frequency: 100
+    end-portal-sound-radius: 0
+    dragon-death-sound-radius: 0
+    wither-spawn-sound-radius: 0
+    thunder-chance: 100000
+    seed-village: 10387312
+    seed-desert: 14357617
+    seed-igloo: 14357618
+    seed-jungle: 14357619
+    seed-swamp: 14357620
+    seed-monument: 10387313
+    seed-shipwreck: 165745295
+    seed-ocean: 14357621
+    seed-outpost: 165745296
+    seed-endcity: 10387313
+    seed-slime: 987234911
+    seed-nether: 30084232
+    seed-mansion: 10387319
+    seed-fossil: 14357921
+    seed-portal: 34222645
+    seed-ancientcity: 20083232
+    seed-trailruins: 83469867
+    seed-trialchambers: 94251327
+    seed-buriedtreasure: 10387320
+    seed-mineshaft: default
+    seed-stronghold: default
+    entity-activation-range:
+      animals: 16
+      monsters: 16
+      raiders: 24
+      misc: 12
+      water: 12
+      villagers: 12
+      flying-monsters: 24
+      wake-up-inactive:
+        animals-max-per-tick: 2
+        animals-every: 1200
+        animals-for: 60
+        monsters-max-per-tick: 4
+        monsters-every: 400
+        monsters-for: 60
+        villagers-max-per-tick: 2
+        villagers-every: 600
+        villagers-for: 60
+        flying-monsters-max-per-tick: 4
+        flying-monsters-every: 200
+        flying-monsters-for: 60
+      villagers-work-immunity-after: 200
+      villagers-work-immunity-for: 40
+      villagers-active-for-panic: true
+      tick-inactive-villagers: false
+      ignore-spectators: false
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      beetroot-modifier: 100
+      carrot-modifier: 100
+      potato-modifier: 100
+      torchflower-modifier: 100
+      wheat-modifier: 100
+      netherwart-modifier: 100
+      vine-modifier: 100
+      cocoa-modifier: 100
+      bamboo-modifier: 100
+      sweetberry-modifier: 100
+      kelp-modifier: 100
+      twistingvines-modifier: 100
+      weepingvines-modifier: 100
+      cavevines-modifier: 100
+      glowberry-modifier: 100
+      pitcherplant-modifier: 100
+    entity-tracking-range:
+      players: 42
+      animals: 28
+      monsters: 28
+      misc: 32
+      display: 64
+      other: 32
+    unload-frozen-chunks: false
+    max-tnt-per-tick: 100
+    max-tick-time:
+      tile: 1000
+      entity: 1000
+    merge-radius:
+      item: 4
+      exp: 6
+    ticks-per:
+      hopper-transfer: 15 # how frequent should hoppers transfer items, this value corresponds for 750 milliseconds
+      hopper-check: 15
+    hopper-amount: 3 # how many items should be transfered on tick
+    hopper-can-load-chunks: false
+    hunger:
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      combat-exhaustion: 0.1
+      regen-exhaustion: 6.0
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
+    enable-zombie-pigmen-portal-spawns: true
+    zombie-aggressive-towards-villager: true
+    verbose: false
+  worldeditregentempworld:
+    verbose: false
+commands:
+  tab-complete: 0
+  send-namespaced: false
+  silent-commandblock-console: false
+  spam-exclusions: []
+  log: true
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  enable-spam-exclusions: true
+players:
+  disable-saving: false # if you're running lobby server, you should set this value to "true", so player data won't be saved (pretty good performacne gain for lobby server)
+config-version: 12
+stats:
+  disable-saving: false # if you don't need statistics, disable them by simply setting this value to "true"
+  forced-stats: {}

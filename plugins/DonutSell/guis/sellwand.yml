@@ -1,0 +1,36 @@
+sellstick: 
+  material: NETHERITE_AXE 
+  displayname: '&x&5&7&F&2&8&7&l❁ ɢậʏ ʙáɴ đồ ❁' 
+  default-uses: 5000 
+  unlimited-uses-text: '∞' 
+  not-used-yet-uses: 'ᴄʜưᴀ ѕử ᴅụɴɢ' 
+  lore: 
+    - '' 
+    - '&x&F&C&D&0&5&C&lᴛʜôɴɢ ᴛɪɴ' 
+    - ' &x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ʟượᴛ ᴅùɴɢ: &x&5&7&F&2&8&7{uses}' 
+    - ' &x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴅùɴɢ ʟầɴ ᴄᴜốɪ ʙởɪ: &x&5&7&F&2&8&7{lastusedby}' 
+    - '' 
+    - '&x&F&C&D&0&5&C&lᴛʜốɴɢ ᴋê' 
+    - ' &x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴠậᴛ ᴘʜẩᴍ đã ʙáɴ: &x&5&7&F&2&8&7{items_sold}' 
+    - ' &x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴛɪềɴ ᴋɪếᴍ đượᴄ: &x&F&F&D&7&0&0{money_made} ⛃' 
+    - ' &x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ɪᴅ: &x&A&E&C&6&C&F{id}' 
+    - '' 
+    - '&x&5&7&F&2&8&7▶ &x&E&0&E&0&E&0ɴʜấɴ ᴠàᴏ ʀươɴɢ để ʙáɴ ᴠậᴛ ᴘʜẩᴍ' 
+
+sellstick-timebased: 
+  material: NETHERITE_AXE 
+  displayname: '&x&5&7&F&2&8&7&l❁ ɢậʏ ʙáɴ đồ ᴄó ᴛʜờɪ ʜạɴ ❁' 
+  default-time: 3d 
+  not-used-yet-timebased: 'ᴄʜưᴀ ѕử ᴅụɴɢ' 
+  lore: 
+    - '' 
+    - '&x&F&C&D&0&5&C&lᴛʜôɴɢ ᴛɪɴ' 
+    - ' &x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴛʜờɪ ɢɪᴀɴ ᴄòɴ ʟạɪ: &x&5&7&F&2&8&7{uses}' 
+    - ' &x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴅùɴɢ ʟầɴ ᴄᴜốɪ ʙởɪ: &x&5&7&F&2&8&7{lastusedby}' 
+    - '' 
+    - '&x&F&C&D&0&5&C&lᴛʜốɴɢ ᴋê' 
+    - ' &x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴠậᴛ ᴘʜẩᴍ đã ʙáɴ: &x&5&7&F&2&8&7{items_sold}' 
+    - ' &x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴛɪềɴ ᴋɪếᴍ đượᴄ: &x&F&F&D&7&0&0{money_made} ⛃' 
+    - ' &x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ɪᴅ: &x&A&E&C&6&C&F{id}' 
+    - '' 
+    - '&x&5&7&F&2&8&7▶ &x&E&0&E&0&E&0ɴʜấɴ ᴠàᴏ ʀươɴɢ để ʙáɴ ᴠậᴛ ᴘʜẩᴍ'

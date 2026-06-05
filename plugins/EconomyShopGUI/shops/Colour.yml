@@ -1,0 +1,411 @@
+pages:
+  page1:
+    gui-rows: 6
+    items:
+      WHITE_WOOL:
+        material: WHITE_WOOL
+        displayname: '&eLen trắng'
+        buy: 40.0
+        sell: 20.0
+      LIGHT_GRAY_WOOL:
+        material: LIGHT_GRAY_WOOL
+        displayname: '&eLen xám nhạt'
+        buy: 56
+        sell: 28
+      GRAY_WOOL:
+        material: GRAY_WOOL
+        displayname: '&eLen xám'
+        buy: 56
+        sell: 28
+      BLACK_WOOL:
+        material: BLACK_WOOL
+        displayname: '&eLen đen'
+        buy: 56
+        sell: 28
+      BROWN_WOOL:
+        material: BROWN_WOOL
+        displayname: '&eLen nâu'
+        buy: 56
+        sell: 28
+      RED_WOOL:
+        material: RED_WOOL
+        displayname: '&eLen đỏ'
+        buy: 56
+        sell: 28
+      ORANGE_WOOL:
+        material: ORANGE_WOOL
+        displayname: '&eLen cam'
+        buy: 56
+        sell: 28
+      YELLOW_WOOL:
+        material: YELLOW_WOOL
+        displayname: '&eLen vàng'
+        buy: 56
+        sell: 28
+      LIME_WOOL:
+        material: LIME_WOOL
+        displayname: '&eLen xanh lá mạ'
+        buy: 56
+        sell: 28
+      GREEN_WOOL:
+        material: GREEN_WOOL
+        displayname: '&eLen xanh lá cây'
+        buy: 56
+        sell: 28
+      CYAN_WOOL:
+        material: CYAN_WOOL
+        displayname: '&eLen lục lam'
+        buy: 56
+        sell: 28
+      LIGHT_BLUE_WOOL:
+        material: LIGHT_BLUE_WOOL
+        displayname: '&eLen xanh nhạt'
+        buy: 56
+        sell: 28
+      BLUE_WOOL:
+        material: BLUE_WOOL
+        displayname: '&eLen xanh nước biển'
+        buy: 56
+        sell: 28
+      PURPLE_WOOL:
+        material: PURPLE_WOOL
+        displayname: '&eLen tím'
+        buy: 56
+        sell: 28
+      MAGENTA_WOOL:
+        material: MAGENTA_WOOL
+        displayname: '&eLen đỏ sậm'
+        buy: 56
+        sell: 28
+      PINK_WOOL:
+        material: PINK_WOOL
+        displayname: '&eLen hồng'
+        buy: 56
+        sell: 28
+      WHITE_TERRACOTTA:
+        material: WHITE_TERRACOTTA
+        displayname: '&eĐất nung trắng'
+        buy: 46
+        sell: 23
+      LIGHT_GRAY_TERRACOTTA:
+        material: LIGHT_GRAY_TERRACOTTA
+        displayname: '&eĐất nung xám nhạt'
+        buy: 46
+        sell: 23
+      GRAY_TERRACOTTA:
+        material: GRAY_TERRACOTTA
+        displayname: '&eĐất nung xám'
+        buy: 46
+        sell: 23
+      BLACK_TERRACOTTA:
+        material: BLACK_TERRACOTTA
+        displayname: '&eĐất nung đen'
+        buy: 46
+        sell: 23
+      BROWN_TERRACOTTA:
+        material: BROWN_TERRACOTTA
+        displayname: '&eĐất nung nâu'
+        buy: 46
+        sell: 23
+      RED_TERRACOTTA:
+        material: RED_TERRACOTTA
+        displayname: '&eĐất nung đỏ'
+        buy: 46
+        sell: 23
+      ORANGE_TERRACOTTA:
+        material: ORANGE_TERRACOTTA
+        displayname: '&eĐất nung cam'
+        buy: 46
+        sell: 23
+      YELLOW_TERRACOTTA:
+        material: YELLOW_TERRACOTTA
+        displayname: '&eĐất nung vàng'
+        buy: 46
+        sell: 23
+      LIME_TERRACOTTA:
+        material: LIME_TERRACOTTA
+        displayname: '&eĐất nung xanh lá mạ'
+        buy: 46
+        sell: 23
+      GREEN_TERRACOTTA:
+        material: GREEN_TERRACOTTA
+        displayname: '&eĐất nung xanh lá cây'
+        buy: 46
+        sell: 23
+      CYAN_TERRACOTTA:
+        material: CYAN_TERRACOTTA
+        displayname: '&eĐất nung lục lam'
+        buy: 46
+        sell: 23
+      LIGHT_BLUE_TERRACOTTA:
+        material: LIGHT_BLUE_TERRACOTTA
+        displayname: '&eĐất nung xanh nước biển nhạt'
+        buy: 46
+        sell: 23
+      BLUE_TERRACOTTA:
+        material: BLUE_TERRACOTTA
+        displayname: '&eĐất nung xanh nước biển'
+        buy: 46
+        sell: 23
+      PURPLE_TERRACOTTA:
+        material: PURPLE_TERRACOTTA
+        displayname: '&eĐất nung tím'
+        buy: 46
+        sell: 23
+      MAGENTA_TERRACOTTA:
+        material: MAGENTA_TERRACOTTA
+        displayname: '&eĐất nung đỏ sậm'
+        buy: 46
+        sell: 23
+      PINK_TERRACOTTA:
+        material: PINK_TERRACOTTA
+        displayname: '&eĐất nung hồng'
+        buy: 46
+        sell: 23
+      WHITE_CONCRETE:
+        material: WHITE_CONCRETE
+        displayname: '&eBê tông trắng'
+        buy: 10
+        sell: 5
+      LIGHT_GRAY_CONCRETE:
+        material: LIGHT_GRAY_CONCRETE
+        displayname: '&eBê tông xám nhạt'
+        buy: 10
+        sell: 5
+      GRAY_CONCRETE:
+        material: GRAY_CONCRETE
+        displayname: '&eBê tông xám'
+        buy: 10
+        sell: 5
+      BLACK_CONCRETE:
+        material: BLACK_CONCRETE
+        displayname: '&eBê tông đen'
+        buy: 10
+        sell: 5
+      BROWN_CONCRETE:
+        material: BROWN_CONCRETE
+        displayname: '&eBê tông nâu'
+        buy: 10
+        sell: 5
+      RED_CONCRETE:
+        material: RED_CONCRETE
+        displayname: '&eBê tông đỏ'
+        buy: 10
+        sell: 5
+      ORANGE_CONCRETE:
+        material: ORANGE_CONCRETE
+        displayname: '&eBê tông cam'
+        buy: 10
+        sell: 5
+      YELLOW_CONCRETE:
+        material: YELLOW_CONCRETE
+        displayname: '&eBê tông vàng'
+        buy: 10
+        sell: 5
+      LIME_CONCRETE:
+        material: LIME_CONCRETE
+        displayname: '&eBê tông xanh lá mạ'
+        buy: 10
+        sell: 5
+      GREEN_CONCRETE:
+        material: GREEN_CONCRETE
+        displayname: '&eBê tông xanh lá cây'
+        buy: 10
+        sell: 5
+      CYAN_CONCRETE:
+        material: CYAN_CONCRETE
+        displayname: '&eBê tông lục lam'
+        buy: 10
+        sell: 5
+      LIGHT_BLUE_CONCRETE:
+        material: LIGHT_BLUE_CONCRETE
+        displayname: '&eBê tông xanh nước biển nhạt'
+        buy: 10
+        sell: 5
+      BLUE_CONCRETE:
+        material: BLUE_CONCRETE
+        displayname: '&eBê tông xanh nước biển'
+        buy: 10
+        sell: 5
+  page2:
+    gui-rows: 5
+    items:
+      PURPLE_CONCRETE:
+        material: PURPLE_CONCRETE
+        displayname: '&eBê tông tím'
+        buy: 10
+        sell: 5
+      MAGENTA_CONCRETE:
+        material: MAGENTA_CONCRETE
+        displayname: '&eBê tông đỏ sậm'
+        buy: 10
+        sell: 5
+      PINK_CONCRETE:
+        material: PINK_CONCRETE
+        displayname: '&eBê tông hồng'
+        buy: 10
+        sell: 5
+      TINtED_GLASS:
+        material: TINtED_GLASS
+        displayname: '&eThủy tinh mờ'
+        buy: 14
+      WHITE_STAINED_GLASS:
+        material: WHITE_STAINED_GLASS
+        displayname: '&eThủy tinh được nhuộm trắng'
+        buy: 14
+        sell: 7
+      LIGHT_GRAY_STAINED_GLASS:
+        material: LIGHT_GRAY_STAINED_GLASS
+        displayname: '&eThủy tinh được nhuộm xám nhạt'
+        buy: 14
+        sell: 7
+      GRAY_STAINED_GLASS:
+        material: GRAY_STAINED_GLASS
+        displayname: '&eThủy tinh được nhuộm xám'
+        buy: 14
+        sell: 7
+      BLACK_STAINED_GLASS:
+        material: BLACK_STAINED_GLASS
+        displayname: '&eThủy tinh được nhuộm đen'
+        buy: 14
+        sell: 7
+      BROWN_STAINED_GLASS:
+        material: BROWN_STAINED_GLASS
+        displayname: '&eThủy tinh được nhuộm nâu'
+        buy: 14
+        sell: 7
+      RED_STAINED_GLASS:
+        material: RED_STAINED_GLASS
+        displayname: '&eThủy tinh được nhuộm đỏ'
+        buy: 14
+        sell: 7
+      ORANGE_STAINED_GLASS:
+        material: ORANGE_STAINED_GLASS
+        displayname: '&eThủy tinh được nhuộm cam'
+        buy: 14
+        sell: 7
+      YELLOW_STAINED_GLASS:
+        material: YELLOW_STAINED_GLASS
+        displayname: '&eThủy tinh được nhuộm vàng'
+        buy: 14
+        sell: 7
+      LIME_STAINED_GLASS:
+        material: LIME_STAINED_GLASS
+        displayname: '&eThủy tinh được nhuộm xanh lá mạ'
+        buy: 14
+        sell: 7
+      GREEN_STAINED_GLASS:
+        material: GREEN_STAINED_GLASS
+        displayname: '&eThủy tinh được nhuộm xanh lá cây'
+        buy: 14
+        sell: 7
+      CYAN_STAINED_GLASS:
+        material: CYAN_STAINED_GLASS
+        displayname: '&eThủy tinh được nhuộm lục lam'
+        buy: 14
+        sell: 7
+      LIGHT_BLUE_STAINED_GLASS:
+        material: LIGHT_BLUE_STAINED_GLASS
+        displayname: '&eThủy tinh được nhuộm xanh nước biển nhạt'
+        buy: 14
+        sell: 7
+      BLUE_STAINED_GLASS:
+        material: BLUE_STAINED_GLASS
+        displayname: '&eThủy tinh được nhuộm xanh nước biển'
+        buy: 14
+        sell: 7
+      PURPLE_STAINED_GLASS:
+        material: PURPLE_STAINED_GLASS
+        displayname: '&eThủy tinh được nhuộm tím'
+        buy: 14
+        sell: 7
+      MAGENTA_STAINED_GLASS:
+        material: MAGENTA_STAINED_GLASS
+        displayname: '&eThủy tinh được nhuộm đỏ sậm'
+        buy: 14
+        sell: 7
+      PINK_STAINED_GLASS:
+        material: PINK_STAINED_GLASS
+        displayname: '&eThủy tinh được nhuộm hồng'
+        buy: 14
+        sell: 7
+      WHITE_DYE:
+        material: WHITE_DYE
+        displayname: '&eBột nhuộm trắng'
+        buy: 16
+        sell: 8
+      LIGHT_GRAY_DYE:
+        material: LIGHT_GRAY_DYE
+        displayname: '&eBột nhuộm xám nhạt'
+        buy: 16
+        sell: 8
+      GRAY_DYE:
+        material: GRAY_DYE
+        displayname: '&eBột nhuộm xám'
+        buy: 16
+        sell: 8
+      BLACK_DYE:
+        material: BLACK_DYE
+        displayname: '&eBột nhuộm đen'
+        buy: 16
+        sell: 8
+      BROWN_DYE:
+        material: BROWN_DYE
+        displayname: '&eBột nhuộm nâu'
+        buy: 16
+        sell: 8
+      RED_DYE:
+        material: RED_DYE
+        displayname: '&eBột nhuộm đỏ'
+        buy: 16
+        sell: 8
+      ORANGE_DYE:
+        material: ORANGE_DYE
+        displayname: '&eBột nhuộm cam'
+        buy: 16
+        sell: 8
+      YELLOW_DYE:
+        material: YELLOW_DYE
+        displayname: '&eBột nhuộm vàng'
+        buy: 16
+        sell: 8
+      LIME_DYE:
+        material: LIME_DYE
+        displayname: '&eBột nhuộm xanh lá mạ'
+        buy: 16
+        sell: 8
+      GREEN_DYE:
+        material: GREEN_DYE
+        displayname: '&eBột nhuộm xanh lá cây'
+        buy: 16
+        sell: 8
+      CYAN_DYE:
+        material: CYAN_DYE
+        displayname: '&eBột nhuộm lục lam'
+        buy: 16
+        sell: 8
+      LIGHT_BLUE_DYE:
+        material: LIGHT_BLUE_DYE
+        displayname: '&eBột nhuộm xanh nhạt'
+        buy: 16
+        sell: 8
+      BLUE_DYE:
+        material: BLUE_DYE
+        displayname: '&eBột nhuộm xanh nước biển'
+        buy: 16
+        sell: 8
+      PURPLE_DYE:
+        material: PURPLE_DYE
+        displayname: '&eBột nhuộm tím'
+        buy: 16
+        sell: 8
+      MAGENTA_DYE:
+        material: MAGENTA_DYE
+        displayname: '&eBột nhuộm đỏ sậm'
+        buy: 16
+        sell: 8
+      PINK_DYE:
+        material: PINK_DYE
+        displayname: '&eBột nhuộm hồng'
+        buy: 16
+        sell: 8

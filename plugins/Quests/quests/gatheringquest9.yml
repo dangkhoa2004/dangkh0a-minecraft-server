@@ -1,0 +1,31 @@
+tasks:
+  gathering:
+    type: "inventory"
+    item: "GOLD_NUGGET"
+    amount: 64
+    remove-items-when-complete: true
+display:
+  name: "&#FFD166&nᴛʜᴜ ᴛʜậᴘ:&r &#FDFD96#9"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ʏêᴜ ᴄầᴜ ʙạɴ ᴛʜᴜ ᴛʜậᴘ'
+    - '&#D1E8E2ᴛàɪ ɴɢᴜʏêɴ để ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ᴍụᴄ ᴛɪêᴜ: &#D1E8E2ᴛʜᴜ ᴛʜậᴘ 64 ʜạᴛ ᴠàɴɢ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ độ: &#D1E8E2{gathering:progress}/64 ʜạᴛ ᴠàɴɢ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0500 ᴋɪɴʜ ɴɢʜɪệᴍ'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "GOLD_NUGGET"
+rewards:
+  - "xp give {player} 500"
+options:
+  category: "gathering"
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 2880
+  sort-order: 9
+  requires: ["gatheringquest8"]

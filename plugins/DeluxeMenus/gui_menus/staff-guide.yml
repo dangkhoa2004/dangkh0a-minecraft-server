@@ -1,0 +1,208 @@
+# ========================================================================
+# Tên của menu sẽ hiển thị ở góc trên bên trái của rương đồ.
+# ========================================================================
+menu_title: '&#BDB2FF&l❁ sổ ᴛᴀʏ ᴅàɴʜ ᴄʜᴏ sᴛᴀꜰꜰ ❁'
+
+open_command:
+- staffguide
+- sguide
+- staff-information
+- staff-mod
+- staff-guide
+register_command: true
+size: 45
+
+items:
+  'Filler_Outer':
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+    - 0-9
+    - 17-18
+    - 26-27
+    - 35-39
+    - 41-44
+    display_name: ' '
+    priority: 10
+
+  'Filler_Inner':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 10
+    - 12-16
+    - 19
+    - 21
+    - 23
+    - 25
+    - 28-34
+    display_name: ' '
+    priority: 10
+
+  # ==================================================
+  # SLOT 20: HELPER GUIDE (PHỤ TÁ)
+  # ==================================================
+  'helper_unlocked':
+    slot: 20
+    priority: 1
+    material: TURTLE_HELMET
+    item_flags: [ HIDE_ATTRIBUTES ]
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: rank.helper
+    display_name: '&#57F287&l❁ ʜướɴɢ ᴅẫɴ ᴄʜᴏ ʜᴇʟᴘᴇʀ ❁'
+    lore:
+    - '&8Hạng khởi điểm của Staff'
+    - ''
+    - ' &#fcfcfc❖ &#57F287Tổng quan:'
+    - '  &#888888• &#E0E0E0Tập trung vào quản lý chat và xử lý báo cáo.'
+    - '  &#888888• &#E0E0E0Giúp duy trì môi trường cộng đồng thân thiện.'
+    - ''
+    - ' &#fcfcfc❖ &#57F287💬 Quản lý Kênh Chat:'
+    - '  &#888888• &#E0E0E0/staffchat &8● &7Bật/tắt chat nội bộ Staff'
+    - '  &#888888• &#E0E0E0/chat mute &8● &7Cấm chat toàn server'
+    - '  &#888888• &#E0E0E0/chat clear &8● &7Xóa nội dung chat toàn server'
+    - ''
+    - ' &#fcfcfc❖ &#57F287⚠ Hình phạt:'
+    - '  &#888888• &#E0E0E0/warn &8● &7Cảnh cáo người chơi'
+    - '  &#888888• &#E0E0E0/tempwarn &8● &7Cảnh cáo có thời hạn'
+    - '  &#888888• &#E0E0E0/tempmute &8● &7Cấm chat có thời hạn'
+    - '  &#888888• &#E0E0E0/mute &8● &7Cấm chat vĩnh viễn'
+    - '  &#888888• &#E0E0E0/unmute &8● &7Gỡ cấm chat'
+    - '  &#888888• &#E0E0E0/unwarn &8● &7Gỡ cảnh cáo'
+    - ''
+    - ' &#fcfcfc❖ &#57F287🔍 Tiện ích:'
+    - '  &#888888• &#E0E0E0/check &8● &7Kiểm tra lịch sử người chơi'
+    - '  &#888888• &#E0E0E0/reports &8● &7Xem danh sách tố cáo'
+
+  'helper_locked':
+    slot: 20
+    priority: 2
+    material: GRAY_DYE
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#888888&l❁ ʜướɴɢ ᴅẫɴ ᴄʜᴏ ʜᴇʟᴘᴇʀ ❁'
+    lore:
+    - '&8Hạng chưa mở khóa'
+    - ''
+    - ' &#ED4245✖ Yêu cầu Quyền truy cập:'
+    - '  &#888888• &#E0E0E0Bạn không có quyền xem mục này.'
+    - '  &#888888• &#E0E0E0Hãy nỗ lực để đạt được vị trí Staff.'
+    - ''
+    - ' &#ED4245[!] &#E0E0E0Hạng hiện đang bị khóa'
+
+  # ==================================================
+  # SLOT 22: MODERATOR GUIDE (ĐIỀU HÀNH VIÊN)
+  # ==================================================
+  'mod_unlocked':
+    slot: 22
+    priority: 1
+    material: GOLDEN_HELMET
+    item_flags: [ HIDE_ATTRIBUTES ]
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: rank.mod
+    display_name: '&#FCD05C&l❁ ʜướɴɢ ᴅẫɴ ᴄʜᴏ ᴍᴏᴅᴇʀᴀᴛᴏʀ ❁'
+    lore:
+    - '&8Hạng thực thi luật lệ nòng cốt'
+    - ''
+    - ' &#fcfcfc❖ &#FCD05CTổng quan:'
+    - '  &#888888• &#E0E0E0Thực thi luật lệ bằng công cụ cấp cao.'
+    - '  &#888888• &#E0E0E0Kế thừa toàn bộ quyền hạn của Helper.'
+    - ''
+    - ' &#fcfcfc❖ &#FCD05C🔧 Công cụ Staff:'
+    - '  &#888888• &#E0E0E0/staffmode &8● &7Bật/tắt chế độ Mod'
+    - '  &#888888• &#E0E0E0/vanish &8● &7Tàng hình hoàn toàn'
+    - '  &#888888• &#E0E0E0/invsee &8● &7Xem túi đồ người chơi'
+    - '  &#888888• &#E0E0E0/freeze &8● &7Đóng băng đối tượng tình nghi'
+    - '  &#888888• &#E0E0E0/s &8● &7Dịch chuyển người chơi đến chỗ bạn'
+    - ''
+    - ' &#fcfcfc❖ &#FCD05C🔨 Hình phạt:'
+    - '  &#888888• &#E0E0E0/kick &8● &7Kích người chơi khỏi server'
+    - '  &#888888• &#E0E0E0/ban &8● &7Cấm chơi vĩnh viễn'
+    - '  &#888888• &#E0E0E0/tempban &8● &7Cấm chơi có thời hạn'
+    - '  &#888888• &#E0E0E0/unban &8● &7Gỡ lệnh cấm chơi'
+    - ''
+    - ' &#fcfcfc❖ &#FCD05C🔍 Tiện ích:'
+    - '  &#888888• &#E0E0E0/check ip &8● &7Kiểm tra tài khoản phụ (Alts)'
+    - '  &#888888• &#E0E0E0/note &8● &7Thêm ghi chú vào người chơi'
+
+  'mod_locked':
+    slot: 22
+    priority: 2
+    material: GRAY_DYE
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#888888&l❁ ʜướɴɢ ᴅẫɴ ᴄʜᴏ ᴍᴏᴅᴇʀᴀᴛᴏʀ ❁'
+    lore:
+    - '&8Hạng chưa mở khóa'
+    - ''
+    - ' &#ED4245✖ Yêu cầu Quyền truy cập:'
+    - '  &#888888• &#E0E0E0Bạn không có quyền xem mục này.'
+    - '  &#888888• &#E0E0E0Tiếp tục nỗ lực để được thăng chức.'
+    - ''
+    - ' &#ED4245[!] &#E0E0E0Hạng hiện đang bị khóa'
+
+  # ==================================================
+  # SLOT 24: ADMIN GUIDE (QUẢN TRỊ VIÊN)
+  # ==================================================
+  'admin_unlocked':
+    slot: 24
+    priority: 1
+    material: DIAMOND_HELMET
+    item_flags: [ HIDE_ATTRIBUTES ]
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: rank.admin
+    display_name: '&#BDB2FF&l❁ ʜướɴɢ ᴅẫɴ ᴄʜᴏ ᴀᴅᴍɪɴ ❁'
+    lore:
+    - '&8Hạng Quản lý Cao cấp'
+    - ''
+    - ' &#fcfcfc❖ &#BDB2FFTổng quan:'
+    - '  &#888888• &#E0E0E0Quản lý hệ thống bằng công cụ tối cao.'
+    - '  &#888888• &#E0E0E0Kế thừa toàn bộ quyền hạn của Moderator.'
+    - ''
+    - ' &#fcfcfc❖ &#BDB2FF⚡ Hình phạt Mức độ Nặng:'
+    - '  &#888888• &#E0E0E0/ipban &8● &7Cấm chơi theo địa chỉ IP'
+    - '  &#888888• &#E0E0E0/unpunish &8● &7Xóa toàn bộ lịch sử vi phạm'
+    - ''
+    - ' &#fcfcfc❖ &#BDB2FF🛠 Quản lý Hệ thống:'
+    - '  &#888888• &#E0E0E0/advancedban reload &8● &7Tải lại cấu hình plugin'
+    - '  &#888888• &#E0E0E0/systemprefs &8● &7Tùy chỉnh cài đặt máy chủ'
+    - ''
+    - ' &#fcfcfc❖ &#BDB2FF💎 Đặc quyền Admin:'
+    - '  &#888888• &#E0E0E0Nhìn thấy Staff khác đang tàng hình.'
+    - '  &#888888• &#E0E0E0Miễn nhiễm hoàn toàn với Ban/Kick.'
+    - '  &#888888• &#E0E0E0Có quyền xóa ghi chú của người chơi.'
+
+  'admin_locked':
+    slot: 24
+    priority: 2
+    material: GRAY_DYE
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#888888&l❁ ʜướɴɢ ᴅẫɴ ᴄʜᴏ ᴀᴅᴍɪɴ ❁'
+    lore:
+    - '&8Hạng chưa mở khóa'
+    - ''
+    - ' &#ED4245✖ Yêu cầu Quyền truy cập:'
+    - '  &#888888• &#E0E0E0Bạn không có quyền xem mục này.'
+    - '  &#888888• &#E0E0E0Hạng này chỉ dành riêng cho Ban quản trị.'
+    - ''
+    - ' &#ED4245[!] &#E0E0E0Hạng hiện đang bị khóa'
+
+  # ==================================================
+  # CLOSE BUTTON - SLOT 40
+  # ==================================================
+  'close_button':
+    slot: 40
+    material: BARRIER
+    display_name: '&#ED4245&l✖ Đóɴɢ ᴍᴇɴᴜ'
+    lore:
+    - '&8Quay lại trò chơi'
+    - ''
+    - '&#ED4245▶ &#E0E0E0Nhấn để đóng giao diện'
+    click_commands:
+    - '[sound] BLOCK_CHEST_CLOSE'
+    - '[close]'

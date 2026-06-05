@@ -1,0 +1,222 @@
+# Vietnamese Language File for AdvancedEnchantments
+# Remaked & Optimized for Pastel Premium HEX
+
+prefix: "{#BDB2FF}[ᴘʜù ᴘʜéᴘ] &r"
+
+effects:
+  steal-money: "{#FCD05C}&l(!) {#FFD700}%attacker% {#E0E0E0}vừa cướp {#57F287}%amount% ⛃ {#E0E0E0}từ {#FFD700}%victim%{#E0E0E0}!"
+  used: "&r%enchant-color% %level%"
+
+commands:
+  no-permission: "{#ED4245}&l(!) {#E0E0E0}Bạn không đủ quyền để thực hiện lệnh này!"
+  offline-player: "{#ED4245}&l(!) {#E0E0E0}Người chơi này không online!"
+  enchantment-not-found: "{#ED4245}&l(!) {#E0E0E0}Không tìm thấy phù phép {#FFD700}%enchant%{#E0E0E0}."
+  invalid-amount: "{#ED4245}&l(!) {#E0E0E0}Số lượng không hợp lệ. Vui lòng nhập từ 1 đến 64."
+  invalid-enchant: "{#ED4245}&l(!) {#FFD700}%enchant% {#E0E0E0}không phải là phù phép hợp lệ!"
+  invalid-level: "{#ED4245}&l(!) {#E0E0E0}Cấp độ sai! Các cấp hợp lệ: {#FFD700}%levels%"
+  invalid-usage: "{#ED4245}&l(!) {#E0E0E0}Sử dụng: {#FFD700}%usage%"
+  not-a-number: "{#ED4245}&l(!) {#FFD700}%number% {#E0E0E0}không phải là số!"
+  not-holding-item: "{#ED4245}&l(!) {#E0E0E0}Bạn phải cầm vật phẩm trên tay!"
+  enchantment-info:
+    invalid-usage: "{#ED4245}&l(!) {#E0E0E0}Sai cú pháp! Dùng: {#FFD700}%command% <tên_phù_phép>"
+    open-menu-message: "{#FCD05C}&l(!) {#E0E0E0}Thông tin phù phép {#FFD700}%enchant%{#E0E0E0}."
+  enchants:
+    open-menu-message: "{#FCD05C}&l(!) {#E0E0E0}Đang hiển thị danh sách phù phép..."
+  apply:
+    cooldown: "{#ED4245}&l(!) {#E0E0E0}Vui lòng đợi {#FFD700}%seconds% giây {#E0E0E0}để dùng lại lệnh này."
+    no-args: "{#ED4245}&l(!) {#E0E0E0}Vui lòng chỉ định người chơi."
+    reapplied: "{#57F287}&l(!) {#E0E0E0}Giáp của bạn đã được cập nhật lại trạng thái."
+    reapplied-other: "{#57F287}&l(!) {#E0E0E0}Đã cập nhật lại giáp cho {#FFD700}%player%{#E0E0E0}."
+    reapplied-for-all: "{#57F287}&l(!) {#E0E0E0}Đã cập nhật lại giáp cho toàn bộ người chơi!"
+  withdrawsouls:
+    invalid-usage: "{#ED4245}&l(!) {#E0E0E0}Sử dụng: {#FFD700}/withdrawsouls <số_lượng>"
+    less-than-one: "{#ED4245}&l(!) {#E0E0E0}Số lượng phải lớn hơn 0."
+    invalid-item: "{#ED4245}&l(!) {#E0E0E0}Vật phẩm không hợp lệ."
+  aegive:
+    invalid-material: "{#ED4245}&l(!) {#E0E0E0}Sai vật phẩm. Xem 'materials.yml' để biết danh sách."
+    invalid-item-flag: "{#ED4245}&l(!) {#E0E0E0}Sai ItemFlag! Chọn một trong: {#FFD700}%itemflags%"
+    invalid-enchantment: "{#ED4245}&l(!) {#E0E0E0}Phù phép không hợp lệ!"
+    success: "{#57F287}&l(!) {#E0E0E0}Đã gửi {#FFD700}%amount%x %material% {#E0E0E0}cho {#FFD700}%player%{#E0E0E0}!"
+  gedit:
+    unknown-gkit: "{#ED4245}&l(!) {#FFD700}%gkit% {#E0E0E0}không phải là một GKit hợp lệ!"
+    edit:
+      invalid-usage: "{#ED4245}&l(!) {#E0E0E0}Sử dụng: {#FFD700}/gedit edit <gkit>"
+    set-permission:
+      invalid-usage: "{#ED4245}&l(!) {#E0E0E0}Sử dụng: {#FFD700}/gedit setpermission <gkit> <quyền>"
+      success: "{#57F287}&l(!) {#E0E0E0}Đã đổi quyền của {#FFD700}%gkit% {#E0E0E0}thành {#57F287}%permission%"
+    reset:
+      invalid-usage: "{#ED4245}&l(!) {#E0E0E0}Sử dụng: {#FFD700}/gedit reset <gkit> <người_chơi>"
+      success: "{#57F287}&l(!) {#E0E0E0}GKit {#FFD700}%gkit% {#E0E0E0}đã được làm mới cho {#FFD700}%player%"
+    list: "{#FCD05C}&l(!) {#E0E0E0}Danh sách GKits: {#FFD700}%gkits%"
+    setdelay:
+      invalid-usage: "{#ED4245}&l(!) {#E0E0E0}Sử dụng: {#FFD700}/gedit setdelay <gkit> <giây>"
+      invalid-delay: "{#ED4245}&l(!) {#FFD700}%delay% {#E0E0E0}không phải là số nguyên!"
+      success: "{#57F287}&l(!) {#E0E0E0}Đã đổi thời gian chờ của {#FFD700}%gkit% {#E0E0E0}thành {#57F287}%delay% giây"
+  main:
+    unknown-command: "{#ED4245}&l(!) {#E0E0E0}Lệnh không tồn tại. Gõ {#FFD700}/ae {#E0E0E0}để xem trợ giúp."
+    setsouls:
+      invalid-usage: "{#ED4245}&l(!) {#E0E0E0}Sử dụng: {#FFD700}/ae setsouls <số_lượng>"
+      invalid-item: "{#ED4245}&l(!) {#E0E0E0}Vật phẩm không hợp lệ."
+      success: "{#57F287}&l(!) {#E0E0E0}Đã đặt số lượng Soul thành: {#FFD700}%amount%"
+    unenchant:
+      invalid-usage: "{#ED4245}&l(!) {#E0E0E0}Sử dụng: {#FFD700}/ae unenchant <phù_phép>"
+      invalid-enchant: "{#ED4245}&l(!) {#FFD700}%enchant% {#E0E0E0}không phải là phù phép."
+      not-holding-item: "{#ED4245}&l(!) {#E0E0E0}Bạn phải cầm vật phẩm trên tay!"
+      does-not-have-enchant: "{#ED4245}&l(!) {#E0E0E0}Vật phẩm không có phù phép {#FFD700}%enchant%{#E0E0E0}!"
+      success: "{#57F287}&l(!) {#E0E0E0}Đã gỡ phù phép {#FFD700}%enchant%{#E0E0E0}!"
+    zip:
+      zip-exists: "{#ED4245}&l(!) {#E0E0E0}File đã tồn tại, hãy thử lại."
+      success: "{#57F287}&l(!) {#E0E0E0}File nén dữ liệu đã được lưu tại {#FFD700}%path%{#E0E0E0}."
+      error: "{#ED4245}&l(!) {#E0E0E0}Lỗi khi nén file. Xem Console để biết chi tiết."
+    greset:
+      reset: "{#57F287}&l(!) {#E0E0E0}Đã làm mới GKit {#FFD700}%gkit% {#E0E0E0}cho {#FFD700}%player%{#E0E0E0}!"
+      reset-all: "{#57F287}&l(!) {#E0E0E0}Đã làm mới TẤT CẢ GKit cho {#FFD700}%player%{#E0E0E0}!"
+    claim:
+      invalid-usage: "{#ED4245}&l(!) {#E0E0E0}Vui lòng nhập Token."
+    givegkit:
+      success: "{#57F287}&l(!) {#E0E0E0}Đã gửi GKit {#FFD700}%gkit% {#E0E0E0}cho {#FFD700}%player%"
+    giverandombook:
+      success: "{#57F287}&l(!) {#E0E0E0}Đã gửi {#FFD700}%player% %amount%x {#E0E0E0}sách thuộc nhóm {#FFD700}%group%{#E0E0E0}!"
+    givebook:
+      success: "{#57F287}&l(!) {#E0E0E0}Đã gửi {#FFD700}%player% %amount%x {#E0E0E0}sách {#FFD700}%enchant% %level%{#E0E0E0}!"
+    enchant:
+      added: "{#57F287}&l(!) {#E0E0E0}Đã áp dụng phù phép {#FFD700}%enchant%{#E0E0E0}!"
+      upgraded: "{#57F287}&l(!) {#E0E0E0}Nâng cấp {#FFD700}%enchant% {#E0E0E0}từ cấp {#FFD700}%previous-level% {#E0E0E0}lên {#57F287}%level%{#E0E0E0}."
+      downgraded: "{#ED4245}&l(!) {#E0E0E0}Hạ cấp {#FFD700}%enchant% {#E0E0E0}từ cấp {#FFD700}%previous-level% {#E0E0E0}xuống {#ED4245}%level%{#E0E0E0}."
+      removed: "{#ED4245}&l(!) {#E0E0E0}Đã gỡ bỏ phù phép {#FFD700}%enchant% {#E0E0E0}khỏi vật phẩm."
+    giveitem:
+      success: "{#57F287}&l(!) {#E0E0E0}Đã gửi {#FFD700}%amount%x %item% {#E0E0E0}cho {#FFD700}%player%"
+    givercbook:
+      success: "{#57F287}&l(!) {#E0E0E0}Đã gửi {#FFD700}%player% %amount%x %group% {#E0E0E0}Sách chuột phải!"
+    give:
+      success: "{#57F287}&l(!) {#E0E0E0}Đã gửi cho {#FFD700}%player% {#E0E0E0}sách {#FFD700}%enchant% %level%{#E0E0E0}!"
+    tinkereritem:
+      success: "{#57F287}&l(!) {#E0E0E0}Đã gửi {#FFD700}%amount%x {#E0E0E0}vật phẩm Tinkerer cho {#FFD700}%player%"
+    admin:
+      invalid-page: "{#ED4245}&l(!) {#E0E0E0}Trang này không tồn tại."
+    info:
+    - ""
+    - "{#FCD05C}&l❁ ᴛʜôɴɢ ᴛɪɴ ᴘʜù ᴘʜéᴘ ❁"
+    - " {#fcfcfc}❖ {#E0E0E0}Tên: {#FFD700}%enchant%"
+    - " {#fcfcfc}❖ {#E0E0E0}Mô tả: {#fcfcfc}%description%"
+    - " {#fcfcfc}❖ {#E0E0E0}Áp dụng cho: {#AEC6CF}%applies%"
+    - " {#fcfcfc}❖ {#E0E0E0}Cấp tối đa: {#ED4245}%max-level%"
+    - ""
+
+    pastetypes: "{#FCD05C}&l(!) {#E0E0E0}Danh sách loại phù phép: {#AEC6CF}%url%"
+    pasteenchants: "{#FCD05C}&l(!) {#E0E0E0}Danh sách phù phép: {#AEC6CF}%url%"
+    open: "{#57F287}&l(!) {#E0E0E0}Đã mở {#FFD700}%menu% {#E0E0E0}cho {#FFD700}%player%{#E0E0E0}!"
+
+token:
+  success: "{#57F287}&l(!) {#E0E0E0}Tải Token {#FFD700}%token% {#E0E0E0}thành công. Đang tải lại..."
+
+interact:
+  main-hand-only: "{#ED4245}&l(!) {#E0E0E0}Bạn chỉ có thể sử dụng ở Tay Chính!"
+
+enchanter:
+  re-buy: "{#ED4245}&l(!) {#E0E0E0}Hãy mua lại phù phép này ở Enchanter."
+  disabled-in-world: "{#ED4245}&l(!) {#E0E0E0}Enchanter bị vô hiệu hóa ở thế giới này."
+  full-inventory: "{#ED4245}&l(!) {#E0E0E0}Túi đồ của bạn đã đầy!"
+  examine-book: "{#FCD05C}&l(!) {#E0E0E0}Kiểm tra sách %group-color%%group-name% {#E0E0E0}phát hiện: %enchant-color% %level%"
+  unknown-payment-method: "{#ED4245}&l(!) {#E0E0E0}Phương thức thanh toán {#FFD700}%paymentType% {#E0E0E0}lỗi, báo ngay cho Admin."
+  successful-purchase: "{#57F287}&l(!) {#E0E0E0}Giao dịch thành công!"
+  cannot-afford:
+  - "{#ED4245}&l(!) {#E0E0E0}Bạn không đủ Kinh nghiệm (EXP) để mua."
+  - " {#fcfcfc}❖ {#E0E0E0}EXP hiện tại: {#57F287}%exp%"
+
+tinkerer:
+  trade-accepted: "{#57F287}&l(!) {#E0E0E0}Giao dịch thành công!"
+  non-tradeable-item:
+  - "{#ED4245}&l(!) {#E0E0E0}Tinkerer từ chối vật phẩm này!"
+  - " {#fcfcfc}❖ {#E0E0E0}Chỉ chấp nhận các Phù phép từ Enchanter."
+
+alchemist:
+  doesnt-accept: "{#ED4245}&l(!) {#E0E0E0}Alchemist từ chối vật phẩm này!"
+  trade-cancelled: "{#ED4245}&l(!) {#E0E0E0}Đã hủy giao dịch."
+  cannot-afford: "{#ED4245}&l(!) {#E0E0E0}Bạn không đủ tài nguyên để hợp nhất!"
+  exceeds-max-level: "{#ED4245}&l(!) {#E0E0E0}Cấp độ hợp nhất vượt quá giới hạn tối đa!"
+
+gkits:
+  no-permission: "{#ED4245}&l(!) {#E0E0E0}Bạn không có quyền mở GKit {#FFD700}%gkit%{#E0E0E0}."
+  cooldown: "{#ED4245}&l(!) {#E0E0E0}GKit {#FFD700}%gkit% {#E0E0E0}đang trong thời gian hồi. Còn: {#FFD700}%cooldown%"
+  used-kit: "{#57F287}&l(!) {#E0E0E0}Bạn vừa nhận GKit {#FFD700}%gkit%{#E0E0E0}."
+  missing-permission: "{#ED4245}&l(!) {#E0E0E0}Quyền của GKit {#FFD700}%gkit% {#E0E0E0}bị lỗi hoặc không tồn tại."
+  unknown-gkit: "{#ED4245}&l(!) {#E0E0E0}GKit {#FFD700}%gkit% {#E0E0E0}không tồn tại."
+  unknown-enchant: "{#ED4245}&l(!) {#E0E0E0}Không tìm thấy phù phép {#FFD700}%enchant%{#E0E0E0}."
+
+heroic:
+  cannot-apply: "{#ED4245}&l(!) {#E0E0E0}Không thể dùng Pha lê nâng cấp lên vật phẩm này."
+  upgrade-failed: "{#ED4245}&l(!) {#E0E0E0}Nâng cấp bằng Pha lê THẤT BẠI!"
+
+orbs:
+  cannot-apply: "{#ED4245}&l(!) {#E0E0E0}Không thể áp dụng Orb lên vật phẩm này!"
+  failed: "{#ED4245}&l(!) {#E0E0E0}Áp dụng Orb THẤT BẠI!"
+  incompatible: "{#ED4245}&l(!) {#E0E0E0}Cấp độ Orb này thấp hơn cấp độ hiện có trên vật phẩm!"
+
+sets:
+  commands:
+    unknown-command: "{#ED4245}&l(!) {#E0E0E0}Lệnh sai! Gõ {#FFD700}/asets {#E0E0E0}để xem trợ giúp."
+    invalid-usage: "{#ED4245}&l(!) {#E0E0E0}Sai cú pháp! Xem {#FFD700}/asets{#E0E0E0}."
+    invalid-set: "{#ED4245}&l(!) {#E0E0E0}Set trang bị không hợp lệ."
+    invalid-set-piece: "{#ED4245}&l(!) {#E0E0E0}Mảnh không hợp lệ. Chọn: {#FFD700}%set pieces%"
+    invalid-weapon: "{#ED4245}&l(!) {#E0E0E0}Vũ khí không hợp lệ."
+    offline-player: "{#ED4245}&l(!) {#E0E0E0}Người chơi không online."
+    invalid-chances: "{#ED4245}&l(!) {#E0E0E0}Tỷ lệ sai."
+    list:
+      header: "{#FCD05C}&l❁ ᴅᴀɴʜ sáᴄʜ SETS {#888888}[%size%] {#FCD05C}&l❁"
+      set: " {#fcfcfc}❖ {#FFD700}%set%"
+    listweapons:
+      header: "{#FCD05C}&l❁ ᴅᴀɴʜ sáᴄʜ ᴠũ ᴋʜí {#888888}[%size%] {#FCD05C}&l❁"
+      weapon: " {#fcfcfc}❖ {#FFD700}%weapon%"
+    give:
+      success: "{#57F287}&l(!) {#E0E0E0}Đã gửi Set {#FFD700}%set% {#E0E0E0}cho {#FFD700}%player%"
+    givepiece:
+      success: "{#57F287}&l(!) {#E0E0E0}Đã gửi mảnh {#FFD700}%piece% {#E0E0E0}thuộc Set {#FFD700}%set% {#E0E0E0}cho {#FFD700}%player%"
+    weapon:
+      success: "{#57F287}&l(!) {#E0E0E0}Đã gửi vũ khí {#FFD700}%weapon% {#E0E0E0}cho {#FFD700}%player%"
+
+items:
+  randomization-scroll:
+    cannot-apply: "{#ED4245}&l(!) {#E0E0E0}Không thể áp dụng Randomizer lên vật phẩm này!"
+    single-items-only: "{#ED4245}&l(!) {#E0E0E0}Chỉ có thể dùng lên TỪNG vật phẩm một!"
+  black-scroll:
+    full-inventory: "{#ED4245}&l(!) {#E0E0E0}Túi đồ của bạn đã đầy!"
+    no-enchants: "{#ED4245}&l(!) {#E0E0E0}Vật phẩm này không có phù phép nào để gỡ!"
+    invalid-enchant: "{#ED4245}&l(!) {#E0E0E0}Không thể xóa vì phù phép bị lỗi!"
+    cannot-remove: "{#ED4245}&l(!) {#E0E0E0}Phù phép {#FFD700}%enchant% {#E0E0E0}là vĩnh viễn, không thể gỡ!"
+  soul-tracker:
+    disabled: "{#ED4245}&l(!) {#E0E0E0}Hệ thống Souls đang tắt trên server này!"
+    apply-successful: "{#57F287}&l(!) {#E0E0E0}Đã áp dụng {#AEC6CF}Soul Tracker {#E0E0E0}vào vật phẩm!"
+  magic-dust:
+    full-inventory: "{#ED4245}&l(!) {#E0E0E0}Túi đồ của bạn đã đầy!"
+    single-items-only: "{#ED4245}&l(!) {#E0E0E0}Chỉ có thể dùng Bột Ma Thuật lên TỪNG vật phẩm!"
+  white-scroll:
+    full-inventory: "{#ED4245}&l(!) {#E0E0E0}Túi đồ của bạn đã đầy!"
+    apply-successful: "{#57F287}&l(!) {#E0E0E0}Đã áp dụng Cuộn Trắng bảo vệ vật phẩm!"
+    item-saved: "{#57F287}&l(!) {#E0E0E0}Cuộn Trắng đã cứu vật phẩm của bạn khỏi bị phá hủy!"
+
+combining:
+  already-max-level: "{#ED4245}&l(!) {#E0E0E0}Phù phép đã đạt cấp tối đa!"
+  success: "{#57F287}&l(!) {#E0E0E0}Hợp nhất thành công! {#FFD700}%enchant% {#E0E0E0}lên cấp {#57F287}%level%{#E0E0E0}!"
+  failure: "{#ED4245}&l(!) {#E0E0E0}Hợp nhất THẤT BẠI!"
+  something-went-wrong: "{#ED4245}&l(!) {#E0E0E0}Có lỗi xảy ra trong quá trình hợp nhất."
+
+enchant-limitations:
+  cannot-be-modified: "{#ED4245}&l(!) {#E0E0E0}Vật phẩm này không thể bị sửa đổi!"
+
+applying:
+  not-applicable-with: "{#ED4245}&l(!) {#E0E0E0}Phù phép {#FFD700}%enchant1% {#E0E0E0}XUNG ĐỘT với {#ED4245}%enchant2%{#E0E0E0}!"
+  requires-enchant: "{#ED4245}&l(!) {#E0E0E0}Cần có sẵn {#FFD700}%enchant2% {#E0E0E0}trên vật phẩm để ép {#FFD700}%enchant1%{#E0E0E0}!"
+  already-applied: "{#ED4245}&l(!) {#E0E0E0}Vật phẩm đã có sẵn phù phép này!"
+  applied: "{#57F287}&l(!) {#E0E0E0}Áp dụng phù phép THÀNH CÔNG."
+  max-level: "{#ED4245}&l(!) {#E0E0E0}Phù phép này đã ở cấp độ tối đa!"
+  wrong-material: "{#ED4245}&l(!) {#E0E0E0}Không thể ép phù phép này lên loại vật phẩm này."
+
+slots:
+  limit-reached: "{#ED4245}&l(!) {#E0E0E0}Không còn Ô trống (Slot) để thêm phù phép!"
+
+chances:
+  book-failed: "{#ED4245}&l(!) {#E0E0E0}Ép sách thất bại, nhưng vật phẩm không bị vỡ!"
+
+destroy:
+  book-failed: "{#ED4245}&l(!) {#E0E0E0}Ép sách thất bại, vật phẩm đã BỊ PHÁ HỦY!"

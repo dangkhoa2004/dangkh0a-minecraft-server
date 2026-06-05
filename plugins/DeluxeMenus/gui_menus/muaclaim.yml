@@ -1,0 +1,94 @@
+menu_title: '&#a8e6cf&l❁ ᴍᴜᴀ ᴋʜốɪ ᴄʟᴀɪᴍ ❁'
+open_command: muaclaim
+register_command: true
+size: 27
+update_interval: -1
+
+items:
+  # ==================================================
+  # MUA BẰNG POINT (CÁNH TRÁI)
+  # ==================================================
+  'pointclaim':
+    material: NETHER_STAR
+    slot: 12
+    display_name: '&#B5EAD7&lᴍᴜᴀ ᴄʟᴀɪᴍ ʙằɴɢ ᴘᴏɪɴᴛ'
+    lore:
+    - ''
+    - '&#E0E0E0Nhận thêm &#57F287&l+5,000 block claim &#E0E0E0vào tài khoản'
+    - '&#E0E0E0để mở rộng diện tích bảo vệ công trình.'
+    - ''
+    - '&#fcfcfc❖ Số Point hiện có: &#FFD700%playerpoints_points% ✪'
+    - '&#fcfcfc❖ Giá mua: &#FFB7B2&l10 Point'
+    - ''
+    - '&#a8e6cf▶ Nhấn chuột để xác nhận mua'
+    click_commands:
+    - '[console] points take %player_name% 10'
+    - '[console] adjustbonusclaimblocks %player_name% 5000'
+    - '[message] &#57F287&l(!) &#E0E0E0Bạn đã mua thành công &#57F287&l5,000 block claim&#E0E0E0 bằng Point!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[refresh]'
+    click_requirement:
+      requirements:
+        Du-Point:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '10'
+          deny_commands:
+          - '[sound] BLOCK_ANVIL_PLACE 1 0.5'
+          - '[message] &#ED4245&l(!) &#E0E0E0Bạn không có đủ số Point cần thiết để thực hiện giao dịch!'
+          - '[refresh]'
+
+  # ==================================================
+  # MUA BẰNG XU (CÁNH PHẢI)
+  # ==================================================
+  'xuclaim':
+    material: GOLDEN_SHOVEL
+    slot: 14
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FDFD96&lᴍᴜᴀ ᴄʟᴀɪᴍ ʙằɴɢ xᴜ'
+    lore:
+    - ''
+    - '&#E0E0E0Nhận thêm &#57F287&l+2,500 block claim &#E0E0E0vào tài khoản'
+    - '&#E0E0E0để mở rộng diện tích bảo vệ công trình.'
+    - ''
+    - '&#fcfcfc❖ Số Xu hiện có: &#57F287%vault_eco_balance_formatted% ⛃'
+    - '&#fcfcfc❖ Giá mua: &#FFB7B2&l5,000,000 Xu'
+    - ''
+    - '&#a8e6cf▶ Nhấn chuột để xác nhận mua'
+    click_commands:
+    - '[console] economy take %player_name% 5000000'
+    - '[console] adjustbonusclaimblocks %player_name% 2500'
+    - '[message] &#57F287&l(!) &#E0E0E0Bạn đã mua thành công &#57F287&l2,500 block claim&#E0E0E0 bằng Xu!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[refresh]'
+    click_requirement:
+      requirements:
+        Du-Xu:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: '5000000'
+          deny_commands:
+          - '[sound] BLOCK_ANVIL_PLACE 1 0.5'
+          - '[message] &#ED4245&l(!) &#E0E0E0Bạn không có đủ số Xu cần thiết để thực hiện giao dịch!'
+          - '[refresh]'
+
+  # ==================================================
+  # NÚT ĐÓNG MENU & KHUNG VIỀN KÍNH TRANG TRÍ PASTEL
+  # ==================================================
+  'close_button':
+    material: BARRIER
+    slot: 22
+    display_name: '&#FFB7B2&l✖ đóɴɢ ᴍᴇɴᴜ'
+    click_commands:
+    - '[close]'
+    - '[sound] BLOCK_WOODEN_BUTTON_CLICK_ON'
+
+  'border_white':
+    material: WHITE_STAINED_GLASS_PANE
+    slots: [ '0', '1', '7', '8', '9', '17', '18', '19', '25', '26' ]
+    display_name: ' '
+
+  'border_blue':
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    slots: [ '2', '3', '4', '5', '6', '10', '11', '13', '15', '16', '20', '21', '23', '24' ]
+    display_name: ' '

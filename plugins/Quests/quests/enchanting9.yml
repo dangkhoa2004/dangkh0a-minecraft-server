@@ -1,0 +1,30 @@
+tasks:
+  enchanting:
+    type: "enchanting"
+    amount: 250
+display:
+  name: "&#A3C4F3&nᴘʜù ᴘʜéᴘ:&r &#FDFD96#IX"
+  lore-normal:
+    - "&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ʏêᴜ ᴄầᴜ ʙạɴ ᴛʜựᴄ ʜɪệɴ ᴘʜù ᴘʜéᴘ"
+    - "&#D1E8E2ᴄáᴄ ᴠậᴛ ᴘʜẩᴍ để ɴʜậɴ đượᴄ ᴘʜầɴ ᴛʜưởɴɢ."
+    - ""
+    - "&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴘʜù ᴘʜéᴘ ᴠậᴛ ᴘʜẩᴍ."
+    - "&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{enchanting:progress}/250 ᴠậᴛ ᴘʜẩᴍ."
+    - "&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$3000"
+    - ""
+  lore-started:
+    - "&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ."
+  type: "EXPERIENCE_BOTTLE"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 3000"
+options:
+  category: "enchanting"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 9
+  requires:
+    - "enchanting8"

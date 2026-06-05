@@ -1,0 +1,16 @@
+name: hyper
+description: ''
+open: false
+pvp: false
+anchor: false
+home: world:2835.300010011921:9.000009995231629:-1626.5573:0.27478027:5.0714417
+color: '6'
+chests: []
+players:
+- 00000000-0000-0000-0009-01f1913c2105,OWNER
+anchoredPlayers: []
+level: 1
+tag: ''
+score: 0
+warps:
+- 1;world:110.64424:78.00000999523162:-640.2014:84.41669:56.25482

@@ -1,0 +1,137 @@
+# LPC Pro V2 - Chat Achievements Configuration
+# This file controls the chat achievement system
+
+# ===========================================
+# General Settings
+# ===========================================
+enabled: false
+
+# Announce achievements to the server
+announce-to-server: false
+
+# Announce achievement sound (played to the player who unlocks)
+unlock-sound: "UI_TOAST_CHALLENGE_COMPLETE"
+unlock-sound-volume: 1.0
+unlock-sound-pitch: 1.0
+
+# Show title on achievement unlock
+show-title: true
+
+# Permission to use achievements
+permission: "lpcpro.achievements"
+
+# ===========================================
+# Achievement Definitions
+# ===========================================
+# Each achievement can have:
+#   - name: Display name
+#   - description: Description text
+#   - type: MESSAGE_COUNT, UNIQUE_MENTIONS, REPLIES_SENT, POLLS_VOTED, REPUTATION
+#   - threshold: Value needed to unlock
+#   - reward-tag: MiniMessage tag granted on unlock (optional)
+#   - reward-commands: Commands to run on unlock (optional)
+
+achievements:
+  # Message Count Achievements
+  first_message:
+    name: "First Words"
+    description: "Send your first message"
+    type: MESSAGE_COUNT
+    threshold: 1
+    reward-tag: "<gray>[Newbie]</gray>"
+
+  chatterbox:
+    name: "Chatterbox"
+    description: "Send 100 messages"
+    type: MESSAGE_COUNT
+    threshold: 100
+    reward-tag: "<yellow>[Chatterbox]</yellow>"
+
+  social_butterfly:
+    name: "Social Butterfly"
+    description: "Send 500 messages"
+    type: MESSAGE_COUNT
+    threshold: 500
+    reward-tag: "<aqua>[Social]</aqua>"
+
+  chat_veteran:
+    name: "Chat Veteran"
+    description: "Send 1,000 messages"
+    type: MESSAGE_COUNT
+    threshold: 1000
+    reward-tag: "<green>[Veteran]</green>"
+
+  legendary_speaker:
+    name: "Legendary Speaker"
+    description: "Send 5,000 messages"
+    type: MESSAGE_COUNT
+    threshold: 5000
+    reward-tag: "<gold>[Legend]</gold>"
+
+  chat_god:
+    name: "Chat God"
+    description: "Send 10,000 messages"
+    type: MESSAGE_COUNT
+    threshold: 10000
+    reward-tag: "<light_purple>[God]</light_purple>"
+
+  # Mention Achievements
+  friendly:
+    name: "Friendly"
+    description: "Mention 10 different players"
+    type: UNIQUE_MENTIONS
+    threshold: 10
+
+  networker:
+    name: "Networker"
+    description: "Mention 50 different players"
+    type: UNIQUE_MENTIONS
+    threshold: 50
+
+  # Reply Achievements
+  helper:
+    name: "Helpful"
+    description: "Reply to 25 messages"
+    type: REPLIES_SENT
+    threshold: 25
+
+  supporter:
+    name: "Supporter"
+    description: "Reply to 100 messages"
+    type: REPLIES_SENT
+    threshold: 100
+
+  # Reputation Achievements
+  respected:
+    name: "Respected"
+    description: "Reach 10 reputation"
+    type: REPUTATION
+    threshold: 10
+    reward-tag: "<blue>[Respected]</blue>"
+
+  beloved:
+    name: "Beloved"
+    description: "Reach 50 reputation"
+    type: REPUTATION
+    threshold: 50
+    reward-tag: "<light_purple>[Beloved]</light_purple>"
+
+  idol:
+    name: "Community Idol"
+    description: "Reach 100 reputation"
+    type: REPUTATION
+    threshold: 100
+    reward-tag: "<gold>[Idol]</gold>"
+
+  # Poll Achievements
+  voter:
+    name: "Voter"
+    description: "Vote in 5 polls"
+    type: POLLS_VOTED
+    threshold: 5
+
+  democratic:
+    name: "Democratic"
+    description: "Vote in 25 polls"
+    type: POLLS_VOTED
+    threshold: 25

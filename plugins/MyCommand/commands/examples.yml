@@ -1,0 +1,5 @@
+nhiemvu:
+  command: /nhiemvu
+  type: RUN_COMMAND
+  runcmd:
+  - "/quest"

@@ -1,0 +1,28 @@
+tasks:
+  'fishing':
+    type: "fishing"
+    amount: 25
+display:
+  name: "&#A3C4F3&nɴʜɪệᴍ ᴠụ độɴɢ ᴠậᴛ:&r &#FDFD96#11"
+  lore-normal:
+  - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó'
+  - '&#D1E8E2ᴠớɪ độɴɢ ᴠậᴛ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+  - ''
+  - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴄâᴜ 25 ᴄᴏɴ ᴄá.'
+  - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{fishing:progress}/25 ᴄᴏɴ ᴄá.'
+  - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0400 ᴋɪɴʜ ɴɢʜɪệᴍ'
+  - ''
+  lore-started:
+  - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "COD"
+  itemflags:
+  - "HIDE_ATTRIBUTES"
+rewards:
+- "xp give {player} 400"
+options:
+  category: "animal"
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 2880
+  sort-order: 11

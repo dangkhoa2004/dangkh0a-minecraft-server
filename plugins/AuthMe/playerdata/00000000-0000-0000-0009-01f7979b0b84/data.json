@@ -1,0 +1,9 @@
+{
+  "groups": [],
+  "operator": false,
+  "can-fly": false,
+  "walk-speed": 0.2,
+  "fly-speed": 0.1,
+  "vehicle-uuid": "d3cac212-cf68-460f-a02a-61fa24230099",
+  "vehicle-type": "CHERRY_BOAT"
+}

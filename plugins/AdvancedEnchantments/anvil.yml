@@ -1,0 +1,73 @@
+# Whether AE should take control of anvils.
+# If this is disabled, no custom enchantments will work in anvils.
+enabled: true
+
+# If true, AE will handle repair costs the same as vanilla.
+# You can read more about it here https://minecraft.fandom.com/wiki/Anvil_mechanics.
+use-repair-cost: true
+
+# If true, enchantments that normally can't be put on items together (eg. Smite & Sharpness)
+# will be allowed to be combined.
+allow-illegal-vanilla-enchant-combinations: true
+allow-illegal-custom-enchant-combinations: true
+
+# The maximum levels vanilla enchants can be combined up to.
+levels:
+  # Armor Enchantments
+  Protection: 10
+  Fire-Protection: 5
+  Feather-Falling: 5
+  Blast-Protection: 5
+  Projectile-Protection: 5
+  Respiration: 3
+  Aqua-Affinity: 1
+  Thorns: 5
+  Depth-Strider: 3
+  Frost-Walker: 2
+  Curse-of-Binding: 1
+  Soul-Speed: 3
+  # Sword Enchantments
+  Sharpness: 10
+  Smite: 10
+  Bane-of-Arthropods: 10
+  Knockback: 3
+  Fire-Aspect: 2
+  Looting: 5
+  Sweeping-Edge: 3
+  # Bow Enchantments
+  Power: 5
+  Punch: 2
+  Flame: 1
+  Infinity: 1
+  # Crossbow Enchantments
+  Multishot: 1
+  Piercing: 4
+  Quick-Charge: 3
+  # Tool Enchantments
+  Efficiency: 10
+  Silk-Touch: 1
+  Fortune: 5
+  # Fishing Rod Enchantments
+  Luck-of-the-Sea: 3
+  Lure: 3
+  # Anything Enchantments
+  Unbreaking: 5
+  Mending: 1
+  Curse-of-Vanishing: 1
+  # Trident Enchantments
+  Channeling: 1
+  Impaling: 5
+  Loyalty: 3
+  Riptide: 3
+  swift_sneak: 3
+  nova_structures:outreach: 4
+  density: 5
+  excellentenchants:treefeller: 1
+  mt:technical/giga_bore: 1
+  mt:weapons/wither_sword: 1
+  breach: 4
+  mt:armor/deep_dark_leggings: 1
+  mt:armor/indestructia: 1
+  mt:weapons/rift_axe: 1
+  mt:armor/ice_shoes: 1
+allow-backwards-enchant-books: false

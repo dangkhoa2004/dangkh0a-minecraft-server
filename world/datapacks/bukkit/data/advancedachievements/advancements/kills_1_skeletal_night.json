@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:bone"
+    },
+    "title":"\u00A7x\u00A7A\u00A7C\u00A7FK\u1EBB \u1D05\u026A\u1EC7\u1D1B B\u1D0F\uA731\uA731",
+    "description":"\u00A7x\u00A7D\u00A7E\u00A7ET\u026A\u00EA\u1D1C \u1D05\u026A\u1EC7\u1D1B H\u026A\u1EC7\u1D18 \uA731\u0129 X\u01B0\u01A1\u0274\u0262.",
+    "frame":"challenge",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:kills_50_zombie"
+}

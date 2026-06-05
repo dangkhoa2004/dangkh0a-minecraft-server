@@ -1,0 +1,11 @@
+data:
+  session: 3072
+  dice1: 1
+  dice2: 4
+  dice3: 5
+  result: XIU
+  currency: VAULT
+  xiuPlayers:
+    Yuui_MC: 500000000
+    KaiseFitzs: 3000000000
+    Quang13375755: 50000000

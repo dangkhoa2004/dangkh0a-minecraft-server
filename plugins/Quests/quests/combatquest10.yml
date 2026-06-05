@@ -1,0 +1,30 @@
+tasks:
+  killing:
+    type: "mobkillingcertain"
+    amount: 100
+    mob: SKELETON
+display:
+  name: "&#A3C4F3&nɴʜɪệᴍ ᴠụ ᴄʜɪếɴ đấᴜ:&r &#FDFD96#10"
+  lore-normal:
+  - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó'
+  - '&#D1E8E2ᴛɪêᴜ ᴅɪệᴛ ǫᴜáɪ ᴠậᴛ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+  - ''
+  - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴛɪêᴜ ᴅɪệᴛ 100 ʙộ xươɴɢ.'
+  - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{killing:progress}/100 ʙộ xươɴɢ.'
+  - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC048x ᴄʜᴀɪ ᴋɪɴʜ ɴɢʜɪệᴍ'
+  - ''
+  lore-started:
+  - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "BONE"
+  itemflags:
+  - "HIDE_ATTRIBUTES"
+rewards:
+- "give {player} EXPERIENCE_BOTTLE 48"
+options:
+  category: "combat"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 2880
+  sort-order: 10

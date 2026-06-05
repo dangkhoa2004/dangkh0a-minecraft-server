@@ -1,0 +1,48 @@
+Plugin:
+  plugin-enabled: '#57F287Pʟᴜɢɪɴ đã đượᴄ ʙậᴛ ᴛʜàɴʜ ᴄôɴɢ.'
+  plugin-link: '#57F287Lɪêɴ ᴋếᴛ ᴠớɪ #FFD700%Link% #57F287ᴛʜàɴʜ ᴄôɴɢ!'
+  plugin-update: '#57F287Có ᴘʜɪêɴ ʙảɴ ᴍớɪ: #FFD700%NewVersion%#57F287! Hɪệɴ ᴛạɪ: #FFD700%Version%#57F287! Tảɪ xᴜốɴɢ ᴛạɪ: #00D5FF%Path%'
+  plugin-data: '#ED4245Kʜôɴɢ ᴛʜể ᴋếᴛ ɴốɪ ᴛớɪ ᴄơ sở ᴅữ ʟɪệᴜ. Vᴜɪ ʟòɴɢ ᴋɪểᴍ ᴛʀᴀ ᴄᴏɴsᴏʟᴇ!'
+  plugin-version: '#ED4245Pʟᴜɢɪɴ ᴋʜôɴɢ ʜỗ ᴛʀợ ᴘʜɪêɴ ʙảɴ sᴇʀᴠᴇʀ ɴàʏ! (#00D5FF%Version%#ED4245)'
+  plugin-reload: '#57F287Pʟᴜɢɪɴ đã đượᴄ ᴛảɪ ʟạɪ ᴛʜàɴʜ ᴄôɴɢ.'
+  plugin-disabled: '#57F287Pʟᴜɢɪɴ đã đượᴄ ᴛắᴛ ᴛʜàɴʜ ᴄôɴɢ.'
+  plugin-prefix: '#E0E0E0[#00D5FFERROR#E0E0E0]'
+
+Messages:
+  command-permission-error: '#ED4245Bạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ sử ᴅụɴɢ ʟệɴʜ ɴàʏ!'
+  command-sender-error: '#ED4245Bạɴ ᴋʜôɴɢ ᴛʜể ᴄʜạʏ ʟệɴʜ ɴàʏ!'
+  command-version-error: '#ED4245Pʜɪêɴ ʙảɴ sᴇʀᴠᴇʀ đã ᴄũ! (#00D5FF%Version%#ED4245) Vᴜɪ ʟòɴɢ ɴâɴɢ ᴄấᴘ để ᴅùɴɢ!'
+
+  command-gsit-toggle-on: '#57F287Bạɴ đã ʙậᴛ ᴛươɴɢ ᴛáᴄ ᴄʟɪᴄᴋ để #FFD700ɴɢồɪ#57F287.'
+  command-gsit-toggle-off: '#57F287Bạɴ đã ᴛắᴛ ᴛươɴɢ ᴛáᴄ ᴄʟɪᴄᴋ để #FFD700ɴɢồɪ#57F287.'
+  command-gsit-playertoggle-on: '#57F287Bạɴ đã ʙậᴛ ᴛươɴɢ ᴛáᴄ ᴄʟɪᴄᴋ để #FFD700ɴɢồɪ ʟêɴ ɴɢườɪ ᴄʜơɪ#57F287.'
+  command-gsit-playertoggle-off: '#57F287Bạɴ đã ᴛắᴛ ᴛươɴɢ ᴛáᴄ ᴄʟɪᴄᴋ để #FFD700ɴɢồɪ ʟêɴ ɴɢườɪ ᴄʜơɪ#57F287.'
+  command-gcrawl-toggle-on: '#57F287Bạɴ đã ʙậᴛ ɴʜấɴ Sʜɪғᴛ 2 ʟầɴ để #FFD700ʙò#57F287.'
+  command-gcrawl-toggle-off: '#57F287Bạɴ đã ᴛắᴛ ɴʜấɴ Sʜɪғᴛ 2 ʟầɴ để #FFD700ʙò#57F287.'
+
+  action-sit-now-error: '#ED4245Bạɴ ᴋʜôɴɢ ᴛʜể ɴɢồɪ ʟúᴄ ɴàʏ!'
+  action-sit-world-error: '#ED4245Bạɴ ᴋʜôɴɢ ᴛʜể ɴɢồɪ ở ᴛʜế ɢɪớɪ ɴàʏ!'
+  action-sit-location-error: '#ED4245Bạɴ ᴋʜôɴɢ ᴛʜể ɴɢồɪ ở đâʏ!'
+  action-sit-safe-error: '#ED4245Cʜỗ ɴàʏ ᴋʜôɴɢ ᴀɴ ᴛᴏàɴ để ɴɢồɪ!'
+  action-sit-region-error: '#ED4245Bạɴ ᴋʜôɴɢ ᴛʜể ɴɢồɪ ᴛʀᴏɴɢ ᴋʜᴜ ᴠựᴄ ɴàʏ!'
+  action-sit-kick-error: '#ED4245Đã ᴄó ɴɢườɪ ɴɢồɪ ở đâʏ ʀồɪ!'
+  action-sit-error: '#ED4245Đã xảʏ ʀᴀ ʟỗɪ, ʙạɴ ᴋʜôɴɢ ᴛʜể ɴɢồɪ đượᴄ!'
+  action-sit-info: '#FFD700<lang:key.sneak> #E0E0E0để đứɴɢ ᴅậʏ'
+
+  action-playersit-info: '#FFD700<lang:key.sneak> #E0E0E0để đứɴɢ ᴅậʏ'
+
+  action-pose-now-error: '#ED4245Bạɴ ᴋʜôɴɢ ᴛʜể ᴛạᴏ ᴅáɴɢ ʟúᴄ ɴàʏ!'
+  action-pose-world-error: '#ED4245Bạɴ ᴋʜôɴɢ ᴛʜể ᴛạᴏ ᴅáɴɢ ở ᴛʜế ɢɪớɪ ɴàʏ!'
+  action-pose-location-error: '#ED4245Bạɴ ᴋʜôɴɢ ᴛʜể ᴛạᴏ ᴅáɴɢ ở đâʏ!'
+  action-pose-safe-error: '#ED4245Cʜỗ ɴàʏ ᴋʜôɴɢ ᴀɴ ᴛᴏàɴ để ᴛạᴏ ᴅáɴɢ!'
+  action-pose-region-error: '#ED4245Bạɴ ᴋʜôɴɢ ᴛʜể ᴛạᴏ ᴅáɴɢ ᴛʀᴏɴɢ ᴋʜᴜ ᴠựᴄ ɴàʏ!'
+  action-pose-kick-error: '#ED4245Đã ᴄó ɴɢườɪ ᴛạᴏ ᴅáɴɢ ở đâʏ ʀồɪ!'
+  action-pose-error: '#ED4245Đã xảʏ ʀᴀ ʟỗɪ, ʙạɴ ᴋʜôɴɢ ᴛʜể ᴛạᴏ ᴅáɴɢ đượᴄ!'
+  action-pose-info: '#FFD700<lang:key.sneak> #E0E0E0để đứɴɢ ᴅậʏ'
+
+  action-crawl-now-error: '#ED4245Bạɴ ᴋʜôɴɢ ᴛʜể ʙò ʟúᴄ ɴàʏ!'
+  action-crawl-world-error: '#ED4245Bạɴ ᴋʜôɴɢ ᴛʜể ʙò ở ᴛʜế ɢɪớɪ ɴàʏ!'
+  action-crawl-region-error: '#ED4245Bạɴ ᴋʜôɴɢ ᴛʜể ʙò ᴛʀᴏɴɢ ᴋʜᴜ ᴠựᴄ ɴàʏ!'
+  action-crawl-info: '#FFD700<lang:key.sneak> #E0E0E0để đứɴɢ ᴅậʏ'
+
+  action-blocked-error: '#ED4245Bạɴ ᴋʜôɴɢ đượᴄ ᴘʜéᴘ ᴄʜạʏ ʟệɴʜ ɴàʏ ʟúᴄ ɴàʏ!'

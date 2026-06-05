@@ -1,0 +1,149 @@
+# SimpleCosmetics 2.1
+# Nếu có góp ý nào, hãy chia sẻ trong phần thảo luận.
+
+configVersion: 2.2
+# VUI LÒNG KHÔNG ĐỔI.
+
+Update:
+  Enabled: false
+# Bật tính năng báo cập nhật khi vào máy chủ
+
+Messages:
+  APPLY-TRAIL: "&aĐã trang bị hiệu ứng bước chân {trail}."
+  REMOVE-TRAIL: "&cĐã gỡ hiệu ứng bước chân {trail}."
+  REMOVE-ALL-TRAILS: "&cĐã gỡ hiệu ứng bước chân của bạn."
+  NO-ACTIVE-TRAIL: "&cBạn không có hiệu ứng bước chân nào đang dùng."
+  RELOAD: "&aĐã tải lại file cài đặt. Những thay đổi sẽ áp dụng ngay trong game!"
+  NO-PERMISSION: "&cBạn không có quyền dùng ngoại trang này."
+
+TrailsMenu:
+  TITLE: "&8Menu Hiệu Ứng Bước Chân"
+  FLAME:
+    ENABLED: true
+    NAME: "&#ff6600🔥 Bước Chân Rực Lửa"
+    LORE:
+    - "&8Hạt hiệu ứng bốc cháy"
+    - ""
+    - "&#ff6600Hiệu Ứng Bước Chân"
+    - "&fĐể lại những &#ff8833hạt lửa&f rực rỡ ở phía sau &#ff8833với&f &#ff8833những hiệu ứng&f &#ff8833cam&f &#ff8833bốc lửa&f."
+    - ""
+    - ""
+    - "&#ff6600➥ &#ff7f19Nhấn &#ff9933để &#ffb34dtrang bị &#ffcc66hiệu ứng"
+    MATERIAL: "BLAZE_POWDER"
+    SLOT: 0
+  HEART:
+    ENABLED: true
+    NAME: "&#ff3366💗 Bước Chân Trái Tim"
+    LORE:
+    - "&8Hạt hiệu ứng dễ thương"
+    - ""
+    - "&#ff3366Hiệu Ứng Bước Chân"
+    - "&fĐể lại những &#ff5580hạt trái tim&f ở phía sau &#ff5580với&f &#ff5580những hiệu ứng&f &#ff5580màu hồng&f &#ff5580lãng mạn&f."
+    - ""
+    - ""
+    - "&#ff3366➥ &#ff4d77Nhấn &#ff6688để &#ff8099trang bị &#ff99aahiệu ứng"
+    MATERIAL: "REDSTONE"
+    SLOT: 1
+  SLIME:
+    ENABLED: true
+    NAME: "&#00ff00🟢 Bước Chân Slime"
+    LORE:
+    - "&8Hạt hiệu ứng nhầy nhụa"
+    - ""
+    - "&#00ff00Hiệu Ứng Bước Chân"
+    - "&fĐể lại những &#33ff33hạt slime&f ở phía sau &#33ff33với&f &#33ff33những hiệu ứng&f &#33ff33xanh lá&f &#33ff33bám dính&f."
+    - ""
+    - ""
+    - "&#00ff00➥ &#1aff1aNhấn &#33ff33để &#4dff4dtrang bị &#66ff66hiệu ứng"
+    MATERIAL: "SLIME_BALL"
+    SLOT: 2
+  SMOKE:
+    ENABLED: true
+    NAME: "&#808080💨 Bước Chân Làn Khói"
+    LORE:
+    - "&8Hạt hiệu ứng bí ẩn"
+    - ""
+    - "&#808080Hiệu Ứng Bước Chân"
+    - "&fĐể lại những &#a0a0a0hạt khói&f ở phía sau &#a0a0a0với&f &#a0a0a0những hiệu ứng&f &#a0a0a0sương mù&f &#a0a0a0bí ẩn&f."
+    - ""
+    - ""
+    - "&#808080➥ &#8c8c8cNhấn &#999999để &#a6a6a6trang bị &#b3b3b3hiệu ứng"
+    MATERIAL: "STRING"
+    SLOT: 3
+  CRITICAL:
+    ENABLED: true
+    NAME: "&#ffff00✨ Bước Chân Chí Mạng"
+    LORE:
+    - "&8Hạt hiệu ứng chiến đấu"
+    - ""
+    - "&#ffff00Hiệu Ứng Bước Chân"
+    - "&fĐể lại những &#ffff66hạt chí mạng&f ở phía sau &#ffff66với&f &#ffff66những tia sáng&f &#ffff66chiến đấu&f &#ffff66sắc bén&f."
+    - ""
+    - ""
+    - "&#ffff00➥ &#ffff33Nhấn &#ffff66để &#ffff99trang bị &#ffffcchiệu ứng"
+    MATERIAL: "FLINT"
+    SLOT: 4
+  NOTES:
+    ENABLED: true
+    NAME: "&#ff66ff🎵 Bước Chân Nốt Nhạc"
+    LORE:
+    - "&8Hạt hiệu ứng âm nhạc"
+    - ""
+    - "&#ff66ffHiệu Ứng Bước Chân"
+    - "&fĐể lại những &#ff88ffnốt nhạc&f ở phía sau &#ff88ffvới&f &#ff88ffnhững giai điệu&f &#ff88ffâm nhạc&f &#ff88ffđầy màu sắc&f."
+    - ""
+    - ""
+    - "&#ff66ff➥ &#ff7affNhấn &#ff8effđể &#ffa3fftrang bị &#ffb7ffhiệu ứng"
+    MATERIAL: "NOTE_BLOCK"
+    SLOT: 5
+  LAVA:
+    ENABLED: true
+    NAME: "&#ff4400🌋 Bước Chân Dung Nham"
+    LORE:
+    - "&8Hạt hiệu ứng tan chảy"
+    - ""
+    - "&#ff4400Hiệu Ứng Bước Chân"
+    - "&fĐể lại những &#ff6633hạt dung nham&f ở phía sau &#ff6633với&f &#ff6633những giọt&f &#ff6633núi lửa&f &#ff6633tan chảy&f."
+    - ""
+    - ""
+    - "&#ff4400➥ &#ff5d19Nhấn &#ff7733để &#ff914dtrang bị &#ffaa66hiệu ứng"
+    MATERIAL: "LAVA_BUCKET"
+    SLOT: 6
+  WATER:
+    ENABLED: true
+    NAME: "&#00aaff💧 Bước Chân Dòng Nước"
+    LORE:
+    - "&8Hạt hiệu ứng thủy sinh"
+    - ""
+    - "&#00aaffHiệu Ứng Bước Chân"
+    - "&fĐể lại những &#33bbffhạt nước&f ở phía sau &#33bbffvới&f &#33bbffnhững giọt&f &#33bbffthủy sinh&f &#33bbfftươi mát&f."
+    - ""
+    - ""
+    - "&#00aaff➥ &#19b8ffNhấn &#33c6ffđể &#4dd4fftrang bị &#66e2ffhiệu ứng"
+    MATERIAL: "WATER_BUCKET"
+    SLOT: 7
+  CLOUD:
+    ENABLED: true
+    NAME: "&#ffffff☁ Bước Chân Đám Mây"
+    LORE:
+    - "&8Hạt hiệu ứng xốp mềm"
+    - ""
+    - "&#ffffffHiệu Ứng Bước Chân"
+    - "&fĐể lại những &#f2f2f2hạt mây&f ở phía sau &#f2f2f2với&f &#f2f2f2những hiệu ứng&f &#f2f2f2mềm mại&f &#f2f2f2xốp mịn&f."
+    - ""
+
+    - ""
+    - "&#ffffff➥ &#f2f2f2Nhấn &#e6e6e6để &#d9d9d9trang bị &#cccccchiệu ứng"
+    MATERIAL: "BEACON"
+    SLOT: 8
+  REMOVE-TRAIL:
+    NAME: "&#ff3333❌ Gỡ Hiệu Ứng"
+    LORE:
+    - "&8Bỏ hiệu ứng đang dùng"
+    - ""
+    - "&#ff3333Điều Khiển Hiệu Ứng"
+    - "&fGỡ &#ff6666hiệu ứng&f &#ff6666hiện tại&f của bạn &#ff6666để&f &#ff6666tắt&f &#ff6666các hạt&f &#ff6666hiệu ứng&f."
+    - ""
+    - "&#ff3333➥ &#ff4d4dNhấn &#ff6666để &#ff8080gỡ &#ff9999hiệu ứng"
+    MATERIAL: "BARRIER"
+    SLOT: 31

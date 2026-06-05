@@ -1,0 +1,135 @@
+menu_title: '&#BDB2FF&l❁ ᴄáᴄ ᴛư ᴛʜế (ɢsɪᴛ) ❁'
+open_command: Gsit
+register_command: true
+size: 36
+
+items:
+  'Filler_Outer':
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+    - 0-9
+    - 17-18
+    - 26
+    - 29-34
+    display_name: ' '
+    priority: 10
+
+  'Filler_Inner':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 11
+    - 13
+    - 15
+    - 19-25
+    display_name: ' '
+    priority: 10
+
+  'SIT':
+    material: LIME_DYE
+    slot: 10
+    display_name: '&#57F287&l❁ ɴɢồɪ (sɪᴛ) ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Nhân vật của bạn sẽ ngồi xuống'
+    - ' &#E0E0E0ngay tại vị trí đang đứng.'
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Lệnh nhanh: &#57F287/sit'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để ngồi'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[player] sit'
+
+  'LAY':
+    material: YELLOW_DYE
+    slot: 12
+    display_name: '&#FCD05C&l❁ ɴằᴍ (ʟᴀʏ) ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Nằm dang tay chân thư giãn'
+    - ' &#E0E0E0ngay trên mặt đất.'
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Lệnh nhanh: &#FCD05C/lay'
+    - ''
+    - '&#FCD05C▶ &#E0E0E0Nhấn để nằm'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[player] lay'
+
+  'CRAWL':
+    material: ORANGE_DYE
+    slot: 14
+    display_name: '&#FFB7B2&l❁ ʙò (ᴄʀᴀᴡʟ) ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Nhân vật sẽ chui rúc và trườn bò'
+    - ' &#E0E0E0sát xuống mặt đất.'
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Lệnh nhanh: &#FFB7B2/crawl'
+    - ''
+    - '&#FFB7B2▶ &#E0E0E0Nhấn để bò'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[player] crawl'
+
+  'SPIN':
+    material: LIGHT_BLUE_DYE
+    slot: 16
+    display_name: '&#AEC6CF&l❁ xᴏᴀʏ (sᴘɪɴ) ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Tạo hiệu ứng xoay vòng vòng'
+    - ' &#E0E0E0cực kỳ chóng mặt tại chỗ.'
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Lệnh nhanh: &#AEC6CF/spin'
+    - ''
+    - '&#AEC6CF▶ &#E0E0E0Nhấn để xoay'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[player] spin'
+
+  'Guide':
+    material: WRITABLE_BOOK
+    slot: 27
+    display_name: '&#FCD05C&l❁ ʜướɴɢ ᴅẫɴ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Hệ thống GSit cho phép bạn thực hiện'
+    - ' &#E0E0E0các hành động tương tác thú vị.'
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Danh sách lệnh cơ bản:'
+    - '  &#888888• &#57F287/sit &f- &#E0E0E0Ngồi'
+    - '  &#888888• &#FCD05C/lay &f- &#E0E0E0Nằm'
+    - '  &#888888• &#FFB7B2/crawl &f- &#E0E0E0Bò'
+    - '  &#888888• &#AEC6CF/spin &f- &#E0E0E0Xoay'
+    - ''
+
+  'Toggle':
+    material: SPYGLASS
+    slot: 28
+    display_name: '&#BDB2FF&l❁ ʙậᴛ/ᴛắᴛ ᴛự độɴɢ ɴɢồɪ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bật hoặc tắt tính năng tự động'
+    - ' &#E0E0E0ngồi khi click chuột phải vào Block.'
+    - ''
+    - '&#BDB2FF▶ &#E0E0E0Nhấn để chuyển đổi trạng thái'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[player] gsit playertoggle'
+
+  'Close':
+    material: BARRIER
+    slot: 35
+    display_name: '&#ED4245&l✖ Đóɴɢ ᴍᴇɴᴜ'
+    lore:
+    - ''
+    - '&#ED4245▶ &#E0E0E0Nhấn để đóng giao diện'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'

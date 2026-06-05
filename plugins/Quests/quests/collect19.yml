@@ -1,0 +1,32 @@
+tasks:
+  collect:
+    type: "inventory"
+    item: "LEATHER"
+    remove-items-when-complete: true
+    amount: 5
+display:
+  name: "&#A3C4F3&nɴʜɪệᴍ ᴠụ ᴛʜᴜ ᴛʜậᴘ:&r &#FDFD96xɪx"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó'
+    - '&#D1E8E2ᴠớɪ ᴛʜᴜ ᴛʜậᴘ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ɢɪᴀᴏ ɴộᴘ 5 ᴍɪếɴɢ ᴅᴀ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{collect:progress}/5 ᴍɪếɴɢ ᴅᴀ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0350$'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "LEATHER"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 350"
+options:
+  category: "collect"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 19
+  requires:
+    - "collect18"

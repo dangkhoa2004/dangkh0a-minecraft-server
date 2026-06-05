@@ -1,0 +1,10 @@
+data:
+  session: 1080
+  dice1: 1
+  dice2: 1
+  dice3: 1
+  result: SPECIAL
+  currency: VAULT
+  taiPlayers:
+    KaiseFitzs: 100
+    luan27852: 1000000

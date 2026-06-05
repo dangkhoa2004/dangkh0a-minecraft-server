@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:bone"
+    },
+    "title":"\u00A7x\u00A7A\u00A7C\u00A7FX\u00E1\u1D04 S\u1ED1\u0274\u0262 (T\u029C\u1D07 W\u1D00\u029F\u1D0B\u026A\u0274\u0262 D\u1D07\u1D00\u1D05)",
+    "description":"\u00A7x\u00A7D\u00A7E\u00A7EG\u026A\u1EBF\u1D1B \u00A7x\u00A7F\u00A7D\u00A7F\u00A7D1 \u00A7x\u00A7D\u00A7E\u00A7E\u1D04\u1D0F\u0274 \u1D22\u1D0F\u1D0D\u0299\u026A\u1D07.",
+    "frame":"task",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:advanced_achievements_parent"
+}

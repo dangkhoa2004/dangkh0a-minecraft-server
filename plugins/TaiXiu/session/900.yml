@@ -1,0 +1,11 @@
+data:
+  session: 900
+  dice1: 1
+  dice2: 2
+  dice3: 3
+  result: XIU
+  currency: VAULT
+  taiPlayers:
+    gnurtz1: 1000000
+  xiuPlayers:
+    yunnie: 1000000

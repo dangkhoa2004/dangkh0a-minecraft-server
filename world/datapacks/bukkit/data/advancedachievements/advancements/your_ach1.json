@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:bookshelf"
+    },
+    "title":"\u00A7x\u00A7A\u00A7C\u00A7FT\u029C\u00E0\u0274\u029C T\u1EF1\u1D1C S\u1EF1 K\u026A\u1EC7\u0274!",
+    "description":"\u00A7x\u00A7D\u00A7E\u00A7ET\u029C\u1D00\u1D0D \u0262\u026A\u1D00 \uA731\u1EF1 \u1D0B\u026A\u1EC7\u0274 \u0111\u1EB7\u1D04 \u0299\u026A\u1EC7\u1D1B!\nM\u1ED7\u026A 8 \u0262\u026A\u1EDD \u1D1B\u1ED1\u026A T\u029C\u1EE9 S\u00E1\u1D1C!",
+    "frame":"challenge",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:advanced_achievements_parent"
+}

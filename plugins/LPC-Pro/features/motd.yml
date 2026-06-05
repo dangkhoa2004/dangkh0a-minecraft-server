@@ -1,0 +1,73 @@
+enabled: false
+delay-ticks: 20
+show-player-head: true
+permission: ''
+default:
+- ''
+- '<#BDB2FF><strikethrough>                                                  </strikethrough>'
+- ''
+- '  <gradient:#FCD05C:#FFD700><bold>CHÀO MỪNG {player} ĐẾN VỚI MÁY CHỦ</bold></gradient>'
+- '  <#E0E0E0>Cảm ơn bạn đã tham gia! Hành trình phiêu lưu đang chờ đón.'
+- ''
+- '  <#57F287><bold>▶</bold> <#FCD05C>CỬA HÀNG:</color> <click:run_command:/buy><#AEC6CF><underlined>/buy</underlined></click>'
+- '  <#57F287><bold>▶</bold> <#FCD05C>DISCORD:</color> <click:run_command:/discord><#AEC6CF><underlined>/discord</underlined></click>'
+- ''
+- '  <#AEC6CF><italic>Hãy kết nối để nhận những tin tức mới nhất!</italic>'
+- ''
+- '<#BDB2FF><strikethrough>                                                  </strikethrough>'
+- ''
+first-join:
+- ''
+- '<#BDB2FF><strikethrough>                                                  </strikethrough>'
+- ''
+- '  <gradient:#BDB2FF:#AEC6CF><bold>CHÀO MỪNG {player} LẦN ĐẦU ĐẾN VỚI MÁY CHỦ!</bold></gradient>'
+- '  <#E0E0E0>Chúng tôi rất vui vì bạn đã tham gia cộng đồng!'
+- ''
+- '  <#57F287><bold>▶</bold> <#FCD05C>Đọc luật:</color> <click:run_command:/rules><#AEC6CF><underlined>/rules</underlined></click>'
+- '  <#57F287><bold>▶</bold> <#FCD05C>Bắt đầu:</color> <click:run_command:/help><#AEC6CF><underlined>/help</underlined></click>'
+- '  <#57F287><bold>▶</bold> <#FCD05C>Kênh Discord:</color> <click:run_command:/discord><#AEC6CF><underlined>/discord</underlined></click>'
+- ''
+- '  <#AEC6CF><italic>Mẹo: Sử dụng /sethome để lưu vị trí của bạn!</italic>'
+- ''
+- '<#BDB2FF><strikethrough>                                                  </strikethrough>'
+- ''
+groups:
+  lpcpro.admin:
+  - ''
+  - '<#BDB2FF><strikethrough>                                                  </strikethrough>'
+  - ''
+  - '  <gradient:#ED4245:#FCD05C><bold>CHÀO MỪNG TRỞ LẠI, {player}!</bold></gradient>'
+  - '  <#ED4245>Chế Độ Staff Đang Bật'
+  - ''
+  - '  <#ED4245><bold>▶</bold> <#FCD05C>Báo cáo:</color> <click:run_command:/reports><#AEC6CF><underlined>/reports</underlined></click>'
+  - '  <#ED4245><bold>▶</bold> <#FCD05C>Quản lý:</color> <click:run_command:/mutes><#AEC6CF><underlined>/mutes</underlined></click> <#E0E0E0>|</color> <click:run_command:/warnings><#AEC6CF><underlined>/warnings</underlined></click>'
+  - '  <#ED4245><bold>▶</bold> <#FCD05C>Plugin:</color> <click:run_command:/lpc help><#AEC6CF><underlined>/lpc help</underlined></click> <#E0E0E0>|</color> <click:run_command:/lpc reload><#AEC6CF><underlined>/lpc reload</underlined></click>'
+  - ''
+  - '<#BDB2FF><strikethrough>                                                  </strikethrough>'
+  - ''
+  lpcpro.motd.vip:
+  - ''
+  - '<#BDB2FF><strikethrough>                                                  </strikethrough>'
+  - ''
+  - '  <gradient:#FCD05C:#FFD700><bold>CHÀO MỪNG TRỞ LẠI, {player}!</bold></gradient>'
+  - '  <#FCD05C>Thành Viên VIP <#E0E0E0>- Cảm ơn sự ủng hộ của bạn!'
+  - ''
+  - '  <#FCD05C><bold>▶</bold> <#AEC6CF>Đặc quyền của bạn:'
+  - '    <#E0E0E0>Màu Chat, Màu Tên, Thẻ Tùy Chỉnh'
+  - '  <#FCD05C><bold>▶</bold> <#AEC6CF>Shop VIP:</color> <click:run_command:/vipshop><#AEC6CF><underlined>/vipshop</underlined></click>'
+  - ''
+  - '<#BDB2FF><strikethrough>                                                  </strikethrough>'
+  - ''
+join-title:
+  enabled: false
+  delay-ticks: 60
+  fade-in: 10
+  stay: 60
+  fade-out: 20
+  default:
+    title: <gradient:#FCD05C:#FFD700><bold>CHÀO MỪNG TRỞ LẠI!</bold></gradient>
+    subtitle: <#E0E0E0>Chúc bạn chơi vui vẻ, <white>{player}</white>
+  first-join:
+    enabled: true
+    title: <gradient:#BDB2FF:#AEC6CF><bold>CHÀO MỪNG ĐẾN VỚI MÁY CHỦ!</bold></gradient>
+    subtitle: <#E0E0E0>Rất vui khi có bạn ở đây, <white>{player}</white>

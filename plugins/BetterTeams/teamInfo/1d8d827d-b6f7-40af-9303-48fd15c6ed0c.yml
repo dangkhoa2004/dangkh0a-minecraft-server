@@ -1,0 +1,23 @@
+name: Sun
+description: ''
+open: false
+pvp: true
+anchor: false
+home: world:-311.3708495239026:70.0:-782.6301001756826:88.75008:21.01189
+color: e
+chests: []
+players:
+- 00000000-0000-0000-0009-01fe45678c3a,DEFAULT
+- 2d8836c4-7f8a-3052-a7bc-b5117e4cabb3,DEFAULT
+- 3a2f00b7-a450-354e-be7f-f388f24d6cfa,DEFAULT
+- 0b11e487-4216-3d73-9d19-a13a30cf6cb9,DEFAULT
+- 00000000-0000-0000-0009-01f210e57c79,ADMIN
+- 0e27e251-d6e5-3b41-9025-c43b64ab189d,OWNER
+- 46912318-b742-3ff2-bf34-4fc0f5f32002,DEFAULT
+anchoredPlayers: []
+level: 1
+tag: ''
+warps:
+- mending;world:-221.69998998807907:46.00000999523163:-687.64667:-39.129578:-72.43113
+- farm;world:458.13684:199.00000999523164:-1342.2762:86.55441:8.074341
+score: 0

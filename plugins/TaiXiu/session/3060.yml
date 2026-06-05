@@ -1,0 +1,9 @@
+data:
+  session: 3060
+  dice1: 2
+  dice2: 2
+  dice3: 2
+  result: XIU
+  currency: VAULT
+  xiuPlayers:
+    ThanhQuan85: 200000000

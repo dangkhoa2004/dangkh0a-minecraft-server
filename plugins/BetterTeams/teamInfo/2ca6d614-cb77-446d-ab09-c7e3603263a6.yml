@@ -1,0 +1,18 @@
+name: Lonely
+description: ''
+open: false
+pvp: true
+anchor: false
+home: world:-416.2247:84.00000999523162:-889.4094:106.28912:-7.179199
+color: '0'
+chests: []
+players:
+- d3187553-3094-3efc-8162-2447700231a6,DEFAULT
+- 00000000-0000-0000-0009-01f0a6ec5851,OWNER
+- 00000000-0000-0000-0009-01fd7014aa5c,DEFAULT
+anchoredPlayers: []
+level: 1
+tag: ''
+score: 23
+warps:
+- 1;world:1186.1664:-10.999990004768371:1949.1049:91.587524:27.494385

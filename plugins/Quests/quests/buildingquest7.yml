@@ -1,0 +1,35 @@
+tasks:
+  iron:
+    type: "blockplacecertain"
+    amount: 4
+    block: "IRON_BLOCK"
+  pumpkin:
+    type: "blockplacecertain"
+    amount: 1
+    block: "PUMPKIN"
+display:
+  name: "&#A3C4F3&nɴʜɪệᴍ ᴠụ xâʏ ᴅựɴɢ:&r &#FDFD96#7"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó'
+    - '&#D1E8E2ᴠớɪ xâʏ ᴅựɴɢ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴛʀɪệᴜ ʜồɪ 1 ɢᴏʟᴇᴍ ꜱắᴛ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ:'
+    - '   &#FFB347◆ &#D1E8E2{iron:progress}/4 ᴋʜốɪ ꜱắᴛ'
+    - '   &#FFB347◆ &#D1E8E2{pumpkin:progress}/1 ʙí ɴɢô'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0300 ᴋɪɴʜ ɴɢʜɪệᴍ'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "IRON_BLOCK"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "xp give {player} 300"
+options:
+  category: "building"
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 2880
+  sort-order: 7

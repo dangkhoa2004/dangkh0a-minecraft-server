@@ -1,0 +1,613 @@
+# Use a YAML editor like NotepadPlusPlus to edit this file.  
+# After editing, back up your changes before reloading the server in case you made a syntax error.  
+# Use dollar signs ($) for formatting codes, which are documented here: http://minecraft.gamepedia.com/Formatting_codes
+
+Messages:
+  RespectingClaims:
+    Text: §x§5§7§F§2§8§7ʜɪệɴ đᴀɴɢ ᴛôɴ ᴛʀọɴɢ ᴋʜᴜ ᴠựᴄ đượᴄ ʙảᴏ ᴠệ.
+  IgnoringClaims:
+    Text: §x§E§D§4§2§4§5ʙỏ ǫᴜᴀ ᴠà ᴋʜôɴɢ ʙảᴏ ᴠệ ᴋʜᴜ ᴠựᴄ ɴàʏ ɴữᴀ.
+  SuccessfulAbandon:
+    Text: §x§5§7§F§2§8§7ʙạɴ đã ᴛừ ʙỏ ᴋʜᴜ ᴠựᴄ ɴàʏ. ʙạɴ ᴄòɴ §x§F§F§D§7§0§0{0} §x§5§7§F§2§8§7ᴋʜốɪ
+      ʙảᴏ ᴠệ ᴋʜả ᴅụɴɢ.
+    Notes: '0: số khối còn lại'
+  RestoreNatureActivate:
+    Text: §fᴄʜế độ ᴛáɪ ᴛạᴏ địᴀ ʜìɴʜ! ᴄʜᴜộᴛ ᴘʜảɪ để ᴋʜôɪ ᴘʜụᴄ, ᴅùɴɢ §x§F§F§D§7§0§0/basicclaims
+      §fđể ᴅừɴɢ.
+  RestoreNatureAggressiveActivate:
+    Text: §x§E§D§4§2§4§5ᴋíᴄʜ ʜᴏạᴛ ᴄʜế độ ᴘʜá ʜủʏ ᴍạɴʜ! đừɴɢ ᴅùɴɢ ᴅướɪ ᴋʜᴜ ᴠựᴄ ᴍᴜốɴ
+      ɢɪữ ʟạɪ! ᴄʜᴜộᴛ ᴘʜảɪ để ᴘʜụᴄ ʜồɪ, ᴅùɴɢ §x§F§F§D§7§0§0/basicclaims §x§E§D§4§2§4§5để
+      ᴅừɴɢ.
+  FillModeActive:
+    Text: §fᴄʜế độ ʟấᴘ đầʏ đượᴄ ʙậᴛ ᴠớɪ ʙáɴ ᴋíɴʜ §x§F§F§D§7§0§0{0}§f. ᴄʜᴜộᴛ ᴘʜảɪ ᴠàᴏ
+      ᴍộᴛ ᴋʜᴜ ᴠựᴄ để ʟấᴘ đầʏ.
+    Notes: '0: bán kính lấp đầy'
+  TransferClaimPermission:
+    Text: §x§E§D§4§2§4§5ʟệɴʜ ɴàʏ ʏêᴜ ᴄầᴜ ǫᴜʏềɴ ǫᴜảɴ ᴛʀị ᴋʜᴜ ᴠựᴄ.
+  TransferClaimMissing:
+    Text: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴄó ᴋʜᴜ ᴠựᴄ ʙảᴏ ᴠệ ɴàᴏ ở đâʏ. ʜãʏ đứɴɢ ᴛʀᴏɴɢ ᴋʜᴜ ᴠựᴄ
+      ᴍᴜốɴ ᴄʜᴜʏểɴ ɴʜượɴɢ.
+  TransferClaimAdminOnly:
+    Text: §x§E§D§4§2§4§5ᴄʜỉ ᴋʜᴜ ᴠựᴄ ᴄủᴀ ᴀᴅᴍɪɴ ᴍớɪ ᴄó ᴛʜể ᴄʜᴜʏểɴ ɴʜượɴɢ ᴄʜᴏ ɴɢườɪ ᴄʜơɪ.
+  PlayerNotFound2:
+    Text: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ɴɢườɪ ᴄʜơɪ ɴàᴏ ᴄó ᴛêɴ đó đăɴɢ ɴʜậᴘ ɢầɴ đâʏ.
+  TransferTopLevel:
+    Text: §x§E§D§4§2§4§5ᴄʜỉ ᴋʜᴜ ᴠựᴄ ᴄấᴘ ᴄᴀᴏ ɴʜấᴛ ᴍớɪ ᴄó ᴛʜể ᴄʜᴜʏểɴ ɴʜượɴɢ. ʜãʏ ʀᴀ
+      ᴋʜỏɪ ᴠùɴɢ ᴄʜɪᴀ ɴʜỏ ᴠà ᴛʜử ʟạɪ.
+  TransferSuccess:
+    Text: §x§5§7§F§2§8§7đã ᴄʜᴜʏểɴ ɴʜượɴɢ ᴋʜᴜ ᴠựᴄ ᴛʜàɴʜ ᴄôɴɢ.
+  TrustListNoClaim:
+    Text: §x§E§D§4§2§4§5ʜãʏ đứɴɢ ʙêɴ ᴛʀᴏɴɢ ᴋʜᴜ ᴠựᴄ ʙạɴ ᴍᴜốɴ ᴋɪểᴍ ᴛʀᴀ ǫᴜʏềɴ.
+  ClearPermsOwnerOnly:
+    Text: §x§E§D§4§2§4§5ᴄʜỉ ᴄʜủ ᴋʜᴜ ᴠựᴄ ᴍớɪ ᴄó ᴛʜể xóᴀ ᴍọɪ ǫᴜʏềɴ ʜạɴ.
+  UntrustIndividualAllClaims:
+    Text: §x§5§7§F§2§8§7đã xóᴀ ǫᴜʏềɴ ᴄủᴀ §x§F§F§D§7§0§0{0} §x§5§7§F§2§8§7ᴋʜỏɪ ᴛấᴛ
+      ᴄả ᴋʜᴜ ᴠựᴄ. để đặᴛ ǫᴜʏềɴ ᴄʜᴏ 1 ᴋʜᴜ ᴠựᴄ, ʜãʏ đứɴɢ ʙêɴ ᴛʀᴏɴɢ ɴó.
+    Notes: '0: người chơi bị xóa quyền'
+  UntrustEveryoneAllClaims:
+    Text: §x§5§7§F§2§8§7đã xóᴀ ᴍọɪ ǫᴜʏềɴ ở ᴛấᴛ ᴄả ᴋʜᴜ ᴠựᴄ. để đặᴛ ǫᴜʏềɴ ᴄʜᴏ 1 ᴋʜᴜ
+      ᴠựᴄ, ʜãʏ đứɴɢ ʙêɴ ᴛʀᴏɴɢ ɴó.
+  NoPermissionTrust:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ᴄủᴀ §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5để
+      ǫᴜảɴ ʟý ᴋʜᴜ ᴠựᴄ ɴàʏ.
+    Notes: '0: tên chủ khu vực'
+  ClearPermissionsOneClaim:
+    Text: §x§5§7§F§2§8§7đã xóᴀ ǫᴜʏềɴ ᴛʀᴏɴɢ ᴋʜᴜ ᴠựᴄ ɴàʏ. để đặᴛ ǫᴜʏềɴ ᴄʜᴏ ᴛấᴛ ᴄả ᴋʜᴜ
+      ᴠựᴄ, ʜãʏ đứɴɢ ʙêɴ ɴɢᴏàɪ ᴄʜúɴɢ.
+  UntrustIndividualSingleClaim:
+    Text: §x§5§7§F§2§8§7đã xóᴀ ǫᴜʏềɴ ᴄủᴀ §x§F§F§D§7§0§0{0} §x§5§7§F§2§8§7ᴋʜỏɪ ᴋʜᴜ
+      ᴠựᴄ ɴàʏ. để ǫᴜảɴ ʟý ᴛấᴛ ᴄả ᴋʜᴜ ᴠựᴄ, ʜãʏ đứɴɢ ʙêɴ ɴɢᴏàɪ ᴄʜúɴɢ.
+    Notes: '0: người chơi bị xóa quyền'
+  OnlySellBlocks:
+    Text: §x§E§D§4§2§4§5ᴋʜốɪ ʙảᴏ ᴠệ ᴄʜỉ ᴄó ᴛʜể ʙáɴ, ᴋʜôɴɢ ᴛʜể ᴍᴜᴀ.
+  BlockPurchaseCost:
+    Text: §fᴍỗɪ ᴋʜốɪ ᴄó ɢɪá §x§F§F§D§7§0§0{0}§f. ѕố ᴅư ᴄủᴀ ʙạɴ ʟà §x§F§F§D§7§0§0{1}§f.
+    Notes: '0: giá của một khối; 1: số dư tài khoản của người chơi'
+  ClaimBlockLimit:
+    Text: §x§E§D§4§2§4§5ʙạɴ đã đạᴛ ɢɪớɪ ʜạɴ ᴋʜốɪ ʙảᴏ ᴠệ ᴠà ᴋʜôɴɢ ᴛʜể ᴍᴜᴀ ᴛʜêᴍ.
+  InsufficientFunds:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ đủ ᴛɪềɴ. ᴄầɴ §x§F§F§D§7§0§0{0}§x§E§D§4§2§4§5, ɴʜưɴɢ
+      ᴄʜỉ ᴄó §x§F§F§D§7§0§0{1}§x§E§D§4§2§4§5.
+    Notes: '0: tổng chi phí; 1: số dư tài khoản'
+  MaxBonusReached:
+    Text: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛʜể ᴍᴜᴀ ᴛʜêᴍ §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴋʜốɪ. ᴍáʏ
+      ᴄʜủ ɢɪớɪ ʜạɴ ᴛốɪ đᴀ ʟà §x§F§F§D§7§0§0{1} §x§E§D§4§2§4§5ᴋʜốɪ ᴛʜưởɴɢ.
+    Notes: '0: số khối; 1: giới hạn khối thưởng'
+  PurchaseConfirmation:
+    Text: §x§5§7§F§2§8§7đã ᴛʀừ §x§F§F§D§7§0§0{0} §x§5§7§F§2§8§7ᴋʜỏɪ ᴛàɪ ᴋʜᴏảɴ. ʙạɴ
+      ʜɪệɴ ᴄó §x§F§F§D§7§0§0{1} §x§5§7§F§2§8§7ᴋʜốɪ ʙảᴏ ᴠệ.
+    Notes: '0: tổng chi phí; 1: số khối còn lại'
+  OnlyPurchaseBlocks:
+    Text: §x§E§D§4§2§4§5ᴋʜốɪ ʙảᴏ ᴠệ ᴄʜỉ ᴄó ᴛʜể ᴍᴜᴀ, ᴋʜôɴɢ ᴛʜể ʙáɴ.
+  BlockSaleValue:
+    Text: §fᴍỗɪ ᴋʜốɪ ʙảᴏ ᴠệ ᴛʀị ɢɪá §x§F§F§D§7§0§0{0}§f. ʙạɴ ᴄó §x§F§F§D§7§0§0{1}
+      §fᴋʜốɪ ᴄó ᴛʜể ʙáɴ.
+    Notes: '0: giá trị khối; 1: số khối có sẵn'
+  NotEnoughBlocksForSale:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴄó đủ ᴋʜốɪ ʙảᴏ ᴠệ để ʙáɴ.
+  BlockSaleConfirmation:
+    Text: §x§5§7§F§2§8§7đã ᴄộɴɢ §x§F§F§D§7§0§0{0} §x§5§7§F§2§8§7ᴠàᴏ ᴛàɪ ᴋʜᴏảɴ. ʙạɴ
+      ʜɪệɴ ᴄó §x§F§F§D§7§0§0{1} §x§5§7§F§2§8§7ᴋʜốɪ ʙảᴏ ᴠệ.
+    Notes: '0: số tiền nạp vào; 1: số khối còn lại'
+  AdminClaimsMode:
+    Text: §x§5§7§F§2§8§7ᴄʜế độ ᴀᴅᴍɪɴ đã ʙậᴛ. ᴍọɪ ᴋʜᴜ ᴠựᴄ ᴛạᴏ ʀᴀ ѕẽ ᴍɪễɴ ᴘʜí ᴠà ᴄó
+      ᴛʜể ᴄʜỉɴʜ ѕửᴀ ʙởɪ ᴀᴅᴍɪɴ ᴋʜáᴄ.
+  BasicClaimsMode:
+    Text: §fᴛʀở ʟạɪ ᴄʜế độ ʙảᴏ ᴠệ ᴄơ ʙảɴ.
+  SubdivisionMode:
+    Text: §fᴄʜế độ ᴄʜɪᴀ ɴʜỏ! ᴅùɴɢ xẻɴɢ để ᴄʜɪᴀ ɴʜỏ ᴋʜᴜ ᴠựᴄ. ᴅùɴɢ §x§F§F§D§7§0§0/basicclaims
+      §fđể ᴛʜᴏáᴛ.
+  SubdivisionVideo2:
+    Text: '§fɴʜấɴ để xᴇᴍ ʜướɴɢ ᴅẫɴ ᴄʜɪᴀ ɴʜỏ: §x§F§F§D§7§0§0{0}'
+    Notes: '0: URL video'
+  DeleteClaimMissing:
+    Text: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴄó ᴋʜᴜ ᴠựᴄ ʙảᴏ ᴠệ ɴàᴏ ở đâʏ.
+  DeletionSubdivisionWarning:
+    Text: §x§E§D§4§2§4§5ᴋʜᴜ ᴠựᴄ ɴàʏ ᴄó ᴄʜứᴀ ᴘʜầɴ ᴄʜɪᴀ ɴʜỏ. ɴếᴜ ᴄʜắᴄ ᴄʜắɴ xóᴀ, ʜãʏ
+      ᴅùɴɢ ʟạɪ §x§F§F§D§7§0§0/deleteclaim§x§E§D§4§2§4§5.
+  DeleteSuccess:
+    Text: §x§5§7§F§2§8§7đã xóᴀ ᴋʜᴜ ᴠựᴄ ʙảᴏ ᴠệ.
+  CantDeleteAdminClaim:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ xóᴀ ᴋʜᴜ ᴠựᴄ ᴄủᴀ ᴀᴅᴍɪɴ.
+  DeleteAllSuccess:
+    Text: §x§5§7§F§2§8§7đã xóᴀ ᴛấᴛ ᴄả ᴋʜᴜ ᴠựᴄ ʙảᴏ ᴠệ ᴄủᴀ §x§F§F§D§7§0§0{0}§x§5§7§F§2§8§7.
+    Notes: '0: tên chủ sở hữu'
+  NoDeletePermission:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ xóᴀ ᴋʜᴜ ᴠựᴄ ʙảᴏ ᴠệ.
+  AllAdminDeleted:
+    Text: §x§5§7§F§2§8§7đã xóᴀ ᴛấᴛ ᴄả ᴋʜᴜ ᴠựᴄ ʙảᴏ ᴠệ ᴄủᴀ ᴀᴅᴍɪɴ.
+  AdjustBlocksSuccess:
+    Text: '§x§5§7§F§2§8§7đã đɪềᴜ ᴄʜỉɴʜ ᴋʜốɪ ᴛʜưởɴɢ ᴄủᴀ §x§F§F§D§7§0§0{0} §x§5§7§F§2§8§7ᴛʜêᴍ
+      §x§F§F§D§7§0§0{1}§x§5§7§F§2§8§7. ᴛổɴɢ ᴍớɪ: §x§F§F§D§7§0§0{2}§x§5§7§F§2§8§7.'
+    Notes: '0: người chơi; 1: mức điều chỉnh; 2: tổng mới'
+  NotTrappedHere:
+    Text: §fʙạɴ ᴄó ᴛʜể xâʏ ᴅựɴɢ ở đâʏ. ʜãʏ ᴛự ᴄứᴜ ᴍìɴʜ đɪ ɴàᴏ.
+  RescuePending:
+    Text: §fđứɴɢ ʏêɴ ᴛʀᴏɴɢ 10 ɢɪâʏ để đượᴄ ᴅịᴄʜ ᴄʜᴜʏểɴ ʀᴀ ɴɢᴏàɪ. ᴠᴜɪ ʟòɴɢ đợɪ.
+  NonSiegeWorld:
+    Text: §x§E§D§4§2§4§5ᴄʜế độ ʙᴀᴏ ᴠâʏ ʙị ᴛắᴛ ở ᴛʜế ɢɪớɪ ɴàʏ.
+  AlreadySieging:
+    Text: §x§E§D§4§2§4§5ʙạɴ đã ᴛʜᴀᴍ ɢɪᴀ ᴠàᴏ 1 ᴄᴜộᴄ ʙᴀᴏ ᴠâʏ ʀồɪ.
+  NotSiegableThere:
+    Text: §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴋʜôɴɢ đượᴄ ʙảᴏ ᴠệ ở ᴋʜᴜ ᴠựᴄ đó.
+    Notes: '0: người phòng thủ'
+  SiegeTooFarAway:
+    Text: §x§E§D§4§2§4§5ʙạɴ ở ǫᴜá xᴀ để ᴛɪếɴ ʜàɴʜ ʙᴀᴏ ᴠâʏ.
+  NoSiegeYourself:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴛự ʙᴀᴏ ᴠâʏ ᴄʜíɴʜ ᴍìɴʜ!
+  NoSiegeDefenseless:
+    Text: §x§E§D§4§2§4§5ɴɢườɪ ᴄʜơɪ đó ᴋʜôɴɢ ᴄó ᴋʜả ɴăɴɢ ᴘʜòɴɢ ᴛʜủ. ʜãʏ ᴄʜọɴ ᴀɪ ᴋʜáᴄ.
+  AlreadyUnderSiegePlayer:
+    Text: §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5đᴀɴɢ ʙị ʙᴀᴏ ᴠâʏ. ʜãʏ ᴛʜᴀᴍ ɢɪᴀ ᴛʀậɴ ᴄʜɪếɴ!
+    Notes: '0: người phòng thủ'
+  AlreadyUnderSiegeArea:
+    Text: §x§E§D§4§2§4§5ᴋʜᴜ ᴠựᴄ ɴàʏ đᴀɴɢ ʙị ʙᴀᴏ ᴠâʏ. ʜãʏ ᴛʜᴀᴍ ɢɪᴀ ᴛʀậɴ ᴄʜɪếɴ!
+  NoSiegeAdminClaim:
+    Text: §x§E§D§4§2§4§5ʙᴀᴏ ᴠâʏ ʙị ᴛắᴛ ở ᴋʜᴜ ᴠựᴄ ɴàʏ.
+  SiegeOnCooldown:
+    Text: §x§E§D§4§2§4§5ʙạɴ đᴀɴɢ ᴛʀᴏɴɢ ᴛʜờɪ ɢɪᴀɴ ʜồɪ ʙᴀᴏ ᴠâʏ. ʜãʏ ᴛìᴍ ᴍụᴄ ᴛɪêᴜ ᴋʜáᴄ.
+  SiegeAlert:
+    Text: §x§E§D§4§2§4§5ʙạɴ đᴀɴɢ ʙị ʙᴀᴏ ᴠâʏ! ᴛʜᴏáᴛ ɢᴀᴍᴇ ʟúᴄ ɴàʏ ѕẽ ᴄʜếᴛ. ʜãʏ đáɴʜ
+      ʙạɪ §x§F§F§D§7§0§0{0}§x§E§D§4§2§4§5, ᴄʜờ ʜọ ʙỏ ᴄᴜộᴄ ʜᴏặᴄ ᴛʀốɴ ᴛʜᴏáᴛ.
+    Notes: '0: tên người tấn công'
+  SiegeConfirmed:
+    Text: §x§E§D§4§2§4§5ᴄᴜộᴄ ʙᴀᴏ ᴠâʏ đã ʙắᴛ đầᴜ! ᴛʜᴏáᴛ ɢᴀᴍᴇ ʟúᴄ ɴàʏ ѕẽ ᴄʜếᴛ. ʜãʏ đáɴʜ
+      ʙạɪ §x§F§F§D§7§0§0{0}§x§E§D§4§2§4§5, đᴜổɪ ʜọ đɪ ʜᴏặᴄ ʙỏ ᴄʜạʏ.
+    Notes: '0: tên người phòng thủ'
+  AbandonClaimMissing:
+    Text: §x§E§D§4§2§4§5ʜãʏ đứɴɢ ᴛʀᴏɴɢ ᴋʜᴜ ᴠựᴄ ᴍᴜốɴ xóᴀ, ʜᴏặᴄ ᴅùɴɢ §x§F§F§D§7§0§0/abandonallclaims§x§E§D§4§2§4§5.
+  NotYourClaim:
+    Text: §x§E§D§4§2§4§5đâʏ ᴋʜôɴɢ ᴘʜảɪ ᴋʜᴜ ᴠựᴄ ʙảᴏ ᴠệ ᴄủᴀ ʙạɴ.
+  DeleteTopLevelClaim:
+    Text: §x§E§D§4§2§4§5để xóᴀ ᴠùɴɢ ᴄʜɪᴀ ɴʜỏ, ʜãʏ đứɴɢ ᴠàᴏ ᴛʀᴏɴɢ. ʜᴏặᴄ ᴅùɴɢ §x§F§F§D§7§0§0/abandontoplevelclaim
+      §x§E§D§4§2§4§5để xóᴀ ᴛᴏàɴ ʙộ.
+  AbandonSuccess:
+    Text: §x§5§7§F§2§8§7đã ᴛừ ʙỏ ᴋʜᴜ ᴠựᴄ ɴàʏ. ʙạɴ ᴄòɴ §x§F§F§D§7§0§0{0} §x§5§7§F§2§8§7ᴋʜốɪ
+      ʙảᴏ ᴠệ.
+    Notes: '0: số khối bảo vệ còn lại'
+  ConfirmAbandonAllClaims:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴄó ᴄʜắᴄ ᴍᴜốɴ xóᴀ ᴛấᴛ ᴄả ᴋʜᴜ ᴠựᴄ? xáᴄ ɴʜậɴ ʙằɴɢ §x§F§F§D§7§0§0/abandonallclaims
+      confirm
+  CantGrantThatPermission:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴄấᴘ ǫᴜʏềɴ ᴍà ᴄʜíɴʜ ʙạɴ ᴋʜôɴɢ ᴄó.
+  GrantPermissionNoClaim:
+    Text: §x§E§D§4§2§4§5ʜãʏ đứɴɢ ʙêɴ ᴛʀᴏɴɢ ᴋʜᴜ ᴠựᴄ ʙạɴ ᴍᴜốɴ ᴄấᴘ ǫᴜʏềɴ.
+  GrantPermissionConfirmation:
+    Text: §x§5§7§F§2§8§7đã ᴄấᴘ ǫᴜʏềɴ §x§F§F§D§7§0§0{1} {2} §x§5§7§F§2§8§7ᴄʜᴏ §x§F§F§D§7§0§0{0}§x§5§7§F§2§8§7.
+    Notes: '0: người chơi được cấp; 1: mô tả quyền; 2: phạm vi'
+  ManageUniversalPermissionsInstruction:
+    Text: §fđể ǫᴜảɴ ʟý ǫᴜʏềɴ ᴄʜᴏ ᴛấᴛ ᴄả ᴋʜᴜ ᴠựᴄ, ʜãʏ đứɴɢ ɴɢᴏàɪ ᴄʜúɴɢ.
+  ManageOneClaimPermissionsInstruction:
+    Text: §fđể ǫᴜảɴ ʟý ǫᴜʏềɴ ᴄʜᴏ 1 ᴋʜᴜ ᴠựᴄ ᴄụ ᴛʜể, ʜãʏ đứɴɢ ᴛʀᴏɴɢ đó.
+  CollectivePublic:
+    Text: ᴍọɪ ɴɢườɪ
+    Notes: as in 'granted the public permission to...'
+  BuildPermission:
+    Text: xâʏ ᴅựɴɢ
+  ContainersPermission:
+    Text: ᴍở ʀươɴɢ ᴠà ᴅùɴɢ ᴠậᴛ ɴᴜôɪ
+  AccessPermission:
+    Text: ᴅùɴɢ ɴúᴛ ʙấᴍ ᴠà ᴄầɴ ɢạᴛ
+  PermissionsPermission:
+    Text: ǫᴜảɴ ʟý ǫᴜʏềɴ ʜạɴ
+  LocationCurrentClaim:
+    Text: ᴛʀᴏɴɢ ᴋʜᴜ ᴠựᴄ ɴàʏ
+  LocationAllClaims:
+    Text: ᴛʀᴏɴɢ ᴛấᴛ ᴄả ᴋʜᴜ ᴠựᴄ ᴄủᴀ ʙạɴ
+  PvPImmunityStart:
+    Text: §x§5§7§F§2§8§7ʙạɴ đượᴄ ʙảᴏ ᴠệ ᴋʜỏɪ ᴘᴠᴘ ᴍɪễɴ ʟà ᴛúɪ đồ ᴄủᴀ ʙạɴ ᴛʀốɴɢ.
+  SiegeNoDrop:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴠứᴛ đồ ᴛʀᴏɴɢ ʟúᴄ ʙị ʙᴀᴏ ᴠâʏ.
+  DonateItemsInstruction:
+    Text: §fđể đưᴀ ᴠậᴛ ᴘʜẩᴍ ᴄʜᴏ ɴɢườɪ ᴋʜáᴄ, ᴄʟɪᴄᴋ ᴛʀáɪ ᴠàᴏ ʀươɴɢ ʟầɴ ɴữᴀ.
+  ChestFull:
+    Text: §x§E§D§4§2§4§5ʀươɴɢ ɴàʏ đã đầʏ.
+  DonationSuccess:
+    Text: §x§5§7§F§2§8§7ᴠậᴛ ᴘʜẩᴍ đã đượᴄ ᴄʜᴜʏểɴ ᴠàᴏ ʀươɴɢ!
+  PlayerTooCloseForFire2:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể đốᴛ ʟửᴀ ǫᴜá ɢầɴ ɴɢườɪ ᴄʜơɪ ᴋʜáᴄ.
+  TooDeepToClaim:
+    Text: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛʜể ʙảᴏ ᴠệ ʀươɴɢ ɴàʏ ᴠì ɴó ɴằᴍ ǫᴜá ѕâᴜ. ʜãʏ ᴅɪ ᴄʜᴜʏểɴ
+      ɴó đɪ ɴơɪ ᴋʜáᴄ.
+  ChestClaimConfirmation:
+    Text: §x§5§7§F§2§8§7ʀươɴɢ ɴàʏ đã đượᴄ ʙảᴏ ᴠệ ᴀɴ ᴛᴏàɴ.
+  AutomaticClaimNotification:
+    Text: §x§5§7§F§2§8§7ʀươɴɢ ᴠà ᴋʜᴜ ᴠựᴄ xᴜɴɢ ǫᴜᴀɴʜ đã đượᴄ ʙảᴏ ᴠệ ᴋʜỏɪ ᴛʀộᴍ ᴄắᴘ.
+  AutomaticClaimOtherClaimTooClose:
+    Text: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛʜể ʙảᴏ ᴠệ ʀươɴɢ, ᴄó ᴋʜᴜ ᴠựᴄ ᴄủᴀ ɴɢườɪ ᴋʜáᴄ ở ǫᴜá ɢầɴ!
+  UnprotectedChestWarning:
+    Text: §x§E§D§4§2§4§5ʀươɴɢ ɴàʏ ᴋʜôɴɢ đượᴄ ʙảᴏ ᴠệ. ʜãʏ ᴅùɴɢ xẻɴɢ ᴠàɴɢ để ᴍở ʀộɴɢ
+      ʜᴏặᴄ ᴛạᴏ ᴠùɴɢ ᴍớɪ.
+  ThatPlayerPvPImmune:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴛấɴ ᴄôɴɢ ɴɢườɪ ᴄʜơɪ ᴋʜôɴɢ ᴄó ᴋʜả ɴăɴɢ ᴛự ᴠệ.
+  CantFightWhileImmune:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴛấɴ ᴄôɴɢ ɴɢườɪ ᴋʜáᴄ ᴋʜɪ đᴀɴɢ đượᴄ ʙảᴏ ᴠệ ᴋʜỏɪ
+      ᴘᴠᴘ.
+  NoDamageClaimedEntity:
+    Text: §fᴛʜú ᴄưɴɢ ɴàʏ ʟà ᴄủᴀ §x§F§F§D§7§0§0{0}§f.
+    Notes: '0: tên chủ sở hữu'
+  ShovelBasicClaimMode:
+    Text: §fxẻɴɢ đã ᴛʀở ᴠề ᴄʜế độ ʙảᴏ ᴠệ ᴄơ ʙảɴ.
+  RemainingBlocks:
+    Text: §fʙạɴ ᴄó ᴛʜể ʙảᴏ ᴠệ ᴛʜêᴍ ᴛốɪ đᴀ §x§F§F§D§7§0§0{0} §fᴋʜốɪ ɴữᴀ.
+    Notes: '0: số khối còn lại'
+  CreativeBasicsVideo2:
+    Text: '§fɴʜấɴ để xᴇᴍ ʜướɴɢ ᴅẫɴ ʙảᴏ ᴠệ đấᴛ: §f{0}'
+    Notes: '{0}: URL video'
+  SurvivalBasicsVideo2:
+    Text: '§fɴʜấɴ để xᴇᴍ ʜướɴɢ ᴅẫɴ ʙảᴏ ᴠệ đấᴛ: §f{0}'
+    Notes: '{0}: URL video'
+  TrappedChatKeyword:
+    Text: trapped;stuck;ket;kẹt
+    Notes: When mentioned in chat, players get information about the /trapped command
+      (multiple words can be separated with semi-colons)
+  TrappedInstructions:
+    Text: §fʙị ᴋẹᴛ ᴛʀᴏɴɢ ᴋʜᴜ ᴠựᴄ ᴄủᴀ ᴀɪ đó? ʜãʏ ᴛʜử ᴅùɴɢ ʟệɴʜ §x§F§F§D§7§0§0/trapped§f.
+  PvPNoDrop:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴠứᴛ đồ ᴛʀᴏɴɢ ᴋʜɪ đᴀɴɢ ᴘᴠᴘ.
+  SiegeNoTeleport:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴅịᴄʜ ᴄʜᴜʏểɴ ʀᴀ ᴋʜỏɪ ᴋʜᴜ ᴠựᴄ đᴀɴɢ ʙị ʙᴀᴏ ᴠâʏ.
+  BesiegedNoTeleport:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠàᴏ ᴋʜᴜ ᴠựᴄ đᴀɴɢ ʙị ʙᴀᴏ ᴠâʏ.
+  SiegeNoContainers:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴍở ʀươɴɢ ᴛʀᴏɴɢ ʟúᴄ đᴀɴɢ ʙᴀᴏ ᴠâʏ.
+  PvPNoContainers:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴍở ʀươɴɢ ᴛʀᴏɴɢ ʟúᴄ đᴀɴɢ ᴘᴠᴘ.
+  PvPImmunityEnd:
+    Text: §x§5§7§F§2§8§7ʙâʏ ɢɪờ ʙạɴ ᴄó ᴛʜể ᴄʜɪếɴ đấᴜ ᴠớɪ ɴɢườɪ ᴄʜơɪ ᴋʜáᴄ.
+  NoBedPermission:
+    Text: §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴄʜưᴀ ᴄʜᴏ ᴘʜéᴘ ʙạɴ ɴɢủ ở đâʏ.
+    Notes: '0: chủ khu vực'
+  NoWildernessBuckets:
+    Text: §x§E§D§4§2§4§5ᴄʜỉ đượᴄ đổ ɴướᴄ/ɴʜᴀᴍ ᴛʜạᴄʜ ᴛʀᴏɴɢ ᴋʜᴜ ᴠựᴄ ᴄủᴀ ʙạɴ ʜᴏặᴄ ᴅướɪ
+      ʟòɴɢ đấᴛ.
+  NoLavaNearOtherPlayer:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể đổ ɴʜᴀᴍ ᴛʜạᴄʜ ǫᴜá ɢầɴ §x§F§F§D§7§0§0{0}§x§E§D§4§2§4§5.
+    Notes: '0: người chơi gần đó'
+  TooFarAway:
+    Text: §x§E§D§4§2§4§5ǫᴜá xᴀ ʀồɪ.
+  BlockNotClaimed:
+    Text: §x§A§A§A§A§A§Aᴄʜưᴀ ᴄó ᴀɪ ʙảᴏ ᴠệ ᴋʜᴜ ᴠựᴄ ɴàʏ.
+  BlockClaimed:
+    Text: §fᴋʜᴜ ᴠựᴄ ɴàʏ đượᴄ ʙảᴏ ᴠệ ʙởɪ §x§F§F§D§7§0§0{0}§f.
+    Notes: '0: chủ khu vực'
+  SiegeNoShovel:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴅùɴɢ xẻɴɢ ᴋʜɪ đᴀɴɢ ʙᴀᴏ ᴠâʏ.
+  RestoreNaturePlayerInChunk:
+    Text: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛʜể ᴋʜôɪ ᴘʜụᴄ. §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5đᴀɴɢ
+      đứɴɢ ở ᴋʜᴜ ᴠựᴄ đó.
+    Notes: '0: người chơi gần đó'
+  NoCreateClaimPermission:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ʙảᴏ ᴠệ đấᴛ.
+  ResizeNeedMoreBlocks:
+    Text: §x§E§D§4§2§4§5ᴋʜôɴɢ đủ ᴋʜốɪ để ʙảᴏ ᴠệ. ʙạɴ ᴄầɴ ᴛʜêᴍ §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴋʜốɪ
+      ɴữᴀ.
+    Notes: '0: số khối cần thêm'
+  NoCreativeUnClaim:
+    Text: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛʜể ʜủʏ ʙảᴏ ᴠệ ᴋʜᴜ đấᴛ ɴàʏ. ᴄʜỉ ᴄó ᴛʜể ᴍở ʀộɴɢ ʜᴏặᴄ
+      ᴛạᴏ ᴋʜᴜ ᴍớɪ.
+  ClaimResizeSuccess:
+    Text: §x§5§7§F§2§8§7đã đɪềᴜ ᴄʜỉɴʜ ᴋíᴄʜ ᴛʜướᴄ. ʙạɴ ᴄòɴ §x§F§F§D§7§0§0{0} §x§5§7§F§2§8§7ᴋʜốɪ.
+    Notes: '0: số khối còn lại'
+  ResizeFailOverlap:
+    Text: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛʜể đɪềᴜ ᴄʜỉɴʜ ᴠì ѕẽ đè ʟêɴ ᴋʜᴜ ᴠựᴄ ᴄủᴀ ɴɢườɪ ᴋʜáᴄ.
+  ResizeStart:
+    Text: §fđᴀɴɢ ᴛʜᴀʏ đổɪ ᴋíᴄʜ ᴛʜướᴄ. ᴅùɴɢ xẻɴɢ ᴄʟɪᴄᴋ ᴠàᴏ ᴠị ᴛʀí ᴍớɪ ᴄʜᴏ ɢóᴄ ɴàʏ.
+  ResizeFailOverlapSubdivision:
+    Text: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛʜể ᴄʜɪᴀ ɴʜỏ ᴠì đè ʟêɴ ᴠùɴɢ ᴋʜáᴄ. ᴅùɴɢ §x§F§F§D§7§0§0/abandonclaim
+      §x§E§D§4§2§4§5để xóᴀ, ʜᴏặᴄ ᴅùɴɢ xẻɴɢ để đổɪ ᴋíᴄʜ ᴛʜướᴄ.
+  SubdivisionStart:
+    Text: §x§5§7§F§2§8§7đã ᴄʜọɴ ɢóᴄ! ᴅùɴɢ xẻɴɢ ᴄʟɪᴄᴋ ᴠàᴏ ɢóᴄ đốɪ ᴅɪệɴ để ʜᴏàɴ ᴛấᴛ.
+  CreateSubdivisionOverlap:
+    Text: §x§E§D§4§2§4§5ᴠùɴɢ ʙạɴ ᴄʜọɴ ʙị đè ʟêɴ ᴍộᴛ ᴠùɴɢ ᴄʜɪᴀ ɴʜỏ ᴋʜáᴄ.
+  SubdivisionSuccess:
+    Text: §x§5§7§F§2§8§7đã ᴛạᴏ ᴠùɴɢ ᴄʜɪᴀ ɴʜỏ! ᴅùɴɢ §x§F§F§D§7§0§0/trust §x§5§7§F§2§8§7để
+      ᴄʜɪᴀ ѕẻ ᴠớɪ ʙạɴ ʙè.
+  CreateClaimFailOverlap:
+    Text: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛʜể ʙảᴏ ᴠệ ᴠì đè ʟêɴ ᴋʜᴜ ᴠựᴄ ᴋʜáᴄ. ᴅùɴɢ §x§F§F§D§7§0§0/abandonclaim
+      §x§E§D§4§2§4§5để xóᴀ, ʜᴏặᴄ ᴅùɴɢ xẻɴɢ để đổɪ ᴋíᴄʜ ᴛʜướᴄ.
+  CreateClaimFailOverlapOtherPlayer:
+    Text: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛʜể ʙảᴏ ᴠệ ở đâʏ ᴠì ɴó đè ʟêɴ ᴋʜᴜ ᴠựᴄ ᴄủᴀ §x§F§F§D§7§0§0{0}§x§E§D§4§2§4§5.
+    Notes: '0: chủ khu vực khác'
+  ClaimsDisabledWorld:
+    Text: §x§E§D§4§2§4§5ʙảᴏ ᴠệ đấᴛ đã ʙị ᴛắᴛ ở ᴛʜế ɢɪớɪ ɴàʏ.
+  ClaimStart:
+    Text: §x§5§7§F§2§8§7đã ᴄʜọɴ 1 ɢóᴄ! ᴅùɴɢ xẻɴɢ ᴄʟɪᴄᴋ ᴠàᴏ ɢóᴄ đốɪ ᴅɪệɴ để ʙảᴏ ᴠệ.
+      ᴄấᴛ xẻɴɢ để ʜủʏ.
+  NewClaimTooNarrow:
+    Text: §x§E§D§4§2§4§5ᴋʜᴜ ᴠựᴄ ǫᴜá ɴʜỏ. ᴘʜảɪ ʀộɴɢ íᴛ ɴʜấᴛ §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴋʜốɪ.
+    Notes: '0: chiều rộng tối thiểu'
+  CreateClaimInsufficientBlocks:
+    Text: §x§E§D§4§2§4§5ᴋʜôɴɢ đủ ᴋʜốɪ để ʙảᴏ ᴠệ. ʙạɴ ᴄầɴ ᴛʜêᴍ §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴋʜốɪ
+      ɴữᴀ.
+    Notes: '0: khối bổ sung cần thiết'
+  AbandonClaimAdvertisement:
+    Text: §fđể xóᴀ ᴋʜᴜ ᴠựᴄ ᴋʜáᴄ ᴠà ɴʜậɴ ʟạɪ ᴋʜốɪ, ᴅùɴɢ §x§F§F§D§7§0§0/abandonclaim§f.
+  CreateClaimFailOverlapShort:
+    Text: §x§E§D§4§2§4§5ᴋʜᴜ ᴠựᴄ ʙạɴ ᴄʜọɴ đè ʟêɴ ᴍộᴛ ᴋʜᴜ ᴠựᴄ đã ᴄó.
+  CreateClaimSuccess:
+    Text: §x§5§7§F§2§8§7đã ᴛạᴏ ᴋʜᴜ ᴠựᴄ ʙảᴏ ᴠệ! ᴅùɴɢ §x§F§F§D§7§0§0/trust §x§5§7§F§2§8§7để
+      ᴄʜɪᴀ ѕẻ.
+  SiegeWinDoorsOpen:
+    Text: §x§5§7§F§2§8§7ᴄʜúᴄ ᴍừɴɢ! ɴúᴛ ʙấᴍ ᴠà ᴄầɴ ɢạᴛ ᴛạᴍ ᴛʜờɪ đượᴄ ᴍở ᴋóᴀ.
+  RescueAbortedMoved:
+    Text: §x§E§D§4§2§4§5ʙạɴ đã ᴅɪ ᴄʜᴜʏểɴ! ǫᴜá ᴛʀìɴʜ ɢɪảɪ ᴄứᴜ ʙị ʜủʏ.
+  SiegeDoorsLockedEjection:
+    Text: §x§E§D§4§2§4§5ʜếᴛ ᴛʜờɪ ɢɪᴀɴ ʜôɪ ᴄủᴀ! đã ʙị ᴛốɴɢ ᴄổ ᴋʜỏɪ ᴋʜᴜ ᴠựᴄ.
+  NoModifyDuringSiege:
+    Text: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛʜể ᴛʜᴀʏ đổɪ ᴋʜᴜ ᴠựᴄ ᴋʜɪ đᴀɴɢ ʙị ʙᴀᴏ ᴠâʏ.
+  OnlyOwnersModifyClaims:
+    Text: §x§E§D§4§2§4§5ᴄʜỉ §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴍớɪ ᴄó ᴛʜể ᴄʜỉɴʜ ѕửᴀ ᴋʜᴜ
+      ᴠựᴄ ɴàʏ.
+    Notes: '0: tên chủ sở hữu'
+  NoBuildUnderSiege:
+    Text: §x§E§D§4§2§4§5ᴋʜᴜ ᴠựᴄ đᴀɴɢ ʙị ʙᴀᴏ ᴠâʏ ʙởɪ §x§F§F§D§7§0§0{0}§x§E§D§4§2§4§5.
+      ᴋʜôɴɢ ᴀɪ đượᴄ xâʏ ᴅựɴɢ ʟúᴄ ɴàʏ.
+    Notes: '0: tên kẻ tấn công'
+  NoBuildPvP:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể xâʏ ᴅựɴɢ ᴋʜɪ đᴀɴɢ ᴘᴠᴘ.
+  NoBuildPermission:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴄʜưᴀ đượᴄ §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴄʜᴏ ᴘʜéᴘ xâʏ
+      ᴅựɴɢ ở đâʏ.
+    Notes: '0: tên chủ sở hữu'
+  NonSiegeMaterial:
+    Text: §x§E§D§4§2§4§5ᴠậᴛ ʟɪệᴜ đó ǫᴜá ᴄứɴɢ để ᴘʜá ᴠỡ.
+  NoOwnerBuildUnderSiege:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴄʜỉɴʜ ѕửᴀ ɢì ᴋʜɪ đᴀɴɢ ʙị ʙᴀᴏ ᴠâʏ.
+  NoAccessPermission:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴄʜưᴀ đượᴄ §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴄʜᴏ ᴘʜéᴘ ѕử
+      ᴅụɴɢ ᴠậᴛ ɴàʏ.
+    Notes: '0: tên chủ sở hữu.  quyền truy cập cho phép dùng nút bấm, cần gạt, giường'
+  NoContainersSiege:
+    Text: §x§E§D§4§2§4§5ᴋʜᴜ ᴠựᴄ đᴀɴɢ ʙị ʙᴀᴏ ᴠâʏ ʙởɪ §x§F§F§D§7§0§0{0}§x§E§D§4§2§4§5.
+      ᴋʜôɴɢ ᴀɪ đượᴄ ᴍở ʀươɴɢ ʟúᴄ ɴàʏ.
+    Notes: '0: tên kẻ tấn công'
+  NoContainersPermission:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴄʜưᴀ đượᴄ §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴄʜᴏ ᴘʜéᴘ ѕử
+      ᴅụɴɢ ᴛʜứ ɴàʏ.
+    Notes: '0: tên chủ sở hữu. container bao gồm cả bàn chế tạo'
+  OwnerNameForAdminClaims:
+    Text: ᴍộᴛ ǫᴜảɴ ᴛʀị ᴠɪêɴ
+    Notes: as in 'You don't have an administrator's permission to build here.'
+  UnknownPlayerName:
+    Text: ᴍộᴛ ɴɢườɪ ɴàᴏ đó
+    Notes: 'Name used for unknown players. UUID will be appended if available: "someone
+      (01234567-0123-0123-0123-0123456789ab)"'
+  ClaimTooSmallForEntities:
+    Text: §x§E§D§4§2§4§5ᴋʜᴜ ᴠựᴄ ɴàʏ ᴋʜôɴɢ đủ ʀộɴɢ ᴄʜᴏ ᴠɪệᴄ đó. ʜãʏ ᴍở ʀộɴɢ ᴛʜêᴍ.
+  TooManyEntitiesInClaim:
+    Text: §x§E§D§4§2§4§5ᴋʜᴜ ᴠựᴄ đᴀɴɢ ᴄó ǫᴜá ɴʜɪềᴜ ᴛʜựᴄ ᴛʜể. ʜãʏ ᴍở ʀộɴɢ ʜᴏặᴄ ᴅọɴ ᴅẹᴘ
+      ʙớᴛ.
+  YouHaveNoClaims:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴄʜưᴀ ᴄó ᴋʜᴜ ᴠựᴄ ʙảᴏ ᴠệ ɴàᴏ.
+  ConfirmFluidRemoval:
+    Text: §x§E§D§4§2§4§5xóᴀ ᴋʜᴜ ᴠựᴄ ѕẽ ʟàᴍ ᴍấᴛ ɴʜᴀᴍ ᴛʜạᴄʜ ʙêɴ ᴛʀᴏɴɢ. ɴếᴜ ᴄʜắᴄ ᴄʜắɴ,
+      ᴅùɴɢ ʟạɪ §x§F§F§D§7§0§0/abandonclaim§x§E§D§4§2§4§5.
+  AutoBanNotify:
+    Text: §x§E§D§4§2§4§5ᴛự độɴɢ ᴄấᴍ §x§F§F§D§7§0§0{0}({1})§x§E§D§4§2§4§5. xᴇᴍ ᴄʜɪ
+      ᴛɪếᴛ ᴛʀᴏɴɢ ʟᴏɢѕ.
+  AdjustGroupBlocksSuccess:
+    Text: '§x§5§7§F§2§8§7đã đɪềᴜ ᴄʜỉɴʜ ᴋʜốɪ ᴛʜưởɴɢ ᴄʜᴏ ɴɢườɪ ᴄó ǫᴜʏềɴ §x§F§F§D§7§0§0{0}
+      §x§5§7§F§2§8§7ᴛʜêᴍ §x§F§F§D§7§0§0{1}§x§5§7§F§2§8§7. ᴛổɴɢ ᴍớɪ: §x§F§F§D§7§0§0{2}§x§5§7§F§2§8§7.'
+    Notes: '0: quyền hạn; 1: số khối điều chỉnh; 2: tổng số mới'
+  InvalidPermissionID:
+    Text: §x§E§D§4§2§4§5ᴠᴜɪ ʟòɴɢ ɴʜậᴘ ᴛêɴ ɴɢườɪ ᴄʜơɪ, ʜᴏặᴄ ᴍộᴛ ǫᴜʏềɴ ᴛʀᴏɴɢ ᴅấᴜ [ɴɢᴏặᴄ
+      ᴠᴜôɴɢ].
+  HowToClaimRegex:
+    Text: (^|.*\W)how\W.*\W(claim|protect|lock|bao ve|baove)(\W.*|$)
+    Notes: This is a Java Regular Expression.  Look it up before editing!  It's used
+      to tell players about the demo video when they ask how to claim land.
+  NoBuildOutsideClaims:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể xâʏ ở đâʏ ᴛʀừ ᴋʜɪ ʙảᴏ ᴠệ ɴó ᴛʀướᴄ.
+  PlayerOfflineTime:
+    Text: ' §x§A§A§A§A§A§Ađăɴɢ ɴʜậᴘ ʟầɴ ᴄᴜốɪ: §x§F§F§D§7§0§0{0} §x§A§A§A§A§A§Aɴɢàʏ
+      ᴛʀướᴄ.'
+    Notes: '0: number of full days since last login'
+  BuildingOutsideClaims:
+    Text: §x§F§F§D§7§0§0ɴɢườɪ ᴋʜáᴄ ᴄũɴɢ ᴄó ᴛʜể xâʏ ở đâʏ. ʜãʏ ʙảᴏ ᴠệ đấᴛ để ɢɪữ ᴄôɴɢ
+      ᴛʀìɴʜ ᴄủᴀ ʙạɴ!
+  TrappedWontWorkHere:
+    Text: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛìᴍ đượᴄ ᴄʜỗ ᴀɴ ᴛᴏàɴ để đưa ʙạɴ đếɴ. ʜãʏ ʟɪêɴ ʜệ ᴀᴅᴍɪɴ.
+  CommandBannedInPvP:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴅùɴɢ ʟệɴʜ đó ᴋʜɪ đᴀɴɢ ᴘᴠᴘ.
+  UnclaimCleanupWarning:
+    Text: §x§E§D§4§2§4§5ᴋʜᴜ ᴠựᴄ ᴠừᴀ ʜủʏ ᴄó ᴛʜể ʙị ɴɢườɪ ᴋʜáᴄ ᴛʜᴀʏ đổɪ. ʜãʏ ʙảᴏ ᴠệ
+      ʟạɪ ɴếᴜ ᴍᴜốɴ ɢɪữ ᴄôɴɢ ᴛʀìɴʜ.
+  BuySellNotConfigured:
+    Text: §x§E§D§4§2§4§5ᴛíɴʜ ɴăɴɢ ᴍᴜᴀ/ʙáɴ ᴋʜốɪ ʙảᴏ ᴠệ đã ʙị ᴛắᴛ.
+  NoTeleportPvPCombat:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴅịᴄʜ ᴄʜᴜʏểɴ ᴋʜɪ đᴀɴɢ ᴄʜɪếɴ đấᴜ.
+  NoTNTDamageAboveSeaLevel:
+    Text: '§x§F§F§D§7§0§0ʟưᴜ ý: ᴛɴᴛ ѕẽ ᴋʜôɴɢ ᴘʜá ʜủʏ đượᴄ ᴄáᴄ ᴋʜốɪ ᴛʀêɴ ᴍựᴄ ɴướᴄ ʙɪểɴ.'
+  NoTNTDamageClaims:
+    Text: '§x§F§F§D§7§0§0ʟưᴜ ý: ᴛɴᴛ ѕẽ ᴋʜôɴɢ ᴘʜá ʜủʏ đượᴄ ᴄáᴄ ᴋʜốɪ đã đượᴄ ʙảᴏ ᴠệ.'
+  IgnoreClaimsAdvertisement:
+    Text: §fđể ᴘʜớᴛ ʟờ ᴄáᴄ ᴋʜᴜ ᴠựᴄ ʙảᴏ ᴠệ, ᴅùɴɢ §x§F§F§D§7§0§0/ignoreclaims§f.
+  NoPermissionForCommand:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ʟàᴍ đɪềᴜ đó.
+  ClaimsListNoPermission:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ xᴇᴍ ᴛʜôɴɢ ᴛɪɴ ᴋʜᴜ ᴠựᴄ ᴄủᴀ ɴɢườɪ ᴋʜáᴄ.
+  ExplosivesDisabled:
+    Text: §x§5§7§F§2§8§7ᴋʜᴜ ᴠựᴄ ɴàʏ đã ᴀɴ ᴛᴏàɴ ᴛʀướᴄ ᴄáᴄ ᴠụ ɴổ. ᴅùɴɢ ʟạɪ §x§F§F§D§7§0§0/claimexplosions
+      §x§5§7§F§2§8§7để ᴛắᴛ.
+  ExplosivesEnabled:
+    Text: §x§E§D§4§2§4§5ᴋʜᴜ ᴠựᴄ ɴàʏ ɢɪờ ᴄó ᴛʜể ʙị ɴổ. ᴅùɴɢ ʟạɪ §x§F§F§D§7§0§0/claimexplosions
+      §x§E§D§4§2§4§5để ʙậᴛ ʙảᴏ ᴠệ.
+  ClaimExplosivesAdvertisement:
+    Text: §fđể ᴄʜᴏ ᴘʜéᴘ ɴổ ᴛʀᴏɴɢ ᴋʜᴜ ᴠựᴄ ɴàʏ, ʜãʏ ᴅùɴɢ §x§F§F§D§7§0§0/claimexplosions§f.
+  PlayerInPvPSafeZone:
+    Text: §x§E§D§4§2§4§5ɴɢườɪ ᴄʜơɪ đó đᴀɴɢ ở ᴛʀᴏɴɢ ᴠùɴɢ ᴀɴ ᴛᴏàɴ ᴘᴠᴘ.
+  NoPistonsOutsideClaims:
+    Text: '§x§F§F§D§7§0§0ʟưᴜ ý: ᴘɪѕᴛᴏɴ ᴋʜôɴɢ ᴛʜể đẩʏ ᴋʜốɪ ʀᴀ ɴɢᴏàɪ ᴋʜᴜ ᴠựᴄ ʙảᴏ ᴠệ.'
+  SoftMuted:
+    Text: §x§5§7§F§2§8§7ᴄấᴍ ᴄʜᴀᴛ ẩɴ ᴠớɪ §x§F§F§D§7§0§0{0}§x§5§7§F§2§8§7.
+    Notes: '0: The changed player''s name.'
+  UnSoftMuted:
+    Text: §x§5§7§F§2§8§7ʙỏ ᴄấᴍ ᴄʜᴀᴛ ẩɴ ᴄʜᴏ §x§F§F§D§7§0§0{0}§x§5§7§F§2§8§7.
+    Notes: '0: The changed player''s name.'
+  DropUnlockAdvertisement:
+    Text: §x§F§F§D§7§0§0ɴɢườɪ ᴋʜáᴄ ᴋʜôɴɢ ᴛʜể ɴʜặᴛ đồ ᴄủᴀ ʙạɴ ᴛʀừ ᴋʜɪ ᴅùɴɢ §f/unlockdrops§x§F§F§D§7§0§0.
+  PickupBlockedExplanation:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ɴʜặᴛ ᴍóɴ ɴàʏ ᴛʀừ ᴋʜɪ §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴅùɴɢ
+      ʟệɴʜ §x§F§F§D§7§0§0/unlockdrops§x§E§D§4§2§4§5.
+    Notes: '0: The item stack''s owner.'
+  DropUnlockConfirmation:
+    Text: §x§5§7§F§2§8§7đã ᴍở ᴋóᴀ đồ ʀớᴛ ᴄủᴀ ʙạɴ. ᴍọɪ ɴɢườɪ ᴄó ᴛʜể ɴʜặᴛ ᴄʜúɴɢ.
+  DropUnlockOthersConfirmation:
+    Text: §x§5§7§F§2§8§7đã ᴍở ᴋóᴀ đồ ʀớᴛ ᴄủᴀ §x§F§F§D§7§0§0{0}§x§5§7§F§2§8§7.
+    Notes: '0: The owner of the unlocked drops.'
+  AdvertiseACandACB:
+    Text: §fʙạɴ ᴄó ᴛʜể ᴅùɴɢ §x§F§F§D§7§0§0/acb §fđể ɴʜậɴ ᴛʜêᴍ ᴋʜốɪ, ʜᴏặᴄ §x§F§F§D§7§0§0/adminclaims
+      §fđể ᴛạᴏ ᴋʜᴜ ᴠựᴄ ᴀᴅᴍɪɴ.
+  AdvertiseAdminClaims:
+    Text: §fʙạɴ ᴄó ᴛʜể ᴛạᴏ ᴋʜᴜ ᴠựᴄ ᴀᴅᴍɪɴ ʙằɴɢ §x§F§F§D§7§0§0/adminclaims§f, ᴠà ᴄʜɪᴀ
+      ѕẻ ǫᴜʏềɴ ᴄʜᴏ ᴀᴅᴍɪɴ ᴋʜáᴄ.
+  AdvertiseACB:
+    Text: §fʙạɴ ᴄó ᴛʜể ᴅùɴɢ §x§F§F§D§7§0§0/acb §fđể ɴʜậɴ ᴛʜêᴍ ᴋʜốɪ ʙảᴏ ᴠệ.
+  NotYourPet:
+    Text: §x§E§D§4§2§4§5ᴄᴏɴ ᴠậᴛ ɴàʏ ʟà ᴄủᴀ §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴛʀừ ᴋʜɪ
+      ʜọ ᴅùɴɢ §x§F§F§D§7§0§0/givepet §x§E§D§4§2§4§5ᴄʜᴏ ʙạɴ.
+    Notes: '0: owner name'
+  PetGiveawayConfirmation:
+    Text: §x§5§7§F§2§8§7đã ᴛʀᴀᴏ ᴛặɴɢ ᴛʜú ᴄưɴɢ.
+  PetTransferCancellation:
+    Text: §x§E§D§4§2§4§5đã ʜủʏ ᴛặɴɢ ᴛʜú ᴄưɴɢ.
+  ReadyToTransferPet:
+    Text: §fѕẵɴ ѕàɴɢ ᴛặɴɢ! ᴄʟɪᴄᴋ ᴘʜảɪ ᴠàᴏ ᴄᴏɴ ᴠậᴛ ᴍᴜốɴ ᴛặɴɢ, ʜᴏặᴄ ᴅùɴɢ §x§F§F§D§7§0§0/givepet
+      cancel §fđể ʜủʏ.
+  AvoidGriefClaimLand:
+    Text: §x§5§7§F§2§8§7ᴄʜốɴɢ đậᴘ ᴘʜá! ʙảᴏ ᴠệ đấᴛ để ɴɢườɪ ᴋʜáᴄ ᴋʜôɴɢ ᴛʜể ᴘʜá ʜᴏạɪ.
+  BecomeMayor:
+    Text: §x§F§F§D§7§0§0ᴄʜɪᴀ ɴʜỏ ᴋʜᴜ đấᴛ ᴄủᴀ ʙạɴ ᴠà ᴛʀở ᴛʜàɴʜ ᴛʜị ᴛʀưởɴɢ!
+  ClaimCreationFailedOverClaimCountLimit:
+    Text: §x§E§D§4§2§4§5đã đạᴛ ɢɪớɪ ʜạɴ ᴋʜᴜ ᴠựᴄ. ᴅùɴɢ §x§F§F§D§7§0§0/abandonclaim
+      §x§E§D§4§2§4§5để xóᴀ ʙớᴛ.
+  CreateClaimFailOverlapRegion:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ʙảᴏ ᴠệ ɴơɪ ɴàʏ ᴠì ᴋʜôɴɢ đượᴄ ᴘʜéᴘ xâʏ ᴅựɴɢ ở
+      đâʏ.
+  ResizeFailOverlapRegion:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ đượᴄ ᴘʜéᴘ xâʏ ᴅựɴɢ ở đó, ɴêɴ ᴋʜôɴɢ ᴛʜể ʙảᴏ ᴠệ.
+  ShowNearbyClaims:
+    Text: §fᴛìᴍ ᴛʜấʏ §x§F§F§D§7§0§0{0} §fᴋʜᴜ đấᴛ đã đượᴄ ʙảᴏ ᴠệ.
+    Notes: '0: Number of claims found.'
+  NoChatUntilMove:
+    Text: §x§E§D§4§2§4§5ᴠᴜɪ ʟòɴɢ ᴅɪ ᴄʜᴜʏểɴ ᴍộᴛ ᴄʜúᴛ để ᴄʜᴀᴛ. ᴄʜốɴɢ ʙᴏᴛ ѕᴘᴀᴍ :D
+  SiegeImmune:
+    Text: §x§E§D§4§2§4§5ɴɢườɪ ᴄʜơɪ đó đượᴄ ᴍɪễɴ ɴʜɪễᴍ ᴠớɪ ʙᴀᴏ ᴠâʏ.
+  SetClaimBlocksSuccess:
+    Text: §x§5§7§F§2§8§7đã ᴄậᴘ ɴʜậᴛ ᴛổɴɢ ѕố ᴋʜốɪ ʙảᴏ ᴠệ ᴛíᴄʜ ʟũʏ.
+  IgnoreConfirmation:
+    Text: §x§E§D§4§2§4§5ʙạɴ đᴀɴɢ ᴄʜặɴ ᴄʜᴀᴛ ᴛừ ɴɢườɪ ᴄʜơɪ ɴàʏ.
+  NotIgnoringPlayer:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴄʜặɴ ɴɢườɪ ᴄʜơɪ ɴàʏ.
+  UnIgnoreConfirmation:
+    Text: §x§5§7§F§2§8§7ʙạɴ đã ʙỏ ᴄʜặɴ ᴄʜᴀᴛ ᴛừ ɴɢườɪ ᴄʜơɪ ɴàʏ.
+  SeparateConfirmation:
+    Text: §fɴʜữɴɢ ɴɢườɪ ᴄʜơɪ đó ѕẽ ᴋʜôɴɢ ᴛʜấʏ ᴛɪɴ ɴʜắɴ ᴄủᴀ ɴʜᴀᴜ ɴữᴀ.
+  UnSeparateConfirmation:
+    Text: §x§5§7§F§2§8§7ɴʜữɴɢ ɴɢườɪ ᴄʜơɪ đó ѕẽ ᴛʜấʏ ᴛɪɴ ɴʜắɴ ᴄủᴀ ɴʜᴀᴜ.
+  NotIgnoringAnyone:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴄʜặɴ ʙấᴛ ᴋỳ ᴀɪ ᴄả.
+  TrustListHeader:
+    Text: '§x§F§F§D§7§0§0ᴅᴀɴʜ ѕáᴄʜ ᴄáᴄ ǫᴜʏềɴ ᴛʀᴏɴɢ ᴋʜᴜ ᴠựᴄ ɴàʏ:'
+    Notes: '0: The claim''s owner'
+  Manage:
+    Text: §x§E§D§4§2§4§5ǫᴜảɴ ʟý (ᴍứᴄ ᴛốɪ ᴄᴀᴏ)
+  Build:
+    Text: §x§5§7§F§2§8§7xâʏ ᴅựɴɢ (ᴍứᴄ ᴛốɪ ᴛʜɪểᴜ)
+  Containers:
+    Text: §x§F§F§D§7§0§0ᴛʜùɴɢ ᴄʜứᴀ (ᴍứᴄ ᴛʀᴜɴɢ ʙìɴʜ)
+  Access:
+    Text: §fѕử ᴅụɴɢ (ᴍứᴄ ᴛʜấᴘ ɴʜấᴛ)
+  HasSubclaimRestriction:
+    Text: §x§E§D§4§2§4§5ᴠùɴɢ ᴄʜɪᴀ ɴʜỏ ɴàʏ ᴋʜôɴɢ ᴛʜừᴀ ᴋế ǫᴜʏềɴ ᴛừ ᴋʜᴜ ᴠựᴄ ʟớɴ
+  StartBlockMath:
+    Text: §f§x§F§F§D§7§0§0{0} §fᴋʜốɪ ᴄó ѕẵɴ + §x§F§F§D§7§0§0{1} §fᴋʜốɪ ᴛʜưởɴɢ = §x§F§F§D§7§0§0{2}
+      §fᴋʜốɪ ᴛổɴɢ ᴄộɴɢ.
+  ClaimsListHeader:
+    Text: '§x§F§F§D§7§0§0ᴅᴀɴʜ ѕáᴄʜ ᴄáᴄ ᴋʜᴜ ᴠựᴄ ʙảᴏ ᴠệ ᴄủᴀ ʙạɴ:'
+  ContinueBlockMath:
+    Text: ' §x§A§A§A§A§A§A(-§x§F§F§D§7§0§0{0} §x§A§A§A§A§A§Aᴋʜốɪ)'
+  EndBlockMath:
+    Text: ' §f= ʙạɴ ᴄòɴ ʟạɪ §x§F§F§D§7§0§0{0} §fᴋʜốɪ để ѕử ᴅụɴɢ'
+  NoClaimDuringPvP:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ʙảᴏ ᴠệ đấᴛ ᴋʜɪ đᴀɴɢ ᴘᴠᴘ.
+  UntrustAllOwnerOnly:
+    Text: §x§E§D§4§2§4§5ᴄʜỉ ᴄʜủ ѕở ʜữᴜ ᴍớɪ ᴄó ᴛʜể xóᴀ ᴍọɪ ǫᴜʏềɴ.
+  ManagersDontUntrustManagers:
+    Text: §x§E§D§4§2§4§5ᴄʜỉ ᴄʜủ ѕở ʜữᴜ ᴍớɪ ᴄó ǫᴜʏềɴ ʜạ ʙậᴄ ǫᴜảɴ ʟý.
+  BookAuthor:
+    Text: ᴡɪʙᴜʟᴀɴᴅ
+  BookTitle:
+    Text: ʜướɴɢ ᴅẫɴ ʙảᴏ ᴠệ đấᴛ
+  BookIntro:
+    Text: §fʙảᴏ ᴠệ đấᴛ để ɢɪữ ᴀɴ ᴛᴏàɴ! ɴʜấɴ ᴠàᴏ ʟɪêɴ ᴋếᴛ để ʜọᴄ ᴄáᴄʜ ʙảᴏ ᴠệ ᴛʀᴏɴɢ
+      3 ᴘʜúᴛ.
+  BookDisabledChestClaims:
+    Text: §x§E§D§4§2§4§5ở ᴍáʏ ᴄʜủ ɴàʏ, đặᴛ ʀươɴɢ ѕẽ ᴋʜôɴɢ ᴛ tự độɴɢ ʙảᴏ ᴠệ đấᴛ!
+  BookUsefulCommands:
+    Text: '§x§F§F§D§7§0§0ᴍộᴛ ѕố ʟệɴʜ ʜữᴜ íᴄʜ:'
+  BookLink:
+    Text: '§fᴄʟɪᴄᴋ ᴠàᴏ đâʏ: §x§F§F§D§7§0§0{0}'
+    Notes: '{0}: video URL'
+  BookTools:
+    Text: §fᴅụɴɢ ᴄụ ʟàᴍ đấᴛ ʟà §x§F§F§D§7§0§0{0} §fᴠà §x§F§F§D§7§0§0{1}§f.
+    Notes: '0: claim modification tool name; 1:claim information tool name'
+  ResizeClaimTooNarrow:
+    Text: §x§E§D§4§2§4§5ᴋíᴄʜ ᴛʜướᴄ ǫᴜá ʜẹᴘ. ᴘʜảɪ ʀộɴɢ ᴛốɪ ᴛʜɪểᴜ §x§F§F§D§7§0§0{0}
+      §x§E§D§4§2§4§5ᴋʜốɪ.
+    Notes: '0: minimum claim width'
+  ResizeClaimInsufficientArea:
+    Text: §x§E§D§4§2§4§5ᴋʜᴜ ᴠựᴄ ǫᴜá ʜẹᴘ. ᴘʜảɪ ѕử ᴅụɴɢ ᴛổɴɢ ᴄộɴɢ íᴛ ɴʜấᴛ §x§F§F§D§7§0§0{0}
+      §x§E§D§4§2§4§5ᴋʜốɪ.
+    Notes: '0: minimum claim area'
+  NoProfanity:
+    Text: §x§E§D§4§2§4§5ᴠᴜɪ ʟòɴɢ ăɴ ɴóɪ ʟịᴄʜ ѕự.
+  PlayerNotIgnorable:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴄʜặɴ ᴛɪɴ ɴʜắɴ ᴄủᴀ ɴɢườɪ ᴄʜơɪ ɴàʏ.
+  NoEnoughBlocksForChestClaim:
+    Text: §x§E§D§4§2§4§5ʙạɴ ʜếᴛ ᴋʜốɪ ʙảᴏ ᴠệ ɴêɴ ʀươɴɢ ᴋʜôɴɢ đượᴄ ʙảᴏ ᴠệ. ᴅùɴɢ §x§F§F§D§7§0§0/claimslist
+      §x§E§D§4§2§4§5để ᴋɪểᴍ ᴛʀᴀ.
+  IsIgnoringYou:
+    Text: §x§E§D§4§2§4§5ɴɢườɪ ᴄʜơɪ đó đᴀɴɢ ᴘʜớᴛ ʟờ ʙạɴ.
+  MustHoldModificationToolForThat:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴘʜảɪ ᴄầᴍ xẻɴɢ ᴠàɴɢ ᴛʀêɴ ᴛᴀʏ để ʟàᴍ đɪềᴜ ɴàʏ.
+  StandInClaimToResize:
+    Text: §x§E§D§4§2§4§5ʜãʏ đứɴɢ ᴠàᴏ ʙêɴ ᴛʀᴏɴɢ ᴋʜᴜ đấᴛ ʙạɴ ᴍᴜốɴ đổɪ ᴋíᴄʜ ᴛʜướᴄ.
+  ClaimsExtendToSky:
+    Text: §x§5§7§F§2§8§7ᴋʜᴜ ᴠựᴄ ʙảᴏ ᴠệ ʟᴜôɴ ᴛ tự độɴɢ ᴛʀảɪ ᴅàɪ ʟêɴ độ ᴄᴀᴏ ᴛốɪ đᴀ.
+  ClaimsAutoExtendDownward:
+    Text: §x§5§7§F§2§8§7ᴋʜᴜ ᴠựᴄ ʙảᴏ ᴠệ ѕẽ ᴛự độɴɢ ᴛʀảɪ ᴅàɪ xᴜốɴɢ ʟòɴɢ đấᴛ ᴋʜɪ ʙạɴ
+      đặᴛ ᴋʜốɪ ʙêɴ ᴅướɪ.
+  MinimumRadius:
+    Text: §x§E§D§4§2§4§5ʙáɴ ᴋíɴʜ ᴛốɪ ᴛʜɪểᴜ ʟà §x§F§F§D§7§0§0{0}§x§E§D§4§2§4§5.
+    Notes: '0: minimum radius'
+  RadiusRequiresGoldenShovel:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴘʜảɪ ᴄầᴍ xẻɴɢ ᴠàɴɢ ᴋʜɪ ᴄʜỉ địɴʜ ʙáɴ ᴋíɴʜ.
+  ClaimTooSmallForActiveBlocks:
+    Text: §x§E§D§4§2§4§5ᴋʜᴜ ᴠựᴄ ᴋʜôɴɢ đủ ʀộɴɢ ᴄʜᴏ ᴄáᴄ ᴋʜốɪ ᴄʜủ độɴɢ (ᴘʜễᴜ, ѕᴘᴀᴡɴᴇʀ).
+      ʜãʏ ᴍở ʀộɴɢ ᴛʜêᴍ.
+  TooManyActiveBlocksInClaim:
+    Text: §x§E§D§4§2§4§5ᴋʜᴜ ᴠựᴄ đã đạᴛ ɢɪớɪ ʜạɴ ᴋʜốɪ ᴄʜủ độɴɢ. ʜãʏ ᴍở ʀộɴɢ ʜᴏặᴄ đậᴘ
+      ʙớᴛ ᴄáᴄ ᴋʜốɪ ᴋʜáᴄ.
+  ConsoleOnlyCommand:
+    Text: §x§E§D§4§2§4§5ʟệɴʜ ɴàʏ ᴄʜỉ ᴄó ᴛʜể ᴅùɴɢ ᴛʀᴏɴɢ ᴄᴏɴѕᴏʟᴇ!
+  WorldNotFound:
+    Text: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴛʜế ɢɪớɪ đó.
+  AdjustBlocksAllSuccess:
+    Text: §x§5§7§F§2§8§7đã đɪềᴜ ᴄʜỉɴʜ §x§F§F§D§7§0§0{0} §x§5§7§F§2§8§7ᴋʜốɪ ᴛʜưởɴɢ
+      ᴄʜᴏ ᴍọɪ ɴɢườɪ ᴄʜơɪ ᴏɴʟɪɴᴇ.
+    Notes: '0: adjustment amount'
+  TooMuchIpOverlap:
+    Text: §x§E§D§4§2§4§5ᴄó ǫᴜá ɴʜɪềᴜ ɴɢườɪ ᴄʜơɪ đăɴɢ ɴʜậᴘ ʙằɴɢ ɪᴘ ᴄủᴀ ʙạɴ.
+  StandInSubclaim:
+    Text: §x§E§D§4§2§4§5ʙạɴ ᴄầɴ đứɴɢ ᴛʀᴏɴɢ ᴠùɴɢ ᴄʜɪᴀ ɴʜỏ để ʜạɴ ᴄʜế ǫᴜʏềɴ.
+  SubclaimRestricted:
+    Text: §x§5§7§F§2§8§7ǫᴜʏềɴ ᴄủᴀ ᴠùɴɢ ᴄʜɪᴀ ɴʜỏ ɴàʏ ѕẽ ᴋʜôɴɢ ᴋế ᴛʜừᴀ ᴛừ ᴋʜᴜ ᴠựᴄ ᴄʜíɴʜ
+      ɴữᴀ.
+  SubclaimUnrestricted:
+    Text: §x§5§7§F§2§8§7ǫᴜʏềɴ ᴄủᴀ ᴠùɴɢ ᴄʜɪᴀ ɴʜỏ ɴàʏ ѕẽ đượᴄ ᴋế ᴛʜừᴀ ᴛừ ᴋʜᴜ ᴠựᴄ ᴄʜíɴʜ.
+  NetherPortalTrapDetectionMessage:
+    Text: §fᴄó ᴠẻ ʙạɴ đᴀɴɢ ʙị ᴋẹᴛ ᴛʀᴏɴɢ ᴄổɴɢ ɴᴇᴛʜᴇʀ. ʜệ ᴛʜốɴɢ ѕẽ ɢɪảɪ ᴄứᴜ ʙạɴ ᴛʀᴏɴɢ
+      ᴠàɪ ɢɪâʏ!
+    Notes: Sent to player on join, if they left while inside a nether portal.

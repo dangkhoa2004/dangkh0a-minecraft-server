@@ -1,0 +1,9 @@
+data:
+  session: 111
+  dice1: 5
+  dice2: 1
+  dice3: 3
+  result: XIU
+  currency: VAULT
+  xiuPlayers:
+    hazumi: 100000

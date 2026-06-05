@@ -1,0 +1,226 @@
+inventory:
+  size: 45
+  name: '{#BDB2FF}&l❁ ʜệ ᴛʜốɴɢ ᴘʜù ᴘʜéᴘ ❁'
+  settings:
+    # Cấp độ sách mà Enchanter cung cấp?
+    # "ALL" - cung cấp tất cả cấp độ
+    # <number> - Cung cấp cấp độ cụ thể của phù phép
+    enchanterBookLevel: ALL
+  items:
+    0-12:
+      item:
+        type: STAINED_GLASS_PANE
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+      name: ' '
+      lore: []
+    16-22:
+      item:
+        type: STAINED_GLASS_PANE
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+      name: ' '
+      lore: []
+    23-38:
+      item:
+        type: STAINED_GLASS_PANE
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+      name: ' '
+      lore: []
+    39-42:
+      item:
+        type: STAINED_GLASS_PANE
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+      name: ' '
+      lore: []
+    43-45:
+      item:
+        type: STAINED_GLASS_PANE
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+      name: ' '
+      lore: []
+
+    # --- CÁC LOẠI SÁCH ---
+    '11':
+      item:
+        type: WHITE_DYE
+        id: 0
+        custom-model-data: 0
+        force-glow: true
+      enchant-group: THUONG
+      price: money:4000
+      sound: BLOCK_ANVIL_LAND
+      name: '{#E0E0E0}&lᴘʜù ᴘʜéᴘ ᴛʜườɴɢ'
+      lore:
+      - ''
+      - ' {#fcfcfc}❖ {#E0E0E0}ɴʜấɴ để ɴʜậɴ ɴɢẫᴜ ɴʜɪêɴ ᴍộᴛ'
+      - ' {#E0E0E0}ᴄᴜốɴ sáᴄʜ ᴘʜù ᴘʜéᴘ ᴛʜườɴɢ.'
+      - ''
+      - ' {#fcfcfc}❖ {#E0E0E0}ɢɪá: {#57F287}%price% ⛃'
+      - ' {#ED4245}[ᴄầɴ ᴛʜêᴍ %left% ⛃]'
+      - ''
+      - '{#57F287}▶ ᴄʜᴜộᴛ ᴘʜảɪ để ᴍᴜᴀ'
+    '12':
+      item:
+        type: LIME_DYE
+        id: 5
+        custom-model-data: 0
+        force-glow: true
+      enchant-group: HIEM
+      sound: BLOCK_ANVIL_LAND
+      price: money:8000
+      name: '{#57F287}&lᴘʜù ᴘʜéᴘ ʜɪếᴍ'
+      lore:
+      - ''
+      - ' {#fcfcfc}❖ {#E0E0E0}ɴʜấɴ để ɴʜậɴ ɴɢẫᴜ ɴʜɪêɴ ᴍộᴛ'
+      - ' {#E0E0E0}ᴄᴜốɴ sáᴄʜ ᴘʜù ᴘʜéᴘ ʜɪếᴍ.'
+      - ''
+      - ' {#fcfcfc}❖ {#E0E0E0}ɢɪá: {#57F287}%price% ⛃'
+      - ' {#ED4245}[ᴄầɴ ᴛʜêᴍ %left% ⛃]'
+      - ''
+      - '{#57F287}▶ ᴄʜᴜộᴛ ᴘʜảɪ để ᴍᴜᴀ'
+    '13':
+      item:
+        type: BLUE_DYE
+        id: 3
+        custom-model-data: 0
+        force-glow: true
+      enchant-group: SIEUHIEM
+      price: money:25000
+      sound: BLOCK_ANVIL_LAND
+      name: '{#AEC6CF}&lᴘʜù ᴘʜéᴘ ѕɪêᴜ ʜɪếᴍ'
+      lore:
+      - ''
+      - ' {#fcfcfc}❖ {#E0E0E0}ɴʜấɴ để ɴʜậɴ ɴɢẫᴜ ɴʜɪêɴ ᴍộᴛ'
+      - ' {#E0E0E0}ᴄᴜốɴ sáᴄʜ ᴘʜù ᴘʜéᴘ sɪêᴜ ʜɪếᴍ.'
+      - ''
+      - ' {#fcfcfc}❖ {#E0E0E0}ɢɪá: {#57F287}%price% ⛃'
+      - ' {#ED4245}[ᴄầɴ ᴛʜêᴍ %left% ⛃]'
+      - ''
+      - '{#57F287}▶ ᴄʜᴜộᴛ ᴘʜảɪ để ᴍᴜᴀ'
+    '14':
+      item:
+        type: YELLOW_DYE
+        id: 4
+        custom-model-data: 0
+        force-glow: true
+      enchant-group: SUTHI
+      price: money:50000
+      sound: BLOCK_ANVIL_LAND
+      name: '{#FCD05C}&lᴘʜù ᴘʜéᴘ ѕử ᴛʜɪ'
+      lore:
+      - ''
+      - ' {#fcfcfc}❖ {#E0E0E0}ɴʜấɴ để ɴʜậɴ ɴɢẫᴜ ɴʜɪêɴ ᴍộᴛ'
+      - ' {#E0E0E0}ᴄᴜốɴ sáᴄʜ ᴘʜù ᴘʜéᴘ sử ᴛʜɪ.'
+      - ''
+      - ' {#fcfcfc}❖ {#E0E0E0}ɢɪá: {#57F287}%price% ⛃'
+      - ' {#ED4245}[ᴄầɴ ᴛʜêᴍ %left% ⛃]'
+      - ''
+      - '{#57F287}▶ ᴄʜᴜộᴛ ᴘʜảɪ để ᴍᴜᴀ'
+    '15':
+      item:
+        type: ORANGE_DYE
+        id: 1
+        custom-model-data: 0
+        force-glow: true
+      enchant-group: HUYENTHOAI
+      price: money:250000
+      sound: BLOCK_ANVIL_LAND
+      name: '{#FFB7B2}&lᴘʜù ᴘʜéᴘ ʜᴜʏềɴ ᴛʜᴏạɪ'
+      lore:
+      - ''
+      - ' {#fcfcfc}❖ {#E0E0E0}ɴʜấɴ để ɴʜậɴ ɴɢẫᴜ ɴʜɪêɴ ᴍộᴛ'
+      - ' {#E0E0E0}ᴄᴜốɴ sáᴄʜ ᴘʜù ᴘʜéᴘ ʜᴜʏềɴ ᴛʜᴏạɪ.'
+      - ''
+      - ' {#fcfcfc}❖ {#E0E0E0}ɢɪá: {#57F287}%price% ⛃'
+      - ' {#ED4245}[ᴄầɴ ᴛʜêᴍ %left% ⛃]'
+      - ''
+      - '{#57F287}▶ ᴄʜᴜộᴛ ᴘʜảɪ để ᴍᴜᴀ'
+    '22':
+      item:
+        type: PINK_DYE
+        id: 6
+        custom-model-data: 0
+        force-glow: true
+      enchant-group: THANTHOAI
+      price: money:400000
+      sound: BLOCK_ANVIL_LAND
+      name: '{#BDB2FF}&lᴘʜù ᴘʜéᴘ ᴛʜầɴ ᴛʜᴏạɪ'
+      lore:
+      - ''
+      - ' {#fcfcfc}❖ {#E0E0E0}ɴʜấɴ để ɴʜậɴ ɴɢẫᴜ ɴʜɪêɴ ᴍộᴛ'
+      - ' {#E0E0E0}ᴄᴜốɴ sáᴄʜ ᴘʜù ᴘʜéᴘ ᴛʜầɴ ᴛʜᴏạɪ.'
+      - ''
+      - ' {#fcfcfc}❖ {#E0E0E0}ɢɪá: {#57F287}%price% ⛃'
+      - ' {#ED4245}[ᴄầɴ ᴛʜêᴍ %left% ⛃]'
+      - ''
+      - '{#57F287}▶ ᴄʜᴜộᴛ ᴘʜảɪ để ᴍᴜᴀ'
+
+    # --- CÁC TIỆN ÍCH BỔ SUNG ---
+    '38':
+      item:
+        type: ANVIL
+        id: 0
+        custom-model-data: 0
+        force-glow: true
+      sound: BLOCK_ANVIL_USE
+      player-command:
+      - tinkerer
+      name: '{#AEC6CF}&lTINKERER'
+      lore:
+      - ''
+      - ' {#fcfcfc}❖ {#E0E0E0}ᴘʜá ʜủʏ sáᴄʜ để ɴʜậɴ'
+      - ' {#E0E0E0}ʙụɪ ᴍᴀ ᴛʜᴜậᴛ ᴠà EXP.'
+      - ''
+      - '{#57F287}▶ ᴄʜᴜộᴛ ᴘʜảɪ để ᴛʀᴜʏ ᴄậᴘ'
+    '42':
+      item:
+        type: ENDER_PORTAL_FRAME
+        id: 0
+        custom-model-data: 0
+        force-glow: true
+      sound: ENTITY_ARROW_HIT
+      player-command:
+      - alchemist
+      name: '{#AEC6CF}&lALCHEMIST'
+      lore:
+      - ''
+      - ' {#fcfcfc}❖ {#E0E0E0}ᴋếᴛ ʜợᴘ sáᴄʜ ᴠà'
+      - ' {#E0E0E0}ʙụɪ ᴍᴀ ᴛʜᴜậᴛ.'
+      - ''
+      - '{#57F287}▶ ᴄʜᴜộᴛ ᴘʜảɪ để ᴛʀᴜʏ ᴄậᴘ'
+keep-open: true
+disabled-in-worlds:
+- bad_world
+open-sound: BLOCK_CHEST_OPEN
+# Kho đồ xác nhận thanh toán cho Enchanter
+confirmation-inventory:
+  enabled: false # Đổi thành false nếu muốn tắt xác nhận 2 bước
+  name: '{#BDB2FF}&l❁ xáᴄ ɴʜậɴ ɢɪᴀᴏ ᴅịᴄʜ ❁'
+  accept:
+    material: LIME_STAINED_GLASS_PANE # Dùng kính xanh lá thay vì STAINED_GLASS_PANE damage 5 cho bản MC mới
+    name: '{#57F287}&l✔ xáᴄ ɴʜậɴ ᴍᴜᴀ'
+    lore:
+    - ''
+    - '{#fcfcfc}❖ {#E0E0E0}ᴛổɴɢ ᴛʜᴀɴʜ ᴛᴏáɴ: {#FFD700}%price% ⛃'
+    - ''
+    - '{#57F287}▶ {#E0E0E0}ɴʜấɴ ᴠàᴏ đâʏ để đồɴɢ ý'
+    damage: 5
+  cancel:
+    material: RED_STAINED_GLASS_PANE # Dùng kính đỏ
+    name: '{#ED4245}&l✖ ʜủʏ ʙỏ'
+    lore:
+    - ''
+    - '{#ED4245}▶ {#E0E0E0}ɴʜấɴ ᴠàᴏ đâʏ để ʜủʏ ʙỏ'
+    damage: 14
+right-click-to-view-enchants: true
+messages:
+  sound: ENTITY_PLAYER_LEVELUP

@@ -1,0 +1,14 @@
+spawn:
+  world: lobby
+  x: 0.5
+  y: -6.0
+  z: -2.5
+  yaw: -179.39111
+  pitch: -5.7904897
+firstspawn:
+  world: ''
+  x: ''
+  y: ''
+  z: ''
+  yaw: ''
+  pitch: ''

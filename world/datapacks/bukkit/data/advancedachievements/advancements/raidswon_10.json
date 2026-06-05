@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:gray_banner"
+    },
+    "title":"\u00A7x\u00A7A\u00A7C\u00A7FV\u1EC7 \u0299\u026A\u0274\u029C \u029F\u00E0\u0274\u0262",
+    "description":"\u00A7x\u00A7D\u00A7E\u00A7ET\u029C\u1EAF\u0274\u0262 \u00A7x\u00A7F\u00A7D\u00A7F\u00A7D10 \u00A7x\u00A7D\u00A7E\u00A7E\u0111\u1EE3\u1D1B R\u1D00\u026A\u1D05.",
+    "frame":"challenge",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:raidswon_1"
+}

@@ -1,0 +1,345 @@
+#   -------------------------------------------------------------------------------------
+#   ----------------------------------------  -  ----------------------------------------
+#    _                   _ _          _       |
+#   | |    _____   _____| | | ___  __| |      |   Developer: PenalBuffalo
+#   | |   / _ \ \ / / _ \ | |/ _ \/ _` |      |   ko-fi.com/penalbuffalo
+#   | |__|  __/\ V /  __/ | |  __/ (_| |      |
+#   |_____\___| \_/ \___|_|_|\___|\__,_|_     |   Original Author: Lokka30
+#            |  \/  | ___ | |__  ___| || |    |   ko-fi.com/lokka30
+#            | |\/| |/ _ \| '_ \/ __| || |_   |
+#            | |  | | (_) | |_) \__ \__   _|  |   Support & Wiki: UltimaOath
+#            |_|  |_|\___/|_.__/|___/  |_|    |   ko-fi.com/ultimaoath
+#
+#   ----------------------   The Ultimate Mob Levelling Solution   ----------------------
+#
+#   Documentation                               |   Support
+#   . Wiki: tinyurl.com/lm4-wiki              |   . Discord: discord.gg/RQ8M4A5
+#   . FAQ: tinyurl.com/lm4-wiki-faq           |   Please review our plugin!
+#   . Ex. Rules: tinyurl.com/lm4-ex-rules     |   . Hangar - tinyurl.com/lm-hangar
+#   . Ex. Drops: tinyurl.com/lm4-ex-drops     |   . SpigotMC - tinyurl.com/lm-spigotmc
+#                                             |
+#   ----------------------------------------  -  ----------------------------------------
+#   -------------------------------------------------------------------------------------
+#
+#   ---------------  -  ------------------------------
+#        Section 01  |  Common Messages
+#   ---------------  -  ------------------------------
+#
+common:
+  prefix: '&#A3C4F3&lʟᴇᴠᴇʟʟᴇᴅᴍᴏʙꜱ:&#D1E8E2 '
+  no-permission:
+  - '%prefix% ʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ᴛʀᴜʏ ᴄậᴘ ʟệɴʜ ɴàʏ.'
+  players-only:
+  - '%prefix% ᴄʜỉ ɴɢườɪ ᴄʜơɪ ᴍớɪ ᴄó ᴛʜể ꜱử ᴅụɴɢ ʟệɴʜ ɴàʏ.'
+  player-offline:
+  - '%prefix% ɴɢườɪ ᴄʜơɪ ''&r%player%&#D1E8E2'' đᴀɴɢ ɴɢᴏạɪ ᴛᴜʏếɴ.'
+  invalid-command:
+  - '%prefix% ʟệɴʜ ᴋʜôɴɢ ʜợᴘ ʟệ.'
+
+#
+#   ---------------  -  ------------------------------
+#        Section 02  |  Default Command Messages
+#   ---------------  -  ------------------------------
+#
+command:
+  levelledmobs:
+    main-usage:
+    - '%prefix% ᴄáᴄ ʟệɴʜ ᴋʜả ᴅụɴɢ:'
+    - '&#888888 ▶ &#A3C4F3/%label% debug &#888888- &#D1E8E2ᴄáᴄ ʟệɴʜ ʟɪêɴ ǫᴜᴀɴ đếɴ ɢỡ ʟỗɪ'
+    - '&#888888 ▶ &#A3C4F3/%label% egg &#888888- &#D1E8E2ᴛạᴏ ᴛʀứɴɢ ꜱɪɴʜ ꜱảɴ (ꜱᴘᴀᴡɴ ᴇɢɢ)'
+    - '&#888888 ▶ &#A3C4F3/%label% help &#888888- &#D1E8E2ʜɪểɴ ᴛʜị ʟɪêɴ ᴋếᴛ ᴡɪᴋɪ ʜướɴɢ ᴅẫɴ'
+    - '&#888888 ▶ &#A3C4F3/%label% info &#888888- &#D1E8E2xᴇᴍ ᴛʜôɴɢ ᴛɪɴ ᴠề ᴘʟᴜɢɪɴ'
+    - '&#888888 ▶ &#A3C4F3/%label% kill &#888888- &#D1E8E2ᴛɪêᴜ ᴅɪệᴛ ʜàɴɢ ʟᴏạᴛ ᴍᴏʙ ᴄó ᴄấᴘ'
+    - '&#888888 ▶ &#A3C4F3/%label% reload &#888888- &#D1E8E2ᴛảɪ ʟạɪ ᴄáᴄ ꜰɪʟᴇ ᴄấᴜ ʜìɴʜ'
+    - '&#888888 ▶ &#A3C4F3/%label% rules &#888888- &#D1E8E2ɪɴ ʀᴀ ʜệ ᴛʜốɴɢ ǫᴜʏ ᴛắᴄ ʜɪệɴ ᴛạɪ'
+    - '&#888888 ▶ &#A3C4F3/%label% summon &#888888- &#D1E8E2ᴛʀɪệᴜ ʜồɪ ᴍᴏʙ ᴄó ᴄấᴘ ᴄụ ᴛʜể'
+
+    #
+    #   ---------------  -  ------------------------------
+    #        Section 03  |  Summon Command Messages
+    #   ---------------  -  ------------------------------
+    #
+    summon:
+      invalid-amount:
+      - '%prefix% ꜱố ʟượɴɢ ᴋʜôɴɢ ʜợᴘ ʟệ ''&#A3C4F3%amount%&#D1E8E2''.'
+      invalid-entity-type:
+      - '%prefix% ʟᴏạɪ ᴇɴᴛɪᴛʏ ᴋʜôɴɢ ʜợᴘ ʟệ ''&#A3C4F3%entityType%&#D1E8E2''.'
+      invalid-level:
+      - '%prefix% ᴄấᴘ độ ᴋʜôɴɢ ʜợᴘ ʟệ ''&#A3C4F3%level%&#D1E8E2''.'
+      invalid-summon-type:
+      - '%prefix% ʟᴏạɪ ᴛʀɪệᴜ ʜồɪ ᴋʜôɴɢ ʜợᴘ ʟệ ''&#A3C4F3%summonType%&#D1E8E2''.'
+      invalid-summon-type-console:
+      - '%prefix% ᴄʜỉ ɴɢườɪ ᴄʜơɪ ᴍớɪ ᴄó ᴛʜể ᴅùɴɢ ʟᴏạɪ ᴛʀɪệᴜ ʜồɪ ''&#A3C4F3here&#D1E8E2'', ʙạɴ ᴘʜảɪ ᴅùɴɢ ''&#A3C4F3atPlayer&#D1E8E2'' ʜᴏặᴄ ''&#A3C4F3atLocation&#D1E8E2''.'
+      invalid-location:
+      - '%prefix% ᴠị ᴛʀí ᴋʜôɴɢ ʜợᴘ ʟệ.'
+      here:
+        usage:
+        - '%prefix% ᴄáᴄʜ ᴅùɴɢ: &#A3C4F3/%label% summon <ꜱố_ʟượɴɢ> <ʟᴏạɪ_ᴍᴏʙ> <ᴄấᴘ_độ> here'
+        success:
+        - '%prefix% đã ᴛʀɪệᴜ ʜồɪ &#A3C4F3%amount%&#D1E8E2 ᴍᴏʙ ᴄấᴘ &#FFFFFF%level% &#A3C4F3%entity%&#D1E8E2 ᴛạɪ ᴠị ᴛʀí ᴄủᴀ ʙạɴ.'
+      atLocation:
+        usage:
+        - '%prefix% ᴄáᴄʜ ᴅùɴɢ: &#A3C4F3/%label% summon <ꜱố_ʟượɴɢ> <ʟᴏạɪ_ᴍᴏʙ> <ᴄấᴘ_độ> atLocation <x> <y> <z> [ᴛʜế_ɢɪớɪ]'
+        success:
+        - '%prefix% đã ᴛʀɪệᴜ ʜồɪ &#A3C4F3%amount%&#D1E8E2 ᴍᴏʙ ᴄấᴘ &#FFFFFF%level% &#A3C4F3%entity%&#D1E8E2 ᴛạɪ &#888888(&#A3C4F3%x%&#D1E8E2, &#A3C4F3%y%&#D1E8E2, &#A3C4F3%z%&#D1E8E2 ᴛʀᴏɴɢ ᴛʜế ɢɪớɪ ''&#A3C4F3%world%&#D1E8E2''&#888888)&#D1E8E2.'
+        usage-console:
+        - '%prefix% ᴄáᴄʜ ᴅùɴɢ (ᴄᴏɴꜱᴏʟᴇ): &#A3C4F3/%label% summon <ꜱố_ʟượɴɢ> <ʟᴏạɪ_ᴍᴏʙ> <ᴄấᴘ_độ> atLocation <x> <y> <z> <ᴛʜế_ɢɪớɪ>'
+        invalid-world:
+        - '%prefix% ᴛʜế ɢɪớɪ ᴋʜôɴɢ ʜợᴘ ʟệ ''&#A3C4F3%world%&#D1E8E2''.'
+        invalid-location:
+        - '%prefix% ᴠị ᴛʀí ᴋʜôɴɢ ʜợᴘ ʟệ.'
+      atPlayer:
+        usage:
+        - '%prefix% ᴄáᴄʜ ᴅùɴɢ: &#A3C4F3/%label% summon <ꜱố_ʟượɴɢ> <ʟᴏạɪ_ᴍᴏʙ> <ᴄấᴘ_độ> atPlayer <ɴɢườɪ_ᴄʜơɪ>'
+        success:
+        - '%prefix% đã ᴛʀɪệᴜ ʜồɪ &#A3C4F3%amount%&#D1E8E2 ᴍᴏʙ ᴄấᴘ &#FFFFFF%level% &#A3C4F3%entity%&#D1E8E2 ᴛạɪ ᴠị ᴛʀí ᴄủᴀ &r%targetDisplayname%&#D1E8E2.'
+      usage:
+      - '%prefix% ᴄú ᴘʜáᴘ ʟệɴʜ ᴛʀɪệᴜ ʜồɪ (ꜱᴜᴍᴍᴏɴ):'
+      - '&#888888 ▶ &#A3C4F3/%label% summon <ꜱố_ʟượɴɢ> <ʟᴏạɪ_ᴍᴏʙ> <ᴄấᴘ_độ> here'
+      - '&#888888 ▶ &#A3C4F3/%label% summon <ꜱố_ʟượɴɢ> <ʟᴏạɪ_ᴍᴏʙ> <ᴄấᴘ_độ> atPlayer <ɴɢườɪ_ᴄʜơɪ>'
+      - '&#888888 ▶ &#A3C4F3/%label% summon <ꜱố_ʟượɴɢ> <ʟᴏạɪ_ᴍᴏʙ> <ᴄấᴘ_độ> atLocation <x> <y> <z> [ᴛʜế_ɢɪớɪ]'
+      amount-limited:
+        min:
+        - '%prefix% ꜱố ʟượɴɢ ᴛʀɪệᴜ ʜồɪ đượᴄ ɢɪớɪ ʜạɴ ᴛốɪ ᴛʜɪểᴜ ʟà &#A3C4F31&#D1E8E2 ᴍᴏʙ.'
+        max:
+        - '%prefix% ꜱố ʟượɴɢ ᴛʀɪệᴜ ʜồɪ đượᴄ ɢɪớɪ ʜạɴ ᴛốɪ đᴀ ʟà &#A3C4F3%maxAmount%&#D1E8E2 ᴍᴏʙ.'
+      level-limited:
+        min:
+        - '%prefix% ᴄấᴘ độ đượᴄ ɢɪớɪ ʜạɴ ᴛốɪ ᴛʜɪểᴜ ʟà ᴄấᴘ &#A3C4F3%minLevel%&#D1E8E2.'
+        max:
+        - '%prefix% ᴄấᴘ độ đượᴄ ɢɪớɪ ʜạɴ ᴛốɪ đᴀ ʟà ᴄấᴘ &#A3C4F3%maxLevel%&#D1E8E2.'
+      not-levellable:
+      - '%prefix% &#A3C4F3%entity%&#D1E8E2 ᴋʜôɴɢ ᴛʜể ʟêɴ ᴄấᴘ.'
+
+    #
+    #   ---------------  -  ------------------------------
+    #        Section 04  |  Kill Command Messages
+    #   ---------------  -  ------------------------------
+    #
+    kill:
+      usage:
+      - '%prefix% ᴄáᴄʜ ᴅùɴɢ: &#A3C4F3/%label% kill <all/near>'
+      all:
+        invalid-world:
+        - '%prefix% ᴛʜế ɢɪớɪ ᴋʜôɴɢ ʜợᴘ ʟệ ''&#A3C4F3%world%&#D1E8E2''.'
+        success:
+        - '%prefix% đã ᴛɪêᴜ ᴅɪệᴛ &#A3C4F3%killed%&#D1E8E2 ᴍᴏʙ ᴄó ᴄấᴘ ᴛʀᴏɴɢ &#A3C4F3%worlds%&#D1E8E2 ᴛʜế ɢɪớɪ &#888888(&#A3C4F3%skipped%&#D1E8E2 ᴍᴏʙ đã ʙị ʙỏ ǫᴜᴀ&#888888)&#D1E8E2.'
+        usage:
+        - '%prefix% ᴄáᴄʜ ᴅùɴɢ: &#A3C4F3/%label% kill all [ᴛʜế_ɢɪớɪ/*]'
+        usage-console:
+        - '%prefix% ᴄáᴄʜ ᴅùɴɢ (ᴄᴏɴꜱᴏʟᴇ): /%label% kill all <ᴛʜế_ɢɪớɪ/*>'
+      near:
+        invalid-radius:
+        - '%prefix% ʙáɴ ᴋíɴʜ ᴋʜôɴɢ ʜợᴘ ʟệ ''&#A3C4F3%radius%&#D1E8E2''.'
+        invalid-radius-min:
+        - '%prefix% ʙáɴ ᴋíɴʜ đã đượᴄ đɪềᴜ ᴄʜỉɴʜ ᴛʜàɴʜ ʙáɴ ᴋíɴʜ ᴛốɪ ᴛʜɪểᴜ &#888888(&#A3C4F3%minRadius%&#888888)&#D1E8E2.'
+        invalid-radius-max:
+        - '%prefix% ʙáɴ ᴋíɴʜ đã đượᴄ đɪềᴜ ᴄʜỉɴʜ ᴛʜàɴʜ ʙáɴ ᴋíɴʜ ᴛốɪ đᴀ &#888888(&#A3C4F3%maxRadius%&#888888)&#D1E8E2.'
+        success:
+        - '%prefix% đã ᴛɪêᴜ ᴅɪệᴛ &#A3C4F3%killed%&#D1E8E2 ᴍᴏʙ ᴄó ᴄấᴘ ᴛʀᴏɴɢ ʙáɴ ᴋíɴʜ &#A3C4F3%radius%&#D1E8E2 ʙʟᴏᴄᴋ &#888888(&#A3C4F3%skipped%&#D1E8E2 ᴍᴏʙ đã ʙị ʙỏ ǫᴜᴀ&#888888)&#D1E8E2.'
+        usage:
+        - '%prefix% ᴄáᴄʜ ᴅùɴɢ: &#A3C4F3/%label% kill near <ʙáɴ_ᴋíɴʜ>'
+
+    #
+    #   ---------------  -  ------------------------------
+    #        Section 05  |  Spawner Command Messages
+    #   ---------------  -  ------------------------------
+    #
+    spawner:
+      usage:
+      - '%prefix% ᴄú ᴘʜáᴘ ʟệɴʜ ꜱᴘᴀᴡɴᴇʀ:'
+      - '&#888888 ▶ &#A3C4F3/%label% spawner create'
+      - '&#888888 ▶ &#A3C4F3/%label% spawner copy'
+      - '&#888888 ▶ &#A3C4F3/%label% spawner info'
+      - ' '
+      - '&#FFFFFFᴄú ᴘʜáᴘ ᴍẫᴜ:'
+      - '&#888888 ▶ &#A3C4F3/%label% spawner create &#A3C4F3/minlevel&#A3C4F3 1 &#A3C4F3/maxlevel&#A3C4F3 10 &#A3C4F3/name&#A3C4F3 "My customized LM spawner" &#A3C4F3/customDropId&#A3C4F3 Id1'
+      no-value:
+      - '%prefix% ᴋʜôɴɢ ᴄó ɢɪá ᴛʀị ɴàᴏ đượᴄ ᴄʜỉ địɴʜ ᴄʜᴏ ᴋʜóᴀ ''&#A3C4F3%keyname%&#D1E8E2''.'
+      no-player:
+      - '%prefix% ʟệɴʜ ᴄʜỉ ᴄó ᴛʜể đượᴄ ᴄʜạʏ ʙởɪ ɴɢườɪ ᴄʜơɪ ᴛʀừ ᴋʜɪ ᴛʜᴀᴍ ꜱố &#A3C4F3/giveplayer&#D1E8E2 đượᴄ ᴄʜỉ địɴʜ.'
+      invalid-value:
+      - '%prefix% ɢɪá ᴛʀị ᴋʜôɴɢ ʜợᴘ ʟệ ᴄʜᴏ &#A3C4F3%keyname%&#D1E8E2, ᴘʜảɪ ʟà ᴍộᴛ ꜱố.'
+      no-level-specified:
+      - '%prefix% ʙạɴ ᴘʜảɪ ᴄʜỉ địɴʜ ᴍɪɴʟᴇᴠᴇʟ ᴠà/ʜᴏặᴄ ᴍᴀxʟᴇᴠᴇʟ.'
+      inventory-full:
+      - '%prefix% ᴛúɪ đồ ᴄủᴀ ʙạɴ đã đầʏ.'
+      spawner-give-message:
+      - '%prefix% đã đưᴀ ᴄʜᴏ ʙạɴ ᴍộᴛ ꜱᴘᴀᴡɴᴇʀ ʟᴍ.'
+      spawner-give-message-console:
+      - '%prefix% đã đưᴀ ᴄʜᴏ &r%playername%&#D1E8E2 ᴍộᴛ ꜱᴘᴀᴡɴᴇʀ ʟᴍ. &#888888|&#D1E8E2 ᴍɪɴʟᴇᴠᴇʟ: &#A3C4F3%minlevel%&#D1E8E2, ᴍᴀxʟᴇᴠᴇʟ: &#A3C4F3%maxlevel%&#D1E8E2'
+      permission-denied:
+      - '%prefix% ʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ᴄậᴘ ɴʜậᴛ ʜᴏặᴄ ᴄʜᴜʏểɴ đổɪ ꜱᴘᴀᴡɴᴇʀ ʟᴍ.'
+      spawner-converted:
+      - '%prefix% đã ᴄʜᴜʏểɴ đổɪ ꜱᴘᴀᴡɴᴇʀ ᴛʜườɴɢ ᴛʜàɴʜ ꜱᴘᴀᴡɴᴇʀ ʟᴍ ᴠớɪ ᴛêɴ "%spawnername%".'
+      spawner-updated:
+      - '%prefix% đã ᴄậᴘ ɴʜậᴛ ꜱᴘᴀᴡɴᴇʀ ʟᴍ ᴛừ ᴛʀứɴɢ ꜱɪɴʜ ꜱảɴ. ᴛêɴ ꜱᴘᴀᴡɴᴇʀ: "%spawnername%"'
+      info:
+        status-enabled:
+        - '%prefix% ᴛʜôɴɢ ᴛɪɴ ꜱᴘᴀᴡɴᴇʀ đᴀɴɢ đượᴄ &#B9FBC0ʙậᴛ&#FFFFFF.'
+        status-not-enabled:
+        - '%prefix% ᴛʜôɴɢ ᴛɪɴ ꜱᴘᴀᴡɴᴇʀ đᴀɴɢ &#FF8B94ᴛắᴛ&#FFFFFF.'
+        enabled:
+        - '%prefix% ᴛʜôɴɢ ᴛɪɴ ꜱᴘᴀᴡɴᴇʀ đᴀɴɢ đượᴄ &#B9FBC0ʙậᴛ&#FFFFFF. ᴄʟɪᴄᴋ ᴄʜᴜộᴛ ᴘʜảɪ ᴠàᴏ ʙấᴛ ᴋỳ ꜱᴘᴀᴡɴᴇʀ ɴàᴏ để xᴇᴍ ᴄʜɪ ᴛɪếᴛ!'
+        disabled:
+        - '%prefix% ᴛʜôɴɢ ᴛɪɴ ꜱᴘᴀᴡɴᴇʀ đã đượᴄ &#FF8B94ᴛắᴛ&#FFFFFF.'
+      copy:
+        vanilla-spawner:
+        - '%prefix% ꜱᴀᴏ ᴄʜéᴘ ꜱᴘᴀᴡɴᴇʀ ᴄʜỉ ʜᴏạᴛ độɴɢ ᴠớɪ ꜱᴘᴀᴡɴᴇʀ ʟᴍ.'
+        status-enabled:
+        - '%prefix% ꜱᴀᴏ ᴄʜéᴘ ꜱᴘᴀᴡɴᴇʀ đᴀɴɢ đượᴄ &#B9FBC0ʙậᴛ&#FFFFFF.'
+        status-not-enabled:
+        - '%prefix% ꜱᴀᴏ ᴄʜéᴘ ꜱᴘᴀᴡɴᴇʀ đᴀɴɢ &#FF8B94ᴛắᴛ&#FFFFFF.'
+        enabled:
+        - '%prefix% ꜱᴀᴏ ᴄʜéᴘ ꜱᴘᴀᴡɴᴇʀ đᴀɴɢ đượᴄ &#B9FBC0ʙậᴛ&#FFFFFF. ᴄʟɪᴄᴋ ᴄʜᴜộᴛ ᴘʜảɪ ᴠàᴏ ꜱᴘᴀᴡɴᴇʀ ʟᴍ để ꜱᴀᴏ ᴄʜéᴘ.'
+        - 'ᴛᴀʏ ᴄủᴀ ʙạɴ ᴘʜảɪ ᴛʀốɴɢ.'
+        disabled:
+        - '%prefix% ꜱᴀᴏ ᴄʜéᴘ ꜱᴘᴀᴡɴᴇʀ đã đượᴄ &#FF8B94ᴛắᴛ&#FFFFFF.'
+
+    #
+    #   ---------------  -  ------------------------------
+    #        Section 06  |  Spawn Egg Command Messages
+    #   ---------------  -  ------------------------------
+    #
+    spawn_egg:
+      usage:
+      - '%prefix% ᴄú ᴘʜáᴘ ʟệɴʜ ᴇɢɢ:'
+      - '&#888888 ▶ &#A3C4F3/%label% egg /minlevel <ᴄấᴘ> /maxlevel <ᴄấᴘ> /entity <ʟᴏạɪ_ᴍᴏʙ>'
+      - '&#D1E8E2&o ᴛʀứɴɢ ꜱɪɴʜ ꜱảɴ ᴍẫᴜ'
+      - '&#D1E8E2/%label% egg &#A3C4F3/minlevel&#D1E8E2 1 &#A3C4F3/maxlevel&#D1E8E2 10 &#A3C4F3/name&#D1E8E2 "My customized LM spawn egg" &#A3C4F3/customDropId&#D1E8E2 Id1'
+      no-paper:
+      - '%prefix% ᴛíɴʜ ɴăɴɢ ɴàʏ ᴄʜỉ ᴋʜả ᴅụɴɢ ᴛʀêɴ ᴄáᴄ ᴍáʏ ᴄʜủ ᴄʜạʏ ᴘᴀᴘᴇʀ ʜᴏặᴄ ᴄáᴄ ʙảɴ ꜰᴏʀᴋ ᴄủᴀ ᴘᴀᴘᴇʀ'
+      no-value:
+      - '%prefix% ᴋʜôɴɢ ᴄó ɢɪá ᴛʀị ɴàᴏ đượᴄ ᴄʜỉ địɴʜ ᴄʜᴏ: &#A3C4F3%keyname%&#D1E8E2'
+      no-player:
+      - '%prefix% ʟệɴʜ ᴄʜỉ ᴄó ᴛʜể đượᴄ ᴄʜạʏ ʙởɪ ɴɢườɪ ᴄʜơɪ ᴛʀừ ᴋʜɪ /giveplayer đượᴄ ᴄʜỉ địɴʜ'
+      no-player-specified:
+      - '%prefix% ᴋʜôɴɢ ᴄó ɴɢườɪ ᴄʜơɪ ɴàᴏ đượᴄ ᴄʜỉ địɴʜ'
+      invalid-value:
+      - '%prefix% ɢɪá ᴛʀị ᴋʜôɴɢ ʜợᴘ ʟệ ᴄʜᴏ &#A3C4F3%keyname%&#D1E8E2, ᴘʜảɪ ʟà ᴍộᴛ ꜱố'
+      no-level-specified:
+      - '%prefix% ʙạɴ ᴘʜảɪ ᴄʜỉ địɴʜ ᴍɪɴʟᴇᴠᴇʟ, ᴍᴀxʟᴇᴠᴇʟ ᴠà ᴇɴᴛɪᴛʏ'
+      inventory-full:
+      - '%prefix% &#FF8B94ᴛúɪ đồ ᴄủᴀ ʙạɴ đã đầʏ!'
+      give-message:
+      - '%prefix% đã đưᴀ ᴄʜᴏ ʙạɴ ᴍộᴛ ᴛʀứɴɢ ꜱɪɴʜ ꜱảɴ ʟᴍ'
+      give-message-console:
+      - '%prefix% đã đưᴀ ᴄʜᴏ &r%playername%&#D1E8E2 ᴍộᴛ ᴛʀứɴɢ ꜱɪɴʜ ꜱảɴ ʟᴍ. &#888888|&#D1E8E2 ᴍɪɴʟᴇᴠᴇʟ: &#A3C4F3%minlevel%&#D1E8E2, ᴍᴀxʟᴇᴠᴇʟ: &#A3C4F3%maxlevel%&#D1E8E2, ʟᴏạɪ ᴍᴏʙ: &#A3C4F3%entitytype%&#D1E8E2'
+
+    #
+    #   ---------------  -  ------------------------------
+    #        Section 07  |  Rules Command Messages
+    #   ---------------  -  ------------------------------
+    #
+    rules:
+      incomplete-command:
+      - '%prefix% ʟệɴʜ ᴋʜôɴɢ đầʏ đủ'
+      console-rules:
+      - '%prefix% ᴄáᴄ ǫᴜʏ ᴛắᴄ đã đượᴄ ɪɴ ʀᴀ ᴛʀêɴ ᴄᴏɴꜱᴏʟᴇ'
+      discord-invite:
+      - '%prefix% ᴄʟɪᴄᴋ để ɴʜậɴ ʟɪɴᴋ ᴍờɪ ᴅɪꜱᴄᴏʀᴅ'
+      wiki-link:
+      - '%prefix% ᴄʟɪᴄᴋ để ᴍở ᴡɪᴋɪ'
+      rules-reprocessed:
+      - '%prefix% ǫᴜʏ ᴛắᴄ đã đượᴄ xử ʟý ʟạɪ ᴄʜᴏ &#A3C4F3%entitycount%&#D1E8E2 ᴍᴏʙ ᴛʀᴏɴɢ &#A3C4F3%worldcount%&#D1E8E2 ᴛʜế ɢɪớɪ'
+      reset:
+      - '%prefix% ᴄʜạʏ ʟệɴʜ ɴàʏ ꜱẽ đặᴛ ʟạɪ ᴄáᴄ ǫᴜʏ ᴛắᴄ ᴄủᴀ ʙạɴ ᴠề 1 ᴛʀᴏɴɢ 4 ᴍặᴄ địɴʜ.'
+      - 'ʙạɴ ᴘʜảɪ ᴄʜọɴ ᴍứᴄ độ ᴋʜó ᴠᴀɴɪʟʟᴀ/ʙᴀꜱɪᴄ/ᴀᴠᴇʀᴀɢᴇ/ᴀᴅᴠᴀɴᴄᴇᴅ/ᴇxᴛʀᴇᴍᴇ.'
+      - 'ᴍộᴛ ʙảɴ ꜱᴀᴏ ʟưᴜ ꜱẽ đượᴄ ᴛạᴏ ᴠà rules.yml ᴄủᴀ ʙạɴ ꜱẽ đặᴛ ᴠề ᴍặᴄ địɴʜ.'
+      resetting:
+      - '%prefix% đᴀɴɢ đặᴛ ʟạɪ ᴄáᴄ ǫᴜʏ ᴛắᴄ ᴠề độ ᴋʜó %difficulty%'
+      reset-syntax:
+      - '%prefix% để đặᴛ ʟạɪ ᴄáᴄ ǫᴜʏ ᴛắᴄ ᴄủᴀ ʙạɴ ᴠề độ ᴋʜó %difficulty%, ʜãʏ ɴʜậᴘ ʟệɴʜ ꜱᴀᴜ:'
+      - '%label% rules reset %difficulty% confirm'
+      reset-complete:
+      - '%prefix% rules.yml đã đượᴄ ᴄậᴘ ɴʜậᴛ ᴛʜàɴʜ ᴄôɴɢ'
+      invalid-difficulty:
+      - '%prefix% độ ᴋʜó ᴋʜôɴɢ ʜợᴘ ʟệ: %difficulty%'
+      rule-name-missing:
+      - '%prefix% ᴘʜảɪ ᴄʜỉ địɴʜ ᴛêɴ ǫᴜʏ ᴛắᴄ.'
+      rule-name-invalid:
+      - '%prefix% ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ǫᴜʏ ᴛắᴄ ɴàᴏ ᴄó ᴛêɴ %rulename%'
+      showing-rules:
+      - 'ʜɪểɴ ᴛʜị ᴛấᴛ ᴄả ᴄáᴄ ɢɪá ᴛʀị ᴄʜᴏ ǫᴜʏ ᴛắᴄ: &#A3C4F3%rulename%&r'
+      no-entities-visible:
+      - '%prefix% ᴘʜảɪ ɴʜìɴ ᴠàᴏ ᴍộᴛ ᴇɴᴛɪᴛʏ ở ɢầɴ'
+      no-entities-near:
+      - '%prefix% ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴇɴᴛɪᴛʏ ɴàᴏ ᴛʀᴏɴɢ ʙáɴ ᴋíɴʜ 10 ʙʟᴏᴄᴋ'
+      effective-rules:
+      - '%prefix% ʜɪểɴ ᴛʜị ᴄáᴄ ǫᴜʏ ᴛắᴄ ᴄó ʜɪệᴜ ʟựᴄ ᴄʜᴏ: %entitytype% (ᴄấᴘ %level% %mobname%) ᴛʀᴏɴɢ %world%, %location%'
+      no-effective-rules:
+      - '%prefix% ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ǫᴜʏ ᴛắᴄ ɴàᴏ ᴄó ʜɪệᴜ ʟựᴄ'
+
+    #
+    #   ---------------  -  ------------------------------
+    #        Section 08  |  System Command Messages
+    #   ---------------  -  ------------------------------
+    #
+    reload:
+      started:
+      - '%prefix% đᴀɴɢ ᴛảɪ ʟạɪ ᴄáᴄ ꜰɪʟᴇ ᴄấᴜ ʜìɴʜ...'
+      finished:
+      - '%prefix% đã ᴛảɪ ʟạɪ ʜᴏàɴ ᴛấᴛ.'
+      usage:
+      - '%prefix% ᴄáᴄʜ ᴅùɴɢ: &#A3C4F3/%label% reload'
+    info:
+      about:
+      - ' '
+      - '&#A3C4F3&lʟᴇᴠᴇʟʟᴇᴅᴍᴏʙꜱ&#A3C4F3 v%version%'
+      - '&#D1E8E2&o%description%'
+      - ' '
+      - '&#D1E8E2ɴɢườɪ ᴅᴜʏ ᴛʀì: &#FFFFFF%maintainers%'
+      - '&#D1E8E2ɴɢườɪ đóɴɢ ɢóᴘ: &#FFFFFF%contributors%'
+      - '&#D1E8E2ʜỗ ᴛʀợ ᴄʜᴏ: &#FFFFFFMC &#FFFFFF%supportedVersions%'
+      - ' '
+      listSeparator: '&#D1E8E2, &#FFFFFF'
+      usage:
+      - '%prefix% ᴄáᴄʜ ᴅùɴɢ: &#A3C4F3/%label% info'
+    compatibility:
+      notice:
+      - '%prefix% ᴋɪểᴍ ᴛʀᴀ ᴛươɴɢ ᴛʜíᴄʜ đã đượᴄ ɪɴ ʀᴀ ʟᴏɢ ᴄủᴀ ʙạɴ. ᴠᴜɪ ʟòɴɢ ᴋɪểᴍ ᴛʀᴀ ᴄᴏɴꜱᴏʟᴇ :)'
+      usage:
+      - '%prefix% ᴄáᴄʜ ᴅùɴɢ: &#A3C4F3/%label% compatibility'
+
+#
+#   ---------------  -  ------------------------------
+#        Section 09  |  Other Messages
+#   ---------------  -  ------------------------------
+#
+other:
+  compatibility-notice:
+    enabled: true
+    messages:
+    - '%prefix% ᴛʜôɴɢ ʙáᴏ ᴛươɴɢ ᴛʜíᴄʜ ᴄủᴀ ʟᴇᴠᴇʟʟᴇᴅᴍᴏʙꜱ:'
+    - '&#888888 ▶&r &#A3C4F3%incompatibilities% &#D1E8E2ꜱự ᴋʜôɴɢ ᴛươɴɢ ᴛʜíᴄʜ ᴄó ᴛʜể xảʏ ʀᴀ đã đượᴄ ᴛìᴍ ᴛʜấʏ. ᴠᴜɪ ʟòɴɢ ᴄʜạʏ ''&#A3C4F3/levelledmobs compatibility&#D1E8E2'' để ᴋɪểᴍ ᴛʀᴀ.'
+    - '&#888888 ▶&#D1E8E2 ᴛʜôɴɢ ʙáᴏ ɴàʏ đượᴄ ɢửɪ ᴠì ʙạɴ ᴄó ǫᴜʏềɴ &#A3C4F3levelledmobs.compatibility-notice&#D1E8E2. ʙạɴ ᴄó ᴛʜể ᴛắᴛ ᴛʜôɴɢ ʙáᴏ ɴàʏ ᴛʀᴏɴɢ &#A3C4F3messages.yml&#D1E8E2.'
+    - '&#888888 ▶&#D1E8E2 ᴠᴜɪ ʟòɴɢ đảᴍ ʙảᴏ ʙạɴ đã ʟàᴍ ᴛʜᴇᴏ ᴛấᴛ ᴄả ᴄáᴄ ʜướɴɢ ᴅẫɴ ᴛʀêɴ ᴛʀᴀɴɢ ᴡɪᴋɪ ᴄủᴀ ᴘʟᴜɢɪɴ.'
+  update-notice:
+    messages:
+    - '&#A3C4F3&nᴛʜôɴɢ ʙáᴏ ᴄậᴘ ɴʜậᴛ ʟᴇᴠᴇʟʟᴇᴅᴍᴏʙꜱ:'
+    - '&#D1E8E2ᴘʜɪêɴ ʙảɴ &#A3C4F3LevelledMobs&#D1E8E2 ᴄủᴀ ʙạɴ đã &#A3C4F3ʟỗɪ ᴛʜờɪ&#D1E8E2! ᴠᴜɪ ʟòɴɢ ᴄậᴘ ɴʜậᴛ ʟêɴ &#A3C4F3v%latestVersion%&#D1E8E2 ᴄàɴɢ ꜱớᴍ ᴄàɴɢ ᴛốᴛ. &#888888(&#D1E8E2ʙạɴ đᴀɴɢ ᴄʜạʏ &#A3C4F3v%currentVersion%&#888888)'
+    send-in-console: true
+    send-on-join: true
+
+  mob-head-drop-name: 'đầᴜ ᴄủᴀ %mob_name%'
+  no-drop-in-chunk: '%prefix% &#D1E8E2ꜱố ʟượɴɢ ᴛɪêᴜ ᴅɪệᴛ ᴍᴏʙ ᴄó ᴄấᴘ ᴄủᴀ ʙạɴ đã đạᴛ ᴍứᴄ ᴛốɪ đᴀ ᴄʜᴏ ᴋʜᴜ ᴠựᴄ ɴàʏ. ʙạɴ ꜱẽ ᴋʜôɴɢ ᴄòɴ ɴʜậɴ đượᴄ ᴠậᴛ ᴘʜẩᴍ ʀơɪ ʀᴀ ᴛừ ɴʜữɴɢ ᴍᴏʙ ɴàʏ ɴữᴀ. ᴠᴜɪ ʟòɴɢ ǫᴜᴀʏ ʟạɪ ꜱᴀᴜ ᴍộᴛ ᴛʜờɪ ɢɪᴀɴ.'
+  create-debug:
+  - '&#A3C4F3&nᴛạᴏ ꜰɪʟᴇ ᴢɪᴘ ɢỡ ʟỗɪ'
+  - '&#D1E8E2ʙạɴ ᴄʜỉ ɴêɴ ᴄʜạʏ ʟệɴʜ ɴàʏ ɴếᴜ ᴍộᴛ ɴʜà ᴘʜáᴛ ᴛʀɪểɴ ʟᴇᴠᴇʟʟᴇᴅᴍᴏʙꜱ ʏêᴜ ᴄầᴜ ʙạɴ ʟàᴍ ᴠậʏ. ɴó đượᴄ ꜱử ᴅụɴɢ để ʜỗ ᴛʀợ ɴʜữɴɢ ɴɢườɪ ᴅùɴɢ đᴀɴɢ ɢặᴘ ꜱự ᴄố ᴠớɪ ᴘʟᴜɢɪɴ.'
+  - ''
+  - '&#D1E8E2ʟệɴʜ ɴàʏ ꜱẽ ᴛạᴏ ᴍộᴛ ꜰɪʟᴇ ᴢɪᴘ ᴄʜứᴀ ᴄáᴄ ᴅữ ʟɪệᴜ ʙắᴛ ʙᴜộᴄ ꜱᴀᴜ:'
+  - '&#888888 ▶ &#A3C4F3ᴅᴀɴʜ ꜱáᴄʜ ᴘʟᴜɢɪɴ'
+  - '&#888888 ▶ &#A3C4F3ᴘʜɪêɴ ʙảɴ ᴍáʏ ᴄʜủ'
+  - '&#888888 ▶ &#A3C4F3ꜱố ʟượɴɢ ɴɢườɪ ᴄʜơɪ ᴛʀựᴄ ᴛᴜʏếɴ ʜɪệɴ ᴛạɪ ᴠà ᴛốɪ đᴀ'
+  - '&#888888 ▶ &#A3C4F3ꜰɪʟᴇ latest.log&#D1E8E2 &#888888(/logs/latest.log)'
+  - ''
+  - '&#D1E8E2ɴʜà ᴘʜáᴛ ᴛʀɪểɴ ʟᴇᴠᴇʟʟᴇᴅᴍᴏʙꜱ ꜱẽ ᴋʜôɴɢ ᴘʜâɴ ᴘʜốɪ ʟạɪ ʜᴏặᴄ ɢɪữ ʟạɪ ᴅữ ʟɪệᴜ ɴɢᴏàɪ ᴍụᴄ đíᴄʜ ɢɪảɪ ǫᴜʏếᴛ ʙấᴛ ᴋỳ ꜱự ᴄố ɴàᴏ ʙạɴ ᴄó ᴛʜể đᴀɴɢ ɢặᴘ ᴘʜảɪ. ʙạɴ ᴄũɴɢ ᴄó ᴛʜể xáᴄ ᴍɪɴʜ ɴộɪ ᴅᴜɴɢ ᴛʀướᴄ ᴋʜɪ ɢửɪ ꜰɪʟᴇ.'
+  - '&#D1E8E2để ᴛɪếᴘ ᴛụᴄ ᴛạᴏ ꜰɪʟᴇ ᴢɪᴘ, ᴠᴜɪ ʟòɴɢ ᴄʜạʏ:'
+  - '&#A3C4F3/lm debug create-zip confirm&#D1E8E2'
+
+#
+#   ---------------  -  ------------------------------
+#        Section 10  |  Developer Settings / Do Not Edit Beyond This Point
+#   ---------------  -  ------------------------------
+#
+file-version: 9

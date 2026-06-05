@@ -1,0 +1,85 @@
+# ==================== [PHẦN] CÀI ĐẶT ====================
+# > [MenuType] : String | Đại diện loại menu. Giá trị hợp lệ: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/MenuType.html
+# > [Title] : String | Đặt tiêu đề menu.
+# > [Auto_Refresh] : Integer | Tốc độ làm mới menu tính bằng giây. Đặt 0 để tắt.
+# > [PlaceholderAPI -> Enabled] : Boolean | Khi bật, áp dụng PlaceholderAPI cho toàn bộ vật phẩm trong menu theo từng người chơi.
+#  
+# ==================== [PHẦN] NỘI DUNG ====================
+# Bạn có thể tự do chỉnh sửa vật phẩm trong phần này (thêm, xoá, sửa).
+# > [Item] : Section | Vật phẩm hiển thị.
+#     [*] Xem danh sách tuỳ chọn tại: https://nightexpressdev.com/nightcore/configuration/item-formation/
+# > [Priority] : Integer | Độ ưu tiên vật phẩm. Giá trị cao hơn sẽ ghi đè vật phẩm khác cùng ô.
+# > [Slots] : Int Array | Ô chứa vật phẩm, bắt đầu từ 0. Ngăn cách bằng dấu phẩy.
+#     Slots: '0,4,9,10'
+# > [Type] : String | Xác định hành động khi nhấn.
+#     [*] Giá trị hỗ trợ: ['close', 'user_skin']
+# > [Click_Commands] : Section | Thực thi lệnh khi nhấn, hỗ trợ PlaceholderAPI.
+#     [*] Chỉ hoạt động nếu [Type] không được đặt (null).
+#     [*] Kiểu nhấn hỗ trợ: [LEFT, RIGHT, SHIFT_LEFT, SHIFT_RIGHT, DROP_KEY, SWAP_KEY, DRAG_N_DROP]
+#     [*] Dùng tiền tố 'player:' để chạy lệnh bằng người chơi.
+# ==================================================
+
+# ==================== [SECTION] SETTINGS ====================
+# > [MenuType] : String | Represents the menu type. Allowed values: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/MenuType.html
+# > [Title] : String | Sets menu title.
+# > [Auto_Refresh] : Integer | Defines menu refresh rate in seconds. Set 0 to disable.
+# > [PlaceholderAPI -> Enabled] : Boolean | When enabled, applies PlaceholderAPI placeholders for all items in the menu per player.
+#  
+# ==================== [SECTION] CONTENT ====================
+# You can freely edit items in this section as you wish (add, remove, modify items).
+# > [Item] : Section | Item to display.
+#     [*] Navigate to https://nightexpressdev.com/nightcore/configuration/item-formation/ for a list of available options.
+# > [Priority] : Integer | Item priority. Higher values will override other item(s) in the same slot(s).
+# > [Slots] : Int Array | Item slots, starts from 0. Split with commas.
+#     Slots: '0,4,9,10'
+# > [Type] : String | Defines item click action.
+#     [*] Available types: ['close', 'user_skin']
+# > [Click_Commands] : Section | Executes commands on click with PlaceholderAPI support.
+#     [*] Works only if [Type] is not set (null).
+#     [*] Available click types: [LEFT, RIGHT, SHIFT_LEFT, SHIFT_RIGHT, DROP_KEY, SWAP_KEY, DRAG_N_DROP]
+#     [*] Use prefix 'player:' to run command by a player.
+#     Click_Commands:
+#       LEFT:
+#       - say Hello
+#       - give %player_name% diamond 1
+#       - player: warp shop
+# ==================================================
+Settings:
+  MenuType: minecraft:generic_9x3
+  Title: <black>[%crate_name%] Chọn Số Lượng</black>
+  Auto_Refresh: -1
+  
+  PlaceholderAPI:
+    Enabled: false
+
+Slots:
+  Single: '11'
+  All: '15'
+
+Content:
+  gray_stained_glass_pane:
+    Priority: -1
+    Item:
+      Material: minecraft:gray_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 1,2,3,10,11,12,19,20,21,5,6,7,14,15,16,23,24,25
+    Type: 'null'
+  
+  lime_stained_glass_pane:
+    Priority: -1
+    Item:
+      Material: minecraft:lime_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 4,13,22
+    Type: 'null'
+  
+  yellow_stained_glass_pane:
+    Priority: -1
+    Item:
+      Material: minecraft:yellow_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 0,9,18,8,17,26
+    Type: 'null'

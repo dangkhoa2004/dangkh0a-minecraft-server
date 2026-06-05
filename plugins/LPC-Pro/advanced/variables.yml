@@ -1,0 +1,4 @@
+item-variable:
+  enabled: true
+  display-format: <aqua>[<item_name>]</aqua>
+  max-uses-per-message: 3

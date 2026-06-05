@@ -1,0 +1,326 @@
+menu_title: '&#BDB2FF&l❁ ʙảɴɢ đɪềᴜ ᴋʜɪểɴ ❁'
+size: 54
+open_command: []
+items:
+  'Filler 1':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 35
+    - 36
+    - 44
+    - 45
+    - 53
+    priority: 10
+    display_name: '&r'
+  'Filler 2':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 1-7
+    - 46-47
+    - 50-52
+    priority: 10
+    display_name: '&r'
+  'Close':
+    material: BARRIER
+    slot: 49
+    display_name: '&#ED4245&l✖ ĐÓɴɢ ᴍᴇɴᴜ'
+    lore:
+    - ''
+    - '&#ED4245▶ &#E0E0E0Nhấn để đóng giao diện'
+    priority: 9
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+  'Back':
+    material: ARROW
+    slot: 48
+    display_name: '&#AEC6CF&l◀ ǫᴜᴀʏ ʟạɪ'
+    lore:
+    - ''
+    - '&#AEC6CF▶ &#E0E0E0Nhấn để quay lại'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] BetterTeamsMain'
+
+  'Toggle Accessibility':
+    material: IRON_DOOR
+    slot: 4
+    display_name: '&#57F287&l❁ ǫᴜʏềɴ ᴛʀᴜʏ ᴄậᴘ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Trạng thái: %changeoutput_equals_input:{betterteams_open}_matcher:true_ifmatch:&#57F287✔ Mở cửa tự do_else:&#ED4245✘ Chỉ qua lời mời%'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để chuyển đổi'
+    priority: 1
+    view_requirement:
+      requirements:
+        isOwner:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Owner'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] team open'
+    - '[refresh]'
+
+  'Accessibility Admin':
+    material: IRON_DOOR
+    slot: 4
+    display_name: '&#57F287&l❁ ǫᴜʏềɴ ᴛʀᴜʏ ᴄậᴘ ❁'
+    priority: 2
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Trạng thái: %changeoutput_equals_input:{betterteams_open}_matcher:true_ifmatch:&#57F287✔ Mở cửa tự do_else:&#ED4245✘ Chỉ qua lời mời%'
+
+  'Change Team Name':
+    material: WRITABLE_BOOK
+    slot: 20
+    display_name: '&#AEC6CF&l❁ đổɪ ᴛêɴ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Tên hiện tại: &#AEC6CF%betterteams_name%'
+    - ''
+    - '&#AEC6CF▶ &#E0E0E0Nhấn để đổi tên'
+    priority: 1
+    view_requirement:
+      requirements:
+        isOwner:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Owner'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[meta] set betterTeamsConfirmAction STRING name change'
+    - '[meta] set BetterTeamsConfirmActionBack STRING BetterTeamsControlPanel'
+    - '[openguimenu] BetterTeamsConfirmAction'
+
+  'Team Name Admin':
+    material: WRITABLE_BOOK
+    slot: 20
+    display_name: '&#AEC6CF&l❁ ᴛêɴ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Tên hiện tại: &#AEC6CF%betterteams_name%'
+    priority: 2
+
+  'Change Color':
+    material: MAGMA_CREAM
+    slot: 24
+    display_name: '&#FCD05C&l❁ Đổɪ ᴍàᴜ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Màu hiện tại: %betterteamsextra_color%Màu Sắc&r'
+    - ''
+    - '&#FCD05C▶ &#E0E0E0Nhấn để nhập mã màu (VD: &a, &c)'
+    priority: 1
+    view_requirement:
+      requirements:
+        isOwner:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Owner'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team color '
+
+  'Color Admin':
+    material: MAGMA_CREAM
+    slot: 24
+    display_name: '&#FCD05C&l❁ ᴍàᴜ sắᴄ ❁'
+    priority: 2
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Màu hiện tại: %betterteamsextra_color%Màu Sắc&r'
+
+  'Change Description':
+    material: BOOK
+    slot: 30
+    display_name: '&#57F287&l❁ ᴍô ᴛả ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - ' %changeoutput_equals_input:{betterteams_description}_matcher:_ifmatch:&#ED4245✘ Chưa có mô tả_else:&#fcfcfc❖ &#E0E0E0Mô tả hiện tại:\n  &#E0E0E0{betterteams_description}%'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để cập nhật mô tả'
+    priority: 1
+    view_requirement:
+      requirements:
+        isOwner:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Owner'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team description '
+
+  'Description Admin':
+    material: BOOK
+    slot: 30
+    display_name: '&#57F287&l❁ ᴍô ᴛả ᴛᴇᴀᴍ ❁'
+    priority: 2
+    lore:
+    - ''
+    - ' %changeoutput_equals_input:{betterteams_description}_matcher:_ifmatch:&#ED4245✘ Chưa có mô tả_else:&#fcfcfc❖ &#E0E0E0Mô tả hiện tại:\n  &#E0E0E0{betterteams_description}%'
+
+  'Change Title':
+    material: OAK_SIGN
+    slot: 31
+    display_name: '&#FFB7B2&l❁ ᴅᴀɴʜ ʜɪệᴜ ❁'
+    lore:
+    - ''
+    - ' %changeoutput_equals_input:{betterteams_title}_matcher:_ifmatch:&#ED4245✘ Chưa có danh hiệu_else:&#fcfcfc❖ &#E0E0E0Danh hiệu hiện tại: &#FFB7B2{betterteams_title}%'
+    - ''
+    - '&#FFB7B2▶ &#E0E0E0Nhấn để thay đổi'
+    priority: 1
+    view_requirement:
+      requirements:
+        isOwner:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Owner'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team title '
+
+  'Title Admin':
+    material: OAK_SIGN
+    slot: 31
+    display_name: '&#FFB7B2&l❁ ᴅᴀɴʜ ʜɪệᴜ ❁'
+    priority: 2
+    lore:
+    - ''
+    - ' %changeoutput_equals_input:{betterteams_title}_matcher:_ifmatch:&#ED4245✘ Chưa có danh hiệu_else:&#fcfcfc❖ &#E0E0E0Danh hiệu hiện tại: &#FFB7B2{betterteams_title}%'
+
+  'Change Tag':
+    material: NAME_TAG
+    slot: 32
+    display_name: '&#FCD05C&l❁ ᴛʜẻ (ᴛᴀɢ) ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Tag hiện tại: &#FCD05C%betterteams_tag%'
+    - ''
+    - '&#FCD05C▶ &#E0E0E0Nhấn để đổi tag'
+    priority: 1
+    view_requirement:
+      requirements:
+        isOwner:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Owner'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team tag '
+
+  'Tag Admin':
+    material: NAME_TAG
+    slot: 32
+    display_name: '&#FCD05C&l❁ ᴛʜẻ (ᴛᴀɢ) ❁'
+    priority: 2
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Tag hiện tại: &#FCD05C%betterteams_tag%'
+
+  'Set Warp':
+    material: ENDER_PEARL
+    slot: 21
+    display_name: '&#BDB2FF&l❁ ᴛʀạᴍ ᴅịᴄʜ ᴄʜᴜʏểɴ ❁'
+    lore:
+    - ''
+    - '&#BDB2FF▶ &#E0E0E0Nhấn để tạo trạm (Warp) mới'
+    priority: 1
+    view_requirement:
+      requirements:
+        noWarpsSet:
+          type: string equals
+          input: '%betterteamsextra_haswarps%'
+          output: 'no'
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team setwarp '
+
+  'Set Delete Warp':
+    material: ENDER_PEARL
+    slot: 21
+    display_name: '&#BDB2FF&l❁ ᴛʀạᴍ ᴅịᴄʜ ᴄʜᴜʏểɴ ❁'
+    lore:
+    - ''
+    - '%betterteamsextra_warplist%'
+    - ''
+    - ' &#fcfcfc❖ &#AEC6CFChuột trái &#E0E0E0để TẠO trạm mới'
+    - ' &#fcfcfc❖ &#ED4245Chuột phải &#E0E0E0để XÓA trạm'
+    priority: 2
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team setwarp '
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team delwarp '
+
+  'Toggle PvP':
+    material: DIAMOND_SWORD
+    slot: 22
+    display_name: '&#ED4245&l❁ ᴘᴠᴘ ᴛᴇᴀᴍ ❁'
+    hide_attributes: true
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Sát thương đồng đội: %changeoutput_equals_input:{betterteamsextra_ispvp}_matcher:yes_ifmatch:&#57F287✔ ĐANG BẬT_else:&#ED4245✘ ĐANG TẮT%'
+    - ''
+    - '&#ED4245▶ &#E0E0E0Nhấn để chuyển đổi'
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] team pvp'
+    - '[refresh]'
+  
+  'Set Home':
+    material: RED_BED
+    slot: 23
+    display_name: '&#FFB7B2&l❁ ɴʜà ᴄủᴀ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - '&#FFB7B2▶ &#E0E0E0Nhấn để cài đặt nhà (Home) mới'
+    priority: 1
+    view_requirement:
+      requirements:
+        noWarpsSet:
+          type: string equals
+          input: '%betterteamsextra_hashome%'
+          output: 'no'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] team sethome'
+    - '[close]'
+
+  'Set Delete Home':
+    material: RED_BED
+    slot: 23
+    display_name: '&#FFB7B2&l❁ ɴʜà ᴄủᴀ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Thế giới: &#FFB7B2%betterteamsextra_homelocation_world%'
+    - ' &#fcfcfc❖ &#E0E0E0Tọa độ: &#E0E0E0%betterteamsextra_homelocation_x%, %betterteamsextra_homelocation_y%, %betterteamsextra_homelocation_z%'
+    - ''
+    - ' &#fcfcfc❖ &#AEC6CFChuột trái &#E0E0E0để ĐẶT LẠI nhà'
+    - ' &#fcfcfc❖ &#ED4245Chuột phải &#E0E0E0để XÓA nhà'
+    priority: 2
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] team sethome'
+    - '[close]'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[meta] set betterTeamsConfirmAction STRING home deletion'
+    - '[meta] set BetterTeamsConfirmActionBack STRING BetterTeamsControlPanel'
+    - '[openguimenu] BetterTeamsConfirmAction'

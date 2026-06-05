@@ -1,0 +1,816 @@
+pages:
+  page1:
+    gui-rows: 6
+    items:
+      GRASS_BLOCK:
+        material: GRASS_BLOCK
+        displayname: "&eKhối cỏ"
+        buy: 24
+        sell: 12
+      PODZOL:
+        material: PODZOL
+        displayname: "&eĐất podzol"
+        buy: 24
+        sell: 12
+      MYCELIUM:
+        material: MYCELIUM
+        displayname: "&eKhuẩn ty thể"
+        buy: 24
+        sell: 12
+      DIRT:
+        material: DIRT
+        displayname: "&eĐất"
+        buy: 8
+        sell: 4
+      COARSE_DIRT:
+        material: COARSE_DIRT
+        displayname: "&eĐất thô"
+        buy: 8
+        sell: 4
+      MUD:
+        material: MUD
+        displayname: "&eBùn"
+        buy: 8
+        sell: 4
+      PACKED_MUD:
+        material: PACKED_MUD
+        displayname: "&eBùn nén"
+        buy: 28
+        sell: 14
+      CLAY:
+        material: CLAY
+        displayname: "&eĐất sét"
+        buy: 40
+        sell: 20
+      BRICKS:
+        material: BRICKS
+        displayname: "&eGạch"
+        buy: 60
+        sell: 30
+      GRAVEL:
+        material: GRAVEL
+        displayname: "&eSỏi"
+        buy: 8
+        sell: 4
+      GLASS:
+        material: GLASS
+        displayname: "&eThủy tinh"
+        buy: 12
+        sell: 6
+      SAND:
+        material: SAND
+        displayname: "&eCát"
+        buy: 8
+        sell: 4
+      SANDSTONE:
+        material: SANDSTONE
+        displayname: "&eCát kết"
+        buy: 32
+        sell: 16
+      SMOOTH_SANDSTONE:
+        material: SMOOTH_SANDSTONE
+        displayname: "&eCát kết mịn"
+        buy: 36
+        sell: 18
+      RED_SAND:
+        material: RED_SAND
+        displayname: "&eCát đỏ"
+        buy: 12
+        sell: 6
+      ICE:
+        material: ICE
+        displayname: "&eBăng"
+        buy: 30
+        sell: 15
+      PACKED_ICE:
+        material: PACKED_ICE
+        displayname: "&eBăng nén"
+        buy: 270
+        sell: 135
+      BLUE_ICE:
+        material: BLUE_ICE
+        displayname: "&eBăng xanh"
+        buy: 2430
+        sell: 1215
+      SNOW_BLOCK:
+        material: SNOW_BLOCK
+        displayname: "&eKhối tuyết"
+        buy: 8
+        sell: 4
+      MOSS_BLOCK:
+        material: MOSS_BLOCK
+        displayname: "&eKhối rêu"
+        buy: 20
+        sell: 10
+      STONE:
+        material: STONE
+        displayname: "&eĐá"
+        buy: 6
+        sell: 3
+      COBBLESTONE:
+        material: COBBLESTONE
+        displayname: "&eĐá cuội"
+        buy: 4
+        sell: 2
+      STONE_BRICKS:
+        material: STONE_BRICKS
+        displayname: "&eGạch đá"
+        buy: 6
+        sell: 3
+      MOSSY_STONE_BRICKS:
+        material: MOSSY_STONE_BRICKS
+        displayname: "&eGạch đá phủ rêu"
+        buy: 22
+        sell: 11
+      CRACKED_STONE_BRICKS:
+        material: CRACKED_STONE_BRICKS
+        displayname: "&eGạch đá nứt"
+        buy: 10
+        sell: 5
+      DEEPSLATE:
+        material: DEEPSLATE
+        displayname: "&eĐá bảng sâu"
+        buy: 10
+        sell: 5
+      COBBLED_DEEPSLATE:
+        material: COBBLED_DEEPSLATE
+        displayname: "&eĐá cuội bảng sâu"
+        buy: 8
+        sell: 4
+      TUFF:
+        material: TUFF
+        displayname: "&eĐá túp"
+        buy: 16
+        sell: 8
+      TUFF_STAIRS:
+        material: TUFF_STAIRS
+        displayname: "&eCầu thang đá túp"
+        buy: 24
+        sell: 12
+      TUFF_SLAB:
+        material: TUFF_SLAB
+        displayname: "&ePhiến đá túp"
+        buy: 8
+        sell: 4
+      TUFF_WALL:
+        material: TUFF_WALL
+        displayname: "&eTường đá túp"
+        buy: 16
+        sell: 8
+      POLISHED_TUFF:
+        material: POLISHED_TUFF
+        displayname: "&eĐá túp đánh bóng"
+        buy: 16
+        sell: 8
+      POLISHED_TUFF_STAIRS:
+        material: POLISHED_TUFF_STAIRS
+        displayname: "&eCầu thang đá túp đánh bóng"
+        buy: 24
+        sell: 12
+      POLISHED_TUFF_SLAB:
+        material: POLISHED_TUFF_SLAB
+        displayname: "&ePhiến đá túp đánh bóng"
+        buy: 8
+        sell: 4
+      POLISHED_TUFF_WALL:
+        material: POLISHED_TUFF_WALL
+        displayname: "&eTường đá túp đánh bóng"
+        buy: 16
+        sell: 8
+      TUFF_BRICKS:
+        material: TUFF_BRICKS
+        displayname: "&eGạch đá túp"
+        buy: 16
+        sell: 8
+      TUFF_BRICK_STAIRS:
+        material: TUFF_BRICK_STAIRS
+        displayname: "&eCầu thang gạch đá túp"
+        buy: 24
+        sell: 12
+      TUFF_BRICK_SLAB:
+        material: TUFF_BRICK_SLAB
+        displayname: "&ePhiến gạch đá túp"
+        buy: 8
+        sell: 4
+      TUFF_BRICK_WALL:
+        material: TUFF_BRICK_WALL
+        displayname: "&eTường gạch đá túp"
+        buy: 16
+        sell: 8
+      CHISELED_TUFF:
+        material: CHISELED_TUFF
+        displayname: "&eĐá túp đục hoa văn"
+        buy: 16
+        sell: 8
+      CHISELED_TUFF_BRICKS:
+        material: CHISELED_TUFF_BRICKS
+        displayname: "&eGạch đá túp đục hoa văn"
+        buy: 16
+        sell: 8
+      GRANITE:
+        material: GRANITE
+        displayname: "&eĐá hoa cương"
+        buy: 12
+        sell: 6
+      DIORITE:
+        material: DIORITE
+        displayname: "&eĐá diorit"
+        buy: 12
+        sell: 6
+      ANDESITE:
+        material: ANDESITE
+        displayname: "&eĐá andesit"
+        buy: 12
+        sell: 6
+      AMETHYST_BLOCK:
+        material: AMETHYST_BLOCK
+        displayname: "&eKhối thạch anh tím"
+        buy: 160
+        sell: 80
+
+  page2:
+    gui-rows: 6
+    items:
+      CALCITE:
+        material: CALCITE
+        displayname: "&eCalcit"
+        buy: 16
+        sell: 8
+      DRIPSTONE_BLOCK:
+        material: DRIPSTONE_BLOCK
+        displayname: "&eKhối thạch nhũ"
+        buy: 80
+        sell: 40
+      PRISMARINE:
+        material: PRISMARINE
+        displayname: "&ePrismarin"
+        buy: 80
+        sell: 40
+      DARK_PRISMARINE:
+        material: DARK_PRISMARINE
+        displayname: "&ePrismarin sẫm màu"
+        buy: 176
+        sell: 88
+      SEA_LANTERN:
+        material: SEA_LANTERN
+        displayname: "&eĐèn biển"
+        buy: 320
+        sell: 160
+      MAGMA_BLOCK:
+        material: MAGMA_BLOCK
+        displayname: "&eKhối dung nham"
+        buy: 100
+        sell: 50
+      OBSIDIAN:
+        material: OBSIDIAN
+        displayname: "&eHắc diện thạch"
+        buy: 250
+        sell: 125
+      CRYING_OBSIDIAN:
+        material: CRYING_OBSIDIAN
+        displayname: "&eHắc diện thạch khóc"
+        buy: 300
+        sell: 150
+      NETHERRACK:
+        material: NETHERRACK
+        displayname: "&eNetherrack"
+        buy: 4
+        sell: 2
+      CRIMSON_NYLIUM:
+        material: CRIMSON_NYLIUM
+        displayname: "&eKhuẩn dị thể đỏ thẫm"
+        buy: 14
+        sell: 7
+      WARPED_NYLIUM:
+        material: WARPED_NYLIUM
+        displayname: "&eKhuẩn dị thể kì dị"
+        buy: 14
+        sell: 7
+      NETHER_BRICKS:
+        material: NETHER_BRICKS
+        displayname: "&eGạch Nether"
+        buy: 32
+        sell: 16
+      RED_NETHER_BRICKS:
+        material: RED_NETHER_BRICKS
+        displayname: "&eGạch Nether đỏ"
+        buy: 96
+        sell: 48
+      GLOWSTONE:
+        material: GLOWSTONE
+        displayname: "&eĐá phát sáng"
+        buy: 100
+        sell: 50
+      QUARTZ_BLOCK:
+        material: QUARTZ_BLOCK
+        displayname: "&eKhối thạch anh"
+        buy: 240
+        sell: 120
+      QUARTZ_BRICKS:
+        material: QUARTZ_BRICKS
+        displayname: "&eGạch thạch anh"
+        buy: 240
+        sell: 120
+      QUARTZ_PILLAR:
+        material: QUARTZ_PILLAR
+        displayname: "&eCột trụ thạch anh"
+        buy: 240
+        sell: 120
+      SOUL_SAND:
+        material: SOUL_SAND
+        displayname: "&eCát linh hồn"
+        buy: 12
+        sell: 6
+      SOUL_SOIL:
+        material: SOUL_SOIL
+        displayname: "&eĐất linh hồn"
+        buy: 12
+        sell: 6
+      BLACKSTONE:
+        material: BLACKSTONE
+        displayname: "&eĐá đen"
+        buy: 8
+        sell: 4
+      POLISHED_BLACKSTONE:
+        material: POLISHED_BLACKSTONE
+        displayname: "&eĐá đen được đánh bóng"
+        buy: 8
+        sell: 4
+      CHISELED_POLISHED_BLACKSTONE:
+        material: CHISELED_POLISHED_BLACKSTONE
+        displayname: "&eĐá đen được đánh bóng được đục"
+        buy: 8
+        sell: 4
+      BASALT:
+        material: BASALT
+        displayname: "&eĐá bazan"
+        buy: 10
+        sell: 5
+      END_STONE:
+        material: END_STONE
+        displayname: "&eĐá End"
+        buy: 20
+        sell: 10
+      PURPUR_BLOCK:
+        material: PURPUR_BLOCK
+        displayname: "&eKhối purpur"
+        buy: 160
+        sell: 80
+      OAK_LOG:
+        material: OAK_LOG
+        displayname: "&eThân cây sồi"
+        buy: 16
+        sell: 8
+      BIRCH_LOG:
+        material: BIRCH_LOG
+        displayname: "&eThân cây bạch dương"
+        buy: 16
+        sell: 8
+      SPRUCE_LOG:
+        material: SPRUCE_LOG
+        displayname: "&eThân cây vân sam"
+        buy: 16
+        sell: 8
+      ACACIA_LOG:
+        material: ACACIA_LOG
+        displayname: "&eThân cây xiêm gai"
+        buy: 16
+        sell: 8
+      JUNGLE_LOG:
+        material: JUNGLE_LOG
+        displayname: "&eThân cây rừng"
+        buy: 16
+        sell: 8
+      DARK_OAK_LOG:
+        material: DARK_OAK_LOG
+        displayname: "&eThân cây sồi sẫm"
+        buy: 16
+        sell: 8
+      MANGROVE_LOG:
+        material: MANGROVE_LOG
+        displayname: "&eThân cây đước"
+        buy: 16
+        sell: 8
+      CRIMSON_STEM:
+        material: CRIMSON_STEM
+        displayname: "&eCuống đỏ thẫm"
+        buy: 16
+        sell: 8
+      WARPED_STEM:
+        material: WARPED_STEM
+        displayname: "&eCuống kì dị"
+        buy: 16
+        sell: 8
+      CHERRY_LOG:
+        material: CHERRY_LOG
+        displayname: "&eThân cây anh đào"
+        buy: 16
+        sell: 8
+      PALE_OAK_LOG:
+        material: PALE_OAK_LOG
+        displayname: "&eThân cây sồi nhạt"
+        buy: 16
+        sell: 8
+      PALE_OAK_WOOD:
+        material: PALE_OAK_WOOD
+        displayname: "&eGỗ sồi nhạt"
+        buy: 22
+        sell: 11
+      PALE_OAK_LEAVES:
+        material: PALE_OAK_LEAVES
+        displayname: "&eLá sồi nhạt"
+        buy: 10
+        sell: 5
+      PALE_MOSS_BLOCK:
+        material: PALE_MOSS_BLOCK
+        displayname: "&eKhối rêu nhạt"
+        buy: 20
+        sell: 10
+      PALE_MOSS_CARPET:
+        material: PALE_MOSS_CARPET
+        displayname: "&eThảm rêu nhạt"
+        buy: 7
+        sell: 3
+      PALE_HANGING_MOSS:
+        material: PALE_HANGING_MOSS
+        displayname: "&eRêu rủ nhạt"
+        buy: 20
+        sell: 10
+      RESIN_CLUMP:
+        material: RESIN_CLUMP
+        displayname: "&eKhối nhựa cây"
+        buy: 20
+        sell: 10
+      RESIN_BLOCK:
+        material: RESIN_BLOCK
+        displayname: "&eKhối nhựa đặc"
+        buy: 180
+        sell: 90
+      RESIN_BRICK:
+        material: RESIN_BRICK
+        displayname: "&eViên gạch nhựa"
+        buy: 24
+        sell: 12
+      RESIN_BRICKS:
+        material: RESIN_BRICKS
+        displayname: "&eGạch nhựa"
+        buy: 96
+        sell: 48
+
+  page3:
+    gui-rows: 6
+    items:
+      BAMBOO_BLOCK:
+        material: BAMBOO_BLOCK
+        displayname: "&eKhối tre"
+        buy: 90
+        sell: 45
+      OAK_LEAVES:
+        material: OAK_LEAVES
+        displayname: "&eLá sồi"
+        buy: 10
+        sell: 5
+      BIRCH_LEAVES:
+        material: BIRCH_LEAVES
+        displayname: "&eLá bạch dương"
+        buy: 10
+        sell: 5
+      SPRUCE_LEAVES:
+        material: SPRUCE_LEAVES
+        displayname: "&eLá vân sam"
+        buy: 10
+        sell: 5
+      JUNGLE_LEAVES:
+        material: JUNGLE_LEAVES
+        displayname: "&eLá rừng"
+        buy: 10
+        sell: 5
+      ACACIA_LEAVES:
+        material: ACACIA_LEAVES
+        displayname: "&eLá xiêm gai"
+        buy: 10
+        sell: 5
+      DARK_OAK_LEAVES:
+        material: DARK_OAK_LEAVES
+        displayname: "&eLá sồi sẫm"
+        buy: 10
+        sell: 5
+      MANGROVE_LEAVES:
+        material: MANGROVE_LEAVES
+        displayname: "&eLá đước"
+        buy: 10
+        sell: 5
+      CHERRY_LEAVES:
+        material: CHERRY_LEAVES
+        displayname: "&eLá anh đào"
+        buy: 10
+        sell: 5
+      MANGROVE_ROOTS:
+        material: MANGROVE_ROOTS
+        displayname: "&eRễ cây đước"
+        buy: 16
+        sell: 8
+      OCHRE_FROGLIGHT:
+        material: OCHRE_FROGLIGHT
+        displayname: "&eĐèn ếch nâu hoàng thổ"
+        buy: 200
+        sell: 100
+      VERDANT_FROGLIGHT:
+        material: VERDANT_FROGLIGHT
+        displayname: "&eĐèn ếch xanh cỏ tươi"
+        buy: 200
+        sell: 100
+      PEARLESCENT_FROGLIGHT:
+        material: PEARLESCENT_FROGLIGHT
+        displayname: "&eĐèn ếch tím ngọc trai"
+        buy: 200
+        sell: 100
+      OAK_PLANKS:
+        material: OAK_PLANKS
+        displayname: "&eVán gỗ sồi"
+        buy: 4
+        sell: 2
+      SPRUCE_PLANKS:
+        material: SPRUCE_PLANKS
+        displayname: "&eVán gỗ vân sam"
+        buy: 4
+        sell: 2
+      BIRCH_PLANKS:
+        material: BIRCH_PLANKS
+        displayname: "&eVán gỗ bạch dương"
+        buy: 4
+        sell: 2
+      JUNGLE_PLANKS:
+        material: JUNGLE_PLANKS
+        displayname: "&eVán gỗ rừng"
+        buy: 4
+        sell: 2
+      ACACIA_PLANKS:
+        material: ACACIA_PLANKS
+        displayname: "&eVán gỗ xiêm gai"
+        buy: 4
+        sell: 2
+      DARK_OAK_PLANKS:
+        material: DARK_OAK_PLANKS
+        displayname: "&eVán gỗ sồi sẫm"
+        buy: 4
+        sell: 2
+      MANGROVE_PLANKS:
+        material: MANGROVE_PLANKS
+        displayname: "&eVán gỗ đước"
+        buy: 4
+        sell: 2
+      CHERRY_PLANKS:
+        material: CHERRY_PLANKS
+        displayname: "&eVán gỗ anh đào"
+        buy: 4
+        sell: 2
+      BAMBOO_MOSAIC:
+        material: BAMBOO_MOSAIC
+        displayname: "&eKhảm tre"
+        buy: 90
+        sell: 45
+      PALE_OAK_PLANKS:
+        material: PALE_OAK_PLANKS
+        displayname: "&eVán gỗ sồi nhạt"
+        buy: 4
+        sell: 2
+      CRIMSON_PLANKS:
+        material: CRIMSON_PLANKS
+        displayname: "&eVán đỏ thẫm"
+        buy: 4
+        sell: 2
+      WARPED_PLANKS:
+        material: WARPED_PLANKS
+        displayname: "&eVán kì dị"
+        buy: 4
+        sell: 2
+      SMOOTH_QUARTZ:
+        material: SMOOTH_QUARTZ
+        displayname: "&eKhối thạch anh mịn"
+        buy: 240
+        sell: 120
+      CHISELED_QUARTZ_BLOCK:
+        material: CHISELED_QUARTZ_BLOCK
+        displayname: "&eKhối thạch anh đục"
+        buy: 240
+        sell: 120
+      PRISMARINE_BRICKS:
+        material: PRISMARINE_BRICKS
+        displayname: "&eGạch Prismarin"
+        buy: 180
+        sell: 90
+      CHISELED_SANDSTONE:
+        material: CHISELED_SANDSTONE
+        displayname: "&eCát kết đục"
+        buy: 32
+        sell: 16
+      SMOOTH_RED_SANDSTONE:
+        material: SMOOTH_RED_SANDSTONE
+        displayname: "&eCát kết đỏ mịn"
+        buy: 52
+        sell: 26
+      CHISELED_RED_SANDSTONE:
+        material: CHISELED_RED_SANDSTONE
+        displayname: "&eCát kết đỏ đục"
+        buy: 48
+        sell: 24
+      CHISELED_NETHER_BRICKS:
+        material: CHISELED_NETHER_BRICKS
+        displayname: "&eGạch Nether đục"
+        buy: 32
+        sell: 16
+      CRACKED_NETHER_BRICKS:
+        material: CRACKED_NETHER_BRICKS
+        displayname: "&eGạch Nether nứt"
+        buy: 40
+        sell: 20
+      POLISHED_BLACKSTONE_BRICKS:
+        material: POLISHED_BLACKSTONE_BRICKS
+        displayname: "&eGạch đá đen đánh bóng"
+        buy: 8
+        sell: 4
+      GILDED_BLACKSTONE:
+        material: GILDED_BLACKSTONE
+        displayname: "&eĐá đen mạ vàng"
+        buy: 120
+        sell: 60
+      END_STONE_BRICKS:
+        material: END_STONE_BRICKS
+        displayname: "&eGạch đá End"
+        buy: 20
+        sell: 10
+      PURPUR_PILLAR:
+        material: PURPUR_PILLAR
+        displayname: "&eCột trụ purpur"
+        buy: 160
+        sell: 80
+      CHISELED_RESIN_BRICKS:
+        material: CHISELED_RESIN_BRICKS
+        displayname: "&eGạch nhựa đục"
+        buy: 96
+        sell: 48
+      COPPER_BLOCK:
+        material: COPPER_BLOCK
+        displayname: "&eKhối đồng"
+        buy: 180
+        sell: 90
+      EXPOSED_COPPER:
+        material: EXPOSED_COPPER
+        displayname: "&eKhối đồng phơi sương"
+        buy: 180
+        sell: 90
+      WEATHERED_COPPER:
+        material: WEATHERED_COPPER
+        displayname: "&eKhối đồng phong hóa"
+        buy: 180
+        sell: 90
+      OXIDIZED_COPPER:
+        material: OXIDIZED_COPPER
+        displayname: "&eKhối đồng oxy hóa"
+        buy: 180
+        sell: 90
+      CUT_COPPER:
+        material: CUT_COPPER
+        displayname: "&eĐồng cắt"
+        buy: 180
+        sell: 90
+      EXPOSED_CUT_COPPER:
+        material: EXPOSED_CUT_COPPER
+        displayname: "&eĐồng cắt phơi sương"
+        buy: 180
+        sell: 90
+      WEATHERED_CUT_COPPER:
+        material: WEATHERED_CUT_COPPER
+        displayname: "&eĐồng cắt phong hóa"
+        buy: 180
+        sell: 90
+
+  page4:
+    gui-rows: 6
+    items:
+      OXIDIZED_CUT_COPPER:
+        material: OXIDIZED_CUT_COPPER
+        displayname: "&eĐồng cắt oxy hóa"
+        buy: 180
+        sell: 90
+      CHISELED_COPPER:
+        material: CHISELED_COPPER
+        displayname: "&eĐồng đục"
+        buy: 180
+        sell: 90
+      EXPOSED_CHISELED_COPPER:
+        material: EXPOSED_CHISELED_COPPER
+        displayname: "&eĐồng đục phơi sương"
+        buy: 180
+        sell: 90
+      WEATHERED_CHISELED_COPPER:
+        material: WEATHERED_CHISELED_COPPER
+        displayname: "&eĐồng đục phong hóa"
+        buy: 180
+        sell: 90
+      OXIDIZED_CHISELED_COPPER:
+        material: OXIDIZED_CHISELED_COPPER
+        displayname: "&eĐồng đục oxy hóa"
+        buy: 180
+        sell: 90
+      COPPER_GRATE:
+        material: COPPER_GRATE
+        displayname: "&eSong sắt đồng"
+        buy: 180
+        sell: 90
+      EXPOSED_COPPER_GRATE:
+        material: EXPOSED_COPPER_GRATE
+        displayname: "&eSong sắt đồng phơi sương"
+        buy: 180
+        sell: 90
+      WEATHERED_COPPER_GRATE:
+        material: WEATHERED_COPPER_GRATE
+        displayname: "&eSong sắt đồng phong hóa"
+        buy: 180
+        sell: 90
+      OXIDIZED_COPPER_GRATE:
+        material: OXIDIZED_COPPER_GRATE
+        displayname: "&eSong sắt đồng oxy hóa"
+        buy: 180
+        sell: 90
+      WAXED_COPPER_BLOCK:
+        material: WAXED_COPPER_BLOCK
+        displayname: "&eKhối đồng phủ sáp"
+        buy: 190
+        sell: 95
+      WAXED_EXPOSED_COPPER:
+        material: WAXED_EXPOSED_COPPER
+        displayname: "&eKhối đồng phơi sương phủ sáp"
+        buy: 190
+        sell: 95
+      WAXED_WEATHERED_COPPER:
+        material: WAXED_WEATHERED_COPPER
+        displayname: "&eKhối đồng phong hóa phủ sáp"
+        buy: 190
+        sell: 95
+      WAXED_OXIDIZED_COPPER:
+        material: WAXED_OXIDIZED_COPPER
+        displayname: "&eKhối đồng oxy hóa phủ sáp"
+        buy: 190
+        sell: 95
+      WAXED_CUT_COPPER:
+        material: WAXED_CUT_COPPER
+        displayname: "&eĐồng cắt phủ sáp"
+        buy: 190
+        sell: 95
+      WAXED_EXPOSED_CUT_COPPER:
+        material: WAXED_EXPOSED_CUT_COPPER
+        displayname: "&eĐồng cắt phơi sương phủ sáp"
+        buy: 190
+        sell: 95
+      WAXED_WEATHERED_CUT_COPPER:
+        material: WAXED_WEATHERED_CUT_COPPER
+        displayname: "&eĐồng cắt phong hóa phủ sáp"
+        buy: 190
+        sell: 95
+      WAXED_OXIDIZED_CUT_COPPER:
+        material: WAXED_OXIDIZED_CUT_COPPER
+        displayname: "&eĐồng cắt oxy hóa phủ sáp"
+        buy: 190
+        sell: 95
+      WAXED_CHISELED_COPPER:
+        material: WAXED_CHISELED_COPPER
+        displayname: "&eĐồng đục phủ sáp"
+        buy: 190
+        sell: 95
+      WAXED_EXPOSED_CHISELED_COPPER:
+        material: WAXED_EXPOSED_CHISELED_COPPER
+        displayname: "&eĐồng đục phơi sương phủ sáp"
+        buy: 190
+        sell: 95
+      WAXED_WEATHERED_CHISELED_COPPER:
+        material: WAXED_WEATHERED_CHISELED_COPPER
+        displayname: "&eĐồng đục phong hóa phủ sáp"
+        buy: 190
+        sell: 95
+      WAXED_OXIDIZED_CHISELED_COPPER:
+        material: WAXED_OXIDIZED_CHISELED_COPPER
+        displayname: "&eĐồng đục oxy hóa phủ sáp"
+        buy: 190
+        sell: 95
+      WAXED_COPPER_GRATE:
+        material: WAXED_COPPER_GRATE
+        displayname: "&eSong sắt đồng phủ sáp"
+        buy: 190
+        sell: 95
+      WAXED_EXPOSED_COPPER_GRATE:
+        material: WAXED_EXPOSED_COPPER_GRATE
+        displayname: "&eSong sắt đồng phơi sương phủ sáp"
+        buy: 190
+        sell: 95
+      WAXED_WEATHERED_COPPER_GRATE:
+        material: WAXED_WEATHERED_COPPER_GRATE
+        displayname: "&eSong sắt đồng phong hóa phủ sáp"
+        buy: 190
+        sell: 95
+      WAXED_OXIDIZED_COPPER_GRATE:
+        material: WAXED_OXIDIZED_COPPER_GRATE
+        displayname: "&eSong sắt đồng oxy hóa phủ sáp"
+        buy: 190
+        sell: 95

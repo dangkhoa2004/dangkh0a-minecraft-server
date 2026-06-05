@@ -1,0 +1,214 @@
+inventory:
+  armor:
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:turtle_helmet
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khóa
+        Đòn IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Băng
+        Giá III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Đáp
+        Trả IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bảo
+        Vệ II",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Creeper
+        Armor IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Dinh
+        Dưỡng III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khiên
+        Ngàn Tấn V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Né
+        Đòn V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ngự
+        Hỏa I",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Quỹ
+        Đạo IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thủ
+        Vệ X",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Xe
+        Tăng IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bọc
+        Thép V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Đổi
+        Chiều V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Hóa
+        Cứng III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khắc
+        Phục III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Phong
+        Tỏa III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Quá
+        Tải III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Tà
+        Linh V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bất
+        Diệt IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#BDB2FF",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#BDB2FF",italic:0b,obfuscated:0b,strikethrough:0b,text:"kʜᴇ
+        ᴛʀốɴɢ ",underlined:0b},{color:"gray",italic:0b,text:": 0"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:aqua_affinity":1,"minecraft:fire_protection":3,"minecraft:protection":6,"minecraft:unbreaking":4,"minecraft:vanishing_curse":1}'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Meo
+        meo",underlined:0b}],text:""}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-banggia":3,"advancedenchantments:ae_enchantment-baove":2,"advancedenchantments:ae_enchantment-batdiet":4,"advancedenchantments:ae_enchantment-bocthep":5,"advancedenchantments:ae_enchantment-creeperarmor":4,"advancedenchantments:ae_enchantment-daptra":4,"advancedenchantments:ae_enchantment-dinhduong":3,"advancedenchantments:ae_enchantment-doichieu":5,"advancedenchantments:ae_enchantment-hoacung":3,"advancedenchantments:ae_enchantment-khacphuc":3,"advancedenchantments:ae_enchantment-khienngantan":5,"advancedenchantments:ae_enchantment-khoadon":4,"advancedenchantments:ae_enchantment-nedon":5,"advancedenchantments:ae_enchantment-nguhoa":1,"advancedenchantments:ae_enchantment-phongtoa":3,"advancedenchantments:ae_enchantment-quatai":3,"advancedenchantments:ae_enchantment-quydao":4,"advancedenchantments:ae_enchantment-talinh":5,"advancedenchantments:ae_enchantment-thuve":10,"advancedenchantments:ae_enchantment-xetang":4,"advancedenchantments:repaircost":63,"advancedenchantments:slots":9},armor:"turt"}'
+      minecraft:damage: '1'
+    schema_version: 1
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_axe
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:-4.0d,id:"minecraft:rift_axe_rm",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:1.0499999523162842d,id:"minecraft:rift_axe",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:11.0d,id:"minecraft:rift_axe",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"}]'
+      minecraft:lore: '[" ",{color:"green",italic:0b,text:"Ability:"},{color:"gray",italic:0b,text:"Hitting
+        the opponent has a 15% chance "},{color:"gray",italic:0b,text:"to crumble
+        their spirit, reducing their "},{color:"gray",italic:0b,text:"maximum health
+        by 25% and disables the "},{color:"gray",italic:0b,text:"Regeneration effect
+        for 10 seconds. "},"  ",{color:"gray",italic:0b,text:"When in Main Hand:"},{color:"dark_green",italic:0b,text:"
+        12 Attack Damage"},{color:"dark_green",italic:0b,text:" 1.05 Attack Speed"}]'
+      minecraft:unbreakable: '{}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers"]}'
+      minecraft:custom_name: '{color:"gold",italic:0b,text:"Rift Battle Axe"}'
+      minecraft:enchantments: '{"minecraft:efficiency":6,"minecraft:knockback":1,"minecraft:looting":5,"minecraft:sharpness":3,"minecraft:silk_touch":1,"mt:weapons/rift_axe":1}'
+      minecraft:custom_data: '{mt:"weapon",weapon:"riftaxe"}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_pickaxe
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:1.399999976158142d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:-4.0d,id:"minecraft:mine_treasure_rm",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:10.0d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"}]'
+      minecraft:lore: '[{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bất
+        Hoại I",underlined:0b}],text:""},{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Giả
+        Kim III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Phép
+        Nhân V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Vội
+        Vàng III",underlined:0b}],text:""},{extra:["  "],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"When
+        in Main Hand:",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"
+        11 Attack Damage",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"
+        1.4 Attack Speed",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:1b,obfuscated:0b,strikethrough:0b,text:"((
+        ",underlined:0b},{bold:0b,color:"#C63C3C",italic:1b,obfuscated:0b,strikethrough:0b,text:"Dấu
+        ấn kí chủ ",underlined:0b},{color:"dark_gray",italic:1b,text:"))"}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 10"}],text:""},{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"BlockTrak
+        Khối Đã Phá: ",underlined:0b},{color:"gold",italic:0b,text:"34364"}],text:""},{extra:[{bold:0b,color:"#FCD05C",italic:0b,obfuscated:0b,strikethrough:0b,text:"sᴛᴀᴛs:
+        ᴋʜốɪ Đã ᴘʜá: ",underlined:0b},{bold:0b,color:"#FFD700",italic:0b,obfuscated:0b,strikethrough:0b,text:"40541",underlined:0b}],text:""}]'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers"]}'
+      minecraft:enchantments: '{"minecraft:efficiency":10,"minecraft:sharpness":2,"minecraft:silk_touch":1,"minecraft:unbreaking":5}'
+      minecraft:custom_name: '{color:"gold",italic:0b,text:"Deep Dark Netherite Pickaxe"}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-bathoai":1,"advancedenchantments:ae_enchantment-giakim":3,"advancedenchantments:ae_enchantment-phepnhan":5,"advancedenchantments:ae_enchantment-voivang":3,"advancedenchantments:blocktrak":40541L,"advancedenchantments:holywhitescrolled":"true","advancedenchantments:slots":-1},tool:"deep_dark_pickaxe"}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:golden_carrot
+    count: 60
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:enchanted_golden_apple
+    count: 53
+    schema_version: 1
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:stone_sword
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:-2.5d,id:"minecraft:wither_sword",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:6.5d,id:"minecraft:wither_sword",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"}]'
+      minecraft:lore: '[{extra:[{bold:0b,color:"#CCCCCC",italic:0b,obfuscated:0b,strikethrough:0b,text:"Tường
+        Lực V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Đói
+        Khát IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Gặm
+        Nhấm IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Lông
+        Hồng III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thiên
+        Lôi III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Che
+        Mắt III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Độc
+        Dược III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ma
+        Cà Rồng III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Tê
+        Liệt IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bối
+        Rối IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Chông
+        Băng III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Trì
+        Trệ II",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Permafrost
+        V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Phá
+        Hoại IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Xáo
+        Trộn III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Hút
+        Máu V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Táy
+        Máy IX",underlined:0b}],text:""},{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Hù
+        Dọa V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Phế
+        Nhân IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Vô
+        Năng II",underlined:0b}],text:""},{extra:[" "],text:""},{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ability:",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Has
+        a 25% chance to apply Wither II",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"for
+        7 seconds upon hitting an enemy. ",underlined:0b}],text:""},{extra:["  "],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"When
+        in Main Hand:",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"
+        7.5 Attack Damage",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"
+        1.5 Attack Speed",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 0"}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#BDB2FF",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#BDB2FF",italic:0b,obfuscated:0b,strikethrough:0b,text:"kʜᴇ
+        ᴛʀốɴɢ ",underlined:0b},{color:"gray",italic:0b,text:": 0"}],text:""}]'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers"]}'
+      minecraft:enchantments: '{"minecraft:bane_of_arthropods":4,"minecraft:looting":3,"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:smite":4,"minecraft:unbreaking":7,"mt:weapons/wither_sword":1}'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"dark_aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"HentaiZ",underlined:0b}],text:""}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-boiroi":4,"advancedenchantments:ae_enchantment-chemat":3,"advancedenchantments:ae_enchantment-chongbang":3,"advancedenchantments:ae_enchantment-docduoc":3,"advancedenchantments:ae_enchantment-doikhat":4,"advancedenchantments:ae_enchantment-gamnham":4,"advancedenchantments:ae_enchantment-hudoa":5,"advancedenchantments:ae_enchantment-hutmau":5,"advancedenchantments:ae_enchantment-interrupt":2,"advancedenchantments:ae_enchantment-longhong":3,"advancedenchantments:ae_enchantment-macarong":3,"advancedenchantments:ae_enchantment-permafrost":5,"advancedenchantments:ae_enchantment-phahoai":4,"advancedenchantments:ae_enchantment-phenhan":4,"advancedenchantments:ae_enchantment-taymay":9,"advancedenchantments:ae_enchantment-teliet":4,"advancedenchantments:ae_enchantment-thienloi":3,"advancedenchantments:ae_enchantment-tuongluc":5,"advancedenchantments:ae_enchantment-vonang":2,"advancedenchantments:ae_enchantment-xaotron":3,"advancedenchantments:repaircost":63,"advancedenchantments:slots":9},mt:"weapon",weapon:"wither_sword"}'
+    schema_version: 1
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:turtle_helmet
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khóa
+        Đòn IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Băng
+        Giá III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Đáp
+        Trả IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bảo
+        Vệ II",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Creeper
+        Armor IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Dinh
+        Dưỡng III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khiên
+        Ngàn Tấn V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Né
+        Đòn V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ngự
+        Hỏa I",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Quỹ
+        Đạo IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thủ
+        Vệ X",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Xe
+        Tăng IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bọc
+        Thép V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Đổi
+        Chiều V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Hóa
+        Cứng III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khắc
+        Phục III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Phong
+        Tỏa III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Quá
+        Tải III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Tà
+        Linh V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bất
+        Diệt IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#BDB2FF",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#BDB2FF",italic:0b,obfuscated:0b,strikethrough:0b,text:"kʜᴇ
+        ᴛʀốɴɢ ",underlined:0b},{color:"gray",italic:0b,text:": 0"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:aqua_affinity":1,"minecraft:fire_protection":3,"minecraft:protection":6,"minecraft:unbreaking":4,"minecraft:vanishing_curse":1}'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Meo
+        meo",underlined:0b}],text:""}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-banggia":3,"advancedenchantments:ae_enchantment-baove":2,"advancedenchantments:ae_enchantment-batdiet":4,"advancedenchantments:ae_enchantment-bocthep":5,"advancedenchantments:ae_enchantment-creeperarmor":4,"advancedenchantments:ae_enchantment-daptra":4,"advancedenchantments:ae_enchantment-dinhduong":3,"advancedenchantments:ae_enchantment-doichieu":5,"advancedenchantments:ae_enchantment-hoacung":3,"advancedenchantments:ae_enchantment-khacphuc":3,"advancedenchantments:ae_enchantment-khienngantan":5,"advancedenchantments:ae_enchantment-khoadon":4,"advancedenchantments:ae_enchantment-nedon":5,"advancedenchantments:ae_enchantment-nguhoa":1,"advancedenchantments:ae_enchantment-phongtoa":3,"advancedenchantments:ae_enchantment-quatai":3,"advancedenchantments:ae_enchantment-quydao":4,"advancedenchantments:ae_enchantment-talinh":5,"advancedenchantments:ae_enchantment-thuve":10,"advancedenchantments:ae_enchantment-xetang":4,"advancedenchantments:repaircost":63,"advancedenchantments:slots":9},armor:"turt"}'
+      minecraft:damage: '1'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:amethyst_shard
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:2.0d,id:"minecraft:end_reach",operation:"add_value",slot:"offhand",type:"minecraft:block_interaction_range"}]'
+      minecraft:lore: '[{color:"gray",italic:0b,text:"Putting this in offhand "},{color:"gray",italic:0b,text:"increases
+        build reach by "},{color:"gray",italic:0b,text:"2 blocks. "}]'
+      minecraft:custom_name: '{color:"light_purple",italic:0b,text:"End Amulet"}'
+    schema_version: 1
+  - null
+  - null

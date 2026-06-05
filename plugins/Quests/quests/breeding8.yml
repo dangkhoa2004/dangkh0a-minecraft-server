@@ -1,0 +1,56 @@
+# Tên của file này là ID nhiệm vụ. Nó phải là chữ/số và không được trùng lặp.
+
+# Mọi thứ trong phần này định nghĩa các tiến độ mà người chơi phải hoàn thành.
+tasks:
+  # Đây là ID tiến độ ("mining"). Nó có thể giống tên với ID nhiệm vụ nhưng BẮT BUỘC phải khác với các ID tiến độ khác trong cùng nhiệm vụ này.
+  breeding:
+    # Dòng này xác định loại tiến độ. Trong ví dụ này, nó là "blockbreak" (đập block)
+    # LƯU Ý: Hướng dẫn cài đặt từng loại tiến độ có trên wiki (xem file README)!
+    type: "breeding"
+    # Dòng này xác định số lượng block cần đập
+    amount: 300
+  # Bạn có thể có nhiều tiến độ cho mỗi nhiệm vụ (xem ví dụ ở dưới).
+
+  # Mọi thứ trong phần này định nghĩa vật phẩm hiển thị.
+display:
+  # Đây là tên của vật phẩm. Cho phép dùng mã màu.
+  name: "&#A3C4F3&nɴʜɪệᴍ ᴠụ ɴʜâɴ ɢɪốɴɢ:&r &#FDFD96ᴠɪɪɪ"
+  # Đây là mô tả của vật phẩm nếu người chơi chưa bắt đầu nhiệm vụ. Cho phép dùng mã màu và biến số người chơi/tiến độ.
+  lore-normal:
+  - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó'
+  - '&#D1E8E2ᴠớɪ độɴɢ ᴠậᴛ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+  - ''
+  - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ɴʜâɴ ɢɪốɴɢ 300 ᴄᴏɴ ᴠậᴛ.'
+  - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{breeding:progress}/300 ᴄᴏɴ.'
+  - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC01850$'
+  - ''
+  # Mô tả này sẽ được nối vào bên dưới mô tả trên khi người chơi bắt đầu nhiệm vụ.
+  # Để lấy tiến độ của người chơi, dùng {TASKID:progress} và thay thế TASKID bằng ID của tiến độ.
+  lore-started:
+  - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  # Đây là ID vật phẩm. Khuyên dùng tên chuẩn của Bukkit.
+  type: "CARROT"
+  # Ghi chú: Bổ sung HIDE_ATTRIBUTES theo tiêu chuẩn UI Premium
+  itemflags:
+  - "HIDE_ATTRIBUTES"
+
+# Danh sách các lệnh được máy chủ thực thi khi người chơi hoàn thành nhiệm vụ. Dùng {player} để lấy tên người chơi.
+rewards:
+- "eco give {player} 1850"
+
+# Mọi thứ trong phần này định nghĩa các tùy chọn riêng của nhiệm vụ.
+options:
+  # Đây là danh mục của nhiệm vụ, nó sẽ hiện dưới danh mục "examples". Có thể tắt danh mục.
+  category: "breeding"
+  # Cài đặt nếu nhiệm vụ có thể lặp lại sau khi hoàn thành lần đầu.
+  repeatable: false
+  # Xác định thời gian chờ. Cài đặt (repeatable) ở trên phải là true thì mới có tác dụng.
+  cooldown:
+    # Nếu true, người chơi sẽ phải đợi giữa các lần lặp lại nhiệm vụ.
+    enabled: true
+    # Thời gian (tính bằng phút)
+    time: 1440
+  # Đây là vị trí tương đối trong GUI
+  sort-order: 8
+  requires:
+  - "breeding7"

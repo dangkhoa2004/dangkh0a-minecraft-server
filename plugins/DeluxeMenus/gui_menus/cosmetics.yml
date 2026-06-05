@@ -1,0 +1,253 @@
+menu_title: '&#BDB2FF&l❁ ᴍᴇɴᴜ ɴɢᴏạɪ ᴛʀᴀɴɢ ❁'
+open_command:
+- cosmetics
+- cosmeticmenu
+- cosmeticsmenu
+- trails
+- colors
+register_command: true
+size: 45
+
+items:
+  'Filler_Outer':
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+    - 0-9
+    - 17-18
+    - 26-27
+    - 35-39
+    - 41-44
+    display_name: ' '
+    priority: 10
+
+  'Filler_Inner':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 10-12
+    - 14-16
+    - 19-25
+    - 29
+    - 31
+    - 33
+    display_name: ' '
+    priority: 10
+
+  # ==================================================
+  # AVATAR NGƯỜI CHƠI - SLOT 13
+  # ==================================================
+  'player_avatar':
+    slot: 13
+    material: head-%player_name%
+    display_name: '&#FCD05C&l❁ ᴘʜᴏɴɢ ᴄáᴄʜ ᴄủᴀ %player_name% ❁'
+    lore:
+    - '&8Tùy chỉnh diện mạo của bạn'
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Cá nhân hóa vẻ ngoài của bạn'
+    - '  &#E0E0E0với các hiệu ứng độc đáo.'
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Trở nên nổi bật giữa sảnh chờ'
+    - '  &#E0E0E0và đấu trường ngay hôm nay.'
+
+  # ==================================================
+  # SLOT 28: CHAT COLORS (MÀU CHAT)
+  # ==================================================
+  'chat_colors_unlocked':
+    slot: 28
+    priority: 1
+    material: NAME_TAG
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: chatcolor.unlocked
+    display_name: '&#FFB7B2&l❁ ᴍàᴜ ᴄʜᴀᴛ ❁'
+    lore:
+    - '&8Thay đổi màu sắc tin nhắn'
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Tùy chỉnh màu sắc và định dạng'
+    - '  &#E0E0E0tin nhắn của bạn trên kênh chat.'
+    - ''
+    - ' &#57F287✔ Đặc quyền:'
+    - '  &#888888• &#E0E0E0Có sẵn hơn 16 màu sắc.'
+    - '  &#888888• &#E0E0E0Bao gồm in đậm, in nghiêng...'
+    - ''
+    - '&#FFB7B2▶ &#E0E0E0Nhấn để mở menu'
+    click_commands:
+    - '[sound] UI_CARTOGRAPHY_TABLE_TAKE_RESULT'
+
+    - '[player] chatcolor gui'
+
+  'chat_colors_locked':
+    slot: 28
+    priority: 2
+    material: GRAY_DYE
+    display_name: '&#888888&l❁ ᴍàᴜ ᴄʜᴀᴛ ❁'
+    lore:
+    - '&8Ngoại trang bị khóa'
+    - ''
+    - ' &#ED4245✖ Yêu cầu Mở khóa:'
+    - '  &#888888• &#E0E0E0Bạn cần đạt Cấp 1 để mở khóa.'
+    - '  &#888888• &#E0E0E0Chơi nhiều hơn để nhận thêm EXP.'
+    - ''
+    - ' &#ED4245[!] &#E0E0E0Bị khóa cho đến Cấp 1'
+    click_commands:
+    - '[sound] ENTITY_VILLAGER_NO'
+
+    - '[message] &#ED4245&l[Ngoại Trang] &#E0E0E0Bạn cần đạt Cấp 1 để mở khóa Màu Chat!'
+
+  # ==================================================
+  # SLOT 30: PLAYER GLOW (VIỀN SÁNG NHÂN VẬT)
+  # ==================================================
+  'player_glow_unlocked':
+    slot: 30
+    priority: 1
+    material: SPECTRAL_ARROW
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: glows.unlocked
+    display_name: '&#57F287&l❁ ᴠɪềɴ sáɴɢ (ɢʟᴏᴡ) ❁'
+    lore:
+    - '&8Tỏa sáng với đường viền'
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Làm bản thân tỏa sáng rực rỡ'
+    - '  &#E0E0E0với các đường viền đẹp mắt.'
+    - ''
+    - ' &#57F287✔ Đặc quyền:'
+    - '  &#888888• &#E0E0E0Có sẵn 12 màu viền.'
+    - '  &#888888• &#E0E0E0Có thể nhìn xuyên thấu qua tường.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để trang bị viền sáng'
+    click_commands:
+    - '[sound] ITEM_ARMOR_EQUIP_DIAMOND'
+
+    - '[player] glow'
+
+  'player_glow_locked':
+    slot: 30
+    priority: 2
+    material: GRAY_DYE
+    display_name: '&#888888&l❁ ᴠɪềɴ sáɴɢ (ɢʟᴏᴡ) ❁'
+    lore:
+    - '&8Ngoại trang bị khóa'
+    - ''
+    - ' &#ED4245✖ Yêu cầu Mở khóa:'
+    - '  &#888888• &#E0E0E0Bạn cần đạt Cấp 1 để mở khóa.'
+    - '  &#888888• &#E0E0E0Chơi nhiều hơn để nhận thêm EXP.'
+    - ''
+    - ' &#ED4245[!] &#E0E0E0Bị khóa cho đến Cấp 1'
+    click_commands:
+    - '[sound] ENTITY_VILLAGER_NO'
+
+    - '[message] &#ED4245&l[Ngoại Trang] &#E0E0E0Bạn cần đạt Cấp 1 để mở khóa Viền Sáng!'
+
+  # ==================================================
+  # SLOT 32: PARTICLE TRAILS (HIỆU ỨNG BƯỚC CHÂN)
+  # ==================================================
+  'trails_unlocked':
+    slot: 32
+    priority: 1
+    material: FIREWORK_ROCKET
+    item_flags: [ HIDE_ATTRIBUTES ]
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: trails.unlocked
+    display_name: '&#AEC6CF&l❁ ʜɪệᴜ ứɴɢ ʙướᴄ ᴄʜâɴ (ᴛʀᴀɪʟs) ❁'
+    lore:
+    - '&8Để lại các hạt hiệu ứng khi di chuyển'
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Để lại một vệt dài các hạt hiệu'
+    - '  &#E0E0E0ứng tuyệt đẹp ngay sau lưng bạn.'
+    - ''
+    - ' &#57F287✔ Đặc quyền:'
+    - '  &#888888• &#E0E0E0Hơn 20 loại hiệu ứng (tim, lửa...).'
+    - '  &#888888• &#E0E0E0Tùy biến hạt hiệu ứng đa dạng.'
+    - ''
+    - '&#AEC6CF▶ &#E0E0E0Nhấn để xem các hiệu ứng'
+    click_commands:
+    - '[sound] ENTITY_FIREWORK_ROCKET_LAUNCH'
+
+    - '[player] simplecosmetics:cosmetics'
+
+  'trails_locked':
+    slot: 32
+    priority: 2
+    material: GRAY_DYE
+    display_name: '&#888888&l❁ ʜɪệᴜ ứɴɢ ʙướᴄ ᴄʜâɴ (ᴛʀᴀɪʟs) ❁'
+    lore:
+    - '&8Ngoại trang bị khóa'
+    - ''
+    - ' &#ED4245✖ Yêu cầu Mở khóa:'
+    - '  &#888888• &#E0E0E0Bạn cần đạt Cấp 1 để mở khóa.'
+    - '  &#888888• &#E0E0E0Chơi nhiều hơn để nhận thêm EXP.'
+    - ''
+    - ' &#ED4245[!] &#E0E0E0Bị khóa cho đến Cấp 1'
+    click_commands:
+    - '[sound] ENTITY_VILLAGER_NO'
+
+    - '[message] &#ED4245&l[Ngoại Trang] &#E0E0E0Bạn cần đạt Cấp 1 để mở khóa Hiệu ứng Bước chân!'
+
+  # ==================================================
+  # SLOT 34: KILL EFFECTS (HIỆU ỨNG HẠ GỤC)
+  # ==================================================
+  'kill_effects_unlocked':
+    slot: 34
+    priority: 1
+    material: DIAMOND_SWORD
+    item_flags: [ HIDE_ATTRIBUTES ]
+    view_requirement:
+      requirements:
+        has_perm:
+          type: has permission
+          permission: killeffects.unlocked
+    display_name: '&#ED4245&l❁ ʜɪệᴜ ứɴɢ ʜạ ɢụᴄ ❁'
+    lore:
+    - '&8Tùy chỉnh pha hạ gục của bạn'
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Gây ấn tượng mạnh với những'
+    - '  &#E0E0E0pha hạ gục cực chất.'
+    - ''
+    - ' &#57F287✔ Đặc quyền:'
+    - '  &#888888• &#E0E0E0Hơn 10 ngoại trang hạ gục.'
+    - '  &#888888• &#E0E0E0Hiệu ứng Nổ & Sét đánh.'
+    - ''
+    - '&#ED4245▶ &#E0E0E0Nhấn để chọn hiệu ứng'
+    click_commands:
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+
+    - '[message] &#ED4245&l[Ngoại Trang] &#E0E0E0Tính năng này hiện đang được bảo trì!'
+
+  'kill_effects_locked':
+    slot: 34
+    priority: 2
+    material: GRAY_DYE
+    display_name: '&#888888&l❁ ʜɪệᴜ ứɴɢ ʜạ ɢụᴄ ❁'
+    lore:
+    - '&8Ngoại trang bị khóa'
+    - ''
+    - ' &#ED4245✖ Yêu cầu Mở khóa:'
+    - '  &#888888• &#E0E0E0Bạn cần đạt Cấp 5 để mở khóa.'
+    - '  &#888888• &#E0E0E0Chơi nhiều hơn để nhận thêm EXP.'
+    - ''
+    - ' &#ED4245[!] &#E0E0E0Bị khóa cho đến Cấp 5'
+    click_commands:
+    - '[sound] ENTITY_VILLAGER_NO'
+
+    - '[message] &#ED4245&l[Ngoại Trang] &#E0E0E0Bạn cần đạt Cấp 5 để mở khóa Hiệu ứng Hạ gục!'
+
+  # ==================================================
+  # NÚT ĐÓNG (SLOT 40)
+  # ==================================================
+  'close_button':
+    slot: 40
+    material: BARRIER
+    display_name: '&#ED4245&l✖ Đóɴɢ ᴍᴇɴᴜ'
+    lore:
+    - '&8Quay lại trò chơi'
+    - ''
+    - '&#ED4245▶ &#E0E0E0Nhấn để đóng giao diện'
+    click_commands:
+    - '[sound] BLOCK_CHEST_CLOSE'

@@ -1,0 +1,29 @@
+tasks:
+  mobkilling:
+    type: "mobkillingcertain"
+    amount: 50
+    mob: BLAZE
+display:
+  name: "&#A3C4F3&nꜱăɴ đᴜổɪ ǫᴜáɪ ᴠậᴛ:&r &#FDFD96#12"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó'
+    - '&#D1E8E2ᴛɪêᴜ ᴅɪệᴛ ǫᴜỷ ʟửᴀ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴛɪêᴜ ᴅɪệᴛ ʙʟᴀᴢᴇ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{mobkilling:progress}/50 ᴄᴏɴ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$800'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "BLAZE_SPAWN_EGG"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 800"
+options:
+  category: "mobkilling"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 2880
+  sort-order: 12

@@ -1,0 +1,15 @@
+part-separator: " "
+
+from-to:
+  text: "<#AEC6CF>[<white>{sender_name} <#AEC6CF>➥ <white>Tôi<#AEC6CF>]"
+  hover:
+    - "<#888888>%server_time_yyyy-MM-dd HH:mm:ss%"
+    - "<white>{sender_name} <#E0E0E0>đã gửi tin nhắn này cho <white>bạn<#E0E0E0>."
+    - ""
+    - "<#57F287>▶ Nhấn để trả lời!"
+  suggest: "/msg {sender_name} "
+
+message:
+  text: "<#fcfcfc>{message}"
+  hover: "<#ED4245>▶ Nhấn để báo cáo tin nhắn của {sender_name}!"
+  suggest: "/report {sender_name} "

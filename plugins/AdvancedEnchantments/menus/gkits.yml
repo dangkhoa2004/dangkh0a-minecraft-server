@@ -1,0 +1,3238 @@
+# GKits Configuration File
+# Remaked & Optimized for Pastel Premium HEX
+
+gkits-enabled: true
+
+inventory:
+  size: 4
+  name: '{#BDB2FF}&l❁ ɢᴋɪᴛs ❁'
+  custom-command:
+  - /gkit
+  - /gkits
+  sounds:
+    inventory-open: UI_BUTTON_CLICK
+    kit-use: ENTITY_PLAYER_LEVELUP
+
+preview:
+  enabled: true
+  inventory:
+    inv-name: '{#BDB2FF}&l❁ xᴇᴍ ᴛʀướᴄ: %gkit% ❁'
+    max-size: 6
+    fill-blanks: true
+    material: STAINED_GLASS_PANE
+    data: 0
+    go-back-item:
+      material: STAINED_GLASS_PANE
+      data: 14
+      custom-model-data: 0
+      name: '{#ED4245}&l✖ ǫᴜᴀʏ ʟạɪ ᴍᴇɴᴜ'
+      lore: []
+
+customization:
+  '27':
+    amount: 1
+    custom-model-data: 0
+    damage: 0
+    lore: []
+    material: STAINED_GLASS_PANE
+    name: ' '
+  '28':
+    amount: 1
+    custom-model-data: 0
+    damage: 0
+    lore: []
+    material: STAINED_GLASS_PANE
+    name: ' '
+  '29':
+    amount: 1
+    custom-model-data: 0
+    damage: 0
+    lore: []
+    material: STAINED_GLASS_PANE
+    name: ' '
+  '30':
+    amount: 1
+    custom-model-data: 0
+    damage: 0
+    lore: []
+    material: STAINED_GLASS_PANE
+    name: ' '
+  '31':
+    amount: 1
+    custom-model-data: 0
+    damage: 0
+    lore: []
+    material: STAINED_GLASS_PANE
+    name: ' '
+  '32':
+    amount: 1
+    custom-model-data: 0
+    damage: 0
+    lore: []
+    material: STAINED_GLASS_PANE
+    name: ' '
+  '33':
+    amount: 1
+    custom-model-data: 0
+    damage: 0
+    lore: []
+    material: STAINED_GLASS_PANE
+    name: ' '
+  '34':
+    amount: 1
+    custom-model-data: 0
+    damage: 0
+    lore: []
+    material: STAINED_GLASS_PANE
+    name: ' '
+  '35':
+    amount: 1
+    custom-model-data: 0
+    damage: 0
+    lore: []
+    material: STAINED_GLASS_PANE
+    name: ' '
+
+kits:
+  Admiral:
+    content:
+      '1':
+        advanced-enchantments:
+        - lifesteal:%1-5%
+        - inquisitive:%1-4%
+        - paralyze:%1-4%
+        - featherweight:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - sharpness:5
+        - fire_aspect:2
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oThánh kiếm huyền thoại mang sức'
+        - '{#E0E0E0}&omạnh của sấm sét.'
+        material: DIAMOND_SWORD
+        name: '{#FCD05C}&lThánh Kiếm Excalibur'
+      '2':
+        advanced-enchantments:
+        - hardened:%1-3%
+        - frozen:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oĐược khâu hoàn hảo với những'
+        - '{#E0E0E0}&ođường thêu tinh xảo.'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lMũ Quân Đội Đô Đốc'
+      '3':
+        advanced-enchantments:
+        - overload:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oSự tồn tại của những tấm huy chương'
+        - '{#E0E0E0}&ođảm bảo chiến thắng cho bạn.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lÁo Khoác Quân Đội Đô Đốc'
+      '4':
+        advanced-enchantments:
+        - armored:%1-4%
+        - guardians:%1-10%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oChiến tranh đã lấy đi nhiều thứ'
+        - '{#E0E0E0}&onhưng bạn không bao giờ đầu hàng.'
+        material: DIAMOND_LEGGINGS
+        name: '{#FCD05C}&lQuần Sinh Học Phi Hành Gia'
+      '5':
+        advanced-enchantments:
+        - gears:%1-3%
+        - springs:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oChiến lợi phẩm từ chiến tranh,'
+        - '{#E0E0E0}&ocó điều gì đó kỳ lạ về đôi bốt này.'
+        material: DIAMOND_BOOTS
+        name: '{#FCD05C}&lGiày Của Hư Không'
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Thánh Kiếm Excalibur'
+        - ' {#fcfcfc}❖ {#E0E0E0}Quần Sinh Học Phi Hành Gia'
+        - ' {#fcfcfc}❖ {#E0E0E0}Giày Của Hư Không'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Khoác Quân Đội Đô Đốc'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Quân Đội Đô Đốc'
+        - ''
+        - ' {#AEC6CF}Quân đội đáng sợ nhất trong vũ trụ.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: NETHER_STAR
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ Đô Đốᴄ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Thánh Kiếm Excalibur'
+        - ' {#fcfcfc}❖ {#E0E0E0}Quần Sinh Học Phi Hành Gia'
+        - ' {#fcfcfc}❖ {#E0E0E0}Giày Của Hư Không'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Khoác Quân Đội Đô Đốc'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Quân Đội Đô Đốc'
+        - ''
+        - ' {#AEC6CF}Quân đội đáng sợ nhất trong vũ trụ.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ Đô Đốᴄ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Thánh Kiếm Excalibur'
+        - ' {#fcfcfc}❖ {#E0E0E0}Quần Sinh Học Phi Hành Gia'
+        - ' {#fcfcfc}❖ {#E0E0E0}Giày Của Hư Không'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Khoác Quân Đội Đô Đốc'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Quân Đội Đô Đốc'
+        - ''
+        - ' {#AEC6CF}Quân đội đáng sợ nhất trong vũ trụ.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: NETHER_STAR
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ Đô Đốᴄ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.admiral
+    slot: 12
+  Arcane:
+    content:
+      '1':
+        advanced-enchantments:
+        - glowing:1
+        - overload:%1-3%
+        - angelic:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oChiếc mũ phù thủy nhọn hoắt'
+        - '{#E0E0E0}&olốm đốm những vì sao..'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lMũ Pháp Sư'
+      '2':
+        advanced-enchantments:
+        - shockwave:%1-5%
+        - angelic:%1-3%
+        - spirits:%1-10%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oMột chiếc áo lụa sáng màu..'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lÁo Choàng Pháp Sư'
+      '3':
+        advanced-enchantments:
+        - angelic:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oChiếc quần phồng sặc sỡ.'
+        material: DIAMOND_LEGGINGS
+        name: '{#FCD05C}&lQuần Pháp Sư'
+      '4':
+        advanced-enchantments:
+        - angelic:%1-5%
+        - gears:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oMũi nhọn, vui vẻ, và hoàn toàn ma thuật.'
+        material: DIAMOND_BOOTS
+        name: '{#FCD05C}&lGiày Tiên Pháp Sư'
+      '5':
+        advanced-enchantments:
+        - sniper:%1-5%
+        - piercing:%1-5%
+        - longbow:%1-4%
+        - blind:%1-3%
+        - snare:%1-4%
+        - virus:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - power:5
+        - flame:1
+        - unbreaking:3
+        - infinity:1
+        lore:
+        - '{#E0E0E0}&oMột cây trường cung trong suốt.'
+        material: BOW
+        name: '{#FCD05C}&lTrường Cung Vực Thẳm Apollo'
+      '6':
+        amount: 1
+        data: 0
+        material: ARROW
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Trường Cung Vực Thẳm Apollo'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Pháp Sư'
+        - ' {#fcfcfc}❖ {#E0E0E0}Giày Tiên Pháp Sư'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Choàng Pháp Sư'
+        - ' {#fcfcfc}❖ {#E0E0E0}Quần Pháp Sư'
+        - ''
+        - ' {#AEC6CF}Chấp nhận sức mạnh của ma thuật!'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: ENCHANTMENT_TABLE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴘʜáᴘ sư ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Trường Cung Vực Thẳm Apollo'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Pháp Sư'
+        - ' {#fcfcfc}❖ {#E0E0E0}Giày Tiên Pháp Sư'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Choàng Pháp Sư'
+        - ' {#fcfcfc}❖ {#E0E0E0}Quần Pháp Sư'
+        - ''
+        - ' {#AEC6CF}Chấp nhận sức mạnh của ma thuật!'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴘʜáᴘ sư ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Trường Cung Vực Thẳm Apollo'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Pháp Sư'
+        - ' {#fcfcfc}❖ {#E0E0E0}Giày Tiên Pháp Sư'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Choàng Pháp Sư'
+        - ' {#fcfcfc}❖ {#E0E0E0}Quần Pháp Sư'
+        - ''
+        - ' {#AEC6CF}Chấp nhận sức mạnh của ma thuật!'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: ENCHANTMENT_TABLE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴘʜáᴘ sư ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkits.arcane
+    slot: 6
+  ArenaChampion:
+    content:
+      '1':
+        advanced-enchantments:
+        - lifesteal:%1-5%
+        - paralyze:%1-4%
+        - vampire:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - sharpness:5
+        - fire_aspect:2
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oMột lưỡi kiếm với dòng dõi hắc ám'
+        - '{#E0E0E0}&osự tồn tại của nó đã bị Hội Đồng'
+        - '{#E0E0E0}&oElrond lên án.'
+        material: DIAMOND_SWORD
+        name: '{#FCD05C}&lKiếm Huyết Thạch Kronos'
+      '2':
+        advanced-enchantments:
+        - armored:%1-4%
+        - overload:%1-3%
+        - tank:%1-4%
+        - implants:%1-3%
+        - guardians:%1-10%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oVương miện vàng nạm huyết thạch.'
+        - '{#E0E0E0}&oHãy cẩn thận kẻ mang biểu tượng này.'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lVương Miện Quán Quân Đấu Trường'
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Vương Miện Quán Quân Đấu Trường'
+        - ' {#fcfcfc}❖ {#E0E0E0}Kiếm Huyết Thạch Kronos'
+        - ''
+        - ' {#AEC6CF}Chứng minh rằng không kẻ phàm trần nào đánh bại được bạn.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: DIAMOND
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ǫᴜáɴ ǫᴜâɴ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Vương Miện Quán Quân Đấu Trường'
+        - ' {#fcfcfc}❖ {#E0E0E0}Kiếm Huyết Thạch Kronos'
+        - ''
+        - ' {#AEC6CF}Chứng minh rằng không kẻ phàm trần nào đánh bại được bạn.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ǫᴜáɴ ǫᴜâɴ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Vương Miện Quán Quân Đấu Trường'
+        - ' {#fcfcfc}❖ {#E0E0E0}Kiếm Huyết Thạch Kronos'
+        - ''
+        - ' {#AEC6CF}Chứng minh rằng không kẻ phàm trần nào đánh bại được bạn.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: DIAMOND
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ǫᴜáɴ ǫᴜâɴ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.arenachampion
+    slot: 19
+  Butcher:
+    content:
+      '1':
+        advanced-enchantments:
+        - devour:%1-4%
+        - blacksmith:%1-5%
+        - bleed:%1-6%
+        amount: 1
+        data: 0
+        enchants:
+        - sharpness:5
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oCon dao phay của Đồ Tể, một sự'
+        - '{#E0E0E0}&oghê tởm từ nơi sâu thẳm nhất'
+        - '{#E0E0E0}&ocủa Nether.'
+        material: DIAMOND_AXE
+        name: '{#FCD05C}&lDao Phay Của Đồ Tể'
+      '2':
+        advanced-enchantments:
+        - overload:%1-3%
+        - dodge:%1-5%
+        - tank:%1-4%
+        - angelic:%1-5%
+        - hardened:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:5
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oMột chiếc tạp dề da nặng nề, đẫm máu'
+        - '{#E0E0E0}&ocủa những kẻ dám cản đường bạn.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lTạp Dề Đẫm Máu Đồ Tể'
+      '3':
+        amount: 64
+        data: 0
+        lore:
+        - '{#E0E0E0}Một viên kẹo không gian ngon tuyệt.'
+        material: MAGMA_CREAM
+        name: '{#FCD05C}&lKẹo Halloween'
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Dao Phay Của Đồ Tể'
+        - ' {#fcfcfc}❖ {#E0E0E0}Tạp Dề Đẫm Máu Đồ Tể'
+        - ' {#fcfcfc}❖ {#E0E0E0}64x Kẹo Halloween'
+        - ''
+        - ' {#AEC6CF}Một con quái vật từ vực thẳm Nether.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: BEEF
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ đồ ᴛể ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Dao Phay Của Đồ Tể'
+        - ' {#fcfcfc}❖ {#E0E0E0}Tạp Dề Đẫm Máu Đồ Tể'
+        - ' {#fcfcfc}❖ {#E0E0E0}64x Kẹo Halloween'
+        - ''
+        - ' {#AEC6CF}Một con quái vật từ vực thẳm Nether.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ đồ ᴛể ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Dao Phay Của Đồ Tể'
+        - ' {#fcfcfc}❖ {#E0E0E0}Tạp Dề Đẫm Máu Đồ Tể'
+        - ' {#fcfcfc}❖ {#E0E0E0}64x Kẹo Halloween'
+        - ''
+        - ' {#AEC6CF}Một con quái vật từ vực thẳm Nether.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: BEEF
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ đồ ᴛể ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.butcher
+    slot: 20
+  Cannoner:
+    content:
+      '1':
+        advanced-enchantments:
+        - obsidianshield:1
+        - molten:%1-4%
+        - aquatic:1
+        amount: 1
+        data: 0
+        enchants:
+        - protection:5
+        - unbreaking:3
+        - projectile_protection:4
+        lore:
+        - '{#E0E0E0}&oPhiên bản nâng cấp của chiếc mũ'
+        - '{#E0E0E0}&othợ mỏ nổi tiếng, tầm nhìn xuyên thấu.'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lMũ Thợ Mỏ Anh Hùng'
+      '2':
+        advanced-enchantments:
+        - overload:%1-3%
+        - ragdoll:%1-4%
+        - shockwave:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:5
+        - unbreaking:3
+        - projectile_protection:4
+        lore:
+        - '{#E0E0E0}&oÁo choàng đen cẩm thạch của Đại Sư.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lÁo Choàng Cẩm Thạch Đại Sư'
+      '3':
+        advanced-enchantments: []
+        amount: 1
+        data: 0
+        enchants:
+        - protection:5
+        - unbreaking:3
+        - projectile_protection:4
+        lore:
+        - '{#E0E0E0}&oCơ động tuyệt đối, bảo mật hoàn toàn.'
+        material: DIAMOND_LEGGINGS
+        name: '{#FCD05C}&lQuần Chiến Đấu Da'
+      '4':
+        advanced-enchantments:
+        - gears:%1-3%
+        - springs:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:5
+        - unbreaking:3
+        - projectile_protection:4
+        lore:
+        - '{#E0E0E0}&oMang chúng vào và trở nên vô hình.'
+        material: DIAMOND_BOOTS
+        name: '{#FCD05C}&lDép Bóng Ma'
+      '5':
+        advanced-enchantments:
+        - sniper:%1-5%
+        - piercing:%1-5%
+        - snare:%1-4%
+        - explosive:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - power:5
+        - punch:2
+        - unbreaking:3
+        - infinity:1
+        lore:
+        - '{#E0E0E0}&oKhi mục tiêu vào tầm ngắm,'
+        - '{#E0E0E0}&ohành trình của chúng kết thúc.'
+        material: BOW
+        name: '{#FCD05C}&lCung Pha Lê Của Athena'
+      '6':
+        amount: 1
+        data: 0
+        material: ARROW
+      '7':
+        amount: 64
+        data: 0
+        material: TNT
+      '8':
+        amount: 64
+        data: 0
+        material: TNT
+      '9':
+        amount: 64
+        data: 0
+        material: TNT
+      '10':
+        amount: 3
+        data: 50
+        material: CREEPER_SPAWN_EGG
+      '11':
+        amount: 5
+        material: SPONGE
+      '12':
+        amount: 16
+        material: DISPENSER
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Cung Pha Lê Của Athena'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Thợ Mỏ Anh Hùng'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Choàng Cẩm Thạch Đại Sư'
+        - ' {#fcfcfc}❖ {#E0E0E0}3x Trứng Creeper'
+        - ' {#fcfcfc}❖ {#E0E0E0}192x TNT, Miếng Bọt Biển...'
+        - ''
+        - ' {#AEC6CF}Không có hàng phòng thủ nào cản được bạn.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: TNT
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴘʜáᴏ ᴛʜủ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Cung Pha Lê Của Athena'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Thợ Mỏ Anh Hùng'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Choàng Cẩm Thạch Đại Sư'
+        - ' {#fcfcfc}❖ {#E0E0E0}3x Trứng Creeper'
+        - ' {#fcfcfc}❖ {#E0E0E0}192x TNT, Miếng Bọt Biển...'
+        - ''
+        - ' {#AEC6CF}Không có hàng phòng thủ nào cản được bạn.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴘʜáᴏ ᴛʜủ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Cung Pha Lê Của Athena'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Thợ Mỏ Anh Hùng'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Choàng Cẩm Thạch Đại Sư'
+        - ' {#fcfcfc}❖ {#E0E0E0}3x Trứng Creeper'
+        - ' {#fcfcfc}❖ {#E0E0E0}192x TNT, Miếng Bọt Biển...'
+        - ''
+        - ' {#AEC6CF}Không có hàng phòng thủ nào cản được bạn.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: TNT
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴘʜáᴏ ᴛʜủ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.cannoner
+    slot: 21
+  Cosmonaut:
+    content:
+      '1':
+        advanced-enchantments:
+        - guardians:%1-10%
+        - immortal:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:5
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oChế tạo từ những vật liệu tốt nhất'
+        - '{#E0E0E0}&otrong thiên hà. Độc nhất vô nhị.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lÁo Không Gian Phi Hành Gia'
+      '2':
+        advanced-enchantments:
+        - overload:%1-3%
+        - obsidianshield:1
+        amount: 1
+        data: 0
+        enchants:
+        - protection:5
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oTạo ra từ những vật liệu đắt nhất.'
+        material: DIAMOND_LEGGINGS
+        name: '{#FCD05C}&lQuần Phi Hành Gia'
+      '3':
+        amount: 1
+        command: ae giverandombook %player% HEROIC
+        data: 0
+        lore: []
+        material: BOOK
+        name: '{#FCD05C}&lSách Phù Phép Anh Hùng'
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Không Gian Phi Hành Gia'
+        - ' {#fcfcfc}❖ {#E0E0E0}Quần Phi Hành Gia'
+        - ' {#fcfcfc}❖ {#E0E0E0}Sách Phù Phép Anh Hùng'
+        - ''
+        - ' {#AEC6CF}Định nghĩa lại về "Trang bị thần thánh".'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: DIAMOND_CHESTPLATE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴘʜɪ ʜàɴʜ ɢɪᴀ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Không Gian Phi Hành Gia'
+        - ' {#fcfcfc}❖ {#E0E0E0}Quần Phi Hành Gia'
+        - ' {#fcfcfc}❖ {#E0E0E0}Sách Phù Phép Anh Hùng'
+        - ''
+        - ' {#AEC6CF}Định nghĩa lại về "Trang bị thần thánh".'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴘʜɪ ʜàɴʜ ɢɪᴀ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Không Gian Phi Hành Gia'
+        - ' {#fcfcfc}❖ {#E0E0E0}Quần Phi Hành Gia'
+        - ' {#fcfcfc}❖ {#E0E0E0}Sách Phù Phép Anh Hùng'
+        - ''
+        - ' {#AEC6CF}Định nghĩa lại về "Trang bị thần thánh".'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: DIAMOND_CHESTPLATE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴘʜɪ ʜàɴʜ ɢɪᴀ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.cosmonaut
+    slot: 22
+  Destroyer:
+    content:
+      '1':
+        advanced-enchantments:
+        - piercing:%1-5%
+        - hellfire:%1-5%
+        - blind:%1-3%
+        - sniper:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - power:5
+        - punch:2
+        - flame:2
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oHòa làm một với bóng tối bên trong,'
+        - '{#E0E0E0}&ovà báo hiệu ngày tàn của thiên hà.'
+        material: BOW
+        name: '{#FCD05C}&lCung Phá Hủy Của Sự Lãng Quên'
+      '2':
+        advanced-enchantments:
+        - frozen:%1-3%
+        - obsidianshield:%1-1%
+        - trickster:%1-8%
+        - implants:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oMột chiếc mũ đầy gai lửa hủy diệt.'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lMũ Ác Quỷ Truy Đuổi'
+      '3':
+        advanced-enchantments:
+        - frozen:%1-3%
+        - spirits:%1-10%
+        - curse:%1-5%
+        - overload:%1-3%
+        - shockwave:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oMột chiếc áo giáp tối tăm lạnh lẽo.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lÁo Ác Quỷ Truy Đuổi'
+      '4':
+        advanced-enchantments:
+        - frozen:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oChiếc quần cẩm thạch cực kỳ nặng nề.'
+        material: DIAMOND_LEGGINGS
+        name: '{#FCD05C}&lQuần Ác Quỷ Truy Đuổi'
+      '5':
+        advanced-enchantments:
+        - frozen:%1-3%
+        - springs:%1-3%
+        - gears:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oNạm cẩm thạch và kim cương đen.'
+        material: DIAMOND_BOOTS
+        name: '{#FCD05C}&lGiày Của Kẻ Hủy Diệt'
+      '6':
+        amount: 1
+        data: 0
+        material: ARROW
+      '7':
+        command: ae givebook %player% blind 3 1 50 50
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Cung Phá Hủy Của Sự Lãng Quên'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Ác Quỷ Truy Đuổi'
+        - ' {#fcfcfc}❖ {#E0E0E0}Giày Của Kẻ Hủy Diệt'
+        - ''
+        - ' {#AEC6CF}Gieo rắc sự tàn phá cho toàn thiên hà.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: BLAZE_POWDER
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴋẻ ʜủʏ ᴅɪệᴛ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Cung Phá Hủy Của Sự Lãng Quên'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Ác Quỷ Truy Đuổi'
+        - ' {#fcfcfc}❖ {#E0E0E0}Giày Của Kẻ Hủy Diệt'
+        - ''
+        - ' {#AEC6CF}Gieo rắc sự tàn phá cho toàn thiên hà.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴋẻ ʜủʏ ᴅɪệᴛ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Cung Phá Hủy Của Sự Lãng Quên'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Ác Quỷ Truy Đuổi'
+        - ' {#fcfcfc}❖ {#E0E0E0}Giày Của Kẻ Hủy Diệt'
+        - ''
+        - ' {#AEC6CF}Gieo rắc sự tàn phá cho toàn thiên hà.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: BLAZE_POWDER
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴋẻ ʜủʏ ᴅɪệᴛ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.destroyer
+    slot: 2
+  Diablo:
+    content:
+      '1':
+        advanced-enchantments:
+        - piercing:%1-5%
+        - infernal:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - power:5
+        - unbreaking:3
+        - infinity:1
+        lore:
+        - '{#E0E0E0}&oCung bóng tối rèn trong Hư Không.'
+        material: BOW
+        name: '{#FCD05C}&lLời Nguyền Của Quạ'
+      '2':
+        advanced-enchantments:
+        - obsidianshield:1
+        - hardened:%1-3%
+        - poisoned:%1-4%
+        - voodoo:%1-6%
+        - wither:%1-5%
+        - tank:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oMột chiếc mũ trùm đẫm máu.'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lMũ Đao Phủ'
+      '3':
+        advanced-enchantments:
+        - obsidianshield:1
+        - hardened:%1-3%
+        - curse:%1-5%
+        - overload:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oÁo choàng đen hơn cả cẩm thạch đen.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lÁo Choàng Tử Thần'
+      '4':
+        advanced-enchantments:
+        - obsidianshield:1
+        - hardened:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oĐôi quần đen tối điềm báo.'
+        material: DIAMOND_LEGGINGS
+        name: '{#FCD05C}&lQuần Tử Thần'
+      '5':
+        advanced-enchantments:
+        - obsidianshield:1
+        - hardened:%1-3%
+        - armored:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oĐôi giày đen như bóng tối.'
+        material: DIAMOND_BOOTS
+        name: '{#FCD05C}&lGiày Tử Thần Đạp Mộ'
+      '6':
+        amount: 1
+        data: 0
+        material: ARROW
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Lời Nguyền Của Quạ'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Đao Phủ'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Choàng Tử Thần'
+        - ' {#fcfcfc}❖ {#E0E0E0}Quần Tử Thần'
+        - ' {#fcfcfc}❖ {#E0E0E0}Giày Tử Thần'
+        - ''
+        - ' {#AEC6CF}Triệu hồi sức mạnh của Hư Không.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: ENDER_PORTAL_FRAME
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴄʜúᴀ ᴛể ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Lời Nguyền Của Quạ'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Đao Phủ'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Choàng Tử Thần'
+        - ' {#fcfcfc}❖ {#E0E0E0}Quần Tử Thần'
+        - ' {#fcfcfc}❖ {#E0E0E0}Giày Tử Thần'
+        - ''
+        - ' {#AEC6CF}Triệu hồi sức mạnh của Hư Không.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴄʜúᴀ ᴛể ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Lời Nguyền Của Quạ'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Đao Phủ'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Choàng Tử Thần'
+        - ' {#fcfcfc}❖ {#E0E0E0}Quần Tử Thần'
+        - ' {#fcfcfc}❖ {#E0E0E0}Giày Tử Thần'
+        - ''
+        - ' {#AEC6CF}Triệu hồi sức mạnh của Hư Không.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: ENDER_PORTAL_FRAME
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴄʜúᴀ ᴛể ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkits.diablo
+    slot: 4
+  Enchantment:
+    content:
+      '1':
+        command: ae giverandombook %player% UNIQUE
+      '2':
+        command: ae giverandombook %player% ELITE
+      '3':
+        command: ae giverandombook %player% ULTIMATE
+      '4':
+        command: ae giverandombook %player% LEGENDARY
+      '5':
+        chance: 10
+        command: ae giverandombook %player% SOUL
+      '6':
+        chance: 10
+        command: ae giverandombook %player% HEROIC
+      '7':
+        chance: 100
+        command: ae giveitem %player% blackscroll 1 0
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Sách Phù Phép Hiếm'
+        - ' {#fcfcfc}❖ {#E0E0E0}Sách Phù Phép Tinh Anh'
+        - ' {#fcfcfc}❖ {#E0E0E0}Sách Phù Phép Tối Thượng'
+        - ' {#fcfcfc}❖ {#E0E0E0}Sách Phù Phép Huyền Thoại'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bùa Trục Xuất'
+        - ''
+        - ' {#AEC6CF}Xây dựng trang bị thần thánh của riêng bạn!'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: BOOK
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴘʜù ᴘʜéᴘ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Sách Phù Phép Hiếm'
+        - ' {#fcfcfc}❖ {#E0E0E0}Sách Phù Phép Tinh Anh'
+        - ' {#fcfcfc}❖ {#E0E0E0}Sách Phù Phép Tối Thượng'
+        - ' {#fcfcfc}❖ {#E0E0E0}Sách Phù Phép Huyền Thoại'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bùa Trục Xuất'
+        - ''
+        - ' {#AEC6CF}Xây dựng trang bị thần thánh của riêng bạn!'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴘʜù ᴘʜéᴘ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Sách Phù Phép Hiếm'
+        - ' {#fcfcfc}❖ {#E0E0E0}Sách Phù Phép Tinh Anh'
+        - ' {#fcfcfc}❖ {#E0E0E0}Sách Phù Phép Tối Thượng'
+        - ' {#fcfcfc}❖ {#E0E0E0}Sách Phù Phép Huyền Thoại'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bùa Trục Xuất'
+        - ''
+        - ' {#AEC6CF}Xây dựng trang bị thần thánh của riêng bạn!'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: BOOK
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴘʜù ᴘʜéᴘ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.enchantment
+    slot: 14
+  Gladiator:
+    content:
+      '1':
+        advanced-enchantments:
+        - tank:%1-4%
+        - armored:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oMặt nạ bọc da gieo rắc nỗi sợ hãi.'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lMặt Nạ Quán Quân Đấu Trường'
+      '2':
+        advanced-enchantments:
+        - overload:%1-3%
+        - tank:%1-4%
+        - guardians:%1-10%
+        - armored:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oVai có gai, một khối kim loại khổng lồ.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lGiáp Đấu Sĩ Hạng Nặng'
+      '3':
+        advanced-enchantments:
+        - tank:%1-4%
+        - armored:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oChiếc quần da sờn rách vì chiến đấu.'
+        material: DIAMOND_LEGGINGS
+        name: '{#FCD05C}&lQuần Đấu Sĩ'
+      '4':
+        advanced-enchantments:
+        - gears:%1-3%
+        - tank:%1-4%
+        - armored:%1-4%
+        - springs:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oChắc chắn, nhanh nhẹn, mạnh mẽ.'
+        material: DIAMOND_BOOTS
+        name: '{#FCD05C}&lGiày Chiến Đấu Sĩ'
+      '5':
+        advanced-enchantments:
+        - lifesteal:%1-5%
+        - greatsword:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - sharpness:5
+        - fireaspect:1
+        - unbreaking:2
+        lore:
+        - '{#E0E0E0}&oVũ khí vô địch trong các cuộc chinh phạt.'
+        material: DIAMOND_SWORD
+        name: '{#FCD05C}&lĐại Kiếm Ares Chinh Phạt'
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Đại Kiếm Ares Chinh Phạt'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mặt Nạ Quán Quân Đấu Trường'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Đấu Sĩ'
+        - ''
+        - ' {#AEC6CF}Trở thành một lãnh chúa tàn nhẫn!'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: DIAMOND_SWORD
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ đấᴜ sĩ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Đại Kiếm Ares Chinh Phạt'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mặt Nạ Quán Quân Đấu Trường'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Đấu Sĩ'
+        - ''
+        - ' {#AEC6CF}Trở thành một lãnh chúa tàn nhẫn!'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ đấᴜ sĩ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Đại Kiếm Ares Chinh Phạt'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mặt Nạ Quán Quân Đấu Trường'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Đấu Sĩ'
+        - ''
+        - ' {#AEC6CF}Trở thành một lãnh chúa tàn nhẫn!'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: DIAMOND_SWORD
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ đấᴜ sĩ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkits.gladiator
+    slot: 7
+  Grandmaster:
+    content:
+      '1':
+        advanced-enchantments:
+        - disarmor:%1-8%
+        amount: 1
+        data: 0
+        enchants:
+        - sharpness:5
+        - fire_aspect:2
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oThanh kiếm cẩm thạch mang di sản tối tăm,'
+        - '{#E0E0E0}&ongười ta đồn nó chỉ xuất hiện trong thoáng chốc.'
+        material: DIAMOND_SWORD
+        name: '{#FCD05C}&lKẻ Diệt Ác Mộng'
+      '2':
+        advanced-enchantments:
+        - armored:%1-4%
+        - tank:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oGieo rắc nỗi sợ cho kẻ thù,'
+        - '{#E0E0E0}&ovà sự anh dũng cho đồng minh.'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lTấm Màn Phán Xét'
+      '3':
+        advanced-enchantments:
+        - armored:%1-4%
+        - overload:%1-3%
+        - tank:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oÁo choàng đen của Đại Sư.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lÁo Choàng Đại Sư'
+      '4':
+        advanced-enchantments:
+        - armored:%1-4%
+        - tank:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oCơ động tuyệt đối, bảo vệ tối đa'
+        material: DIAMOND_LEGGINGS
+        name: '{#FCD05C}&lQuần Chiến Đấu Da Đại Sư'
+      '5':
+        advanced-enchantments:
+        - armored:%1-4%
+        - gears:%1-3%
+        - tank:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oVô hình trước thính giác của kẻ thù.'
+        material: DIAMOND_BOOTS
+        name: '{#FCD05C}&lDép Xăng Đan Tĩnh Lặng'
+      '6':
+        command: ae giveitem %player% blackscroll 1 0
+      '7':
+        command: xp 10000 %player%
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Kẻ Diệt Ác Mộng'
+        - ' {#fcfcfc}❖ {#E0E0E0}Tấm Màn Phán Xét'
+        - ' {#fcfcfc}❖ {#E0E0E0}Dép Xăng Đan Tĩnh Lặng'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Choàng Đại Sư'
+        - ' {#fcfcfc}❖ {#E0E0E0}10k XP & Bùa Trục Xuất'
+        - ''
+        - ' {#AEC6CF}Trở thành bậc thầy của Nghệ thuật hắc ám.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: EXP_BOTTLE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ đạɪ sư ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Kẻ Diệt Ác Mộng'
+        - ' {#fcfcfc}❖ {#E0E0E0}Tấm Màn Phán Xét'
+        - ' {#fcfcfc}❖ {#E0E0E0}Dép Xăng Đan Tĩnh Lặng'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Choàng Đại Sư'
+        - ' {#fcfcfc}❖ {#E0E0E0}10k XP & Bùa Trục Xuất'
+        - ''
+        - ' {#AEC6CF}Trở thành bậc thầy của Nghệ thuật hắc ám.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ đạɪ sư ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Kẻ Diệt Ác Mộng'
+        - ' {#fcfcfc}❖ {#E0E0E0}Tấm Màn Phán Xét'
+        - ' {#fcfcfc}❖ {#E0E0E0}Dép Xăng Đan Tĩnh Lặng'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Choàng Đại Sư'
+        - ' {#fcfcfc}❖ {#E0E0E0}10k XP & Bùa Trục Xuất'
+        - ''
+        - ' {#AEC6CF}Trở thành bậc thầy của Nghệ thuật hắc ám.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: EXP_BOTTLE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ đạɪ sư ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.grandmaster
+    slot: 15
+  GrimReaper:
+    content:
+      '1':
+        advanced-enchantments:
+        - lifesteal:%1-5%
+        - blind:%1-3%
+        - paralyze:%1-4%
+        - reforged:%1-10%
+        - featherweight:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - sharpness:5
+        - unbreaking:4
+        lore:
+        - '{#E0E0E0}&oLưỡi hái rèn từ cái chết truyền thuyết'
+        - '{#E0E0E0}&ocủa chính Tử Thần toàn năng.'
+        material: DIAMOND_SWORD
+        name: '{#FCD05C}&lLưỡi Hái Tử Thần'
+      '2':
+        advanced-enchantments:
+        - implants:%1-3%
+        - aquatic:1
+        amount: 1
+        data: 0
+        enchants:
+        - protection:5
+        - unbreaking:4
+        - fire_protection:2
+        lore:
+        - '{#E0E0E0}&oĐược dệt từ vải Nether và Ender,'
+        - '{#E0E0E0}&otiếng vọng của người chết vang lên từ bên trong.'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lMũ Trùm Tử Thần'
+      '3':
+        advanced-enchantments:
+        - overload:%1-3%
+        - diminish:%1-8%
+        - obsidianshield:1
+        - trickster:%1-8%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:5
+        - unbreaking:4
+        - fire_protection:2
+        lore:
+        - '{#E0E0E0}&oĐau khổ và rối loạn, chiếc áo'
+        - '{#E0E0E0}&ochoàng đen nuốt chửng mọi ánh sáng.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lÁo Choàng Rách Nát Của Kẻ Thu Hoạch'
+      '4':
+        amount: 32
+        data: 0
+        lore:
+        - '{#E0E0E0}Kẹo Halloween ngon tuyệt!'
+        material: MAGMA_CREAM
+        name: '{#FCD05C}&lKẹo Halloween'
+      '5':
+        command: ae giveitem %player% soulgem 1 250
+      '6':
+        chance: 10
+        command: ae giveitem %player% holywhitescroll 1
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Lưỡi Hái Tử Thần'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Trùm Tử Thần'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Choàng Rách Nát'
+        - ' {#fcfcfc}❖ {#E0E0E0}250 Linh Hồn & Kẹo Halloween'
+        - ''
+        - ' {#AEC6CF}Trở thành bậc thầy của sự sống và cái chết.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: SKELETON_SKULL
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛử ᴛʜầɴ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Lưỡi Hái Tử Thần'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Trùm Tử Thần'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Choàng Rách Nát'
+        - ' {#fcfcfc}❖ {#E0E0E0}250 Linh Hồn & Kẹo Halloween'
+        - ''
+        - ' {#AEC6CF}Trở thành bậc thầy của sự sống và cái chết.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛử ᴛʜầɴ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Lưỡi Hái Tử Thần'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Trùm Tử Thần'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Choàng Rách Nát'
+        - ' {#fcfcfc}❖ {#E0E0E0}250 Linh Hồn & Kẹo Halloween'
+        - ''
+        - ' {#AEC6CF}Trở thành bậc thầy của sự sống và cái chết.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: SKELETON_SKULL
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛử ᴛʜầɴ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.grimreaper
+    slot: 26
+  Guardian:
+    content:
+      '1':
+        advanced-enchantments:
+        - sniper:%1-5%
+        - piercing:%1-5%
+        - snare:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - power:5
+        - punch:2
+        - unbreaking:3
+        - infinity:1
+        lore:
+        - '{#E0E0E0}&oBảo vệ và chữa lành thiên hà,'
+        - '{#E0E0E0}&ovà duy trì luật pháp trật tự.'
+        material: BOW
+        name: '{#FCD05C}&lCung Thần Valhalla'
+      '2':
+        advanced-enchantments:
+        - glowing:%1-1%
+        - implants:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oMột vầng hào quang ấm áp.'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lHào Quang Hộ Vệ'
+      '3':
+        advanced-enchantments:
+        - guardians:%1-10%
+        - curse:%1-5%
+        - shockwave:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oÁo giáp sáng lấp lánh.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lÁo Giáp Hộ Vệ Thần Thánh'
+      '4':
+        advanced-enchantments: []
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oQuần bảo hộ phát sáng.'
+        material: DIAMOND_LEGGINGS
+        name: '{#FCD05C}&lQuần Hộ Vệ Thần Thánh'
+      '5':
+        advanced-enchantments:
+        - gears:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oRèn từ tinh chất ánh sáng thuần khiết.'
+        material: DIAMOND_BOOTS
+        name: '{#FCD05C}&lDép Thần Thánh'
+      '6':
+        amount: 1
+        data: 0
+        material: ARROW
+      '7':
+        command: ae givebook %player% clarity 3 1 50 50
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Cung Thần Valhalla'
+        - ' {#fcfcfc}❖ {#E0E0E0}Hào Quang Hộ Vệ'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Hộ Vệ Thần Thánh'
+        - ''
+        - ' {#AEC6CF}Bảo vệ và phục vụ thiên hà bạn yêu.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: ENDER_EYE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ʜộ ᴠệ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Cung Thần Valhalla'
+        - ' {#fcfcfc}❖ {#E0E0E0}Hào Quang Hộ Vệ'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Hộ Vệ Thần Thánh'
+        - ''
+        - ' {#AEC6CF}Bảo vệ và phục vụ thiên hà bạn yêu.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ʜộ ᴠệ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Cung Thần Valhalla'
+        - ' {#fcfcfc}❖ {#E0E0E0}Hào Quang Hộ Vệ'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Hộ Vệ Thần Thánh'
+        - ''
+        - ' {#AEC6CF}Bảo vệ và phục vụ thiên hà bạn yêu.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: ENDER_EYE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ʜộ ᴠệ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkits.guardian
+    slot: 3
+  Hyperdrive:
+    content:
+      '1':
+        advanced-enchantments:
+        - poison:%1-3%
+        - paralyze:%1-4%
+        - lifesteal:%1-5%
+        - inquisitive:%1-4%
+        - featherweight:%1-3%
+        - disarmor:%1-8%
+        amount: 1
+        data: 0
+        enchants:
+        - sharpness:5
+        - fire_aspect:2
+        - unbreaking:2
+        lore:
+        - '{#E0E0E0}&oVũ khí vô song với tốc độ hủy diệt.'
+        material: DIAMOND_SWORD
+        name: '{#FCD05C}&lLưỡi Kiếm Nhanh Nhẹn Hermes'
+      '2':
+        advanced-enchantments:
+        - trickster:%1-8%
+        - angelic:%1-5%
+        - overload:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oMũ bảo hiểm huyền thoại.'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lMũ Siêu Tốc Hermes'
+      '3':
+        advanced-enchantments:
+        - shockwave:%1-5%
+        - guardians:%1-10%
+        - tank:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oChiếc áo ngực cực nhẹ.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lÁo Siêu Tốc Mercury'
+      '4':
+        advanced-enchantments:
+        - obsidianshield:1
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oNhẹ đến mức quên mất là đang mặc!'
+        material: DIAMOND_LEGGINGS
+        name: '{#FCD05C}&lQuần Siêu Tốc Nike'
+      '5':
+        advanced-enchantments:
+        - springs:%1-3%
+        - gears:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oĐôi bốt huyền thoại của Hermes.'
+        material: DIAMOND_BOOTS
+        name: '{#FCD05C}&lGiày Siêu Tốc Hermes'
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Lưỡi Kiếm Nhanh Nhẹn Hermes'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Siêu Tốc Hermes'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Siêu Tốc Mercury'
+        - ' {#fcfcfc}❖ {#E0E0E0}Quần Siêu Tốc Nike'
+        - ' {#fcfcfc}❖ {#E0E0E0}Giày Siêu Tốc Hermes'
+        - ''
+        - ' {#AEC6CF}Trang bị nhanh nhẹn nhất thiên hà.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: FEATHER
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ sɪêᴜ ᴛốᴄ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Lưỡi Kiếm Nhanh Nhẹn Hermes'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Siêu Tốc Hermes'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Siêu Tốc Mercury'
+        - ' {#fcfcfc}❖ {#E0E0E0}Quần Siêu Tốc Nike'
+        - ' {#fcfcfc}❖ {#E0E0E0}Giày Siêu Tốc Hermes'
+        - ''
+        - ' {#AEC6CF}Trang bị nhanh nhẹn nhất thiên hà.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ sɪêᴜ ᴛốᴄ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Lưỡi Kiếm Nhanh Nhẹn Hermes'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Siêu Tốc Hermes'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Siêu Tốc Mercury'
+        - ' {#fcfcfc}❖ {#E0E0E0}Quần Siêu Tốc Nike'
+        - ' {#fcfcfc}❖ {#E0E0E0}Giày Siêu Tốc Hermes'
+        - ''
+        - ' {#AEC6CF}Trang bị nhanh nhẹn nhất thiên hà.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: FEATHER
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ sɪêᴜ ᴛốᴄ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.hyperdrive
+    slot: 1
+  Independence:
+    content:
+      '1':
+        advanced-enchantments:
+        - lifesteal:%1-5%
+        - inquisitive:%1-4%
+        - block:%1-3%
+        - featherweight:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - sharpness:5
+        - fire_aspect:2
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oThanh kiếm cổ ngữ huyền thoại'
+        - '{#E0E0E0}&omang tinh thần của Thần Tự Do.'
+        material: DIAMOND_SWORD
+        name: '{#FCD05C}&lKiếm Cổ Ngữ Của Tự Do'
+      '2':
+        advanced-enchantments:
+        - overload:%1-3%
+        - guardians:%1-10%
+        - angelic:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oThay vì tìm sự hoàn hảo, hãy cho'
+        - '{#E0E0E0}&omình tự do biến nó thành cuộc phiêu lưu.'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lMặt Nạ Guy Fawkes'
+      '3':
+        advanced-enchantments:
+        - armored:%1-4%
+        - dodge:%1-5%
+        - hardened:%1-3%
+        - molten:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oKhông thể biết hòa bình nếu'
+        - '{#E0E0E0}&ochưa từng biết đến hỗn loạn.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lÁo Giáp Hỗn Loạn'
+      '4':
+        advanced-enchantments:
+        - gears:%1-3%
+        - spirits:%1-10%
+        - hardened:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oBỗng dưng muốn chống lại hiện tại.'
+        material: DIAMOND_BOOTS
+        name: '{#FCD05C}&lGiày Vô Chính Phủ'
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Kiếm Cổ Ngữ Của Tự Do'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mặt Nạ Guy Fawkes'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Giáp Hỗn Loạn'
+        - ' {#fcfcfc}❖ {#E0E0E0}Giày Vô Chính Phủ'
+        - ''
+        - ' {#AEC6CF}Phá bỏ xiềng xích... đầy anh hùng!'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: FIREWORK_ROCKET
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛự ᴅᴏ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Kiếm Cổ Ngữ Của Tự Do'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mặt Nạ Guy Fawkes'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Giáp Hỗn Loạn'
+        - ' {#fcfcfc}❖ {#E0E0E0}Giày Vô Chính Phủ'
+        - ''
+        - ' {#AEC6CF}Phá bỏ xiềng xích... đầy anh hùng!'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛự ᴅᴏ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Kiếm Cổ Ngữ Của Tự Do'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mặt Nạ Guy Fawkes'
+        - ' {#fcfcfc}❖ {#E0E0E0}Áo Giáp Hỗn Loạn'
+        - ' {#fcfcfc}❖ {#E0E0E0}Giày Vô Chính Phủ'
+        - ''
+        - ' {#AEC6CF}Phá bỏ xiềng xích... đầy anh hùng!'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: FIREWORK_ROCKET
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛự ᴅᴏ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.independence
+    slot: 18
+  Loki:
+    content:
+      '1':
+        advanced-enchantments:
+        - lifesteal:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - sharpness:5
+        - unbreaking:4
+        lore:
+        - '{#E0E0E0}&oRìu bóng tối siêu hình, chỉ tồn tại'
+        - '{#E0E0E0}&otrong khoảnh khắc nó tước đi sinh mạng.'
+        material: DIAMOND_AXE
+        name: '{#FCD05C}&lYixary'
+      '2':
+        advanced-enchantments:
+        - overload:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:5
+        - unbreaking:4
+        - fire_protection:4
+        lore:
+        - '{#E0E0E0}&oVương miện đen được nạm cẩm thạch.'
+        - '{#E0E0E0}&oLạnh lẽo khi chạm vào.'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lVương Miện Bóng Tối'
+      '3':
+        amount: 32
+        data: 0
+        lore:
+        - '{#E0E0E0}&oGì cơ? Chưa thấy bánh NỔ bao giờ à?!'
+        material: CAKE
+        name: '{#FCD05C}&lBánh Kem Nổ'
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#AEC6CF}Vị thần lừa lọc và dối trá.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: GOLDEN_AXE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ʟᴏᴋɪ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#AEC6CF}Vị thần lừa lọc và dối trá.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ʟᴏᴋɪ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#AEC6CF}Vị thần lừa lọc và dối trá.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: GOLDEN_AXE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ʟᴏᴋɪ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.loki
+    slot: 25
+  MasterBuilder:
+    content:
+      '1':
+        advanced-enchantments:
+        - haste:%1-3%
+        - experience:%1-5%
+        - smelting:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - efficiency:5
+        - unbreaking:3
+        - fortune:3
+        lore:
+        - '{#E0E0E0}&oCông cụ rèn bởi thần xây dựng.'
+        material: DIAMOND_PICKAXE
+        name: '{#FCD05C}&lCúp Hephaestus'
+      '2':
+        advanced-enchantments:
+        - haste:%1-3%
+        - telepathy:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - efficiency:5
+        - unbreaking:3
+        - fortune:3
+        lore:
+        - '{#E0E0E0}&oXẻng cổ đại của thần khai quật.'
+        material: DIAMOND_SHOVEL
+        name: '{#FCD05C}&lMáy Xúc Shiva'
+    delay: 259000
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Cúp Hephaestus'
+        - ' {#fcfcfc}❖ {#E0E0E0}Máy Xúc Shiva'
+        - ''
+        - ' {#AEC6CF}Xây dựng các thành trì xứng tầm thần thánh.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: DIAMOND_PICKAXE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴋɪếɴ ᴛʀúᴄ sư ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Cúp Hephaestus'
+        - ' {#fcfcfc}❖ {#E0E0E0}Máy Xúc Shiva'
+        - ''
+        - ' {#AEC6CF}Xây dựng các thành trì xứng tầm thần thánh.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴋɪếɴ ᴛʀúᴄ sư ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Cúp Hephaestus'
+        - ' {#fcfcfc}❖ {#E0E0E0}Máy Xúc Shiva'
+        - ''
+        - ' {#AEC6CF}Xây dựng các thành trì xứng tầm thần thánh.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: DIAMOND_PICKAXE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴋɪếɴ ᴛʀúᴄ sư ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.masterbuilder
+    slot: 17
+  Paladin:
+    content:
+      '1':
+        advanced-enchantments:
+        - armored:%1-4%
+        - tank:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:5
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oTấm màn lụa thanh lịch sáng bóng.'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lTấm Màn Thánh Kỵ Sĩ'
+      '2':
+        advanced-enchantments:
+        - armored:%1-4%
+        - overload:%1-4%
+        - tank:%1-4%
+        - spirits:%1-10%
+        - guardians:%1-10%
+        - shockwave:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:5
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oGiáp lưới thép bất hoại được ban phước.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lGiáp Thánh Kỵ Sĩ'
+      '3':
+        advanced-enchantments:
+        - armored:%1-4%
+        - tank:%1-4%
+        - angelic:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:5
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oRèn trong lò lửa của Hephaestus.'
+        material: DIAMOND_LEGGINGS
+        name: '{#FCD05C}&lQuần Athena'
+      '4':
+        advanced-enchantments:
+        - armored:%1-4%
+        - gears:%1-3%
+        - tank:%1-4%
+        - angelic:%1-5%
+        - springs:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:5
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oRèn từ tinh hoa thánh thiện.'
+        material: DIAMOND_BOOTS
+        name: '{#FCD05C}&lGiày Thánh Kỵ Sĩ'
+      '5':
+        advanced-enchantments:
+        - lifesteal:%1-5%
+        - disarmor:%1-8%
+        - vampire:%1-3%
+        - block:%1-4%
+        - paralyze:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - sharpness:5
+        - smite:5
+        - unbreaking:3
+        - fire_aspect:2
+        lore:
+        - '{#E0E0E0}&oLưỡi kiếm được ban phước bảo vệ.'
+        material: DIAMOND_SWORD
+        name: '{#FCD05C}&lKiếm Thánh Kỵ Sĩ'
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Thánh Kỵ Sĩ'
+        - ' {#fcfcfc}❖ {#E0E0E0}Kiếm Thánh Kỵ Sĩ'
+        - ' {#fcfcfc}❖ {#E0E0E0}2 Cuộn Ngẫu Nhiên Hóa'
+        - ' {#fcfcfc}❖ {#E0E0E0}1 Bùa Khởi Sắc'
+        - ''
+        - ' {#AEC6CF}Sự tấn công tốt nhất là hàng phòng thủ hoàn hảo.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: GOLDEN_HELMET
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛʜáɴʜ ᴋỵ sĩ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Thánh Kỵ Sĩ'
+        - ' {#fcfcfc}❖ {#E0E0E0}Kiếm Thánh Kỵ Sĩ'
+        - ' {#fcfcfc}❖ {#E0E0E0}2 Cuộn Ngẫu Nhiên Hóa'
+        - ' {#fcfcfc}❖ {#E0E0E0}1 Bùa Khởi Sắc'
+        - ''
+        - ' {#AEC6CF}Sự tấn công tốt nhất là hàng phòng thủ hoàn hảo.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛʜáɴʜ ᴋỵ sĩ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Thánh Kỵ Sĩ'
+        - ' {#fcfcfc}❖ {#E0E0E0}Kiếm Thánh Kỵ Sĩ'
+        - ' {#fcfcfc}❖ {#E0E0E0}2 Cuộn Ngẫu Nhiên Hóa'
+        - ' {#fcfcfc}❖ {#E0E0E0}1 Bùa Khởi Sắc'
+        - ''
+        - ' {#AEC6CF}Sự tấn công tốt nhất là hàng phòng thủ hoàn hảo.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: GOLDEN_HELMET
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛʜáɴʜ ᴋỵ sĩ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkits.paladin
+    slot: 23
+  PartyAnimal:
+    content:
+      '1':
+        advanced-enchantments:
+        - lifesteal:%1-5%
+        - disarmor:%1-8%
+        - paralyze:%1-4%
+        - featherweight:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - sharpness:5
+        - fire_aspect:2
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oBình Rượu đá cẩm thạch huyền thoại'
+        - '{#E0E0E0}&ocủa Dionysus - thần tiệc tùng.'
+        material: DIAMOND_SWORD
+        name: '{#FCD05C}&lBình Rượu Của Dionysus'
+      '2':
+        advanced-enchantments:
+        - overload:%1-3%
+        - dodge:%1-5%
+        - implants:%1-3%
+        - aquatic:1
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oQuẩy xuyên màn đêm!'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lMũ Tiệc Tùng Kỉ Niệm'
+      '3':
+        amount: 64
+        data: 0
+        lore:
+        - '{#E0E0E0}&oNhập lậu từ dải ngân hà thần bí.'
+        material: POTION
+        name: '{#FCD05C}&lĐồ Uống Không Gian'
+      '4':
+        amount: 16
+        data: 0
+        lore:
+        - '{#E0E0E0}&oChưa từng thấy bánh NỔ bao giờ à?!'
+        material: CAKE
+        name: '{#FCD05C}&lBánh Kem Nổ'
+      '5':
+        amount: 8
+        data: 0
+        lore:
+        - '{#E0E0E0}&oPháo hoa kích nổ trong không gian.'
+        material: FIREWORK_STAR
+        name: '{#FCD05C}&lPháo Hoa Không Gian'
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Bình Rượu Của Dionysus'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Tiệc Tùng'
+        - ' {#fcfcfc}❖ {#E0E0E0}64 Đồ Uống & 16 Bánh Nổ'
+        - ''
+        - ' {#AEC6CF}Chiến đấu hết mình, tiệc tùng hết sức.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: CAKE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛɪệᴄ ᴛùɴɢ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Bình Rượu Của Dionysus'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Tiệc Tùng'
+        - ' {#fcfcfc}❖ {#E0E0E0}64 Đồ Uống & 16 Bánh Nổ'
+        - ''
+        - ' {#AEC6CF}Chiến đấu hết mình, tiệc tùng hết sức.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛɪệᴄ ᴛùɴɢ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Bình Rượu Của Dionysus'
+        - ' {#fcfcfc}❖ {#E0E0E0}Mũ Tiệc Tùng'
+        - ' {#fcfcfc}❖ {#E0E0E0}64 Đồ Uống & 16 Bánh Nổ'
+        - ''
+        - ' {#AEC6CF}Chiến đấu hết mình, tiệc tùng hết sức.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: CAKE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛɪệᴄ ᴛùɴɢ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.partyanimal
+    slot: 13
+  Spooky:
+    content:
+      '1':
+        advanced-enchantments:
+        - paralyze:%1-4%
+        - lifesteal:%1-5%
+        - vampire:%1-3%
+        - blind:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - sharpness:5
+        - fire_aspect:2
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oThanh kiếm cổ đại thấm đẫm ác mộng.'
+        material: DIAMOND_SWORD
+        name: '{#FCD05C}&lKiếm Không Đầu Kinh Dị'
+      '2':
+        advanced-enchantments:
+        - molten:%1-4%
+        - spirits:%1-10%
+        - voodoo:%1-6%
+        - curse:%1-5%
+        - overload:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oTấm màn cẩm thạch tỏa ra sự chết chóc.'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lMũ Trùm Tử Thần'
+      '3':
+        advanced-enchantments:
+        - tank:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oChiếc áo mang hào quang rất ĐÁNG SỢ.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lÁo Ác Mộng Không Đầu'
+      '4':
+        advanced-enchantments:
+        - wither:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oChiếc quần mang hào quang rất ĐÁNG SỢ.'
+        material: DIAMOND_LEGGINGS
+        name: '{#FCD05C}&lQuần Ác Mộng Không Đầu'
+      '5':
+        advanced-enchantments:
+        - armored:%1-4%
+        - gears:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oĐôi giày mang hào quang rất ĐÁNG SỢ.'
+        material: DIAMOND_BOOTS
+        name: '{#FCD05C}&lGiày Ác Mộng Không Đầu'
+    delay: 259200
+    display:
+      available:
+        custom-model-data: 0
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Kiếm Không Đầu Kinh Dị'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Ác Mộng'
+        - ''
+        - ' {#AEC6CF}Hóa đá kẻ thù trong nỗi sợ hãi.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: CARVED_PUMPKIN
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴍᴀ ǫᴜáɪ ❁'
+      cooldown:
+        custom-model-data: 0
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Kiếm Không Đầu Kinh Dị'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Ác Mộng'
+        - ''
+        - ' {#AEC6CF}Hóa đá kẻ thù trong nỗi sợ hãi.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴍᴀ ǫᴜáɪ ❁'
+      no-permission:
+        custom-model-data: 0
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Kiếm Không Đầu Kinh Dị'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Ác Mộng'
+        - ''
+        - ' {#AEC6CF}Hóa đá kẻ thù trong nỗi sợ hãi.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: CARVED_PUMPKIN
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴍᴀ ǫᴜáɪ ❁'
+    hide: false
+    permission: gkit.spooky
+    slot: 0
+  Templar:
+    content:
+      '1':
+        advanced-enchantments:
+        - angelic:%1-5%
+        - glowing:%1-1%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oVầng hào quang soi sáng.'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lHào Quang Ánh Sáng'
+      '2':
+        advanced-enchantments:
+        - overload:%1-3%
+        - hardened:%1-3%
+        - armored:%1-4%
+        - angelic:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oBảo vệ đồng minh đến hơi thở cuối cùng.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lGiáp Hiệp Sĩ Aegis'
+      '3':
+        advanced-enchantments:
+        - angelic:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oĐôi quần chiến giáp phục hồi.'
+        material: DIAMOND_LEGGINGS
+        name: '{#FCD05C}&lQuần Phục Hồi'
+      '4':
+        advanced-enchantments:
+        - gears:%1-3%
+        - angelic:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oChế tạo từ tinh hoa ánh sáng.'
+        material: DIAMOND_BOOTS
+        name: '{#FCD05C}&lGiày Thiên Thần'
+      '5':
+        advanced-enchantments:
+        - lifesteal:%1-5%
+        - disarmor:%1-8%
+        - vampire:%1-3%
+        - block:%1-4%
+        - paralyze:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - sharpness:5
+        - smite:5
+        - unbreaking:3
+        - fire_aspect:2
+        lore:
+        - '{#E0E0E0}&oLưỡi kiếm được các hiệp sĩ ban phước.'
+        material: DIAMOND_SWORD
+        name: '{#FCD05C}&lThánh Kiếm Hiệp Sĩ'
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Hiệp Sĩ'
+        - ' {#fcfcfc}❖ {#E0E0E0}Thánh Kiếm Hiệp Sĩ'
+        - ''
+        - ' {#AEC6CF}Bảo vệ đồng minh đến hơi thở cuối.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: GOLDEN_APPLE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ʜɪệᴘ sĩ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Hiệp Sĩ'
+        - ' {#fcfcfc}❖ {#E0E0E0}Thánh Kiếm Hiệp Sĩ'
+        - ''
+        - ' {#AEC6CF}Bảo vệ đồng minh đến hơi thở cuối.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ʜɪệᴘ sĩ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Hiệp Sĩ'
+        - ' {#fcfcfc}❖ {#E0E0E0}Thánh Kiếm Hiệp Sĩ'
+        - ''
+        - ' {#AEC6CF}Bảo vệ đồng minh đến hơi thở cuối.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: GOLDEN_APPLE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ʜɪệᴘ sĩ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkits.templar
+    slot: 9
+  Tinkermaster:
+    content:
+      '1':
+        advanced-enchantments:
+        - sniper:%1-6%
+        - snare:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - power:5
+        - flame:1
+        - infinity:1
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oGlycon - thần rắn của những con rối...'
+        - '{#E0E0E0}&oTại sao phải tiêu diệt kẻ thù khi'
+        - '{#E0E0E0}&obạn có thể điều khiển chúng?'
+        material: BOW
+        name: '{#FCD05C}&lCung Của Glycon'
+      '2':
+        advanced-enchantments:
+        - glowing:1
+        - implants:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oCông nghệ Gnome tiên tiến nhất!'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lMũ Gnome Tái Chế'
+      '3':
+        advanced-enchantments:
+        - overload:%1-3%
+        - heavy:%1-5%
+        - guardians:%1-10%
+        - shockwave:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oMột kiệt tác công nghệ thực sự'
+        - '{#E0E0E0}&obiến sức mạnh kẻ thù chống lại chúng.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lÁo Giáp Dây Cót'
+      '4':
+        advanced-enchantments:
+        - heavy:%1-5%
+        - frozen:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oQuần bọc thép.'
+        material: DIAMOND_LEGGINGS
+        name: '{#FCD05C}&lQuần Thép'
+      '5':
+        advanced-enchantments:
+        - gears:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oThoát khỏi những tình huống khó khăn nhất!'
+        material: DIAMOND_BOOTS
+        name: '{#FCD05C}&lGiày Tẩu Thoát Gnome'
+      '6':
+        amount: 1
+        data: 0
+        material: ARROW
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Cung Của Glycon'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Gnome Tái Chế'
+        - ''
+        - ' {#AEC6CF}Xảo quyệt, tinh ranh, bậc thầy rối bóng.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: BREWING_STAND
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛáɪ ᴄʜế ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Cung Của Glycon'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Gnome Tái Chế'
+        - ''
+        - ' {#AEC6CF}Xảo quyệt, tinh ranh, bậc thầy rối bóng.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛáɪ ᴄʜế ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Cung Của Glycon'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Gnome Tái Chế'
+        - ''
+        - ' {#AEC6CF}Xảo quyệt, tinh ranh, bậc thầy rối bóng.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: BREWING_STAND
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛáɪ ᴄʜế ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.tinkermaster
+    slot: 11
+  Trickster:
+    content:
+      '1':
+        advanced-enchantments:
+        - disarmor:%1-8%
+        - lifesteal:%1-5%
+        - blind:%1-3%
+        - vampire:%1-3%
+        - paralyze:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - sharpness:5
+        - fireaspect:2
+        - unbreaking:2
+        lore:
+        - '{#E0E0E0}&oAnh ấy có thể đã ra đi, nhưng sẽ'
+        - '{#E0E0E0}&okhông bao giờ bị lãng quên.'
+        material: DIAMOND_SWORD
+        name: '{#FCD05C}&lBàn Tay Của Harambe'
+      '2':
+        advanced-enchantments:
+        - sniper:%1-5%
+        - hellfire:%1-5%
+        - snare:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - power:5
+        - unbreaking:2
+        - infinity:1
+        lore:
+        - '{#E0E0E0}&oĐúng vậy, Nootaikok, vị thần của... spam cung?'
+        material: BOW
+        name: '{#FCD05C}&lCung Nootaikok Tầm Xa'
+      '3':
+        amount: 1
+        data: 0
+        material: ARROW
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Bàn Tay Của Harambe'
+        - ' {#fcfcfc}❖ {#E0E0E0}Cung Nootaikok Tầm Xa'
+        - ''
+        - ' {#AEC6CF}Troll thiên hà... với Harambe.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: APPLE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ đạᴏ ᴛặᴄ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Bàn Tay Của Harambe'
+        - ' {#fcfcfc}❖ {#E0E0E0}Cung Nootaikok Tầm Xa'
+        - ''
+        - ' {#AEC6CF}Troll thiên hà... với Harambe.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ đạᴏ ᴛặᴄ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Bàn Tay Của Harambe'
+        - ' {#fcfcfc}❖ {#E0E0E0}Cung Nootaikok Tầm Xa'
+        - ''
+        - ' {#AEC6CF}Troll thiên hà... với Harambe.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: APPLE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ đạᴏ ᴛặᴄ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkits.trickster
+    slot: 8
+  Valentines:
+    content:
+      '1':
+        advanced-enchantments:
+        - hardened:%1-3%
+        - glowing:%1-1%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oMiễn dịch với tình yêu giả dối.'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lMũ Valentine'
+      '2':
+        advanced-enchantments:
+        - overload:%1-3%
+        - guardians:%1-10%
+        - hardened:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oAnh bạn, trông RẤT NÓNG BỎNG đấy.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lCơ Bụng 6-Múi'
+      '3':
+        advanced-enchantments:
+        - overload:%1-3%
+        - obsidianshield:1
+        - implants:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oKhoe đôi cơ đùi gợi cảm.'
+        material: DIAMOND_LEGGINGS
+        name: '{#FCD05C}&lQuần Soóc Ngắn'
+      '4':
+        advanced-enchantments:
+        - gears:%1-3%
+        - hardened:%1-3%
+        - angelic:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oThoải mái VÀ hữu dụng!'
+        material: DIAMOND_BOOTS
+        name: '{#FCD05C}&lDép Lông Thỏ'
+      '5':
+        advanced-enchantments:
+        - disarmor:%1-8%
+        - lifesteal:%1-5%
+        - paralyze:%1-4%
+        - featherweight:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - sharpness:5
+        - fireaspect:2
+        - unbreaking:2
+        lore:
+        - '{#E0E0E0}&oLưỡi dao đâm xuyên qua cả.'
+        - '{#E0E0E0}&onhững trái tim lạnh lùng và cô đơn nhất.'
+        material: DIAMOND_SWORD
+        name: '{#FCD05C}&lDao Tình Yêu'
+      '6':
+        amount: 8
+        data: 0
+        lore:
+        - '{#E0E0E0}Sô cô la ngọt hòa quyện vị táo chua.'
+        material: GOLDEN_APPLE
+        name: '{#FCD05C}&lTáo Sô Cô La Trắng'
+      '7':
+        amount: 1
+        data: 0
+        lore:
+        - '{#E0E0E0}&oViết bằng ngôn ngữ ngoài hành tinh...'
+        - '{#E0E0E0}&onhưng có ai đó yêu bạn!'
+        material: PAPER
+        name: '{#FCD05C}&lBức Thư Tình'
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Dao Tình Yêu'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Đồ Hấp Dẫn'
+        - ' {#fcfcfc}❖ {#E0E0E0}Táo Sô Cô La & Thư Tình'
+        - ''
+        - ' {#AEC6CF}Bộ kit hỗ trợ tuyệt đỉnh!'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: RED_TULIP
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛìɴʜ ʏêᴜ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Dao Tình Yêu'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Đồ Hấp Dẫn'
+        - ' {#fcfcfc}❖ {#E0E0E0}Táo Sô Cô La & Thư Tình'
+        - ''
+        - ' {#AEC6CF}Bộ kit hỗ trợ tuyệt đỉnh!'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛìɴʜ ʏêᴜ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Dao Tình Yêu'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Đồ Hấp Dẫn'
+        - ' {#fcfcfc}❖ {#E0E0E0}Táo Sô Cô La & Thư Tình'
+        - ''
+        - ' {#AEC6CF}Bộ kit hỗ trợ tuyệt đỉnh!'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: RED_TULIP
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛìɴʜ ʏêᴜ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.valentines
+    slot: 5
+  Viking:
+    content:
+      '1':
+        advanced-enchantments:
+        - barbarian:%1-4%
+        - bleed:%1-6%
+        - reforged:%1-10%
+        - berserk:%1-4%
+        amount: 1
+        data: 0
+        enchants:
+        - sharpness:5
+        - smite:5
+        - fire_aspect:2
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oRìu cổ đại được rèn bởi thần lùn.'
+        material: DIAMOND_AXE
+        name: '{#FCD05C}&lRìu Của Thần Lùn'
+      '2':
+        advanced-enchantments:
+        - implants:%1-3%
+        - frozen:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oRèn từ sắt, đáng sợ chết người.'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lMũ Gai Viking'
+      '3':
+        advanced-enchantments:
+        - overload:%1-3%
+        - spirits:%1-10%
+        - shockwave:%1-5%
+        - curse:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oKhoe khoang thoải mái đầu lâu kẻ thù'
+        - '{#E0E0E0}&otrên bộ giáp của bạn.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lGiáp Lưới Đầu Lâu Viking'
+      '4':
+        advanced-enchantments:
+        - armored:%1-4%
+        - shockwave:%1-5%
+        - frozen:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oLạnh lẽo và đáng sợ khi chạm vào.'
+        material: DIAMOND_LEGGINGS
+        name: '{#FCD05C}&lQuần Rèn Bằng Sắt Bắc Âu'
+      '5':
+        advanced-enchantments:
+        - gears:%1-3%
+        - springs:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oCực kỳ nhanh nhẹn nhưng bảo vệ tốt.'
+        material: DIAMOND_BOOTS
+        name: '{#FCD05C}&lGiày Da Mũi Thép'
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Rìu Của Thần Lùn'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Viking'
+        - ''
+        - ' {#AEC6CF}Khát máu, tàn nhẫn, viking cuồng rìu.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: DIAMOND_AXE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴄʜɪếɴ ʙɪɴʜ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Rìu Của Thần Lùn'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Viking'
+        - ''
+        - ' {#AEC6CF}Khát máu, tàn nhẫn, viking cuồng rìu.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴄʜɪếɴ ʙɪɴʜ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Rìu Của Thần Lùn'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Giáp Viking'
+        - ''
+        - ' {#AEC6CF}Khát máu, tàn nhẫn, viking cuồng rìu.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: DIAMOND_AXE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴄʜɪếɴ ʙɪɴʜ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.viking
+    slot: 10
+  Voidwalker:
+    content:
+      '1':
+        advanced-enchantments:
+        - lifesteal:%1-5%
+        - disarmor:%1-8%
+        - greatsword:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - sharpness:5
+        - fire_aspect:2
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oĐại kiếm rèn từ ác quỷ'
+        - '{#E0E0E0}&ochỉ sử dụng bởi những người được thanh'
+        - '{#E0E0E0}&okiếm cho là xứng đáng và dùng để giết'
+        - '{#E0E0E0}&onhững kẻ nó cho là không xứng đáng.'
+        material: DIAMOND_SWORD
+        name: '{#FCD05C}&lĐại Kiếm Hỗn Mang'
+      '2':
+        advanced-enchantments:
+        - armored:%1-4%
+        - gears:%1-3%
+        - tank:%1-4%
+        - voodoo:%1-6%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oBạn đi trên lằn ranh mỏng manh giữa'
+        - '{#E0E0E0}&otồn tại và tuyệt chủng, kẻ thù'
+        - '{#E0E0E0}&ocó dám theo sau không?'
+        material: DIAMOND_BOOTS
+        name: '{#FCD05C}&lXăng Đan Hư Không Erebus'
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Đại Kiếm Hỗn Mang'
+        - ' {#fcfcfc}❖ {#E0E0E0}Xăng Đan Hư Không Erebus'
+        - ''
+        - ' {#AEC6CF}Bước đi trên con đường của hư không thực sự.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: ENDER_PEARL
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ʜư ᴋʜôɴɢ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Đại Kiếm Hỗn Mang'
+        - ' {#fcfcfc}❖ {#E0E0E0}Xăng Đan Hư Không Erebus'
+        - ''
+        - ' {#AEC6CF}Bước đi trên con đường của hư không thực sự.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ʜư ᴋʜôɴɢ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Đại Kiếm Hỗn Mang'
+        - ' {#fcfcfc}❖ {#E0E0E0}Xăng Đan Hư Không Erebus'
+        - ''
+        - ' {#AEC6CF}Bước đi trên con đường của hư không thực sự.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: ENDER_PEARL
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ʜư ᴋʜôɴɢ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.voidwalker
+    slot: 16
+  Warlock:
+    content:
+      '1':
+        advanced-enchantments:
+        - sniper:%1-5%
+        - piercing:%1-5%
+        - blind:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - power:5
+        - infinity:1
+        - flame:1
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oThực thể truyền thuyết bị nguyền rủa'
+        - '{#E0E0E0}&ovới sức mạnh ma quỷ cổ xưa tàn phá.'
+        material: BOW
+        name: '{#FCD05C}&lÁc Quỷ Cung'
+      '2':
+        advanced-enchantments:
+        - armored:%1-4%
+        - overload:%1-3%
+        - guardians:%1-10%
+        - trickster:%1-8%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oBạn là bậc thầy của thế giới ác quỷ.'
+        material: DIAMOND_HELMET
+        name: '{#FCD05C}&lMạng Che Thuật Sĩ'
+      '3':
+        advanced-enchantments:
+        - armored:%1-4%
+        - overload:%1-3%
+        - spirits:%1-10%
+        - shockwave:%1-5%
+        - curse:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oMột chiếc áo choàng tối lạnh lẽo ớn lạnh.'
+        material: DIAMOND_CHESTPLATE
+        name: '{#FCD05C}&lÁo Choàng Thuật Sĩ'
+      '4':
+        advanced-enchantments:
+        - armored:%1-4%
+        - dodge:%1-5%
+        - wither:%1-5%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oChiếc quần lụa tối tăm nhẹ nhàng.'
+        material: DIAMOND_LEGGINGS
+        name: '{#FCD05C}&lQuần Lụa Thuật Sĩ'
+      '5':
+        advanced-enchantments:
+        - armored:%1-4%
+        - gears:%1-3%
+        amount: 1
+        data: 0
+        enchants:
+        - protection:4
+        - unbreaking:3
+        lore:
+        - '{#E0E0E0}&oTĩnh lặng... rồi bất chợt cái chết.'
+        material: DIAMOND_BOOTS
+        name: '{#FCD05C}&lLời Gọi Bóng Ma Banshee'
+      '6':
+        amount: 16
+        data: 0
+        material: ENDER_PEARL
+      '8':
+        command: ae giveitem %player% secret 5 ULTIMATE
+    delay: 259200
+    display:
+      available:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Ác Quỷ Cung'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Trang Phục Thuật Sĩ'
+        - ' {#fcfcfc}❖ {#E0E0E0}16x Ngọc Ender'
+        - ' {#fcfcfc}❖ {#E0E0E0}5x Bụi Thần Bí Tối Thượng'
+        - ''
+        - ' {#AEC6CF}Trở thành bậc thầy của Nghệ thuật hắc ám.'
+        - ''
+        - '{#57F287}&l✔ Đã ᴍở ᴋʜóᴀ'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: DRAGON_EGG
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛʜᴜậᴛ sĩ ❁'
+        custom-model-data: 0
+      cooldown:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Ác Quỷ Cung'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Trang Phục Thuật Sĩ'
+        - ' {#fcfcfc}❖ {#E0E0E0}16x Ngọc Ender'
+        - ' {#fcfcfc}❖ {#E0E0E0}5x Bụi Thần Bí Tối Thượng'
+        - ''
+        - ' {#AEC6CF}Trở thành bậc thầy của Nghệ thuật hắc ám.'
+        - ''
+        - '{#FCD05C}&l⏳ Đᴀɴɢ ʜồɪ... {cooldown}'
+        - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ᴛʀướᴄ'
+        material: STAINED_GLASS_PANE
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛʜᴜậᴛ sĩ ❁'
+      no-permission:
+        data: 0
+        force-glow: true
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}Ác Quỷ Cung'
+        - ' {#fcfcfc}❖ {#E0E0E0}Bộ Trang Phục Thuật Sĩ'
+        - ' {#fcfcfc}❖ {#E0E0E0}16x Ngọc Ender'
+        - ' {#fcfcfc}❖ {#E0E0E0}5x Bụi Thần Bí Tối Thượng'
+        - ''
+        - ' {#AEC6CF}Trở thành bậc thầy của Nghệ thuật hắc ám.'
+        - ''
+        - '{#ED4245}&l✖ ᴄʜưᴀ ᴍở ᴋʜóᴀ'
+        - '{#ED4245}▶ {#E0E0E0}ᴍᴜᴀ ᴛạɪ ᴄửᴀ ʜàɴɢ sᴇʀᴠᴇʀ'
+        material: DRAGON_EGG
+        name: '{#BDB2FF}&l❁ ɢᴋɪᴛ ᴛʜᴜậᴛ sĩ ❁'
+        custom-model-data: 0
+    hide: false
+    permission: gkit.warlock
+    slot: 24

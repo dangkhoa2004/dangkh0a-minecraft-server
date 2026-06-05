@@ -1,0 +1,30 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 1152
+    block: "SPRUCE_LEAVES"
+display:
+  name: "&#A3C4F3&nᴇxᴛʀᴇᴍᴇ Qᴜᴇꜱᴛ:&r &#FDFD96#17"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ ᴛʜᴜ ᴛʜậᴘ ʀấᴛ ɴʜɪềᴜ'
+    - '&#D1E8E2ᴛàɪ ɴɢᴜʏêɴ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴘʜá ᴠỡ 18 ꜱᴛᴀᴄᴋ ʟá ᴛùɴɢ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{mining:progress}/1152 ʟá ᴛùɴɢ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$20,000'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "SPRUCE_LEAVES"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 20000"
+options:
+  category: "extreme"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 2880
+  sort-order: 17

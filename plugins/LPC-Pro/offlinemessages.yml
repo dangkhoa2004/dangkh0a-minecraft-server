@@ -1,0 +1,46 @@
+# LPC Pro V2 - Offline Messages Configuration
+# This file controls the offline PM queue system
+
+# ===========================================
+# General Settings
+# ===========================================
+enabled: false
+
+# ===========================================
+# Message Settings
+# ===========================================
+messages:
+  # Maximum offline messages per sender per day
+  max-per-sender-daily: 10
+
+  # Message expiration (days)
+  expiration-days: 7
+
+  # Cleanup delivered messages after (days)
+  cleanup-delivered-days: 30
+
+# ===========================================
+# Delivery Settings
+# ===========================================
+delivery:
+  # Delay before delivering messages on join (ticks, 20 = 1 second)
+  join-delay-ticks: 40
+
+  # Maximum messages to deliver at once
+  max-delivery-batch: 20
+
+# ===========================================
+# Notifications
+# ===========================================
+notifications:
+  # Sound to play when messages are delivered
+  delivery-sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  sound-volume: 1.0
+  sound-pitch: 1.0
+
+# ===========================================
+# Restrictions
+# ===========================================
+restrictions:
+  # Allow sending to yourself (for testing)
+  allow-self-send: false

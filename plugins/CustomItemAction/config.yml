@@ -1,0 +1,35 @@
+# Cấu hình Item
+item:
+  material: BOOK
+  name: "&#B9FBC0&l⭐ &#B9FBC0&lM&#B9FBC0&le&#B9FBC0&ln&#B9FBC0&lu &#B9FBC0&ls&#B9FBC0&le&#B9FBC0&lr&#B9FBC0&lv&#B9FBC0&le&#B9FBC0&lr &#B9FBC0&l⭐"
+  lore:
+  - "&#AAAAAAĐây là vật phẩm không thể vứt"
+  - "&#AAAAAAvà không thể cất vào rương."
+  - ""
+  - "&#55FF55Chuột phải để sử dụng!"
+  actions:
+  - "[console] dmenu open menus %player%"
+shard_item:
+  material: AMETHYST_SHARD
+  name: "&#B955FF💎 Mảnh Vỡ Tinh Thể 💎"
+  lore:
+    - "&#AAAAAAVật phẩm này dùng để trao đổi."
+  custom_model_data: 1000
+
+  # --- TÙY CHỈNH CÁC CHỨC NĂNG CỦA SHARD ---
+  # true = Cấm hành động đó | false = Cho phép hành động đó
+  prevent_drop: true          # Cấm vứt ra đất
+  prevent_move_to_chest: false # Đặt FALSE để CÓ THỂ cất vào rương/kho đồ khác
+  prevent_craft: true         # Cấm dùng để chế tạo
+  prevent_enchant: true       # Cấm dùng trong Đe và Bàn Phù Phép
+  prevent_death_drop: true    # Không rơi ra đất khi chết (giữ lại trong người)
+
+# Tin nhắn hệ thống
+messages:
+  toggled_on: "&#55FF55[+] Đã thêm tiện ích vào túi đồ của bạn."
+  toggled_off: "&#FF5555[-] Đã xoá tiện ích khỏi túi đồ của bạn."
+  inventory_full: "&#FF0000Kho đồ của bạn đang đầy, không thể nhận vật phẩm!"
+  cannot_drop: "&#FF0000Bạn không thể vứt vật phẩm này khỏi người!"
+  cannot_move: "&#FF0000Bạn không thể cất vật phẩm này vào rương khác!"
+  give_shard_usage: "&#FFFF00Sử dụng: /customitem giveshard <người_chơi> <số_lượng>"
+  give_shard_success: "&#00FF00Đã gửi %amount% Shard cho %player%."

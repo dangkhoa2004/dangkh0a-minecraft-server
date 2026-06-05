@@ -1,0 +1,225 @@
+# Create customized commands.
+enchantment-info:
+  # Is this command enabled?
+  enabled: true
+  # Change the start of the command
+  # Use it in game: /<command> <enchantment>
+  command: /enchant
+  aliases:
+  - /enchantment
+  # Permission for command
+  # Set to "" to disable
+  permission: ''
+  inventory:
+    # Inventory size (9-18-27-36-45-54)
+    size: 9
+    # Inventory name
+    name: '{#BDB2FF}&l❁ ᴛʜôɴɢ ᴛɪɴ: %enchant% ❁'
+    items:
+      # Slots start from 0
+      # This number defines the inventory slot.
+      '2':
+        type: STAINED_GLASS_PANE
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+        prefix-addon: ' {#fcfcfc}❖ {#E0E0E0}'
+      '3':
+        type: ENCHANTED_BOOK
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+        name: '{#FCD05C}&l❁ ᴄʜɪ ᴛɪếᴛ ᴘʜù ᴘʜéᴘ ❁'
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}ᴘʜù ᴘʜéᴘ: %ench-colors%'
+        - ' {#fcfcfc}❖ {#E0E0E0}ᴛíᴄʜ ʜợᴘ: {#AEC6CF}%applies-to%'
+        - ' {#fcfcfc}❖ {#E0E0E0}ᴄấᴘ ᴛốɪ đᴀ: {#ED4245}%max-lvl%'
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}ᴍô {#E0E0E0}ᴛả: {#fcfcfc}%desc%'
+        # you can as well use %group-color% to get enchantment color
+        prefix-addon: ' {#fcfcfc}❖ {#fcfcfc}'
+      '4':
+        type: STAINED_GLASS_PANE
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+        prefix-addon: ' {#fcfcfc}❖ {#E0E0E0}'
+      '5':
+        type: CHEST
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+        name: '{#57F287}&l❁ ᴠậᴛ ᴘʜẩᴍ ᴛíᴄʜ ʜợᴘ ❁'
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#AEC6CF}%applies-to%'
+        prefix-addon: ' {#fcfcfc}❖ {#AEC6CF}'
+      '6':
+        type: STAINED_GLASS_PANE
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+        prefix-addon: ' {#fcfcfc}❖ {#E0E0E0}'
+enchantments:
+  # Is this command enabled?
+  enabled: true
+  # Change the command
+  # Use it in game: /<command>
+  command: /enchants
+  aliases:
+  - /enchantments
+  # Permission for command
+  # Set to "" to disable
+  permission: ''
+  mode:
+    # Modes: GROUPS, ALL
+    # If set to GROUPS, first group selection inventory will show up
+    # If set to ALL, first inventory will show all available enchants
+    currentMode: GROUPS
+  inventory:
+    # Inventory size (18-27-36-45-54)
+    size: 27
+    # Display page number with next/previous page item amounts?
+    display-page-number: true
+    # Inventory name
+    name: '{#BDB2FF}&l❁ ᴅᴀɴʜ sáᴄʜ ᴘʜù ᴘʜéᴘ ❁'
+    items:
+      # Slots start from 0
+      # This number defines the inventory slot.
+      '10':
+        type: WHITE_DYE
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+        # What enchantment group list should it open?
+        group: SIMPLE
+        name: '{#E0E0E0}&lᴘʜù ᴘʜéᴘ ᴛʜườɴɢ'
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}ɴʜấɴ để xᴇᴍ ᴛᴏàɴ ʙộ sáᴄʜ'
+        - ' {#E0E0E0}ᴛʜᴜộᴄ ɴʜóᴍ ᴘʜù ᴘʜéᴘ ᴛʜườɴɢ.'
+      '11':
+        type: LIME_DYE
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+        group: UNIQUE
+        name: '{#57F287}&lᴘʜù ᴘʜéᴘ ʜɪếᴍ'
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}ɴʜấɴ để xᴇᴍ ᴛᴏàɴ ʙộ sáᴄʜ'
+        - ' {#E0E0E0}ᴛʜᴜộᴄ ɴʜóᴍ ᴘʜù ᴘʜéᴘ ʜɪếᴍ.'
+      '12':
+        type: LIGHT_BLUE_DYE
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+        group: ELITE
+        name: '{#AEC6CF}&lᴘʜù ᴘʜéᴘ ѕɪêᴜ ʜɪếᴍ'
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}ɴʜấɴ để xᴇᴍ ᴛᴏàɴ ʙộ sáᴄʜ'
+        - ' {#E0E0E0}ᴛʜᴜộᴄ ɴʜóᴍ ᴘʜù ᴘʜéᴘ sɪêᴜ ʜɪếᴍ.'
+      '14':
+        type: YELLOW_DYE
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+        group: ULTIMATE
+        name: '{#FCD05C}&lᴘʜù ᴘʜéᴘ ѕử ᴛʜɪ'
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}ɴʜấɴ để xᴇᴍ ᴛᴏàɴ ʙộ sáᴄʜ'
+        - ' {#E0E0E0}ᴛʜᴜộᴄ ɴʜóᴍ ᴘʜù ᴘʜéᴘ sử ᴛʜɪ.'
+      '15':
+        type: ORANGE_DYE
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+        group: LEGENDARY
+        name: '{#FFB7B2}&lᴘʜù ᴘʜéᴘ ʜᴜʏềɴ ᴛʜᴏạɪ'
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}ɴʜấɴ để xᴇᴍ ᴛᴏàɴ ʙộ sáᴄʜ'
+        - ' {#E0E0E0}ᴛʜᴜộᴄ ɴʜóᴍ ᴘʜù ᴘʜéᴘ ʜᴜʏềɴ ᴛʜᴏạɪ.'
+      '16':
+        type: PINK_DYE
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+        group: FABLED
+        name: '{#BDB2FF}&lᴘʜù ᴘʜéᴘ ᴛʜầɴ ᴛʜᴏạɪ'
+        lore:
+        - ''
+        - ' {#fcfcfc}❖ {#E0E0E0}ɴʜấɴ để xᴇᴍ ᴛᴏàɴ ʙộ sáᴄʜ'
+        - ' {#E0E0E0}ᴛʜᴜộᴄ ɴʜóᴍ ᴘʜù ᴘʜéᴘ ᴛʜầɴ ᴛʜᴏạɪ.'
+      fill:
+        type: STAINED_GLASS_PANE
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+  group-enchantment-inventory:
+    name: '%color%&l❁ ɴʜóᴍ %group% ❁'
+    # Fills empty slots with this item
+    fill-item:
+      material: STAINED_GLASS_PANE
+      id: 0
+      custom-model-data: 0
+      name: ' '
+      lore: []
+    go-back-item:
+      # Show "Go Back" item?
+      enabled: true
+      slot: '%invSize% - 5'
+      item:
+        type: NETHER_STAR
+        id: 0
+        custom-model-data: 0
+      name: '{#ED4245}&l✖ ǫᴜᴀʏ ʟạɪ'
+      lore: []
+    previous-page:
+      material: ARROW
+      id: 0
+      custom-model-data: 0
+      name: '{#AEC6CF}&l◀ ᴛʀᴀɴɢ ᴛʀướᴄ'
+      lore: []
+      slot: '%invSize% - 6'
+    next-page:
+      material: ARROW
+      id: 0
+      custom-model-data: 0
+      name: '{#AEC6CF}&lᴛʀᴀɴɢ ᴛɪếᴘ ▶'
+      lore: []
+      slot: '%invSize% - 4'
+    item:
+      type: ENCHANTED_BOOK
+      id: 0
+      custom-model-data: 0
+      force-glow: false
+      # What command should be run when player clicks on one of the enchantments?
+      # %max-lvl% - Displays max. level in numbers, %max-lvl-roman% - displays max. level in roman numerals
+      command: /enchant %enchantment-no-color%
+      name: '%group-color%&l%enchant-no-color%'
+      lore:
+      - ''
+      - ' {#fcfcfc}❖ {#E0E0E0}ᴘʜù ᴘʜéᴘ: %ench-colors%'
+      - ' {#fcfcfc}❖ {#E0E0E0}ᴛíᴄʜ ʜợᴘ: {#AEC6CF}%applies-to%'
+      - ' {#fcfcfc}❖ {#E0E0E0}ᴄấᴘ ᴛốɪ đᴀ: {#ED4245}%max-lvl-roman%'
+      - ''
+      - ' {#fcfcfc}❖ {#E0E0E0}ᴍô {#E0E0E0}ᴛả: &4%desc%'
+      - ''
+      - '{#57F287}▶ {#E0E0E0}ɴʜấɴ ᴠàᴏ để xᴇᴍ ᴄʜɪ ᴛɪếᴛ'
+      prefix-addon: ' {#fcfcfc}❖ {#fcfcfc}'
+enchants:
+  group-enchantment-inventory:
+    item:
+      prefix-addon: ' {#fcfcfc}❖ {#fcfcfc}'

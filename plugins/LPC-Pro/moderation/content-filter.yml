@@ -1,0 +1,4 @@
+filter-signs: true
+filter-books: true
+filter-anvil: true
+block-on-filter: true

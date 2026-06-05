@@ -1,0 +1,34 @@
+tasks:
+  walking:
+    type: "walking"
+    mode: walking
+    distance: 15000
+
+display:
+  name: "&#A3C4F3&nʙộ ʜàɴʜ ᴠɪ:&r &#FDFD96#6"
+  lore-normal:
+    - "&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ ᴅɪ ᴄʜᴜʏểɴ"
+    - "&#D1E8E2ʙằɴɢ đôɪ ᴄʜâɴ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ."
+    - ""
+    - "&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2đɪ ʙộ ᴛʀêɴ ᴍặᴛ đấᴛ."
+    - "&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{walking:progress}/15000 ʙʟᴏᴄᴋ."
+    - "&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$2500"
+    - ""
+  lore-started:
+    - "&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ."
+  type: "CHAINMAIL_BOOTS"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+
+rewards:
+  - "eco give {player} 2500"
+
+options:
+  category: "walking"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 6
+  requires:
+   - "walking5"

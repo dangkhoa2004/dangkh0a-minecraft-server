@@ -1,0 +1,49 @@
+# LPC Pro V2 - Polls Configuration
+# This file controls the chat poll system
+
+# ===========================================
+# General Settings
+# ===========================================
+enabled: true
+
+# Maximum number of options per poll
+max-options: 10
+
+# Minimum number of options per poll
+min-options: 2
+
+# Default poll duration (if not specified)
+# Format: 5m, 1h, 2d (minutes, hours, days)
+default-duration: "5m"
+
+# Maximum poll duration
+max-duration: "7d"
+
+# Permissions
+permissions:
+  # Permission to vote in polls
+  vote: "lpcpro.poll.vote"
+  # Permission to create polls
+  create: "lpcpro.poll.create"
+  # Permission to close any poll
+  close: "lpcpro.poll.close"
+
+# ===========================================
+# Display Settings
+# ===========================================
+display:
+  # Announce poll creation to server
+  announce-creation: true
+
+  # Announce poll results when closed
+  announce-results: true
+
+# ===========================================
+# Limits
+# ===========================================
+limits:
+  # Maximum question length
+  max-question-length: 200
+
+  # Maximum option length
+  max-option-length: 50

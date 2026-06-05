@@ -1,0 +1,31 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    block: LAPIS_ORE
+    amount: 64
+display:
+  name: "&#A3C4F3&nᴛʜợ ᴍỏ:&r &#FDFD96#XV"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏᴇᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ ᴋʜᴀɪ ᴛʜáᴄ ǫᴜặɴɢ'
+    - '&#D1E8E2ᴘʜá ʜủʏ ᴋʜốɪ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴋʜᴀɪ ᴛʜáᴄ ǫᴜặɴɢ ᴛʜạᴄʜ ʟᴀᴍ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{mining:progress}/64 ᴋʜốɪ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$2.500'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "WOODEN_PICKAXE"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 2500"
+options:
+  category: "miner"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 15
+  requires:
+    - "miner14"

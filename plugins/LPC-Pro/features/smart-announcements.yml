@@ -1,0 +1,56 @@
+enabled: false
+check-interval-seconds: 60
+announcements:
+  welcome:
+    message: <dark_gray>  »</dark_gray> <green>Welcome</green> <dark_gray>—</dark_gray>
+      <gray>Welcome to the server! Use <yellow>/lpc help</yellow> to get started
+    per-player: true
+    cooldown-seconds: 3600
+    priority: 10
+    random-chance: 1.0
+    enabled: true
+    conditions:
+      min_playtime_minutes: 0
+      max_playtime_minutes: 5
+  chat_tip:
+    message: <dark_gray>  »</dark_gray> <gold>Tip</gold> <dark_gray>—</dark_gray>
+      <gray>Use <yellow>@name</yellow> to mention someone in chat
+    per-player: true
+    cooldown-seconds: 7200
+    priority: 5
+    random-chance: 1.0
+    enabled: true
+    conditions:
+      min_playtime_minutes: 30
+  busy_server:
+    message: <dark_gray>  »</dark_gray> <gold>Server</gold> <dark_gray>—</dark_gray>
+      <yellow>The server is busy today! Thanks for playing with everyone
+    per-player: false
+    cooldown-seconds: 1800
+    priority: 3
+    random-chance: 1.0
+    enabled: true
+    conditions:
+      min_players: 20
+  vote_reminder:
+    message: <dark_gray>  »</dark_gray> <green>Vote</green> <dark_gray>—</dark_gray>
+      <gray>Support the server by voting with <yellow>/vote</yellow>
+    per-player: true
+    cooldown-seconds: 3600
+    priority: 2
+    random-chance: 0.3
+    enabled: true
+    conditions:
+      min_players: 5
+  vip_tip:
+    message: <dark_gray>  »</dark_gray> <gold>VIP</gold> <dark_gray>—</dark_gray>
+      <yellow>Use <white>/fly</white> to toggle flight in the hub
+    per-player: true
+    cooldown-seconds: 7200
+    priority: 1
+    random-chance: 1.0
+    enabled: false
+    conditions:
+      permission: group.vip
+    worlds:
+    - hub

@@ -1,0 +1,30 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 1152
+    block: "MOSSY_COBBLESTONE"
+display:
+  name: "&#A3C4F3&nᴇxᴛʀᴇᴍᴇ ǫᴜᴇꜱᴛ:&r &#FDFD96#52"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ᴛʜᴜ ᴛʜậᴘ'
+    - '&#D1E8E2ɴʜɪềᴜ ᴛàɪ ɴɢᴜʏêɴ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴋʜᴀɪ ᴛʜáᴄ 18 ꜱᴛᴀᴄᴋ đá ᴄᴜộɪ ʀêᴜ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{mining:progress}/1152 đá ᴄᴜộɪ ʀêᴜ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$20,000'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "MOSSY_COBBLESTONE"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 20000"
+options:
+  category: "extreme"
+  requires: []
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 2880
+  sort-order: 52

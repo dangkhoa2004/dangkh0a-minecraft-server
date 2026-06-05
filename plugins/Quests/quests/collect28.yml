@@ -1,0 +1,33 @@
+tasks:
+  collect:
+    type: "inventory"
+    item: "STRING"
+    remove-items-when-complete: true
+    amount: 64
+display:
+  # [FIXED]: Sửa tên từ XXV thành XXVIII
+  name: "&#A3C4F3&nɴʜɪệᴍ ᴠụ ᴛʜᴜ ᴛʜậᴘ:&r &#FDFD96xxᴠɪɪɪ"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó'
+    - '&#D1E8E2ᴠớɪ ᴛʜᴜ ᴛʜậᴘ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ɢɪᴀᴏ ɴộᴘ 64 ꜱợɪ ᴛơ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{collect:progress}/64 ꜱợɪ ᴛơ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC01000$'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "STRING"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 1000"
+options:
+  category: "collect"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 28
+  requires:
+    - "collect27"

@@ -1,0 +1,118 @@
+# Enchantment groups are used for enchanter, to sell specific type books. You can group them
+# and give each group global color.
+# YOU CAN DELETE THESE GROUPS AND CREATE YOUR OWN
+settings:
+  magic-dust:
+    # Limit applying of Magic dust per group
+    # If false, magic dust can be applied to different groups
+    limit-applying-per-group: true
+  randomization-scrolls:
+    # Limit applying of Randomization scrolls per group
+    # If false, Randomization scrolls can be applied to different groups
+    limit-applying-per-group: true
+  # If set group is invalid, what should be the fall-back group
+  fallback-group: THUONG
+groups:
+  THUONG:
+    global-color: "{#CCCCCC}"
+    group-name: "Thường"
+    # Use this to change the type of item per group
+    item:
+      type: WHITE_DYE
+      id: 0
+      custom-model-data: 0
+    slot-increaser:
+      # How many slots should slot increaser add when using this type increaser
+      slots: 1
+      custom-model-data: 0
+    magic-dust:
+      # when right-clicked, it gives magic with success chance
+      # How much success should the dust have? (e.g.: 5 would mean always 5, 5-10 would mean random number from 5 to 10)
+      success: 1-15
+      # Chance to give Magic dust instead of Mystery dust
+      chance: 22
+  HIEM:
+    global-color: "{#47D647}"
+    group-name: "Hiếm"
+    item:
+      type: LIME_DYE
+      id: 0
+      custom-model-data: 0
+    slot-increaser:
+      # How many slots should slot increaser add when using this type increaser
+      slots: 1
+      custom-model-data: 0
+    magic-dust:
+      # when right-clicked, it gives magic with success chance
+      # How much success should the dust have? (e.g.: 5 would mean always 5, 5-10 would mean random number from 5 to 10)
+      success: 1-15
+      # Chance to give Magic dust instead of Mystery dust
+      chance: 22
+  SIEUHIEM:
+    global-color: "{#508BD9}"
+    group-name: "Siêu Hiếm"
+    item:
+      type: LIGHT_BLUE_DYE
+      id: 0
+      custom-model-data: 0
+    slot-increaser:
+      # How many slots should slot increaser add when using this type increaser
+      slots: 1
+      custom-model-data: 0
+    magic-dust:
+      # when right-clicked, it gives magic with success chance
+      # How much success should the dust have? (e.g.: 5 would mean always 5, 5-10 would mean random number from 5 to 10)
+      success: 1-15
+      # Chance to give Magic dust instead of Mystery dust
+      chance: 22
+  SUTHI:
+    global-color: "{#EFE556}"
+    group-name: "Sử Thi"
+    item:
+      type: YELLOW_DYE
+      id: 0
+      custom-model-data: 0
+    slot-increaser:
+      # How many slots should slot increaser add when using this type increaser
+      slots: 1
+      custom-model-data: 0
+    magic-dust:
+      # when right-clicked, it gives magic with success chance
+      # How much success should the dust have? (e.g.: 5 would mean always 5, 5-10 would mean random number from 5 to 10)
+      success: 1-15
+      # Chance to give Magic dust instead of Mystery dust
+      chance: 22
+  HUYENTHOAI:
+    global-color: "{#F1AC21}"
+    group-name: "Huyền Thoại"
+    item:
+      type: ORANGE_DYE
+      id: 0
+      custom-model-data: 0
+    slot-increaser:
+      # How many slots should slot increaser add when using this type increaser
+      slots: 1
+      custom-model-data: 0
+    magic-dust:
+      # when right-clicked, it gives magic with success chance
+      # How much success should the dust have? (e.g.: 5 would mean always 5, 5-10 would mean random number from 5 to 10)
+      success: 1-15
+      # Chance to give Magic dust instead of Mystery dust
+      chance: 22
+  THANTHOAI:
+    global-color: "{#B30B0B}"
+    group-name: "Thần Thoại"
+    item:
+      type: PINK_DYE
+      id: 0
+      custom-model-data: 0
+    slot-increaser:
+      # How many slots should slot increaser add when using this type increaser
+      slots: 1
+      custom-model-data: 0
+    magic-dust:
+      # when right-clicked, it gives magic with success chance
+      # How much success should the dust have? (e.g.: 5 would mean always 5, 5-10 would mean random number from 5 to 10)
+      success: 1-15
+      # Chance to give Magic dust instead of Mystery dust
+      chance: 22

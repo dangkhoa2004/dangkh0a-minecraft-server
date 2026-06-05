@@ -1,0 +1,10 @@
+data:
+  session: 3080
+  dice1: 6
+  dice2: 1
+  dice3: 4
+  result: TAI
+  currency: VAULT
+  xiuPlayers:
+    ThanhQuan85: 500000000
+    Quang13375755: 50000000

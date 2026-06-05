@@ -1,0 +1,3235 @@
+enabled: false
+require-permission: false
+emojis:
+  plane:
+    emoji: ✈
+    description: Airplane
+    category: transport
+    enabled: true
+  egg:
+    emoji: 🥚
+    description: Egg
+    category: food
+    enabled: true
+  innocent:
+    emoji: (◒‿◒)
+    description: Innocent Face
+    category: kaomoji
+    enabled: true
+  kangaroo:
+    emoji: 🦘
+    description: Kangaroo
+    category: animals
+    enabled: true
+  kiss:
+    emoji: 😘
+    description: Kiss
+    category: smileys
+    enabled: true
+  flushed:
+    emoji: 😳
+    description: Flushed Face
+    category: smileys
+    enabled: true
+  robot:
+    emoji: 🤖
+    description: Robot
+    category: smileys
+    enabled: true
+  tea:
+    emoji: 🍵
+    description: Tea
+    category: food
+    enabled: true
+  music:
+    emoji: 🎵
+    description: Music Notes
+    category: objects
+    enabled: true
+  poop:
+    emoji: 💩
+    description: Poop
+    category: smileys
+    enabled: true
+  beating_heart:
+    emoji: 💓
+    description: Beating Heart
+    category: hearts
+    enabled: true
+  bat:
+    emoji: 🦇
+    description: Bat
+    category: animals
+    enabled: true
+  rabbit:
+    emoji: 🐰
+    description: Rabbit
+    category: animals
+    enabled: true
+  hourglass:
+    emoji: ⏳
+    description: Hourglass
+    category: gaming
+    enabled: true
+  traffic_light:
+    emoji: 🚦
+    description: Traffic Light
+    category: transport
+    enabled: true
+  bubble_tea:
+    emoji: 🧋
+    description: Bubble Tea
+    category: food
+    enabled: true
+  vip:
+    emoji: <gradient:#FFD700:#FFA500>VIP</gradient>
+    description: VIP Badge
+    category: styled
+    enabled: true
+  beer:
+    emoji: 🍺
+    description: Beer
+    category: food
+    enabled: true
+  fairy:
+    emoji: 🧚
+    description: Fairy
+    category: gaming
+    enabled: true
+  sunglasses:
+    emoji: (•_•) ( •_•)>⌐■-■ (⌐■_■)
+    description: Putting on Sunglasses
+    category: kaomoji
+    enabled: true
+  hippo:
+    emoji: 🦛
+    description: Hippo
+    category: animals
+    enabled: true
+  shock:
+    emoji: 😱
+    description: Shocked Face
+    category: smileys
+    enabled: true
+  peach:
+    emoji: 🍑
+    description: Peach
+    category: food
+    enabled: true
+  milk:
+    emoji: 🥛
+    description: Milk
+    category: food
+    enabled: true
+  pool:
+    emoji: 🎱
+    description: Pool 8-Ball
+    category: sports
+    enabled: true
+  neutral:
+    emoji: 😐
+    description: Neutral Face
+    category: smileys
+    enabled: true
+  angry:
+    emoji: 😠
+    description: Angry Face
+    category: smileys
+    enabled: true
+  lion:
+    emoji: 🦁
+    description: Lion
+    category: animals
+    enabled: true
+  weightlifting:
+    emoji: 🏋
+    description: Weightlifting
+    category: sports
+    enabled: true
+  globe:
+    emoji: 🌎
+    description: Globe Americas
+    category: nature
+    enabled: true
+  folder:
+    emoji: 📁
+    description: Folder
+    category: objects
+    enabled: true
+  peace:
+    emoji: ✌
+    description: Peace Sign
+    category: gestures
+    enabled: true
+  wink:
+    emoji: 😉
+    description: Winking Face
+    category: smileys
+    enabled: true
+  love_you:
+    emoji: 🤟
+    description: Love You Gesture
+    category: gestures
+    enabled: true
+  upside_down:
+    emoji: 🙃
+    description: Upside Down Face
+    category: smileys
+    enabled: true
+  wine:
+    emoji: 🍷
+    description: Wine
+    category: food
+    enabled: true
+  wind:
+    emoji: 💨
+    description: Wind
+    category: nature
+    enabled: true
+  spaghetti:
+    emoji: 🍝
+    description: Spaghetti
+    category: food
+    enabled: true
+  dead:
+    emoji: 💀
+    description: Skull
+    category: smileys
+    enabled: true
+  hot:
+    emoji: 🥵
+    description: Hot Face
+    category: smileys
+    enabled: true
+  ice_text:
+    emoji: <gradient:#00BFFF:#87CEEB:#FFFFFF>ICE</gradient>
+    description: Ice Text
+    category: styled
+    enabled: true
+  gold:
+    emoji: 🪙
+    description: Gold Coin
+    category: gaming
+    enabled: true
+  swimming:
+    emoji: 🏊
+    description: Swimming
+    category: sports
+    enabled: true
+  ok_word:
+    emoji: 🆗
+    description: OK
+    category: symbols
+    enabled: true
+  golf:
+    emoji: ⛳
+    description: Golf
+    category: sports
+    enabled: true
+  new_moon:
+    emoji: 🌑
+    description: New Moon
+    category: nature
+    enabled: true
+  comet:
+    emoji: ☄
+    description: Comet
+    category: nature
+    enabled: true
+  palms_up:
+    emoji: 🤲
+    description: Palms Up Together
+    category: gestures
+    enabled: true
+  zombie:
+    emoji: 🧟
+    description: Zombie
+    category: gaming
+    enabled: true
+  volcano:
+    emoji: 🌋
+    description: Volcano
+    category: nature
+    enabled: true
+  hand:
+    emoji: 🖐
+    description: Hand with Fingers
+    category: gestures
+    enabled: true
+  point_up:
+    emoji: ☝
+    description: Pointing Up
+    category: gestures
+    enabled: true
+  slay:
+    emoji: 💅
+    description: Slay
+    category: reactions
+    enabled: true
+  f:
+    emoji: 🇫
+    description: Press F
+    category: reactions
+    enabled: true
+  staff:
+    emoji: <gradient:#4169E1:#0000CD>STAFF</gradient>
+    description: Staff Badge
+    category: styled
+    enabled: true
+  l:
+    emoji: 📉
+    description: Loss
+    category: reactions
+    enabled: true
+  sunflower:
+    emoji: 🌻
+    description: Sunflower
+    category: nature
+    enabled: true
+  love_face:
+    emoji: (´∀｀)♡
+    description: Love Face
+    category: kaomoji
+    enabled: true
+  police:
+    emoji: 🚓
+    description: Police Car
+    category: transport
+    enabled: true
+  sunset:
+    emoji: 🌇
+    description: Sunset
+    category: nature
+    enabled: true
+  zipper:
+    emoji: 🤐
+    description: Zipper Mouth
+    category: smileys
+    enabled: true
+  w:
+    emoji: 🏆
+    description: Win
+    category: reactions
+    enabled: true
+  jack_o_lantern:
+    emoji: 🎃
+    description: Jack-O-Lantern
+    category: smileys
+    enabled: true
+  infinity:
+    emoji: ♾
+    description: Infinity
+    category: symbols
+    enabled: true
+  desert:
+    emoji: 🏜
+    description: Desert
+    category: nature
+    enabled: true
+  spider:
+    emoji: 🕷
+    description: Spider
+    category: animals
+    enabled: true
+  penguin:
+    emoji: 🐧
+    description: Penguin
+    category: animals
+    enabled: true
+  lenny:
+    emoji: ( ͡° ͜ʖ ͡°)
+    description: Lenny Face
+    category: kaomoji
+    enabled: true
+  bee:
+    emoji: 🐝
+    description: Bee
+    category: animals
+    enabled: true
+  notes:
+    emoji: 🎶
+    description: Music Notes
+    category: objects
+    enabled: true
+  flexing:
+    emoji: ᕦ(ò_óˇ)ᕤ
+    description: Flexing
+    category: kaomoji
+    enabled: true
+  silver_medal:
+    emoji: 🥈
+    description: Silver Medal
+    category: gaming
+    enabled: true
+  bet:
+    emoji: 🤝
+    description: Bet
+    category: reactions
+    enabled: true
+  duck:
+    emoji: 🦆
+    description: Duck
+    category: animals
+    enabled: true
+  selfie:
+    emoji: 🤳
+    description: Selfie
+    category: gestures
+    enabled: true
+  blush:
+    emoji: 😊
+    description: Blushing Face
+    category: smileys
+    enabled: true
+  bird:
+    emoji: 🐦
+    description: Bird
+    category: animals
+    enabled: true
+  rare:
+    emoji: <gradient:#4169E1:#87CEEB>◆ RARE ◆</gradient>
+    description: Rare Badge
+    category: styled
+    enabled: true
+  warning:
+    emoji: ⚠
+    description: Warning
+    category: reactions
+    enabled: true
+  laugh:
+    emoji: 😂
+    description: Laughing Face
+    category: smileys
+    enabled: true
+  elf:
+    emoji: 🧝
+    description: Elf
+    category: gaming
+    enabled: true
+  wow:
+    emoji: 🤩
+    description: Wow
+    category: reactions
+    enabled: true
+  raised_hand:
+    emoji: ✋
+    description: Raised Hand
+    category: gestures
+    enabled: true
+  info:
+    emoji: ℹ
+    description: Info
+    category: reactions
+    enabled: true
+  train:
+    emoji: 🚆
+    description: Train
+    category: transport
+    enabled: true
+  sigma:
+    emoji: 🐺
+    description: Sigma
+    category: reactions
+    enabled: true
+  dolphin:
+    emoji: 🐬
+    description: Dolphin
+    category: animals
+    enabled: true
+  paw:
+    emoji: 🐾
+    description: Paw Prints
+    category: animals
+    enabled: true
+  ribbon:
+    emoji: 🎀
+    description: Ribbon
+    category: objects
+    enabled: true
+  sloth:
+    emoji: 🦥
+    description: Sloth
+    category: animals
+    enabled: true
+  ninja:
+    emoji: 🥷
+    description: Ninja
+    category: gaming
+    enabled: true
+  ez:
+    emoji: 😌
+    description: Easy
+    category: reactions
+    enabled: true
+  circle_orange:
+    emoji: 🟠
+    description: Orange Circle
+    category: symbols
+    enabled: true
+  tableflip:
+    emoji: (╯°□°)╯︵ ┻━┻
+    description: Table Flip
+    category: kaomoji
+    enabled: true
+  circle_purple:
+    emoji: 🟣
+    description: Purple Circle
+    category: symbols
+    enabled: true
+  elephant:
+    emoji: 🐘
+    description: Elephant
+    category: animals
+    enabled: true
+  party:
+    emoji: 🎉
+    description: Party Popper
+    category: objects
+    enabled: true
+  fog:
+    emoji: 🌫
+    description: Fog
+    category: nature
+    enabled: true
+  purple_heart:
+    emoji: 💜
+    description: Purple Heart
+    category: hearts
+    enabled: true
+  sparkles:
+    emoji: ✨
+    description: Sparkles
+    category: nature
+    enabled: true
+  sparkler:
+    emoji: 🎇
+    description: Sparkler
+    category: objects
+    enabled: true
+  back:
+    emoji: 🔙
+    description: Back Arrow
+    category: symbols
+    enabled: true
+  black_heart:
+    emoji: 🖤
+    description: Black Heart
+    category: hearts
+    enabled: true
+  fr:
+    emoji: 💯
+    description: For Real
+    category: reactions
+    enabled: true
+  fox:
+    emoji: 🦊
+    description: Fox
+    category: animals
+    enabled: true
+  salute:
+    emoji: 🫡
+    description: Saluting Face
+    category: smileys
+    enabled: true
+  yum:
+    emoji: 😋
+    description: Yummy Face
+    category: smileys
+    enabled: true
+  lemon:
+    emoji: 🍋
+    description: Lemon
+    category: food
+    enabled: true
+  sneezing:
+    emoji: 🤧
+    description: Sneezing Face
+    category: smileys
+    enabled: true
+  legendary:
+    emoji: <gradient:#FF8C00:#FFD700>★ LEGENDARY ★</gradient>
+    description: Legendary Badge
+    category: styled
+    enabled: true
+  woozy:
+    emoji: 🥴
+    description: Woozy Face
+    category: smileys
+    enabled: true
+  medal:
+    emoji: 🥇
+    description: Gold Medal
+    category: gaming
+    enabled: true
+  croissant:
+    emoji: 🥐
+    description: Croissant
+    category: food
+    enabled: true
+  end:
+    emoji: 🔚
+    description: End Arrow
+    category: symbols
+    enabled: true
+  satellite:
+    emoji: 🛰
+    description: Satellite
+    category: transport
+    enabled: true
+  vulcan:
+    emoji: 🖖
+    description: Vulcan Salute
+    category: gestures
+    enabled: true
+  lizard:
+    emoji: 🦎
+    description: Lizard
+    category: animals
+    enabled: true
+  gg:
+    emoji: 🎮
+    description: Good Game
+    category: reactions
+    enabled: true
+  owner:
+    emoji: <gradient:#FF6347:#FF4500>OWNER</gradient>
+    description: Owner Badge
+    category: styled
+    enabled: true
+  potion:
+    emoji: 🧪
+    description: Potion
+    category: gaming
+    enabled: true
+  ticket:
+    emoji: 🎫
+    description: Ticket
+    category: objects
+    enabled: true
+  rainbow_star:
+    emoji: <rainbow>★</rainbow>
+    description: Rainbow Star
+    category: styled
+    enabled: true
+  pout:
+    emoji: 😡
+    description: Pouting Face
+    category: smileys
+    enabled: true
+  cool_word:
+    emoji: 🆒
+    description: COOL
+    category: symbols
+    enabled: true
+  football:
+    emoji: 🏈
+    description: Football
+    category: sports
+    enabled: true
+  sheesh:
+    emoji: 🥶
+    description: Sheesh
+    category: reactions
+    enabled: true
+  magnet:
+    emoji: 🧲
+    description: Magnet
+    category: objects
+    enabled: true
+  scissors:
+    emoji: ✂
+    description: Scissors
+    category: objects
+    enabled: true
+  raccoon:
+    emoji: 🦝
+    description: Raccoon
+    category: animals
+    enabled: true
+  coffee:
+    emoji: ☕
+    description: Coffee
+    category: food
+    enabled: true
+  pinched:
+    emoji: 🤌
+    description: Pinched Fingers
+    category: gestures
+    enabled: true
+  hug:
+    emoji: 🤗
+    description: Hugging Face
+    category: smileys
+    enabled: true
+  wrestling:
+    emoji: 🤼
+    description: Wrestling
+    category: sports
+    enabled: true
+  crab:
+    emoji: 🦀
+    description: Crab
+    category: animals
+    enabled: true
+  gift:
+    emoji: 🎁
+    description: Gift
+    category: objects
+    enabled: true
+  sparkle:
+    emoji: (ﾉ◕ヮ◕)ﾉ*:・゚✧
+    description: Sparkle
+    category: kaomoji
+    enabled: true
+  no_bell:
+    emoji: 🔕
+    description: Bell Off
+    category: objects
+    enabled: true
+  camping:
+    emoji: 🏕
+    description: Camping
+    category: gaming
+    enabled: true
+  copyright:
+    emoji: ©
+    description: Copyright
+    category: symbols
+    enabled: true
+  angry_face:
+    emoji: (ノಠ益ಠ)ノ彡┻━┻
+    description: Angry Table Flip
+    category: kaomoji
+    enabled: true
+  movie:
+    emoji: 🎬
+    description: Movie Clapper
+    category: objects
+    enabled: true
+  popcorn:
+    emoji: 🍿
+    description: Popcorn
+    category: food
+    enabled: true
+  heart_decoration:
+    emoji: 💟
+    description: Heart Decoration
+    category: hearts
+    enabled: true
+  cycling:
+    emoji: 🚴
+    description: Cycling
+    category: sports
+    enabled: true
+  sick:
+    emoji: 🤢
+    description: Sick Face
+    category: smileys
+    enabled: true
+  clipboard:
+    emoji: 📋
+    description: Clipboard
+    category: objects
+    enabled: true
+  soon:
+    emoji: 🔜
+    description: Soon Arrow
+    category: symbols
+    enabled: true
+  pleading:
+    emoji: 🥺
+    description: Pleading Face
+    category: smileys
+    enabled: true
+  nah:
+    emoji: 🙅
+    description: Nah
+    category: reactions
+    enabled: true
+  explode:
+    emoji: 🤯
+    description: Exploding Head
+    category: smileys
+    enabled: true
+  roll_eyes:
+    emoji: 🙄
+    description: Rolling Eyes
+    category: smileys
+    enabled: true
+  camel:
+    emoji: 🐫
+    description: Camel
+    category: animals
+    enabled: true
+  rip:
+    emoji: 🪦
+    description: RIP
+    category: reactions
+    enabled: true
+  pen:
+    emoji: 🖊
+    description: Pen
+    category: objects
+    enabled: true
+  lock:
+    emoji: 🔒
+    description: Lock
+    category: gaming
+    enabled: true
+  dnd:
+    emoji: <dark_red>⊘</dark_red>
+    description: Do Not Disturb
+    category: styled
+    enabled: true
+  skunk:
+    emoji: 🦨
+    description: Skunk
+    category: animals
+    enabled: true
+  lying:
+    emoji: 🤥
+    description: Lying Face
+    category: smileys
+    enabled: true
+  crown:
+    emoji: 👑
+    description: Crown
+    category: gaming
+    enabled: true
+  cookie:
+    emoji: 🍪
+    description: Cookie
+    category: food
+    enabled: true
+  arrow_up:
+    emoji: ⬆
+    description: Arrow Up
+    category: symbols
+    enabled: true
+  bulb:
+    emoji: 💡
+    description: Light Bulb
+    category: objects
+    enabled: true
+  dino:
+    emoji: 🦖
+    description: T-Rex
+    category: animals
+    enabled: true
+  joystick:
+    emoji: 🕹
+    description: Joystick
+    category: gaming
+    enabled: true
+  bell:
+    emoji: 🔔
+    description: Bell
+    category: objects
+    enabled: true
+  bear_face:
+    emoji: ʕ•ᴥ•ʔ
+    description: Bear Face
+    category: kaomoji
+    enabled: true
+  circle_brown:
+    emoji: 🟤
+    description: Brown Circle
+    category: symbols
+    enabled: true
+  square_blue:
+    emoji: 🟦
+    description: Blue Square
+    category: symbols
+    enabled: true
+  giraffe:
+    emoji: 🦒
+    description: Giraffe
+    category: animals
+    enabled: true
+  prohibited:
+    emoji: 🚫
+    description: Prohibited
+    category: symbols
+    enabled: true
+  crazy:
+    emoji: 🤪
+    description: Crazy Face
+    category: smileys
+    enabled: true
+  green_apple:
+    emoji: 🍏
+    description: Green Apple
+    category: food
+    enabled: true
+  baseball:
+    emoji: ⚾
+    description: Baseball
+    category: sports
+    enabled: true
+  volleyball:
+    emoji: 🏐
+    description: Volleyball
+    category: sports
+    enabled: true
+  square_purple:
+    emoji: 🟪
+    description: Purple Square
+    category: symbols
+    enabled: true
+  tnt:
+    emoji: 🧨
+    description: TNT/Dynamite
+    category: gaming
+    enabled: true
+  zzz:
+    emoji: 💤
+    description: Sleeping/Boring
+    category: reactions
+    enabled: true
+  dog:
+    emoji: 🐕
+    description: Dog
+    category: animals
+    enabled: true
+  parrot:
+    emoji: 🦜
+    description: Parrot
+    category: animals
+    enabled: true
+  shield:
+    emoji: 🛡
+    description: Shield
+    category: gaming
+    enabled: true
+  mage:
+    emoji: 🧙
+    description: Mage
+    category: gaming
+    enabled: true
+  expressionless:
+    emoji: 😑
+    description: Expressionless Face
+    category: smileys
+    enabled: true
+  holding_tears:
+    emoji: 🥹
+    description: Holding Back Tears
+    category: smileys
+    enabled: true
+  smirk:
+    emoji: 😏
+    description: Smirking Face
+    category: smileys
+    enabled: true
+  unamused:
+    emoji: 😒
+    description: Unamused Face
+    category: smileys
+    enabled: true
+  injured:
+    emoji: 🤕
+    description: Injured Face
+    category: smileys
+    enabled: true
+  world:
+    emoji: 🌏
+    description: Globe Asia
+    category: nature
+    enabled: true
+  top:
+    emoji: 🔝
+    description: Top Arrow
+    category: symbols
+    enabled: true
+  mending_heart:
+    emoji: ❤️‍🩹
+    description: Mending Heart
+    category: hearts
+    enabled: true
+  face_in_clouds:
+    emoji: 😶‍🌫️
+    description: Face in Clouds
+    category: smileys
+    enabled: true
+  nail_polish:
+    emoji: 💅
+    description: Nail Polish
+    category: gestures
+    enabled: true
+  disapprove:
+    emoji: ಠ_ಠ
+    description: Look of Disapproval
+    category: kaomoji
+    enabled: true
+  camera:
+    emoji: 📷
+    description: Camera
+    category: objects
+    enabled: true
+  map:
+    emoji: 🗺
+    description: World Map
+    category: gaming
+    enabled: true
+  lmao:
+    emoji: 🤣
+    description: LMAO
+    category: reactions
+    enabled: true
+  shark:
+    emoji: 🦈
+    description: Shark
+    category: animals
+    enabled: true
+  bread:
+    emoji: 🍞
+    description: Bread
+    category: food
+    enabled: true
+  question:
+    emoji: ❓
+    description: Question Mark
+    category: reactions
+    enabled: true
+  circle_red:
+    emoji: 🔴
+    description: Red Circle
+    category: symbols
+    enabled: true
+  boat:
+    emoji: ⛵
+    description: Sailboat
+    category: transport
+    enabled: true
+  bacon:
+    emoji: 🥓
+    description: Bacon
+    category: food
+    enabled: true
+  brown_heart:
+    emoji: 🤎
+    description: Brown Heart
+    category: hearts
+    enabled: true
+  anchor:
+    emoji: ⚓
+    description: Anchor
+    category: transport
+    enabled: true
+  orange_heart:
+    emoji: 🧡
+    description: Orange Heart
+    category: hearts
+    enabled: true
+  rose:
+    emoji: 🌹
+    description: Rose
+    category: nature
+    enabled: true
+  snowman:
+    emoji: ⛄
+    description: Snowman
+    category: nature
+    enabled: true
+  surfing:
+    emoji: 🏄
+    description: Surfing
+    category: sports
+    enabled: true
+  fuel:
+    emoji: ⛽
+    description: Fuel Pump
+    category: transport
+    enabled: true
+  rightward_push:
+    emoji: 🫸
+    description: Rightward Push
+    category: gestures
+    enabled: true
+  hot_pepper:
+    emoji: 🌶
+    description: Hot Pepper
+    category: food
+    enabled: true
+  cow:
+    emoji: 🐄
+    description: Cow
+    category: animals
+    enabled: true
+  pie:
+    emoji: 🥧
+    description: Pie
+    category: food
+    enabled: true
+  pray:
+    emoji: 🙏
+    description: Praying Hands
+    category: gestures
+    enabled: true
+  smile:
+    emoji: ☺
+    description: Smiling Face
+    category: smileys
+    enabled: true
+  pig:
+    emoji: 🐷
+    description: Pig
+    category: animals
+    enabled: true
+  radio:
+    emoji: 📻
+    description: Radio
+    category: objects
+    enabled: true
+  shush:
+    emoji: 🤫
+    description: Shushing Face
+    category: smileys
+    enabled: true
+  confused:
+    emoji: 😕
+    description: Confused Face
+    category: smileys
+    enabled: true
+  burger:
+    emoji: 🍔
+    description: Burger
+    category: food
+    enabled: true
+  pin:
+    emoji: 📌
+    description: Pin
+    category: objects
+    enabled: true
+  sos:
+    emoji: 🆘
+    description: SOS
+    category: symbols
+    enabled: true
+  sushi:
+    emoji: 🍣
+    description: Sushi
+    category: food
+    enabled: true
+  bronze_medal:
+    emoji: 🥉
+    description: Bronze Medal
+    category: gaming
+    enabled: true
+  avocado:
+    emoji: 🥑
+    description: Avocado
+    category: food
+    enabled: true
+  new:
+    emoji: 🆕
+    description: NEW
+    category: symbols
+    enabled: true
+  diamond_blue:
+    emoji: 🔷
+    description: Blue Diamond
+    category: symbols
+    enabled: true
+  turtle:
+    emoji: 🐢
+    description: Turtle
+    category: animals
+    enabled: true
+  diamond_small:
+    emoji: 🔹
+    description: Small Blue Diamond
+    category: symbols
+    enabled: true
+  swan:
+    emoji: 🦢
+    description: Swan
+    category: animals
+    enabled: true
+  leftward_push:
+    emoji: 🫷
+    description: Leftward Push
+    category: gestures
+    enabled: true
+  white_heart:
+    emoji: 🤍
+    description: White Heart
+    category: hearts
+    enabled: true
+  no_cap:
+    emoji: 🚫🧢
+    description: No Cap (Truth)
+    category: reactions
+    enabled: true
+  pancakes:
+    emoji: 🥞
+    description: Pancakes
+    category: food
+    enabled: true
+  square_orange:
+    emoji: 🟧
+    description: Orange Square
+    category: symbols
+    enabled: true
+  heart:
+    emoji: ❤
+    description: Red Heart
+    category: hearts
+    enabled: true
+  wrench:
+    emoji: 🔧
+    description: Wrench
+    category: gaming
+    enabled: true
+  gold_star:
+    emoji: <gold>★</gold>
+    description: Gold Star
+    category: styled
+    enabled: true
+  compass:
+    emoji: 🧭
+    description: Compass
+    category: gaming
+    enabled: true
+  snow:
+    emoji: ❄
+    description: Snowflake
+    category: nature
+    enabled: true
+  genie:
+    emoji: 🧞
+    description: Genie
+    category: gaming
+    enabled: true
+  chicken_leg:
+    emoji: 🍗
+    description: Chicken Leg
+    category: food
+    enabled: true
+  triangle_up:
+    emoji: 🔺
+    description: Triangle Up
+    category: symbols
+    enabled: true
+  plug:
+    emoji: 🔌
+    description: Electric Plug
+    category: objects
+    enabled: true
+  thumbsdown:
+    emoji: 👎
+    description: Thumbs Down
+    category: gestures
+    enabled: true
+  glow:
+    emoji: <yellow>✨</yellow>
+    description: Glowing Sparkle
+    category: styled
+    enabled: true
+  gear:
+    emoji: ⚙
+    description: Gear
+    category: objects
+    enabled: true
+  'no':
+    emoji: ❌
+    description: Cross Mark
+    category: reactions
+    enabled: true
+  chicken:
+    emoji: 🐔
+    description: Chicken
+    category: animals
+    enabled: true
+  skateboard:
+    emoji: 🛹
+    description: Skateboard
+    category: sports
+    enabled: true
+  hammer:
+    emoji: 🔨
+    description: Hammer
+    category: gaming
+    enabled: true
+  candy:
+    emoji: 🍬
+    description: Candy
+    category: food
+    enabled: true
+  rainbow_text:
+    emoji: <rainbow>RAINBOW</rainbow>
+    description: Rainbow Text
+    category: styled
+    enabled: true
+  bow:
+    emoji: 🏹
+    description: Bow and Arrow
+    category: gaming
+    enabled: true
+  running:
+    emoji: 🏃
+    description: Running
+    category: sports
+    enabled: true
+  magic_spell:
+    emoji: (∩｀-´)⊃━☆ﾟ.*･｡ﾟ
+    description: Magic Spell
+    category: kaomoji
+    enabled: true
+  muscle:
+    emoji: 💪
+    description: Flexed Bicep
+    category: gestures
+    enabled: true
+  vampire:
+    emoji: 🧛
+    description: Vampire
+    category: gaming
+    enabled: true
+  gift_heart:
+    emoji: 💝
+    description: Heart with Ribbon
+    category: hearts
+    enabled: true
+  construction:
+    emoji: 🚧
+    description: Construction
+    category: transport
+    enabled: true
+  goblin:
+    emoji: 👺
+    description: Goblin
+    category: smileys
+    enabled: true
+  skull:
+    emoji: 💀
+    description: Skull
+    category: gaming
+    enabled: true
+  ok:
+    emoji: 👌
+    description: OK Hand
+    category: gestures
+    enabled: true
+  thumbsup:
+    emoji: 👍
+    description: Thumbs Up
+    category: gestures
+    enabled: true
+  fight:
+    emoji: (ง •̀_•́)ง
+    description: Fight Face
+    category: kaomoji
+    enabled: true
+  gorilla:
+    emoji: 🦍
+    description: Gorilla
+    category: animals
+    enabled: true
+  blue_heart:
+    emoji: 💙
+    description: Blue Heart
+    category: hearts
+    enabled: true
+  keyboard:
+    emoji: ⌨
+    description: Keyboard
+    category: objects
+    enabled: true
+  confetti:
+    emoji: 🎊
+    description: Confetti Ball
+    category: objects
+    enabled: true
+  ant:
+    emoji: 🐜
+    description: Ant
+    category: animals
+    enabled: true
+  cry:
+    emoji: 😭
+    description: Crying Face
+    category: smileys
+    enabled: true
+  money_bag:
+    emoji: 💰
+    description: Money Bag
+    category: gaming
+    enabled: true
+  pencil:
+    emoji: ✏
+    description: Pencil
+    category: objects
+    enabled: true
+  arrow_sw:
+    emoji: ↙
+    description: Arrow Southwest
+    category: symbols
+    enabled: true
+  mango:
+    emoji: 🥭
+    description: Mango
+    category: food
+    enabled: true
+  badger:
+    emoji: 🦡
+    description: Badger
+    category: animals
+    enabled: true
+  orange:
+    emoji: 🍊
+    description: Orange
+    category: food
+    enabled: true
+  '100':
+    emoji: 💯
+    description: 100 Points
+    category: reactions
+    enabled: true
+  pineapple:
+    emoji: 🍍
+    description: Pineapple
+    category: food
+    enabled: true
+  puzzle:
+    emoji: 🧩
+    description: Puzzle Piece
+    category: gaming
+    enabled: true
+  earth:
+    emoji: 🌍
+    description: Earth
+    category: nature
+    enabled: true
+  maple:
+    emoji: 🍁
+    description: Maple Leaf
+    category: nature
+    enabled: true
+  online:
+    emoji: <green>●</green>
+    description: Online Dot
+    category: styled
+    enabled: true
+  arrow_se:
+    emoji: ↘
+    description: Arrow Southeast
+    category: symbols
+    enabled: true
+  no_entry:
+    emoji: ⛔
+    description: No Entry
+    category: symbols
+    enabled: true
+  yellow_heart:
+    emoji: 💛
+    description: Yellow Heart
+    category: hearts
+    enabled: true
+  hotdog:
+    emoji: 🌭
+    description: Hot Dog
+    category: food
+    enabled: true
+  octopus:
+    emoji: 🐙
+    description: Octopus
+    category: animals
+    enabled: true
+  rocket:
+    emoji: 🚀
+    description: Rocket
+    category: transport
+    enabled: true
+  ship:
+    emoji: 🚢
+    description: Ship
+    category: transport
+    enabled: true
+  registered:
+    emoji: ®
+    description: Registered
+    category: symbols
+    enabled: true
+  chart_down:
+    emoji: 📉
+    description: Chart Down
+    category: objects
+    enabled: true
+  arrow_nw:
+    emoji: ↖
+    description: Arrow Northwest
+    category: symbols
+    enabled: true
+  heart_exclaim:
+    emoji: ❣
+    description: Heart Exclamation
+    category: hearts
+    enabled: true
+  cheese:
+    emoji: 🧀
+    description: Cheese
+    category: food
+    enabled: true
+  llama:
+    emoji: 🦙
+    description: Llama
+    category: animals
+    enabled: true
+  mountain:
+    emoji: ⛰
+    description: Mountain
+    category: nature
+    enabled: true
+  uwu:
+    emoji: (◡ ω ◡)
+    description: UwU Face
+    category: kaomoji
+    enabled: true
+  cake:
+    emoji: 🎂
+    description: Birthday Cake
+    category: food
+    enabled: true
+  bang:
+    emoji: 💥
+    description: Explosion
+    category: reactions
+    enabled: true
+  recycle:
+    emoji: ♻
+    description: Recycle
+    category: symbols
+    enabled: true
+  fire:
+    emoji: 🔥
+    description: Fire
+    category: nature
+    enabled: true
+  arrow_ne:
+    emoji: ↗
+    description: Arrow Northeast
+    category: symbols
+    enabled: true
+  nerd:
+    emoji: 🤓
+    description: Nerd Face
+    category: smileys
+    enabled: true
+  mushroom:
+    emoji: 🍄
+    description: Mushroom
+    category: food
+    enabled: true
+  lightning:
+    emoji: ⚡
+    description: Lightning
+    category: nature
+    enabled: true
+  based:
+    emoji: 🗿
+    description: Based
+    category: reactions
+    enabled: true
+  point_left:
+    emoji: 👈
+    description: Pointing Left
+    category: gestures
+    enabled: true
+  hamster:
+    emoji: 🐹
+    description: Hamster
+    category: animals
+    enabled: true
+  night:
+    emoji: 🌃
+    description: Night
+    category: nature
+    enabled: true
+  zap:
+    emoji: (つ◕౪◕)つ━☆ﾟ.*･｡ﾟ
+    description: Zap Magic
+    category: kaomoji
+    enabled: true
+  taxi:
+    emoji: 🚕
+    description: Taxi
+    category: transport
+    enabled: true
+  exclaim:
+    emoji: ❗
+    description: Exclamation
+    category: reactions
+    enabled: true
+  mute:
+    emoji: 🔇
+    description: Muted
+    category: objects
+    enabled: true
+  no_mouth:
+    emoji: 😶
+    description: No Mouth
+    category: smileys
+    enabled: true
+  tiger:
+    emoji: 🐯
+    description: Tiger
+    category: animals
+    enabled: true
+  horse:
+    emoji: 🐴
+    description: Horse
+    category: animals
+    enabled: true
+  envelope:
+    emoji: ✉
+    description: Envelope
+    category: objects
+    enabled: true
+  fire_truck:
+    emoji: 🚒
+    description: Fire Truck
+    category: transport
+    enabled: true
+  ogre:
+    emoji: 👹
+    description: Ogre
+    category: smileys
+    enabled: true
+  red_x:
+    emoji: <red>✘</red>
+    description: Red X
+    category: styled
+    enabled: true
+  sunrise:
+    emoji: 🌅
+    description: Sunrise
+    category: nature
+    enabled: true
+  gray_heart:
+    emoji: 🩶
+    description: Gray Heart
+    category: hearts
+    enabled: true
+  mic:
+    emoji: 🎤
+    description: Microphone
+    category: objects
+    enabled: true
+  devil:
+    emoji: 😈
+    description: Devil
+    category: smileys
+    enabled: true
+  yoga:
+    emoji: 🧘
+    description: Yoga
+    category: sports
+    enabled: true
+  omg:
+    emoji: 😱
+    description: OMG
+    category: reactions
+    enabled: true
+  pog:
+    emoji: 😲
+    description: POG
+    category: reactions
+    enabled: true
+  mid:
+    emoji: 😐
+    description: Mid
+    category: reactions
+    enabled: true
+  melting:
+    emoji: 🫠
+    description: Melting Face
+    category: smileys
+    enabled: true
+  fist:
+    emoji: ✊
+    description: Raised Fist
+    category: gestures
+    enabled: true
+  battery:
+    emoji: 🔋
+    description: Battery
+    category: objects
+    enabled: true
+  vomit:
+    emoji: 🤮
+    description: Vomiting Face
+    category: smileys
+    enabled: true
+  sun:
+    emoji: ☀
+    description: Sun
+    category: nature
+    enabled: true
+  otter:
+    emoji: 🦦
+    description: Otter
+    category: animals
+    enabled: true
+  dotted_face:
+    emoji: 🫥
+    description: Dotted Line Face
+    category: smileys
+    enabled: true
+  kek:
+    emoji: 😏
+    description: Kek
+    category: reactions
+    enabled: true
+  sus:
+    emoji: 🤨
+    description: Suspicious
+    category: reactions
+    enabled: true
+  offline:
+    emoji: <red>●</red>
+    description: Offline Dot
+    category: styled
+    enabled: true
+  mermaid:
+    emoji: 🧜
+    description: Mermaid
+    category: gaming
+    enabled: true
+  helicopter:
+    emoji: 🚁
+    description: Helicopter
+    category: transport
+    enabled: true
+  butterfly:
+    emoji: 🦋
+    description: Butterfly
+    category: animals
+    enabled: true
+  cactus:
+    emoji: 🌵
+    description: Cactus
+    category: nature
+    enabled: true
+  watermelon:
+    emoji: 🍉
+    description: Watermelon
+    category: food
+    enabled: true
+  worried:
+    emoji: 😟
+    description: Worried Face
+    category: smileys
+    enabled: true
+  trophy:
+    emoji: 🏆
+    description: Trophy
+    category: gaming
+    enabled: true
+  free:
+    emoji: 🆓
+    description: FREE
+    category: symbols
+    enabled: true
+  flashlight:
+    emoji: 🔦
+    description: Flashlight
+    category: objects
+    enabled: true
+  key:
+    emoji: 🔑
+    description: Key
+    category: gaming
+    enabled: true
+  email:
+    emoji: 📧
+    description: Email
+    category: objects
+    enabled: true
+  calendar:
+    emoji: 📅
+    description: Calendar
+    category: objects
+    enabled: true
+  think:
+    emoji: 🤔
+    description: Thinking Face
+    category: smileys
+    enabled: true
+  triumph:
+    emoji: 😤
+    description: Triumph Face
+    category: smileys
+    enabled: true
+  controller:
+    emoji: 🎮
+    description: Game Controller
+    category: gaming
+    enabled: true
+  art:
+    emoji: 🎨
+    description: Art Palette
+    category: objects
+    enabled: true
+  star:
+    emoji: ⭐
+    description: Star
+    category: nature
+    enabled: true
+  wolf:
+    emoji: 🐺
+    description: Wolf
+    category: animals
+    enabled: true
+  weary:
+    emoji: 😩
+    description: Weary Face
+    category: smileys
+    enabled: true
+  circle_blue:
+    emoji: 🔵
+    description: Blue Circle
+    category: symbols
+    enabled: true
+  badminton:
+    emoji: 🏸
+    description: Badminton
+    category: sports
+    enabled: true
+  refresh:
+    emoji: 🔄
+    description: Refresh
+    category: symbols
+    enabled: true
+  growing_heart:
+    emoji: 💗
+    description: Growing Heart
+    category: hearts
+    enabled: true
+  monster:
+    emoji: 👾
+    description: Monster
+    category: smileys
+    enabled: true
+  flower:
+    emoji: 🌸
+    description: Cherry Blossom
+    category: nature
+    enabled: true
+  cupid:
+    emoji: 💘
+    description: Heart with Arrow
+    category: hearts
+    enabled: true
+  bug:
+    emoji: 🐛
+    description: Bug
+    category: animals
+    enabled: true
+  clap:
+    emoji: 👏
+    description: Clapping
+    category: gestures
+    enabled: true
+  fish:
+    emoji: 🐟
+    description: Fish
+    category: animals
+    enabled: true
+  arrow_right:
+    emoji: ➡
+    description: Arrow Right
+    category: symbols
+    enabled: true
+  peacock:
+    emoji: 🦚
+    description: Peacock
+    category: animals
+    enabled: true
+  triangle_down:
+    emoji: 🔻
+    description: Triangle Down
+    category: symbols
+    enabled: true
+  tm:
+    emoji: ™
+    description: Trademark
+    category: symbols
+    enabled: true
+  unicorn:
+    emoji: 🦄
+    description: Unicorn
+    category: animals
+    enabled: true
+  chart:
+    emoji: 📊
+    description: Bar Chart
+    category: objects
+    enabled: true
+  cupcake:
+    emoji: 🧁
+    description: Cupcake
+    category: food
+    enabled: true
+  ratio:
+    emoji: 📊
+    description: Ratio
+    category: reactions
+    enabled: true
+  bus:
+    emoji: 🚌
+    description: Bus
+    category: transport
+    enabled: true
+  tv:
+    emoji: 📺
+    description: Television
+    category: objects
+    enabled: true
+  point_down:
+    emoji: 👇
+    description: Pointing Down
+    category: gestures
+    enabled: true
+  headphones:
+    emoji: 🎧
+    description: Headphones
+    category: objects
+    enabled: true
+  oof:
+    emoji: 😬
+    description: Oof
+    category: reactions
+    enabled: true
+  drool:
+    emoji: 🤤
+    description: Drooling Face
+    category: smileys
+    enabled: true
+  fire_heart:
+    emoji: ❤️‍🔥
+    description: Heart on Fire
+    category: hearts
+    enabled: true
+  christmas_tree:
+    emoji: 🎄
+    description: Christmas Tree
+    category: objects
+    enabled: true
+  shrug:
+    emoji: ¯\_(ツ)_/¯
+    description: Shrug
+    category: gestures
+    enabled: true
+  run:
+    emoji: ε=ε=ε=┌(;*´Д`)ノ
+    description: Running Away
+    category: kaomoji
+    enabled: true
+  green_heart:
+    emoji: 💚
+    description: Green Heart
+    category: hearts
+    enabled: true
+  bomb:
+    emoji: 💣
+    description: Bomb
+    category: gaming
+    enabled: true
+  motorcycle:
+    emoji: 🏍
+    description: Motorcycle
+    category: transport
+    enabled: true
+  revolving_hearts:
+    emoji: 💞
+    description: Revolving Hearts
+    category: hearts
+    enabled: true
+  mouse:
+    emoji: 🐭
+    description: Mouse
+    category: animals
+    enabled: true
+  disappointed:
+    emoji: 😞
+    description: Disappointed Face
+    category: smileys
+    enabled: true
+  wink_face:
+    emoji: (^_~)
+    description: Wink Face
+    category: kaomoji
+    enabled: true
+  donut:
+    emoji: 🍩
+    description: Donut
+    category: food
+    enabled: true
+  arrow_left:
+    emoji: ⬅
+    description: Arrow Left
+    category: symbols
+    enabled: true
+  up:
+    emoji: 🆙
+    description: UP!
+    category: symbols
+    enabled: true
+  crystal_ball:
+    emoji: 🔮
+    description: Crystal Ball
+    category: gaming
+    enabled: true
+  circle_white:
+    emoji: ⚪
+    description: White Circle
+    category: symbols
+    enabled: true
+  chest:
+    emoji: 📦
+    description: Chest/Box
+    category: gaming
+    enabled: true
+  unlock:
+    emoji: 🔓
+    description: Unlocked
+    category: gaming
+    enabled: true
+  chess:
+    emoji: ♟
+    description: Chess Pawn
+    category: gaming
+    enabled: true
+  mouse_computer:
+    emoji: 🖱
+    description: Computer Mouse
+    category: objects
+    enabled: true
+  facepalm:
+    emoji: 🤦
+    description: Facepalm
+    category: gestures
+    enabled: true
+  crossed_fingers:
+    emoji: 🤞
+    description: Crossed Fingers
+    category: gestures
+    enabled: true
+  lobster:
+    emoji: 🦞
+    description: Lobster
+    category: animals
+    enabled: true
+  circle_green:
+    emoji: 🟢
+    description: Green Circle
+    category: symbols
+    enabled: true
+  whatever:
+    emoji: ┐(´д`)┌
+    description: Whatever
+    category: kaomoji
+    enabled: true
+  coconut:
+    emoji: 🥥
+    description: Coconut
+    category: food
+    enabled: true
+  idk:
+    emoji: 🤷
+    description: IDK
+    category: reactions
+    enabled: true
+  ocean:
+    emoji: 🌊
+    description: Ocean Wave
+    category: nature
+    enabled: true
+  raised_hands:
+    emoji: 🙌
+    description: Raised Hands
+    category: gestures
+    enabled: true
+  full_moon:
+    emoji: 🌕
+    description: Full Moon
+    category: nature
+    enabled: true
+  happy_face:
+    emoji: (◠‿◠)
+    description: Happy Face
+    category: kaomoji
+    enabled: true
+  arrows_lr:
+    emoji: ↔
+    description: Left-Right Arrow
+    category: symbols
+    enabled: true
+  horns:
+    emoji: 🤘
+    description: Rock On
+    category: gestures
+    enabled: true
+  grapes:
+    emoji: 🍇
+    description: Grapes
+    category: food
+    enabled: true
+  snowboard:
+    emoji: 🏂
+    description: Snowboarding
+    category: sports
+    enabled: true
+  away:
+    emoji: <yellow>●</yellow>
+    description: Away Dot
+    category: styled
+    enabled: true
+  boom:
+    emoji: 💥
+    description: Boom
+    category: reactions
+    enabled: true
+  pickaxe:
+    emoji: ⛏
+    description: Pickaxe
+    category: gaming
+    enabled: true
+  heart_hands:
+    emoji: 🫶
+    description: Heart Hands
+    category: gestures
+    enabled: true
+  book:
+    emoji: 📖
+    description: Book
+    category: gaming
+    enabled: true
+  truck:
+    emoji: 🚚
+    description: Truck
+    category: transport
+    enabled: true
+  broccoli:
+    emoji: 🥦
+    description: Broccoli
+    category: food
+    enabled: true
+  admin:
+    emoji: <gradient:#FF0000:#8B0000>ADMIN</gradient>
+    description: Admin Badge
+    category: styled
+    enabled: true
+  cold:
+    emoji: 🥶
+    description: Cold Face
+    category: smileys
+    enabled: true
+  video:
+    emoji: 📹
+    description: Video Camera
+    category: objects
+    enabled: true
+  bruh:
+    emoji: 😐
+    description: Bruh
+    category: reactions
+    enabled: true
+  magnify:
+    emoji: 🔍
+    description: Magnifying Glass
+    category: objects
+    enabled: true
+  wave:
+    emoji: 👋
+    description: Waving Hand
+    category: gestures
+    enabled: true
+  apple:
+    emoji: 🍎
+    description: Red Apple
+    category: food
+    enabled: true
+  pizza:
+    emoji: 🍕
+    description: Pizza
+    category: food
+    enabled: true
+  common:
+    emoji: <gray>● COMMON ●</gray>
+    description: Common Badge
+    category: styled
+    enabled: true
+  cocktail:
+    emoji: 🍸
+    description: Cocktail
+    category: food
+    enabled: true
+  cringe:
+    emoji: 😖
+    description: Cringe
+    category: reactions
+    enabled: true
+  hibiscus:
+    emoji: 🌺
+    description: Hibiscus
+    category: nature
+    enabled: true
+  crying:
+    emoji: (╥﹏╥)
+    description: Crying Face
+    category: kaomoji
+    enabled: true
+  shield_blue:
+    emoji: <blue>🛡</blue>
+    description: Blue Shield
+    category: styled
+    enabled: true
+  sleepy:
+    emoji: 😪
+    description: Sleepy Face
+    category: smileys
+    enabled: true
+  mask:
+    emoji: 😷
+    description: Face with Mask
+    category: smileys
+    enabled: true
+  npc:
+    emoji: 🤖
+    description: NPC
+    category: reactions
+    enabled: true
+  pinch:
+    emoji: 🤏
+    description: Pinching Hand
+    category: gestures
+    enabled: true
+  yep:
+    emoji: 👍
+    description: Yep
+    category: reactions
+    enabled: true
+  'yes':
+    emoji: ✅
+    description: Check Mark
+    category: reactions
+    enabled: true
+  frown:
+    emoji: ☹
+    description: Frowning Face
+    category: smileys
+    enabled: true
+  monocle:
+    emoji: 🧐
+    description: Monocle Face
+    category: smileys
+    enabled: true
+  tulip:
+    emoji: 🌷
+    description: Tulip
+    category: nature
+    enabled: true
+  stars:
+    emoji: 🌟
+    description: Glowing Star
+    category: nature
+    enabled: true
+  xd:
+    emoji: 😆
+    description: XD
+    category: reactions
+    enabled: true
+  target:
+    emoji: 🎯
+    description: Target
+    category: gaming
+    enabled: true
+  guitar:
+    emoji: 🎸
+    description: Guitar
+    category: objects
+    enabled: true
+  green_check:
+    emoji: <green>✔</green>
+    description: Green Check
+    category: styled
+    enabled: true
+  square_red:
+    emoji: 🟥
+    description: Red Square
+    category: symbols
+    enabled: true
+  stop_sign:
+    emoji: 🛑
+    description: Stop Sign
+    category: transport
+    enabled: true
+  money:
+    emoji: 🤑
+    description: Money Face
+    category: smileys
+    enabled: true
+  raised_eyebrow:
+    emoji: 🤨
+    description: Raised Eyebrow
+    category: smileys
+    enabled: true
+  nervous:
+    emoji: (⊙_⊙;)
+    description: Nervous Face
+    category: kaomoji
+    enabled: true
+  mod:
+    emoji: <gradient:#00FF00:#006400>MOD</gradient>
+    description: Mod Badge
+    category: styled
+    enabled: true
+  chart_up:
+    emoji: 📈
+    description: Chart Up
+    category: objects
+    enabled: true
+  chains:
+    emoji: ⛓
+    description: Chains
+    category: objects
+    enabled: true
+  palm:
+    emoji: 🌴
+    description: Palm Tree
+    category: nature
+    enabled: true
+  happy:
+    emoji: 😊
+    description: Happy Face
+    category: smileys
+    enabled: true
+  pink_heart:
+    emoji: 🩷
+    description: Pink Heart
+    category: hearts
+    enabled: true
+  dragon:
+    emoji: 🐉
+    description: Dragon
+    category: animals
+    enabled: true
+  ice_cream:
+    emoji: 🍦
+    description: Ice Cream
+    category: food
+    enabled: true
+  axe:
+    emoji: 🪓
+    description: Axe
+    category: gaming
+    enabled: true
+  piano:
+    emoji: 🎹
+    description: Piano
+    category: objects
+    enabled: true
+  paperclip:
+    emoji: 📎
+    description: Paperclip
+    category: objects
+    enabled: true
+  martial_arts:
+    emoji: 🥋
+    description: Martial Arts
+    category: sports
+    enabled: true
+  tram:
+    emoji: 🚊
+    description: Tram
+    category: transport
+    enabled: true
+  eggplant:
+    emoji: 🍆
+    description: Eggplant
+    category: food
+    enabled: true
+  dizzy:
+    emoji: 😵
+    description: Dizzy Face
+    category: smileys
+    enabled: true
+  scroll:
+    emoji: 📜
+    description: Scroll
+    category: gaming
+    enabled: true
+  epic:
+    emoji: <gradient:#9932CC:#DA70D6>✦ EPIC ✦</gradient>
+    description: Epic Badge
+    category: styled
+    enabled: true
+  goat:
+    emoji: 🐐
+    description: GOAT
+    category: reactions
+    enabled: true
+  ambulance:
+    emoji: 🚑
+    description: Ambulance
+    category: transport
+    enabled: true
+  moon:
+    emoji: 🌙
+    description: Crescent Moon
+    category: nature
+    enabled: true
+  ramen:
+    emoji: 🍜
+    description: Ramen
+    category: food
+    enabled: true
+  phone:
+    emoji: 📱
+    description: Phone
+    category: objects
+    enabled: true
+  metro:
+    emoji: 🚇
+    description: Metro
+    category: transport
+    enabled: true
+  square_green:
+    emoji: 🟩
+    description: Green Square
+    category: symbols
+    enabled: true
+  sword_red:
+    emoji: <red>⚔</red>
+    description: Red Sword
+    category: styled
+    enabled: true
+  scared:
+    emoji: 😨
+    description: Scared Face
+    category: smileys
+    enabled: true
+  open_hands:
+    emoji: 👐
+    description: Open Hands
+    category: gestures
+    enabled: true
+  chocolate:
+    emoji: 🍫
+    description: Chocolate
+    category: food
+    enabled: true
+  love:
+    emoji: 💕
+    description: Two Hearts
+    category: hearts
+    enabled: true
+  crown_gold:
+    emoji: <gold>👑</gold>
+    description: Gold Crown
+    category: styled
+    enabled: true
+  cherry:
+    emoji: 🍒
+    description: Cherries
+    category: food
+    enabled: true
+  heartbreak:
+    emoji: 💔
+    description: Broken Heart
+    category: hearts
+    enabled: true
+  mask_theater:
+    emoji: 🎭
+    description: Theater Masks
+    category: objects
+    enabled: true
+  tongue:
+    emoji: 😛
+    description: Tongue Out
+    category: smileys
+    enabled: true
+  lol:
+    emoji: 🤣
+    description: Rolling on Floor Laughing
+    category: smileys
+    enabled: true
+  pensive:
+    emoji: 😔
+    description: Pensive Face
+    category: smileys
+    enabled: true
+  fever:
+    emoji: 🤒
+    description: Face with Thermometer
+    category: smileys
+    enabled: true
+  lollipop:
+    emoji: 🍭
+    description: Lollipop
+    category: food
+    enabled: true
+  shamrock:
+    emoji: ☘
+    description: Shamrock
+    category: nature
+    enabled: true
+  fireworks:
+    emoji: 🎆
+    description: Fireworks
+    category: objects
+    enabled: true
+  square_yellow:
+    emoji: 🟨
+    description: Yellow Square
+    category: symbols
+    enabled: true
+  alien:
+    emoji: 👽
+    description: Alien
+    category: smileys
+    enabled: true
+  gem:
+    emoji: 💎
+    description: Gem/Diamond
+    category: gaming
+    enabled: true
+  punch:
+    emoji: 👊
+    description: Punch
+    category: gestures
+    enabled: true
+  cope:
+    emoji: 🥹
+    description: Cope
+    category: reactions
+    enabled: true
+  computer:
+    emoji: 💻
+    description: Computer
+    category: objects
+    enabled: true
+  ghost:
+    emoji: 👻
+    description: Ghost
+    category: gaming
+    enabled: true
+  premium:
+    emoji: <gradient:#FFD700:#FFEC8B>✦ PREMIUM ✦</gradient>
+    description: Premium Badge
+    category: styled
+    enabled: true
+  writing:
+    emoji: ✍
+    description: Writing Hand
+    category: gestures
+    enabled: true
+  fries:
+    emoji: 🍟
+    description: Fries
+    category: food
+    enabled: true
+  red_heart:
+    emoji: <red>❤</red>
+    description: Red Heart
+    category: styled
+    enabled: true
+  scooter:
+    emoji: 🛴
+    description: Scooter
+    category: transport
+    enabled: true
+  relieved:
+    emoji: 😌
+    description: Relieved Face
+    category: smileys
+    enabled: true
+  scorpion:
+    emoji: 🦂
+    description: Scorpion
+    category: animals
+    enabled: true
+  grin:
+    emoji: 😁
+    description: Grinning Face
+    category: smileys
+    enabled: true
+  hockey:
+    emoji: 🏒
+    description: Hockey
+    category: sports
+    enabled: true
+  tornado:
+    emoji: 🌪
+    description: Tornado
+    category: nature
+    enabled: true
+  skiing:
+    emoji: ⛷
+    description: Skiing
+    category: sports
+    enabled: true
+  unflip:
+    emoji: ┬─┬ノ( º _ ºノ)
+    description: Unflip Table
+    category: kaomoji
+    enabled: true
+  hug_face:
+    emoji: (づ｡◕‿‿◕｡)づ
+    description: Hug Face
+    category: kaomoji
+    enabled: true
+  skull_crossbones:
+    emoji: ☠
+    description: Skull and Crossbones
+    category: gaming
+    enabled: true
+  chad:
+    emoji: 🗿
+    description: Chad
+    category: reactions
+    enabled: true
+  fire_text:
+    emoji: <gradient:#FF4500:#FF8C00:#FFD700>FIRE</gradient>
+    description: Fire Text
+    category: styled
+    enabled: true
+  cool:
+    emoji: 😎
+    description: Cool Face
+    category: smileys
+    enabled: true
+  tired:
+    emoji: 😴
+    description: Tired Face
+    category: smileys
+    enabled: true
+  strawberry:
+    emoji: 🍓
+    description: Strawberry
+    category: food
+    enabled: true
+  gymnastics:
+    emoji: 🤸
+    description: Gymnastics
+    category: sports
+    enabled: true
+  juice:
+    emoji: 🧃
+    description: Juice Box
+    category: food
+    enabled: true
+  leaf:
+    emoji: 🍃
+    description: Leaf
+    category: nature
+    enabled: true
+  tennis:
+    emoji: 🎾
+    description: Tennis
+    category: sports
+    enabled: true
+  nice:
+    emoji: 👌
+    description: Nice
+    category: reactions
+    enabled: true
+  sword:
+    emoji: ⚔
+    description: Crossed Swords
+    category: gaming
+    enabled: true
+  rage:
+    emoji: 🤬
+    description: Rage Face
+    category: smileys
+    enabled: true
+  thinking_face:
+    emoji: (￢_￢)
+    description: Thinking Face
+    category: kaomoji
+    enabled: true
+  inbox:
+    emoji: 📥
+    description: Inbox
+    category: objects
+    enabled: true
+  magic:
+    emoji: 🪄
+    description: Magic Wand
+    category: gaming
+    enabled: true
+  snail:
+    emoji: 🐌
+    description: Snail
+    category: animals
+    enabled: true
+  door:
+    emoji: 🚪
+    description: Door
+    category: gaming
+    enabled: true
+  panda:
+    emoji: 🐼
+    description: Panda
+    category: animals
+    enabled: true
+  monkey:
+    emoji: 🐵
+    description: Monkey
+    category: animals
+    enabled: true
+  rhino:
+    emoji: 🦏
+    description: Rhino
+    category: animals
+    enabled: true
+  arrows_ud:
+    emoji: ↕
+    description: Up-Down Arrow
+    category: symbols
+    enabled: true
+  owl:
+    emoji: 🦉
+    description: Owl
+    category: animals
+    enabled: true
+  cucumber:
+    emoji: 🥒
+    description: Cucumber
+    category: food
+    enabled: true
+  corn:
+    emoji: 🌽
+    description: Corn
+    category: food
+    enabled: true
+  owo:
+    emoji: (◕ᴗ◕✿)
+    description: OwO Face
+    category: kaomoji
+    enabled: true
+  dice:
+    emoji: 🎲
+    description: Dice
+    category: gaming
+    enabled: true
+  drum:
+    emoji: 🥁
+    description: Drum
+    category: objects
+    enabled: true
+  cloud:
+    emoji: ☁
+    description: Cloud
+    category: nature
+    enabled: true
+  basketball:
+    emoji: 🏀
+    description: Basketball
+    category: sports
+    enabled: true
+  frog:
+    emoji: 🐸
+    description: Frog
+    category: animals
+    enabled: true
+  whale:
+    emoji: 🐳
+    description: Whale
+    category: animals
+    enabled: true
+  bear:
+    emoji: 🐻
+    description: Bear
+    category: animals
+    enabled: true
+  climbing:
+    emoji: 🧗
+    description: Climbing
+    category: sports
+    enabled: true
+  banana:
+    emoji: 🍌
+    description: Banana
+    category: food
+    enabled: true
+  rain:
+    emoji: 🌧
+    description: Rain
+    category: nature
+    enabled: true
+  dagger:
+    emoji: 🗡
+    description: Dagger
+    category: gaming
+    enabled: true
+  violin:
+    emoji: 🎻
+    description: Violin
+    category: objects
+    enabled: true
+  koala:
+    emoji: 🐨
+    description: Koala
+    category: animals
+    enabled: true
+  island:
+    emoji: 🏝
+    description: Island
+    category: nature
+    enabled: true
+  rugby:
+    emoji: 🏉
+    description: Rugby
+    category: sports
+    enabled: true
+  tree:
+    emoji: 🌲
+    description: Evergreen Tree
+    category: nature
+    enabled: true
+  clover:
+    emoji: 🍀
+    description: Four Leaf Clover
+    category: nature
+    enabled: true
+  bouquet:
+    emoji: 💐
+    description: Bouquet
+    category: nature
+    enabled: true
+  call_me:
+    emoji: 🤙
+    description: Call Me Hand
+    category: gestures
+    enabled: true
+  water:
+    emoji: 💧
+    description: Water Drop
+    category: food
+    enabled: true
+  outbox:
+    emoji: 📤
+    description: Outbox
+    category: objects
+    enabled: true
+  flamingo:
+    emoji: 🦩
+    description: Flamingo
+    category: animals
+    enabled: true
+  taco:
+    emoji: 🌮
+    description: Taco
+    category: food
+    enabled: true
+  heart_eyes:
+    emoji: 😍
+    description: Heart Eyes
+    category: smileys
+    enabled: true
+  rainbow:
+    emoji: 🌈
+    description: Rainbow
+    category: nature
+    enabled: true
+  burrito:
+    emoji: 🌯
+    description: Burrito
+    category: food
+    enabled: true
+  speaker:
+    emoji: 🔊
+    description: Speaker
+    category: objects
+    enabled: true
+  eagle:
+    emoji: 🦅
+    description: Eagle
+    category: animals
+    enabled: true
+  boxing:
+    emoji: 🥊
+    description: Boxing Glove
+    category: sports
+    enabled: true
+  sparkle_heart:
+    emoji: 💖
+    description: Sparkling Heart
+    category: hearts
+    enabled: true
+  bussin:
+    emoji: 🔥
+    description: Bussin
+    category: reactions
+    enabled: true
+  squid:
+    emoji: 🦑
+    description: Squid
+    category: animals
+    enabled: true
+  handshake:
+    emoji: 🤝
+    description: Handshake
+    category: gestures
+    enabled: true
+  shrimp:
+    emoji: 🦐
+    description: Shrimp
+    category: animals
+    enabled: true
+  steak:
+    emoji: 🥩
+    description: Steak
+    category: food
+    enabled: true
+  donger:
+    emoji: ヽ༼ຈل͜ຈ༽ﾉ
+    description: Raise Your Dongers
+    category: kaomoji
+    enabled: true
+  snake:
+    emoji: 🐍
+    description: Snake
+    category: animals
+    enabled: true
+  link:
+    emoji: 🔗
+    description: Link
+    category: objects
+    enabled: true
+  why:
+    emoji: ლ(ಠ益ಠლ)
+    description: Why Face
+    category: kaomoji
+    enabled: true
+  imp:
+    emoji: 👿
+    description: Angry Devil
+    category: smileys
+    enabled: true
+  point:
+    emoji: 👉
+    description: Pointing Right
+    category: gestures
+    enabled: true
+  ping_pong:
+    emoji: 🏓
+    description: Ping Pong
+    category: sports
+    enabled: true
+  bike:
+    emoji: 🚲
+    description: Bicycle
+    category: transport
+    enabled: true
+  cap:
+    emoji: 🧢
+    description: Cap (Lie)
+    category: reactions
+    enabled: true
+  car:
+    emoji: 🚗
+    description: Car
+    category: transport
+    enabled: true
+  deal_with_it:
+    emoji: (⌐■_■)
+    description: Deal With It
+    category: kaomoji
+    enabled: true
+  pink_heart_styled:
+    emoji: <light_purple>❤</light_purple>
+    description: Pink Heart (Styled)
+    category: styled
+    enabled: true
+  cat:
+    emoji: 🐱
+    description: Cat
+    category: animals
+    enabled: true
+  sad:
+    emoji: 😢
+    description: Sad Face
+    category: smileys
+    enabled: true
+  clown:
+    emoji: 🤡
+    description: Clown
+    category: smileys
+    enabled: true
+  pretzel:
+    emoji: 🥨
+    description: Pretzel
+    category: food
+    enabled: true
+  sheep:
+    emoji: 🐑
+    description: Sheep
+    category: animals
+    enabled: true
+  soccer:
+    emoji: ⚽
+    description: Soccer Ball
+    category: sports
+    enabled: true
+  balloon:
+    emoji: 🎈
+    description: Balloon
+    category: objects
+    enabled: true
+  circle_black:
+    emoji: ⚫
+    description: Black Circle
+    category: symbols
+    enabled: true
+  kawaii:
+    emoji: (◕‿◕)
+    description: Kawaii Face
+    category: kaomoji
+    enabled: true
+  mvp:
+    emoji: <gradient:#00CED1:#9400D3>MVP</gradient>
+    description: MVP Badge
+    category: styled
+    enabled: true
+  fishing:
+    emoji: 🎣
+    description: Fishing Pole
+    category: gaming
+    enabled: true
+  verified:
+    emoji: <aqua>✓</aqua>
+    description: Verified Check
+    category: styled
+    enabled: true
+  sandwich:
+    emoji: 🥪
+    description: Sandwich
+    category: food
+    enabled: true
+  circle_yellow:
+    emoji: 🟡
+    description: Yellow Circle
+    category: symbols
+    enabled: true
+  grimace:
+    emoji: 😬
+    description: Grimacing Face
+    category: smileys
+    enabled: true
+  diamond:
+    emoji: 💎
+    description: Diamond
+    category: gaming
+    enabled: true
+  light_blue_heart:
+    emoji: 🩵
+    description: Light Blue Heart
+    category: hearts
+    enabled: true
+  arrow_down:
+    emoji: ⬇
+    description: Arrow Down
+    category: symbols
+    enabled: true
+  ufo:
+    emoji: 🛸
+    description: UFO
+    category: smileys
+    enabled: true
+  carrot:
+    emoji: 🥕
+    description: Carrot
+    category: food
+    enabled: true
+text-emoticons:
+  <3:
+    emoji: ❤
+    enabled: true
+  </3:
+    emoji: 💔
+    enabled: true
+  :):
+    emoji: ☺
+    enabled: true
+  :-):
+    emoji: ☺
+    enabled: true
+  :D:
+    emoji: 😃
+    enabled: true
+  :-D:
+    emoji: 😃
+    enabled: true
+  =):
+    emoji: 😊
+    enabled: true
+  =D:
+    emoji: 😃
+    enabled: true
+  xD:
+    emoji: 😆
+    enabled: true
+  XD:
+    emoji: 😆
+    enabled: true
+  :P:
+    emoji: 😛
+    enabled: true
+  :-P:
+    emoji: 😛
+    enabled: true
+  :p:
+    emoji: 😛
+    enabled: true
+  :-p:
+    emoji: 😛
+    enabled: true
+  ;):
+    emoji: 😉
+    enabled: true
+  ;-):
+    emoji: 😉
+    enabled: true
+  ;D:
+    emoji: 😉
+    enabled: true
+  ;P:
+    emoji: 😜
+    enabled: true
+  ;p:
+    emoji: 😜
+    enabled: true
+  :(:
+    emoji: ☹
+    enabled: true
+  :-(:
+    emoji: ☹
+    enabled: true
+  =(:
+    emoji: 😞
+    enabled: true
+  :'(:
+    emoji: 😢
+    enabled: true
+  :,(:
+    emoji: 😢
+    enabled: true
+  'D:':
+    emoji: 😧
+    enabled: true
+  '>:(':
+    emoji: 😠
+    enabled: true
+  '>:-(':
+    emoji: 😠
+    enabled: true
+  '>:)':
+    emoji: 😈
+    enabled: true
+  '>:D':
+    emoji: 😈
+    enabled: true
+  :/:
+    emoji: 😕
+    enabled: true
+  :-/:
+    emoji: 😕
+    enabled: true
+  :\:
+    emoji: 😕
+    enabled: true
+  :-\:
+    emoji: 😕
+    enabled: true
+  :|:
+    emoji: 😐
+    enabled: true
+  :-|:
+    emoji: 😐
+    enabled: true
+  :O:
+    emoji: 😮
+    enabled: true
+  :o:
+    emoji: 😮
+    enabled: true
+  :-O:
+    emoji: 😮
+    enabled: true
+  :0:
+    emoji: 😮
+    enabled: true
+  o_O:
+    emoji: 😳
+    enabled: true
+  O_o:
+    emoji: 😳
+    enabled: true
+  o_o:
+    emoji: 😳
+    enabled: true
+  O_O:
+    emoji: 😳
+    enabled: true
+  -_-:
+    emoji: 😑
+    enabled: true
+  ^_^:
+    emoji: 😊
+    enabled: true
+  ^^:
+    emoji: 😊
+    enabled: true
+  ^-^:
+    emoji: 😊
+    enabled: true
+  '>_<':
+    emoji: 😣
+    enabled: true
+  '>.<':
+    emoji: 😣
+    enabled: true
+  T_T:
+    emoji: 😭
+    enabled: true
+  T.T:
+    emoji: 😭
+    enabled: true
+  TT:
+    emoji: 😭
+    enabled: true
+  QQ:
+    emoji: 😭
+    enabled: true
+  :3:
+    emoji: 😺
+    enabled: true
+  :*:
+    emoji: 😘
+    enabled: true
+  :-*:
+    emoji: 😘
+    enabled: true
+  B):
+    emoji: 😎
+    enabled: true
+  B-):
+    emoji: 😎
+    enabled: true
+  8):
+    emoji: 😎
+    enabled: true
+  8-):
+    emoji: 😎
+    enabled: true
+  '(:':
+    emoji: ☺
+    enabled: true
+  '):':
+    emoji: ☹
+    enabled: true

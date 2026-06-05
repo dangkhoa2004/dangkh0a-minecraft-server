@@ -1,0 +1,40 @@
+tasks:
+  rails:
+    type: "blockplacecertain"
+    amount: 150
+    block: "RAIL"
+  prails:
+    type: "blockplacecertain"
+    amount: 50
+    block: "POWERED_RAIL"
+  redstoneblock:
+    type: "blockplacecertain"
+    amount: 50
+    block: "REDSTONE_BLOCK"
+display:
+  name: "&#A3C4F3&nɴʜɪệᴍ ᴠụ xâʏ ᴅựɴɢ:&r &#FDFD96#5"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó'
+    - '&#D1E8E2ᴠớɪ xâʏ ᴅựɴɢ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2xâʏ ʜệ ᴛʜốɴɢ đườɴɢ ʀᴀʏ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ:'
+    - '   &#FFB347◆ &#D1E8E2{rails:progress}/150 đườɴɢ ʀᴀʏ'
+    - '   &#FFB347◆ &#D1E8E2{prails:progress}/50 ʀᴀʏ đɪệɴ'
+    - '   &#FFB347◆ &#D1E8E2{redstoneblock:progress}/50 ᴋʜốɪ đá đỏ'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC02000 ᴋɪɴʜ ɴɢʜɪệᴍ'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "RAIL"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "xp give {player} 2000"
+options:
+  category: "building"
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 2880   
+  sort-order: 5

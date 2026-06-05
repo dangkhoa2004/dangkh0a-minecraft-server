@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:jukebox"
+    },
+    "title":"\u00A7x\u00A7A\u00A7C\u00A7FP\u029C\u00F9 \u1D1B\u029C\u1EE7\u028F \u00E2\u1D0D \u0274\u029C\u1EA1\u1D04",
+    "description":"\u00A7x\u00A7D\u00A7E\u00A7EC\u029C\u01A1\u026A \u00A7x\u00A7F\u00A7D\u00A7F\u00A7D1 \u00A7x\u00A7D\u00A7E\u00A7E\u0299\u1EA3\u0274 \u0274\u029C\u1EA1\u1D04.",
+    "frame":"challenge",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:advanced_achievements_parent"
+}

@@ -1,0 +1,25 @@
+enabled: true
+rules:
+- name: rebrand-plugin
+  match-type: contains
+  pattern: '[OtherPlugin]'
+  action: replace
+  replacement: '[MyServer]'
+  case-sensitive: false
+- name: death-format
+  match-type: regex
+  pattern: (\w+) was slain by (\w+)
+  action: modify
+  replacement: <red>$1</red> was <bold>slain</bold> by <gold>$2</gold>
+  case-sensitive: false
+- name: block-spam
+  match-type: contains
+  pattern: unwanted-message
+  action: block
+  case-sensitive: false
+- name: staff-prefix
+  match-type: regex
+  pattern: ^\[Staff\]
+  action: modify
+  replacement: <gradient:gold:red>[Staff]</gradient>
+  permission: lpcpro.staff

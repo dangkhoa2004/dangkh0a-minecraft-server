@@ -1,0 +1,228 @@
+menu_title: '&#FCD05C❁ ᴍᴜᴀ ɴʜᴀɴʜ: ᴘʜù ᴘʜéᴘ ʜɪếᴍ ❁'
+open_command: fastce_hiem
+size: 27
+
+items:
+  'filler':
+    material: WHITE_STAINED_GLASS_PANE
+    display_name: ' '
+    slots:
+    - 0-10
+    - 16-21
+    - 23-26
+
+  'back':
+    material: BARRIER
+    slot: 22
+    display_name: '&#ED4245&l✖ ǫᴜᴀʏ ʟạɪ'
+    lore:
+    - ''
+    - '&#ED4245▶ &#E0E0E0Nhấn để quay lại menu chính'
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[player] fastce'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[player] fastce'
+
+  'mua_1':
+    material: LIME_DYE
+    amount: 1
+    slot: 11
+    display_name: '&#57F287&lᴍᴜᴀ x1 sáᴄʜ ʀᴏʟʟ'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Số lượng: &#57F2871'
+    - ' &#fcfcfc❖ &#E0E0E0Tổng giá: &#FCD05C8,000 ⛃'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để thanh toán'
+    left_click_requirement:
+      requirements:
+        money:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: '8000'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#ED4245&l(!) &#E0E0E0Bạn không đủ tiền để thực hiện giao dịch này!'
+    left_click_commands:
+    - '[console] eco take %player_name% 8000'
+    - '[console] ae givercbook HIEM %player_name% 1'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[message] &#57F287&l(!) &#E0E0E0Mua thành công &#57F2871x Sách Roll Hiếm&#E0E0E0!'
+    right_click_requirement:
+      requirements:
+        money:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: '8000'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#ED4245&l(!) &#E0E0E0Bạn không đủ tiền để thực hiện giao dịch này!'
+    right_click_commands:
+    - '[console] eco take %player_name% 8000'
+    - '[console] ae givercbook HIEM %player_name% 1'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[message] &#57F287&l(!) &#E0E0E0Mua thành công &#57F2871x Sách Roll Hiếm&#E0E0E0!'
+
+  'mua_8':
+    material: LIME_DYE
+    amount: 8
+    slot: 12
+    display_name: '&#57F287&lᴍᴜᴀ x8 sáᴄʜ ʀᴏʟʟ'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Số lượng: &#57F2878'
+    - ' &#fcfcfc❖ &#E0E0E0Tổng giá: &#FCD05C64,000 ⛃'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để thanh toán'
+    left_click_requirement:
+      requirements:
+        money:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: '64000'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#ED4245&l(!) &#E0E0E0Bạn không đủ tiền để thực hiện giao dịch này!'
+    left_click_commands:
+    - '[console] eco take %player_name% 64000'
+    - '[console] ae givercbook HIEM %player_name% 8'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[message] &#57F287&l(!) &#E0E0E0Mua thành công &#57F2878x Sách Roll Hiếm&#E0E0E0!'
+    right_click_requirement:
+      requirements:
+        money:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: '64000'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#ED4245&l(!) &#E0E0E0Bạn không đủ tiền để thực hiện giao dịch này!'
+    right_click_commands:
+    - '[console] eco take %player_name% 64000'
+    - '[console] ae givercbook HIEM %player_name% 8'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[message] &#57F287&l(!) &#E0E0E0Mua thành công &#57F2878x Sách Roll Hiếm&#E0E0E0!'
+
+  'mua_16':
+    material: LIME_DYE
+    amount: 16
+    slot: 13
+    display_name: '&#57F287&lᴍᴜᴀ x16 sáᴄʜ ʀᴏʟʟ'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Số lượng: &#57F28716'
+    - ' &#fcfcfc❖ &#E0E0E0Tổng giá: &#FCD05C128,000 ⛃'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để thanh toán'
+    left_click_requirement:
+      requirements:
+        money:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: '128000'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#ED4245&l(!) &#E0E0E0Bạn không đủ tiền để thực hiện giao dịch này!'
+    left_click_commands:
+    - '[console] eco take %player_name% 128000'
+    - '[console] ae givercbook HIEM %player_name% 16'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[message] &#57F287&l(!) &#E0E0E0Mua thành công &#57F28716x Sách Roll Hiếm&#E0E0E0!'
+    right_click_requirement:
+      requirements:
+        money:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: '128000'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#ED4245&l(!) &#E0E0E0Bạn không đủ tiền để thực hiện giao dịch này!'
+    right_click_commands:
+    - '[console] eco take %player_name% 128000'
+    - '[console] ae givercbook HIEM %player_name% 16'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[message] &#57F287&l(!) &#E0E0E0Mua thành công &#57F28716x Sách Roll Hiếm&#E0E0E0!'
+
+  'mua_32':
+    material: LIME_DYE
+    amount: 32
+    slot: 14
+    display_name: '&#57F287&lᴍᴜᴀ x32 sáᴄʜ ʀᴏʟʟ'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Số lượng: &#57F28732'
+    - ' &#fcfcfc❖ &#E0E0E0Tổng giá: &#FCD05C256,000 ⛃'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để thanh toán'
+    left_click_requirement:
+      requirements:
+        money:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: '256000'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#ED4245&l(!) &#E0E0E0Bạn không đủ tiền để thực hiện giao dịch này!'
+    left_click_commands:
+    - '[console] eco take %player_name% 256000'
+    - '[console] ae givercbook HIEM %player_name% 32'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[message] &#57F287&l(!) &#E0E0E0Mua thành công &#57F28732x Sách Roll Hiếm&#E0E0E0!'
+    right_click_requirement:
+      requirements:
+        money:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: '256000'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#ED4245&l(!) &#E0E0E0Bạn không đủ tiền để thực hiện giao dịch này!'
+    right_click_commands:
+    - '[console] eco take %player_name% 256000'
+    - '[console] ae givercbook HIEM %player_name% 32'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[message] &#57F287&l(!) &#E0E0E0Mua thành công &#57F28732x Sách Roll Hiếm&#E0E0E0!'
+
+  'mua_64':
+    material: LIME_DYE
+    amount: 64
+    slot: 15
+    display_name: '&#57F287&lᴍᴜᴀ x64 sáᴄʜ ʀᴏʟʟ'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Số lượng: &#57F28764'
+    - ' &#fcfcfc❖ &#E0E0E0Tổng giá: &#FCD05C512,000 ⛃'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để thanh toán'
+    left_click_requirement:
+      requirements:
+        money:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: '512000'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#ED4245&l(!) &#E0E0E0Bạn không đủ tiền để thực hiện giao dịch này!'
+    left_click_commands:
+    - '[console] eco take %player_name% 512000'
+    - '[console] ae givercbook HIEM %player_name% 64'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[message] &#57F287&l(!) &#E0E0E0Mua thành công &#57F28764x Sách Roll Hiếm&#E0E0E0!'
+    right_click_requirement:
+      requirements:
+        money:
+          type: '>='
+          input: '%vault_eco_balance%'
+          output: '512000'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &#ED4245&l(!) &#E0E0E0Bạn không đủ tiền để thực hiện giao dịch này!'
+    right_click_commands:
+    - '[console] eco take %player_name% 512000'
+    - '[console] ae givercbook HIEM %player_name% 64'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[message] &#57F287&l(!) &#E0E0E0Mua thành công &#57F28764x Sách Roll Hiếm&#E0E0E0!'

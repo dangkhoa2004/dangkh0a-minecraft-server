@@ -1,0 +1,78 @@
+# Remake by DaoMinhKhoi_
+Messages:
+  Prefix: '#B9FBC0[ʀᴛᴘ] &r'
+  Success:
+    Paid: '#fcfcfcʙạɴ đã đượᴄ ᴅịᴄʜ ᴄʜᴜʏểɴ ᴛớɪ #FFD700x=%x% ʏ=%y% ᴢ=%z% #fcfcfcᴠớɪ
+      ɢɪá #57F287%price% ⛃!'
+    Bypass: '#fcfcfcʙạɴ đã đượᴄ ᴅịᴄʜ ᴄʜᴜʏểɴ ᴛớɪ #FFD700x=%x% ʏ=%y% ᴢ=%z%'
+    Loading: '#57F287(!) #E0E0E0đã ᴛìᴍ ᴛʜấʏ ᴠị ᴛʀí ᴀɴ ᴛᴏàɴ! đᴀɴɢ ᴛảɪ địᴀ ʜìɴʜ...'
+    Teleport: '#FCD05C(!) #E0E0E0đᴀɴɢ ᴅịᴄʜ ᴄʜᴜʏểɴ... ᴠᴜɪ ʟòɴɢ đợɪ ᴛʀᴏɴɢ ᴋʜɪ ᴛìᴍ ᴠị
+      ᴛʀí ᴀɴ ᴛᴏàɴ!'
+  Failed:
+    Price: '#ED4245(!) #E0E0E0ʙạɴ ᴋʜôɴɢ đủ ᴛɪềɴ! ᴄầɴ íᴛ ɴʜấᴛ #FFD700%price% ⛃ #E0E0E0để
+      ᴅịᴄʜ ᴄʜᴜʏểɴ!'
+    NotSafe: '#ED4245(!) #E0E0E0ᴋʜôɴɢ ᴛʜể ᴛìᴍ ᴛʜấʏ ᴠị ᴛʀí ᴀɴ ᴛᴏàɴ. ǫᴜá ᴛʀìɴʜ ʙị ʜủʏ.'
+    Hunger: '#ED4245(!) #E0E0E0ʙạɴ đᴀɴɢ #ED4245ꞯᴜá đóɪ#E0E0E0, ʜãʏ ăɴ ᴄʜúᴛ ɢì đó ʀồɪ
+      ᴛʜử ʟạɪ!'
+  Other:
+    Success: '#57F287%player% #fcfcfcđã ʀᴛᴘ ᴛớɪ #FFD700x=%x% ʏ=%y% ᴢ=%z% #fcfcfc(sᴀᴜ
+      #FFD700%attempts% #fcfcfcʟầɴ ᴛìᴍ)!'
+    NotSafe: '#ED4245(!) #E0E0E0ᴋʜôɴɢ ᴛʜể ᴛìᴍ ᴛʜấʏ ᴠị ᴛʀí ᴀɴ ᴛᴏàɴ ᴄʜᴏ #FFD700%player%
+      #E0E0E0sᴀᴜ #FFD700%attempts% #E0E0E0ʟầɴ ᴛʜử!'
+    Biome: '#ED4245(!) #E0E0E0ǫᴜầɴ xã #FFD700%biome% #E0E0E0ᴋʜôɴɢ ᴛồɴ ᴛạɪ!'
+  Reload: '#57F287(!) #E0E0E0đã ᴛảɪ ʟạɪ ᴄấᴜ ʜìɴʜ BetterRTP ᴛʜàɴʜ ᴄôɴɢ!'
+  NoPermission:
+    Basic: '#ED4245(!) #E0E0E0ʙạɴ ᴋʜôɴɢ ᴄó ꞯᴜʏềɴ: #FFB7B2%permission%'
+    World: '#ED4245(!) #E0E0E0ʙạɴ ᴋʜôɴɢ đượᴄ ᴘʜéᴘ ʀᴛᴘ ở ᴛʜế ɢɪớɪ #FFB7B2%world%#E0E0E0!'
+  DisabledWorld: '#ED4245(!) #E0E0E0ᴛʜế ɢɪớɪ #FFB7B2%world% #E0E0E0đã ʙị ᴛắᴛ ᴛíɴʜ
+    ɴăɴɢ ʀᴛᴘ!'
+  Cooldown: '#ED4245(!) #E0E0E0ᴠᴜɪ ʟòɴɢ đợɪ #FFD700%time% #E0E0E0để ᴛɪếᴘ ᴛụᴄ ʀᴛᴘ!'
+  Locked: '#ED4245(!) #E0E0E0ʙạɴ đã sử ᴅụɴɢ ʜếᴛ số ʟầɴ ʀᴛᴘ ᴄʜᴏ ᴘʜéᴘ!'
+  Invalid: '#ED4245(!) #E0E0E0ᴄú ᴘʜáᴘ ᴋʜôɴɢ ʜợᴘ ʟệ. ɢõ #FFD700/%command% help'
+  NotOnline: '#ED4245(!) #E0E0E0ɴɢườɪ ᴄʜơɪ #FFD700%player% #E0E0E0ᴋʜôɴɢ ᴏɴʟɪɴᴇ!'
+  Delay: '#FCD05C(!) #E0E0E0đᴀɴɢ ᴄʜᴜẩɴ ʙị... ᴠᴜɪ ʟòɴɢ đứɴɢ ʏêɴ ᴛʀᴏɴɢ #FFD700%time%
+    ɢɪâʏ#E0E0E0!'
+  Moved: '#ED4245(!) #E0E0E0ʙạɴ đã ᴅɪ ᴄʜᴜʏểɴ! ǫᴜá ᴛʀìɴʜ ʀᴛᴘ ʙị ʜủʏ.'
+  NotExist: '#ED4245(!) #E0E0E0ᴛʜế ɢɪớɪ #FFD700%world% #E0E0E0ᴋʜôɴɢ ᴛồɴ ᴛạɪ!'
+  Already: '#FCD05C(!) #E0E0E0ʙạɴ đᴀɴɢ ᴛʀᴏɴɢ ǫᴜá ᴛʀìɴʜ ʀᴛᴘ, ᴠᴜɪ ʟòɴɢ ᴋɪêɴ ɴʜẫɴ!'
+  Sign: '#57F287(!) #E0E0E0đã ᴛạᴏ ʙảɴɢ ʀᴛᴘ ᴛʜàɴʜ ᴄôɴɢ!'
+  Edit:
+    Error: '#ED4245(!) #E0E0E0ʟỗɪ! ᴅữ ʟɪệᴜ đầᴜ ᴠàᴏ ᴋʜôɴɢ ʜợᴘ ʟệ!'
+    Set: '#57F287(!) #E0E0E0ᴛʜàɴʜ ᴄôɴɢ! #FFD700%type% #E0E0E0đượᴄ đặᴛ ᴛʜàɴʜ #FFD700%value%'
+    Remove: '#57F287(!) #E0E0E0đã ʟᴏạɪ ʙỏ ᴛʜế ɢɪớɪ #FFD700%world% #E0E0E0ᴛʜàɴʜ ᴄôɴɢ!'
+Help:
+  Prefix: '#FCD05C❁ ʜệ ᴛʜốɴɢ ʀᴛᴘ ❁'
+  Main: ' #a8e6cf/%command% #E0E0E0- ᴅịᴄʜ ᴄʜᴜʏểɴ ɴɢẫᴜ ɴʜɪêɴ'
+  Biome: ' #a8e6cf/%command% ʙɪᴏᴍᴇ <ʟᴏạɪ> #E0E0E0- ʀᴛᴘ ᴛʜᴇᴏ ǫᴜầɴ xã'
+  Edit: ' #a8e6cf/%command% ᴇᴅɪᴛ <đốɪ_số> #E0E0E0- ᴄʜỉɴʜ sửᴀ ᴄàɪ đặᴛ'
+  Help: ' #a8e6cf/%command% ʜᴇʟᴘ #E0E0E0- ʜɪểɴ ᴛʜị ᴛʀợ ɢɪúᴘ'
+  Info: ' #a8e6cf/%command% ɪɴғᴏ #E0E0E0- xᴇᴍ ᴛʜôɴɢ số ᴘʟᴜɢɪɴ'
+  Player: ' #a8e6cf/%command% ᴘʟᴀʏᴇʀ <ᴛêɴ> #E0E0E0- ʀᴛᴘ ɴɢườɪ ᴄʜơɪ ᴋʜáᴄ'
+  Reload: ' #a8e6cf/%command% ʀᴇʟᴏᴀᴅ #E0E0E0- ᴛảɪ ʟạɪ ᴘʟᴜɢɪɴ'
+  Settings: ' #a8e6cf/%command% sᴇᴛᴛɪɴɢs #E0E0E0- ᴍở ɢᴜɪ ᴄàɪ đặᴛ'
+  Test: ' #a8e6cf/%command% ᴛᴇsᴛ #E0E0E0- ᴋɪểᴍ ᴛʀᴀ ʜɪệᴜ ứɴɢ'
+  Version: ' #a8e6cf/%command% ᴠᴇʀsɪᴏɴ #E0E0E0- xᴇᴍ ᴘʜɪêɴ ʙảɴ'
+  World: ' #a8e6cf/%command% ᴡᴏʀʟᴅ <ᴛêɴ> #E0E0E0- ʀᴛᴘ ở ᴛʜế ɢɪớɪ ᴋʜáᴄ'
+  Location: ' #a8e6cf/%command% ʟᴏᴄᴀᴛɪᴏɴ <ᴛêɴ> #E0E0E0- ʀᴛᴘ ᴛạɪ ᴠị ᴛʀí ᴄụ ᴛʜể'
+Usage:
+  Player: '#ED4245(!) #E0E0E0sử ᴅụɴɢ: #FFD700/%command% ᴘʟᴀʏᴇʀ <ɴɢườɪ_ᴄʜơɪ> [ᴛʜế_ɢɪớɪ]
+    [ʙɪᴏᴍᴇ]'
+  World: '#ED4245(!) #E0E0E0sử ᴅụɴɢ: #FFD700/%command% ᴡᴏʀʟᴅ <ᴛʜế_ɢɪớɪ> [ʙɪᴏᴍᴇ]'
+  Biome: '#ED4245(!) #E0E0E0sử ᴅụɴɢ: #FFD700/%command% ʙɪᴏᴍᴇ <ʙɪᴏᴍᴇ_1> [ʙɪᴏᴍᴇ_2...]'
+  Location: '#ED4245(!) #E0E0E0sử ᴅụɴɢ: #FFD700/%command% ʟᴏᴄᴀᴛɪᴏɴ <ᴛêɴ_địᴀ_đɪểᴍ>'
+  Edit:
+    PermissionGroup: '#ED4245(!) #E0E0E0sử ᴅụɴɢ: #FFD700/%command% ᴇᴅɪᴛ ᴘᴇʀᴍɪssɪᴏɴ_ɢʀᴏᴜᴘ
+      <ɢʀᴏᴜᴘ> <ᴡᴏʀʟᴅ> <ᴍᴀx/ᴍɪɴ/ᴄᴇɴᴛᴇʀ> <ɢɪá_ᴛʀị>'
+    Location: '#ED4245(!) #E0E0E0sử ᴅụɴɢ: #FFD700/%command% ᴇᴅɪᴛ ʟᴏᴄᴀᴛɪᴏɴ <ᴛêɴ> <ᴍᴀx/ᴍɪɴ/ᴄᴇɴᴛᴇʀ>
+      <ɢɪá_ᴛʀị>'
+    Base: '#ED4245(!) #E0E0E0sử ᴅụɴɢ: #FFD700/%command% ᴇᴅɪᴛ <ᴅᴇғᴀᴜʟᴛ/ᴡᴏʀʟᴅ> [đốɪ_số]'
+    Default: '#ED4245(!) #E0E0E0sử ᴅụɴɢ: #FFD700/%command% ᴇᴅɪᴛ ᴅᴇғᴀᴜʟᴛ <ᴍᴀx/ᴍɪɴ/ᴄᴇɴᴛᴇʀ>
+      <ɢɪá_ᴛʀị>'
+    World: '#ED4245(!) #E0E0E0sử ᴅụɴɢ: #FFD700/%command% ᴇᴅɪᴛ ᴡᴏʀʟᴅ <ᴛʜế_ɢɪớɪ> <ᴍᴀx/ᴍɪɴ/ᴄᴇɴᴛᴇʀ>
+      <ɢɪá_ᴛʀị>'
+    Worldtype: '#ED4245(!) #E0E0E0sử ᴅụɴɢ: #FFD700/%command% ᴇᴅɪᴛ ᴡᴏʀʟᴅ_ᴛʏᴘᴇ <ᴛʜế_ɢɪớɪ>
+      <ɴᴇᴛʜᴇʀ/ɴᴏʀᴍᴀʟ>'
+    Override: '#ED4245(!) #E0E0E0sử ᴅụɴɢ: #FFD700/%command% ᴇᴅɪᴛ ᴏᴠᴇʀʀɪᴅᴇ <ᴛʜế_ɢɪớɪ>
+      <ᴡᴏʀʟᴅ_đếɴ>'
+    BlacklistedBlocks: '#ED4245(!) #E0E0E0sử ᴅụɴɢ: #FFD700/%command% ᴇᴅɪᴛ ʙʟᴀᴄᴋʟɪsᴛᴇᴅʙʟᴏᴄᴋs
+      <ᴀᴅᴅ/ʀᴇᴍᴏᴠᴇ> <ɪᴅ_ʙʟᴏᴄᴋ>'

@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:stone_bricks"
+    },
+    "title":"\u00A7x\u00A7A\u00A7C\u00A7FC\u1EA7\u1D1C \u1D0D\u1D0F\u0274\u0262 \u1D0D\u00F9\u1D00 \u029C\u00E8",
+    "description":"\u00A7x\u00A7D\u00A7E\u00A7E\u0110\u1EAD\u1D18 \u00A7x\u00A7F\u00A7D\u00A7F\u00A7D32 \u00A7x\u00A7D\u00A7E\u00A7E\u0299\u0103\u0274\u0262 \u029C\u1D0F\u1EB7\u1D04 \u1D1B\u1D1C\u028F\u1EBF\u1D1B.",
+    "frame":"challenge",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:break_10_ice"
+}

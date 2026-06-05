@@ -1,0 +1,94 @@
+# DOCUMENTATION: https://docs.artillex-studios.com/axtrade.html
+
+prefix: '&#BDB2FF[ᴡɪʙᴜʟᴀɴᴅ] &r'
+
+# format: language_COUNTRY
+# Ngôn ngữ để lấy tên vật phẩm mặc định từ server
+language: en_US
+
+# Các lệnh có thể dùng để mở menu giao dịch
+command-aliases:
+- axtrade
+- trade
+- giaodich
+
+# Thời gian đếm ngược (giây) sau khi cả 2 người chơi nhấn nút Xác nhận
+trade-confirm-seconds: 5
+
+# Thời gian hết hạn của yêu cầu giao dịch (giây)
+trade-request-expire-seconds: 60
+
+# Khoảng cách tối đa giữa 2 người chơi để có thể gửi yêu cầu (đặt thành -1 để tắt giới hạn)
+trade-max-distance: 10
+
+# Nhấn Shift + Chuột phải vào người chơi khác để gửi yêu cầu giao dịch nhanh?
+shift-click-send-request: true
+
+# Hiển thị bảng tóm tắt trên khung chat sau khi giao dịch thành công?
+enable-trade-summaries: true
+
+# Ngăn không cho đặt thêm đồ vào menu nếu túi đồ của đối tác đã đầy?
+prevent-adding-items-when-inventory-full: true
+
+# Ngăn chặn giao dịch nếu 2 người chơi có cùng địa chỉ IP (chống clone gian lận)?
+disallow-same-ip-trade: false
+
+# Nếu bật, vật phẩm Xác nhận sẽ không hiển thị số lượng đếm ngược (tốt cho server dùng resource pack)
+static-accept-item-amount: false
+
+number-formatting:
+  # modes (Chế độ hiển thị số tiền):
+  # 0 - formatted (theo định dạng tùy chỉnh ở dưới)
+  # 1 - short (dạng rút gọn: 1K, 1M)
+  # 2 - raw (dạng thô: 1000.4242421412)
+  mode: 0
+  # https://docs.oracle.com/javase/tutorial/i18n/format/decimalFormat.html
+  formatted: '#,###.##'
+  # format: language_COUNTRY
+  short: en_US
+
+# Danh sách các chế độ chơi KHÔNG được phép giao dịch
+# Xem thêm: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/GameMode.html
+disallowed-gamemodes:
+- SPECTATOR
+
+# Các thế giới bị cấm giao dịch
+blacklisted-worlds:
+- example_world
+
+# Danh sách vật phẩm BỊ CẤM đưa vào giao dịch
+#
+# Hỗ trợ regex: (tùy chọn)
+# - 'name'   (chỉ cấm vật phẩm có tên chính xác là 'name')
+# - 'name*'  (cấm vật phẩm có tên bắt đầu bằng 'name')
+# - '*name'  (cấm vật phẩm có tên kết thúc bằng 'name')
+# - '*name*' (cấm vật phẩm có tên chứa chữ 'name')
+#
+blacklist-items:
+- custom-model-data: 100
+  material: BARRIER
+  name: '*Some custom item*'
+- custom-model-data: 150
+  material: BARRIER
+  name: '*Another custom item*'
+
+# Hủy giao dịch ngay lập tức nếu người chơi làm các hành động sau?
+# Khuyến nghị luôn để TRUE để tránh các lỗi dupe/bug vật phẩm
+abort:
+  move: true
+  interact: true
+  command: true
+
+# Thông báo khi plugin có bản cập nhật mới
+update-notifier:
+  # Bật thông báo trên console
+  enabled: true
+  # Bật thông báo cho admin khi vào game
+  on-join: true
+
+# Tự động vô hiệu hóa các tính năng nếu phát hiện có lỗ hổng bảo mật nhằm chống lạm dụng
+# Cần khởi động lại server nếu thay đổi tính năng này
+enable-safety: true
+
+# do not change this
+version: 9

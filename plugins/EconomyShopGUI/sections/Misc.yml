@@ -1,0 +1,29 @@
+# ###########################
+#
+# ITSMYSTUDIO - A configuration for EconomyShopGui
+# https://itsmy.studio/discord
+#
+# ###########################
+enable: true
+slot: 23
+title: Linh tinh
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: BEACON
+  lore:
+  - '&8Xem trước danh mục'
+  - '#f695a5 ▪ &fRương'
+  - '#f695a5 ▪ &fThùng'
+  - '#f695a5 ▪ &fĐèn hiệu'
+  - '#f695a5 ▪ &fChậu hoa'
+  - '#f695a5 ▪ &fKhối chất nhờn'
+  - '#f48ce2 ▪ &fvà 15 thêm...'
+  - ''
+  - '&7◆ #f48ce2Nhấn: &fMở'
+  name: '#f695a5Linh tinh'

@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:lava_bucket"
+    },
+    "title":"\u00A7x\u00A7A\u00A7C\u00A7FK\u1EBB \u0111\u1ED1\u1D1B \u0274\u029C\u00E0",
+    "description":"\u00A7x\u00A7D\u00A7E\u00A7EM\u00FA\u1D04 \u00A7x\u00A7F\u00A7D\u00A7F\u00A7D10 \u00A7x\u00A7D\u00A7E\u00A7Ex\u00F4 L\u1D00\u1D20\u1D00.",
+    "frame":"challenge",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:advanced_achievements_parent"
+}

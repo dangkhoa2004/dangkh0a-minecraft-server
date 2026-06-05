@@ -1,0 +1,9 @@
+data:
+  session: 3082
+  dice1: 6
+  dice2: 4
+  dice3: 3
+  result: TAI
+  currency: VAULT
+  xiuPlayers:
+    Thune6004: 100000000

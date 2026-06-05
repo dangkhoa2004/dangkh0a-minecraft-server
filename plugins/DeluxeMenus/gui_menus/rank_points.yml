@@ -1,0 +1,777 @@
+menu_title: '&0&lGIAO DIỆN &8>&f Cấp Bậc'
+open_command:
+- rankpoints
+size: 36
+items:
+  '1':
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: '&rRank có thời hạn 30 ngày'
+    slots:
+    - 0-8
+    - 27-35
+  '2':
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    display_name: '&rRank có thời hạn 30 ngày'
+    slots:
+    - 9
+    - 10
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 23
+    - 24
+    - 25
+    - 26
+
+  # VIP - START
+  'Vip':
+    material: leather_helmet
+    item_flags: [ HIDE_ATTRIBUTES ]
+    slot: 11
+    priority: 2
+    display_name: '&#00FFEA&lᴠ&#00FFEA&lɪ&#00FFEA&lᴘ %player_name%'
+    lore:
+    - ''
+    - '&7 Quyền lợi bạn nhận'
+    - '&7 khi mua rank là:'
+    - ''
+    - '&8 > &#b0e0e6/pv :&7 thêm kho đồ phụ thứ 3'
+    - '&8 > &#b0e0e6/nick :&7 đổi tên màu'
+    - '&8 > &#b0e0e6/tags :&7 Kho danh hiệu'
+    - '&8 > &#b0e0e6/sethome :&7 Đặt tối đa 8 Homes '
+    - ''
+    - '&a  +&f Balo &8[&athêm 1 hàng&8]'
+    - ''
+    - '&f Giá:&7 20&e Points'
+    - ''
+    - '&#f5c45b Nhấn để mua'
+    - ''
+    view_requirement:
+      requirements:
+        Has-Vip:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "default"
+    click_commands:
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP 1 5'
+    - '[console] points take %player_name% 20'
+    - '[console] lp user %player_name% parent addtemp vip 30d'
+    - '[console] customitem giveshard %player% 20'
+    - '[message] &f'
+    - '[message] &8 >&#03ff58 Chúc mừng!&f Bạn đã nâng cấp'
+    - '[message] &8 >&f thành công cấp bậc của mình!'
+    - '[message] &f'
+    click_requirement:
+      requirements:
+        Du-Points:
+          type: '>='
+          input: "%playerpoints_points%"
+          output: "20"
+          deny_commands:
+          - '[close]'
+          - '[sound] BLOCK_ANVIL_PLACE 1 5'
+          - '[message] &f'
+          - '[message] &8 >&f Bạn không có đủ Points để'
+          - '[message] &8 >&f mua &#FFC700cấp bậc&f này!'
+          - '[message] &f'
+
+  'Owned-Vip':
+    material: leather_helmet
+    item_flags: [ HIDE_ATTRIBUTES ]
+    slot: 11
+    priority: 1
+    display_name: '&#bee7a5Cấp Bậc &7➜ &#00FFEA&lᴠ&#00FFEA&lɪ&#00FFEA&lᴘ '
+    lore:
+    - ''
+    - '&7 Quyền lợi bạn nhận'
+    - '&7 khi mua rank là:'
+    - ''
+    - '&8 > &#b0e0e6/pv :&7 thêm kho đồ phụ thứ 3'
+    - '&8 > &#b0e0e6/nick :&7 đổi tên màu'
+    - '&8 > &#b0e0e6/tags :&7 Kho danh hiệu'
+    - '&8 > &#b0e0e6/sethome :&7 Đặt tối đa 8 Homes '
+    - ''
+    - '&a  +&f Balo &8[&athêm 1 hàng&8]'
+    - ''
+    - '&f Giá:&7 20&e Points'
+    - ''
+    - '&#00ff7f Đã mua&f rank này.'
+    - ''
+    click_commands:
+    - '[close]'
+    - '[sound] ENTITY_VILLAGER_TRADE 1 1'
+    - '[message] &f'
+    - '[message] &8 >&f Bạn đã sở hữu cấp bậc này rồi.'
+    - '[message] &f'
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        Has-Vip:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "vip"
+          optional: true
+        Has-beauty:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "beauty"
+          optional: true
+        Has-Mvp:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "mvp"
+          optional: true
+        Has-donate:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "donate"
+          optional: true
+        Has-King:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "king"
+          optional: true
+        Has-elite:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "elite"
+          optional: true
+        Has-admin:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "admin"
+          optional: true
+        Has-onwer:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "owner"
+          optional: true
+
+  # VIP - END
+
+  # MVP - START
+  'Locked-Mvp':
+    material: iron_helmet
+    item_flags: [ HIDE_ATTRIBUTES ]
+    slot: 12
+    priority: 3
+    display_name: '&#FF1F00&lᴍ&#FF1F00&lᴠ&#FF1F00&lᴘ %player_name%'
+    lore:
+    - ''
+    - '&7 Quyền lợi bạn nhận'
+    - '&7 khi mua rank là:'
+    - ''
+    - '&8 > &#b0e0e6/pv 4 :&7 thêm kho đồ phụ thứ 4'
+    - '&8 > &#b0e0e6/sethome :&7 Đặt tối đa 13 Homes '
+    - '&8 > &#b0e0e6/nick :&7 đổi tên màu'
+    - '&8 > &#b0e0e6/tags :&7 Kho danh hiệu'
+    - '&8 > &#b0e0e6/repair :&7 hồi phục độ bền vũ khí'
+    - ''
+    - '&a  +&f Balo &8[&athêm 1 hàng&8]'
+    - ''
+    - '&f Giá:&7 50&e Points'
+    - ''
+    - '&c Bạn cần phải mở khoá'
+    - '&c cấp bậc ở phía trước.'
+    - ''
+
+  'Mvp':
+    material: iron_helmet
+    item_flags: [ HIDE_ATTRIBUTES ]
+    slot: 12
+    priority: 2
+    display_name: '&#FF1F00&lᴍ&#FF1F00&lᴠ&#FF1F00&lᴘ %player_name%'
+    lore:
+    - ''
+    - '&7 Quyền lợi bạn nhận'
+    - '&7 khi mua rank là:'
+    - ''
+    - '&8 > &#b0e0e6/pv 4 :&7 thêm kho đồ phụ thứ 4'
+    - '&8 > &#b0e0e6/sethome :&7 Đặt tối đa 13 Homes '
+    - '&8 > &#b0e0e6/nick :&7 đổi tên màu'
+    - '&8 > &#b0e0e6/tags :&7 Kho danh hiệu'
+    - '&8 > &#b0e0e6/repair :&7 hồi phục độ bền vũ khí'
+    - ''
+    - '&a  +&f Balo &8[&athêm 1 hàng&8]'
+    - ''
+    - '&f Giá:&7 50&e Points'
+    - ''
+    - '&#f5c45b Nhấn&f để mua rank.'
+    - ''
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        Has-Vip:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "vip"
+    click_commands:
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP 1 5'
+    - '[console] points take %player_name% 50'
+    - '[console] lp user %player_name% parent addtemp mvp 30d'
+    - '[console] customitem giveshard %player% 50'
+    - '[message] &f'
+    - '[message] &8 >&#03ff58 Chúc mừng!&f Bạn đã nâng cấp'
+    - '[message] &8 >&f thành công cấp bậc của mình!'
+    - '[message] &f'
+    click_requirement:
+      requirements:
+        Du-Points:
+          type: '>='
+          input: "%playerpoints_points%"
+          output: "50"
+          deny_commands:
+          - '[close]'
+          - '[sound] BLOCK_ANVIL_PLACE 1 5'
+          - '[message] &f'
+          - '[message] &8 >&f Bạn không có đủ Points để'
+          - '[message] &8 >&f mua &#FFC700cấp bậc&f này!'
+          - '[message] &f'
+
+  'Owned-Mvp':
+    material: iron_helmet
+    item_flags: [ HIDE_ATTRIBUTES ]
+    slot: 12
+    priority: 1
+    display_name: '&#FF1F00&lᴍ&#FF1F00&lᴠ&#FF1F00&lᴘ %player_name%'
+    lore:
+    - ''
+    - '&7 Quyền lợi bạn nhận'
+    - '&7 khi mua rank là:'
+    - ''
+    - '&8 > &#b0e0e6/pv 4 :&7 thêm kho đồ phụ thứ 4'
+    - '&8 > &#b0e0e6/sethome :&7 Đặt tối đa 13 Homes '
+    - '&8 > &#b0e0e6/nick :&7 đổi tên màu'
+    - '&8 > &#b0e0e6/tags :&7 Kho danh hiệu'
+    - '&8 > &#b0e0e6/repair :&7 hồi phục độ bền vũ khí'
+    - ''
+    - '&a  +&f Balo &8[&athêm 1 hàng&8]'
+    - ''
+    - '&f Giá:&7 50&e Points'
+    - ''
+    - '&#00ff7f Đã mua&f rank này.'
+    - ''
+    click_commands:
+    - '[close]'
+    - '[sound] ENTITY_VILLAGER_TRADE 1 1'
+    - '[message] &f'
+    - '[message] &8 >&f Bạn đã sở hữu cấp bậc này rồi.'
+    - '[message] &f'
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        Has-beauty:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "beauty"
+          optional: true
+        Has-Mvp:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "mvp"
+          optional: true
+        Has-donate:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "donate"
+          optional: true
+        Has-King:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "king"
+          optional: true
+        Has-elite:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "elite"
+          optional: true
+        Has-admin:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "admin"
+          optional: true
+        Has-onwer:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "owner"
+          optional: true
+  # MVP - END
+
+
+  # Donater - START
+  'Locked-donater':
+    material: golden_helmet
+    item_flags: [ HIDE_ATTRIBUTES ]
+    slot: 13
+    priority: 3
+    display_name: '&#8E3DFF&lD&#8E3DFF&lo&#8E3DFF&ln&#8E3DFF&la&#8E3DFF&lt&#8E3DFF&le&#8E3DFF&lr %player_name%'
+    lore:
+    - ''
+    - '&7 Quyền lợi bạn nhận'
+    - '&7 khi mua rank là:'
+    - ''
+    - '&8 > &#b0e0e6/repair:&7 Sửa chữa vật phẩm'
+    - '&8 > &#b0e0e6/heal:&7 Hồi phục máu & thức ăn'
+    - '&8 > &#b0e0e6/ec:&7 Mở rương Ender'
+    - '&8 > &#b0e0e6/tags :&7 Kho danh hiệu'
+    - '&8 > &#b0e0e6/pv 5:&7 mở rương phụ thứ 5'
+    - '&8 > &#b0e0e6/sethome:&7 Đặt tối đa 18 Homes'
+    - ''
+    - '&a  +&f Balo &8[&athêm 1 hàng&8]'
+    - '&a  +&f 1 cây cúp vip đi kèm theo khi mua rank'
+    - ''
+    - '&f Giá:&7 50&e Points'
+    - ''
+    - '&c Bạn cần phải mở khoá'
+    - '&c cấp bậc ở phía trước.'
+    - ''
+
+  'donater':
+    material: golden_helmet
+    item_flags: [ HIDE_ATTRIBUTES ]
+    slot: 13
+    priority: 2
+    display_name: '&#8E3DFF&lD&#8E3DFF&lo&#8E3DFF&ln&#8E3DFF&la&#8E3DFF&lt&#8E3DFF&le&#8E3DFF&lr %player_name%'
+    lore:
+    - ''
+    - '&7 Quyền lợi bạn nhận'
+    - '&7 khi mua rank là:'
+    - ''
+    - '&8 > &#b0e0e6/repair:&7 Sửa chữa vật phẩm'
+    - '&8 > &#b0e0e6/heal:&7 Hồi phục máu & thức ăn'
+    - '&8 > &#b0e0e6/ec:&7 Mở rương Ender'
+    - '&8 > &#b0e0e6/tags :&7 Kho danh hiệu'
+    - '&8 > &#b0e0e6/pv 5:&7 mở rương phụ thứ 5'
+    - '&8 > &#b0e0e6/sethome:&7 Đặt tối đa 18 Homes'
+    - ''
+    - '&a  +&f Balo &8[&athêm 1 hàng&8]'
+    - '&a  +&f 1 cây cúp vip đi kèm theo khi mua rank'
+    - ''
+    - '&f Giá:&7 50&e Points'
+    - ''
+    - '&#f5c45b Nhấn&f để mua rank.'
+    - ''
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        Has-Mvp:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "mvp"
+        Has-beauty:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "beauty"
+    click_commands:
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP 1 5'
+    - '[console] points take %player_name% 50'
+    - '[console] lp user %player_name% parent addtemp donate 30d'
+    - '[console] customitem giveshard %player% 50'
+    - '[message] &f'
+    - '[message] &8 >&#03ff58 Chúc mừng!&f Bạn đã nâng cấp'
+    - '[message] &8 >&f thành công cấp bậc của mình!'
+    - '[message] &f'
+    click_requirement:
+      requirements:
+        Du-Points:
+          type: '>='
+          input: "%playerpoints_points%"
+          output: "50"
+          deny_commands:
+          - '[close]'
+          - '[sound] BLOCK_ANVIL_PLACE 1 5'
+          - '[message] &f'
+          - '[message] &8 >&f Bạn không có đủ Points để'
+          - '[message] &8 >&f mua &#FFC700cấp bậc&f này!'
+          - '[message] &f'
+
+  'Owned-donater':
+    material: GOLDEN_HELMET
+    item_flags: [ HIDE_ATTRIBUTES ]
+    slot: 13
+    priority: 1
+    display_name: '&#8E3DFF&lD&#8E3DFF&lo&#8E3DFF&ln&#8E3DFF&la&#8E3DFF&lt&#8E3DFF&le&#8E3DFF&lr %player_name%'
+    lore:
+    - ''
+    - '&7 Quyền lợi bạn nhận'
+    - '&7 khi mua rank là:'
+    - ''
+    - '&8 > &#b0e0e6/repair:&7 Sửa chữa vật phẩm'
+    - '&8 > &#b0e0e6/heal:&7 Hồi phục máu & thức ăn'
+    - '&8 > &#b0e0e6/ec:&7 Mở rương Ender'
+    - '&8 > &#b0e0e6/tags :&7 Kho danh hiệu'
+    - '&8 > &#b0e0e6/pv 5:&7 mở rương phụ thứ 5'
+    - '&8 > &#b0e0e6/sethome:&7 Đặt tối đa 18 Homes'
+    - ''
+    - '&a  +&f Balo &8[&athêm 1 hàng&8]'
+    - '&a  +&f 1 cây cúp vip đi kèm theo khi mua rank'
+    - ''
+    - '&f Giá:&7 50&e Points'
+    - ''
+    - '&#00ff7f Đã mua&f rank này.'
+    - ''
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        Has-donate:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "donate"
+          optional: true
+        Has-King:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "king"
+          optional: true
+        Has-elite:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "elite"
+          optional: true
+        Has-admin:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "admin"
+          optional: true
+        Has-onwer:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "owner"
+          optional: true
+
+  # donater - END
+
+  # King - START
+  'Locked-King':
+    material: diamond_helmet
+    item_flags: [ HIDE_ATTRIBUTES ]
+    slot: 14
+    priority: 3
+    display_name: '&#FCD05C&lᴋ&#FCD05C&lɪ&#FCD05C&lɴ&#FCD05C&lɢ %player_name%'
+    lore:
+    - ''
+    - '&7 Quyền lợi bạn nhận'
+    - '&7 khi mua rank là:'
+    - ''
+    - '&8 > &#b0e0e6/repair:&7 Sửa chữa vật phẩm'
+    - '&8 > &#b0e0e6/heal:&7 Hồi phục máu & thức ăn'
+    - '&8 > &#b0e0e6/feed:&7 Lấp đầy thanh thức ăn'
+    - '&8 > &#b0e0e6/ec:&7 Mở rương Ender'
+    - '&8 > &#b0e0e6/wb:&7 Bàn chế tạo di động'
+    - '&8 > &#b0e0e6/tags :&7 Kho danh hiệu'
+    - '&8 > &#b0e0e6/fly:&7 Bật/tắt chế độ bay'
+    - '&8 > &#b0e0e6/pv 6:&7 mở rương phụ thứ 6'
+    - '&8 > &#b0e0e6/sethome:&7 Đặt tối đa 23 Homes'
+    - ''
+    - '&a  +&f Balo &8[&athêm 1 hàng&8]'
+    - ''
+    - '&f Giá:&7 50&e Points'
+    - ''
+    - '&c Bạn cần phải mở khoá'
+    - '&c cấp bậc ở phía trước.'
+    - ''
+
+  'king':
+    material: diamond_helmet
+    item_flags: [ HIDE_ATTRIBUTES ]
+    slot: 14
+    priority: 2
+    display_name: '&#FCD05C&lᴋ&#FCD05C&lɪ&#FCD05C&lɴ&#FCD05C&lɢ %player_name%'
+    lore:
+    - ''
+    - '&7 Quyền lợi bạn nhận'
+    - '&7 khi mua rank là:'
+    - ''
+    - '&8 > &#b0e0e6/repair:&7 Sửa chữa vật phẩm'
+    - '&8 > &#b0e0e6/heal:&7 Hồi phục máu & thức ăn'
+    - '&8 > &#b0e0e6/feed:&7 Lấp đầy thanh thức ăn'
+    - '&8 > &#b0e0e6/ec:&7 Mở rương Ender'
+    - '&8 > &#b0e0e6/wb:&7 Bàn chế tạo di động'
+    - '&8 > &#b0e0e6/tags :&7 Kho danh hiệu'
+    - '&8 > &#b0e0e6/fly:&7 Bật/tắt chế độ bay'
+    - '&8 > &#b0e0e6/pv 6:&7 mở rương phụ thứ 6'
+    - '&8 > &#b0e0e6/sethome:&7 Đặt tối đa 23 Homes'
+    - ''
+    - '&a  +&f Balo &8[&athêm 1 hàng&8]'
+    - ''
+    - '&f Giá:&7 50&e Points'
+    - ''
+    - '&#f5c45b Nhấn&f để mua rank.'
+    - ''
+    view_requirement:
+      requirements:
+        Has-donate:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "donate"
+    click_commands:
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP 1 5'
+    - '[console] points take %player_name% 50'
+    - '[console] lp user %player_name% parent addtemp king 30d'
+    - '[console] customitem giveshard %player% 50'
+    - '[message] &f'
+    - '[message] &8 >&#03ff58 Chúc mừng!&f Bạn đã nâng cấp'
+    - '[message] &8 >&f thành công cấp bậc của mình!'
+    - '[message] &f'
+    click_requirement:
+      requirements:
+        Du-Points:
+          type: '>='
+          input: "%playerpoints_points%"
+          output: "50"
+          deny_commands:
+          - '[close]'
+          - '[sound] BLOCK_ANVIL_PLACE 1 5'
+          - '[message] &f'
+          - '[message] &8 >&f Bạn không có đủ Points để'
+          - '[message] &8 >&f mua &#FFC700cấp bậc&f này!'
+          - '[message] &f'
+
+  'Owned-king':
+    material: diamond_helmet
+    item_flags: [ HIDE_ATTRIBUTES ]
+    slot: 14
+    priority: 1
+    display_name: '&#FCD05C&lᴋ&#FCD05C&lɪ&#FCD05C&lɴ&#FCD05C&lɢ %player_name%'
+    lore:
+    - ''
+    - '&7 Quyền lợi bạn nhận'
+    - '&7 khi mua rank là:'
+    - ''
+    - '&8 > &#b0e0e6/repair:&7 Sửa chữa vật phẩm'
+    - '&8 > &#b0e0e6/heal:&7 Hồi phục máu & thức ăn'
+    - '&8 > &#b0e0e6/feed:&7 Lấp đầy thanh thức ăn'
+    - '&8 > &#b0e0e6/ec:&7 Mở rương Ender'
+    - '&8 > &#b0e0e6/wb:&7 Bàn chế tạo di động'
+    - '&8 > &#b0e0e6/tags :&7 Kho danh hiệu'
+    - '&8 > &#b0e0e6/fly:&7 Bật/tắt chế độ bay'
+    - '&8 > &#b0e0e6/pv 6:&7 mở rương phụ thứ 6'
+    - '&8 > &#b0e0e6/sethome:&7 Đặt tối đa 23 Homes'
+    - ''
+    - '&a  +&f Balo &8[&athêm 1 hàng&8]'
+    - ''
+    - '&f Giá:&7 50&e Points'
+    - ''
+    - '&#00ff7f Đã mua&f rank này.'
+    - ''
+    click_commands:
+    - '[close]'
+    - '[sound] ENTITY_VILLAGER_TRADE 1 1'
+    - '[message] &f'
+    - '[message] &8 >&f Bạn đã sở hữu cấp bậc này rồi.'
+    - '[message] &f'
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        Has-King:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "king"
+          optional: true
+        Has-elite:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "elite"
+          optional: true
+        Has-admin:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "admin"
+          optional: true
+        Has-onwer:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "owner"
+          optional: true
+  # king - END
+
+  # elite - START
+  'Locked-elite':
+    material: netherite_helmet
+    item_flags: [ HIDE_ATTRIBUTES ]
+    slot: 15
+    priority: 3
+    display_name: '&#89FF00&lᴇ&#89FF00&lʟ&#89FF00&lɪ&#89FF00&lᴛ&#89FF00&lᴇ %player_name%'
+    lore:
+    - ''
+    - '&7 Quyền lợi bạn nhận'
+    - '&7 khi mua rank là:'
+    - ''
+    - '&8 > &#b0e0e6/repair:&7 Sửa chữa vật phẩm'
+    - '&8 > &#b0e0e6/heal:&7 Hồi phục máu & thức ăn'
+    - '&8 > &#b0e0e6/ec, /wb:&7 Ender, Bàn chế tạo'
+    - '&8 > &#b0e0e6/feed, /fly:&7 No bụng, Bay'
+    - '&8 > &#b0e0e6/anvil:&7 Mở đe di động'
+    - '&8 > &#b0e0e6/disposal:&7 Thùng rác'
+    - '&8 > &#b0e0e6/itemname:&7 Đổi tên vật phẩm'
+    - '&8 > &#b0e0e6/tags :&7 Kho danh hiệu'
+    - '&8 > &#b0e0e6/ptime:&7 Chỉnh thời gian riêng'
+    - '&8 > &#b0e0e6/pweather:&7 Chỉnh thời tiết riêng'
+    - '&8 > &#b0e0e6/near:&7 Quét người chơi gần'
+    - '&8 > &#b0e0e6/pv 7:&7 mở rương phụ thứ 7'
+    - '&8 > &#b0e0e6/sethome:&7 Đặt tối đa 28 Homes'
+    - '&8 > &#b0e0e6/hat:&7 Đội vật phẩm lên đầu'
+    - '&8 > &#b0e0e6/condense:&7 Tự động ép khoáng sản'
+    - ''
+    - '&a  +&f Balo &8[&athêm 1 hàng&8]'
+    - ''
+    - '&f Giá:&7 50&e Points'
+    - ''
+    - '&c Bạn cần phải mở khoá'
+    - '&c cấp bậc ở phía trước.'
+    - ''
+
+  'elite':
+    material: netherite_helmet
+    item_flags: [ HIDE_ATTRIBUTES ]
+    slot: 15
+    priority: 2
+    display_name: '&#89FF00&lᴇ&#89FF00&lʟ&#89FF00&lɪ&#89FF00&lᴛ&#89FF00&lᴇ %player_name%'
+    lore:
+    - ''
+    - '&7 Quyền lợi bạn nhận'
+    - '&7 khi mua rank là:'
+    - ''
+    - '&8 > &#b0e0e6/repair:&7 Sửa chữa vật phẩm'
+    - '&8 > &#b0e0e6/heal:&7 Hồi phục máu & thức ăn'
+    - '&8 > &#b0e0e6/ec, /wb:&7 Ender, Bàn chế tạo'
+    - '&8 > &#b0e0e6/feed, /fly:&7 No bụng, Bay'
+    - '&8 > &#b0e0e6/anvil:&7 Mở đe di động'
+    - '&8 > &#b0e0e6/disposal:&7 Thùng rác'
+    - '&8 > &#b0e0e6/itemname:&7 Đổi tên vật phẩm'
+    - '&8 > &#b0e0e6/tags :&7 Kho danh hiệu'
+    - '&8 > &#b0e0e6/ptime:&7 Chỉnh thời gian riêng'
+    - '&8 > &#b0e0e6/pweather:&7 Chỉnh thời tiết riêng'
+    - '&8 > &#b0e0e6/near:&7 Quét người chơi gần'
+    - '&8 > &#b0e0e6/pv 7:&7 mở rương phụ thứ 7'
+    - '&8 > &#b0e0e6/sethome:&7 Đặt tối đa 28 Homes'
+    - '&8 > &#b0e0e6/hat:&7 Đội vật phẩm lên đầu'
+    - '&8 > &#b0e0e6/condense:&7 Tự động ép khoáng sản'
+    - ''
+    - '&a  +&f Balo &8[&athêm 1 hàng&8]'
+    - ''
+    - '&f Giá:&7 50&e Points'
+    - ''
+    - '&#f5c45b Nhấn&f để mua rank.'
+    - ''
+    view_requirement:
+      requirements:
+        Has-King:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "king"
+    click_commands:
+    - '[close]'
+    - '[sound] ENTITY_PLAYER_LEVELUP 1 5'
+    - '[console] points take %player_name% 50'
+    - '[console] lp user %player_name% parent addtemp elite 30d'
+    - '[console] customitem giveshard %player% 50'
+    - '[message] &f'
+    - '[message] &8 >&#03ff58 Chúc mừng!&f Bạn đã nâng cấp'
+    - '[message] &8 >&f thành công cấp bậc của mình!'
+    - '[message] &f'
+    click_requirement:
+      requirements:
+        Du-Points:
+          type: '>='
+          input: "%playerpoints_points%"
+          output: "50"
+          deny_commands:
+          - '[close]'
+          - '[sound] BLOCK_ANVIL_PLACE 1 5'
+          - '[message] &f'
+          - '[message] &8 >&f Bạn không có đủ Points để'
+          - '[message] &8 >&f mua &#FFC700cấp bậc&f này!'
+          - '[message] &f'
+
+  'Owned-elite':
+    material: netherite_helmet
+    item_flags: [ HIDE_ATTRIBUTES ]
+    slot: 15
+    priority: 1
+    display_name: '&#89FF00&lᴇ&#89FF00&lʟ&#89FF00&lɪ&#89FF00&lᴛ&#89FF00&lᴇ %player_name%'
+    lore:
+    - ''
+    - '&7 Quyền lợi bạn nhận'
+    - '&7 khi mua rank là:'
+    - ''
+    - '&8 > &#b0e0e6/repair:&7 Sửa chữa vật phẩm'
+    - '&8 > &#b0e0e6/heal:&7 Hồi phục máu & thức ăn'
+    - '&8 > &#b0e0e6/ec, /wb:&7 Ender, Bàn chế tạo'
+    - '&8 > &#b0e0e6/feed, /fly:&7 No bụng, Bay'
+    - '&8 > &#b0e0e6/anvil:&7 Mở đe di động'
+    - '&8 > &#b0e0e6/disposal:&7 Thùng rác'
+    - '&8 > &#b0e0e6/itemname:&7 Đổi tên vật phẩm'
+    - '&8 > &#b0e0e6/tags :&7 Kho danh hiệu'
+    - '&8 > &#b0e0e6/ptime:&7 Chỉnh thời gian riêng'
+    - '&8 > &#b0e0e6/pweather:&7 Chỉnh thời tiết riêng'
+    - '&8 > &#b0e0e6/near:&7 Quét người chơi gần'
+    - '&8 > &#b0e0e6/pv 7:&7 mở rương phụ thứ 7'
+    - '&8 > &#b0e0e6/sethome:&7 Đặt tối đa 28 Homes'
+    - '&8 > &#b0e0e6/hat:&7 Đội vật phẩm lên đầu'
+    - '&8 > &#b0e0e6/condense:&7 Tự động ép khoáng sản'
+    - ''
+    - '&a  +&f Balo &8[&athêm 1 hàng&8]'
+    - ''
+    - '&f Giá:&7 50&e Points'
+    - ''
+    - '&#00ff7f Đã mua&f rank này.'
+    - ''
+    click_commands:
+    - '[close]'
+    - '[sound] ENTITY_VILLAGER_TRADE 1 1'
+    - '[message] &f'
+    - '[message] &8 >&f Bạn đã sở hữu cấp bậc này rồi.'
+    - '[message] &f'
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        Has-elite:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "elite"
+          optional: true
+        Has-admin:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "admin"
+          optional: true
+        Has-onwer:
+          type: contains
+          input: "%luckperms_groups%"
+          output: "owner"
+          optional: true
+  # ELITE - END
+
+  # Beauty - START
+  'Beauty':
+    material: head-%player_name%
+    slot: 22
+    priority: 2
+    display_name: '&#ED3DFF&lB&#ED3DFF&le&#ED3DFF&la&#ED3DFF&lu&#ED3DFF&lt&#ED3DFF&ly %player_name%'
+    lore:
+    - ''
+    - '&7 Quyền lợi bạn nhận'
+    - '&7 khi mua rank là:'
+    - ''
+    - '&a  +&f Toàn bộ quyền lợi tương đương rank &#00FFEA&lᴠ&#00FFEA&lɪ&#00FFEA&lᴘ '
+    - '&a  +&f Bật tắt pvp khi dùng /pvp'
+    - ''
+    - '&f Giá:&7 Nhận miễn phí nếu bạn là nữ'
+    - ''
+    - '&#f5c45b Liên hệ với admin để xác nhận'
+    - ''

@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:glass_bottle"
+    },
+    "title":"\u00A7x\u00A7A\u00A7C\u00A7F\u0110\u1ED7\u0274 \u029F\u00EC",
+    "description":"\u00A7x\u00A7D\u00A7E\u00A7EU\u1ED1\u0274\u0262 \u00A7x\u00A7F\u00A7D\u00A7F\u00A7D100 \u00A7x\u00A7D\u00A7E\u00A7E\u029F\u1ECD \u1D1B\u029C\u1D1C\u1ED1\u1D04.",
+    "frame":"challenge",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:advanced_achievements_parent"
+}

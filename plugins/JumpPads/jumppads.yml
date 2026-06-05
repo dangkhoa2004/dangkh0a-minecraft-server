@@ -1,0 +1,19 @@
+JumpPads:
+  lobby, -1, -2, 40:
+    owners:
+    - bda819af-dfac-435f-b0e5-f7bc99542271
+    plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+    power: 15.0
+    angle: 15.0
+  lobby, 0, -2, 40:
+    owners:
+    - bda819af-dfac-435f-b0e5-f7bc99542271
+    plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+    power: 15.0
+    angle: 15.0
+  lobby, 1, -2, 40:
+    owners:
+    - bda819af-dfac-435f-b0e5-f7bc99542271
+    plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+    power: 15.0
+    angle: 15.0

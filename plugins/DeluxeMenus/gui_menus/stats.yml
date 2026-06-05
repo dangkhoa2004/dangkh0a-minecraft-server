@@ -1,0 +1,89 @@
+menu_title: '&#a8e6cf&l❁ ᴛʜôɴɢ ᴛɪɴ ᴄá ɴʜâɴ ❁'
+open_command: stats
+register_command: true
+size: 27
+update_interval: 1
+
+items:
+  'game-stats':
+    material: GRASS_BLOCK
+    slot: 11
+    display_name: '&#B9FBC0&lᴛɪếɴ ᴛʀìɴʜ ѕɪɴʜ ᴛồɴ'
+    lore:
+    - ''
+    - '&#fcfcfc❖ &#E0E0E0ᴠậᴛ ᴘʜẩᴍ đã ᴄʜế ᴛạᴏ: &#FFD700%statistic_craft_item%'
+    - '&#fcfcfc❖ &#E0E0E0ᴋʜốɪ đã đàᴏ đượᴄ: &#FFD700%statistic_mine_block%'
+    - '&#fcfcfc❖ &#E0E0E0độɴɢ ᴠậᴛ đã ʜạ ɢụᴄ: &#FFD700%statistic_mob_kills%'
+    - '&#fcfcfc❖ &#E0E0E0ѕố ʟầɴ ɴʜảʏ: &#FFD700%statistic_jump%'
+    - ''
+    - '&#57F287▶ ɴʜấɴ để ᴄậᴘ ɴʜậᴛ ѕố ʟɪệᴜ!'
+    click_commands:
+    - '[refresh]'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+
+  'kills':
+    material: NETHERITE_SWORD
+    slot: 12
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFB7B2&lᴛʜàɴʜ ᴛíᴄʜ ʜạ ɢụᴄ'
+    lore:
+    - ''
+    - '&#fcfcfc⚔ &#E0E0E0ɴɢườɪ ᴄʜơɪ đã ʜạ ɢụᴄ: &#FFD700%statistic_player_kills%'
+    - ''
+    - '&#57F287▶ ɴʜấɴ để ᴄậᴘ ɴʜậᴛ ѕố ʟɪệᴜ!'
+    click_commands:
+    - '[refresh]'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+
+  'playtime':
+    material: CLOCK
+    slot: 13
+    display_name: '&#FDFD96&lᴛʜờɪ ɢɪᴀɴ ᴏɴʟɪɴᴇ'
+    lore:
+    - ''
+    - '&#fcfcfc⌚ &#E0E0E0ᴛổɴɢ ᴛʜờɪ ɢɪᴀɴ ᴄʜơɪ: &#FFD700%statistic_time_played% ɢɪờ'
+    - ''
+    - '&#57F287▶ ɴʜấɴ để ᴄậᴘ ɴʜậᴛ ѕố ʟɪệᴜ!'
+    click_commands:
+    - '[refresh]'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+
+  'deaths':
+    material: RECOVERY_COMPASS
+    slot: 14
+    display_name: '&#AEC6CF&lᴛʜốɴɢ ᴋê ᴛử ᴠᴏɴɢ'
+    lore:
+    - ''
+    - '&#fcfcfc☠ &#E0E0E0ѕố ʟầɴ ᴛử ᴠᴏɴɢ: &#FFD700%statistic_deaths%'
+    - '&#fcfcfc⏳ &#E0E0E0ᴛừ ʟúᴄ ᴄʜếᴛ ɢầɴ ɴʜấᴛ: &#FFD700%statistic_hours_since_death% ɢɪờ'
+    - ''
+    - '&#57F287▶ ɴʜấɴ để ᴄậᴘ ɴʜậᴛ ѕố ʟɪệᴜ!'
+    click_commands:
+    - '[refresh]'
+    - '[sound] UI_BUTTON_CLICK'
+
+  'money':
+    material: SUNFLOWER
+    slot: 15
+    display_name: '&#FCD05C&lᴛàɪ ѕảɴ ᴄá ɴʜâɴ'
+    lore:
+    - ''
+    - '&#fcfcfc⛃ &#E0E0E0ѕố ᴅư ʜɪệɴ ᴛạɪ: &#57F287%vault_eco_balance_formatted% xᴜ'
+    - ''
+    - '&#57F287▶ ɴʜấɴ để ᴄậᴘ ɴʜậᴛ ѕố ʟɪệᴜ!'
+    click_commands:
+    - '[refresh]'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+
+  # ==================================================
+  # KHUNG VIỀN KÍNH STAINED GLASS (PRO BORDER)
+  # ==================================================
+  'border_white':
+    material: WHITE_STAINED_GLASS_PANE
+    slots: [ '0', '1', '7', '8', '9', '17', '18', '19', '25', '26' ]
+    display_name: ' '
+
+  'border_blue':
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    slots: [ '2', '3', '4', '5', '6', '10', '16', '20', '21', '22', '23', '24' ]
+    display_name: ' '

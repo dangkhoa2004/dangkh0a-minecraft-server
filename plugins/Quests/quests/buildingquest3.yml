@@ -1,0 +1,35 @@
+tasks:
+  fence:
+    type: "blockplacecertain"
+    amount: 128
+    block: "OAK_FENCE"
+  gate:
+    type: "blockplacecertain"
+    amount: 1
+    block: "OAK_FENCE_GATE"
+display:
+  name: "&#A3C4F3&nɴʜɪệᴍ ᴠụ xâʏ ᴅựɴɢ:&r &#FDFD96#3"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó'
+    - '&#D1E8E2ᴠớɪ xâʏ ᴅựɴɢ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2xâʏ ᴍộᴛ ɴôɴɢ ᴛʀạɪ ɴʜỏ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ:'
+    - '   &#FFB347◆ &#D1E8E2{fence:progress}/128 ʜàɴɢ ʀàᴏ ɢỗ ꜱồɪ'
+    - '   &#FFB347◆ &#D1E8E2{gate:progress}/1 ᴄổɴɢ ʀàᴏ'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC01500 ᴋɪɴʜ ɴɢʜɪệᴍ'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "OAK_FENCE"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "xp give {player} 1500"
+options:
+  category: "building"
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 2880
+  sort-order: 3

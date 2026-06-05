@@ -1,0 +1,49 @@
+# Hỗ trợ Bàn Phù Phép
+enabled: true
+
+# Tỷ lệ nhận được phù phép tùy chỉnh khi
+# sử dụng bàn phù phép.
+chance: 45 # Giá trị: 1 đến 100 %
+
+# Tỷ lệ cho mỗi nhóm xuất hiện trong bàn phù phép (chỉ khi giá trị 'chance' kích hoạt)
+# Chỉ các nhóm được liệt kê ở đây mới xuất hiện trong bàn phù phép
+groupChances:
+  THUONG: 50
+  HIEM: 40
+  SIEUHIEM: 30
+  SUTHI: 20
+  HUYENTHOAI: 10
+
+# Thiết lập số lượng phù phép tùy chỉnh có thể
+# nhận được cùng lúc khi phù phép.
+enchantCount:
+  lowestLevel: 1 # Giá trị: 1 - 10
+  middleLevel: 1-2 # Giá trị: 1 - 10
+  highestLevel: 2-3 # Giá trị: 1 - 10
+
+prices:
+  enabled: false
+  # Cấu hình giá của bàn phù phép
+  # Mặc định giá sẽ ngẫu nhiên giữa 2 giá trị, nhưng có thể
+  # thiết lập thành một giá trị cụ thể, hoặc cao hơn giá vanilla
+  lowestLevel: 3-9 # Giá trị: 1 - 1000
+  middleLevel: 10-24 # Giá trị: 1 - 1000
+  highestLevel: 30 # Giá trị: 1 - 1000
+
+# Phù phép tùy chỉnh từ bàn phù phép
+enchantmentBooks:
+  enabled: true
+  # Tỷ lệ nhận được phù phép tùy chỉnh khi sử dụng bàn phù phép.
+  # Điều này sẽ cung cấp sách phù phép tùy chỉnh thay vì sách vanilla, và có thể
+  # áp dụng bằng đe hoặc kéo thả lên vật phẩm.
+  chance: 3 # Giá trị: 1 đến 100 %
+  groups:
+    lowest:
+      - THUONG
+      - HIEM
+    middle:
+      - SIEUHIEM
+      - SUTHI
+    highest:
+      - HUYENTHOAI
+      - THANTHOAI

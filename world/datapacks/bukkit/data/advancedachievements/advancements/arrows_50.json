@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:arrow"
+    },
+    "title":"\u00A7x\u00A7A\u00A7C\u00A7FT\u029C\u00E1\u0274\u029C S\u1D18\u1D00\u1D0D C\u1D1C\u0274\u0262",
+    "description":"\u00A7x\u00A7D\u00A7E\u00A7EB\u1EAF\u0274 \u00A7x\u00A7F\u00A7D\u00A7F\u00A7D50 \u00A7x\u00A7D\u00A7E\u00A7E\u1D0D\u0169\u026A \u1D1B\u00EA\u0274.",
+    "frame":"challenge",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:advanced_achievements_parent"
+}

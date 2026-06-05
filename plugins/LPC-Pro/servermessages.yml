@@ -1,0 +1,36 @@
+join:
+  enabled: true
+  public: true
+  format: "<#57F287>▶ <white>{player} <#E0E0E0>vừa tham gia máy chủ"
+  first-join:
+    enabled: true
+    format: "<#FCD05C>❖ Chào mừng <white>{player} <#FCD05C>lần đầu đến với máy chủ!"
+
+quit:
+  enabled: true
+  public: true
+  format: "<#ED4245>✖ <white>{player} <#E0E0E0>vừa rời khỏi máy chủ"
+
+death:
+  enabled: true
+  public: true
+  format: "<#888888>☠ <white>{player} <#E0E0E0>vừa tử nạn"
+  by-player-format: "<#888888>☠ <white>{player} <#E0E0E0>bị hạ gục bởi <white>{killer}"
+  by-mob-format: "<#888888>☠ <white>{player} <#E0E0E0>bị tiêu diệt bởi <white>{mob}"
+
+announcements:
+  enabled: false
+  interval: 600
+  random: true
+  prefix: "<#FCD05C>❖ <#BDB2FF><bold>THÔNG BÁO</bold> <#E0E0E0>» "
+  messages:
+  - "<#E0E0E0>Sử dụng <#57F287>@tên <#E0E0E0>để nhắc đến người khác trong chat"
+  - "<#E0E0E0>Kiểm tra điểm uy tín của bạn với lệnh <#57F287>/rep"
+  - "<#E0E0E0>Tùy chỉnh thẻ chat của bạn tại <#57F287>/tags"
+  - "<#E0E0E0>Bật/tắt các tính năng chat với lệnh <#57F287>/toggle"
+  - "<#E0E0E0>Khám phá cửa hàng trang trí chat tại <#57F287>/chatshop"
+  - "<#E0E0E0>Cần giúp đỡ? Gõ <#57F287>/lpc help <#E0E0E0>để xem lệnh"
+
+clearchat:
+  lines: 100
+  message: "<#BDB2FF>——« <#ED4245><bold>ĐÃ DỌN KÊNH CHAT</bold> <#BDB2FF>»——<newline><#E0E0E0>Người dọn: <white>{player}</white><newline><#E0E0E0>Lý do: <white>{reason}</white>"

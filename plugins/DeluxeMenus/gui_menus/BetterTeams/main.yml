@@ -1,0 +1,674 @@
+menu_title: '&#BDB2FF&l❁ ǫᴜảɴ ʟý ᴛᴇᴀᴍ %changeoutput_equals_input:{betterteams_name}_matcher:_ifmatch:_else:• {betterteams_name}% ❁'
+size: 54
+open_command:
+- team
+- teams
+items:
+  'Filler 1':
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 35
+    - 36
+    - 44
+    - 45
+    - 53
+    priority: 10
+    display_name: ' '
+  'Filler 2':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 1-7
+    - 46-48
+    - 50-52
+    priority: 10
+    display_name: ' '
+  'Close':
+    material: BARRIER
+    slot: 49
+    display_name: '&#ED4245&l✖ ĐÓɴɢ ᴍᴇɴᴜ'
+    lore:
+    - ''
+    - '&#ED4245▶ &#E0E0E0Nhấn để đóng giao diện'
+    priority: 9
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+
+  'Create Team':
+    material: DIAMOND
+    slot: 22
+    display_name: '&#57F287&l❁ ᴛạᴏ ᴛᴇᴀᴍ ᴍớɪ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Hãy thành lập một đội để sinh tồn!'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để nhập tên team'
+    priority: 1
+    view_requirement:
+      requirements:
+        isNotInTeam:
+          type: string equals
+          input: '%betterteams_inteam%'
+          output: 'false'
+        hasNoTeams:
+          type: string equals
+          input: '%betterteamsextra_hasteams%'
+          output: 'no'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team create '
+
+  'Create or Join Team':
+    material: DIAMOND
+    slot: 22
+    display_name: '&#57F287&l❁ ᴛʜᴀᴍ ɢɪᴀ ʜᴏặᴄ ᴛạᴏ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#AEC6CFChuột trái &#E0E0E0để TẠO team mới'
+    - ' &#fcfcfc❖ &#FCD05CChuột phải &#E0E0E0để VÀO một team'
+    - ''
+    priority: 2
+    view_requirement:
+      requirements:
+        isNotInTeam:
+          type: string equals
+          input: '%betterteams_inteam%'
+          output: 'false'
+        hasNoTeams:
+          type: string equals
+          input: '%betterteamsextra_hasteams%'
+          output: 'yes'
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team create '
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team join '
+
+  'Disband Team':
+    material: TNT
+    slot: 4
+    display_name: '&#ED4245&l❁ ɢɪảɪ ᴛáɴ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - ' &#ED4245⚠ Cảnh báo: Hành động này không thể hoàn tác!'
+    - ''
+    - '&#ED4245▶ &#E0E0E0Nhấn để giải tán đội'
+    priority: 1
+    view_requirement:
+      requirements:
+        isOwner:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Owner'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[meta] set betterTeamsConfirmAction STRING disband'
+    - '[meta] set BetterTeamsConfirmActionBack STRING BetterTeamsMain'
+    - '[openguimenu] BetterTeamsConfirmAction'
+
+  'Leave Team':
+    material: SPRUCE_DOOR
+    slot: 4
+    display_name: '&#ED4245&l❁ ʀờɪ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn muốn tìm bến đỗ mới?'
+    - ''
+    - '&#ED4245▶ &#E0E0E0Nhấn để xác nhận rời đội'
+    priority: 2
+    view_requirement:
+      requirements:
+        inTeam:
+          type: string equals
+          input: '%betterteams_inteam%'
+          output: 'true'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[meta] set betterTeamsConfirmAction STRING leave'
+    - '[meta] set BetterTeamsConfirmActionBack STRING BetterTeamsMain'
+    - '[openguimenu] BetterTeamsConfirmAction'
+
+  'Toggle Team Chat':
+    material: REPEATER
+    slot: 9
+    display_name: '&#AEC6CF&l❁ ᴄʜᴀᴛ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Kênh hiện tại: &#FCD05C%betterteamsextra_chattype%'
+    - ''
+    - '&#AEC6CF▶ &#E0E0E0Nhấn để chuyển đổi'
+    priority: 1
+    view_requirement:
+      requirements:
+        inTeam:
+          type: string equals
+          input: '%betterteams_inteam%'
+          output: 'true'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] team chat'
+    - '[refresh]'
+
+  'Home':
+    material: RED_BED
+    slot: 18
+    display_name: '&#57F287&l❁ ᴠề ɴʜà ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Thế giới: &#AEC6CF%betterteamsextra_homelocation_world%'
+    - ' &#fcfcfc❖ &#E0E0E0Tọa độ: &#E0E0E0%betterteamsextra_homelocation_x%, %betterteamsextra_homelocation_y%, %betterteamsextra_homelocation_z%'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để dịch chuyển'
+    priority: 1
+    view_requirement:
+      requirements:
+        hasHome:
+          type: string equals
+          input: '%betterteamsextra_hashome%'
+          output: 'yes'
+    click_commands:
+    - '[sound] ENTITY_ENDERMAN_TELEPORT'
+    - '[player] team home'
+    - '[refresh]'
+
+  'Warp Single':
+    material: ENDER_PEARL
+    slot: 27
+    display_name: '&#BDB2FF&l❁ ᴛʀạᴍ ᴅịᴄʜ ᴄʜᴜʏểɴ ❁'
+    lore:
+    - ''
+    - '%betterteamsextra_warplist%'
+    - ''
+    - '&#BDB2FF▶ &#E0E0E0Nhấn để dịch chuyển'
+    priority: 1
+    view_requirement:
+      requirements:
+        hasWarps:
+          type: string equals
+          input: '%betterteamsextra_haswarps%'
+          output: 'yes'
+        hasOneWarp:
+          type: string equals
+          input: '%betterteamsextra_hasonewarp%'
+          output: 'yes'
+    click_requirement:
+      requirements:
+        hasPassword:
+          type: string equals
+          input: '%betterteamsextra_haspassword_0%'
+          output: 'no'
+          success_commands:
+          - '[sound] ENTITY_ENDERMAN_TELEPORT'
+          - '[player] team warp %betterteamsextra_warpname_0%'
+          - '[close]'
+          deny_commands:
+          - '[sound] UI_BUTTON_CLICK'
+          - '[close]'
+          - '[suggest_command] /team warp %betterteamsextra_warpname_0% '
+  'Warps Multi':
+    material: ENDER_PEARL
+    slot: 27
+    display_name: '&#BDB2FF&l❁ ᴛʀạᴍ ᴅịᴄʜ ᴄʜᴜʏểɴ ❁'
+    lore:
+    - ''
+    - '%betterteamsextra_warplist%'
+    - ''
+    - '&#BDB2FF▶ &#E0E0E0Nhấn để nhập tên trạm cần đến'
+    priority: 2
+    view_requirement:
+      requirements:
+        hasWarps:
+          type: string equals
+          input: '%betterteamsextra_haswarps%'
+          output: 'yes'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team warp '
+
+  'Toggle Ally Chat':
+    material: REPEATER
+    slot: 36
+    display_name: '&#FFB7B2&l❁ ᴄʜᴀᴛ ʟɪêɴ ᴍɪɴʜ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Kênh hiện tại: &#FFB7B2%betterteamsextra_chattype%'
+    - ''
+    - '&#FFB7B2▶ &#E0E0E0Nhấn để chuyển đổi'
+    priority: 1
+    view_requirement:
+      requirements:
+        hasAllies:
+          type: string equals
+          input: '%betterteamsextra_hasallies%'
+          output: 'yes'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] team allychat'
+    - '[refresh]'
+
+  'Manage Members':
+    material: head-%player_name%
+    slot: 20
+    display_name: '&#FCD05C&l❁ ǫᴜảɴ ʟý ᴛʜàɴʜ ᴠɪêɴ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Thăng/Giáng chức, Đuổi thành viên...'
+    - ''
+    - '&#FCD05C▶ &#E0E0E0Nhấn để mở menu quản lý'
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        isAdmin:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Admin'
+          optional: true
+        isOwner:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Owner'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] BetterTeamsManageMembers'
+
+  'Ender Chest':
+    material: ENDER_CHEST
+    slot: 21
+    display_name: '&#BDB2FF&l❁ ʀươɴɢ ᴇɴᴅᴇʀ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - '&#BDB2FF▶ &#E0E0E0Nhấn để mở rương'
+    view_requirement:
+      requirements:
+        inTeam:
+          type: string equals
+          input: '%betterteams_inteam%'
+          output: 'true'
+    click_commands:
+    - '[sound] BLOCK_CHEST_OPEN'
+    - '[player] team echest'
+
+  'Team Ranks':
+    material: BOOK
+    slot: 22
+    display_name: '&#AEC6CF&l❁ ǫᴜʏềɴ ʜạɴ ᴛʀᴏɴɢ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0&lThành Viên:'
+    - '  &#888888• &#E0E0E0Nạp tiền, dùng Warp/Home, mở rương.'
+    - ''
+    - ' &#fcfcfc❖ &#FCD05C&lQuản Trị Viên:'
+    - '  &#888888• &#E0E0E0Rút tiền, đặt Home/Warp, mời/đuổi/cấm.'
+    - ''
+    - ' &#fcfcfc❖ &#ED4245&lĐội Trưởng:'
+    - '  &#888888• &#E0E0E0Thăng cấp, quản lý liên minh, và mọi quyền.'
+    priority: 3
+    view_requirement:
+      requirements:
+        inTeam:
+          type: string equals
+          input: '%betterteams_inteam%'
+          output: 'true'
+
+  'Team Bank Default':
+    material: SUNFLOWER
+    slot: 23
+    display_name: '&#57F287&l❁ ɴɢâɴ ʜàɴɢ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Tổng quỹ: &#57F287$%betterteams_money%'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để nạp tiền'
+    priority: 1
+    view_requirement:
+      requirements:
+        isMember:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Default'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team deposit '
+
+  'Team Bank Admin':
+    material: SUNFLOWER
+    slot: 23
+    display_name: '&#57F287&l❁ ɴɢâɴ ʜàɴɢ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Tổng quỹ: &#57F287$%betterteams_money%'
+    - ''
+    - ' &#fcfcfc❖ &#AEC6CFChuột trái &#E0E0E0để NẠP TIỀN'
+    - ' &#fcfcfc❖ &#ED4245Chuột phải &#E0E0E0để RÚT TIỀN'
+    priority: 2
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        isAdmin:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Admin'
+          optional: true
+        isOwner:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Owner'
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team deposit '
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team withdraw '
+
+  'Control Panel Admin':
+    material: COMPARATOR
+    slot: 24
+    display_name: '&#FFB7B2&l❁ ʙảɴɢ đɪềᴜ ᴋʜɪểɴ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Thiết lập Home, Warp, PVP...'
+    - ''
+    - '&#FFB7B2▶ &#E0E0E0Nhấn để truy cập bảng điều khiển'
+    priority: 1
+    view_requirement:
+      requirements:
+        isAdmin:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Admin'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] BetterTeamsControlPanel'
+
+  'Control Panel Owner':
+    material: COMPARATOR
+    slot: 24
+    display_name: '&#FFB7B2&l❁ ʙảɴɢ đɪềᴜ ᴋʜɪểɴ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Cài đặt Tên, Trạng thái, Màu sắc...'
+    - ''
+    - '&#FFB7B2▶ &#E0E0E0Nhấn để truy cập bảng điều khiển'
+    priority: 2
+    view_requirement:
+      requirements:
+        isOwner:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Owner'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] BetterTeamsControlPanel'
+
+  'Manage Allies':
+    material: DIAMOND
+    slot: 29
+    display_name: '&#AEC6CF&l❁ ǫᴜảɴ ʟý ʟɪêɴ ᴍɪɴʜ ❁'
+    lore:
+    - ''
+    - '&#AEC6CF▶ &#E0E0E0Nhấn để mở bảng quản lý'
+    priority: 1
+    view_requirement:
+      requirements:
+        inTeam:
+          type: string equals
+          input: '%betterteams_inteam%'
+          output: 'true'
+        isOwner:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Owner'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] BetterTeamsManageAllies'
+
+  'Invite Member':
+    material: WRITABLE_BOOK
+    slot: 30
+    display_name: '&#FCD05C&l❁ ᴍờɪ ᴛʜàɴʜ ᴠɪêɴ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Đang chờ: %betterteamsextra_invitedplayerlist%'
+    - ''
+    - '&#FCD05C▶ &#E0E0E0Nhấn để mời thêm thành viên'
+    priority: 1
+    view_requirement:
+      minimum_requirements: 2
+      stop_at_success: true
+      requirements:
+        isAdmin:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Admin'
+          optional: true
+        isOwner:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Owner'
+          optional: true
+        hasInvites:
+          type: string equals
+          input: '%betterteamsextra_hasinvitedplayers%'
+          output: 'yes'
+          optional: false
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team invite '
+
+  'No Invites':
+    material: WRITABLE_BOOK
+    slot: 30
+    display_name: '&#FCD05C&l❁ ᴍờɪ ᴛʜàɴʜ ᴠɪêɴ ❁'
+    lore:
+    - ''
+    - '&#FCD05C▶ &#E0E0E0Nhấn để mời thành viên'
+    priority: 2
+    view_requirement:
+      minimum_requirements: 1
+      stop_at_success: true
+      requirements:
+        isAdmin:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Admin'
+          optional: true
+        isOwner:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Owner'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team invite '
+
+  'Team Info':
+    material: OAK_SIGN
+    slot: 31
+    display_name: '&#57F287&l❁ ᴛʜôɴɢ ᴛɪɴ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Tên: &#FCD05C%betterteams_name%'
+    - ' &#fcfcfc❖ &#E0E0E0Thẻ (Tag): &#AEC6CF%betterteams_tag%'
+    - ' &#fcfcfc❖ &#E0E0E0Thành viên: &#BDB2FF%betterteamsextra_membercount%'
+    - ' &#fcfcfc❖ &#E0E0E0Mở cửa tự do: &#57F287%changeoutput_equals_input:{betterteams_open}_matcher:true_ifmatch:✔_else:✘%'
+    - ' &#fcfcfc❖ &#E0E0E0Tổng quỹ: &#57F287$%betterteams_money%'
+    - ' &#fcfcfc❖ &#E0E0E0Cấp độ: &#FFB7B2%betterteamsextra_level%'
+    - ' &#fcfcfc❖ &#E0E0E0Điểm số: &#FCD05C%betterteams_score%'
+    - ''
+    priority: 1
+    view_requirement:
+      requirements:
+        inTeam:
+          type: string equals
+          input: '%betterteams_inteam%'
+          output: 'true'
+
+  'Team Chests Default':
+    material: CHEST
+    slot: 32
+    display_name: '&#FFB7B2&l❁ ʀươɴɢ ᴄủᴀ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - '%betterteamsextra_claimedchestlist%'
+    - ''
+    priority: 1
+    view_requirement:
+      requirements:
+        isDefault:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Default'
+        hasClaimedChests:
+          type: string equals
+          input: '%betterteamsextra_hasclaimedchests%'
+          output: 'yes'
+
+  'Team Chests Admin':
+    material: CHEST
+    slot: 32
+    display_name: '&#FFB7B2&l❁ ʀươɴɢ ᴄủᴀ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - ' &#ED4245⚠ Bạn phải đứng nhìn vào rương để thao tác!'
+    - ''
+    - '%betterteamsextra_claimedchestlist%'
+    - ''
+    - ' &#fcfcfc❖ &#AEC6CFChuột trái &#E0E0E0để THÊM bảo vệ'
+    - ' &#fcfcfc❖ &#ED4245Chuột phải &#E0E0E0để GỠ bảo vệ'
+    priority: 2
+    view_requirement:
+      requirements:
+        isAdmin:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Admin'
+        hasClaimedChests:
+          type: string equals
+          input: '%betterteamsextra_hasclaimedchests%'
+          output: 'yes'
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] team chest claim'
+    - '[close]'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] team chest remove'
+    - '[close]'
+
+  'Team Chests Admin No Claims':
+    material: CHEST
+    slot: 32
+    display_name: '&#FFB7B2&l❁ ʀươɴɢ ᴄủᴀ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - ' &#ED4245⚠ Bạn phải đứng nhìn vào rương để thao tác!'
+    - ''
+    - '&#FFB7B2▶ &#E0E0E0Nhấn để THÊM bảo vệ rương'
+    priority: 3
+    view_requirement:
+      requirements:
+        isAdmin:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Admin'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] team chest claim'
+    - '[close]'
+
+  'Team Chests Owner':
+    material: CHEST
+    slot: 32
+    display_name: '&#FFB7B2&l❁ ʀươɴɢ ᴄủᴀ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - ' &#ED4245⚠ Bạn phải đứng nhìn vào rương để thao tác!'
+    - ''
+    - '%betterteamsextra_claimedchestlist%'
+    - ''
+    - ' &#fcfcfc❖ &#AEC6CFChuột trái &#E0E0E0để THÊM bảo vệ'
+    - ' &#fcfcfc❖ &#ED4245Chuột phải &#E0E0E0để GỠ bảo vệ'
+    - ' &#fcfcfc❖ &#ED4245Shift + Chuột phải &#E0E0E0để GỠ TẤT CẢ rương'
+    priority: 4
+    view_requirement:
+      requirements:
+        isOwner:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Owner'
+        hasClaimedChests:
+          type: string equals
+          input: '%betterteamsextra_hasclaimedchests%'
+          output: 'yes'
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] team chest claim'
+    - '[close]'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] team chest remove'
+    - '[close]'
+    shift_right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[meta] set betterTeamsConfirmAction STRING all chest disclaim'
+    - '[meta] set BetterTeamsConfirmActionBack STRING BetterTeamsMain'
+    - '[openguimenu] BetterTeamsConfirmAction'
+
+  'Team Chests Owner No Claims':
+    material: CHEST
+    slot: 32
+    display_name: '&#FFB7B2&l❁ ʀươɴɢ ᴄủᴀ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - ' &#ED4245⚠ Bạn phải đứng nhìn vào rương để thao tác!'
+    - ''
+    - '&#FFB7B2▶ &#E0E0E0Nhấn để THÊM bảo vệ rương'
+    priority: 5
+    view_requirement:
+      requirements:
+        isAdmin:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Owner'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] team chest claim'
+    - '[close]'
+
+  'Rankup Team':
+    material: NETHER_STAR
+    slot: 33
+    display_name: '&#BDB2FF&l❁ ɴâɴɢ ᴄấᴘ ᴛᴇᴀᴍ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Cấp độ hiện tại: &#BDB2FF%betterteamsextra_level%'
+    - ''
+    - '&#BDB2FF▶ &#E0E0E0Nhấn để thăng cấp đội'
+    view_requirement:
+      requirements:
+        isOwner:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Owner'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] team rankup'
+    - '[close]'

@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:bone"
+    },
+    "title":"\u25C8 \u00A7x\u00A7C\u00A7C\u00A7F\u00A7FK\u1EBB S\u0103\u0274 H\u01B0 K\u029C\u00F4\u0274\u0262",
+    "description":"T\u026A\u00EA\u1D1C \u1D05\u026A\u1EC7\u1D1B 10 enderman.",
+    "frame":"challenge",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:kills_1_creeper"
+}

@@ -1,0 +1,161 @@
+open_command:
+- leaderboards
+- tops
+register_command: true
+size: 27
+menu_title: '&#BDB2FF&l❁ ʙảɴɢ xếᴘ ʜạɴɢ ❁'
+
+items:
+
+  'filler':
+    material: WHITE_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+
+  'you':
+    material: head-%player_name%
+    slot: 10
+    display_name: '&#FCD05C&l❁ %player_name% ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0ɢɪếᴛ: &#AEC6CF%statistic_player_kills%'
+    - ' &#fcfcfc❖ &#E0E0E0ᴄʜếᴛ: &#ED4245%statistic_deaths%'
+    - ' &#fcfcfc❖ &#E0E0E0xᴜ: &#57F287$%vault_eco_balance_commas%'
+    - ' &#fcfcfc❖ &#E0E0E0ᴛɪềɴ: &#FCD05C%playerpoints_points%'
+    - ' &#fcfcfc❖ &#E0E0E0ᴛʜờɪ ɢɪᴀɴ: &#BDB2FF%statistic_hours_played%h %statistic_time_played:minutes%m'
+    - ''
+    - '&#FCD05C▶ &#E0E0E0Đây là thống kê cá nhân của bạn'
+
+  'kills':
+    material: LIGHT_BLUE_DYE
+    slot: 11
+    display_name: '&#AEC6CF&l❁ ᴛᴏᴘ ɢɪếᴛ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0#1: &f%ajlb_lb_statistic_player_kills_1_alltime_name% &#888888- &#AEC6CF%ajlb_lb_statistic_player_kills_1_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#2: &f%ajlb_lb_statistic_player_kills_2_alltime_name% &#888888- &#AEC6CF%ajlb_lb_statistic_player_kills_2_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#3: &f%ajlb_lb_statistic_player_kills_3_alltime_name% &#888888- &#AEC6CF%ajlb_lb_statistic_player_kills_3_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#4: &f%ajlb_lb_statistic_player_kills_4_alltime_name% &#888888- &#AEC6CF%ajlb_lb_statistic_player_kills_4_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#5: &f%ajlb_lb_statistic_player_kills_5_alltime_name% &#888888- &#AEC6CF%ajlb_lb_statistic_player_kills_5_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#6: &f%ajlb_lb_statistic_player_kills_6_alltime_name% &#888888- &#AEC6CF%ajlb_lb_statistic_player_kills_6_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#7: &f%ajlb_lb_statistic_player_kills_7_alltime_name% &#888888- &#AEC6CF%ajlb_lb_statistic_player_kills_7_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#8: &f%ajlb_lb_statistic_player_kills_8_alltime_name% &#888888- &#AEC6CF%ajlb_lb_statistic_player_kills_8_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#9: &f%ajlb_lb_statistic_player_kills_9_alltime_name% &#888888- &#AEC6CF%ajlb_lb_statistic_player_kills_9_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#10: &f%ajlb_lb_statistic_player_kills_10_alltime_name% &#888888- &#AEC6CF%ajlb_lb_statistic_player_kills_10_alltime_value%'
+    - ''
+    - '&#AEC6CF▶ &#E0E0E0Hạng của bạn: &#AEC6CF#%ajlb_position_statistic_player_kills_alltime% &#888888(&f%ajlb_value_statistic_player_kills_alltime%&#888888)'
+
+  'deaths':
+    material: RED_DYE
+    slot: 12
+    display_name: '&#ED4245&l❁ ᴛᴏᴘ ᴄʜếᴛ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0#1: &f%ajlb_lb_statistic_deaths_1_alltime_name% &#888888- &#ED4245%ajlb_lb_statistic_deaths_1_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#2: &f%ajlb_lb_statistic_deaths_2_alltime_name% &#888888- &#ED4245%ajlb_lb_statistic_deaths_2_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#3: &f%ajlb_lb_statistic_deaths_3_alltime_name% &#888888- &#ED4245%ajlb_lb_statistic_deaths_3_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#4: &f%ajlb_lb_statistic_deaths_4_alltime_name% &#888888- &#ED4245%ajlb_lb_statistic_deaths_4_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#5: &f%ajlb_lb_statistic_deaths_5_alltime_name% &#888888- &#ED4245%ajlb_lb_statistic_deaths_5_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#6: &f%ajlb_lb_statistic_deaths_6_alltime_name% &#888888- &#ED4245%ajlb_lb_statistic_deaths_6_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#7: &f%ajlb_lb_statistic_deaths_7_alltime_name% &#888888- &#ED4245%ajlb_lb_statistic_deaths_7_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#8: &f%ajlb_lb_statistic_deaths_8_alltime_name% &#888888- &#ED4245%ajlb_lb_statistic_deaths_8_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#9: &f%ajlb_lb_statistic_deaths_9_alltime_name% &#888888- &#ED4245%ajlb_lb_statistic_deaths_9_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#10: &f%ajlb_lb_statistic_deaths_10_alltime_name% &#888888- &#ED4245%ajlb_lb_statistic_deaths_10_alltime_value%'
+    - ''
+    - '&#ED4245▶ &#E0E0E0Hạng của bạn: &#ED4245#%ajlb_position_statistic_deaths_alltime% &#888888(&f%ajlb_value_statistic_deaths_alltime%&#888888)'
+
+  'balance':
+    material: LIME_DYE
+    slot: 13
+    display_name: '&#57F287&l❁ ᴛᴏᴘ xᴜ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0#1: &f%ajlb_lb_vault_eco_balance_commas_1_alltime_name% &#888888- &#57F287$%ajlb_lb_vault_eco_balance_commas_1_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#2: &f%ajlb_lb_vault_eco_balance_commas_2_alltime_name% &#888888- &#57F287$%ajlb_lb_vault_eco_balance_commas_2_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#3: &f%ajlb_lb_vault_eco_balance_commas_3_alltime_name% &#888888- &#57F287$%ajlb_lb_vault_eco_balance_commas_3_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#4: &f%ajlb_lb_vault_eco_balance_commas_4_alltime_name% &#888888- &#57F287$%ajlb_lb_vault_eco_balance_commas_4_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#5: &f%ajlb_lb_vault_eco_balance_commas_5_alltime_name% &#888888- &#57F287$%ajlb_lb_vault_eco_balance_commas_5_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#6: &f%ajlb_lb_vault_eco_balance_commas_6_alltime_name% &#888888- &#57F287$%ajlb_lb_vault_eco_balance_commas_6_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#7: &f%ajlb_lb_vault_eco_balance_commas_7_alltime_name% &#888888- &#57F287$%ajlb_lb_vault_eco_balance_commas_7_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#8: &f%ajlb_lb_vault_eco_balance_commas_8_alltime_name% &#888888- &#57F287$%ajlb_lb_vault_eco_balance_commas_8_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#9: &f%ajlb_lb_vault_eco_balance_commas_9_alltime_name% &#888888- &#57F287$%ajlb_lb_vault_eco_balance_commas_9_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#10: &f%ajlb_lb_vault_eco_balance_commas_10_alltime_name% &#888888- &#57F287$%ajlb_lb_vault_eco_balance_commas_10_alltime_value%'
+    - ''
+    - '&#57F287▶ &#E0E0E0Hạng của bạn: &#57F287#%ajlb_position_vault_eco_balance_commas_alltime% &#888888(&f$%ajlb_value_vault_eco_balance_commas_alltime%&#888888)'
+
+  'coins':
+    material: YELLOW_DYE
+    slot: 14
+    display_name: '&#FCD05C&l❁ ᴛᴏᴘ ᴛɪềɴ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0#1: &f%ajlb_lb_playerpoints_points_1_alltime_name% &#888888- &#FCD05C%ajlb_lb_playerpoints_points_1_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#2: &f%ajlb_lb_playerpoints_points_2_alltime_name% &#888888- &#FCD05C%ajlb_lb_playerpoints_points_2_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#3: &f%ajlb_lb_playerpoints_points_3_alltime_name% &#888888- &#FCD05C%ajlb_lb_playerpoints_points_3_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#4: &f%ajlb_lb_playerpoints_points_4_alltime_name% &#888888- &#FCD05C%ajlb_lb_playerpoints_points_4_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#5: &f%ajlb_lb_playerpoints_points_5_alltime_name% &#888888- &#FCD05C%ajlb_lb_playerpoints_points_5_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#6: &f%ajlb_lb_playerpoints_points_6_alltime_name% &#888888- &#FCD05C%ajlb_lb_playerpoints_points_6_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#7: &f%ajlb_lb_playerpoints_points_7_alltime_name% &#888888- &#FCD05C%ajlb_lb_playerpoints_points_7_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#8: &f%ajlb_lb_playerpoints_points_8_alltime_name% &#888888- &#FCD05C%ajlb_lb_playerpoints_points_8_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#9: &f%ajlb_lb_playerpoints_points_9_alltime_name% &#888888- &#FCD05C%ajlb_lb_playerpoints_points_9_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#10: &f%ajlb_lb_playerpoints_points_10_alltime_name% &#888888- &#FCD05C%ajlb_lb_playerpoints_points_10_alltime_value%'
+    - ''
+    - '&#FCD05C▶ &#E0E0E0Hạng của bạn: &#FCD05C#%ajlb_position_playerpoints_points_alltime% &#888888(&f%ajlb_value_playerpoints_points_alltime%&#888888)'
+
+  'playtime':
+    material: MAGENTA_DYE
+    slot: 15
+    display_name: '&#BDB2FF&l❁ ᴛᴏᴘ ᴛʜờɪ ɢɪᴀɴ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0#1: &f%ajlb_lb_statistic_hours_played_1_alltime_name% &#888888- &#BDB2FF%ajlb_lb_statistic_hours_played_1_alltime_value%h'
+    - ' &#fcfcfc❖ &#E0E0E0#2: &f%ajlb_lb_statistic_hours_played_2_alltime_name% &#888888- &#BDB2FF%ajlb_lb_statistic_hours_played_2_alltime_value%h'
+    - ' &#fcfcfc❖ &#E0E0E0#3: &f%ajlb_lb_statistic_hours_played_3_alltime_name% &#888888- &#BDB2FF%ajlb_lb_statistic_hours_played_3_alltime_value%h'
+    - ' &#fcfcfc❖ &#E0E0E0#4: &f%ajlb_lb_statistic_hours_played_4_alltime_name% &#888888- &#BDB2FF%ajlb_lb_statistic_hours_played_4_alltime_value%h'
+    - ' &#fcfcfc❖ &#E0E0E0#5: &f%ajlb_lb_statistic_hours_played_5_alltime_name% &#888888- &#BDB2FF%ajlb_lb_statistic_hours_played_5_alltime_value%h'
+    - ' &#fcfcfc❖ &#E0E0E0#6: &f%ajlb_lb_statistic_hours_played_6_alltime_name% &#888888- &#BDB2FF%ajlb_lb_statistic_hours_played_6_alltime_value%h'
+    - ' &#fcfcfc❖ &#E0E0E0#7: &f%ajlb_lb_statistic_hours_played_7_alltime_name% &#888888- &#BDB2FF%ajlb_lb_statistic_hours_played_7_alltime_value%h'
+    - ' &#fcfcfc❖ &#E0E0E0#8: &f%ajlb_lb_statistic_hours_played_8_alltime_name% &#888888- &#BDB2FF%ajlb_lb_statistic_hours_played_8_alltime_value%h'
+    - ' &#fcfcfc❖ &#E0E0E0#9: &f%ajlb_lb_statistic_hours_played_9_alltime_name% &#888888- &#BDB2FF%ajlb_lb_statistic_hours_played_9_alltime_value%h'
+    - ' &#fcfcfc❖ &#E0E0E0#10: &f%ajlb_lb_statistic_hours_played_10_alltime_name% &#888888- &#BDB2FF%ajlb_lb_statistic_hours_played_10_alltime_value%h'
+    - ''
+    - '&#BDB2FF▶ &#E0E0E0Hạng của bạn: &#BDB2FF#%ajlb_position_statistic_hours_played_alltime% &#888888(&f%ajlb_value_statistic_hours_played_alltime%h&#888888)'
+
+  'top_claim_leaderboard':
+    material: GREEN_DYE
+    slot: 16
+    display_name: '&#FFB7B2&l❁ ᴛᴏᴘ ᴅɪệɴ ᴛíᴄʜ ᴄʟᴀɪᴍ ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0#1: &f%ajlb_lb_griefprevention_remainingclaims_1_alltime_name% &#888888- &#FFB7B2%ajlb_lb_griefprevention_remainingclaims_1_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#2: &f%ajlb_lb_griefprevention_remainingclaims_2_alltime_name% &#888888- &#FFB7B2%ajlb_lb_griefprevention_remainingclaims_2_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#3: &f%ajlb_lb_griefprevention_remainingclaims_3_alltime_name% &#888888- &#FFB7B2%ajlb_lb_griefprevention_remainingclaims_3_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#4: &f%ajlb_lb_griefprevention_remainingclaims_4_alltime_name% &#888888- &#FFB7B2%ajlb_lb_griefprevention_remainingclaims_4_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#5: &f%ajlb_lb_griefprevention_remainingclaims_5_alltime_name% &#888888- &#FFB7B2%ajlb_lb_griefprevention_remainingclaims_5_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#6: &f%ajlb_lb_griefprevention_remainingclaims_6_alltime_name% &#888888- &#FFB7B2%ajlb_lb_griefprevention_remainingclaims_6_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#7: &f%ajlb_lb_griefprevention_remainingclaims_7_alltime_name% &#888888- &#FFB7B2%ajlb_lb_griefprevention_remainingclaims_7_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#8: &f%ajlb_lb_griefprevention_remainingclaims_8_alltime_name% &#888888- &#FFB7B2%ajlb_lb_griefprevention_remainingclaims_8_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#9: &f%ajlb_lb_griefprevention_remainingclaims_9_alltime_name% &#888888- &#FFB7B2%ajlb_lb_griefprevention_remainingclaims_9_alltime_value%'
+    - ' &#fcfcfc❖ &#E0E0E0#10: &f%ajlb_lb_griefprevention_remainingclaims_10_alltime_name% &#888888- &#FFB7B2%ajlb_lb_griefprevention_remainingclaims_10_alltime_value%'
+    - ''
+    - '&#FFB7B2▶ &#E0E0E0Hạng của bạn: &#FFB7B2#%ajlb_position_griefprevention_remainingclaims_alltime% &#888888(&f%ajlb_value_griefprevention_remainingclaims_alltime%&#888888)'

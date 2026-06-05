@@ -1,0 +1,452 @@
+menu_title: '&#5865F2&lᴄàɪ đặᴛ ᴄʟᴀɪᴍ'
+open_command:
+  - claimsettings
+  - caidatclaim
+register_command: true
+open_commands:
+  - '[sound] BLOCK_NOTE_BLOCK_PLING'
+size: 54
+update_interval: -1
+
+items:
+  'pvp':
+    material: IRON_SWORD
+    slot: 10
+    priority: 0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#BDB2FF&lᴘᴠᴘ (đáɴʜ ɴʜᴀᴜ)'
+    lore:
+
+      - ' &#ED4245(ʜãʏ đứɴɢ ᴛʀᴏɴɢ ᴄʟᴀɪᴍ ʙạɴ ᴍᴜốɴ ᴄàɪ đặᴛ!) '
+      - ''
+      - ' &#AAAAAAʙậᴛ/ᴛắᴛ ᴄʜᴏ ᴘʜéᴘ ᴘᴠᴘ ᴛʀᴏɴɢ ᴄʟᴀɪᴍ'
+      - ' &#FFFFFFᴛʀạɴɢ ᴛʜáɪ: %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_allowpvp}_ifmatch:&#57F287ʙậᴛ_else:&#ED4245ᴛắᴛ%'
+      - ''
+      - ' &#57F287➥ &lɴʜấɴ để ᴛùʏ ᴄʜỉɴʜ '
+      - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: 'string equals'
+          input: '%griefprevention_currentclaim_ownername%'
+          output: '%player_name%'
+      deny_commands:
+        - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| &#ED4245ʙạɴ ᴘʜảɪ đứɴɢ ᴛʀêɴ ᴍảɴʜ đấᴛ ᴄủᴀ ʙạɴ!'
+        - '[sound] entity_villager_no'
+    left_click_commands:
+      - '[console] %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_allowpvp}_ifmatch:unsetclaimflagplayer {player_name} AllowPvP_else:setclaimflagplayer {player_name} AllowPvP%'
+      - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_allowpvp}_ifmatch:&#57F287đã ᴄʜᴏ ᴘʜéᴘ đáɴʜ ɴʜᴀᴜ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ ɴàʏ._else:&#ED4245đáɴʜ ɴʜᴀᴜ ᴋʜôɴɢ ᴄòɴ đượᴄ ᴄʜᴏ ᴘʜéᴘ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ ɴàʏ ɴữᴀ.%'
+      - '[refresh]'
+
+  'claimexplosion':
+    material: TNT
+    slot: 11
+    priority: 0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#BDB2FF&lᴄʟᴀɪᴍ ᴇxᴘʟᴏѕɪᴏɴ'
+    lore:
+
+      - ' &#ED4245(ʜãʏ đứɴɢ ᴛʀᴏɴɢ ᴄʟᴀɪᴍ ʙạɴ ᴍᴜốɴ ᴄàɪ đặᴛ!)'
+      - ''
+      - ' &#AAAAAAʙậᴛ/ᴛắᴛ ʙʟᴏᴄᴋ ʙị ᴘʜá ʜủʏ ᴋʜɪ ᴄó ᴠụ ɴổ '
+      - ' &#FFFFFFᴛʀạɴɢ ᴛʜáɪ: %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_allowblockexplosions}_ifmatch:&#57F287ʙậᴛ_else:&#ED4245ᴛắᴛ%'
+      - ''
+      - ' &#57F287➥ &lɴʜấɴ để ᴛùʏ ᴄʜỉɴʜ '
+      - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: 'string equals'
+          input: '%griefprevention_currentclaim_ownername%'
+          output: '%player_name%'
+      deny_commands:
+        - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| &#ED4245ʙạɴ ᴘʜảɪ đứɴɢ ᴛʀêɴ ᴍảɴʜ đấᴛ ᴄủᴀ ʙạɴ!'
+        - '[sound] entity_villager_no'
+    left_click_commands:
+      - '[console] %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_allowblockexplosions}_ifmatch:unsetclaimflagplayer {player_name} AllowBlockExplosions_else:setclaimflagplayer {player_name} AllowBlockExplosions%'
+      - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_allowblockexplosions}_ifmatch:&#57F287đã ᴄʜᴏ ᴘʜéᴘ ʙʟᴏᴄᴋ ʙị ᴘʜá ʜủʏ ᴋʜɪ ᴄó ᴠụ ɴổ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ ɴàʏ._else:&#ED4245ᴄáᴄ ᴠậᴛ ᴛʜể ɢâʏ ɴổ ᴋʜôɴɢ ᴛʜể ᴘʜá ʜủʏ ʙʟᴏᴄᴋ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ ɴàʏ ɴữᴀ.%'
+      - '[refresh]'
+
+  'NoExplosionDamage':
+    material: CREEPER_HEAD
+    slot: 12
+    priority: 0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#BDB2FF&lꜱáᴛ ᴛʜươɴɢ ɴổ'
+    lore:
+
+      - ' &#ED4245(ʜãʏ đứɴɢ ᴛʀᴏɴɢ ᴄʟᴀɪᴍ ʙạɴ ᴍᴜốɴ ᴄàɪ đặᴛ!)'
+      - ''
+      - ' &#AAAAAAʙậᴛ/ᴛắᴛ ѕáᴛ ᴛʜươɴɢ ᴄʜᴏ ɴɢườɪ ᴄʜơɪ ᴠà ᴍᴏʙ ᴋʜɪ ᴄó ɴổ '
+      - ' &#FFFFFFᴛʀạɴɢ ᴛʜáɪ: %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_noexplosiondamage}_ifmatch:&#ED4245ᴛắᴛ_else:&#57F287ʙậᴛ%'
+      - ''
+      - ' &#57F287➥ &lɴʜấɴ để ᴛùʏ ᴄʜỉɴʜ '
+      - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: 'string equals'
+          input: '%griefprevention_currentclaim_ownername%'
+          output: '%player_name%'
+      deny_commands:
+        - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| &#ED4245ʙạɴ ᴘʜảɪ đứɴɢ ᴛʀêɴ ᴍảɴʜ đấᴛ ᴄủᴀ ʙạɴ!'
+        - '[sound] entity_villager_no'
+    left_click_commands:
+      - '[console] %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_noexplosiondamage}_ifmatch:unsetclaimflagplayer {player_name} NoExplosionDamage_else:setclaimflagplayer {player_name} NoExplosionDamage%'
+      - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_noexplosiondamage}_ifmatch:&#57F287ѕẽ ᴋʜôɴɢ ɢâʏ ѕáᴛ ᴛʜươɴɢ ʟêɴ ɴɢườɪ ᴄʜơɪ ᴠà ᴍᴏʙ ᴋʜɪ ᴄó ᴠụ ɴổ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ ɴàʏ._else:&#ED4245ɴɢườɪ ᴄʜơɪ ᴠà ᴍᴏʙ ᴛừ ɢɪờ ᴄó ᴛʜể ɴʜậɴ ѕáᴛ ᴛʜươɴɢ ɴổ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ ɴàʏ.%'
+      - '[refresh]'
+
+  'firespread':
+    material: FLINT_AND_STEEL
+    slot: 13
+    priority: 0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#BDB2FF&lᴄʜáʏ ʟᴀɴ'
+    lore:
+
+      - ' &#ED4245(ʜãʏ đứɴɢ ᴛʀᴏɴɢ ᴄʟᴀɪᴍ ʙạɴ ᴍᴜốɴ ᴄàɪ đặᴛ!)'
+      - ''
+      - ' &#AAAAAAʙậᴛ/ᴛắᴛ ᴄʜáʏ ʟᴀɴ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ '
+      - ' &#FFFFFFᴛʀạɴɢ ᴛʜáɪ: %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoFireSpread}_ifmatch:&#ED4245ᴛắᴛ_else:&#57F287ʙậᴛ%'
+      - ''
+      - ' &#57F287➥ &lɴʜấɴ để ᴛùʏ ᴄʜỉɴʜ '
+      - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: 'string equals'
+          input: '%griefprevention_currentclaim_ownername%'
+          output: '%player_name%'
+      deny_commands:
+        - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| &#ED4245ʙạɴ ᴘʜảɪ đứɴɢ ᴛʀêɴ ᴍảɴʜ đấᴛ ᴄủᴀ ʙạɴ!'
+        - '[sound] entity_villager_no'
+    left_click_commands:
+      - '[console] %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoFireSpread}_ifmatch:unsetclaimflagplayer {player_name} nofirespread_else:setclaimflagplayer {player_name} nofirespread%'
+      - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoFireSpread}_ifmatch:&#57F287đã ᴛắᴛ ᴄʜáʏ ʟᴀɴ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ ɴàʏ._else:&#ED4245ᴛừ ɢɪờ ʟửᴀ ᴄó ᴛʜể ᴄʜáʏ ʟᴀɴ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ ɴàʏ.%'
+      - '[refresh]'
+
+  'firedamage':
+    material: CAMPFIRE
+    slot: 14
+    priority: 0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#BDB2FF&lʙʟᴏᴄᴋ ʙị ᴄʜáʏ ᴍấᴛ'
+    lore:
+
+      - ' &#ED4245(ʜãʏ đứɴɢ ᴛʀᴏɴɢ ᴄʟᴀɪᴍ ʙạɴ ᴍᴜốɴ ᴄàɪ đặᴛ!)'
+      - ''
+      - ' &#AAAAAAʙậᴛ/ᴛắᴛ ʟửᴀ ᴄó ᴛʜể đốᴛ ᴍấᴛ ʙʟᴏᴄᴋ ᴛʀᴏɴɢ ᴄʟᴀɪᴍ '
+      - ' &#FFFFFFᴛʀạɴɢ ᴛʜáɪ: %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoFireDamage}_ifmatch:&#ED4245ᴛắᴛ_else:&#57F287ʙậᴛ%'
+      - ''
+      - ' &#57F287➥ &lɴʜấɴ để ᴛùʏ ᴄʜỉɴʜ '
+      - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: 'string equals'
+          input: '%griefprevention_currentclaim_ownername%'
+          output: '%player_name%'
+      deny_commands:
+        - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| &#ED4245ʙạɴ ᴘʜảɪ đứɴɢ ᴛʀêɴ ᴍảɴʜ đấᴛ ᴄủᴀ ʙạɴ!'
+        - '[sound] entity_villager_no'
+    left_click_commands:
+      - '[console] %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoFireDamage}_ifmatch:unsetclaimflagplayer {player_name} NoFireDamage_else:setclaimflagplayer {player_name} NoFireDamage%'
+      - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoFireDamage}_ifmatch:&#57F287đã ᴛắᴛ ʟửᴀ ᴄó ᴛʜể ᴄʜáʏ ᴍấᴛ ʙʟᴏᴄᴋ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ ɴàʏ._else:&#ED4245ᴛừ ɢɪờ ʟửᴀ ᴄó ᴛʜể ᴄʜáʏ ᴍấᴛ ʙʟᴏᴄᴋ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ ɴàʏ.%'
+      - '[refresh]'
+
+  'nopetdamage':
+    material: BONE
+    slot: 15
+    priority: 0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#BDB2FF&lɢâʏ ʜạɪ ᴛʜú ᴄưɴɢ'
+    lore:
+
+      - ' &#ED4245(ʜãʏ đứɴɢ ᴛʀᴏɴɢ ᴄʟᴀɪᴍ ʙạɴ ᴍᴜốɴ ᴄàɪ đặᴛ!)'
+      - ''
+      - ' &#AAAAAAʙậᴛ/ᴛắᴛ ᴛʜú ᴄưɴɢ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ ᴅíɴʜ ѕáᴛ ᴛʜươɴɢ '
+      - ' &#FFFFFFᴛʀạɴɢ ᴛʜáɪ: %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoPetDamage}_ifmatch:&#ED4245ᴛắᴛ_else:&#57F287ʙậᴛ%'
+      - ''
+      - ' &#57F287➥ &lɴʜấɴ để ᴛùʏ ᴄʜỉɴʜ '
+      - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: 'string equals'
+          input: '%griefprevention_currentclaim_ownername%'
+          output: '%player_name%'
+      deny_commands:
+        - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| &#ED4245ʙạɴ ᴘʜảɪ đứɴɢ ᴛʀêɴ ᴍảɴʜ đấᴛ ᴄủᴀ ʙạɴ!'
+        - '[sound] entity_villager_no'
+    left_click_commands:
+      - '[console] %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoPetDamage}_ifmatch:unsetclaimflagplayer {player_name} NoPetDamage_else:setclaimflagplayer {player_name} NoPetDamage%'
+      - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoPetDamage}_ifmatch:&#57F287đã ᴛắᴛ ѕáᴛ ᴛʜươɴɢ ᴄʜᴏ ᴛʜú ᴄưɴɢ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ._else:&#ED4245ᴛừ ɢɪờ ᴛʜú ᴄưɴɢ ᴄó ᴛʜể ɴʜậɴ ѕáᴛ ᴛʜươɴɢ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ.%'
+      - '[refresh]'
+
+  'noelytra':
+    material: ELYTRA
+    slot: 16
+    priority: 0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#BDB2FF&lᴇʟʏᴛʀᴀ'
+    lore:
+
+      - ' &#ED4245(ʜãʏ đứɴɢ ᴛʀᴏɴɢ ᴄʟᴀɪᴍ ʙạɴ ᴍᴜốɴ ᴄàɪ đặᴛ!)'
+      - ''
+      - ' &#AAAAAAʙậᴛ/ᴛắᴛ ѕử ᴅụɴɢ ᴇʟʏᴛʀᴀ '
+      - ' &#FFFFFFᴛʀạɴɢ ᴛʜáɪ: %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoElytra}_ifmatch:&#ED4245ᴛắᴛ_else:&#57F287ʙậᴛ%'
+      - ''
+      - ' &#57F287➥ &lɴʜấɴ để ᴛùʏ ᴄʜỉɴʜ '
+      - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: 'string equals'
+          input: '%griefprevention_currentclaim_ownername%'
+          output: '%player_name%'
+      deny_commands:
+        - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| &#ED4245ʙạɴ ᴘʜảɪ đứɴɢ ᴛʀêɴ ᴍảɴʜ đấᴛ ᴄủᴀ ʙạɴ!'
+        - '[sound] entity_villager_no'
+    left_click_commands:
+      - '[console] %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoElytra}_ifmatch:unsetclaimflagplayer {player_name} NoElytra_else:setclaimflagplayer {player_name} NoElytra%'
+      - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoElytra}_ifmatch:&#57F287đã ᴛắᴛ ᴇʟʏᴛʀᴀ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ._else:&#ED4245ᴛừ ɢɪờ ᴄó ᴛʜể ѕử ᴅụɴɢ ᴇʟʏᴛʀᴀ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ.%'
+      - '[refresh]'
+
+  'nogrowth':
+    material: WHEAT
+    slot: 19
+    priority: 0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#BDB2FF&lᴛʜựᴄ ᴠậᴛ ᴘʜáᴛ ᴛʀɪểɴ'
+    lore:
+
+      - ' &#ED4245(ʜãʏ đứɴɢ ᴛʀᴏɴɢ ᴄʟᴀɪᴍ ʙạɴ ᴍᴜốɴ ᴄàɪ đặᴛ!)'
+      - ''
+      - ' &#AAAAAAʙậᴛ/ᴛắᴛ ѕự ʟớɴ ʟêɴ ᴄủᴀ ᴛʜựᴄ ᴠậᴛ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ '
+      - ' &#FFFFFFᴛʀạɴɢ ᴛʜáɪ: %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoGrowth}_ifmatch:&#ED4245ᴛắᴛ_else:&#57F287ʙậᴛ%'
+      - ''
+      - ' &#57F287➥ &lɴʜấɴ để ᴛùʏ ᴄʜỉɴʜ '
+      - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: 'string equals'
+          input: '%griefprevention_currentclaim_ownername%'
+          output: '%player_name%'
+      deny_commands:
+        - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| &#ED4245ʙạɴ ᴘʜảɪ đứɴɢ ᴛʀêɴ ᴍảɴʜ đấᴛ ᴄủᴀ ʙạɴ!'
+        - '[sound] entity_villager_no'
+    left_click_commands:
+      - '[console] %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoGrowth}_ifmatch:unsetclaimflagplayer {player_name} NoGrowth_else:setclaimflagplayer {player_name} NoGrowth%'
+      - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoGrowth}_ifmatch:&#57F287ᴛʜựᴄ ᴠậᴛ ѕẽ ᴋʜôɴɢ ʟớɴ ʟêɴ ở ᴍảɴʜ đấᴛ ɴàʏ ɴữᴀ._else:&#ED4245ᴛừ ɢɪờ ᴛʜựᴄ ᴠậᴛ đã ᴄó ᴛʜể ᴘʜáᴛ ᴛʀɪểɴ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ ɴàʏ.%'
+      - '[refresh]'
+
+  'noenderpearl':
+    material: ENDER_PEARL
+    slot: 20
+    priority: 0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#BDB2FF&lᴇɴᴅᴇʀ ᴘᴇᴀʀʟ'
+    lore:
+
+      - ' &#ED4245(ʜãʏ đứɴɢ ᴛʀᴏɴɢ ᴄʟᴀɪᴍ ʙạɴ ᴍᴜốɴ ᴄàɪ đặᴛ!)'
+      - ''
+      - ' &#AAAAAAʙậᴛ/ᴛắᴛ ᴇɴᴅᴇʀ ᴘᴇᴀʀʟ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ '
+      - ' &#FFFFFFᴛʀạɴɢ ᴛʜáɪ: %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoEnderPearl}_ifmatch:&#ED4245ᴛắᴛ_else:&#57F287ʙậᴛ%'
+      - ''
+      - ' &#57F287➥ &lɴʜấɴ để ᴛùʏ ᴄʜỉɴʜ '
+      - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: 'string equals'
+          input: '%griefprevention_currentclaim_ownername%'
+          output: '%player_name%'
+      deny_commands:
+        - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| &#ED4245ʙạɴ ᴘʜảɪ đứɴɢ ᴛʀêɴ ᴍảɴʜ đấᴛ ᴄủᴀ ʙạɴ!'
+        - '[sound] entity_villager_no'
+    left_click_commands:
+      - '[console] %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoEnderPearl}_ifmatch:unsetclaimflagplayer {player_name} NoEnderPearl_else:setclaimflagplayer {player_name} NoEnderPearl%'
+      - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoEnderPearl}_ifmatch:&#57F287ᴇɴᴅᴇʀ ᴘᴇᴀʀʟ ѕẽ ᴋʜôɴɢ ʜᴏạᴛ độɴɢ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ ɴàʏ ɴữᴀ._else:&#ED4245ᴛừ ɢɪờ ɴɢườɪ ᴄʜơɪ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ đã ᴄó ᴛʜể ѕử ᴅụɴɢ ᴇɴᴅᴇʀ ᴘᴇᴀʀʟ.%'
+      - '[refresh]'
+
+  'protectnamedmob':
+    material: NAME_TAG
+    slot: 21
+    priority: 0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#BDB2FF&lʙảᴏ ᴠệ ꜱɪɴʜ ᴠậᴛ ᴄó ᴛêɴ'
+    lore:
+
+      - ' &#ED4245(ʜãʏ đứɴɢ ᴛʀᴏɴɢ ᴄʟᴀɪᴍ ʙạɴ ᴍᴜốɴ ᴄàɪ đặᴛ!)'
+      - ''
+      - ' &#AAAAAAʙậᴛ/ᴛắᴛ ɢâʏ ѕáᴛ ᴛʜươɴɢ ʟêɴ ѕɪɴʜ ᴠậᴛ ᴄó ɴᴀᴍᴇᴛᴀɢ '
+      - ' &#FFFFFFᴛʀạɴɢ ᴛʜáɪ: %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_ProtectNamedMobs}_ifmatch:&#57F287ʙậᴛ_else:&#ED4245ᴛắᴛ%'
+      - ''
+      - ' &#57F287➥ &lɴʜấɴ để ᴛùʏ ᴄʜỉɴʜ '
+      - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: 'string equals'
+          input: '%griefprevention_currentclaim_ownername%'
+          output: '%player_name%'
+      deny_commands:
+        - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| &#ED4245ʙạɴ ᴘʜảɪ đứɴɢ ᴛʀêɴ ᴍảɴʜ đấᴛ ᴄủᴀ ʙạɴ!'
+        - '[sound] entity_villager_no'
+    left_click_commands:
+      - '[console] %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_ProtectNamedMobs}_ifmatch:unsetclaimflagplayer {player_name} ProtectNamedMobs_else:setclaimflagplayer {player_name} ProtectNamedMobs%'
+      - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_ProtectNamedMobs}_ifmatch:&#57F287ᴛừ ɢɪờ ѕɪɴʜ ᴠậᴛ đượᴄ đặᴛ ᴛêɴ ѕẽ đượᴄ ʙảᴏ ᴠệ ᴋʜỏɪ ɴɢườɪ ɴɢᴏàɪ._else:&#ED4245ѕɪɴʜ ᴠậᴛ đượᴄ đặᴛ ᴛêɴ ѕẽ ᴋʜôɴɢ đượᴄ ʙảᴏ ᴠệ ᴋʜỏɪ ɴɢườɪ ɴɢᴏàɪ ɴữᴀ.%'
+      - '[refresh]'
+
+  'nomonsterspawn':
+    material: ZOMBIE_HEAD
+    slot: 22
+    priority: 0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#BDB2FF&lǫᴜáɪ ᴠậᴛ xᴜấᴛ ʜɪệɴ'
+    lore:
+
+      - ' &#ED4245(ʜãʏ đứɴɢ ᴛʀᴏɴɢ ᴄʟᴀɪᴍ ʙạɴ ᴍᴜốɴ ᴄàɪ đặᴛ!)'
+      - ''
+      - ' &#AAAAAAʙậᴛ/ᴛắᴛ ǫᴜáɪ ᴠậᴛ xᴜấᴛ ʜɪệɴ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ '
+      - ' &#FFFFFFᴛʀạɴɢ ᴛʜáɪ: %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoMonsterSpawns}_ifmatch:&#ED4245ᴛắᴛ_else:&#57F287ʙậᴛ%'
+      - ''
+      - ' &#57F287➥ &lɴʜấɴ để ᴛùʏ ᴄʜỉɴʜ '
+      - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: 'string equals'
+          input: '%griefprevention_currentclaim_ownername%'
+          output: '%player_name%'
+          deny_commands:
+            - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| &#ED4245ʙạɴ ᴘʜảɪ đứɴɢ ᴛʀêɴ ᴍảɴʜ đấᴛ ᴄủᴀ ʙạɴ!'
+            - '[sound] entity_villager_no'
+    left_click_commands:
+      - '[console] %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoMonsterSpawns}_ifmatch:unsetclaimflagplayer {player_name} NoMonsterSpawns_else:setclaimflagplayer {player_name} NoMonsterSpawns%'
+      - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoMonsterSpawns}_ifmatch:&#57F287ᴛừ ɢɪờ ǫᴜáɪ ᴠậᴛ ѕẽ ᴋʜôɴɢ xᴜấᴛ ʜɪệɴ ᴛʀêɴ ᴍảɴʜ đấᴛ ɴàʏ ɴữᴀ._else:&#ED4245ǫᴜáɪ ᴠậᴛ ѕẽ xᴜấᴛ ʜɪệɴ ʟạɪ ᴛʀêɴ ᴍảɴʜ đấᴛ ɴàʏ.%'
+      - '[refresh]'
+
+  'nomobspawntype':
+    material: PIG_SPAWN_EGG
+    slot: 23
+    priority: 0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#BDB2FF&lꜱɪɴʜ ᴠậᴛ ʜɪềɴ xᴜấᴛ ʜɪệɴ'
+    lore:
+
+      - ' &#ED4245(ʜãʏ đứɴɢ ᴛʀᴏɴɢ ᴄʟᴀɪᴍ ʙạɴ ᴍᴜốɴ ᴄàɪ đặᴛ!)'
+      - ''
+      - ' &#AAAAAAʙậᴛ/ᴛắᴛ độɴɢ ᴠậᴛ ʜɪềɴ ʟàɴʜ xᴜấᴛ ʜɪệɴ'
+      - ''
+      - ' &#57F287➥ &lɴʜấɴ để ᴛùʏ ᴄʜỉɴʜ '
+      - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: 'string equals'
+          input: '%griefprevention_currentclaim_ownername%'
+          output: '%player_name%'
+          deny_commands:
+            - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| &#ED4245ʙạɴ ᴘʜảɪ đứɴɢ ᴛʀêɴ ᴍảɴʜ đấᴛ ᴄủᴀ ʙạɴ!'
+            - '[sound] entity_villager_no'
+    left_click_commands:
+      - '[console] %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoMobSpawnsType}_ifmatch:unsetclaimflagplayer {player_name} NoMobSpawnsType_else:setclaimflagplayer {player_name} NoMobSpawnsType COW;SHEEP;CHICKEN;AXOLOTL;ARMADILLO;BAT;BEE;CAMEL;CAT;COD;DOLPHIN;DONKEY;FOX;FROG;GOAT;GLOW_SQUID;HORSE;IRON_GOLEM;LLAMA;MOOSHROOM;MULE;OCELOT;PANDA;PARROT;PIG;POLAR_BEAR;PUFFERFISH;RABBIT;SALMON;SNOW_GOLEM;SQUID;STRIDER;TADPOLE;TRADER_LLAMA;TROPICAL_FISH;TURTLE;WOLF%'
+      - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoMobSpawnsType}_ifmatch:&#57F287ᴛừ ɢɪờ ѕɪɴʜ ᴠậᴛ ʜɪềɴ ѕẽ ᴋʜôɴɢ xᴜấᴛ ʜɪệɴ ᴛʀêɴ ᴍảɴʜ đấᴛ ɴàʏ ɴữᴀ._else:&#ED4245ѕɪɴʜ ᴠậᴛ ʜɪềɴ ѕẽ xᴜấᴛ ʜɪệɴ ʟạɪ ᴛʀêɴ ᴍảɴʜ đấᴛ ɴàʏ.%'
+      - '[refresh]'
+
+  'nocroptrampling':
+    material: LEATHER_BOOTS
+    slot: 24
+    priority: 0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#BDB2FF&lᴅẫᴍ ɴáᴛ ᴄâʏ ᴛʀồɴɢ'
+    lore:
+
+      - ' &#ED4245(ʜãʏ đứɴɢ ᴛʀᴏɴɢ ᴄʟᴀɪᴍ ʙạɴ ᴍᴜốɴ ᴄàɪ đặᴛ!)'
+      - ''
+      - ' &#AAAAAAʙậᴛ/ᴛắᴛ ᴅẫᴍ ɴáᴛ ᴄâʏ ᴛʀồɴɢ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ '
+      - ' &#FFFFFFᴛʀạɴɢ ᴛʜáɪ: %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoCropTrampling}_ifmatch:&#ED4245ᴛắᴛ_else:&#57F287ʙậᴛ%'
+      - ''
+      - ' &#57F287➥ &lɴʜấɴ để ᴛùʏ ᴄʜỉɴʜ '
+      - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: 'string equals'
+          input: '%griefprevention_currentclaim_ownername%'
+          output: '%player_name%'
+          deny_commands:
+            - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| &#ED4245ʙạɴ ᴘʜảɪ đứɴɢ ᴛʀêɴ ᴍảɴʜ đấᴛ ᴄủᴀ ʙạɴ!'
+            - '[sound] entity_villager_no'
+    left_click_commands:
+      - '[console] %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoCropTrampling}_ifmatch:unsetclaimflagplayer {player_name} NoCropTrampling_else:setclaimflagplayer {player_name} NoCropTrampling%'
+      - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| %changeoutput_contains_input:Yes_matcher:{gpflags_isflagactive_NoCropTrampling}_ifmatch:&#57F287ᴛừ ɴᴀʏ ᴄâʏ ᴛʀồɴɢ ѕẽ ᴋʜôɴɢ ʙị ᴅẫᴍ ɴáᴛ ᴛʀêɴ ᴍảɴʜ đấᴛ ɴàʏ ɴữᴀ._else:&#ED4245ᴄâʏ ᴛʀồɴɢ ᴄó ᴛʜể ʙị ᴅẫᴍ ɴáᴛ ᴛʀêɴ ᴍảɴʜ đấᴛ ɴàʏ.%'
+      - '[refresh]'
+
+  'default':
+    material: RECOVERY_COMPASS
+    slot: 49
+    priority: 0
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#FFD700&lᴍặᴄ địɴʜ'
+    lore:
+
+      - ' &#ED4245(ʜãʏ đứɴɢ ᴛʀᴏɴɢ ᴄʟᴀɪᴍ ʙạɴ ᴍᴜốɴ ᴄàɪ đặᴛ!)'
+      - ''
+      - ' &#AAAAAAđặᴛ ᴍọɪ ᴄàɪ đặᴛ ᴠề ᴍặᴄ địɴʜ '
+      - ''
+      - ' &#57F287➥ &lɴʜấɴ để ᴛʜựᴄ ʜɪệɴ '
+      - ''
+    left_click_requirement:
+      requirements:
+        has_money:
+          type: 'string equals'
+          input: '%griefprevention_currentclaim_ownername%'
+          output: '%player_name%'
+      deny_commands:
+        - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| &#ED4245ʙạɴ ᴘʜảɪ đứɴɢ ᴛʀêɴ ᴍảɴʜ đấᴛ ᴄủᴀ ʙạɴ!'
+        - '[sound] entity_villager_no'
+    left_click_commands:
+      - '[console] unsetclaimflagplayer %player_name% AllowPvP'
+      - '[console] unsetclaimflagplayer %player_name% AllowBlockExplosions'
+      - '[console] setclaimflagplayer %player_name% NoFireSpread'
+      - '[console] setclaimflagplayer %player_name% NoFireDamage'
+      - '[console] unsetclaimflagplayer %player_name% NoPetDamage'
+      - '[console] unsetclaimflagplayer %player_name% NoElytra'
+      - '[console] unsetclaimflagplayer %player_name% NoGrowth'
+      - '[console] unsetclaimflagplayer %player_name% NoEnderPearl'
+      - '[console] unsetclaimflagplayer %player_name% ProtectNamedMobs'
+      - '[console] unsetclaimflagplayer %player_name% NoCropTrampling'
+      - '[console] unsetclaimflagplayer %player_name% NoMobSpawnsType'
+      - '[console] unsetclaimflagplayer %player_name% NoMonsterSpawns'
+      - '[message] &f| &#00CCFFᴍ&#1DCFFDá&#3AD1FCʏ &#75D6F8ᴄ&#92D9F7ʜ&#AFDBF5ủ &f| &#57F287ᴍọɪ ᴄàɪ đặᴛ ᴛʀᴏɴɢ ᴍảɴʜ đấᴛ đã ᴠề ᴍặᴄ địɴʜ.'
+      - '[refresh]'
+
+  'exit':
+    material: BARRIER
+    slot: 50
+    priority: 0
+    display_name: '&#ED4245&lǫᴜᴀʏ ʟạɪ'
+    left_click_commands:
+      - '[player] claim'
+
+  'fill':
+    material: GRAY_STAINED_GLASS_PANE
+    slots: ['0-8', '9', '17', '18', '26', '27', '35', '36', '44', '45-53']
+    display_name: ' '

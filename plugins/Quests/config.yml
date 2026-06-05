@@ -1,0 +1,812 @@
+# | ======================================================== |
+# |                                                          |
+# |                       [ Quests ]                         |
+# |                                                          |
+# |      SpigotMC: https://www.spigotmc.org/resources/23696/ |
+# |   Source code: https://github.com/LMBishop/Quests/       |
+# | Documentation: https://quests.leonardobishop.com/        |
+# |                 trans by KhoiDao                         |
+# | ======================================================== |
+
+# Đang tìm cách thêm danh mục mới? Chức năng này đã được chuyển sang file categories.yml.
+# Tuy nhiên bạn gộp chung vào đây plugin vẫn đọc được bình thường.
+
+# -----------------------------------------------------------
+#  Tùy chọn cơ bản (Basic options)
+# -----------------------------------------------------------
+options:
+  categories-enabled: true
+  trim-gui-size:
+    quests-category-menu: true
+    quests-menu: true
+    quests-started-menu: true
+  titles-enabled: true
+
+  bossbar:
+    progress: true
+    complete: true
+    time: 5
+    color:
+      '0.0': BLUE
+    style:
+      '0.0': SOLID
+    limit: -1
+    replace-on-limit: true
+
+  actionbar:
+    progress: true
+    complete: true
+
+  quest-limit:
+    default: 2
+  allow-quest-cancel: true
+  allow-quest-track: true
+  task-type-exclusions: []
+
+  guinames:
+    quests-category: "ᴅᴀɴʜ ᴍụᴄ ɴʜɪệᴍ ᴠụ"
+    quests-menu: "ɴʜɪệᴍ ᴠụ"
+    quests-started-menu: "ɴʜɪệᴍ ᴠụ đᴀɴɢ ʟàᴍ"
+    daily-quests: "ɴʜɪệᴍ ᴠụ ʜằɴɢ ɴɢàʏ"
+    quest-cancel: "ʜủʏ ɴʜɪệᴍ ᴠụ"
+
+  sounds:
+    quest-start: "ENTITY_PLAYER_LEVELUP:2:3"
+    quest-cancel: "UI_TOAST_OUT:2:3"
+    quest-complete: "UI_TOAST_CHALLENGE_COMPLETE:1.25:3"
+    gui:
+      open: "ITEM_BOOK_PAGE_TURN:1:3"
+      interact: ""
+
+  gui-hide-locked: false
+  gui-confirm-cancel: true
+  gui-hide-quests-nopermission: false
+  gui-hide-categories-nopermission: false
+  gui-use-placeholderapi: false
+  gui-truncate-requirements: true
+  gui-close-after-accept: true
+
+  gui-actions:
+    start-quest: "LEFT"
+    track-quest: "DROP"
+    cancel-quest: "RIGHT"
+
+  quest-autostart: false
+  quest-autotrack: false
+  verbose-logging-level: 2
+  record-log-history: true
+  quests-use-placeholderapi: false
+  progress-use-placeholderapi: false
+  use-progress-as-fallback: true
+
+  playerblocktracker-class-name: "dev.krakenied.blocktracker.bukkit.BukkitBlockTrackerPlugin"
+  placeholderapi-global-refresh-ticks: 30
+  coreprotect-block-lookup-delay: -1
+  mobkilling-use-wildstacker-hook: true
+  verify-quest-exists-on-load: true
+
+  performance-tweaking:
+    quest-queue-executor-interval: 1
+    quest-autosave-interval: 12000
+  tab-completion:
+    enabled: true
+  error-checking:
+    override-errors: false
+  placeholder-cache-time: 10
+  global-task-configuration-override: false
+  global-quest-display-configuration-override: false
+
+  storage:
+    provider: "yaml"
+    synchronisation:
+      delay-loading: 0
+    database-settings:
+      network:
+        database: "minecraft"
+        username: "root"
+        password: ""
+        address: "localhost:3306"
+      connection-pool-settings:
+        minimum-idle: 8
+        maximum-pool-size: 8
+        connection-timeout: 5000
+        idle-timeout: 600000
+        keepalive-time: 0
+        maximum-lifetime: 1800000
+        data-source-properties: {}
+      table-prefix: "quests_"
+
+quest-mode:
+  mode: "NORMAL"
+
+number-formats:
+  floating:
+    format: '#,##0.00'
+    locale: 'en-US'
+  integral:
+    format: '#,##0'
+    locale: 'en-US'
+
+# -----------------------------------------------------------
+#  Giao diện Nhiệm vụ Toàn cầu
+# -----------------------------------------------------------
+global-quest-display:
+  lore:
+    append-not-started:
+    - ""
+    - "&#B9FBC0🖱 ᴄʟɪᴄᴋ ᴛʀáɪ &#D1E8E2để ɴʜậɴ ɴʜɪệᴍ ᴠụ ɴàʏ."
+    append-started:
+    - ""
+    - "&#D1E8E2ʙạɴ &#B9FBC0đᴀɴɢ ᴛʜựᴄ ʜɪệɴ &#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ."
+    - "&#FDFD96🖱 ᴘʜíᴍ Q &#D1E8E2để ᴛʜᴇᴏ ᴅõɪ."
+    - "&#FF6B6B🖱 ᴄʟɪᴄᴋ ᴘʜảɪ &#D1E8E2để ʜủʏ ɴʜɪệᴍ ᴠụ."
+    append-tracked:
+    - ""
+    - "&#D1E8E2ʙạɴ &#B9FBC0đᴀɴɢ ᴛʜᴇᴏ ᴅõɪ &#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ."
+    - "&#FFB347🖱 ᴘʜíᴍ Q &#D1E8E2để ɴɢừɴɢ ᴛʜᴇᴏ ᴅõɪ."
+    - "&#FF6B6B🖱 ᴄʟɪᴄᴋ ᴘʜảɪ &#D1E8E2để ʜủʏ ɴʜɪệᴍ ᴠụ."
+
+global-macros:
+  bar: "&6---&7---&6---"
+
+# -----------------------------------------------------------
+#  Cấu hình GUI hệ thống (Đã chèn ItemFlags ẩn thông số rác)
+# -----------------------------------------------------------
+gui:
+  back-button:
+    enabled: true
+    slot: 45
+    type: "ARROW"
+    name: "&#FF6B6B&lǫᴜᴀʏ ʟạɪ"
+    lore:
+    - "&#D1E8E2ᴛʀở ᴠề ᴍᴇɴᴜ ᴅᴀɴʜ ᴍụᴄ ᴄʜíɴʜ."
+    itemflags:
+    - "HIDE_ATTRIBUTES"
+    - "HIDE_ENCHANTS"
+    - "HIDE_POTION_EFFECTS"
+  page-prev:
+    enabled: true
+    slot: 48
+    type: "FEATHER"
+    name: "&#A3C4F3&lᴛʀᴀɴɢ ᴛʀướᴄ"
+    lore:
+    - "&#D1E8E2ᴄʜᴜʏểɴ ᴠề ᴛʀᴀɴɢ số &c{prevpage}&#D1E8E2."
+    itemflags:
+    - "HIDE_ATTRIBUTES"
+    - "HIDE_ENCHANTS"
+    - "HIDE_POTION_EFFECTS"
+  page-next:
+    enabled: true
+    slot: 50
+    type: "FEATHER"
+    name: "&#A3C4F3&lᴛʀᴀɴɢ sᴀᴜ"
+    lore:
+    - "&#D1E8E2ᴄʜᴜʏểɴ ᴛớɪ ᴛʀᴀɴɢ số &c{nextpage}&#D1E8E2."
+    itemflags:
+    - "HIDE_ATTRIBUTES"
+    - "HIDE_ENCHANTS"
+    - "HIDE_POTION_EFFECTS"
+  page-desc:
+    enabled: true
+    slot: 49
+    type: "PAPER"
+    name: "&#F8E9A1&lᴛʀᴀɴɢ {page}"
+    lore:
+    - "&#D1E8E2ʙạɴ đᴀɴɢ xᴇᴍ ᴛʀᴀɴɢ số &c{page}&#D1E8E2."
+    itemflags:
+    - "HIDE_ATTRIBUTES"
+    - "HIDE_ENCHANTS"
+    - "HIDE_POTION_EFFECTS"
+  quest-locked-display:
+    type: "RED_STAINED_GLASS_PANE"
+    name: "&#FF6B6B&lɴʜɪệᴍ ᴠụ đã ᴋʜóᴀ"
+    lore:
+    - "&#888888&m                          "
+    - "&#D1E8E2ʙạɴ ᴄʜưᴀ ʜᴏàɴ ᴛʜàɴʜ đủ ʏêᴜ ᴄầᴜ"
+    - "&#D1E8E2ᴄủᴀ ɴʜɪệᴍ ᴠụ ɴàʏ (&#FF6B6B{quest}&#D1E8E2)."
+    - ""
+    - "&#D1E8E2ʏêᴜ ᴄầᴜ: &#FF6B6B{requirements}"
+    - "&#D1E8E2ᴄầɴ ʜᴏàɴ ᴛʜàɴʜ để ᴍở ᴋʜóᴀ."
+    - "&#888888&m                          "
+    itemflags:
+    - "HIDE_ATTRIBUTES"
+    - "HIDE_ENCHANTS"
+    - "HIDE_POTION_EFFECTS"
+  quest-permission-display:
+    type: "BROWN_STAINED_GLASS_PANE"
+    name: "&#FFB347&lᴋʜôɴɢ ᴄó ǫᴜʏềɴ"
+    lore:
+    - "&#888888&m                          "
+    - "&#D1E8E2ʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ để ɴʜậɴ"
+    - "&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ (&#FFB347{quest}&#D1E8E2)."
+    - "&#888888&m                          "
+    itemflags:
+    - "HIDE_ATTRIBUTES"
+    - "HIDE_ENCHANTS"
+    - "HIDE_POTION_EFFECTS"
+  quest-cooldown-display:
+    type: "ORANGE_STAINED_GLASS_PANE"
+    name: "&#FDFD96&lđᴀɴɢ ᴛʀᴏɴɢ ᴛʜờɪ ɢɪᴀɴ ᴄʜờ"
+    lore:
+    - "&#888888&m                          "
+    - "&#D1E8E2ʙạɴ ᴠừᴀ ʜᴏàɴ ᴛʜàɴʜ ɴʜɪệᴍ ᴠụ ɴàʏ"
+    - "&#D1E8E2(&#FDFD96{quest}&#D1E8E2). ᴠᴜɪ ʟòɴɢ đợɪ ᴛʜêᴍ"
+    - "&#FDFD96{time} &#D1E8E2để ᴄó ᴛʜể ʟàᴍ ʟạɪ."
+    - "&#888888&m                          "
+    itemflags:
+    - "HIDE_ATTRIBUTES"
+    - "HIDE_ENCHANTS"
+    - "HIDE_POTION_EFFECTS"
+  quest-completed-display:
+    type: "GREEN_STAINED_GLASS_PANE"
+    name: "&#B9FBC0&lđã ʜᴏàɴ ᴛʜàɴʜ"
+    lore:
+    - "&#888888&m                          "
+    - "&#D1E8E2ʙạɴ đã ʜᴏàɴ ᴛʜàɴʜ ɴʜɪệᴍ ᴠụ ɴàʏ"
+    - "&#D1E8E2(&#B9FBC0{quest}&#D1E8E2) ᴠà ᴋʜôɴɢ ᴛʜể"
+    - "&#D1E8E2ʟàᴍ ʟạɪ đượᴄ ɴữᴀ."
+    - "&#888888&m                          "
+    itemflags:
+    - "HIDE_ATTRIBUTES"
+    - "HIDE_ENCHANTS"
+    - "HIDE_POTION_EFFECTS"
+  no-started-quests:
+    type: "FEATHER"
+    name: "&#FFB347&lᴄʜưᴀ ɴʜậɴ ɴʜɪệᴍ ᴠụ"
+    lore:
+    - "&#D1E8E2ʜãʏ đɪ ᴛìᴍ ᴠà ɴʜậɴ ᴠàɪ ɴʜɪệᴍ ᴠụ đɪ!"
+    itemflags:
+    - "HIDE_ATTRIBUTES"
+    - "HIDE_ENCHANTS"
+    - "HIDE_POTION_EFFECTS"
+  quest-cancel-yes:
+    type: "GREEN_STAINED_GLASS_PANE"
+    name: "&#B9FBC0&lxáᴄ ɴʜậɴ ʜủʏ"
+    lore:
+    - "&#888888&m                          "
+    - "&#D1E8E2ᴄʜắᴄ ᴄʜắɴ ᴍᴜốɴ &#FF6B6Bʜủʏ ʙỏ"
+    - "&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ᴠà ᴍấᴛ ᴛᴏàɴ ʙộ"
+    - "&#D1E8E2ᴛɪếɴ độ đã ʟàᴍ?"
+    - "&#888888&m                          "
+    itemflags:
+    - "HIDE_ATTRIBUTES"
+    - "HIDE_ENCHANTS"
+    - "HIDE_POTION_EFFECTS"
+  quest-cancel-no:
+    type: "RED_STAINED_GLASS_PANE"
+    name: "&#FF6B6B&lᴋʜôɴɢ ʜủʏ"
+    lore:
+    - "&#888888&m                          "
+    - "&#D1E8E2ǫᴜᴀʏ ᴛʀở ʟạɪ ᴍᴇɴᴜ ɴʜɪệᴍ ᴠụ."
+    - "&#888888&m                          "
+    itemflags:
+    - "HIDE_ATTRIBUTES"
+    - "HIDE_ENCHANTS"
+    - "HIDE_POTION_EFFECTS"
+  quest-cancel-background:
+    type: "GRAY_STAINED_GLASS_PANE"
+    itemflags:
+    - "HIDE_ATTRIBUTES"
+    - "HIDE_ENCHANTS"
+
+# -----------------------------------------------------------
+#  Tiêu đề & Tin nhắn
+# -----------------------------------------------------------
+titles:
+  quest-start:
+    title: "&#FDFD96&lđã ɴʜậɴ ɴʜɪệᴍ ᴠụ"
+    subtitle: "&#FFFFFF{quest}"
+  quest-complete:
+    title: "&#B9FBC0&lʜᴏàɴ ᴛʜàɴʜ ɴʜɪệᴍ ᴠụ"
+    subtitle: "&#FFFFFF{quest}"
+
+messages:
+  time-format: "{hours}ɢɪờ {minutes}ᴘʜúᴛ"
+  quest-start: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFđã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ &#B9FBC0{quest}&#FFFFFF!"
+  quest-complete: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFđã ʜᴏàɴ ᴛʜàɴʜ ɴʜɪệᴍ ᴠụ &#B9FBC0{quest}&#FFFFFF!"
+  quest-cancel: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFđã ʜủʏ ʙỏ ɴʜɪệᴍ ᴠụ &#FF6B6B{quest}&#FFFFFF!"
+  quest-expire: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFɴʜɪệᴍ ᴠụ &#FF6B6B{quest} &#FFFFFFđã ʜếᴛ ʜạɴ."
+  quest-track: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFđᴀɴɢ ᴛʜᴇᴏ ᴅõɪ ᴛɪếɴ độ &#A3C4F3{quest}&#FFFFFF."
+  quest-track-stop: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFđã ɴɢừɴɢ ᴛʜᴇᴏ ᴅõɪ &#FFB347{quest}&#FFFFFF."
+  quest-random-none: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FF6B6Bʙạɴ ᴋʜôɴɢ ᴄòɴ ɴʜɪệᴍ ᴠụ ɴàᴏ ᴄó ᴛʜể ɴʜậɴ."
+  quest-start-limit: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFʙạɴ ᴄʜỉ đượᴄ ɴʜậɴ ᴛốɪ đᴀ &#FF6B6B{limit} &#FFFFFFɴʜɪệᴍ ᴠụ ᴄùɴɢ ʟúᴄ."
+  quest-start-disabled: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFʙạɴ ᴋʜôɴɢ ᴛʜể ʟàᴍ ʟạɪ ɴʜɪệᴍ ᴠụ ɴàʏ."
+  quest-start-locked: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFʙạɴ ᴄʜưᴀ ᴍở ᴋʜóᴀ ɴʜɪệᴍ ᴠụ ɴàʏ."
+  quest-start-cooldown: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFʙạɴ ᴠừᴀ ʜᴏàɴ ᴛʜàɴʜ xᴏɴɢ. ʜãʏ đợɪ &#FFB347{time} &#FFFFFFđể ᴄó ᴛʜể ʟàᴍ ʟạɪ."
+  quest-start-started: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFʙạɴ đã ɴʜậɴ ɴʜɪệᴍ ᴠụ ɴàʏ ʀồɪ."
+  quest-start-permission: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ɴʜậɴ ɴʜɪệᴍ ᴠụ ɴàʏ."
+  quest-category-permission: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ xᴇᴍ ᴅᴀɴʜ ᴍụᴄ ɴàʏ."
+  quest-category-quest-permission: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFʙạɴ ᴋʜôɴɢ ᴛʜể ɴʜậɴ ɴʜɪệᴍ ᴠụ ɴàʏ ᴠì ɴó ɴằᴍ ᴛʀᴏɴɢ ᴅᴀɴʜ ᴍụᴄ ʙị ᴋʜóᴀ."
+  quest-cancel-notstarted: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFʙạɴ ᴄʜưᴀ ʜề ɴʜậɴ ɴʜɪệᴍ ᴠụ ɴàʏ."
+  quest-cancel-notcancellable: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFʙạɴ ᴋʜôɴɢ ᴛʜể ʜủʏ ɴʜɪệᴍ ᴠụ ɴàʏ."
+
+  quest-updater: "&cQuests > &7A new version &c{newver} &7was found on Spigot (your version: &c{oldver}&7). Please update me! <3 - Link: {link}"
+  command-data-not-loaded: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FF6B6Bᴅữ ʟɪệᴜ ɴʜɪệᴍ ᴠụ ᴄủᴀ ʙạɴ ᴄʜưᴀ đượᴄ ᴛảɪ. ɴếᴜ ʟỗɪ ɴàʏ ᴛɪếᴘ ᴅɪễɴ, ʜãʏ ʙáᴏ ᴄʜᴏ ᴀᴅᴍɪɴ."
+  command-sub-doesntexist: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFʟệɴʜ ᴘʜụ '&#FF6B6B{sub}&#FFFFFF' ᴋʜôɴɢ ᴛồɴ ᴛạɪ."
+  command-no-permission: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ꜱử ᴅụɴɢ ʟệɴʜ ɴàʏ."
+  command-quest-cancel-specify: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFʙạɴ ᴘʜảɪ ɢʜɪ ʀõ ᴛêɴ ɴʜɪệᴍ ᴠụ ᴍᴜốɴ ʜủʏ."
+  command-quest-start-doesntexist: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFɴʜɪệᴍ ᴠụ '&#FF6B6B{quest}&#FFFFFF' ᴋʜôɴɢ ᴛồɴ ᴛạɪ."
+  command-quest-general-doesntexist: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFɴʜɪệᴍ ᴠụ '&#FF6B6B{quest}&#FFFFFF' ᴋʜôɴɢ ᴛồɴ ᴛạɪ."
+  command-category-open-disabled: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFʜệ ᴛʜốɴɢ ᴅᴀɴʜ ᴍụᴄ đᴀɴɢ ʙị ᴛắᴛ."
+  command-category-open-doesntexist: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFᴅᴀɴʜ ᴍụᴄ '&#FF6B6B{category}&#FFFFFF' ᴋʜôɴɢ ᴛồɴ ᴛạɪ."
+  command-quest-admin-playernotfound: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ɴɢườɪ ᴄʜơɪ '&#FF6B6B{player}&#FFFFFF'."
+  command-quest-openquests-admin-success: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFđã ᴍở ᴍᴇɴᴜ ᴄʜᴏ ɴɢườɪ ᴄʜơɪ &#A3C4F3{player}&#FFFFFF."
+  command-quest-openstarted-admin-success: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFđã ᴍở ᴍᴇɴᴜ ɴʜɪệᴍ ᴠụ đᴀɴɢ ʟàᴍ ᴄʜᴏ &#A3C4F3{player}&#FFFFFF."
+  command-quest-opencategory-admin-success: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFđã ᴍở ᴅᴀɴʜ ᴍụᴄ &#A3C4F3{category} &#FFFFFFᴄʜᴏ ɴɢườɪ ᴄʜơɪ &#A3C4F3{player}&#FFFFFF."
+  command-taskview-admin-fail: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFʟᴏạɪ ɴʜɪệᴍ ᴠụ '&#FF6B6B{task}&#FFFFFF' ᴋʜôɴɢ ᴛồɴ ᴛạɪ."
+  beta-reminder: "&cQuests > &7Reminder: you are currently using a &cbeta &7version..."
+  command-quest-admin-loaddata: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFđᴀɴɢ ᴛảɪ ᴅữ ʟɪệᴜ ᴄʜᴏ '&#A3C4F3{player}&#FFFFFF'."
+  command-quest-admin-nodata: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFᴋʜôɴɢ ᴄó ᴅữ ʟɪệᴜ ɴàᴏ ᴄủᴀ ɴɢườɪ ᴄʜơɪ &#FF6B6B{player}&#FFFFFF."
+  command-quest-admin-fullreset: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFđã ʀᴇꜱᴇᴛ ᴛᴏàɴ ʙộ ᴅữ ʟɪệᴜ ᴄủᴀ &#FF6B6B{player}&#FFFFFF."
+  command-quest-admin-start-faillocked: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFᴋʜôɴɢ ᴛʜể ʙắᴛ đầᴜ '&#FF6B6B{quest}&#FFFFFF'. ɴɢườɪ ᴄʜơɪ ᴄʜưᴀ ᴍở ᴋʜóᴀ."
+  command-quest-admin-start-failcooldown: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFᴋʜôɴɢ ᴛʜể ʙắᴛ đầᴜ '&#FF6B6B{quest}&#FFFFFF'. ɴɢườɪ ᴄʜơɪ đᴀɴɢ ʙị ᴄᴏᴏʟᴅᴏᴡɴ."
+  command-quest-admin-start-failcomplete: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFᴋʜôɴɢ ᴛʜể ʙắᴛ đầᴜ '&#FF6B6B{quest}&#FFFFFF'. ɴɢườɪ ᴄʜơɪ đã ʟàᴍ xᴏɴɢ."
+  command-quest-admin-start-faillimit: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFᴋʜôɴɢ ᴛʜể ʙắᴛ đầᴜ '&#FF6B6B{quest}&#FFFFFF'. ɴɢườɪ ᴄʜơɪ đã ᴠượᴛ ǫᴜá ɢɪớɪ ʜạɴ ɴʜậɴ."
+  command-quest-admin-start-failstarted: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFᴋʜôɴɢ ᴛʜể ʙắᴛ đầᴜ '&#FF6B6B{quest}&#FFFFFF'. ɴɢườɪ ᴄʜơɪ đᴀɴɢ ʟàᴍ ɴʜɪệᴍ ᴠụ ɴàʏ ʀồɪ."
+  command-quest-admin-start-failpermission: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2» &#FFFFFFᴋʜôɴɢ ᴛʜể ʙắᴛ đầᴜ '&#FF6B6B{quest}&#FFFFFF'. ɴɢườɪ ᴄʜơɪ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ."
+  command-quest-admin-start-failcategorypermission: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2»  &#FFFFFFᴋʜôɴɢ ᴛʜể ʙắᴛ đầᴜ '&#FF6B6B{quest}&#FFFFFF'. ɴɢườɪ ᴄʜơɪ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ᴛʀᴜʏ ᴄậᴘ ᴅᴀɴʜ ᴍụᴄ."
+  command-quest-admin-start-failother: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2»  &#FFFFFFᴋʜôɴɢ ᴛʜể ʙắᴛ đầᴜ '&#FF6B6B{quest}&#FFFFFF' ᴄʜᴏ &#A3C4F3{player}&#FFFFFF."
+  command-quest-admin-start-success: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2»  &#FFFFFFđã éᴘ ɴɢườɪ ᴄʜơɪ &#A3C4F3{player} &#FFFFFFɴʜậɴ ɴʜɪệᴍ ᴠụ &#B9FBC0{quest}&#FFFFFF."
+  command-quest-admin-category-permission: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2»  &#FFFFFFᴋʜôɴɢ ᴛʜể ᴍở ᴅᴀɴʜ ᴍụᴄ &#FF6B6B{category} &#FFFFFFᴄʜᴏ &#A3C4F3{player}&#FFFFFF."
+  command-quest-admin-complete-success: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2»  &#FFFFFFđã éᴘ ɴɢườɪ ᴄʜơɪ &#A3C4F3{player} &#FFFFFFʜᴏàɴ ᴛʜàɴʜ ɴʜɪệᴍ ᴠụ &#B9FBC0{quest}&#FFFFFF."
+  command-quest-admin-reset-success: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2»  &#FFFFFFđã ʀᴇꜱᴇᴛ ᴛɪếɴ độ ɴʜɪệᴍ ᴠụ '&#FF6B6B{quest}&#FFFFFF' ᴄủᴀ &#A3C4F3{player}&#FFFFFF."
+  command-quest-admin-random-none: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2»  &#FFFFFFɴɢườɪ ᴄʜơɪ &#FF6B6B{player}&#FFFFFF ᴋʜôɴɢ ᴄòɴ ɴʜɪệᴍ ᴠụ để ɴʜậɴ."
+  command-quest-admin-random-success: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2»  &#FFFFFFđã ᴘʜáᴛ ɴɢẫᴜ ɴʜɪêɴ '&#B9FBC0{quest}&#FFFFFF' ᴄʜᴏ &#A3C4F3{player}&#FFFFFF."
+  command-quest-admin-random-category-none: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2»  &#FFFFFFɴɢườɪ ᴄʜơɪ &#FF6B6B{player}&#FFFFFF ᴋʜôɴɢ ᴄòɴ ɴʜɪệᴍ ᴠụ ɴàᴏ ᴛʀᴏɴɢ ᴅᴀɴʜ ᴍụᴄ '&#FFB347{category}&#FFFFFF'."
+  command-quest-admin-random-category-success: "&#FDFD96&lɴʜɪệᴍ ᴠụ &#D1E8E2»  &#FFFFFFđã ᴘʜáᴛ ɴɢẫᴜ ɴʜɪêɴ '&#B9FBC0{quest}&#FFFFFF' (ᴅᴀɴʜ ᴍụᴄ &#A3C4F3{category}&#FFFFFF) ᴄʜᴏ &#A3C4F3{player}&#FFFFFF."
+
+  ui-placeholder-completed-true: "xᴏɴɢ"
+  ui-placeholder-completed-false: "ᴄʜưᴀ"
+  ui-placeholder-truncated: " +{amount} ɴữᴀ"
+  ui-placeholder-no-time-limit: "ᴋʜôɴɢ ɢɪớɪ ʜạɴ"
+  placeholderapi-true: "xᴏɴɢ"
+  placeholderapi-false: "ᴄʜưᴀ"
+  placeholderapi-no-tracked-quest: "ᴋʜôɴɢ ᴛʜᴇᴏ ᴅõɪ"
+  placeholderapi-quest-not-started: "ᴄʜưᴀ ɴʜậɴ"
+  placeholderapi-no-time-limit: "ᴋʜôɴɢ ɢɪớɪ ʜạɴ"
+  placeholderapi-data-not-loaded: "ʟỗɪ ᴅữ ʟɪệᴜ"
+
+# -----------------------------------------------------------
+#  DANH MỤC (CATEGORIES) Đã chèn ItemFlags ẩn thông số
+# -----------------------------------------------------------
+categories:
+  woodcutting:
+    display:
+      type: "GOLDEN_AXE"
+      name: "&#B9FBC0&lᴄʜặᴛ ɢỗ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2đốɴ ʜạ ᴄáᴄ ʟᴏạɪ ᴄâʏ ɢỗ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#B9FBC0ᴅễ'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  playtime:
+    display:
+      type: "PLAYER_HEAD"
+      name: "&#A3C4F3&lᴛʜờɪ ɢɪᴀɴ ᴄʜơɪ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ᴏɴʟɪɴᴇ đủ ᴛʜờɪ ɢɪᴀɴ ǫᴜʏ địɴʜ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#B9FBC0ᴅễ'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  miner:
+    display:
+      type: "DIAMOND_PICKAXE"
+      name: "&#CDB4DB&lᴛʜợ ᴍỏ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2đàᴏ ᴄáᴄ ʟᴏạɪ ᴋʜᴏáɴɢ ꜱảɴ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#B9FBC0ᴅễ'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  mobkilling:
+    display:
+      type: "ZOMBIE_SPAWN_EGG"
+      name: "&#FF8B94&lᴛɪêᴜ ᴅɪệᴛ ǫᴜáɪ ᴠậᴛ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ᴛɪêᴜ ᴅɪệᴛ ᴄáᴄ ʟᴏạɪ ǫᴜáɪ ᴠậᴛ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#FDFD96ᴛʀᴜɴɢ ʙìɴʜ'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  breeding:
+    display:
+      type: "CARROT"
+      name: "&#FFC0CB&lɴʜâɴ ɢɪốɴɢ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ɴʜâɴ ɢɪốɴɢ ᴄáᴄ ʟᴏạɪ độɴɢ ᴠậᴛ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#FDFD96ᴛʀᴜɴɢ ʙìɴʜ'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  farming:
+    display:
+      type: "WHEAT"
+      name: "&#FDFD96&lᴛʀồɴɢ ᴛʀọᴛ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ᴛʜᴜ ʜᴏạᴄʜ ᴄáᴄ ʟᴏạɪ ɴôɴɢ ꜱảɴ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#B9FBC0ᴅễ'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+  farm:
+    display:
+      type: "POTATO"
+      name: "&#6BFF6F&lᴛʜᴜ ʜᴏạᴄʜ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ᴛʜᴜ ʜᴏạᴄʜ ᴄáᴄ ʟᴏạɪ ɴôɴɢ ꜱảɴ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#B9FBC0ᴅễ'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+  brewing:
+    display:
+      type: "POTION"
+      name: "&#D1E8E2&lᴘʜᴀ ᴄʜế"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ᴘʜᴀ ᴄʜế ᴄáᴄ ʟᴏạɪ ᴛʜᴜốᴄ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#FDFD96ᴛʀᴜɴɢ ʙìɴʜ'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  damage:
+    display:
+      type: "NETHERITE_SWORD"
+      name: "&#FF6B6B&lɢâʏ ꜱáᴛ ᴛʜươɴɢ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ɢâʏ ꜱáᴛ ᴛʜươɴɢ ʟêɴ ᴍụᴄ ᴛɪêᴜ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#FFB347ᴋʜó'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  expearn:
+    display:
+      type: "EXPERIENCE_BOTTLE"
+      name: "&#B9FBC0&lᴋɪɴʜ ɴɢʜɪệᴍ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ᴛʜᴜ ᴛʜậᴘ đɪểᴍ ᴋɪɴʜ ɴɢʜɪệᴍ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#FDFD96ᴛʀᴜɴɢ ʙìɴʜ'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  fishing:
+    display:
+      type: "TROPICAL_FISH"
+      name: "&#A3C4F3&lᴄâᴜ ᴄá"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ᴄâᴜ đượᴄ ᴄáᴄ ʟᴏạɪ ᴄá.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#FFB347ᴋʜó'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  taming:
+    display:
+      type: "LEAD"
+      name: "&#FFB347&lᴛʜᴜầɴ ᴘʜụᴄ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ᴛʜᴜầɴ ᴘʜụᴄ độɴɢ ᴠậᴛ ʜᴏᴀɴɢ ᴅã.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#FDFD96ᴛʀᴜɴɢ ʙìɴʜ'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  enchanting:
+    display:
+      type: "ENCHANTING_TABLE"
+      name: "&#CDB4DB&lᴘʜù ᴘʜéᴘ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ᴘʜù ᴘʜéᴘ ᴠậᴛ ᴘʜẩᴍ ᴄủᴀ ᴍìɴʜ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#B9FBC0ᴅễ'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  walking:
+    display:
+      type: "LEATHER_BOOTS"
+      name: "&#F8E9A1&lđɪ ʙộ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ᴅɪ ᴄʜᴜʏểɴ ᴍộᴛ ǫᴜãɴɢ đườɴɢ ᴅàɪ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#FFB347ᴋʜó'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  milking:
+    display:
+      type: "MILK_BUCKET"
+      name: "&#FFFFFF&lᴠắᴛ ꜱữᴀ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ᴠắᴛ ꜱữᴀ ʙò ᴛʀêɴ ᴛʜảᴏ ɴɢᴜʏêɴ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#FDFD96ᴛʀᴜɴɢ ʙìɴʜ'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  consume:
+    display:
+      type: "PORKCHOP"
+      name: "&#FFB347&lăɴ ᴜốɴɢ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ᴛɪêᴜ ᴛʜụ ᴄáᴄ ʟᴏạɪ ᴛʜứᴄ ăɴ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#FDFD96ᴛʀᴜɴɢ ʙìɴʜ'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  shearing:
+    display:
+      type: "SHEARS"
+      name: "&#D1E8E2&lᴄạᴏ ʟôɴɢ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ᴄạᴏ ʟôɴɢ ᴄáᴄ ᴄʜú ᴄừᴜ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#FDFD96ᴛʀᴜɴɢ ʙìɴʜ'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  collect:
+    display:
+      type: "CHEST"
+      name: "&#FDFD96&lᴛʜᴜ ᴛʜậᴘ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ᴛʜᴜ ᴛʜậᴘ ɴʜữɴɢ ᴠậᴛ ᴘʜẩᴍ ᴄụ ᴛʜể.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#B9FBC0ᴅễ'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  mining:
+    display:
+      type: "IRON_PICKAXE"
+      name: "&#CDB4DB&lᴋʜᴀɪ ᴛʜáᴄ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2đàᴏ ᴠà ᴛʜᴜ ᴛʜậᴘ ᴄáᴄ ᴋʜốɪ ʙʟᴏᴄᴋ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#B9FBC0ᴅễ &#888888- &#FFB347ᴋʜó'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  #  nightmare:
+  #    display:
+  #      type: "WITHER_SKELETON_SKULL"
+  #      name: "&#FF6B6B&láᴄ ᴍộɴɢ"
+  #      lore:
+  #      - '&#888888&m                          '
+  #      - '&#D1E8E2ɴʜữɴɢ ᴛʜử ᴛʜáᴄʜ ᴠà ᴄâᴜ đố'
+  #      - '&#D1E8E2ᴄựᴄ ᴋỳ ʜóᴄ ʙúᴀ ᴠà ᴋʜó ɴʜằɴ.'
+  #      - ''
+  #      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#FF6B6Báᴄ ᴍộɴɢ'
+  #      - '&#888888&m                          '
+  #      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+  #      itemflags:
+  #      - "HIDE_ATTRIBUTES"
+  #      - "HIDE_ENCHANTS"
+  #      - "HIDE_POTION_EFFECTS"
+
+  gathering:
+    display:
+      type: "BUCKET"
+      name: "&#A3C4F3&lɢᴏᴍ đồ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ɢᴏᴍ ᴍộᴛ ʟượɴɢ ʟớɴ ᴛàɪ ɴɢᴜʏêɴ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#B9FBC0ᴅễ &#888888- &#FFB347ᴋʜó'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  extreme:
+    display:
+      type: "DIAMOND"
+      name: "&#FFB347&lᴄựᴄ ʜạɴ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ᴄàʏ ᴄᴜốᴄ ᴍộᴛ ʟượɴɢ ᴋʜổɴɢ ʟồ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#FFB347ᴋʜó &#888888- &#FF6B6Bᴄựᴄ ᴋʜó'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  combat:
+    display:
+      type: "GOLDEN_APPLE"
+      name: "&#FF8B94&lɢɪᴀᴏ ᴛʀᴀɴʜ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ᴛấɴ ᴄôɴɢ ǫᴜáɪ ᴠậᴛ ᴠà ɴɢườɪ ᴄʜơɪ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#B9FBC0ᴅễ &#888888- &#FFB347ᴋʜó'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  misc:
+    display:
+      type: "STRING"
+      name: "&#CDB4DB&lᴛổɴɢ ʜợᴘ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜữɴɢ ɴʜɪệᴍ ᴠụ ᴋʜáᴄ ɴʜᴀᴜ'
+      - '&#D1E8E2ᴋʜôɴɢ ᴛʜᴜộᴄ ᴄáᴄ ᴅᴀɴʜ ᴍụᴄ ᴛʀêɴ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#B9FBC0ᴅễ &#888888- &#FFB347ᴋʜó'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  building:
+    display:
+      type: "OAK_LOG"
+      name: "&#F8E9A1&lxâʏ ᴅựɴɢ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2xâʏ ᴅựɴɢ ᴄáᴄ ᴄôɴɢ ᴛʀìɴʜ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#B9FBC0ᴅễ &#888888- &#FFB347ᴋʜó'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+
+  animal:
+    display:
+      type: "BEEF"
+      name: "&#FFC0CB&lđộɴɢ ᴠậᴛ"
+      lore:
+      - '&#888888&m                          '
+      - '&#D1E8E2ɴʜɪệᴍ ᴠụ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ'
+      - '&#D1E8E2ᴛươɴɢ ᴛáᴄ ᴠớɪ ᴄáᴄ ʟᴏàɪ ᴠậᴛ.'
+      - ''
+      - '&#888888▸ &#A3C4F3độ ᴋʜó: &#B9FBC0ᴅễ &#888888- &#FFB347ᴋʜó'
+      - '&#888888&m                          '
+      - '&#FF8B94🖱 ᴄʟɪᴄᴋ để ᴍở ᴅᴀɴʜ ᴍụᴄ'
+      itemflags:
+      - "HIDE_ATTRIBUTES"
+      - "HIDE_ENCHANTS"
+      - "HIDE_POTION_EFFECTS"
+    permission-required: false

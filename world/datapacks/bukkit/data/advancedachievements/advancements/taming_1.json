@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:lead"
+    },
+    "title":"\u00A7x\u00A7A\u00A7C\u00A7FB\u1EAD\u1D04 \u1D1B\u029C\u1EA7\u028F \u029C\u1D1C\u1EA5\u0274 \u029F\u1D1C\u028F\u1EC7\u0274",
+    "description":"\u00A7x\u00A7D\u00A7E\u00A7ET\u029C\u1D1C\u1EA7\u0274 \u1D18\u029C\u1EE5\u1D04 \u00A7x\u00A7F\u00A7D\u00A7F\u00A7D1 \u00A7x\u00A7D\u00A7E\u00A7E\u029F\u1D0F\u00E0\u026A \u1D20\u1EAD\u1D1B.",
+    "frame":"challenge",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:advanced_achievements_parent"
+}

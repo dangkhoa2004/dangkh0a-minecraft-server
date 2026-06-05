@@ -1,0 +1,52 @@
+TopTitle: "&c&lTop 10 Sign In(Month #<month>)" # Title
+TotalTitle: "&c&lTop 10 Total Sign In" # Title
+ItemTops:
+  Top:
+    Icon:
+      HavePlayer:
+        ID: PLAYER_HEAD
+        Data: 0
+        Name: "&aTop 1: &c<player_name>"
+        Lore:
+          - "&aHas signed in for : &e<days> &adays"
+          - "&f"
+          - "&f"
+        Glow: true
+      NoPlayer:
+        ID: PLAYER_HEAD
+        Data: 0
+        Name: "&eUnknown"
+        Lore:
+          - "&fNo one has this top"
+          - "&f"
+          - "&f"
+        Glow: false
+  Total:
+    Icon:
+      HavePlayer:
+        ID: PLAYER_HEAD
+        Data: 0
+        Name: "&aTop 1: &c<player_name>"
+        Lore:
+          - "&aHas signed in for : &e<totaldays> &adays"
+          - "&f"
+          - "&f"
+        Glow: true
+      NoPlayer:
+        ID: PLAYER_HEAD
+        Data: 0
+        Name: "&eUnknown"
+        Lore:
+          - "&fNo one has this top"
+          - "&f"
+          - "&f"
+        Glow: false      
+  FillItem:
+    ID: BLACK_STAINED_GLASS_PANE
+    Data: 0
+    Name: "&f"
+    Lore:
+      - "&f"
+    Glow: true
+
+

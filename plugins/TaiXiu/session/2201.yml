@@ -1,0 +1,9 @@
+data:
+  session: 2201
+  dice1: 5
+  dice2: 6
+  dice3: 3
+  result: TAI
+  currency: VAULT
+  taiPlayers:
+    KaiseFitzs: 300000000

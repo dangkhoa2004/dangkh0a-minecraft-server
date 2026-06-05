@@ -1,0 +1,595 @@
+menu_title: '&#5865F2&lᴅᴀɴʜ ѕáᴄʜ ᴄʟᴀɪᴍ'
+open_command: claimlist
+open_commands:
+- '[sound] BLOCK_NOTE_BLOCK_PLING'
+size: 54
+update_interval: -1
+
+items:
+  'noclaimyet':
+    material: STRUCTURE_VOID
+    slot: 22
+    priority: 0
+    display_name: '&#ED4245&lʙạɴ ᴄʜưᴀ ᴄó ᴄʟᴀɪᴍ ɴàᴏ'
+    lore:
+    - '&#AAAAAAʜãʏ ᴅùɴɢ xẻɴɢ ᴠàɴɢ để ᴛạᴏ ᴍảɴʜ đấᴛ ᴍớɪ ɴʜé!'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ==
+          input: "%griefprevention_claims%"
+          output: "0"
+
+  'claim1':
+    material: MAP
+    slot: 10
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #1 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "1"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 1'
+
+  'claim2':
+    material: MAP
+    slot: 11
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #2 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "2"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 2'
+
+  'claim3':
+    material: MAP
+    slot: 12
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #3 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "3"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 3'
+
+  'claim4':
+    material: MAP
+    slot: 13
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #4 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "4"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 4'
+
+  'claim5':
+    material: MAP
+    slot: 14
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #5 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "5"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 5'
+
+  'claim6':
+    material: MAP
+    slot: 15
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #6 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "6"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 6'
+
+  'claim7':
+    material: MAP
+    slot: 16
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #7 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "7"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 7'
+
+  'claim8':
+    material: MAP
+    slot: 19
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #8 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "8"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 8'
+
+  'claim9':
+    material: MAP
+    slot: 20
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #9 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "9"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 9'
+
+  'claim10':
+    material: MAP
+    slot: 21
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #10 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "10"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 10'
+
+  'claim11':
+    material: MAP
+    slot: 22
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #11 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "11"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 11'
+
+  'claim12':
+    material: MAP
+    slot: 23
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #12 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "12"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 12'
+
+  'claim13':
+    material: MAP
+    slot: 24
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #13 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "13"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 13'
+
+  'claim14':
+    material: MAP
+    slot: 25
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #14 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "14"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 14'
+
+  'claim15':
+    material: MAP
+    slot: 28
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #15 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "15"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 15'
+
+  'claim16':
+    material: MAP
+    slot: 29
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #16 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "16"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 16'
+
+  'claim17':
+    material: MAP
+    slot: 30
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #17 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "17"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 17'
+
+  'claim18':
+    material: MAP
+    slot: 31
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #18 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "18"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 18'
+
+  'claim19':
+    material: MAP
+    slot: 32
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #19 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "19"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 19'
+
+  'claim20':
+    material: MAP
+    slot: 33
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #20 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "20"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 20'
+
+  'claim21':
+    material: MAP
+    slot: 34
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #21 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "21"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 21'
+
+  'claim22':
+    material: MAP
+    slot: 37
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #22 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "22"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 22'
+
+  'claim23':
+    material: MAP
+    slot: 38
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #23 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "23"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 23'
+
+  'claim24':
+    material: MAP
+    slot: 39
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #24 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "24"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 24'
+
+  'claim25':
+    material: MAP
+    slot: 40
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #25 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "25"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 25'
+
+  'claim26':
+    material: MAP
+    slot: 41
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #26 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "26"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 26'
+
+  'claim27':
+    material: MAP
+    slot: 42
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #27 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "27"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 27'
+
+  'claim28':
+    material: MAP
+    slot: 43
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFD700&l[ ᴍảɴʜ đấᴛ ѕố #28 ]'
+    lore:
+
+    - ' &#FFFFFF○ &#AAAAAAᴄᴏᴏʟᴅᴏᴡɴ ᴅịᴄʜ ᴄʜᴜʏểɴ: &#57F2872 ɢɪâʏ'
+    - ''
+    - ' &#57F287➥ &lɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề đâʏ'
+    view_requirement:
+      requirements:
+        soclaim:
+          type: ">="
+          input: "%griefprevention_claims%"
+          output: "28"
+    left_click_commands:
+    - '[close]'
+    - '[player] ctp 28'
+
+  'exit':
+    material: BARRIER
+    slot: 49
+    priority: 0
+    display_name: '&#ED4245&lᴛʜᴏáᴛ'
+    left_click_commands:
+    - '[close]'
+    - '[sound] UI_BUTTON_CLICK'
+
+  'fill':
+    material: GRAY_STAINED_GLASS_PANE
+    slots: [ '0-8', '9', '17', '18', '26', '27', '35', '36', '44', '45-53' ]
+    display_name: ' '

@@ -1,0 +1,29 @@
+# ###########################
+#
+# ITSMYSTUDIO - A configuration for EconomyShopGui
+# https://itsmy.studio/discord
+#
+# ###########################
+enable: true
+slot: 12
+title: Khối
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: GRASS_BLOCK
+  lore:
+  - '&8Xem trước danh mục'
+  - '#f48ce2 ▪ &fKhối cỏ'
+  - '#f48ce2 ▪ &fĐất'
+  - '#f48ce2 ▪ &fKhuẩn ty thể'
+  - '#f48ce2 ▪ &fKhuẩn dị thể đỏ thẫm'
+  - '#f48ce2 ▪ &fĐất podzol'
+  - '#f48ce2 ▪ &fvà 72 thêm...'
+  - ''
+  - '&7◆ #f48ce2Nhấn: &fMở'
+  name: '#f48ce2Khối'

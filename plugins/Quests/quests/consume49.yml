@@ -1,0 +1,31 @@
+tasks:
+  consume:
+    type: "consume"
+    item: BREAD
+    amount: 2
+display:
+  name: "&#A3C4F3&nɴʜɪệᴍ ᴠụ ᴛɪêᴜ ᴛʜụ:&r &#FDFD96#49"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó'
+    - '&#D1E8E2ᴛɪêᴜ ᴛʜụ ᴠậᴛ ᴘʜẩᴍ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ăɴ 2 ʙáɴʜ ᴍỳ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{consume:progress}/2 ʙáɴʜ ᴍỳ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC02 ᴋɪᴍ ᴄươɴɢ'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "BREAD"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "give {player} diamond 2"
+options:
+  category: "consume"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1220
+  sort-order: 49
+  requires:
+   - "consume48"

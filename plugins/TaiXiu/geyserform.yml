@@ -1,0 +1,78 @@
+# GUI|TRANS REMAKE BY DaoMinhKhoi_
+file-version: 2
+form:
+  menu:
+    title: '&#FCD05C❁ ᴛàɪ xỉᴜ ❁'
+    button:
+      rule:
+        name: '&#B5EAD7ʟᴜậᴛ ᴄʜơɪ'
+        imageType: URL
+        imageData: https://i.imgur.com/UD8v9Ui.png
+      sessionInfo:
+        name: '&#AEC6CFᴛʜôɴɢ ᴛɪɴ ᴘʜɪêɴ'
+        imageType: URL
+        imageData: https://i.imgur.com/m6EdubF.png
+      bet:
+        name: '&#FFD700đặᴛ ᴄượᴄ'
+        imageType: URL
+        imageData: https://i.imgur.com/ReMGrcW.png
+      toggle:
+        'on':
+          name: '&#57F287ʙậᴛ &#fcfcfcᴛʜôɴɢ ʙáᴏ'
+          imageType: URL
+          imageData: https://i.imgur.com/aANvBJ9.png
+        'off':
+          name: '&#ED4245ᴛắᴛ &#fcfcfcᴛʜôɴɢ ʙáᴏ'
+          imageType: URL
+          imageData: https://i.imgur.com/3pDJQgt.png
+  rule:
+    title: '&#FCD05C❁ ʟᴜậᴛ ᴄʜơɪ ᴛàɪ xỉᴜ ❁'
+    content: |-
+      &#fcfcfc❖ ᴛổɴɢ 3 xúᴄ xắᴄ ᴛừ &#FCD05C4 - 10 &#fcfcfcѕẽ ʀᴀ &#B9FBC0xỉᴜ
+      &#fcfcfc❖ ᴛổɴɢ 3 xúᴄ xắᴄ ᴛừ &#FCD05C11 - 17 &#fcfcfcѕẽ ʀᴀ &#FFB7B2ᴛàɪ
+      &#fcfcfc❖ ᴛổɴɢ xúᴄ xắᴄ ʟà &#FCD05C3 &#fcfcfcʜᴏặᴄ &#FCD05C18 &#fcfcfcᴛʜì &#BDB2FFɴʜà ᴄáɪ ăɴ
+      &#fcfcfc❖ ᴍứᴄ ᴄượᴄ ᴛốɪ ᴛʜɪểᴜ ʟà &#FFD700%minBet% ⛀
+      &#fcfcfc❖ ᴍứᴄ ᴄượᴄ ᴛốɪ đᴀ ʟà &#FFD700%maxBet% ⛀
+      &#fcfcfc❖ ᴋʜɪ ᴛʜắɴɢ, ʙạɴ ѕẽ ɴʜậɴ đượᴄ &#57F287ɢấᴘ đôɪ &#fcfcfcѕố ᴛɪềɴ
+    button:
+      goBack:
+        name: '&#FFD700ᴛʀở ᴠề'
+      close:
+        name: '&#FFB7B2đóɴɢ'
+  info:
+    title: '&#AEC6CF❁ ᴛʜôɴɢ ᴛɪɴ ᴘʜɪêɴ ❁'
+    content:
+      content: |-
+        &#fcfcfcᴛàɪ xỉᴜ ᴘʜɪêɴ ѕố &#FCD05C#%session%
+        &#fcfcfcᴋếᴛ ǫᴜả ѕẽ ᴄó ѕᴀᴜ: &#FFD700%time% ɢɪâʏ
+
+        &#B9FBC0ɴɢườɪ ᴄʜọɴ xỉᴜ:
+        %xiuPlayers%
+        &#FFB7B2ɴɢườɪ ᴄʜọɴ ᴛàɪ:
+        %taiPlayers%
+        &#fcfcfcᴛổɴɢ ᴛɪềɴ ᴄượᴄ: &#57F287%totalBet% ⛀
+      placeholders:
+        xiuPlayers: |
+          &#B9FBC0%player% &#E0E0E0- &#FFD700%money% ⛀
+        taiPlayers: |
+          &#FFB7B2%player% &#E0E0E0- &#FFD700%money% ⛀
+    button:
+      goBack:
+        name: '&#FFD700ᴛʀở ᴠề'
+      close:
+        name: '&#FFB7B2đóɴɢ'
+  bet:
+    title: '&#FFD700❁ đặᴛ ᴄượᴄ ❁'
+    order:
+      '1':
+        label: '&#fcfcfcʙạɴ đᴀɴɢ ᴄượᴄ ᴠàᴏ ᴘʜɪêɴ &#FCD05C#%session%&#fcfcfc. ᴄòɴ &#FFD700%secondsLeft% ɢɪâʏ &#fcfcfcđể ᴄượᴄ ᴛʀướᴄ ᴋʜɪ ᴋʜóᴀ.'
+      '2':
+        dropdown:
+          name: '&#fcfcfcᴠᴜɪ ʟòɴɢ ᴄʜọɴ ᴄửᴀ ᴄượᴄ:'
+          options:
+            tai: '&#FFB7B2ᴛàɪ'
+            xiu: '&#B9FBC0xỉᴜ'
+      '3':
+        input:
+          name: '&#fcfcfcѕố ᴛɪềɴ ᴍᴜốɴ ᴄượᴄ:'
+          placeholder: '%minBet% - %maxBet%'

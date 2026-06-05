@@ -1,0 +1,116 @@
+inventory:
+  armor:
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_boots
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Hỏa
+        Thiêu II",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Độc
+        Tố I",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bảo
+        Trợ III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Chấn
+        Phản V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thủy
+        Hành I",underlined:0b}],text:""},{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Sải
+        Cánh I",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 3"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:depth_strider":3,"minecraft:protection":4,"minecraft:unbreaking":3}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-baotro":3,"advancedenchantments:ae_enchantment-chanphan":5,"advancedenchantments:ae_enchantment-docto":1,"advancedenchantments:ae_enchantment-hoathieu":2,"advancedenchantments:ae_enchantment-saicanh":1,"advancedenchantments:ae_enchantment-thuyhanh":1,"advancedenchantments:repaircost":1,"advancedenchantments:slots":6}}'
+      minecraft:damage: '245'
+    schema_version: 1
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:chainmail_helmet
+    count: 1
+    components:
+      minecraft:lore: '[{color:"#DB0000",translate:"Baked by a chef and hermit known
+        for"},{color:"#DB0000",translate:"extensive and exquisite branch mining"},"
+        ",{color:"gray",translate:"Awarded for achieving"},{color:"light_purple",italic:0b,translate:"Master
+        Miner"}]'
+      minecraft:unbreakable: '{}'
+      minecraft:custom_name: '{bold:1b,color:"#F1F1F1",italic:0b,translate:"Tinfoil
+        Mining Helmet"}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:banner_patterns","minecraft:base_color","minecraft:dyed_color","minecraft:fireworks","minecraft:firework_explosion","minecraft:instrument","minecraft:potion_contents","minecraft:provides_banner_patterns","minecraft:provides_trim_material","minecraft:stored_enchantments","minecraft:trim","minecraft:unbreakable","minecraft:written_book_content"]}'
+      minecraft:custom_model_data: '{floats:[131.0f]}'
+      minecraft:custom_data: '{Trophy:1b}'
+      minecraft:trim: '{material:"minecraft:gold",pattern:"minecraft:tide"}'
+    schema_version: 1
+  content:
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_boots
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Hỏa
+        Thiêu II",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Độc
+        Tố I",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bảo
+        Trợ III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Chấn
+        Phản V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thủy
+        Hành I",underlined:0b}],text:""},{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Sải
+        Cánh I",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 3"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:depth_strider":3,"minecraft:protection":4,"minecraft:unbreaking":3}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-baotro":3,"advancedenchantments:ae_enchantment-chanphan":5,"advancedenchantments:ae_enchantment-docto":1,"advancedenchantments:ae_enchantment-hoathieu":2,"advancedenchantments:ae_enchantment-saicanh":1,"advancedenchantments:ae_enchantment-thuyhanh":1,"advancedenchantments:repaircost":1,"advancedenchantments:slots":6}}'
+      minecraft:damage: '245'
+    schema_version: 1
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:chainmail_helmet
+    count: 1
+    components:
+      minecraft:lore: '[{color:"#DB0000",translate:"Baked by a chef and hermit known
+        for"},{color:"#DB0000",translate:"extensive and exquisite branch mining"},"
+        ",{color:"gray",translate:"Awarded for achieving"},{color:"light_purple",italic:0b,translate:"Master
+        Miner"}]'
+      minecraft:unbreakable: '{}'
+      minecraft:custom_name: '{bold:1b,color:"#F1F1F1",italic:0b,translate:"Tinfoil
+        Mining Helmet"}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:banner_patterns","minecraft:base_color","minecraft:dyed_color","minecraft:fireworks","minecraft:firework_explosion","minecraft:instrument","minecraft:potion_contents","minecraft:provides_banner_patterns","minecraft:provides_trim_material","minecraft:stored_enchantments","minecraft:trim","minecraft:unbreakable","minecraft:written_book_content"]}'
+      minecraft:custom_model_data: '{floats:[131.0f]}'
+      minecraft:custom_data: '{Trophy:1b}'
+      minecraft:trim: '{material:"minecraft:gold",pattern:"minecraft:tide"}'
+    schema_version: 1
+  - null
+  - null
+  - null

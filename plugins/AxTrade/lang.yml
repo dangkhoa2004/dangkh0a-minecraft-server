@@ -1,0 +1,108 @@
+player-help:
+- ' '
+- '&#FCD05C❁ ʜệ ᴛʜốɴɢ ɢɪᴀᴏ ᴅịᴄʜ ❁'
+- ' &#E0E0E0❖ &#a8e6cf/trade <tên> &#E0E0E0- ɢửɪ ʏêᴜ ᴄầᴜ ɢɪᴀᴏ ᴅịᴄʜ'
+- ' &#E0E0E0❖ &#a8e6cf/trade accept <tên> &#E0E0E0- Đồɴɢ ý ɢɪᴀᴏ ᴅịᴄʜ'
+- ' &#E0E0E0❖ &#a8e6cf/trade deny <tên> &#E0E0E0- ᴛừ ᴄʜốɪ ɢɪᴀᴏ ᴅịᴄʜ'
+- ' &#E0E0E0❖ &#a8e6cf/trade toggle &#E0E0E0- ʙậᴛ/ᴛắᴛ ɴʜậɴ ʏêᴜ ᴄầᴜ'
+- ' '
+
+admin-help:
+- ' '
+- '&#FFB7B2❁ ǫᴜảɴ ᴛʀị ɢɪᴀᴏ ᴅịᴄʜ ❁'
+- ' &#E0E0E0❖ &#a8e6cf/trade <tên> &#E0E0E0- ɢửɪ ʏêᴜ ᴄầᴜ ɢɪᴀᴏ ᴅịᴄʜ'
+- ' &#E0E0E0❖ &#a8e6cf/trade accept <tên> &#E0E0E0- Đồɴɢ ý'
+- ' &#E0E0E0❖ &#a8e6cf/trade deny <tên> &#E0E0E0- ᴛừ ᴄʜốɪ'
+- ' &#E0E0E0❖ &#a8e6cf/trade reload &#E0E0E0- ᴛảɪ ʟạɪ ᴘʟᴜɢɪɴ'
+- ' &#E0E0E0❖ &#a8e6cf/trade force <tên> &#E0E0E0- Éᴘ ɢɪᴀᴏ ᴅịᴄʜ'
+- ' &#E0E0E0❖ &#a8e6cf/trade preview &#E0E0E0- xᴇᴍ ᴛʀướᴄ ᴍᴇɴᴜ'
+- ' '
+
+reload:
+  success: '&#57F287&l(!) &#E0E0E0đã ᴛảɪ ʟạɪ ᴄấᴜ ʜìɴʜ AxTrade ᴛʜàɴʜ ᴄôɴɢ!'
+  failed: '&#ED4245&l(!) &#E0E0E0ʟỗɪ ᴋʜɪ ᴛảɪ ʟạɪ! ᴠᴜɪ ʟòɴɢ ᴋɪểᴍ ᴛʀᴀ ғɪʟᴇ &#FFD700%file%&#E0E0E0!'
+
+trade:
+  started: '&#FCD05C&l(!) &#E0E0E0ʙạɴ đᴀɴɢ ɢɪᴀᴏ ᴅịᴄʜ ᴠớɪ &#FFD700%player%&#E0E0E0!'
+  completed: '&#57F287&l(!) &#E0E0E0ɢɪᴀᴏ ᴅịᴄʜ ᴠớɪ &#FFD700%player% &#E0E0E0đã ʜᴏàɴ ᴛấᴛ ᴛʜàɴʜ ᴄôɴɢ!'
+  aborted: '&#ED4245&l(!) &#E0E0E0ɢɪᴀᴏ ᴅịᴄʜ ᴠớɪ &#FFD700%player% &#E0E0E0đã ʙị ʜủʏ ʙỏ!'
+  blacklisted-item: '&#ED4245&l(!) &#E0E0E0ᴠậᴛ ᴘʜẩᴍ ɴàʏ ᴋʜôɴɢ ᴛʜể đưᴀ ᴠàᴏ ɢɪᴀᴏ ᴅịᴄʜ!'
+  inventory-full: '&#ED4245&l(!) &#E0E0E0ᴋʜôɴɢ ᴛʜể ᴛʜêᴍ đồ, ᴛúɪ đồ ᴄủᴀ đốɪ ᴛáᴄ đã đầʏ!'
+  preview-info: '&#FCD05C&l(!) &#E0E0E0ʙạɴ đᴀɴɢ ở ᴄʜế độ xᴇᴍ ᴛʀướᴄ (ᴄáᴄ ɴúᴛ ʙấᴍ ѕẽ ᴋʜôɴɢ ʜᴏạᴛ độɴɢ).'
+
+toggle:
+  enabled: '&#57F287&l(!) &#E0E0E0đã &#57F287&lʙậᴛ &#E0E0E0ᴛíɴʜ ɴăɴɢ ɴʜậɴ ʏêᴜ ᴄầᴜ ɢɪᴀᴏ ᴅịᴄʜ!'
+  disabled: '&#ED4245&l(!) &#E0E0E0đã &#ED4245&lᴛắᴛ &#E0E0E0ᴛíɴʜ ɴăɴɢ ɴʜậɴ ʏêᴜ ᴄầᴜ ɢɪᴀᴏ ᴅịᴄʜ!'
+
+summary:
+  get:
+    item: '&#57F287+ %amount%x %item%'
+    currency: '&#57F287+ %amount% %currency%'
+  give:
+    item: '&#ED4245- %amount%x %item%'
+    currency: '&#ED4245- %amount% %currency%'
+
+currency-editor:
+  success: '&#57F287&l(!) &#E0E0E0đã ᴄậᴘ ɴʜậᴛ ѕố ʟượɴɢ ᴛʜàɴʜ ᴄôɴɢ!'
+  failed: '&#ED4245&l(!) &#E0E0E0ɢɪá ᴛʀị ɴʜậᴘ ᴠàᴏ ᴋʜôɴɢ ʜợᴘ ʟệ!'
+  not-enough: '&#ED4245&l(!) &#E0E0E0ʙạɴ ᴋʜôɴɢ đủ ѕố dư để ᴛʜựᴄ ʜɪệɴ!'
+
+request:
+  sent-sender: '&#57F287&l(!) &#E0E0E0đã ɢửɪ ʏêᴜ ᴄầᴜ ɢɪᴀᴏ ᴅịᴄʜ ᴛớɪ &#FFD700%player%&#E0E0E0!'
+  sent-receiver:
+    info: '&#FCD05C&l(!) &#E0E0E0ʙạɴ ɴʜậɴ đượᴄ ʏêᴜ ᴄầᴜ ɢɪᴀᴏ ᴅịᴄʜ ᴛừ &#FFD700%player%&#E0E0E0!'
+    accept:
+      message: '&#57F287[✔ ᴄʜấᴘ ɴʜậɴ]'
+      hover: '&#E0E0E0ɴʜấɴ để Đồɴɢ Ý ɢɪᴀᴏ ᴅịᴄʜ ᴠớɪ ɴɢườɪ ɴàʏ'
+    deny:
+      message: '&#ED4245[✖ ᴛừ ᴄʜốɪ]'
+      hover: '&#E0E0E0ɴʜấɴ để ᴛừ ᴄʜốɪ ʏêᴜ ᴄầᴜ ɢɪᴀᴏ ᴅịᴄʜ'
+  no-request: '&#ED4245&l(!) &#E0E0E0ʙạɴ ᴋʜôɴɢ ᴄó ʏêᴜ ᴄầᴜ ɢɪᴀᴏ ᴅịᴄʜ ɴàᴏ ᴛừ &#FFD700%player%&#E0E0E0!'
+  deny-sender: '&#ED4245&l(!) &#E0E0E0ʏêᴜ ᴄầᴜ ɢɪᴀᴏ ᴅịᴄʜ ᴛớɪ &#FFD700%player% &#E0E0E0đã ʙị ᴛừ ᴄʜốɪ!'
+  deny-receiver: '&#ED4245&l(!) &#E0E0E0đã ᴛừ ᴄʜốɪ ʏêᴜ ᴄầᴜ ɢɪᴀᴏ ᴅịᴄʜ ᴛừ &#FFD700%player%&#E0E0E0!'
+  cant-trade-self: '&#ED4245&l(!) &#E0E0E0ʙạɴ ᴋʜôɴɢ ᴛʜể ɢɪᴀᴏ ᴅịᴄʜ ᴠớɪ ᴄʜíɴʜ ᴍìɴʜ!'
+  already-in-trade: '&#ED4245&l(!) &#E0E0E0ɴɢườɪ ɴàʏ đᴀɴɢ ɢɪᴀᴏ ᴅịᴄʜ ᴠớɪ ᴍộᴛ ɴɢườɪ ᴋʜáᴄ!'
+  already-sent: '&#FCD05C&l(!) &#E0E0E0ʙạɴ đã ɢửɪ ʏêᴜ ᴄầᴜ ᴄʜᴏ &#FFD700%player% &#E0E0E0ʀồɪ, ʜãʏ ᴄʜờ ʜọ xáᴄ ɴʜậɴ!'
+  too-far: '&#ED4245&l(!) &#E0E0E0ʙạɴ đᴀɴɢ ở ǫᴜá xᴀ &#FFD700%player% &#E0E0E0để ɢɪᴀᴏ ᴅịᴄʜ!'
+  not-accepting: '&#ED4245&l(!) &#E0E0E0ɴɢườɪ ɴàʏ đᴀɴɢ ᴛắᴛ ᴛíɴʜ ɴăɴɢ ɴʜậɴ ɢɪᴀᴏ ᴅịᴄʜ!'
+  disallowed-gamemode: '&#ED4245&l(!) &#E0E0E0ᴍộᴛ ᴛʀᴏɴɢ ʜᴀɪ ɴɢườɪ đᴀɴɢ ở ᴄʜế độ ᴄʜơɪ ᴋʜôɴɢ ʜợᴘ ʟệ!'
+  same-ip: '&#ED4245&l(!) &#E0E0E0ᴋʜôɴɢ ᴛʜể ɢɪᴀᴏ ᴅịᴄʜ ᴠớɪ ɴɢườɪ ᴄó ᴄùɴɢ địᴀ ᴄʜỉ IP!'
+  below-required-amount: '&#ED4245&l(!) &#E0E0E0ʏêᴜ ᴄầᴜ ɢɪᴀᴏ ᴅịᴄʜ ᴛốɪ ᴛʜɪểᴜ &#FFD700%amount% %currency%&#E0E0E0!'
+  blacklisted-world: '&#ED4245&l(!) &#E0E0E0ᴛíɴʜ ɴăɴɢ ɢɪᴀᴏ ᴅịᴄʜ ʙị ᴠô ʜɪệᴜ ʜóᴀ ở ᴛʜế ɢɪớɪ ɴàʏ!'
+  expired: '&#ED4245&l(!) &#E0E0E0ʏêᴜ ᴄầᴜ ɢɪᴀᴏ ᴅịᴄʜ ᴠớɪ &#FFD700%player% &#E0E0E0đã ʜếᴛ ʜạɴ!'
+  disabled-trading: '&#ED4245&l(!) &#E0E0E0ʙạɴ đᴀɴɢ ᴛắᴛ ɴʜậɴ ɢɪᴀᴏ ᴅịᴄʜ. ɢõ &#FFD700/trade toggle &#E0E0E0để ʙậᴛ.'
+
+currency-editor-sign:
+- ''
+- '&#E0E0E0-----------'
+- '&#FFD700ɴʜậᴘ ѕố ʟượɴɢ'
+- '&#fcfcfcᴠàᴏ ᴅòɴɢ 1'
+
+sounds:
+  started: entity.player.levelup
+  completed: entity.player.levelup
+  aborted: block.anvil.place
+  deny: block.anvil.place
+  requested: entity.experience_orb.pickup
+  accept: ui.button.click
+  countdown: block.note_block.bell
+  cancel: ui.button.click
+
+placeholders:
+  ready: '&#57F287Sẵn Sàng'
+  waiting: '&#E0E0E0Đang Chờ...'
+
+commands:
+  invalid-value: '&#ED4245&l(!) &#E0E0E0ᴛʜᴀᴍ ѕố ᴋʜôɴɢ ʜợᴘ ʟệ: &#FFD700%value%'
+  invalid-command: '&#ED4245&l(!) &#E0E0E0ᴄú ᴘʜáᴘ ʟệɴʜ ᴋʜôɴɢ ʜợᴘ ʟệ!'
+  missing-argument: '&#ED4245&l(!) &#E0E0E0ᴛʜɪếᴜ ᴛʜᴀᴍ ѕố &#FFD700%value%&#E0E0E0!'
+  no-permission: '&#ED4245&l(!) &#E0E0E0ʙạɴ ᴋʜôɴɢ đủ ǫᴜʏềɴ ѕử ᴅụɴɢ ʟệɴʜ ɴàʏ!'
+  out-of-range: '&#ED4245&l(!) &#E0E0E0ѕố &#FFD700%number% &#E0E0E0ᴘʜảɪ ᴛừ &#FFD700%min% &#E0E0E0đếɴ &#FFD700%max%&#E0E0E0!'
+  player-only: '&#ED4245&l(!) &#E0E0E0ᴄʜỉ ɴɢườɪ ᴄʜơɪ ᴍớɪ ᴄó ᴛʜể ᴅùɴɢ ʟệɴʜ ɴàʏ!'
+  invalid-player: '&#ED4245&l(!) &#E0E0E0ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ɴɢườɪ ᴄʜơɪ &#FFD700%player%&#E0E0E0!'
+  invalid-selector: '&#ED4245&l(!) &#E0E0E0ᴋʜôɴɢ ᴛʜể ᴅùɴɢ ѕᴇʟᴇᴄᴛᴏʀ ở ʟệɴʜ ɴàʏ!'
+
+update-notifier: '&#57F287&l(!) &#E0E0E0đã ᴄó ʙảɴ ᴄậᴘ ɴʜậᴛ AxTrade ᴍớɪ: &#FFD700%latest% &#E0E0E0(đᴀɴɢ ᴅùɴɢ: %current%)'
+safety: '&#ED4245&l(!) &#E0E0E0ᴛíɴʜ ɴăɴɢ đã ʙị ᴋʜóᴀ ᴠì ʟý ᴅᴏ ʙảᴏ ᴍậᴛ. ᴠᴜɪ ʟòɴɢ ʟɪêɴ ʜệ ᴀᴅᴍɪɴ.'
+
+version: 9

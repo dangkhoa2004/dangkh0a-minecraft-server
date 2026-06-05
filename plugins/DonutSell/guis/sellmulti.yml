@@ -1,0 +1,313 @@
+sellmulti:
+  title: "&x&B&D&B&2&F&F&l❁ ʜệ ѕố ɴʜâɴ ʙáɴ đồ ❁"
+  rows: 6
+
+  buttons:
+    categories:
+      crops:
+        name: "&x&F&C&D&0&5&C&lɴôɴɢ ѕảɴ"
+        slot: 36
+        icon: "WHEAT"
+        lore:
+        - ""
+        - "&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ʙáɴ ɴôɴɢ ѕảɴ để"
+        - "&x&E&0&E&0&E&0ᴛăɴɢ ʜệ ѕố ɴʜâɴ ʙáɴ đồ!"
+        - ""
+        - "&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴍụᴄ ᴛɪêᴜ ʜệ ѕố: &x&5&7&F&2&8&7{multiplier}x"
+        - "&x&F&C&F&C&F&C❖ &x&5&7&F&2&8&7{progress}&r &x&5&7&F&2&8&7%progress%%"
+      ores:
+        name: "&x&F&C&D&0&5&C&lᴋʜᴏáɴɢ ѕảɴ"
+        slot: 37
+        icon: "DIAMOND"
+        lore:
+        - ""
+        - "&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ʙáɴ ᴋʜᴏáɴɢ ѕảɴ để"
+        - "&x&E&0&E&0&E&0ᴛăɴɢ ʜệ ѕố ɴʜâɴ ʙáɴ đồ!"
+        - ""
+        - "&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴍụᴄ ᴛɪêᴜ ʜệ ѕố: &x&5&7&F&2&8&7{multiplier}x"
+        - "&x&F&C&F&C&F&C❖ &x&5&7&F&2&8&7{progress}&r &x&5&7&F&2&8&7%progress%%"
+      mob-drops:
+        name: "&x&F&C&D&0&5&C&lᴠậᴛ ᴘʜẩᴍ ǫᴜáɪ ᴠậᴛ"
+        slot: 38
+        icon: "BONE"
+        lore:
+        - ""
+        - "&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ʙáɴ ᴠậᴛ ᴘʜẩᴍ ǫᴜáɪ ᴠậᴛ để"
+        - "&x&E&0&E&0&E&0ᴛăɴɢ ʜệ ѕố ɴʜâɴ ʙáɴ đồ!"
+        - ""
+        - "&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴍụᴄ ᴛɪêᴜ ʜệ ѕố: &x&5&7&F&2&8&7{multiplier}x"
+        - "&x&F&C&F&C&F&C❖ &x&5&7&F&2&8&7{progress}&r &x&5&7&F&2&8&7%progress%%"
+      natural-items:
+        name: "&x&F&C&D&0&5&C&lᴠậᴛ ᴘʜẩᴍ ᴛự ɴʜɪêɴ"
+        slot: 39
+        icon: "OAK_LEAVES"
+        lore:
+        - ""
+        - "&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ʙáɴ ᴠậᴛ ᴘʜẩᴍ ᴛự ɴʜɪêɴ để"
+        - "&x&E&0&E&0&E&0ᴛăɴɢ ʜệ ѕố ɴʜâɴ ʙáɴ đồ!"
+        - ""
+        - "&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴍụᴄ ᴛɪêᴜ ʜệ ѕố: &x&5&7&F&2&8&7{multiplier}x"
+        - "&x&F&C&F&C&F&C❖ &x&5&7&F&2&8&7{progress}&r &x&5&7&F&2&8&7%progress%%"
+      armor-tools:
+        name: "&x&F&C&D&0&5&C&lɢɪáᴘ & ᴄôɴɢ ᴄụ"
+        slot: 40
+        icon: "NETHERITE_HELMET"
+        lore:
+        - ""
+        - "&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ʙáɴ ɢɪáᴘ & ᴄôɴɢ ᴄụ để"
+        - "&x&E&0&E&0&E&0ᴛăɴɢ ʜệ ѕố ɴʜâɴ ʙáɴ đồ!"
+        - ""
+        - "&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴍụᴄ ᴛɪêᴜ ʜệ ѕố: &x&5&7&F&2&8&7{multiplier}x"
+        - "&x&F&C&F&C&F&C❖ &x&5&7&F&2&8&7{progress}&r &x&5&7&F&2&8&7%progress%%"
+      fish:
+        name: "&x&F&C&D&0&5&C&lᴄá"
+        slot: 41
+        icon: "TROPICAL_FISH"
+        lore:
+        - ""
+        - "&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ʙáɴ ᴄá để ᴛăɴɢ ʜệ ѕố"
+        - "&x&E&0&E&0&E&0ɴʜâɴ ʙáɴ đồ ᴄủᴀ ʙạɴ!"
+        - ""
+        - "&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴍụᴄ ᴛɪêᴜ ʜệ ѕố: &x&5&7&F&2&8&7{multiplier}x"
+        - "&x&F&C&F&C&F&C❖ &x&5&7&F&2&8&7{progress}&r &x&5&7&F&2&8&7%progress%%"
+      enchanted-books:
+        name: "&x&F&C&D&0&5&C&lѕáᴄʜ ᴘʜù ᴘʜéᴘ"
+        slot: 42
+        icon: "ENCHANTED_BOOK"
+        lore:
+        - ""
+        - "&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ʙáɴ ѕáᴄʜ ᴘʜù ᴘʜéᴘ để"
+        - "&x&E&0&E&0&E&0ᴛăɴɢ ʜệ ѕố ɴʜâɴ ʙáɴ đồ!"
+        - ""
+        - "&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴍụᴄ ᴛɪêᴜ ʜệ ѕố: &x&5&7&F&2&8&7{multiplier}x"
+        - "&x&F&C&F&C&F&C❖ &x&5&7&F&2&8&7{progress}&r &x&5&7&F&2&8&7%progress%%"
+      potions:
+        name: "&x&F&C&D&0&5&C&lᴛʜᴜốᴄ ᴘʜᴀ ᴄʜế"
+        slot: 43
+        icon: "POTION"
+        lore:
+        - ""
+        - "&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ʙáɴ ᴛʜᴜốᴄ ᴘʜᴀ ᴄʜế để"
+        - "&x&E&0&E&0&E&0ᴛăɴɢ ʜệ ѕố ɴʜâɴ ʙáɴ đồ!"
+        - ""
+        - "&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴍụᴄ ᴛɪêᴜ ʜệ ѕố: &x&5&7&F&2&8&7{multiplier}x"
+        - "&x&F&C&F&C&F&C❖ &x&5&7&F&2&8&7{progress}&r &x&5&7&F&2&8&7%progress%%"
+      blocks:
+        name: "&x&F&C&D&0&5&C&lᴋʜốɪ ʙʟᴏᴄᴋ"
+        slot: 44
+        icon: "BRICK"
+        lore:
+        - ""
+        - "&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ʙáɴ ᴋʜốɪ ʙʟᴏᴄᴋ để"
+        - "&x&E&0&E&0&E&0ᴛăɴɢ ʜệ ѕố ɴʜâɴ ʙáɴ đồ!"
+        - ""
+        - "&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴍụᴄ ᴛɪêᴜ ʜệ ѕố: &x&5&7&F&2&8&7{multiplier}x"
+        - "&x&F&C&F&C&F&C❖ &x&5&7&F&2&8&7{progress}&r &x&5&7&F&2&8&7%progress%%"
+
+  category-item-worth-list:
+    titles:
+      crops: '&x&F&C&D&0&5&C&lɴôɴɢ ѕảɴ'
+      mob-drops: '&x&F&C&D&0&5&C&lᴠậᴛ ᴘʜẩᴍ ǫᴜáɪ ᴠậᴛ'
+      ores: '&x&F&C&D&0&5&C&lᴋʜᴏáɴɢ ѕảɴ'
+      natural-items: '&x&F&C&D&0&5&C&lᴠậᴛ ᴘʜẩᴍ ᴛự ɴʜɪêɴ'
+      armor-tools: '&x&F&C&D&0&5&C&lɢɪáᴘ & ᴄôɴɢ ᴄụ'
+      fish: '&x&F&C&D&0&5&C&lᴄá'
+      enchanted-books: '&x&F&C&D&0&5&C&lѕáᴄʜ ᴘʜù ᴘʜéᴘ'
+      potions: '&x&F&C&D&0&5&C&lᴛʜᴜốᴄ ᴘʜᴀ ᴄʜế'
+      blocks: '&x&F&C&D&0&5&C&lᴋʜốɪ ʙʟᴏᴄᴋ'
+
+    navigation:
+      previous-page-slot: 48
+      previous-page:
+        material: ARROW
+        displayname: '&x&E&D&4&2&4&5&lᴛʀᴀɴɢ ᴛʀướᴄ'
+        lore:
+        - '&x&E&D&4&2&4&5▶ &x&E&0&E&0&E&0ɴʜấɴ để ǫᴜᴀʏ ʟạɪ ᴛʀᴀɴɢ ᴛʀướᴄ'
+
+      next-page-slot: 50
+      next-page:
+        material: ARROW
+        displayname: '&x&5&7&F&2&8&7&lᴛʀᴀɴɢ ᴛɪếᴘ'
+        lore:
+        - '&x&5&7&F&2&8&7▶ &x&E&0&E&0&E&0ɴʜấɴ để ᴄʜᴜʏểɴ ѕᴀɴɢ ᴛʀᴀɴɢ ᴛɪếᴘ'
+
+      close-button:
+        slot: 45
+        material: RED_STAINED_GLASS_PANE
+        displayname: '&x&E&D&4&2&4&5&l✖ ᴛʜᴏáᴛ'
+        lore:
+        - '&x&E&D&4&2&4&5▶ &x&E&0&E&0&E&0ɴʜấɴ để đóɴɢ ᴍᴇɴᴜ'
+
+  titles-progress-gui:
+    WHEAT: '&x&B&D&B&2&F&F&l❁ ᴛɪếɴ độ ɴôɴɢ ѕảɴ ❁'
+    BONE: '&x&B&D&B&2&F&F&l❁ ᴛɪếɴ độ ǫᴜáɪ ᴠậᴛ ❁'
+    DIAMOND: '&x&B&D&B&2&F&F&l❁ ᴛɪếɴ độ ᴋʜᴏáɴɢ ѕảɴ ❁'
+    OAK_LEAVES: '&x&B&D&B&2&F&F&l❁ ᴛɪếɴ độ ᴛự ɴʜɪêɴ ❁'
+    NETHERITE_HELMET: '&x&B&D&B&2&F&F&l❁ ᴛɪếɴ độ ɢɪáᴘ & ᴄôɴɢ ᴄụ ❁'
+    TROPICAL_FISH: '&x&B&D&B&2&F&F&l❁ ᴛɪếɴ độ ᴄâᴜ ᴄá ❁'
+    ENCHANTED_BOOK: '&x&B&D&B&2&F&F&l❁ ᴛɪếɴ độ ѕáᴄʜ ᴘʜù ᴘʜéᴘ ❁'
+    POTION: '&x&B&D&B&2&F&F&l❁ ᴛɪếɴ độ ᴛʜᴜốᴄ ❁'
+    BRICK: '&x&B&D&B&2&F&F&l❁ ᴛɪếɴ độ ᴋʜốɪ ʙʟᴏᴄᴋ ❁'
+
+  filler:
+    enabled: true
+    material: WHITE_STAINED_GLASS_PANE
+    displayname: ' '
+    lore: []
+
+  incomplete:
+    material: BLACK_STAINED_GLASS_PANE
+    displayname: '&x&E&D&4&2&4&5&l✖ ᴄʜưᴀ ʜᴏàɴ ᴛʜàɴʜ'
+    lore:
+    - ''
+    - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0%loading-bar% &r &x&F&C&D&0&5&C%multiplier%x &x&5&7&F&2&8&7%progress%%'
+    - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴛɪếɴ độ: &x&5&7&F&2&8&7%amount-have% &x&E&0&E&0&E&0/ &x&5&7&F&2&8&7%amount-needed% ⛃'
+
+  working:
+    material: YELLOW_STAINED_GLASS_PANE
+    displayname: '&x&F&F&D&7&0&0&l⏳ đᴀɴɢ ᴛʜựᴄ ʜɪệɴ'
+    lore:
+    - ''
+    - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0%loading-bar% &r &x&F&C&D&0&5&C%multiplier%x &x&5&7&F&2&8&7%progress%%'
+    - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴛɪếɴ độ: &x&5&7&F&2&8&7%amount-have% &x&E&0&E&0&E&0/ &x&5&7&F&2&8&7%amount-needed% ⛃'
+
+  complete:
+    material: LIME_STAINED_GLASS_PANE
+    displayname: '&x&5&7&F&2&8&7&l✔ đã ʜᴏàɴ ᴛʜàɴʜ'
+    lore:
+    - ''
+    - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0%loading-bar% &r &x&F&C&D&0&5&C%multiplier%x &x&5&7&F&2&8&7%progress%%'
+    - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴛɪếɴ độ: &x&5&7&F&2&8&7%amount-have% &x&E&0&E&0&E&0/ &x&5&7&F&2&8&7%amount-needed% ⛃'
+
+  back-button:
+    enabled: true
+    slot: 45
+    material: RED_STAINED_GLASS_PANE
+    displayname: '&x&E&D&4&2&4&5&lqᴜᴀʏ ʟạɪ'
+    lore:
+    - '&x&E&D&4&2&4&5▶ &x&E&0&E&0&E&0ɴʜấɴ để ǫᴜᴀʏ ʟạɪ ᴍᴇɴᴜ'
+
+  categories:
+    crops:
+      icon:
+        material: WHEAT
+        slot: 1
+        displayname: '&x&F&C&D&0&5&C&lɴôɴɢ ѕảɴ'
+        lore:
+        - ''
+        - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴛɪếᴘ ᴛụᴄ ʙáɴ ᴠậᴛ ᴘʜẩᴍ để'
+        - '&x&E&0&E&0&E&0ᴛăɴɢ ʜệ ѕố ɴʜâɴ ʙáɴ đồ!'
+        - ''
+        - '&x&A&E&C&6&C&F▶ &x&E&0&E&0&E&0xᴇᴍ ᴛɪếɴ độ ᴄủᴀ ʙạɴ ʙêɴ ᴅướɪ'
+    ores:
+      icon:
+        material: DIAMOND
+        slot: 1
+        displayname: '&x&F&C&D&0&5&C&lᴋʜᴏáɴɢ ѕảɴ'
+        lore:
+        - ''
+        - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴛɪếᴘ ᴛụᴄ ʙáɴ ᴠậᴛ ᴘʜẩᴍ để'
+        - '&x&E&0&E&0&E&0ᴛăɴɢ ʜệ ѕố ɴʜâɴ ʙáɴ đồ!'
+        - ''
+        - '&x&A&E&C&6&C&F▶ &x&E&0&E&0&E&0xᴇᴍ ᴛɪếɴ độ ᴄủᴀ ʙạɴ ʙêɴ ᴅướɪ'
+    mob_drops:
+      icon:
+        material: BONE
+        slot: 1
+        displayname: '&x&F&C&D&0&5&C&lᴠậᴛ ᴘʜẩᴍ ǫᴜáɪ ᴠậᴛ'
+        lore:
+        - ''
+        - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴛɪếᴘ ᴛụᴄ ʙáɴ ᴠậᴛ ᴘʜẩᴍ để'
+        - '&x&E&0&E&0&E&0ᴛăɴɢ ʜệ ѕố ɴʜâɴ ʙáɴ đồ!'
+        - ''
+        - '&x&A&E&C&6&C&F▶ &x&E&0&E&0&E&0xᴇᴍ ᴛɪếɴ độ ᴄủᴀ ʙạɴ ʙêɴ ᴅướɪ'
+    natural_items:
+      icon:
+        material: OAK_LEAVES
+        slot: 1
+        displayname: '&x&F&C&D&0&5&C&lᴠậᴛ ᴘʜẩᴍ ᴛự ɴʜɪêɴ'
+        lore:
+        - ''
+        - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴛɪếᴘ ᴛụᴄ ʙáɴ ᴠậᴛ ᴘʜẩᴍ để'
+        - '&x&E&0&E&0&E&0ᴛăɴɢ ʜệ ѕố ɴʜâɴ ʙáɴ đồ!'
+        - ''
+        - '&x&A&E&C&6&C&F▶ &x&E&0&E&0&E&0xᴇᴍ ᴛɪếɴ độ ᴄủᴀ ʙạɴ ʙêɴ ᴅướɪ'
+    armor_tools:
+      icon:
+        material: NETHERITE_HELMET
+        slot: 1
+        displayname: '&x&F&C&D&0&5&C&lɢɪáᴘ & ᴄôɴɢ ᴄụ'
+        lore:
+        - ''
+        - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴛɪếᴘ ᴛụᴄ ʙáɴ ᴠậᴛ ᴘʜẩᴍ để'
+        - '&x&E&0&E&0&E&0ᴛăɴɢ ʜệ ѕố ɴʜâɴ ʙáɴ đồ!'
+        - ''
+        - '&x&A&E&C&6&C&F▶ &x&E&0&E&0&E&0xᴇᴍ ᴛɪếɴ độ ᴄủᴀ ʙạɴ ʙêɴ ᴅướɪ'
+    fish:
+      icon:
+        material: TROPICAL_FISH
+        slot: 1
+        displayname: '&x&F&C&D&0&5&C&lᴄá'
+        lore:
+        - ''
+        - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴛɪếᴘ ᴛụᴄ ʙáɴ ᴠậᴛ ᴘʜẩᴍ để'
+        - '&x&E&0&E&0&E&0ᴛăɴɢ ʜệ ѕố ɴʜâɴ ʙáɴ đồ!'
+        - ''
+        - '&x&A&E&C&6&C&F▶ &x&E&0&E&0&E&0xᴇᴍ ᴛɪếɴ độ ᴄủᴀ ʙạɴ ʙêɴ ᴅướɪ'
+    enchanted_books:
+      icon:
+        material: ENCHANTED_BOOK
+        slot: 1
+        displayname: '&x&F&C&D&0&5&C&lѕáᴄʜ ᴘʜù ᴘʜéᴘ'
+        lore:
+        - ''
+        - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴛɪếᴘ ᴛụᴄ ʙáɴ ᴠậᴛ ᴘʜẩᴍ để'
+        - '&x&E&0&E&0&E&0ᴛăɴɢ ʜệ ѕố ɴʜâɴ ʙáɴ đồ!'
+        - ''
+        - '&x&A&E&C&6&C&F▶ &x&E&0&E&0&E&0xᴇᴍ ᴛɪếɴ độ ᴄủᴀ ʙạɴ ʙêɴ ᴅướɪ'
+    potions:
+      icon:
+        material: POTION
+        slot: 1
+        displayname: '&x&F&C&D&0&5&C&lᴛʜᴜốᴄ ᴘʜᴀ ᴄʜế'
+        lore:
+        - ''
+        - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴛɪếᴘ ᴛụᴄ ʙáɴ ᴠậᴛ ᴘʜẩᴍ để'
+        - '&x&E&0&E&0&E&0ᴛăɴɢ ʜệ ѕố ɴʜâɴ ʙáɴ đồ!'
+        - ''
+        - '&x&A&E&C&6&C&F▶ &x&E&0&E&0&E&0xᴇᴍ ᴛɪếɴ độ ᴄủᴀ ʙạɴ ʙêɴ ᴅướɪ'
+    blocks:
+      icon:
+        material: BRICK
+        slot: 1
+        displayname: '&x&F&C&D&0&5&C&lᴋʜốɪ ʙʟᴏᴄᴋ'
+        lore:
+        - ''
+        - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴛɪếᴘ ᴛụᴄ ʙáɴ ᴠậᴛ ᴘʜẩᴍ để'
+        - '&x&E&0&E&0&E&0ᴛăɴɢ ʜệ ѕố ɴʜâɴ ʙáɴ đồ!'
+        - ''
+        - '&x&A&E&C&6&C&F▶ &x&E&0&E&0&E&0xᴇᴍ ᴛɪếɴ độ ᴄủᴀ ʙạɴ ʙêɴ ᴅướɪ'
+
+multipliers:
+  base-multiplier: 1.0
+  levels:
+    1: { multi: 1.1, amountNeeded: 25000 }
+    2: { multi: 1.2, amountNeeded: 150000 }
+    3: { multi: 1.3, amountNeeded: 500000 }
+    4: { multi: 1.4, amountNeeded: 1000000 }
+    5: { multi: 1.5, amountNeeded: 5000000 }
+    6: { multi: 1.6, amountNeeded: 25000000 }
+    7: { multi: 1.7, amountNeeded: 250000000 }
+    8: { multi: 1.8, amountNeeded: 550000000 }
+    9: { multi: 1.9, amountNeeded: 850000000 }
+    10: { multi: 2.0, amountNeeded: 1000000000 }
+    11: { multi: 2.1, amountNeeded: 2000000000 }
+    12: { multi: 2.2, amountNeeded: 4000000000 }
+    13: { multi: 2.3, amountNeeded: 8000000000 }
+    14: { multi: 2.4, amountNeeded: 10000000000 }
+    15: { multi: 2.5, amountNeeded: 20000000000 }
+    16: { multi: 2.6, amountNeeded: 40000000000 }
+    17: { multi: 2.7, amountNeeded: 80000000000 }
+    18: { multi: 2.8, amountNeeded: 160000000000 }
+    19: { multi: 2.9, amountNeeded: 320000000000 }
+    20: { multi: 3.0, amountNeeded: 640000000000 }

@@ -1,0 +1,11 @@
+enabled: false
+filters:
+  exact:
+  - Moved too quickly!
+  contains:
+  - 'issued server command:'
+  - '[Vault]'
+  starts-with:
+  - Can't keep up!
+  regex:
+  - '.*lost connection: Disconnected.*'

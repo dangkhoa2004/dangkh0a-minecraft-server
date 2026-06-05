@@ -1,0 +1,15 @@
+enabled: false
+auto-update: true
+update-interval-hours: 24
+use-local-cache: true
+case-sensitive: false
+wordlist-urls:
+- https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/master/en
+- https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/master/es
+- https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/master/de
+custom-patterns:
+- n[i1]+[gq]+[e3]+r
+- f[a@]+[gq]+[o0]+t
+additional-words:
+- customword1
+- customword2

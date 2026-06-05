@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:bone"
+    },
+    "title":"\u2694 \u00A7x\u00A7F\u00A7FK\u1EBB K\u029C\u00E1\u1D1B M\u00E1\u1D1C",
+    "description":"H\u1EA1 \u0262\u1EE5\u1D04 1 \u0274\u0262\u01B0\u1EDD\u026A \u1D04\u029C\u01A1\u026A.",
+    "frame":"task",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:kills_10_enderman"
+}

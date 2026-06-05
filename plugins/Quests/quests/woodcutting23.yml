@@ -1,0 +1,31 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    block: OAK_PLANKS
+    amount: 724
+display:
+  name: "&#A3C4F3&nᴛɪềɴ ᴛʀạᴍ ᴄʜặᴛ ɢỗ:&r &#FDFD96#XXIII"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ᴄʜặᴛ ɢỗ ᴛʀêɴ ʜàɴʜ ᴛʀɪ̀ɴʜ.'
+    - '&#D1E8E2ᴘʜá ʜủʏ ᴠáɴ ɢỗ ꜱồɪ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴘʜá ᴠáɴ ɢỗ ꜱồɪ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{mining:progress}/724 ᴋʜốɪ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$3000'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "GOLDEN_AXE"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 3000"
+options:
+  category: "woodcutting"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 23
+  requires:
+    - "woodcutting22"

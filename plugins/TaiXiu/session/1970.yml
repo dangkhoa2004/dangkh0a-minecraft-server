@@ -1,0 +1,10 @@
+data:
+  session: 1970
+  dice1: 5
+  dice2: 6
+  dice3: 4
+  result: TAI
+  currency: VAULT
+  taiPlayers:
+    hazumi: 30000000
+    KaiseFitzs: 38000000

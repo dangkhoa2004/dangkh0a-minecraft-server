@@ -1,0 +1,46 @@
+TopTitle: "&#00D5FF&l♦ ᴛᴏᴘ 10 đɪểᴍ ᴅᴀɴʜ ᴛʜáɴɢ #<month> ♦"
+TotalTitle: "&#00D5FF&l♦ ᴛᴏᴘ 10 ᴛổɴɢ đɪểᴍ ᴅᴀɴʜ ♦"
+ItemTops:
+  Top:
+    Icon:
+      HavePlayer:
+        ID: PLAYER_HEAD
+        Data: 0
+        Name: "&#FFD700&l🏆 &#57F287<player_name>"
+        Lore:
+        - "&#E0E0E0đã đɪểᴍ ᴅᴀɴʜ đượᴄ: &#FFD700<days> &#E0E0E0ɴɢàʏ"
+        - "&f"
+        Glow: true
+      NoPlayer:
+        ID: PLAYER_HEAD
+        Data: 0
+        Name: "&#ED4245&l❓ ᴄʜưᴀ ᴄó ᴅữ ʟɪệᴜ"
+        Lore:
+        - "&#E0E0E0ᴄʜưᴀ ᴄó ᴀɪ đạᴛ ᴠị ᴛʀí ɴàʏ."
+        - "&f"
+        Glow: false
+  Total:
+    Icon:
+      HavePlayer:
+        ID: PLAYER_HEAD
+        Data: 0
+        Name: "&#FFD700&l🏆 &#57F287<player_name>"
+        Lore:
+        - "&#E0E0E0ᴛổɴɢ ѕố ɴɢàʏ: &#FFD700<totaldays> &#E0E0E0ɴɢàʏ"
+        - "&f"
+        Glow: true
+      NoPlayer:
+        ID: PLAYER_HEAD
+        Data: 0
+        Name: "&#ED4245&l❓ ᴄʜưᴀ ᴄó ᴅữ ʟɪệᴜ"
+        Lore:
+        - "&#E0E0E0ᴄʜưᴀ ᴄó ᴀɪ đạᴛ ᴠị ᴛʀí ɴàʏ."
+        - "&f"
+        Glow: false
+  FillItem:
+    ID: WHITE_STAINED_GLASS_PANE
+    Data: 0
+    Name: " "
+    Lore:
+    - " "
+    Glow: false

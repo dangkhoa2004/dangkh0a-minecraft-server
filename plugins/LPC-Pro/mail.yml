@@ -1,0 +1,41 @@
+# LPC Pro V2 - Mail System Configuration
+# This file controls the mail/email system for sending messages to offline players
+
+# ===========================================
+# General Settings
+# ===========================================
+enabled: false
+
+# Permission to use mail
+permission: "lpcpro.mail"
+
+# ===========================================
+# Mail Settings
+# ===========================================
+mail:
+  # Maximum mails a player can have in inbox
+  max-inbox-size: 50
+
+  # Maximum mail message length
+  max-message-length: 500
+
+  # Mail expiration (days, 0 = never)
+  expiration-days: 30
+
+  # Allow sending mail to yourself
+  allow-self-mail: false
+
+# ===========================================
+# Notifications
+# ===========================================
+notifications:
+  # Notify player on login if they have unread mail
+  notify-on-login: true
+
+  # Delay before showing notification (ticks, 20 = 1 second)
+  login-notify-delay: 60
+
+  # Sound to play when notified
+  notification-sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  sound-volume: 1.0
+  sound-pitch: 1.0

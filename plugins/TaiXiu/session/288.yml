@@ -1,0 +1,12 @@
+data:
+  session: 288
+  dice1: 1
+  dice2: 1
+  dice3: 1
+  result: SPECIAL
+  currency: VAULT
+  taiPlayers:
+    hazumi: 5000000
+  xiuPlayers:
+    LokiTheStone: 1000000
+    yunnie: 400000

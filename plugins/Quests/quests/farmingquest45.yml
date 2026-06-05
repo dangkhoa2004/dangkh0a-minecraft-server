@@ -1,0 +1,23 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 200
+    block: "RED_MUSHROOM"
+display:
+  name: "&#A3C4F3&nɴʜɪệᴍ ᴠụ ɴôɴɢ ᴛʀạɪ:&r &#FDFD96#45"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó'
+    - '&#D1E8E2ᴛʜᴜ ʜᴏạᴄʜ ᴛàɪ ɴɢᴜʏêɴ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴛʜᴜ ʜᴏạᴄʜ 200 ɴấᴍ đỏ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{mining:progress}/200 ɴấᴍ đỏ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC03,000 ᴋɪɴʜ ɴɢʜɪệᴍ'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "RED_MUSHROOM"
+rewards:
+  - "xp give {player} 3000"
+options:
+  category: "farming"
+  sort-order: 45

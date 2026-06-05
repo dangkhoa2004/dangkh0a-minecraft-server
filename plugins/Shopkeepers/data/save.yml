@@ -1,0 +1,638 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyway, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 4|2|4671
+'1':
+  uniqueId: d1b1a278-20d6-40d4-97ba-c30e9057abd8
+  world: lobby
+  x: 8
+  y: -5
+  z: -15
+  yaw: 359.52747
+  type: admin
+  name: ''
+  object:
+    type: villager
+    equipment:
+      HAND:
+        DataVersion: 4671
+        id: minecraft:book
+        count: 1
+        components:
+          minecraft:lore: '[{extra:[{bold:0b,color:"#AAAAAA",italic:0b,obfuscated:0b,strikethrough:0b,text:"Đây
+            là vật phẩm không thể vứt",underlined:0b}],text:""},{extra:[{bold:0b,color:"#AAAAAA",italic:0b,obfuscated:0b,strikethrough:0b,text:"và
+            không thể cất vào rương.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#55FF55",italic:0b,obfuscated:0b,strikethrough:0b,text:"Chuột
+            phải để sử dụng!",underlined:0b}],text:""}]'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#B9FBC0",italic:0b,obfuscated:0b,strikethrough:0b,text:"⭐
+            ",underlined:0b},{bold:1b,color:"#B9FBC0",italic:0b,obfuscated:0b,strikethrough:0b,text:"M",underlined:0b},{bold:1b,color:"#B9FBC0",italic:0b,obfuscated:0b,strikethrough:0b,text:"e",underlined:0b},{bold:1b,color:"#B9FBC0",italic:0b,obfuscated:0b,strikethrough:0b,text:"n",underlined:0b},{bold:1b,color:"#B9FBC0",italic:0b,obfuscated:0b,strikethrough:0b,text:"u
+            ",underlined:0b},{bold:1b,color:"#B9FBC0",italic:0b,obfuscated:0b,strikethrough:0b,text:"s",underlined:0b},{bold:1b,color:"#B9FBC0",italic:0b,obfuscated:0b,strikethrough:0b,text:"e",underlined:0b},{bold:1b,color:"#B9FBC0",italic:0b,obfuscated:0b,strikethrough:0b,text:"r",underlined:0b},{bold:1b,color:"#B9FBC0",italic:0b,obfuscated:0b,strikethrough:0b,text:"v",underlined:0b},{bold:1b,color:"#B9FBC0",italic:0b,obfuscated:0b,strikethrough:0b,text:"e",underlined:0b},{bold:1b,color:"#B9FBC0",italic:0b,obfuscated:0b,strikethrough:0b,text:"r
+            ",underlined:0b},{bold:1b,color:"#B9FBC0",italic:0b,obfuscated:0b,strikethrough:0b,text:"⭐",underlined:0b}],text:""}'
+          minecraft:custom_data: '{PublicBukkitValues:{"customitemaction:is_custom_action_item":1b}}'
+    baby: false
+    profession: minecraft:farmer
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:lore: '["",{extra:[" ",{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴘʜâɴ
+            ʜạɴɢ: ",underlined:0b},{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thần
+            Thoại",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛíᴄʜ
+            ʜợᴘ ᴄʜᴏ: ",underlined:0b},{bold:0b,color:"#AEC6CF",italic:0b,obfuscated:0b,strikethrough:0b,text:"Boots",underlined:0b}],text:""},"",{extra:["
+            ",{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"Có
+            thể bay khi đeo.",underlined:0b}],text:""},"",{extra:[" ",{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"«",underlined:0b},{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"100%
+            ᴛʜàɴʜ ᴄôɴɢ",underlined:0b},{color:"dark_gray",italic:0b,text:"» "},{bold:1b,color:"dark_gray",italic:0b,text:"
+            "},{bold:1b,color:"dark_gray",italic:0b,text:" "},{bold:1b,color:"dark_gray",italic:0b,text:"
+            "},{bold:0b,color:"dark_gray",italic:0b,text:"«"},{bold:0b,color:"#ED4245",italic:0b,obfuscated:0b,strikethrough:0b,text:"0%
+            ᴛʜấᴛ ʙạɪ",underlined:0b},{color:"dark_gray",italic:0b,text:"»"}],text:""}]'
+          minecraft:custom_name: '{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Sải
+            Cánh ",underlined:0b},{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:1b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:0b,color:"dark_gray",italic:0b,text:"]"}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_book":"saicanh","advancedenchantments:ae_book_failure":0,"advancedenchantments:ae_book_level":1,"advancedenchantments:ae_book_success":100}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:amethyst_shard
+        count: 20
+        components:
+          minecraft:lore: '[{extra:[{bold:0b,color:"#AAAAAA",italic:0b,obfuscated:0b,strikethrough:0b,text:"Vật
+            phẩm này dùng để trao đổi.",underlined:0b}],text:""}]'
+          minecraft:custom_name: '{extra:[{bold:0b,color:"#B955FF",italic:0b,obfuscated:0b,strikethrough:0b,text:"💎
+            Mảnh Vỡ Tinh Thể 💎",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[1000.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"customitemaction:is_shard_item":1b}}'
+    '2':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:lore: '["",{extra:[" ",{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴘʜâɴ
+            ʜạɴɢ: ",underlined:0b},{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thần
+            Thoại",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛíᴄʜ
+            ʜợᴘ ᴄʜᴏ: ",underlined:0b},{bold:0b,color:"#AEC6CF",italic:0b,obfuscated:0b,strikethrough:0b,text:"Pickaxes,
+            Shovels",underlined:0b}],text:""},"",{extra:[" ",{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"Có
+            cơ hội đào 3x3.",underlined:0b}],text:""},"",{extra:[" ",{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"«",underlined:0b},{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"100%
+            ᴛʜàɴʜ ᴄôɴɢ",underlined:0b},{color:"dark_gray",italic:0b,text:"» "},{bold:1b,color:"dark_gray",italic:0b,text:"
+            "},{bold:1b,color:"dark_gray",italic:0b,text:" "},{bold:1b,color:"dark_gray",italic:0b,text:"
+            "},{bold:0b,color:"dark_gray",italic:0b,text:"«"},{bold:0b,color:"#ED4245",italic:0b,obfuscated:0b,strikethrough:0b,text:"0%
+            ᴛʜấᴛ ʙạɪ",underlined:0b},{color:"dark_gray",italic:0b,text:"»"}],text:""}]'
+          minecraft:custom_name: '{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Đào
+            Hầm ",underlined:0b},{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:1b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"IX",underlined:0b},{bold:0b,color:"dark_gray",italic:0b,text:"]"}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_book":"daoham","advancedenchantments:ae_book_failure":0,"advancedenchantments:ae_book_level":9,"advancedenchantments:ae_book_success":100}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:amethyst_shard
+        count: 20
+        components:
+          minecraft:lore: '[{extra:[{bold:0b,color:"#AAAAAA",italic:0b,obfuscated:0b,strikethrough:0b,text:"Vật
+            phẩm này dùng để trao đổi.",underlined:0b}],text:""}]'
+          minecraft:custom_name: '{extra:[{bold:0b,color:"#B955FF",italic:0b,obfuscated:0b,strikethrough:0b,text:"💎
+            Mảnh Vỡ Tinh Thể 💎",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[1000.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"customitemaction:is_shard_item":1b}}'
+    '3':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:enchanted_book
+        count: 1
+        components:
+          minecraft:lore: '["",{extra:[" ",{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴘʜâɴ
+            ʜạɴɢ: ",underlined:0b},{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thần
+            Thoại",underlined:0b}],text:""},{extra:[" ",{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛíᴄʜ
+            ʜợᴘ ᴄʜᴏ: ",underlined:0b},{bold:0b,color:"#AEC6CF",italic:0b,obfuscated:0b,strikethrough:0b,text:"Tools",underlined:0b}],text:""},"",{extra:["
+            ",{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khiến
+            công cụ không thể phá vỡ.",underlined:0b}],text:""},"",{extra:[" ",{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"«",underlined:0b},{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"100%
+            ᴛʜàɴʜ ᴄôɴɢ",underlined:0b},{color:"dark_gray",italic:0b,text:"» "},{bold:1b,color:"dark_gray",italic:0b,text:"
+            "},{bold:1b,color:"dark_gray",italic:0b,text:" "},{bold:1b,color:"dark_gray",italic:0b,text:"
+            "},{bold:0b,color:"dark_gray",italic:0b,text:"«"},{bold:0b,color:"#ED4245",italic:0b,obfuscated:0b,strikethrough:0b,text:"0%
+            ᴛʜấᴛ ʙạɪ",underlined:0b},{color:"dark_gray",italic:0b,text:"»"}],text:""}]'
+          minecraft:custom_name: '{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bất
+            Hoại ",underlined:0b},{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:1b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:0b,color:"dark_gray",italic:0b,text:"]"}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_book":"bathoai","advancedenchantments:ae_book_failure":0,"advancedenchantments:ae_book_level":1,"advancedenchantments:ae_book_success":100}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:amethyst_shard
+        count: 20
+        components:
+          minecraft:lore: '[{extra:[{bold:0b,color:"#AAAAAA",italic:0b,obfuscated:0b,strikethrough:0b,text:"Vật
+            phẩm này dùng để trao đổi.",underlined:0b}],text:""}]'
+          minecraft:custom_name: '{extra:[{bold:0b,color:"#B955FF",italic:0b,obfuscated:0b,strikethrough:0b,text:"💎
+            Mảnh Vỡ Tinh Thể 💎",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[1000.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"customitemaction:is_shard_item":1b}}'
+  snapshots: []
+'2':
+  uniqueId: 535f1cc2-69f9-40e7-b804-4ebe1375084c
+  world: lobby
+  x: -8
+  y: -5
+  z: -15
+  yaw: 332.04474
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:toolsmith
+    villagerType: minecraft:taiga
+    villagerLevel: 3
+  recipes:
+    '1':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:paper
+        count: 1
+        components:
+          minecraft:lore: '["",{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"áᴘ
+            ᴅụɴɢ ᴄʜᴏ sáᴄʜ ",underlined:0b},{bold:0b,color:"#CCCCCC",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thường
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ʙấᴛ
+            ᴋỳ",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"để
+            ɴɢẫᴜ ɴʜɪêɴ ʜóᴀ ʟạɪ ᴛỉ ʟệ ",underlined:0b},{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜàɴʜ
+            ᴄôɴɢ ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴠà
+            ",underlined:0b},{bold:0b,color:"#ED4245",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜấᴛ
+            ʙạɪ",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#BDB2FF",italic:0b,obfuscated:0b,strikethrough:0b,text:"ʙùᴀ
+            ᴍᴀʏ ʀủɪ ",underlined:0b},{bold:1b,color:"#CCCCCC",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thường",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_scroll":"true","advancedenchantments:grouptype":"THUONG","advancedenchantments:randomizationscroll":"true"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '2':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:paper
+        count: 1
+        components:
+          minecraft:lore: '["",{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"áᴘ
+            ᴅụɴɢ ᴄʜᴏ sáᴄʜ ",underlined:0b},{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Hiếm
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ʙấᴛ
+            ᴋỳ",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"để
+            ɴɢẫᴜ ɴʜɪêɴ ʜóᴀ ʟạɪ ᴛỉ ʟệ ",underlined:0b},{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜàɴʜ
+            ᴄôɴɢ ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴠà
+            ",underlined:0b},{bold:0b,color:"#ED4245",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜấᴛ
+            ʙạɪ",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#BDB2FF",italic:0b,obfuscated:0b,strikethrough:0b,text:"ʙùᴀ
+            ᴍᴀʏ ʀủɪ ",underlined:0b},{bold:1b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Hiếm",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_scroll":"true","advancedenchantments:grouptype":"HIEM","advancedenchantments:randomizationscroll":"true"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '3':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:paper
+        count: 1
+        components:
+          minecraft:lore: '["",{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"áᴘ
+            ᴅụɴɢ ᴄʜᴏ sáᴄʜ ",underlined:0b},{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Siêu
+            Hiếm ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ʙấᴛ
+            ᴋỳ",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"để
+            ɴɢẫᴜ ɴʜɪêɴ ʜóᴀ ʟạɪ ᴛỉ ʟệ ",underlined:0b},{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜàɴʜ
+            ᴄôɴɢ ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴠà
+            ",underlined:0b},{bold:0b,color:"#ED4245",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜấᴛ
+            ʙạɪ",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#BDB2FF",italic:0b,obfuscated:0b,strikethrough:0b,text:"ʙùᴀ
+            ᴍᴀʏ ʀủɪ ",underlined:0b},{bold:1b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Siêu
+            Hiếm",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_scroll":"true","advancedenchantments:grouptype":"SIEUHIEM","advancedenchantments:randomizationscroll":"true"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '4':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:paper
+        count: 1
+        components:
+          minecraft:lore: '["",{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"áᴘ
+            ᴅụɴɢ ᴄʜᴏ sáᴄʜ ",underlined:0b},{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Sử
+            Thi ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ʙấᴛ
+            ᴋỳ",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"để
+            ɴɢẫᴜ ɴʜɪêɴ ʜóᴀ ʟạɪ ᴛỉ ʟệ ",underlined:0b},{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜàɴʜ
+            ᴄôɴɢ ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴠà
+            ",underlined:0b},{bold:0b,color:"#ED4245",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜấᴛ
+            ʙạɪ",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#BDB2FF",italic:0b,obfuscated:0b,strikethrough:0b,text:"ʙùᴀ
+            ᴍᴀʏ ʀủɪ ",underlined:0b},{bold:1b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Sử
+            Thi",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_scroll":"true","advancedenchantments:grouptype":"SUTHI","advancedenchantments:randomizationscroll":"true"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '5':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:paper
+        count: 1
+        components:
+          minecraft:lore: '["",{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"áᴘ
+            ᴅụɴɢ ᴄʜᴏ sáᴄʜ ",underlined:0b},{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Huyền
+            Thoại ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ʙấᴛ
+            ᴋỳ",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"để
+            ɴɢẫᴜ ɴʜɪêɴ ʜóᴀ ʟạɪ ᴛỉ ʟệ ",underlined:0b},{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜàɴʜ
+            ᴄôɴɢ ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴠà
+            ",underlined:0b},{bold:0b,color:"#ED4245",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜấᴛ
+            ʙạɪ",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#BDB2FF",italic:0b,obfuscated:0b,strikethrough:0b,text:"ʙùᴀ
+            ᴍᴀʏ ʀủɪ ",underlined:0b},{bold:1b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Huyền
+            Thoại",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_scroll":"true","advancedenchantments:grouptype":"HUYENTHOAI","advancedenchantments:randomizationscroll":"true"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '6':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:paper
+        count: 1
+        components:
+          minecraft:lore: '["",{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"áᴘ
+            ᴅụɴɢ ᴄʜᴏ sáᴄʜ ",underlined:0b},{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thần
+            Thoại ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ʙấᴛ
+            ᴋỳ",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"để
+            ɴɢẫᴜ ɴʜɪêɴ ʜóᴀ ʟạɪ ᴛỉ ʟệ ",underlined:0b},{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜàɴʜ
+            ᴄôɴɢ ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴠà
+            ",underlined:0b},{bold:0b,color:"#ED4245",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜấᴛ
+            ʙạɪ",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#BDB2FF",italic:0b,obfuscated:0b,strikethrough:0b,text:"ʙùᴀ
+            ᴍᴀʏ ʀủɪ ",underlined:0b},{bold:1b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thần
+            Thoại",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_scroll":"true","advancedenchantments:grouptype":"THANTHOAI","advancedenchantments:randomizationscroll":"true"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '7':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:paper
+        count: 1
+        components:
+          minecraft:lore: '[{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"sắᴘ
+            xếᴘ ᴘʜù ᴘʜéᴘ ᴛʜᴇᴏ ",underlined:0b},{bold:0b,color:"#AEC6CF",italic:0b,obfuscated:0b,strikethrough:0b,text:"độ
+            ʜɪếᴍ",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴠà
+            ᴛʜêᴍ ",underlined:0b},{bold:0b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"bộ
+            đếᴍ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"
+            ᴠàᴏ ᴛêɴ ᴠậᴛ ᴘʜẩᴍ.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#FCD05C",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴄᴜộɴ
+            ʙɪếɴ ʜìɴʜ",underlined:0b}],text:""}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_scroll":"true","advancedenchantments:transmog":"true"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '8':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:map
+        count: 1
+        components:
+          minecraft:lore: '[{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ɴɢăɴ
+            ᴄʜặɴ ᴠậᴛ ᴘʜẩᴍ ʙị ᴘʜá ʜủʏ",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋʜɪ
+            áᴘ ᴅụɴɢ sáᴄʜ ᴘʜù ᴘʜéᴘ ᴛʜấᴛ ʙạɪ.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#FCD05C",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴄᴜộɴ
+            ᴛʀắɴɢ",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_scroll":"true","advancedenchantments:whitescroll-item":"true"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '9':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:paper
+        count: 1
+        components:
+          minecraft:lore: '["",{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"Vật
+            phẩm mang Bùa Ký Chủ sẽ",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋʜôɴɢ
+            ʙị ʀơɪ ʀᴀ ᴋʜɪ ʙạɴ ᴄʜếᴛ!",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#ED4245",italic:0b,obfuscated:0b,strikethrough:0b,text:"ʙùᴀ
+            ᴋý ᴄʜủ",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_scroll":"true","advancedenchantments:holywhitescroll":"true"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '10':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:ender_eye
+        count: 1
+        components:
+          minecraft:lore: '["",{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"áᴘ
+            ᴅụɴɢ ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜêᴍ
+            ",underlined:0b},{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"+1
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋʜᴇ
+            ᴘʜù ᴘʜéᴘ",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#FCD05C",italic:0b,obfuscated:0b,strikethrough:0b,text:"đá
+            ᴛăɴɢ ᴋʜᴇ ",underlined:0b},{bold:0b,color:"#CCCCCC",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thường",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:grouptype":"THUONG","advancedenchantments:slotincreaser":"1"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '11':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:ender_eye
+        count: 1
+        components:
+          minecraft:lore: '["",{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"áᴘ
+            ᴅụɴɢ ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜêᴍ
+            ",underlined:0b},{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"+1
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋʜᴇ
+            ᴘʜù ᴘʜéᴘ",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#FCD05C",italic:0b,obfuscated:0b,strikethrough:0b,text:"đá
+            ᴛăɴɢ ᴋʜᴇ ",underlined:0b},{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Hiếm",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:grouptype":"HIEM","advancedenchantments:slotincreaser":"1"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '12':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:ender_eye
+        count: 1
+        components:
+          minecraft:lore: '["",{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"áᴘ
+            ᴅụɴɢ ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜêᴍ
+            ",underlined:0b},{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"+1
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋʜᴇ
+            ᴘʜù ᴘʜéᴘ",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#FCD05C",italic:0b,obfuscated:0b,strikethrough:0b,text:"đá
+            ᴛăɴɢ ᴋʜᴇ ",underlined:0b},{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Siêu
+            Hiếm",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:grouptype":"SIEUHIEM","advancedenchantments:slotincreaser":"1"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '13':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:ender_eye
+        count: 1
+        components:
+          minecraft:lore: '["",{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"áᴘ
+            ᴅụɴɢ ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜêᴍ
+            ",underlined:0b},{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"+1
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋʜᴇ
+            ᴘʜù ᴘʜéᴘ",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#FCD05C",italic:0b,obfuscated:0b,strikethrough:0b,text:"đá
+            ᴛăɴɢ ᴋʜᴇ ",underlined:0b},{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Huyền
+            Thoại",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:grouptype":"HUYENTHOAI","advancedenchantments:slotincreaser":"1"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '14':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:ender_eye
+        count: 1
+        components:
+          minecraft:lore: '["",{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"áᴘ
+            ᴅụɴɢ ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜêᴍ
+            ",underlined:0b},{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"+1
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋʜᴇ
+            ᴘʜù ᴘʜéᴘ",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#FCD05C",italic:0b,obfuscated:0b,strikethrough:0b,text:"đá
+            ᴛăɴɢ ᴋʜᴇ ",underlined:0b},{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Sử
+            Thi",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:grouptype":"SUTHI","advancedenchantments:slotincreaser":"1"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '15':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:ender_eye
+        count: 1
+        components:
+          minecraft:lore: '["",{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"áᴘ
+            ᴅụɴɢ ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜêᴍ
+            ",underlined:0b},{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"+1
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋʜᴇ
+            ᴘʜù ᴘʜéᴘ",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#FCD05C",italic:0b,obfuscated:0b,strikethrough:0b,text:"đá
+            ᴛăɴɢ ᴋʜᴇ ",underlined:0b},{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thần
+            Thoại",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:grouptype":"THANTHOAI","advancedenchantments:slotincreaser":"1"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '16':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:slime_ball
+        count: 1
+        components:
+          minecraft:lore: '[{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜᴇᴏ
+            ᴅõɪ số ᴋʜốɪ ʙạɴ đã ᴘʜá",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ʙằɴɢ
+            ᴄôɴɢ ᴄụ ɴàʏ.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"BlockTrak
+            Creator",underlined:0b}],text:""}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:blocktrak-item":"true"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '17':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:slime_ball
+        count: 1
+        components:
+          minecraft:lore: '[{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜᴇᴏ
+            ᴅõɪ số ǫᴜáɪ ᴠậᴛ ʙạɴ đã ɢɪếᴛ",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ʙằɴɢ
+            ᴠũ ᴋʜí ɴàʏ.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#BDB2FF",italic:0b,obfuscated:0b,strikethrough:0b,text:"MobTrak
+            Creator",underlined:0b}],text:""}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:mobtrak-item":"true"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '18':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:ink_sac
+        count: 1
+        components:
+          minecraft:lore: '[{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"xóᴀ
+            ɴɢẫᴜ ɴʜɪêɴ 1 ᴘʜù ᴘʜéᴘ",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋʜỏɪ
+            ᴠậᴛ ᴘʜẩᴍ ᴠà ʜᴏàɴ ʟạɪ ᴛʜàɴʜ sáᴄʜ.",underlined:0b}],text:""},"",{extra:["
+            ",{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"«",underlined:0b},{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"100%
+            ᴛʜàɴʜ ᴄôɴɢ",underlined:0b},{color:"dark_gray",italic:0b,text:"»"}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#888888",italic:0b,obfuscated:0b,strikethrough:0b,text:"ʙùᴀ
+            ᴛʀụᴄ xᴜấᴛ",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_scroll":"true","advancedenchantments:blackscroll":"true","advancedenchantments:success":"100"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '19':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:name_tag
+        count: 1
+        components:
+          minecraft:lore: '[{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"Đổɪ
+            ᴛêɴ ᴠậᴛ ᴘʜẩᴍ ᴛʜᴇᴏ ý ᴍᴜốɴ ᴄủᴀ ʙạɴ",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴄʜᴜộᴛ
+            ᴘʜảɪ để sử ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#FCD05C",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜẻ
+            đổɪ ᴛêɴ",underlined:0b}],text:""}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:rename-tag":"true"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '20':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:magma_cream
+        count: 1
+        components:
+          minecraft:lore: '[{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜᴇᴏ
+            ᴅõɪ số ʟượɴɢ ʜạ ɢụᴄ",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ʙằɴɢ
+            ᴠũ ᴋʜí ɴàʏ.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#FCD05C",italic:0b,obfuscated:0b,strikethrough:0b,text:"StatTrak
+            Creator",underlined:0b}],text:""}'
+          minecraft:custom_model_data: '{floats:[0.0f]}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:stattrak-item":"true"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+    '21':
+      resultItem:
+        DataVersion: 4671
+        id: minecraft:firework_star
+        count: 1
+        components:
+          minecraft:lore: '[{extra:[{bold:0b,color:"#FCFCFC",italic:0b,obfuscated:0b,strikethrough:0b,text:"❖
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴛʜᴇᴏ
+            ᴅõɪ số ᴄá ʙạɴ đã ᴄâᴜ",underlined:0b}],text:""},{extra:[{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ʙằɴɢ
+            ᴄầɴ ᴄâᴜ ɴàʏ.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#57F287",italic:0b,obfuscated:0b,strikethrough:0b,text:"▶
+            ",underlined:0b},{bold:0b,color:"#E0E0E0",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴋéᴏ
+            thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ",underlined:0b}],text:""}]'
+          minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:can_break","minecraft:enchantments","minecraft:can_place_on","minecraft:unbreakable","minecraft:written_book_content","minecraft:tropical_fish/pattern","minecraft:bundle_contents","minecraft:instrument","minecraft:container","minecraft:pot_decorations","minecraft:map_id","minecraft:fireworks","minecraft:charged_projectiles","minecraft:block_state","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:firework_explosion","minecraft:bees","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:painting/variant","minecraft:container_loot","minecraft:trim"]}'
+          minecraft:custom_name: '{extra:[{bold:1b,color:"#AEC6CF",italic:0b,obfuscated:0b,strikethrough:0b,text:"FishTrak
+            Creator",underlined:0b}],text:""}'
+          minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:fishtrak-item":"true"}}'
+      item1:
+        DataVersion: 4671
+        id: minecraft:diamond
+        count: 64
+  snapshots: []

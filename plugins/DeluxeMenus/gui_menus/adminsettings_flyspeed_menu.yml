@@ -1,0 +1,134 @@
+menu_title: '&#FCD05C&l❁ ᴛốᴄ độ ʙᴀʏ (ꜰʟʏ sᴘᴇᴇᴅ) ❁'
+register_command: true
+size: 27
+
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+      - "[message] &#ED4245✖ &8| &#ED4245Bạn không có quyền mở menu này!"
+
+items:
+  'Filler_Outer':
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+    - 0-9
+    - 17-25
+    display_name: ' '
+    priority: 10
+
+  'Filler_Inner':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 10
+    - 16
+    display_name: ' '
+    priority: 10
+
+  'flyspeed1':
+    material: FEATHER
+    slot: 11
+    priority: 1
+    update: true
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#FCD05C&l❁ ᴛốᴄ độ 1 ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Lệnh nhanh: &#FCD05C/flyspeed 1'
+    - ''
+    - '&#FCD05C▶ &#E0E0E0Nhấn để cài đặt'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+
+    - '[player] flyspeed 1'
+
+  'flyspeed3':
+    material: FEATHER
+    slot: 12
+    priority: 1
+    update: true
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#FCD05C&l❁ ᴛốᴄ độ 3 ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Lệnh nhanh: &#FCD05C/flyspeed 3'
+    - ''
+    - '&#FCD05C▶ &#E0E0E0Nhấn để cài đặt'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+
+    - '[player] flyspeed 3'
+
+  'flyspeed5':
+    material: FEATHER
+    slot: 13
+    priority: 1
+    update: true
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#FCD05C&l❁ ᴛốᴄ độ 5 ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Lệnh nhanh: &#FCD05C/flyspeed 5'
+    - ''
+    - '&#FCD05C▶ &#E0E0E0Nhấn để cài đặt'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+
+    - '[player] flyspeed 5'
+
+  'flyspeed7':
+    material: FEATHER
+    slot: 14
+    priority: 1
+    update: true
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#FCD05C&l❁ ᴛốᴄ độ 7 ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Lệnh nhanh: &#FCD05C/flyspeed 7'
+    - ''
+    - '&#FCD05C▶ &#E0E0E0Nhấn để cài đặt'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+
+    - '[player] flyspeed 7'
+
+  'flyspeed10':
+    material: FEATHER
+    slot: 15
+    priority: 1
+    update: true
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#FCD05C&l❁ ᴛốᴄ độ 10 ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Lệnh nhanh: &#FCD05C/flyspeed 10'
+    - ''
+    - '&#FCD05C▶ &#E0E0E0Nhấn để cài đặt'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+
+    - '[player] flyspeed 10'
+
+  'back':
+    material: ARROW
+    slot: 26
+    priority: 1
+    update: true
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#AEC6CF&l◀ ǫᴜᴀʏ ʟạɪ'
+    lore:
+    - ''
+    - '&#AEC6CF▶ &#E0E0E0Nhấn để quay lại'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+
+    - '[player] adminsettings'

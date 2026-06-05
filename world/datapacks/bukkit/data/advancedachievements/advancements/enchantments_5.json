@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:enchanting_table"
+    },
+    "title":"\u00A7x\u00A7A\u00A7C\u00A7FP\u029C\u00E1\u1D18 S\u01B0",
+    "description":"\u00A7x\u00A7D\u00A7E\u00A7EC\u01B0\u1EDD\u0274\u0262 \u029C\u00F3\u1D00 \u00A7x\u00A7F\u00A7D\u00A7F\u00A7D5 \u00A7x\u00A7D\u00A7E\u00A7E\u1D20\u1EAD\u1D1B \u1D18\u029C\u1EA9\u1D0D.",
+    "frame":"challenge",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:advanced_achievements_parent"
+}

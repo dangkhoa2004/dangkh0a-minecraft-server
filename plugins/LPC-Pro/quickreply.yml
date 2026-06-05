@@ -1,0 +1,30 @@
+# LPC Pro V2 - Quick Reply Configuration
+# This file controls the quick reply system for players
+# Players can save frequently used messages and send them quickly with /qr
+
+# ===========================================
+# General Settings
+# ===========================================
+enabled: true
+
+# ===========================================
+# Permissions
+# ===========================================
+permissions:
+  # Permission to use quick replies
+  base: "lpcpro.quickreply"
+  # Permission for extra slots
+  extra: "lpcpro.quickreply.extra"
+
+# ===========================================
+# Limits
+# ===========================================
+limits:
+  # Default max quick replies per player
+  default-max: 5
+
+  # Max quick replies for players with extra permission
+  extra-max: 15
+
+  # Maximum message length for a quick reply
+  max-message-length: 200

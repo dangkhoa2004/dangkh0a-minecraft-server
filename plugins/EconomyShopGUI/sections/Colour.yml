@@ -1,0 +1,29 @@
+# ###########################
+#
+# ITSMYSTUDIO - A configuration for EconomyShopGui
+# https://itsmy.studio/discord
+#
+# ###########################
+enable: true
+slot: 13
+title: Màu sắc
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: BLUE_STAINED_GLASS
+  lore:
+  - '&8Xem trước danh mục'
+  - '#ff6663 ▪ &fLen hồng'
+  - '#fe9052 ▪ &fLen trắng'
+  - '#feb94d ▪ &fĐất nung xanh nước biển'
+  - '#fde47b ▪ &fBê tông cam'
+  - '#e8f799 ▪ &fThủy tinh được nhuộm lục lam'
+  - '#f48ce2 ▪ &fvà 75 thêm...'
+  - ''
+  - '&7◆ #f48ce2Nhấn: &fMở'
+  name: '#ff6663Màu sắc'

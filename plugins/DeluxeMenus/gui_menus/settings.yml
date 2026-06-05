@@ -1,0 +1,437 @@
+menu_title: '&#FAEDCB&l❁ ᴄàɪ đặᴛ ᴄá ɴʜâɴ ❁'
+open_command:
+- playersettings
+- settings
+- caidat
+register_command: true
+size: 54
+update_interval: -1
+
+items:
+  # ==================================================
+  # TRANG TRÍ VIỀN (FILLER) - MÀU PASTEL DỊU MẮT
+  # ==================================================
+  'filler_white':
+    material: WHITE_STAINED_GLASS_PANE
+    slots: [ '0-9', '17-18', '26-27', '35', '45-53' ]
+    display_name: ' '
+
+  'filler_blue':
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    slots: [ '0', '8', '9', '17', '36', '44', '45', '53' ]
+    display_name: ' '
+
+  # ==================================================
+  # HÀNG 1: GIAO TIẾP & CƠ BẢN
+  # ==================================================
+  'msg_toggle':
+    material: OAK_SIGN
+    slot: 10
+    display_name: '&#B5EAD7&lᴛɪɴ ɴʜắɴ ʀɪêɴɢ'
+    lore:
+    - '&#E0E0E0Bật hoặc tắt tính năng nhận'
+    - '&#E0E0E0và xem tin nhắn riêng.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để thay đổi'
+    click_commands:
+    - '[player] msgtoggle'
+    - '[sound] UI_BUTTON_CLICK'
+
+  'tpa_toggle':
+    material: ENDER_PEARL
+    slot: 11
+    display_name: '&#FFB7B2&lʏêᴜ ᴄầᴜ ᴅɪ ᴄʜᴜʏểɴ'
+    lore:
+    - '&#E0E0E0Bật hoặc tắt nhận yêu cầu'
+    - '&#E0E0E0dịch chuyển (TPA) từ người khác.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để thay đổi'
+    click_commands:
+    - '[player] tptoggle'
+    - '[sound] UI_BUTTON_CLICK'
+
+  'pay_toggle':
+    material: GOLD_INGOT
+    slot: 12
+    display_name: '&#FDFD96&lᴄʜᴜʏểɴ ᴛɪềɴ'
+    lore:
+    - '&#E0E0E0Bật hoặc tắt tính năng nhận'
+    - '&#E0E0E0tiền chuyển từ người khác.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để thay đổi'
+    click_commands:
+    - '[player] paytoggle'
+    - '[sound] UI_BUTTON_CLICK'
+
+  'trade_toggle':
+    material: EMERALD
+    slot: 13
+    display_name: '&#B5EAD7&lɢɪᴀᴏ ᴅịᴄʜ'
+    lore:
+    - '&#E0E0E0Bật hoặc tắt tính năng giao dịch'
+    - '&#E0E0E0trực tiếp trong máy chủ.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để thay đổi'
+    click_commands:
+    - '[player] axtrade toggle'
+    - '[sound] UI_BUTTON_CLICK'
+
+  'gsit_toggle':
+    material: SADDLE
+    slot: 14
+    display_name: '&#FFB7B2&lᴛươɴɢ ᴛáᴄ ɢѕɪᴛ'
+    lore:
+    - '&#E0E0E0Bật hoặc tắt cho phép người'
+    - '&#E0E0E0khác click để ngồi lên bạn.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để thay đổi'
+    click_commands:
+    - '[player] gsit playertoggle'
+    - '[sound] UI_BUTTON_CLICK'
+
+  'taixiu_toggle':
+    material: BELL
+    slot: 15
+    display_name: '&#FDFD96&lᴛʜôɴɢ ʙáᴏ ᴛàɪ xỉᴜ'
+    lore:
+    - '&#E0E0E0Bật hoặc tắt các thông báo'
+    - '&#E0E0E0từ hệ thống Tài Xỉu.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để thay đổi'
+    click_commands:
+    - '[player] taixiu toggle'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    - '[message] &#B5EAD7&l(!) &#E0E0E0Đã thay đổi trạng thái thông báo Tài Xỉu!'
+
+  'claim_menu':
+    material: GOLDEN_SHOVEL
+    slot: 16
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#B5EAD7&lǫᴜảɴ ʟý ᴄʟᴀɪᴍ'
+    lore:
+    - '&#E0E0E0Mở giao diện quản lý'
+    - '&#E0E0E0các mảnh đất của bạn.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để mở'
+    click_commands:
+    - '[close]'
+    - '[player] claim'
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+
+  # ==================================================
+  # HÀNG 2: XÂY DỰNG & TRẢI NGHIỆM
+  # ==================================================
+  'pvp_toggle':
+    material: NETHERITE_SWORD
+    slot: 19
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FFB7B2&lᴄʜế độ ᴘᴠᴘ'
+    lore:
+    - '&#E0E0E0Bật hoặc tắt tính năng chiến'
+    - '&#E0E0E0đấu (PvP) cá nhân.'
+    - ''
+    - '&#FDFD96* Cần có Rank VIP để sử dụng.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để thay đổi'
+    click_commands:
+    - '[player] pvp'
+    - '[sound] UI_BUTTON_CLICK'
+
+  'scoreboard_toggle':
+    material: ITEM_FRAME
+    slot: 20
+    display_name: '&#AEC6CF&lʙảɴɢ đɪểᴍ (sᴄᴏʀᴇʙᴏᴀʀᴅ)'
+    lore:
+    - '&#E0E0E0Bật hoặc tắt hiển thị bảng'
+    - '&#E0E0E0điểm ở bên phải màn hình.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để thay đổi'
+    click_commands:
+    - '[player] tab scoreboard'
+    - '[sound] UI_BUTTON_CLICK'
+
+  # --- ĐỔI GIAO DIỆN BẢNG ĐIỂM ---
+  # --- 1. NẾU ĐANG CÓ QUYỀN TOI_GIAN -> CLICK SẼ ĐỔI SANG SUR 1 ---
+  'sb_toigian':
+    material: PAPER
+    slot: 21
+    priority: 1
+    view_requirement:
+      requirements:
+        co_quyen:
+          type: has permission
+          permission: 'sco.toigian'
+    display_name: '&#FCD05C&lBẢNG ĐIỂM: TỐI GIẢN'
+    lore:
+    - ''
+    - '&#fcfcfc❖ &#E0E0E0Trạng thái hiện tại: &#FCD05CGọn gàng'
+    - '&#E0E0E0(Hiển thị bảng điểm Tối Giản gốc)'
+    - ''
+    - '&#FCD05C▶ Nhấn chuột để đổi sang Sur 1'
+    left_click_commands:
+    - '[console] lp user %player_name% permission unset sco.toigian'
+    - '[console] lp user %player_name% permission set sco.sur.1'
+    - '[refresh]'
+
+  # --- 2. NẾU ĐANG CÓ QUYỀN SUR 1 -> CLICK SẼ ĐỔI SANG TOIGIAN 1 ---
+  'sb_sur_1':
+    material: BOOK
+    slot: 21
+    priority: 2
+    view_requirement:
+      requirements:
+        co_quyen:
+          type: has permission
+          permission: 'sco.sur.1'
+    display_name: '&#57F287&lBẢNG ĐIỂM: CHI TIẾT (SUR 1)'
+    lore:
+    - ''
+    - '&#fcfcfc❖ &#E0E0E0Trạng thái hiện tại: &#57F287Kiểu Sur 1'
+    - '&#E0E0E0(Hiển thị bảng điểm Sur kiểu 1)'
+    - ''
+    - '&#FCD05C▶ Nhấn chuột để đổi sang Tối Giản 1'
+    left_click_commands:
+    - '[console] lp user %player_name% permission unset sco.sur.1'
+    - '[console] lp user %player_name% permission set sco.toigian.1'
+    - '[refresh]'
+
+  # --- 3. NẾU ĐANG CÓ QUYỀN TOIGIAN 1 -> CLICK ĐỂ QUAY VỀ SUR MẶC ĐỊNH ---
+  'sb_toigian_1':
+    material: MAP
+    slot: 21
+    priority: 3
+    view_requirement:
+      requirements:
+        co_quyen:
+          type: has permission
+          permission: 'sco.toigian.1'
+    display_name: '&#FCD05C&lBẢNG ĐIỂM: TỐI GIẢN (KIỂU 1)'
+    lore:
+    - ''
+    - '&#fcfcfc❖ &#E0E0E0Trạng thái hiện tại: &#FCD05CKiểu Tối Giản 1'
+    - '&#E0E0E0(Hiển thị bảng điểm Tối Giản kiểu 1)'
+    - ''
+    - '&#FCD05C▶ Nhấn chuột để quay lại Sur gốc'
+    left_click_commands:
+    # Xóa quyền để quay về tay trắng = Mặc định = Bảng Sur
+    - '[console] lp user %player_name% permission unset sco.toigian.1'
+    - '[refresh]'
+
+  # --- 4. TRẠNG THÁI MẶC ĐỊNH (KHÔNG CÓ QUYỀN GÌ) -> CLICK ĐỂ ĐỔI SANG TỐI GIẢN ---
+  'sb_sur_mac_dinh':
+    material: KNOWLEDGE_BOOK
+    slot: 21
+    priority: 4 # Ưu tiên thấp nhất, chỉ hiện khi không có 3 quyền trên
+    display_name: '&#57F287&lBẢNG ĐIỂM: CHI TIẾT (SUR)'
+    lore:
+    - ''
+    - '&#fcfcfc❖ &#E0E0E0Trạng thái hiện tại: &#57F287Hiển thị đầy đủ'
+    - '&#E0E0E0(Hiển thị bảng điểm Sur gốc mặc định)'
+    - ''
+    - '&#FCD05C▶ Nhấn chuột để đổi sang Tối Giản'
+    left_click_commands:
+    - '[console] lp user %player_name% permission set sco.toigian'
+    - '[refresh]'
+  # --- FULLBRIGHT TÍCH HỢP SẴN ---
+  'fullbright_on':
+    material: SUNFLOWER
+    slot: 22
+    priority: 1
+    view_requirement:
+      requirements:
+        check_fb:
+          type: has permission
+          permission: 'setting.fullbright.on'
+    display_name: '&#FDFD96&lѕáɴɢ ᴠô ʜạɴ'
+    lore:
+    - '&#E0E0E0Trạng thái: &#B5EAD7&lĐANG BẬT'
+    - '&#E0E0E0Giúp bạn nhìn rõ trong bóng tối.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để TẮT'
+    click_commands:
+    - '[console] lp user %player_name% permission unset setting.fullbright.on'
+    - '[console] effect clear %player_name% minecraft:night_vision'
+    - '[sound] UI_BUTTON_CLICK'
+    - '[refresh]'
+
+  'fullbright_off':
+    material: SUNFLOWER
+    slot: 22
+    priority: 2
+    display_name: '&#FDFD96&lѕáɴɢ ᴠô ʜạɴ'
+    lore:
+    - '&#E0E0E0Trạng thái: &#FFB7B2&lĐÃ TẮT'
+    - '&#E0E0E0Giúp bạn nhìn rõ trong bóng tối.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để BẬT'
+    click_commands:
+    - '[console] lp user %player_name% permission set setting.fullbright.on true'
+    - '[console] effect give %player_name% minecraft:night_vision 999999 0 true'
+    - '[sound] UI_BUTTON_CLICK'
+    - '[refresh]'
+
+  'fly_toggle':
+    material: FEATHER
+    slot: 23
+    display_name: '&#AEC6CF&lᴄʜế độ ʙᴀʏ'
+    lore:
+    - '&#E0E0E0Bật hoặc tắt chế độ bay.'
+    - '&#E0E0E0(Chỉ áp dụng khi bạn có Rank'
+    - '&#E0E0E0hoặc đang đứng tại Spawn)'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để thay đổi'
+    click_commands:
+    - '[player] fly'
+    - '[sound] UI_BUTTON_CLICK'
+
+  'menu_server_toggle':
+    material: BOOK
+    slot: 24
+    display_name: '&#AEC6CF&lᴍᴇɴᴜ ᴛɪệɴ íᴄʜ'
+    lore:
+    - '&#E0E0E0Bật hoặc tắt hiển thị Menu'
+    - '&#E0E0E0vật phẩm tiện ích của Server.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để thay đổi'
+    click_commands:
+    - '[player] customitem toggle'
+    - '[sound] UI_BUTTON_CLICK'
+  'ptime_toggle':
+    material: CLOCK
+    slot: 25
+    display_name: '&#FDFD96&lᴛʜờɪ ɢɪᴀɴ ᴄá ɴʜâɴ'
+    lore:
+    - '&#E0E0E0Khóa thời gian luôn là Ban Ngày'
+    - '&#E0E0E0trên màn hình của riêng bạn.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để Bật/Tắt'
+    click_commands:
+    - '[player] ptime day'
+    - '[sound] UI_BUTTON_CLICK'
+  'pweather_toggle':
+    material: SUNFLOWER
+    slot: 28
+    display_name: '&#FFB7B2&lᴛʜờɪ ᴛɪếᴛ ᴄá ɴʜâɴ'
+    lore:
+    - '&#E0E0E0Khóa thời tiết luôn Nắng đẹp'
+    - '&#E0E0E0trên màn hình của riêng bạn.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để Bật/Tắt'
+    click_commands:
+    - '[player] pweather sun'
+    - '[sound] UI_BUTTON_CLICK'
+  'veinminer_toggle':
+    material: DIAMOND_PICKAXE
+    slot: 29
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FDFD96&lđàᴏ ǫᴜặɴɢ ɴʜᴀɴʜ'
+    lore:
+    - '&#E0E0E0Bật hoặc tắt tính năng đập'
+    - '&#E0E0E0một khối vỡ cả quặng/cây.'
+    - '&#E0E0E0(Tránh đập nhầm công trình)'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để thay đổi'
+    click_commands:
+    - '[player] veinminer toggle'
+    - '[sound] UI_BUTTON_CLICK'
+  'auraskills_toggle':
+    material: EXPERIENCE_BOTTLE
+    slot: 30
+    display_name: '&#B5EAD7&lᴛʜôɴɢ ʙáᴏ ᴋỹ ɴăɴɢ'
+    lore:
+    - '&#E0E0E0Bật hoặc tắt thanh thông báo'
+    - '&#E0E0E0nhận XP kỹ năng trên màn hình'
+    - '&#E0E0E0để màn hình gọn gàng hơn.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để thay đổi'
+    click_commands:
+    - '[player] skill toggle'
+    - '[sound] UI_BUTTON_CLICK'
+  'tags_menu':
+    material: NAME_TAG
+    slot: 31
+    display_name: '&#FDFD96&lǫᴜảɴ ʟý ᴅᴀɴʜ ʜɪệᴜ'
+    lore:
+    - '&#E0E0E0Xem và trang bị các'
+    - '&#E0E0E0danh hiệu hiển thị trên chat.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để mở'
+    click_commands:
+    - '[close]'
+    - '[player] tags'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  'team_invite_toggle':
+    material: SHIELD
+    slot: 32
+    priority: 1
+    display_name: '&#FFB7B2&lᴄʜặɴ ᴍờɪ ᴛổ độɪ (ᴛᴇᴀᴍ)'
+    lore:
+    - '&#E0E0E0Bật hoặc tắt việc nhận lời mời'
+    - '&#E0E0E0gia nhập các tổ đội (Clan/Team).'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để thay đổi'
+    click_commands:
+    - '[player] team toggle invites'
+    - '[sound] UI_BUTTON_CLICK'
+  'team_chat_toggle':
+    material: oak_hanging_sign
+    slot: 33
+    display_name: '&#FFB7B2&lᴋêɴʜ ᴄʜᴀᴛ ᴛổ độɪ'
+    lore:
+    - '&#E0E0E0Chuyển kênh nhắn tin của bạn'
+    - '&#E0E0E0vào chế độ chỉ hiển thị'
+    - '&#E0E0E0cho các thành viên trong Team.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để chuyển đổi'
+    click_commands:
+    - '[player] team chat'
+    - '[sound] UI_BUTTON_CLICK'
+  'mcmmo_ability_toggle':
+    material: IRON_PICKAXE
+    slot: 34
+    item_flags: [ HIDE_ATTRIBUTES ]
+    display_name: '&#FDFD96&lᴋʜóᴀ ᴋỹ ɴăɴɢ ᴄôɴɢ ᴄụ'
+    lore:
+    - '&#E0E0E0Bật/Tắt kỹ năng chuột phải'
+    - '&#E0E0E0của mcMMO (Siêu Cúp/Rìu...)'
+    - '&#E0E0E0để tránh đập nhầm công trình.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để thay đổi'
+    click_commands:
+    - '[player] mcability'
+    - '[sound] UI_BUTTON_CLICK'
+  'mcmmo_notify_toggle':
+    material: EXPERIENCE_BOTTLE
+    slot: 37
+    display_name: '&#B5EAD7&lẩɴ ᴛʜôɴɢ ʙáᴏ ᴋɪɴʜ ɴɢʜɪệᴍ'
+    lore:
+    - '&#E0E0E0Tắt các dòng thông báo'
+    - '&#E0E0E0nhận XP và thăng cấp mcMMO'
+    - '&#E0E0E0để kênh chat sạch sẽ hơn.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để thay đổi'
+    click_commands:
+    - '[player] mcnotify'
+    - '[sound] UI_BUTTON_CLICK'
+  'bossbar_toggle':
+    material: PAINTING
+    slot: 38
+    display_name: '&#FFB7B2&lẩɴ ᴛʜᴀɴʜ ѕự ᴋɪệɴ (ʙᴏѕѕʙᴀʀ)'
+    lore:
+    - '&#E0E0E0Ẩn thanh thông báo chạy chữ'
+    - '&#E0E0E0trên cùng màn hình của bạn.'
+    - ''
+    - '&#AEC6CF▶ Nhấn chuột để thay đổi'
+    click_commands:
+    - '[player] tab bossbar toggle'
+    - '[sound] UI_BUTTON_CLICK'
+    # ==================================================
+    # NÚT ĐÓNG MENU
+    # ==================================================
+  'close_button':
+    material: BARRIER
+    slot: 49
+    display_name: '&#FFB7B2&l✖ ǫᴜᴀʏ ʟạɪ ᴍᴇɴᴜ'
+    click_commands:
+    - '[player] menu'
+    - '[sound] BLOCK_WOODEN_BUTTON_CLICK_ON'

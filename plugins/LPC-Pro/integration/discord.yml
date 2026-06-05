@@ -1,0 +1,34 @@
+# LPC Pro V2 - Discord Integration Configuration
+# This file controls Discord <-> Minecraft chat bridging
+
+# Enable Discord integration
+enabled: false
+
+# Use DiscordSRV plugin if available (for receiving Discord messages)
+use-discordsrv: true
+
+# Bot name shown in Discord when using webhooks
+bot-name: "LPC Pro"
+
+# Bot avatar URL for webhooks
+avatar-url: ""
+
+# Channel mappings
+# Map LPC Pro channels to Discord webhooks/channels
+channels:
+  # Global chat channel example
+  global:
+    # Discord webhook URL (for sending to Discord)
+    webhook-url: "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN"
+    # Discord channel ID (for receiving from Discord via DiscordSRV)
+    discord-channel-id: "YOUR_DISCORD_CHANNEL_ID"
+    # Send messages to Discord
+    send-to-discord: true
+    # Receive messages from Discord
+    receive-from-discord: true
+    # Format for messages sent to Discord
+    # Placeholders: {player}, {message}
+    format-to-discord: "{player}: {message}"
+    # Format for messages received from Discord
+    # Placeholders: {username}, {message}
+    format-from-discord: "<blue>[Discord]</blue> <white>{username}</white>: <gray>{message}</gray>"

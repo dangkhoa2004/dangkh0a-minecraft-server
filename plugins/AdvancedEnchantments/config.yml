@@ -1,0 +1,588 @@
+language: vi
+
+commands:
+  advancedenchantments:
+    permissionMessageEnabled: true
+  enchanter:
+    enabled: true
+    command: /enchanter
+    aliases:
+    - e
+    - ce
+  tinkerer:
+    enabled: true
+    command: /tinkerer
+    aliases:
+    - tinker
+  alchemist:
+    enabled: true
+    command: /alchemist
+    aliases:
+    - alchem
+  withdrawsouls:
+    enabled: true
+    command: /withdrawsouls
+    aliases:
+    - wsouls
+  apply:
+    enabled: true
+    command: /apply
+    aliases:
+    - reapply
+
+permissions:
+  enchanter:
+    enabled: false
+    perm: ae.enchanter
+  tinkerer:
+    enabled: false
+    perm: ae.tinkerer
+  gkits:
+    enabled: false
+    perm: ae.gkits
+  alchemist:
+    enabled: false
+    perm: ae.alchemist
+
+disable-enchants:
+  test_world:
+  - test_enchant
+
+disable-armorsets:
+  test_world:
+  - test_enchant
+
+souls:
+  enabled: false
+  lore: '&cLinh Hồn Thu Thập: %souls%'
+  item:
+    type: PAPER
+    id: 0
+    custom-model-data: 0
+    name: '&f&lTheo Dõi Linh Hồn'
+    lore:
+    - '&7Áp dụng vào vũ khí để bắt đầu theo dõi'
+    - '&7linh hồn thu thập từ tiêu diệt.'
+    force-glow: false
+
+enchantLimitation:
+  enabled: true
+  lore: '&c&lKhông Thể Chỉnh Sửa'
+  NBT-tag: unmodifiable
+
+combining:
+  enabled: true
+  chances:
+    use-chances: true
+    break-item: false
+    upgrade: true
+
+slots:
+  enabled: true
+  max: 9
+  max-increase-of-slots: 20
+  display-in-lore: true
+  display: '&8[{#BDB2FF}◈&8] {#BDB2FF}kʜᴇ ᴛʀốɴɢ &7: %left%'
+
+applying:
+  cosmetics:
+    applied:
+      particle: HAPPY_VILLAGER
+      sound: ENTITY_PLAYER_LEVELUP
+    failed:
+      particle: LAVA_POP
+      sound: BLOCK_ANVIL_BREAK
+
+enchanter-books:
+  firework-on-open: true
+  cosmetics:
+    particle: HAPPY_VILLAGER
+    sound: ENTITY_PLAYER_LEVELUP
+  display-right-click-message: true
+  type: ENCHANTED_BOOK
+  id: 0
+  custom-model-data: 0
+  force-glow: false
+  name: '%group-color%&l❁ sáᴄʜ %group-name% %group-color%&l❁'
+  lore:
+  - ''
+  - '{#fcfcfc}❖ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để ɴʜậɴ ɴɢẫᴜ ɴʜɪêɴ'
+  - ' {#E0E0E0}1 ᴄᴜốɴ sáᴄʜ ᴘʜù ᴘʜéᴘ %group-color%%group-name%'
+  - ''
+
+items:
+  settings:
+    can-apply-to:
+    - ALL_SWORD
+    - ALL_ARMOR
+    - ALL_PICKAXE
+    - ALL_AXE
+    - ALL_SPADE
+    - ALL_HOE
+    - ALL_EDIBLE
+    - BOOK
+    - BOW
+    - CROSSBOW
+    - SKULL_ITEM
+    - PLAYER_HEAD
+    - ELYTRA
+    - TRIDENT
+  transmogscroll:
+    type: PAPER
+    id: 0
+    custom-model-data: 0
+    force-glow: false
+    name: '{#FCD05C}&lᴄᴜộɴ ʙɪếɴ ʜìɴʜ'
+    lore:
+    - '{#fcfcfc}❖ {#E0E0E0}sắᴘ xếᴘ ᴘʜù ᴘʜéᴘ ᴛʜᴇᴏ {#AEC6CF}độ ʜɪếᴍ'
+    - '{#E0E0E0}ᴠà ᴛʜêᴍ &dbộ đếᴍ{#E0E0E0} ᴠàᴏ ᴛêɴ ᴠậᴛ ᴘʜẩᴍ.'
+    - ''
+    - '{#57F287}▶ {#E0E0E0}ᴋéᴏ thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ'
+    enchants-count-formatting: '&d[&b&n%count%&d]'
+  soulgem:
+    type: EMERALD
+    id: 0
+    custom-model-data: 0
+    force-glow: false
+    name: '{#57F287}&lʟɪɴʜ ɴɢọᴄ &8[{#AEC6CF}%count%&8]'
+    lore:
+    - '{#57F287}▶ {#E0E0E0}áᴘ ᴅụɴɢ ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để ᴛʜêᴍ ʟɪɴʜ ʜồɴ'
+  itemnametag:
+    type: NAME_TAG
+    id: 0
+    custom-model-data: 0
+    force-glow: false
+    name: '{#FCD05C}&lᴛʜẻ đổɪ ᴛêɴ'
+    lore:
+    - '{#fcfcfc}❖ {#E0E0E0}Đổɪ ᴛêɴ ᴠậᴛ ᴘʜẩᴍ ᴛʜᴇᴏ ý ᴍᴜốɴ ᴄủᴀ ʙạɴ'
+    - ''
+    - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để sử ᴅụɴɢ'
+    messages:
+      success:
+      - '{#57F287}&l(!) {#E0E0E0}Đã đổɪ ᴛêɴ ᴠậᴛ ᴘʜẩᴍ ᴛʜàɴʜ {#FCD05C}%name%'
+      activated:
+      - '{#57F287}&l(!) {#E0E0E0}ᴛɪɴ ɴʜắɴ ᴛɪếᴘ ᴛʜᴇᴏ ᴛʀᴏɴɢ ᴄʜᴀᴛ sẽ đượᴄ ᴅùɴɢ để đổɪ ᴛêɴ ᴠậᴛ ᴘʜẩᴍ.'
+      air:
+      - '{#ED4245}&l(!) {#E0E0E0}ʙạɴ ᴘʜảɪ ᴄầᴍ ᴠậᴛ ᴘʜẩᴍ ᴛʀêɴ ᴛᴀʏ'
+      renaming-not-enchanted-item:
+      - '{#ED4245}&l(!) {#E0E0E0}ᴄʜỉ ᴄó ᴛʜể đổɪ ᴛêɴ ᴠậᴛ ᴘʜẩᴍ Đã Đượᴄ ᴘʜù ᴘʜéᴘ.'
+    settings:
+      colors: true
+      magic: true
+      word-blacklist:
+      - fuck
+      - dick
+      - bitch
+  randomization-scroll:
+    type: PAPER
+    id: 0
+    custom-model-data: 0
+    force-glow: false
+    name: '{#BDB2FF}&lʙùᴀ ᴍᴀʏ ʀủɪ %group-color%&l%group-name%'
+    lore:
+    - ''
+    - '{#fcfcfc}❖ {#E0E0E0}áᴘ ᴅụɴɢ ᴄʜᴏ sáᴄʜ %group-color%%group-name% {#E0E0E0}ʙấᴛ ᴋỳ'
+    - '{#E0E0E0}để ɴɢẫᴜ ɴʜɪêɴ ʜóᴀ ʟạɪ ᴛỉ ʟệ {#57F287}ᴛʜàɴʜ ᴄôɴɢ {#E0E0E0}ᴠà {#ED4245}ᴛʜấᴛ ʙạɪ'
+    - ''
+    - '{#57F287}▶ {#E0E0E0}ᴋéᴏ thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ'
+  black-scroll:
+    type: INK_SACK
+    id: 0
+    custom-model-data: 0
+    force-glow: false
+    name: '{#888888}&lʙùᴀ ᴛʀụᴄ xᴜấᴛ'
+    lore:
+    - '{#fcfcfc}❖ {#E0E0E0}xóᴀ ɴɢẫᴜ ɴʜɪêɴ 1 ᴘʜù ᴘʜéᴘ'
+    - '{#E0E0E0}ᴋʜỏɪ ᴠậᴛ ᴘʜẩᴍ ᴠà ʜᴏàɴ ʟạɪ ᴛʜàɴʜ sáᴄʜ.'
+    - ''
+    - ' &8«{#57F287}%success%% ᴛʜàɴʜ ᴄôɴɢ&8»'
+    - ''
+    - '{#57F287}▶ {#E0E0E0}ᴋéᴏ thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ'
+    success: 95
+    destroy: 5
+    random: true
+  secret-dust:
+    type: FIREBALL
+    id: 0
+    custom-model-data: 0
+    force-glow: false
+    name: '%group-color%&lʙụɪ ᴛʜầɴ ʙí %group-name%'
+    lore:
+    - ''
+    - '{#fcfcfc}❖ {#E0E0E0}ᴄʜứᴀ đựɴɢ ʙụɪ ᴍᴀ ᴛʜᴜậᴛ'
+    - '{#E0E0E0}ᴄʜưᴀ đượᴄ xáᴄ địɴʜ ở ʙêɴ ᴛʀᴏɴɢ.'
+    - ''
+    - '{#57F287}▶ {#E0E0E0}ᴄʜᴜộᴛ ᴘʜảɪ để xᴇᴍ ɴộɪ ᴅᴜɴɢ'
+  mystery-dust:
+    type: SULPHUR
+    id: 0
+    custom-model-data: 0
+    force-glow: false
+    name: '{#888888}&lʙụɪ ᴘʜế ᴘʜẩᴍ'
+    lore:
+    - ''
+    - '{#fcfcfc}❖ {#E0E0E0}sảɴ ᴘʜẩᴍ ᴛʜấᴛ ʙạɪ ᴛừ ǫᴜá ᴛʀìɴʜ ᴅᴜɴɢ ʜợᴘ.'
+    - '{#E0E0E0}ʟɪệᴜ ɴó ᴄó ᴛʜựᴄ sự ᴠô ᴅụɴɢ ᴋʜôɴɢ?'
+    - ''
+    settings:
+      shift-click: false
+  magic-dust:
+    type: SUGAR
+    id: 0
+    custom-model-data: 0
+    force-glow: false
+    name: '%group-color%&lʙụɪ ᴍᴀʏ ᴍắɴ %group-name%'
+    lore:
+    - ''
+    - '{#fcfcfc}❖ {#57F287}+%percent%% ᴛỉ ʟệ ᴛʜàɴʜ ᴄôɴɢ'
+    - '{#fcfcfc}❖ {#E0E0E0}áᴘ ᴅụɴɢ ᴄʜᴏ sáᴄʜ %group-color%%group-name%'
+    - '{#E0E0E0}để ᴛăɴɢ ᴛỉ ʟệ ᴛʜàɴʜ ᴄôɴɢ ʟêɴ %group-color%%percent%%'
+    - ''
+    - '{#57F287}▶ {#E0E0E0}ᴋéᴏ thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ'
+    messages:
+      cannotApplyToStacked: '{#ED4245}&l(!) {#E0E0E0}ᴄʜỉ ᴅùɴɢ đượᴄ ᴠớɪ 1 sáᴄʜ ᴍỗɪ ʟầɴ'
+  slot-increaser:
+    type: EYE_OF_ENDER
+    id: 0
+    custom-model-data: 0
+    force-glow: false
+    name: '{#FCD05C}&lđá ᴛăɴɢ ᴋʜᴇ %group-color%%group-name%'
+    lore:
+    - ''
+    - '{#fcfcfc}❖ {#E0E0E0}áᴘ ᴅụɴɢ ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để'
+    - '{#E0E0E0}ᴛʜêᴍ {#57F287}+%count% {#E0E0E0}ᴋʜᴇ ᴘʜù ᴘʜéᴘ'
+    - ''
+    - '{#57F287}▶ {#E0E0E0}ᴋéᴏ thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ'
+    messages:
+      success:
+      - '{#57F287}&l(!) {#E0E0E0}Đã ᴛăɴɢ ᴛʜàɴʜ ᴄôɴɢ ᴋʜᴇ ᴘʜù ᴘʜéᴘ ʟêɴ {#57F287}%count%{#E0E0E0}!'
+  blocktrak:
+    type: SLIME_BALL
+    id: 0
+    custom-model-data: 0
+    force-glow: false
+    name: '{#57F287}&lBlockTrak Creator'
+    lore:
+    - '{#fcfcfc}❖ {#E0E0E0}ᴛʜᴇᴏ ᴅõɪ số ᴋʜốɪ ʙạɴ đã ᴘʜá'
+    - '{#E0E0E0}ʙằɴɢ ᴄôɴɢ ᴄụ ɴàʏ.'
+    - ''
+    - '{#57F287}▶ {#E0E0E0}ᴋéᴏ thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ'
+    messages:
+      success:
+      - '{#57F287}&l(!) {#E0E0E0}Đã áᴘ ᴅụɴɢ ᴛʜàɴʜ ᴄôɴɢ {#57F287}BlockTrak Creator'
+    settings:
+      lore-display: '{#FCD05C}sᴛᴀᴛs: ᴋʜốɪ Đã ᴘʜá: {#FFD700}%stats%'
+  fishtrak:
+    type: FIREWORK_STAR
+    id: 0
+    custom-model-data: 0
+    force-glow: false
+    name: '{#AEC6CF}&lFishTrak Creator'
+    lore:
+    - '{#fcfcfc}❖ {#E0E0E0}ᴛʜᴇᴏ ᴅõɪ số ᴄá ʙạɴ đã ᴄâᴜ'
+    - '{#E0E0E0}ʙằɴɢ ᴄầɴ ᴄâᴜ ɴàʏ.'
+    - ''
+    - '{#57F287}▶ {#E0E0E0}ᴋéᴏ thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ'
+    messages:
+      success:
+      - '{#57F287}&l(!) {#E0E0E0}Đã áᴘ ᴅụɴɢ ᴛʜàɴʜ ᴄôɴɢ {#AEC6CF}FishTrak Creator'
+    settings:
+      lore-display: '{#FCD05C}sᴛᴀᴛs: ᴄá Đã ᴄâᴜ: {#FFD700}%stats%'
+  stattrak:
+    type: MAGMA_CREAM
+    id: 0
+    custom-model-data: 0
+    force-glow: false
+    name: '{#FCD05C}&lStatTrak Creator'
+    lore:
+    - '{#fcfcfc}❖ {#E0E0E0}ᴛʜᴇᴏ ᴅõɪ số ʟượɴɢ ʜạ ɢụᴄ'
+    - '{#E0E0E0}ʙằɴɢ ᴠũ ᴋʜí ɴàʏ.'
+    - ''
+    - '{#57F287}▶ {#E0E0E0}ᴋéᴏ thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ'
+    messages:
+      success:
+      - '{#57F287}&l(!) {#E0E0E0}Đã áᴘ ᴅụɴɢ ᴛʜàɴʜ ᴄôɴɢ {#FCD05C}StatTrak Creator'
+    settings:
+      lore-display: '{#FCD05C}sᴛᴀᴛs: số ʟượɴɢ ʜạ ɢụᴄ: {#FFD700}%stats%'
+  mobtrak:
+    type: SLIME_BALL
+    id: 0
+    custom-model-data: 0
+    force-glow: false
+    name: '{#BDB2FF}&lMobTrak Creator'
+    lore:
+    - '{#fcfcfc}❖ {#E0E0E0}ᴛʜᴇᴏ ᴅõɪ số ǫᴜáɪ ᴠậᴛ ʙạɴ đã ɢɪếᴛ'
+    - '{#E0E0E0}ʙằɴɢ ᴠũ ᴋʜí ɴàʏ.'
+    - ''
+    - '{#57F287}▶ {#E0E0E0}ᴋéᴏ thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ'
+    messages:
+      success:
+      - '{#57F287}&l(!) {#E0E0E0}Đã áᴘ ᴅụɴɢ ᴛʜàɴʜ ᴄôɴɢ {#BDB2FF}MobTrak Creator'
+    settings:
+      lore-display: '{#FCD05C}sᴛᴀᴛs: ǫᴜáɪ Đã ɢɪếᴛ: {#FFD700}%stats%'
+  holywhitescroll:
+    type: PAPER
+    id: 0
+    custom-model-data: 0
+    force-glow: false
+    name: '{#ED4245}&lʙùᴀ ᴋý ᴄʜủ'
+    lore:
+    - ''
+    - '{#fcfcfc}❖ {#E0E0E0}Vật phẩm mang Bùa Ký Chủ sẽ'
+    - '{#E0E0E0}ᴋʜôɴɢ ʙị ʀơɪ ʀᴀ ᴋʜɪ ʙạɴ ᴄʜếᴛ!'
+    - ''
+    - '{#57F287}▶ {#E0E0E0}ᴋéᴏ thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ'
+    messages:
+      applied:
+      - ''
+      - '{#57F287}&l(!) {#E0E0E0}ᴛʜàɴʜ ᴄôɴɢ áᴘ ᴅụɴɢ {#ED4245}ʙùᴀ ᴋý ᴄʜủ {#E0E0E0}ʟêɴ ᴠậᴛ ᴘʜẩᴍ!'
+      - ''
+    settings:
+      lore-display: '{#ED4245}✚ Đã áᴘ ᴅụɴɢ ʙùᴀ ᴋý ᴄʜủ ✚'
+      keep-after-death: true
+  orb:
+    lore: '{#AEC6CF}❖ ᴋʜᴇ ᴘʜù ᴘʜéᴘ ᴛốɪ đᴀ: {#FCD05C}%max% {#888888}(ʙùᴀ [{#57F287}+%increased%{#888888}])'
+    weapon:
+      material: EYE_OF_ENDER
+      custom-model-data: 0
+      force-glow: false
+      name: '{#FFD700}&lʙùᴀ ᴋʜởɪ sắᴄ &8[&7Vũ Khí&8]'
+      lore:
+      - ''
+      - '{#fcfcfc}❖ {#E0E0E0}ᴛʜêᴍ ᴋʜᴇ ᴘʜù ᴘʜéᴘ: {#57F287}+%new%'
+      - '{#fcfcfc}❖ {#E0E0E0}ᴋʜᴇ ᴘʜù ᴘʜéᴘ ᴛốɪ đᴀ: {#ED4245}%max%'
+      - ''
+      - '{#fcfcfc}❖ {#E0E0E0}ᴛăɴɢ ᴛʜêᴍ ᴋʜᴇ ᴘʜù ᴘʜéᴘ ᴄʜᴏ ᴠũ ᴋʜí'
+      - '{#E0E0E0}ᴄủᴀ ʙạɴ để ɴâɴɢ ɢɪớɪ ʜạɴ ʟêɴ {#57F287}%max% ô{#E0E0E0}.'
+      - ''
+      - ' &8«{#57F287}%success%% ᴛʜàɴʜ ᴄôɴɢ&8» &l &l &l &8«{#ED4245}%destroy%% ᴛʜấᴛ ʙạɪ&8»'
+      - ''
+      - '{#57F287}▶ {#E0E0E0}ᴋéᴏ thả ᴠàᴏ ᴠũ ᴋʜí để áᴘ ᴅụɴɢ'
+    armor:
+      material: EYE_OF_ENDER
+      custom-model-data: 0
+      force-glow: false
+      name: '{#FFD700}&lʙùᴀ ᴋʜởɪ sắᴄ &8[&7Giáp&8]'
+      lore:
+      - ''
+      - '{#fcfcfc}❖ {#E0E0E0}ᴛʜêᴍ ᴋʜᴇ ᴘʜù ᴘʜéᴘ: {#57F287}+%new%'
+      - '{#fcfcfc}❖ {#E0E0E0}ᴋʜᴇ ᴘʜù ᴘʜéᴘ ᴛốɪ đᴀ: {#ED4245}%max%'
+      - ''
+      - '{#fcfcfc}❖ {#E0E0E0}ᴛăɴɢ ᴛʜêᴍ ᴋʜᴇ ᴘʜù ᴘʜéᴘ ᴄʜᴏ ɢɪáᴘ'
+      - '{#E0E0E0}ᴄủᴀ ʙạɴ để ɴâɴɢ ɢɪớɪ ʜạɴ ʟêɴ {#57F287}%max% ô{#E0E0E0}.'
+      - ''
+      - ' &8«{#57F287}%success%% ᴛʜàɴʜ ᴄôɴɢ&8» &l &l &l &8«{#ED4245}%destroy%% ᴛʜấᴛ ʙạɪ&8»'
+      - ''
+      - '{#57F287}▶ {#E0E0E0}ᴋéᴏ thả ᴠàᴏ ɢɪáᴘ để áᴘ ᴅụɴɢ'
+    tool:
+      material: EYE_OF_ENDER
+      custom-model-data: 0
+      force-glow: false
+      name: '{#FFD700}&lʙùᴀ ᴋʜởɪ sắᴄ &8[&7Công Cụ&8]'
+      lore:
+      - ''
+      - '{#fcfcfc}❖ {#E0E0E0}ᴛʜêᴍ ᴋʜᴇ ᴘʜù ᴘʜéᴘ: {#57F287}+%new%'
+      - '{#fcfcfc}❖ {#E0E0E0}ᴋʜᴇ ᴘʜù ᴘʜéᴘ ᴛốɪ đᴀ: {#ED4245}%max%'
+      - ''
+      - '{#fcfcfc}❖ {#E0E0E0}ᴛăɴɢ ᴛʜêᴍ ᴋʜᴇ ᴘʜù ᴘʜéᴘ ᴄʜᴏ ᴄôɴɢ ᴄụ'
+      - '{#E0E0E0}ᴄủᴀ ʙạɴ để ɴâɴɢ ɢɪớɪ ʜạɴ ʟêɴ {#57F287}%max% ô{#E0E0E0}.'
+      - ''
+      - ' &8«{#57F287}%success%% ᴛʜàɴʜ ᴄôɴɢ&8» &l &l &l &8«{#ED4245}%destroy%% ᴛʜấᴛ ʙạɪ&8»'
+      - ''
+      - '{#57F287}▶ {#E0E0E0}ᴋéᴏ thả ᴠàᴏ ᴄôɴɢ ᴄụ để áᴘ ᴅụɴɢ'
+
+armor-items:
+  helmet:
+  - HEAD
+  - SKULL_ITEM
+  - SKULL
+  - PLAYER_HEAD
+  - CREEPER_HEAD
+  - DRAGON_HEAD
+  - ZOMBIE_HEAD
+  - NETHERITE_HELMET
+  - DIAMOND_HELMET
+  - GOLD_HELMET
+  - GOLDEN_HELMET
+  - IRON_HELMET
+  - CHAINMAIL_HELMET
+  - LEATHER_HELMET
+  - TURTLE_SHELL
+  - PUMPKIN
+  - CARVED_PUMPKIN
+  - TURTLE_HELMET
+  chest-plate:
+  - NETHERITE_CHESTPLATE
+  - DIAMOND_CHESTPLATE
+  - GOLD_CHESTPLATE
+  - GOLDEN_CHESTPLATE
+  - IRON_CHESTPLATE
+  - CHAINMAIL_CHESTPLATE
+  - LEATHER_CHESTPLATE
+  - ELYTRA
+  leggings:
+  - LEGS
+  - DIAMOND_LEGGINGS
+  - NETHERITE_LEGGINGS
+  - GOLD_LEGGINGS
+  - GOLDEN_LEGGINGS
+  - IRON_LEGGINGS
+  - CHAINMAIL_LEGGINGS
+  - LEATHER_LEGGINGS
+  boots:
+  - FEET
+  - DIAMOND_BOOTS
+  - NETHERITE_BOOTS
+  - GOLD_BOOTS
+  - GOLDEN_BOOTS
+  - IRON_BOOTS
+  - CHAINMAIL_BOOTS
+  - LEATHER_BOOTS
+
+white-scroll:
+  delete: false
+  lore-display: '{#FCD05C}✚ Đã ʙảᴏ ᴠệ ✚'
+  item:
+    type: EMPTY_MAP
+    id: 0
+    custom-model-data: 0
+    force-glow: false
+    name: '{#FCD05C}&lᴄᴜộɴ ᴛʀắɴɢ'
+    lore:
+    - '{#fcfcfc}❖ {#E0E0E0}ɴɢăɴ ᴄʜặɴ ᴠậᴛ ᴘʜẩᴍ ʙị ᴘʜá ʜủʏ'
+    - '{#E0E0E0}ᴋʜɪ áᴘ ᴅụɴɢ sáᴄʜ ᴘʜù ᴘʜéᴘ ᴛʜấᴛ ʙạɪ.'
+    - ''
+    - '{#57F287}▶ {#E0E0E0}ᴋéᴏ thả ᴠàᴏ ᴠậᴛ ᴘʜẩᴍ để áᴘ ᴅụɴɢ'
+  custom-model-data: 0
+
+destroy:
+  enabled: true
+  destroy-item: false
+
+chances:
+  random: true
+  success: 99
+  destroy: 1
+  destroy-if-fail:
+    enabled: false
+
+enchantment-book:
+  anvil-application: false
+  drag-drop-application: true
+  item:
+    type: ENCHANTED_BOOK
+    id: 0
+    custom-model-data: 0
+    force-glow: false
+  name: '%group-color%%enchant-no-color% &8[%group-color%&l%level%&8]'
+  lore:
+  - ''
+  - ' {#E0E0E0}ᴘʜâɴ ʜạɴɢ: %group-color%%group-name%'
+  - ' {#E0E0E0}ᴛíᴄʜ ʜợᴘ ᴄʜᴏ: {#AEC6CF}%applies-to%'
+  - ''
+  - ' {#fcfcfc}❖ {#fcfcfc}%description%'
+  - ''
+  - ' &8«{#57F287}%success%% ᴛʜàɴʜ ᴄôɴɢ&8» &l &l &l &8«{#ED4245}%destroy%% ᴛʜấᴛ ʙạɪ&8»'
+
+applies-groups:
+  MISC_HELMETS:
+  - CARVED_PUMPKIN
+  SKULL_ITEM: []
+
+settings:
+  right-click-triggers-on-off-hand: false
+  grindstones-remove-custom-enchants: true
+  organizeEnchantsOnItems: true
+  lore-organize-mode: 2
+  custom-enchants-cause-glow: true
+  use-legacy-potions-system: true
+  fortune-works-on-iron-gold: false
+  steal-money:
+    message-enabled: false
+  trench-autoadd-items: false
+  trench-works-with-more-drops: false
+  renametag-enchanted-only: true
+  itemnametag-max-name-length: 500
+  trench-do-all-durab: true
+  lower-destroy-with-magic-dust: true
+  enable-combo-for-mobs: true
+  clear-potion-effects-on-quit: true
+  ae-market-enabled: true
+  use-numbers: false
+  activate-non-armor-in-armor-slots: false
+  held-effect-static-cross-update: false
+  held-shift-cross-update: true
+  use-experimental-damage: false
+  trench-blacklist: []
+  trench-whitelist: []
+  veinmine-whitelist:
+  - COAL_ORE
+  - COPPER_ORE
+  - IRON_ORE
+  - GOLD_ORE
+  - LAPIS_ORE
+  - REDSTONE_ORE
+  - DIAMOND_ORE
+  - EMERALD_ORE
+  - NETHER_QUARTZ_ORE
+  - NETHER_GOLD_ORE
+  - ANCIENT_DEBRIS
+  - DEEPSLATE_COAL_ORE
+  - DEEPSLATE_COPPER_ORE
+  - DEEPSLATE_IRON_ORE
+  - DEEPSLATE_GOLD_ORE
+  - DEEPSLATE_LAPIS_ORE
+  - DEEPSLATE_REDSTONE_ORE
+  - DEEPSLATE_DIAMOND_ORE
+  - DEEPSLATE_EMERALD_ORE
+  break-block-effect-blacklist:
+  - SPAWNER
+  - AIR
+  - LAVA
+  - WATER
+  - CAULDRON
+  - BEDROCK
+  enchantment-world-blacklist:
+  - no_enchantments_world
+  holy-whitescrolls-world-blacklist:
+  - no_holywhitescrolls_world
+  fly-world-blacklist:
+  - no_fly_world
+  open-enchanter-by-right-clicking-enchantment-table: false
+  stems-count-as-trees: false
+  respect-player-placed-blocks: true
+  enchants-debug-mode: false
+  apply-cooldown: 20
+  whitescroll-material-blacklist:
+  - STONE
+  souls-per-kill: 1
+  trench-optimization:
+    automaticallyDetect: true
+  lava-walker-radius: 2
+  water-walker-radius: 2
+  collect-souls-from-mobs: false
+  collect-souls-from-players: false
+  showFirstLevel: true
+  use-worldguard-fly-flag: false
+  custom-drops-from-spawners: false
+  miningSouls:
+    enabled: false
+    chance: 20
+  fishingSouls:
+    enabled: false
+    chance: 20
+  bow-full-power: true
+  lore-descriptions:
+    enabled: false
+    display: '&f%description%'
+  give-mcmmo-with-custom-block-breaks: true
+  allow-place-of-armor-block: true
+  minecraft-stats-blocks-broken-count: true
+  exp-effect-ignore-silktouch: false
+  ignored-nbt-drops: []
+  tunnel-autoadd-items: false
+  break-block-effect-do-all-durab: true
+  call-block-break-events: true
+  ignored-metadata-block-drops: []
+
+version: 1.0

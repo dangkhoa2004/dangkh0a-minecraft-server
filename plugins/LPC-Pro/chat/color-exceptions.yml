@@ -1,0 +1,27 @@
+# Color Code Exceptions
+#
+# Text patterns listed here will be protected from color code processing.
+# When a player types any of these in chat, the pattern will be preserved
+# as-is, even if it contains characters that look like color codes (e.g., &A in Q&A).
+#
+# Matching is case-insensitive — "q&a" will also match "Q&A".
+# The player's original casing is always preserved in the output.
+#
+# Add your own patterns below. One per line under 'exceptions:'.
+
+exceptions:
+  - "Q&A"
+  - "R&D"
+  - "AT&T"
+  - "M&M"
+  - "S&P"
+  - "H&M"
+  - "B&B"
+  - "D&D"
+  - "P&L"
+  - "B&O"
+  - "A&E"
+  - "A&W"
+  - "S&M"
+  - "T&C"
+  - "P&G"

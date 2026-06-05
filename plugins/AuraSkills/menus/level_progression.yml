@@ -1,0 +1,335 @@
+title: '{{level_progression_title}}'
+size: 6
+fill:
+  enabled: false
+  material: black_stained_glass_pane
+items:
+  rank:
+    pos: 0,1
+    material: paper
+    display_name: <gold>{{your_ranking}}
+    lore:
+    - text: '{{rank_out_of}}'
+      styles:
+        1: <white>
+        2: <gold>
+    - text: '{{rank_percent}}'
+      styles:
+        1: <white>
+        2: <gold>
+    - ' '
+    - <yellow>{{leaderboard_click}}
+  back:
+    pos: 5,0
+    material: arrow
+    display_name: <green>{{back}}
+    lore:
+    - <gray>{{back_click}}
+  close:
+    pos: 5,1
+    material: barrier
+    display_name: <red>{{close}}
+  next_page:
+    pos: 5,8
+    material: arrow
+    display_name: <gold>{{next_page}}
+    lore:
+    - <yellow>{{next_page_click}}
+  previous_page:
+    pos: 5,7
+    material: arrow
+    display_name: <gold>{{previous_page}}
+    lore:
+    - <yellow>{{previous_page_click}}
+  sources:
+    pos: 0,2
+    material: experience_bottle
+    display_name: <green>{{sources}}
+    lore:
+    - text: '{{sources_desc}}'
+      wrap: true
+      style: <gray>
+    - ' '
+    - <yellow>{{sources_click}}
+  abilities:
+    pos: 0,3
+    material: light_blue_dye
+    display_name: <red>{{abilities}}
+    lore:
+    - text: '{{abilities_desc}}'
+    - text: '{{mana_abilities_desc}}'
+      wrap: false
+      wrap_style: 1
+      styles:
+        1: <gray>
+        2: <aqua>
+        3: <light_purple>
+    - ' '
+    - <yellow>{{abilities_click}}
+  job:
+    pos: 0,4
+    material: gold_ingot
+    display_name: <yellow>{{job}}
+    lore:
+    - text: '{{job_desc}}'
+      wrap: true
+      style: <gray>
+    - ' '
+    - component: job_select
+    - component: job_active
+    - component: job_limit
+templates:
+  skill:
+    pos: 0,0
+    contexts:
+      farming:
+        material: iron_hoe
+        flags:
+        - hide_attributes
+      foraging:
+        material: iron_axe
+        flags:
+        - hide_attributes
+      mining:
+        material: iron_pickaxe
+        flags:
+        - hide_attributes
+      fishing:
+        material: fishing_rod
+      excavation:
+        material: iron_shovel
+        flags:
+        - hide_attributes
+      archery:
+        material: bow
+      defense:
+        material: chainmail_chestplate
+        flags:
+        - hide_attributes
+      fighting:
+        material: iron_sword
+        flags:
+        - hide_attributes
+      endurance:
+        material: golden_apple
+      agility:
+        material: feather
+      alchemy:
+        material: potion
+        potion_data:
+          type: regen
+        flags:
+        - hide_potion_effects
+      enchanting:
+        material: enchanting_table
+      sorcery:
+        material: blaze_rod
+      healing:
+        material: splash_potion
+        potion_data:
+          type: instant_heal
+        flags: hide_potion_effects
+      forging:
+        material: anvil
+    display_name: '<white>Kĩ năng: <dark_gray>[<aqua>{skill}<dark_gray>] <dark_gray>[<color:#FFBF00>{level}<dark_gray>]'
+    lore:
+    - '&8Thông tin chi tiết'
+    - ''
+    - text: '<color:#dde254>✧ <color:#D3D3D3>Mô tả: <color:#40E0D0>{desc}'
+    - component: stats_leveled
+    - component: ability_levels
+    - component: mana_ability_info
+    - ' '
+    - component: progress
+    - component: max_level
+  unlocked:
+    material: lime_dye
+    display_name: <color:#32CD32>{{level}} <dark_gray>[<gold>{level}<dark_gray>]
+    lore:
+    - '&8Thông tin chi tiết'
+    - ''
+    - ' <color:#32CD32>| <color:#D3D3D3>{{rewards}}: '
+    - component: rewards
+    - |2-
+
+       <color:#32CD32>| <color:#D3D3D3>Kĩ năng:
+    - component: ability_unlock
+    - component: ability_level
+    - component: mana_ability_unlock
+    - component: mana_ability_level
+    - ' '
+    - <color:#32CD32>{{unlocked}}
+  in_progress:
+    material: orange_dye
+    display_name: <color:#F08000>{{level}} <dark_gray>[<gold>{level}<dark_gray>]
+    lore:
+    - '&8Thông tin chi tiết'
+    - ''
+    - ' <color:#F08000>| <color:#D3D3D3>Tiến trình: <color:#F08000>{current_xp}/{level_xp}
+      {xp_unit}'
+    - ''
+    - ' <color:#F08000>| <color:#D3D3D3>{{rewards}}: '
+    - component: rewards
+    - |2-
+
+       <color:#F08000>| <color:#D3D3D3>Kĩ năng:
+    - component: ability_unlock
+    - component: ability_level
+    - component: mana_ability_unlock
+    - component: mana_ability_level
+    - ' '
+    - <color:#F08000>{{in_progress}}
+  locked:
+    material: gray_dye
+    display_name: <color:#adc6cc>{{level}} <dark_gray>[<gold>{level}<dark_gray>]
+    lore:
+    - '&8Thông tin chi tiết'
+    - ''
+    - ' <color:#adc6cc>| <color:#D3D3D3>{{rewards}}: '
+    - component: rewards
+    - |2-
+
+       <color:#adc6cc>| <color:#D3D3D3>Kĩ năng:
+    - component: ability_unlock
+    - component: ability_level
+    - component: mana_ability_unlock
+    - component: mana_ability_level
+    - ' '
+    - <color:#adc6cc>{{locked}}
+components:
+  stats_leveled:
+    context: Skill
+    lore:
+    - ' '
+    - '<color:#dde254>✧ <color:#D3D3D3>{{stats_leveled}}:'
+    - '{entries}'
+  ability_levels:
+    context: Skill
+    lore:
+    - ' '
+    - '<color:#dde254>✧ <color:#D3D3D3>{{ability_levels}}:'
+    - '{entries[]}'
+  mana_ability_info:
+    context: Skill
+    lore:
+    - '    &8• <#9bea4c>{name} <dark_gray>[<gold>{level}<dark_gray>]'
+  progress:
+    context: Skill
+    lore:
+    - <color:#dde254>✧ <color:#D3D3D3>Lên cấp
+    - '    &8• <color:#40E0D0>Kinh nghiệm: <yellow>{current_xp}<color:#D3D3D3>/{level_xp}'
+    - '    &8• <color:#40E0D0>{{progress_to_level}}: <yellow>{percent}%'
+  max_level:
+    context: Skill
+    lore:
+    - <gold>{{max_level}}
+  rewards:
+    context: Integer
+    lore:
+    - '{entries[]}'
+  ability_unlock:
+    context: Integer
+    lore:
+    - '    &8• <color:#dde254>{name}'
+    - text: <color:#D3D3D3>{desc}
+      wrap: true
+      wrap_indent: '  '
+      style: <white>
+  ability_level:
+    context: Integer
+    lore:
+    - '    &8• <color:#dde254>{name} <dark_gray>[<color:#FFBF00>{level}<dark_gray>]'
+    - text: <color:#D3D3D3>{desc}
+      wrap: true
+      wrap_indent: '  '
+      style: <gray>
+  mana_ability_unlock:
+    context: Integer
+    lore:
+    - ' '
+    - '    &8• <#9bea4c>{name} <white>| <dark_gray>[<blue>C-Phải<dark_gray>]'
+    - text: <color:#D3D3D3>{desc}
+      wrap: true
+      wrap_indent: '  '
+      styles:
+        0: <white>
+        1: <color:#64677E><italic>
+  mana_ability_level:
+    context: Integer
+    lore:
+    - ' '
+    - '    &8• <#9bea4c>{name} <dark_gray>[<color:#FFBF00>{level}<dark_gray>] <white>|
+      <dark_gray>[<blue>C-Phải<dark_gray>]'
+    - text: <color:#D3D3D3>{desc}
+      wrap: true
+      wrap_indent: '  '
+      styles:
+        0: <gray>
+        1: <yellow>
+  job_select:
+    lore:
+    - <yellow>{{job_select}}
+  job_active:
+    lore:
+    - <dark_gray>▶ <green>{{job_active}}
+    - ' '
+    - <gray>{{job_quit}}
+  job_limit:
+    lore:
+    - text: '{{job_limit}}'
+      wrap: true
+      style: <red>
+  job_cooldown:
+    lore:
+    - text: '{{job_cooldown}}'
+      wrap: true
+      style: <red>
+formats:
+  stat_leveled_entry: |2-
+
+        &8+ {color}{stat}
+  unlocked_ability_entry: \n    &8• <color:#F9CD40>{name} &8[&6{level}&8]
+  locked_ability_entry: \n    &8• <color:#7393B3><strikethrough>{name}
+  duration_entry: '<gray>{{duration}}: <green>{duration}s '
+  mana_cost_entry: '<gray>{{mana_cost}}: <aqua>{mana_cost} '
+  cooldown_entry: '<gray>{{cooldown}}: <yellow>{cooldown}s '
+  damage_entry: '<gray>{{damage}}: <red>{value} '
+  damage_per_mana_entry: '<gray>{{damage}}: <red>+{value}% / Mana '
+  max_mana_cost_entry: '<gray>{{max_mana_cost}}: <aqua>{mana_cost} '
+  attack_speed_entry: '<gray>{{attack_speed}}: <red>+{value}% '
+  stat_reward_entry: |2
+        &8• {color}+{num} {stat} {symbol}
+  money_reward_entry: |2-
+
+        &8• <green>${amount}
+options:
+  use_level_as_amount: false
+  over_max_stack_amount: 1
+  items_per_page: 24
+  start_level: 1
+  track:
+  - 9
+  - 18
+  - 27
+  - 36
+  - 37
+  - 38
+  - 29
+  - 20
+  - 11
+  - 12
+  - 13
+  - 22
+  - 31
+  - 40
+  - 41
+  - 42
+  - 33
+  - 24
+  - 15
+  - 16
+  - 17
+  - 26
+  - 35
+  - 44
+file_version: 2

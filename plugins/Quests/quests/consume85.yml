@@ -1,0 +1,32 @@
+tasks:
+  consume:
+    type: "consume"
+    item: ENCHANTED_GOLDEN_APPLE
+    amount: 1
+display:
+  name: "&#A3C4F3&nᴛɪêᴜ ᴛʜụ ʟxxxᴠ:&r &#FDFD96#85"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó'
+    - '&#D1E8E2ăɴ ᴛáᴏ ᴠàɴɢ ᴘʜù ᴘʜéᴘ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜảɪ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴛɪêᴜ ᴛʜụ ᴛáᴏ ᴠàɴɢ ᴘʜù ᴘʜéᴘ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{consume:progress}/1 ʟầɴ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC03500 xu'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "ENCHANTED_GOLDEN_APPLE"
+rewards:
+  - "eco give {player} 3500"
+  
+options:
+  category: "consume"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 85
+  requires:
+    - "consume84"
+  itemflags:
+    - "HIDE_ATTRIBUTES"

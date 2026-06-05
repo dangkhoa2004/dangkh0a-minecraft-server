@@ -1,0 +1,16 @@
+# LPC Pro V2 - Sound Notifications
+# Controls sounds played during chat events
+# Mention sounds are configured separately in mentions.yml
+
+chat:
+  enabled: false
+  sound: "entity.experience_orb.pickup"
+  volume: 0.5
+  pitch: 1.2
+  skip-mentioned: true
+
+private-message:
+  enabled: true
+  sound: "entity.experience_orb.pickup"
+  volume: 1.0
+  pitch: 1.0

@@ -1,0 +1,31 @@
+tasks:
+  dealdamage:
+    type: "dealdamage"
+    amount: 500
+    allow-only-creatures: false
+display:
+  name: "&#A3C4F3&nɢâʏ ꜱáᴛ ᴛʜươɴɢ:&r &#FDFD96#VI"
+  lore-normal:
+    - "&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ ᴛấɴ ᴄôɴɢ"
+    - "&#D1E8E2ɴɢườɪ ᴄʜơɪ ᴋʜáᴄ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ."
+    - ""
+    - "&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ɢâʏ ꜱáᴛ ᴛʜươɴɢ ʟêɴ ᴘʟᴀʏᴇʀ."
+    - "&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{dealdamage:progress}/500 ᴍáᴜ."
+    - "&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$1800"
+    - ""
+  lore-started:
+    - "&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ."
+  type: "STONE_SWORD"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 1800"
+options:
+  category: "damage"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 6
+  requires:
+    - "dealdamage5"

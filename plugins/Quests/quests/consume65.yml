@@ -1,0 +1,31 @@
+tasks:
+  consume:
+    type: "consume"
+    item: COOKED_MUTTON
+    amount: 16
+display:
+  name: "&#A3C4F3&nᴛɪêᴜ ᴛʜụ ʟxᴠ:&r &#FDFD96#65"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó'
+    - '&#D1E8E2ăɴ ᴛʜịᴛ ᴄừᴜ ᴄʜíɴ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴛɪêᴜ ᴛʜụ ᴛʜịᴛ ᴄừᴜ ᴄʜíɴ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{consume:progress}/16 ʟầɴ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC016 ᴋɪᴍ ᴄươɴɢ & 600 xu'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "COOKED_MUTTON"
+rewards:
+  - "eco give {player} 600"
+options:
+  category: "consume"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 116160
+  sort-order: 65
+  requires:
+    - "consume64"
+  itemflags:
+    - "HIDE_ATTRIBUTES"

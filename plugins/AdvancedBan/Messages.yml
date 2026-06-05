@@ -1,0 +1,347 @@
+# GHI CHÚ: Đây là file quy định toàn bộ tin nhắn hiển thị của plugin AdvancedBan.
+# Biến %NAME% là tên người bị phạt, %OPERATOR% là tên Admin/Staff ra lệnh phạt.
+# Các ký tự &c, &8, &7... là mã màu chuẩn của Minecraft.
+
+General:
+  Prefix: "§x§F§F§8§B§9§4§lAᴅᴠᴀɴᴄᴇᴅBᴀɴ §x§8§8§8§8§8§8§l»"
+  NoPerms: "§x§F§F§8§B§9§4Bạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ʟàᴍ đɪềᴜ ɴàʏ!"
+  # GHI CHÚ: Layout là hệ thống mẫu lý do được cài sẵn trong file layouts.yml (ví dụ: hack, spam).
+  LayoutNotFound: "§x§F§F§8§B§9§4Kʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴍẫᴜ ʟý ᴅᴏ (ʟᴀʏᴏᴜᴛ) ɴàᴏ ᴛêɴ ʟà %NAME%"
+  # Đây sẽ là định dạng thay thế cho biến %DURATION% (Thời lượng)
+  TimeLayoutD: "%D% ɴɢàʏ %H% ɢɪờ %M% ᴘʜúᴛ %S% ɢɪâʏ"
+  TimeLayoutH: "%H% ɢɪờ %M% ᴘʜúᴛ %S% ɢɪâʏ"
+  TimeLayoutM: "%M% ᴘʜúᴛ %S% ɢɪâʏ"
+  TimeLayoutS: "%S% ɢɪâʏ"
+  FailedFetch: "§x§F§F§8§B§9§4Kʜôɴɢ ᴛʜể ʟấʏ ᴅữ ʟɪệᴜ UUID ᴄủᴀ %NAME%! Xᴇᴍ ᴄᴏɴꜱᴏʟᴇ để ʙɪếᴛ ᴄʜɪ ᴛɪếᴛ."
+
+Ban:
+  # GHI CHÚ: Thêm tham số (-s) vào lệnh để phạt "Câm" (Silent) -> Không thông báo rùm beng lên kênh chat tổng.
+  # @Layout dùng để gọi nhanh lý do đã cài sẵn (VD: /ban KzKien @hack).
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/ban (-s) [Têɴ] [Lý_ᴅᴏ/@Lᴀʏᴏᴜᴛ]"
+  Done: "§x§F§F§8§B§9§4§o%NAME% §x§B§9§F§B§C§0đã ʙị ʙᴀɴ ᴛʜàɴʜ ᴄôɴɢ!"
+  AlreadyDone: "§x§F§F§8§B§9§4§o%NAME% §x§D§1§E§8§E§2đã ʙị ʙᴀɴ ᴛừ ᴛʀướᴄ ʀồɪ!"
+  Exempt: "§x§F§F§8§B§9§4Bạɴ ᴋʜôɴɢ ᴛʜể ʙᴀɴ §x§F§D§F§D§9§6§o%NAME% §x§F§F§8§B§9§4(Nɢườɪ ɴàʏ ᴄó ǫᴜʏềɴ ᴄʜốɴɢ ʙᴀɴ)"
+  Layout:
+  # GHI CHÚ: Khối "Layout" bên dưới là màn hình (Kick Screen) mà người bị ban sẽ nhìn thấy khi cố đăng nhập vào server.
+  - '%PREFIX% §x§F§F§8§B§9§4Tàɪ ᴋʜᴏảɴ đã ʙị ʙᴀɴ ᴠĩɴʜ ᴠɪễɴ'
+  - ''
+  - ''
+  - "§x§F§F§8§B§9§4Lý ᴅᴏ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%REASON%"
+  - ''
+  # GHI CHÚ: Tác giả để gốc là TS (TeamSpeak), tôi đã dịch thoáng thành Discord cho hợp thời. Bạn có thể tự sửa link bên dưới.
+  - "§x§D§1§E§8§E§2Xɪɴ ɢỡ ʙᴀɴ ᴛạɪ Dɪꜱᴄᴏʀᴅ ʜᴏặᴄ Dɪễɴ đàɴ"
+  - "§x§A§3§C§4§F§3Dɪꜱᴄᴏʀᴅ §x§8§8§8§8§8§8» §x§F§D§F§D§9§6§ndiscord.gg/tDsSHDHPps"
+  - "§x§A§3§C§4§F§3Dɪễɴ đàɴ §x§8§8§8§8§8§8» §x§F§D§F§D§9§6§nwww.dangkh0a.io.vn"
+  Notification:
+  # GHI CHÚ: Khối "Notification" là dòng thông báo (Broadcast) ném lên chat cho cả server cùng thấy.
+  - "§x§F§F§8§B§9§4§o%NAME% §x§D§1§E§8§E§2ᴠừᴀ ʙị ʙᴀɴ ʙởɪ §x§A§3§C§4§F§3§o%OPERATOR%"
+  - "§x§D§1§E§8§E§2Vớɪ ʟý ᴅᴏ: §x§F§D§F§D§9§6§o%REASON%"
+  UndoNotification: "§x§A§3§C§4§F§3§o%OPERATOR% §x§B§9§F§B§C§0đã ɢỡ ʙᴀɴ ᴄʜᴏ §x§F§D§F§D§9§6§o%NAME%"
+
+Ipban:
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/banip (-s) [Têɴ/IP] [Lý_ᴅᴏ/@Lᴀʏᴏᴜᴛ]"
+  Layout:
+  - '%PREFIX% §x§F§F§8§B§9§4Địᴀ ᴄʜỉ IP đã ʙị ʙᴀɴ ᴠĩɴʜ ᴠɪễɴ'
+  - ''
+  - ''
+  - "§x§F§F§8§B§9§4Lý ᴅᴏ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%REASON%"
+  - ''
+  - "§x§D§1§E§8§E§2Xɪɴ ɢỡ ʙᴀɴ ᴛạɪ Dɪꜱᴄᴏʀᴅ ʜᴏặᴄ Dɪễɴ đàɴ"
+  - "§x§A§3§C§4§F§3Dɪꜱᴄᴏʀᴅ §x§8§8§8§8§8§8» §x§F§D§F§D§9§6§ndiscord.gg/tDsSHDHPps"
+  - "§x§A§3§C§4§F§3Dɪễɴ đàɴ §x§8§8§8§8§8§8» §x§F§D§F§D§9§6§nwww.dangkh0a.io.vn"
+  Notification:
+  - "§x§F§F§8§B§9§4§o%NAME% §x§D§1§E§8§E§2ᴠừᴀ ʙị ʙᴀɴ IP ʙởɪ §x§A§3§C§4§F§3§o%OPERATOR%"
+  - "§x§D§1§E§8§E§2Vớɪ ʟý ᴅᴏ: §x§F§D§F§D§9§6§o%REASON%"
+  IpNotCashed: "§x§F§F§8§B§9§4Kʜôɴɢ ᴄó IP ɴàᴏ đượᴄ ʟưᴜ ᴄʜᴏ ɴɢườɪ ᴄʜơɪ %NAME%!"
+
+Tempban:
+  # GHI CHÚ: Quy tắc thời gian: mo (tháng), d (ngày), h (giờ), m (phút), s (giây). Ví dụ: 30d, 12h, 5m.
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/tempban (-s) [Têɴ] [Xmo/Xd/Xh/Xm/Xs] [Lý_ᴅᴏ/@Lᴀʏᴏᴜᴛ]"
+  MaxDuration: "§x§F§F§8§B§9§4Bạɴ ᴋʜôɴɢ ᴛʜể ʙᴀɴ ᴀɪ đó ʟâᴜ ʜơɴ %MAX% ɢɪâʏ"
+  Layout:
+  - '%PREFIX% §x§F§D§F§D§9§6Tàɪ ᴋʜᴏảɴ ʙị ʙᴀɴ ᴛạᴍ ᴛʜờɪ'
+  - ''
+  - ''
+  - "§x§F§F§8§B§9§4Lý ᴅᴏ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%REASON%"
+  - "§x§F§F§8§B§9§4Tʜờɪ ʜạɴ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%DURATION%"
+  - ''
+  - "§x§D§1§E§8§E§2Xɪɴ ɢỡ ʙᴀɴ ᴛạɪ Dɪꜱᴄᴏʀᴅ ʜᴏặᴄ Dɪễɴ đàɴ"
+  - "§x§A§3§C§4§F§3Dɪꜱᴄᴏʀᴅ §x§8§8§8§8§8§8» §x§F§D§F§D§9§6§ndiscord.gg/tDsSHDHPps"
+  - "§x§A§3§C§4§F§3Dɪễɴ đàɴ §x§8§8§8§8§8§8» §x§F§D§F§D§9§6§nwww.dangkh0a.io.vn"
+  Notification:
+  - "§x§F§F§8§B§9§4§o%NAME% §x§D§1§E§8§E§2ᴠừᴀ ʙị ʙᴀɴ ʙởɪ §x§A§3§C§4§F§3§o%OPERATOR%"
+  - "§x§D§1§E§8§E§2Vớɪ ʟý ᴅᴏ: §x§F§D§F§D§9§6§o%REASON%"
+  - "§x§D§1§E§8§E§2§oNɢườɪ ᴄʜơɪ ɴàʏ ʙị ᴄấᴍ ᴛʜᴀᴍ ɢɪᴀ ᴛʀᴏɴɢ §x§F§D§F§D§9§6§o%DURATION%"
+
+Tempipban:
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/tempipban (-s) [Têɴ/IP] [Xmo/Xd/Xh/Xm/Xs] [Lý_ᴅᴏ/@Lᴀʏᴏᴜᴛ]"
+  MaxDuration: "§x§F§F§8§B§9§4Bạɴ ᴋʜôɴɢ ᴛʜể ʙᴀɴ ᴀɪ đó ʟâᴜ ʜơɴ %MAX% ɢɪâʏ"
+  Layout:
+  - '%PREFIX% §x§F§D§F§D§9§6Địᴀ ᴄʜỉ IP ʙị ʙᴀɴ ᴛạᴍ ᴛʜờɪ'
+  - ''
+  - ''
+  - "§x§F§F§8§B§9§4Lý ᴅᴏ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%REASON%"
+  - "§x§F§F§8§B§9§4Tʜờɪ ʜạɴ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%DURATION%"
+  - ''
+  - "§x§D§1§E§8§E§2Xɪɴ ɢỡ ʙᴀɴ ᴛạɪ Dɪꜱᴄᴏʀᴅ ʜᴏặᴄ Dɪễɴ đàɴ"
+  - "§x§A§3§C§4§F§3Dɪꜱᴄᴏʀᴅ §x§8§8§8§8§8§8» §x§F§D§F§D§9§6§ndiscord.gg/tDsSHDHPps"
+  - "§x§A§3§C§4§F§3Dɪễɴ đàɴ §x§8§8§8§8§8§8» §x§F§D§F§D§9§6§nwww.dangkh0a.io.vn"
+  Notification:
+  - "§x§F§F§8§B§9§4§o%NAME% §x§D§1§E§8§E§2ᴠừᴀ ʙị ʙᴀɴ IP ʙởɪ §x§A§3§C§4§F§3§o%OPERATOR%"
+  - "§x§D§1§E§8§E§2Vớɪ ʟý ᴅᴏ: §x§F§D§F§D§9§6§o%REASON%"
+  - "§x§D§1§E§8§E§2§oNɢườɪ ᴄʜơɪ ɴàʏ ʙị ᴄấᴍ ᴛʜᴀᴍ ɢɪᴀ ᴛʀᴏɴɢ §x§F§D§F§D§9§6§o%DURATION%"
+
+Mute:
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/mute (-s) [Têɴ] [Lý_ᴅᴏ/@Lᴀʏᴏᴜᴛ]"
+  Done: "§x§F§F§8§B§9§4§o%NAME% §x§B§9§F§B§C§0đã ʙị ᴄấᴍ ᴄʜᴀᴛ ᴛʜàɴʜ ᴄôɴɢ!"
+  AlreadyDone: "§x§F§F§8§B§9§4§o%NAME% §x§D§1§E§8§E§2đã ʙị ᴋʜóᴀ ᴍõᴍ ᴛừ ᴛʀướᴄ ʀồɪ!"
+  Exempt: "§x§F§F§8§B§9§4Bạɴ ᴋʜôɴɢ ᴛʜể ᴄấᴍ ᴄʜᴀᴛ §x§F§D§F§D§9§6§o%NAME%"
+  Layout:
+  - '%PREFIX% §x§F§F§8§B§9§4Bạɴ đã ʙị ᴄấᴍ ᴄʜᴀᴛ ᴠĩɴʜ ᴠɪễɴ'
+  - "§x§F§F§8§B§9§4Lý ᴅᴏ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%REASON%"
+  Notification:
+  - "§x§F§F§8§B§9§4§o%NAME% §x§D§1§E§8§E§2ᴠừᴀ ʙị ᴄấᴍ ᴄʜᴀᴛ ʙởɪ §x§A§3§C§4§F§3§o%OPERATOR%"
+  - "§x§D§1§E§8§E§2Vớɪ ʟý ᴅᴏ: §x§F§D§F§D§9§6§o%REASON%"
+  UndoNotification: "§x§A§3§C§4§F§3§o%OPERATOR% §x§B§9§F§B§C§0đã ɢỡ ᴄấᴍ ᴄʜᴀᴛ ᴄʜᴏ §x§F§D§F§D§9§6§o%NAME%"
+
+Tempmute:
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/tempmute (-s) [Têɴ] [Xmo/Xd/Xh/Xm/Xs] [Lý_ᴅᴏ/@Lᴀʏᴏᴜᴛ]"
+  MaxDuration: "§x§F§F§8§B§9§4Bạɴ ᴋʜôɴɢ ᴛʜể ᴄấᴍ ᴄʜᴀᴛ ʟâᴜ ʜơɴ %MAX% ɢɪâʏ"
+  Layout:
+  - '%PREFIX% §x§F§D§F§D§9§6Bạɴ ʙị ᴄấᴍ ᴄʜᴀᴛ ᴛʀᴏɴɢ %DURATION%'
+  - "§x§F§F§8§B§9§4Lý ᴅᴏ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%REASON%"
+  Notification:
+  - "§x§F§F§8§B§9§4§o%NAME% §x§D§1§E§8§E§2ᴠừᴀ ʙị ᴄấᴍ ᴄʜᴀᴛ ʙởɪ §x§A§3§C§4§F§3§o%OPERATOR%"
+  - "§x§D§1§E§8§E§2Vớɪ ʟý ᴅᴏ: §x§F§D§F§D§9§6§o%REASON%"
+  - "§x§D§1§E§8§E§2§oNɢườɪ ᴄʜơɪ ɴàʏ ʙị ᴋʜóᴀ ᴍõᴍ ᴛʀᴏɴɢ §x§F§D§F§D§9§6§o%DURATION%"
+
+Warn:
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/warn (-s) [Têɴ] [Lý_ᴅᴏ/@Lᴀʏᴏᴜᴛ]"
+  Done: "§x§F§F§8§B§9§4§o%NAME% §x§B§9§F§B§C§0đã ʙị ᴄảɴʜ ᴄáᴏ!"
+  Exempt: "§x§F§F§8§B§9§4Bạɴ ᴋʜôɴɢ ᴛʜể ᴄảɴʜ ᴄáᴏ §x§F§D§F§D§9§6§o%NAME%"
+  Layout:
+  - '%PREFIX% §x§F§F§8§B§9§4Bạɴ ᴠừᴀ ɴʜậɴ ᴍộᴛ ᴄảɴʜ ᴄáᴏ'
+  - "§x§F§F§8§B§9§4Lý ᴅᴏ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%REASON%"
+  - '§x§D§1§E§8§E§2Hɪệɴ ᴛạɪ ʙạɴ đᴀɴɢ ᴄó ᴛổɴɢ ᴄộɴɢ §x§F§F§8§B§9§4§o%COUNT% §x§D§1§E§8§E§2ᴄảɴʜ ᴄáᴏ!'
+  Notification:
+  - "§x§F§F§8§B§9§4§o%NAME% §x§D§1§E§8§E§2ᴠừᴀ ʙị ᴄảɴʜ ᴄáᴏ ʙởɪ §x§A§3§C§4§F§3§o%OPERATOR%"
+  - "§x§D§1§E§8§E§2Vớɪ ʟý ᴅᴏ: §x§F§D§F§D§9§6§o%REASON%"
+
+Note:
+  # GHI CHÚ: Note là tính năng ghi chú nội bộ dành riêng cho Admin/Staff để theo dõi người chơi tình nghi (VD: nghi ngờ X-ray).
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/note (-s) [Têɴ] [Lý_ᴅᴏ]"
+  Done: "§x§F§F§8§B§9§4§o%NAME% §x§B§9§F§B§C§0đã đượᴄ ɢʜɪ ᴄʜú ᴛʜàɴʜ ᴄôɴɢ!"
+  Exempt: "§x§F§F§8§B§9§4Bạɴ ᴋʜôɴɢ ᴛʜể ᴛạᴏ ɢʜɪ ᴄʜú ᴄʜᴏ §x§F§D§F§D§9§6§o%NAME%"
+  Notification:
+  - "§x§F§F§8§B§9§4§o%NAME% §x§D§1§E§8§E§2ᴠừᴀ ʙị ɢʜɪ ᴄʜú ʙởɪ §x§A§3§C§4§F§3§o%OPERATOR%"
+  - "§x§D§1§E§8§E§2Nộɪ ᴅᴜɴɢ: §x§F§D§F§D§9§6§o%REASON%"
+
+Tempwarn:
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/tempwarn (-s) [Têɴ] [Xmo/Xd/Xh/Xm/Xs] [Lý_ᴅᴏ/@Lᴀʏᴏᴜᴛ]"
+  MaxDuration: "§x§F§F§8§B§9§4Bạɴ ᴋʜôɴɢ ᴛʜể ᴄảɴʜ ᴄáᴏ ʟâᴜ ʜơɴ %MAX% ɢɪâʏ"
+  Layout:
+  - '%PREFIX% §x§F§D§F§D§9§6Bạɴ ɴʜậɴ đượᴄ ᴍộᴛ ᴄảɴʜ ᴄáᴏ ᴛạᴍ ᴛʜờɪ'
+  - "§x§F§F§8§B§9§4Lý ᴅᴏ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%REASON%"
+  - "§x§F§F§8§B§9§4Sẽ ʜếᴛ ʜạɴ ꜱᴀᴜ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%DURATION%"
+  - '§x§D§1§E§8§E§2Hɪệɴ ᴛạɪ ʙạɴ đᴀɴɢ ᴄó ᴛổɴɢ ᴄộɴɢ §x§F§F§8§B§9§4§o%COUNT% §x§D§1§E§8§E§2ᴄảɴʜ ᴄáᴏ!'
+  Notification:
+  - "§x§F§F§8§B§9§4§o%NAME% §x§D§1§E§8§E§2ᴠừᴀ ɴʜậɴ ᴄảɴʜ ᴄáᴏ ᴛạᴍ ᴛʜờɪ ᴛừ §x§A§3§C§4§F§3§o%OPERATOR%"
+  - "§x§D§1§E§8§E§2Vớɪ ʟý ᴅᴏ: §x§F§D§F§D§9§6§o%REASON%"
+  - "§x§D§1§E§8§E§2Cảɴʜ ᴄáᴏ ɴàʏ ꜱẽ ʜếᴛ ʜạɴ ꜱᴀᴜ §x§F§D§F§D§9§6§o%DURATION%"
+
+Kick:
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/kick (-s) [Têɴ] [Lý_ᴅᴏ/@Lᴀʏᴏᴜᴛ]"
+  Done: "§x§F§F§8§B§9§4§o%NAME% §x§B§9§F§B§C§0đã ʙị ᴋɪᴄᴋ ᴋʜỏɪ ꜱᴇʀᴠᴇʀ!"
+  NotOnline: "§x§F§F§8§B§9§4§o%NAME% §x§D§1§E§8§E§2ʜɪệɴ ᴋʜôɴɢ ᴏɴʟɪɴᴇ!"
+  Exempt: "§x§F§F§8§B§9§4Bạɴ ᴋʜôɴɢ ᴛʜể ᴋɪᴄᴋ §x§F§D§F§D§9§6§o%NAME%"
+  Layout:
+  - '%PREFIX% §x§F§F§8§B§9§4Bạɴ đã ʙị ᴋɪᴄᴋ ᴋʜỏɪ ꜱᴇʀᴠᴇʀ'
+  - ''
+  - "§x§F§F§8§B§9§4Lý ᴅᴏ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%REASON%"
+  - ''
+  Notification:
+  - "§x§F§F§8§B§9§4§o%NAME% §x§D§1§E§8§E§2ᴠừᴀ ʙị ᴋɪᴄᴋ ʙởɪ §x§A§3§C§4§F§3§o%OPERATOR%"
+  - "§x§D§1§E§8§E§2Vớɪ ʟý ᴅᴏ: §x§F§D§F§D§9§6§o%REASON%"
+
+UnBan:
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/unban [Têɴ/IP]"
+  NotPunished: "§x§F§F§8§B§9§4§o%NAME% ᴋʜôɴɢ ʙị ʙᴀɴ!"
+  Done: "§x§A§3§C§4§F§3§o%NAME% §x§B§9§F§B§C§0đã đượᴄ ɢỡ ʙᴀɴ ᴛʜàɴʜ ᴄôɴɢ!"
+  Notification: "§x§A§3§C§4§F§3§o%OPERATOR% §x§D§1§E§8§E§2đã ɢỡ ʙᴀɴ ᴄʜᴏ §x§F§D§F§D§9§6§o%NAME%"
+
+UnMute:
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/unmute [Têɴ]"
+  NotPunished: "§x§F§F§8§B§9§4§o%NAME% ᴋʜôɴɢ ʙị ᴄấᴍ ᴄʜᴀᴛ!"
+  Done: "§x§A§3§C§4§F§3§o%NAME% §x§B§9§F§B§C§0đã đượᴄ ɢỡ ᴄấᴍ ᴄʜᴀᴛ ᴛʜàɴʜ ᴄôɴɢ!"
+  Notification: "§x§A§3§C§4§F§3§o%OPERATOR% §x§D§1§E§8§E§2đã ɢỡ ᴄấᴍ ᴄʜᴀᴛ ᴄʜᴏ §x§F§D§F§D§9§6§o%NAME%"
+
+UnWarn:
+  # GHI CHÚ: Dùng ID để xóa 1 cảnh cáo cụ thể, hoặc thêm chữ 'clear' để xóa sạch cảnh cáo của người đó.
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/unwarn [ID] ʜᴏặᴄ /unwarn clear [Têɴ]"
+  NotFound: "§x§F§F§8§B§9§4Kʜôɴɢ ᴛʜể ᴛìᴍ ᴛʜấʏ ᴄảɴʜ ᴄáᴏ ꜱố #%ID%"
+  Done: "§x§D§1§E§8§E§2Cảɴʜ ᴄáᴏ §x§B§9§F§B§C§0§o#%ID% §x§D§1§E§8§E§2đã đượᴄ xóᴀ ᴛʜàɴʜ ᴄôɴɢ!"
+  Notification: "§x§A§3§C§4§F§3§o%OPERATOR% §x§D§1§E§8§E§2đã xóᴀ ᴄảɴʜ ᴄáᴏ ᴄủᴀ §x§F§D§F§D§9§6§o%NAME%"
+  Clear:
+    Empty: "§x§F§F§8§B§9§4§o%NAME% §x§D§1§E§8§E§2ᴋʜôɴɢ ᴄó ᴄảɴʜ ᴄáᴏ ɴàᴏ!"
+    Done: "§x§D§1§E§8§E§2Đã xóᴀ ꜱạᴄʜ §x§B§9§F§B§C§0§o%COUNT% §x§D§1§E§8§E§2ᴄảɴʜ ᴄáᴏ"
+
+UnNote:
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/unnote [ID] ʜᴏặᴄ /unnote clear [Têɴ]"
+  NotFound: "§x§F§F§8§B§9§4Kʜôɴɢ ᴛʜể ᴛìᴍ ᴛʜấʏ ɢʜɪ ᴄʜú ꜱố #%ID%"
+  Done: "§x§D§1§E§8§E§2Gʜɪ ᴄʜú §x§B§9§F§B§C§0§o#%ID% §x§D§1§E§8§E§2đã đượᴄ xóᴀ ᴛʜàɴʜ ᴄôɴɢ!"
+  Notification: "§x§A§3§C§4§F§3§o%OPERATOR% §x§D§1§E§8§E§2đã xóᴀ ɢʜɪ ᴄʜú ᴄủᴀ §x§F§D§F§D§9§6§o%NAME%"
+  Clear:
+    Empty: "§x§F§F§8§B§9§4§o%NAME% §x§D§1§E§8§E§2ᴋʜôɴɢ ᴄó ɢʜɪ ᴄʜú ɴàᴏ!"
+    Done: "§x§D§1§E§8§E§2Đã xóᴀ ꜱạᴄʜ §x§B§9§F§B§C§0§o%COUNT% §x§D§1§E§8§E§2ɢʜɪ ᴄʜú"
+
+UnPunish:
+  # GHI CHÚ: Xóa hình phạt dựa theo số ID lưu trong Database.
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/unpunish [ID]"
+  NotFound: "§x§F§F§8§B§9§4Kʜôɴɢ ᴛʜể ᴛìᴍ ᴛʜấʏ ʜìɴʜ ᴘʜạᴛ ꜱố #%ID%"
+  Done: "§x§D§1§E§8§E§2Hìɴʜ ᴘʜạᴛ §x§B§9§F§B§C§0§o#%ID% §x§D§1§E§8§E§2đã đượᴄ xóᴀ ᴛʜàɴʜ ᴄôɴɢ!"
+
+Banlist:
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/banlist <Tʀᴀɴɢ>"
+  OutOfIndex: "§x§F§F§8§B§9§4Kʜôɴɢ ᴄó ᴛʀᴀɴɢ %PAGE%!"
+  NoEntries: "§x§F§F§8§B§9§4§oKʜôɴɢ ᴄó ᴅữ ʟɪệᴜ ɴàᴏ"
+  Header:
+  - "%PREFIX% §x§D§1§E§8§E§2Dᴀɴʜ ꜱáᴄʜ Bᴀɴ:"
+  - "§x§F§F§8§B§9§4§oNɢườɪ ᴄʜơɪ/IP §x§8§8§8§8§8§8| §x§F§D§F§D§9§6§oTʜờɪ ʜạɴ §x§8§8§8§8§8§8| §x§D§1§E§8§E§2§oNɢườɪ xử ᴘʜạᴛ"
+  - "§x§F§F§8§B§9§4§oLᴏạɪ §x§8§8§8§8§8§8> §x§D§1§E§8§E§2§oLý ᴅᴏ"
+  - ""
+  Entry:
+  - "§x§8§8§8§8§8§8[§x§F§D§F§D§9§6%DATE%§x§8§8§8§8§8§8]"
+  - "§x§F§F§8§B§9§4%NAME% §x§8§8§8§8§8§8| §x§F§D§F§D§9§6%DURATION% §x§8§8§8§8§8§8| §x§D§1§E§8§E§2%OPERATOR%"
+  - "§x§F§F§8§B§9§4%TYPE% §x§8§8§8§8§8§8> §x§D§1§E§8§E§2§o%REASON%"
+  - ""
+  Footer: "§x§D§1§E§8§E§2Tʀᴀɴɢ §x§F§D§F§D§9§6§o%CURRENT_PAGE% §x§D§1§E§8§E§2/ §x§F§D§F§D§9§6§o%TOTAL_PAGES% §x§8§8§8§8§8§8| §x§D§1§E§8§E§2Tổɴɢ ꜱố ʙᴀɴ: §x§F§D§F§D§9§6§o%COUNT%"
+  PageFooter: "§x§D§1§E§8§E§2Dùɴɢ ʟệɴʜ §x§F§D§F§D§9§6§o/banlist %NEXT_PAGE% §x§D§1§E§8§E§2để xᴇᴍ ᴛʀᴀɴɢ ᴛɪếᴘ ᴛʜᴇᴏ"
+
+History:
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/history [Têɴ/IP] <Tʀᴀɴɢ>"
+  OutOfIndex: "§x§F§F§8§B§9§4Kʜôɴɢ ᴄó ᴛʀᴀɴɢ %PAGE%!"
+  NoEntries: "§x§F§F§8§B§9§4§oKʜôɴɢ ᴛìᴍ ᴛʜấʏ ʟịᴄʜ ꜱử ᴛɪềɴ áɴ ᴄủᴀ %NAME% :("
+  Header:
+  - "%PREFIX% §x§D§1§E§8§E§2Lịᴄʜ ꜱử ᴛɪềɴ áɴ ᴄủᴀ %NAME%:"
+  - "§x§F§F§8§B§9§4§oTêɴ §x§8§8§8§8§8§8| §x§F§D§F§D§9§6§oTʜờɪ ʜạɴ §x§8§8§8§8§8§8| §x§D§1§E§8§E§2§oNɢườɪ xử ᴘʜạᴛ"
+  - "§x§F§F§8§B§9§4§oLᴏạɪ §x§8§8§8§8§8§8> §x§D§1§E§8§E§2§oLý ᴅᴏ"
+  - ""
+  Entry:
+  - "§x§8§8§8§8§8§8[§x§F§D§F§D§9§6%DATE%§x§8§8§8§8§8§8]"
+  - "§x§F§F§8§B§9§4%NAME% §x§8§8§8§8§8§8| §x§F§D§F§D§9§6%DURATION% §x§8§8§8§8§8§8| §x§D§1§E§8§E§2%OPERATOR%"
+  - "§x§F§F§8§B§9§4%TYPE% §x§8§8§8§8§8§8> §x§D§1§E§8§E§2§o%REASON%"
+  - ""
+  Footer: "§x§D§1§E§8§E§2Tʀᴀɴɢ §x§F§D§F§D§9§6§o%CURRENT_PAGE% §x§D§1§E§8§E§2/ §x§F§D§F§D§9§6§o%TOTAL_PAGES% §x§8§8§8§8§8§8| §x§D§1§E§8§E§2Tổɴɢ ꜱố ᴛɪềɴ áɴ: §x§F§D§F§D§9§6§o%COUNT%"
+  PageFooter: "§x§D§1§E§8§E§2Dùɴɢ ʟệɴʜ §x§F§D§F§D§9§6§o/history %NAME% %NEXT_PAGE% §x§D§1§E§8§E§2để xᴇᴍ ᴛʀᴀɴɢ ᴛɪếᴘ ᴛʜᴇᴏ"
+
+Warns:
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/warns [Têɴ] <Tʀᴀɴɢ> §x§F§F§8§B§9§4ʜᴏặᴄ §x§D§1§E§8§E§2§o/warns <Tʀᴀɴɢ>"
+  OutOfIndex: "§x§F§F§8§B§9§4Kʜôɴɢ ᴄó ᴛʀᴀɴɢ %PAGE%!"
+  NoEntries: "§x§F§F§8§B§9§4§o%NAME% ᴄʜưᴀ ᴄó ᴄảɴʜ ᴄáᴏ ɴàᴏ"
+  Header:
+  - "%PREFIX% §x§D§1§E§8§E§2Cáᴄ ᴄảɴʜ ᴄáᴏ ᴄủᴀ %NAME%:"
+  - "§x§F§F§8§B§9§4§oTêɴ §x§8§8§8§8§8§8| §x§F§D§F§D§9§6§oTʜờɪ ʜạɴ §x§8§8§8§8§8§8| §x§D§1§E§8§E§2§oNɢườɪ xử ᴘʜạᴛ"
+  - "§x§F§F§8§B§9§4§o#ID §x§8§8§8§8§8§8> §x§D§1§E§8§E§2§oLý ᴅᴏ"
+  - ""
+  Entry:
+  - "§x§8§8§8§8§8§8[§x§F§D§F§D§9§6%DATE%§x§8§8§8§8§8§8]"
+  - "§x§F§F§8§B§9§4%NAME% §x§8§8§8§8§8§8| §x§F§D§F§D§9§6%DURATION% §x§8§8§8§8§8§8| §x§D§1§E§8§E§2%OPERATOR%"
+  - "§x§F§F§8§B§9§4§l#%ID% §x§8§8§8§8§8§8> §x§D§1§E§8§E§2§o%REASON%"
+  - ""
+  Footer: "§x§D§1§E§8§E§2Tʀᴀɴɢ §x§F§D§F§D§9§6§o%CURRENT_PAGE% §x§D§1§E§8§E§2/ §x§F§D§F§D§9§6§o%TOTAL_PAGES% §x§8§8§8§8§8§8| §x§D§1§E§8§E§2Cảɴʜ ᴄáᴏ đᴀɴɢ ᴄó ʜɪệᴜ ʟựᴄ: §x§F§D§F§D§9§6§o%COUNT%"
+  PageFooter: "§x§D§1§E§8§E§2Dùɴɢ ʟệɴʜ §x§F§D§F§D§9§6§o/warns %NAME% %NEXT_PAGE% §x§D§1§E§8§E§2để xᴇᴍ ᴛʀᴀɴɢ ᴛɪếᴘ ᴛʜᴇᴏ"
+
+WarnsOwn:
+  OutOfIndex: "§x§F§F§8§B§9§4Kʜôɴɢ ᴄó ᴛʀᴀɴɢ %PAGE%!"
+  NoEntries: "§x§F§F§8§B§9§4§oBạɴ ᴄʜưᴀ ʙị ᴄảɴʜ ᴄáᴏ ʟầɴ ɴàᴏ"
+  Header:
+  - "%PREFIX% §x§D§1§E§8§E§2Dᴀɴʜ ꜱáᴄʜ ᴄảɴʜ ᴄáᴏ ᴄủᴀ ʙạɴ:"
+  - "§x§F§D§F§D§9§6§oTʜờɪ ʜạɴ §x§8§8§8§8§8§8| §x§D§1§E§8§E§2§oNɢườɪ xử ᴘʜạᴛ"
+  - "§x§F§F§8§B§9§4§o#ID §x§8§8§8§8§8§8> §x§D§1§E§8§E§2§oLý ᴅᴏ"
+  - ""
+  Entry:
+  - "§x§8§8§8§8§8§8[§x§F§D§F§D§9§6%DATE%§x§8§8§8§8§8§8]"
+  - "§x§F§D§F§D§9§6%DURATION% §x§8§8§8§8§8§8| §x§D§1§E§8§E§2%OPERATOR%"
+  - "§x§F§F§8§B§9§4§l#%ID% §x§8§8§8§8§8§8> §x§D§1§E§8§E§2§o%REASON%"
+  - ""
+  Footer: "§x§D§1§E§8§E§2Tʀᴀɴɢ §x§F§D§F§D§9§6§o%CURRENT_PAGE% §x§D§1§E§8§E§2/ §x§F§D§F§D§9§6§o%TOTAL_PAGES% §x§8§8§8§8§8§8| §x§D§1§E§8§E§2Cảɴʜ ᴄáᴏ đᴀɴɢ ᴄó ʜɪệᴜ ʟựᴄ: §x§F§D§F§D§9§6§o%COUNT%"
+  PageFooter: "§x§D§1§E§8§E§2Dùɴɢ ʟệɴʜ §x§F§D§F§D§9§6§o/warns %NEXT_PAGE% §x§D§1§E§8§E§2để xᴇᴍ ᴛʀᴀɴɢ ᴛɪếᴘ ᴛʜᴇᴏ"
+
+Notes:
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/notes [Têɴ] <Tʀᴀɴɢ> §x§F§F§8§B§9§4ʜᴏặᴄ §x§D§1§E§8§E§2§o/notes <Tʀᴀɴɢ>"
+  OutOfIndex: "§x§F§F§8§B§9§4Kʜôɴɢ ᴄó ᴛʀᴀɴɢ %PAGE%!"
+  NoEntries: "§x§F§F§8§B§9§4§o%NAME% ᴄʜưᴀ ᴄó ɢʜɪ ᴄʜú ɴàᴏ"
+  Header:
+  - ""
+  - "%PREFIX% §x§D§1§E§8§E§2Cáᴄ ɢʜɪ ᴄʜú ᴠề %NAME%:"
+  - ""
+  Entry:
+  - "§x§D§1§E§8§E§2%DATE% §x§8§8§8§8§8§8| §x§D§1§E§8§E§2Bởɪ §o%OPERATOR% §x§D§1§E§8§E§2(§x§F§F§8§B§9§4#%ID%§x§D§1§E§8§E§2)"
+  - "§x§8§8§8§8§8§8> §x§F§D§F§D§9§6%REASON%"
+  - ""
+  Footer: "§x§D§1§E§8§E§2Tʀᴀɴɢ §x§F§D§F§D§9§6§o%CURRENT_PAGE% §x§D§1§E§8§E§2/ §x§F§D§F§D§9§6§o%TOTAL_PAGES% §x§8§8§8§8§8§8| §x§D§1§E§8§E§2Số ɢʜɪ ᴄʜú: §x§F§D§F§D§9§6§o%COUNT%"
+  PageFooter: "§x§D§1§E§8§E§2Dùɴɢ ʟệɴʜ §x§F§D§F§D§9§6§o/notes %NAME% %NEXT_PAGE% §x§D§1§E§8§E§2để xᴇᴍ ᴛʀᴀɴɢ ᴛɪếᴘ ᴛʜᴇᴏ"
+
+NotesOwn:
+  OutOfIndex: "§x§F§F§8§B§9§4Kʜôɴɢ ᴄó ᴛʀᴀɴɢ %PAGE%!"
+  NoEntries: "§x§F§F§8§B§9§4§oBạɴ ᴋʜôɴɢ ᴄó ɢʜɪ ᴄʜú ɴàᴏ"
+  Header:
+  - ""
+  - "%PREFIX% §x§D§1§E§8§E§2Cáᴄ ɢʜɪ ᴄʜú ᴄủᴀ ʙạɴ:"
+  - ""
+  Entry:
+  - "§x§D§1§E§8§E§2%DATE% §x§8§8§8§8§8§8| §x§D§1§E§8§E§2Bởɪ §o%OPERATOR% §x§D§1§E§8§E§2(§x§F§F§8§B§9§4#%ID%§x§D§1§E§8§E§2)"
+  - "§x§8§8§8§8§8§8> §x§F§D§F§D§9§6%REASON%"
+  - ""
+  Footer: "§x§D§1§E§8§E§2Tʀᴀɴɢ §x§F§D§F§D§9§6§o%CURRENT_PAGE% §x§D§1§E§8§E§2/ §x§F§D§F§D§9§6§o%TOTAL_PAGES% §x§8§8§8§8§8§8| §x§D§1§E§8§E§2Số ɢʜɪ ᴄʜú: §x§F§D§F§D§9§6§o%COUNT%"
+  PageFooter: "§x§D§1§E§8§E§2Dùɴɢ ʟệɴʜ §x§F§D§F§D§9§6§o/notes %NEXT_PAGE% §x§D§1§E§8§E§2để xᴇᴍ ᴛʀᴀɴɢ ᴛɪếᴘ ᴛʜᴇᴏ"
+
+ChangeReason:
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/change-reason [ID ʜᴏặᴄ ʙᴀɴ/ᴍᴜᴛᴇ TÊN] [Lý ᴅᴏ ᴍớɪ]"
+  Done: "§x§D§1§E§8§E§2Hìɴʜ ᴘʜạᴛ §x§B§9§F§B§C§0§o#%ID% §x§D§1§E§8§E§2đã đượᴄ ᴄậᴘ ɴʜậᴛ ʟý ᴅᴏ ᴛʜàɴʜ ᴄôɴɢ!"
+  NotFound: "§x§F§F§8§B§9§4Xɪɴ ʟỗɪ, ᴋʜôɴɢ ᴛʜể ᴛìᴍ ᴛʜấʏ ʜìɴʜ ᴘʜạᴛ ɴàʏ"
+
+Check:
+  Usage: "§x§F§F§8§B§9§4Cáᴄʜ ᴅùɴɢ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§o/check [Têɴ]"
+  Header: "§x§D§1§E§8§E§2Đᴀɴɢ ᴋɪểᴍ ᴛʀᴀ §x§F§D§F§D§9§6§o%NAME% §x§8§8§8§8§8§8(%CACHED%§x§8§8§8§8§8§8)"
+  UUID: "§x§F§F§8§B§9§4UUID §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%UUID% §x§8§8§8§8§8§8(%CACHED%§x§8§8§8§8§8§8)"
+  IP: "§x§F§F§8§B§9§4IP §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%IP% §x§8§8§8§8§8§8(%CACHED%§x§8§8§8§8§8§8)"
+  Geo: "§x§F§F§8§B§9§4Qᴜốᴄ ɢɪᴀ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%LOCATION%"
+  Mute: "§x§F§F§8§B§9§4Mᴜᴛᴇ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%DURATION%"
+  MuteReason: "  §x§F§F§8§B§9§4Lý ᴅᴏ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%REASON%"
+  Ban: "§x§F§F§8§B§9§4Bᴀɴ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%DURATION%"
+  BanReason: "  §x§F§F§8§B§9§4Lý ᴅᴏ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%REASON%"
+  Warn: "§x§F§F§8§B§9§4Cảɴʜ ᴄáᴏ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%COUNT%"
+  Note: "§x§F§F§8§B§9§4Gʜɪ ᴄʜú §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%COUNT%"
+  NotFound: "§x§F§F§8§B§9§4Xɪɴ ʟỗɪ, ᴄʜúɴɢ ᴛôɪ ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ %NAME%"
+  Cached: "§x§B§9§F§B§C§0§ođã ʟưᴜ ᴄᴀᴄʜᴇ"
+  NotCached: "§x§F§F§8§B§9§4§oᴄʜưᴀ ʟưᴜ ᴄᴀᴄʜᴇ"
+
+Message:
+  ExampleLayout:
+  - '%PREFIX% §x§F§F§8§B§9§4§lXử Pʜạᴛ: §x§F§F§B§3§4§7Sử Dụɴɢ Pʜầɴ Mềᴍ Gɪᴀɴ Lậɴ'
+  - '§x§A§3§C§4§F§3Nɢườɪ Xử Pʜạᴛ §x§8§8§8§8§8§8» §x§B§9§F§B§C§0%OPERATOR%'
+  - ''
+  - '§x§D§1§E§8§E§2Pʜáᴛ ʜɪệɴ ᴅấᴜ ʜɪệᴜ ꜱử ᴅụɴɢ ᴘʜầɴ ᴍềᴍ'
+  - '§x§D§1§E§8§E§2ᴛʜứ 3 ᴛʀáɪ ᴘʜéᴘ. Vᴜɪ ʟòɴɢ ɢỡ ʙỏ!'
+  - '§x§F§D§F§D§9§6Hếᴛ Hạɴ Sᴀᴜ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%DURATION%'
+  - ''
+  - '§x§A§3§C§4§F§3Kʜáɴɢ Cáᴏ Tạɪ Dɪꜱᴄᴏʀᴅ Hᴏặᴄ Dɪễɴ Đàɴ'
+  - '§x§F§F§B§3§4§7Dɪꜱᴄᴏʀᴅ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§ndiscord.gg/tDsSHDHPps'
+  - '§x§F§F§B§3§4§7Dɪễɴ Đàɴ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2§nwww.dangkh0a.io.vn'
+  ExampleLayout2:
+  - '%PREFIX% §x§F§F§8§B§9§4§lXử Pʜạᴛ: §x§F§F§B§3§4§7Vɪ Pʜạᴍ Nɢôɴ Từ'
+  - ''
+  - '§x§D§1§E§8§E§2Máʏ ᴄʜủ ɴɢʜɪêᴍ ᴄấᴍ ʜàɴʜ ᴠɪ xúᴄ ᴘʜạᴍ, ᴄʜửɪ ʙớɪ!'
+  - '§x§D§1§E§8§E§2Cụ ᴛʜể ᴠɪ ᴘʜạᴍ: §x§F§D§F§D§9§6%REASON%'
+
+Time:
+  ExampleLayout:
+  - '30m'
+  - '2h'
+  - '1d'
+  - '1w'
+  - '1mo'
+  - '2mo'
+  - '4mo'
+  - 'perma'

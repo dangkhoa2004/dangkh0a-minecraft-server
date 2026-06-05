@@ -1,0 +1,24 @@
+item:
+  displayname: '&aTrang trí'
+  material: AMETHYST_CLUSTER
+  lore:
+  lore:
+  - '&8Xem trước danh mục'
+  - '#e9ad68 ▪ &fKhối sáp ong'
+  - '#e9ad68 ▪ &fSan hô'
+  - '#e9ad68 ▪ &fĐèn biển'
+  - '#e9ad68 ▪ &fNến'
+  - '#e9ad68 ▪ &fHoa bào tử'
+  - '#f48ce2 ▪ &fvà các vật phẩm khác '
+  - ''
+  - '&7◆ #f48ce2Nhấn: &fMở'
+  enchantment-glint: false
+hidden: false
+enable: true
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+slot: 24
+title: 'Trang trí'
+display-item: false

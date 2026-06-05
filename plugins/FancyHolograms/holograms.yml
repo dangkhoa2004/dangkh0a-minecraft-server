@@ -1,0 +1,353 @@
+version: 2 # DO NOT CHANGE
+holograms:
+  tutorial:
+    type: TEXT
+    location:
+      world: lobby
+      x: 4.5
+      y: -2.880000114440918
+      z: -15.5
+      yaw: 29.934109
+      pitch: 0.7811773
+    visibility_distance: 48
+    visibility: ALL
+    persistent: true
+    linkedNpc: tutorial
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&#828DBC&l☄ GETTING STARTED ☄'
+    - '&7ꜱᴇʀᴠᴇʀ ɴᴘᴄ'
+    - '&r'
+    - /tutorial
+    - '&#CB2D3E↓ᴄʟɪᴄᴋ ᴍᴇ↓'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  shop:
+    type: TEXT
+    location:
+      world: lobby
+      x: -3.5
+      y: -2.880000114440918
+      z: -15.5
+      yaw: -30.0
+      pitch: 0.0
+    visibility_distance: 64
+    visibility: ALL
+    persistent: true
+    linkedNpc: shop
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&#7A85E7&l🏹 MARKET 🏹'
+    - '&7ꜱᴇʀᴠᴇʀ ɴᴘᴄ'
+    - '&r'
+    - /shop
+    - '&#CB2D3E↓ᴄʟɪᴄᴋ ᴍᴇ↓'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  rtp:
+    type: TEXT
+    location:
+      world: lobby
+      x: 0.5
+      y: -2.880000114440918
+      z: -16.5
+      yaw: 0.0
+      pitch: -0.14687198
+    visibility_distance: 48
+    visibility: ALL
+    persistent: true
+    linkedNpc: rtp
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&#fc4004&l☄ RTP ☄'
+    - '&7ꜱᴇʀᴠᴇʀ ɴᴘᴄ'
+    - '&r'
+    - /rtp
+    - '&#CB2D3E↓ᴄʟɪᴄᴋ ᴍᴇ↓'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  Balance_Leaderboard:
+    type: TEXT
+    location:
+      world: lobby
+      x: -17.5
+      y: -4.0
+      z: 21.5
+      yaw: -135.0
+      pitch: 0.0
+    visibility_distance: 50
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&#46FF64&lᴛᴏᴘ ʙᴀʟᴀɴᴄᴇs'
+    - '&r'
+    - '&#46FF64#1 &7| &f%ajlb_lb_vault_eco_balance_commas_1_alltime_name%: &#46FF64$%ajlb_lb_vault_eco_balance_commas_1_alltime_value%'
+    - '&#46FF64#2 &7| &f%ajlb_lb_vault_eco_balance_commas_2_alltime_name%: &#46FF64$%ajlb_lb_vault_eco_balance_commas_2_alltime_value%'
+    - '&#46FF64#3 &7| &f%ajlb_lb_vault_eco_balance_commas_3_alltime_name%: &#46FF64$%ajlb_lb_vault_eco_balance_commas_3_alltime_value%'
+    - '&#46FF64#4 &7| &f%ajlb_lb_vault_eco_balance_commas_4_alltime_name%: &#46FF64$%ajlb_lb_vault_eco_balance_commas_4_alltime_value%'
+    - '&#46FF64#5 &7| &f%ajlb_lb_vault_eco_balance_commas_5_alltime_name%: &#46FF64$%ajlb_lb_vault_eco_balance_commas_5_alltime_value%'
+    - '&#46FF64#6 &7| &f%ajlb_lb_vault_eco_balance_commas_6_alltime_name%: &#46FF64$%ajlb_lb_vault_eco_balance_commas_6_alltime_value%'
+    - '&#46FF64#7 &7| &f%ajlb_lb_vault_eco_balance_commas_7_alltime_name%: &#46FF64$%ajlb_lb_vault_eco_balance_commas_7_alltime_value%'
+    - '&#46FF64#8 &7| &f%ajlb_lb_vault_eco_balance_commas_8_alltime_name%: &#46FF64$%ajlb_lb_vault_eco_balance_commas_8_alltime_value%'
+    - '&#46FF64#9 &7| &f%ajlb_lb_vault_eco_balance_commas_9_alltime_name%: &#46FF64$%ajlb_lb_vault_eco_balance_commas_9_alltime_value%'
+    - '&#46FF64#10 &7| &f%ajlb_lb_vault_eco_balance_commas_10_alltime_name%: &#46FF64$%ajlb_lb_vault_eco_balance_commas_10_alltime_value%'
+    - '&r'
+    - '&#46FF64#%ajlb_position_vault_eco_balance_commas_alltime% &7| &f%player_name%:
+      &#46FF64$%ajlb_value_vault_eco_balance_commas_alltime%'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: 1000
+    background: transparent
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    billboard: fixed
+  
+  death_leaderboard:
+    type: TEXT
+    location:
+      world: lobby
+      x: 17.5
+      y: -4.0
+      z: 20.5
+      yaw: 145.0
+      pitch: 0.0
+    visibility_distance: 50
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&#FF3636&lᴛᴏᴘ ᴅᴇᴀᴛʜs'
+    - '&r'
+    - '&#FF3636#1 &7| &f%ajlb_lb_statistic_deaths_1_alltime_name%: &#FF3636%ajlb_lb_statistic_deaths_1_alltime_value%
+      ☠'
+    - '&#FF3636#2 &7| &f%ajlb_lb_statistic_deaths_2_alltime_name%: &#FF3636%ajlb_lb_statistic_deaths_2_alltime_value%
+      ☠'
+    - '&#FF3636#3 &7| &f%ajlb_lb_statistic_deaths_3_alltime_name%: &#FF3636%ajlb_lb_statistic_deaths_3_alltime_value%
+      ☠'
+    - '&#FF3636#4 &7| &f%ajlb_lb_statistic_deaths_4_alltime_name%: &#FF3636%ajlb_lb_statistic_deaths_4_alltime_value%
+      ☠'
+    - '&#FF3636#5 &7| &f%ajlb_lb_statistic_deaths_5_alltime_name%: &#FF3636%ajlb_lb_statistic_deaths_5_alltime_value%
+      ☠'
+    - '&#FF3636#6 &7| &f%ajlb_lb_statistic_deaths_6_alltime_name%: &#FF3636%ajlb_lb_statistic_deaths_6_alltime_value%
+      ☠'
+    - '&#FF3636#7 &7| &f%ajlb_lb_statistic_deaths_7_alltime_name%: &#FF3636%ajlb_lb_statistic_deaths_7_alltime_value%
+      ☠'
+    - '&#FF3636#8 &7| &f%ajlb_lb_statistic_deaths_8_alltime_name%: &#FF3636%ajlb_lb_statistic_deaths_8_alltime_value%
+      ☠'
+    - '&#FF3636#9 &7| &f%ajlb_lb_statistic_deaths_9_alltime_name%: &#FF3636%ajlb_lb_statistic_deaths_9_alltime_value%
+      ☠'
+    - '&#FF3636#10 &7| &f%ajlb_lb_statistic_deaths_10_alltime_name%: &#FF3636%ajlb_lb_statistic_deaths_10_alltime_value%
+      ☠'
+    - '&r'
+    - '&#FF3636#%ajlb_position_statistic_deaths_alltime% &7| &f%player_name%: &#FF3636%ajlb_value_statistic_deaths_alltime%
+      ☠'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: 5000
+    background: transparent
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    billboard: fixed
+  
+  kill_leaderboard:
+    type: TEXT
+    location:
+      world: lobby
+      x: -22.5
+      y: -4.0
+      z: -5.5
+      yaw: -45.0
+      pitch: 0.0
+    visibility_distance: 48
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&#50C7FF&lᴛᴏᴘ ᴋɪʟʟs'
+    - '&r'
+    - '&#50C7FF#1 &7| &f%ajlb_lb_statistic_player_kills_1_alltime_name%: &#50C7FF%ajlb_lb_statistic_player_kills_1_alltime_value%🗡'
+    - '&#50C7FF#2 &7| &f%ajlb_lb_statistic_player_kills_2_alltime_name%: &#50C7FF%ajlb_lb_statistic_player_kills_2_alltime_value%🗡'
+    - '&#50C7FF#3 &7| &f%ajlb_lb_statistic_player_kills_3_alltime_name%: &#50C7FF%ajlb_lb_statistic_player_kills_3_alltime_value%🗡'
+    - '&#50C7FF#4 &7| &f%ajlb_lb_statistic_player_kills_4_alltime_name%: &#50C7FF%ajlb_lb_statistic_player_kills_4_alltime_value%🗡'
+    - '&#50C7FF#5 &7| &f%ajlb_lb_statistic_player_kills_5_alltime_name%: &#50C7FF%ajlb_lb_statistic_player_kills_5_alltime_value%🗡'
+    - '&#50C7FF#6 &7| &f%ajlb_lb_statistic_player_kills_6_alltime_name%: &#50C7FF%ajlb_lb_statistic_player_kills_6_alltime_value%🗡'
+    - '&#50C7FF#7 &7| &f%ajlb_lb_statistic_player_kills_7_alltime_name%: &#50C7FF%ajlb_lb_statistic_player_kills_7_alltime_value%🗡'
+    - '&#50C7FF#8 &7| &f%ajlb_lb_statistic_player_kills_8_alltime_name%: &#50C7FF%ajlb_lb_statistic_player_kills_8_alltime_value%🗡'
+    - '&#50C7FF#9 &7| &f%ajlb_lb_statistic_player_kills_9_alltime_name%: &#50C7FF%ajlb_lb_statistic_player_kills_9_alltime_value%🗡'
+    - '&#50C7FF#10 &7| &f%ajlb_lb_statistic_player_kills_10_alltime_name%: &#50C7FF%ajlb_lb_statistic_player_kills_10_alltime_value%🗡'
+    - '&r'
+    - '&#50C7FF#%ajlb_position_statistic_player_kills_alltime% &7| &f%player_name%:
+      &#50C7FF%ajlb_value_statistic_player_kills_alltime%🗡'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: 5000
+    background: transparent
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    billboard: fixed
+  
+  playtime_leaderboard:
+    type: TEXT
+    location:
+      world: lobby
+      x: 17.5
+      y: -4.0
+      z: -4.5
+      yaw: 45.0
+      pitch: 0.0
+    visibility_distance: 50
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&#EF67FF&lᴛᴏᴘ ᴘʟᴀʏᴛɪᴍᴇ'
+    - '&r'
+    - '&#EF67FF#1 &7| &f%ajlb_lb_statistic_hours_played_1_alltime_name%: &#EF67FF%ajlb_lb_statistic_hours_played_1_alltime_value%h'
+    - '&#EF67FF#2 &7| &f%ajlb_lb_statistic_hours_played_2_alltime_name%: &#EF67FF%ajlb_lb_statistic_hours_played_2_alltime_value%h'
+    - '&#EF67FF#3 &7| &f%ajlb_lb_statistic_hours_played_3_alltime_name%: &#EF67FF%ajlb_lb_statistic_hours_played_3_alltime_value%h'
+    - '&#EF67FF#4 &7| &f%ajlb_lb_statistic_hours_played_4_alltime_name%: &#EF67FF%ajlb_lb_statistic_hours_played_4_alltime_value%h'
+    - '&#EF67FF#5 &7| &f%ajlb_lb_statistic_hours_played_5_alltime_name%: &#EF67FF%ajlb_lb_statistic_hours_played_5_alltime_value%h'
+    - '&#EF67FF#6 &7| &f%ajlb_lb_statistic_hours_played_6_alltime_name%: &#EF67FF%ajlb_lb_statistic_hours_played_6_alltime_value%h'
+    - '&#EF67FF#7 &7| &f%ajlb_lb_statistic_hours_played_7_alltime_name%: &#EF67FF%ajlb_lb_statistic_hours_played_7_alltime_value%h'
+    - '&#EF67FF#8 &7| &f%ajlb_lb_statistic_hours_played_8_alltime_name%: &#EF67FF%ajlb_lb_statistic_hours_played_8_alltime_value%h'
+    - '&#EF67FF#9 &7| &f%ajlb_lb_statistic_hours_played_9_alltime_name%: &#EF67FF%ajlb_lb_statistic_hours_played_9_alltime_value%h'
+    - '&#EF67FF#10 &7| &f%ajlb_lb_statistic_hours_played_10_alltime_name%: &#EF67FF%ajlb_lb_statistic_hours_played_10_alltime_value%h'
+    - '&r'
+    - '&#EF67FF#%ajlb_position_statistic_hours_played_alltime% &7| &f%player_name%:
+      &#EF67FF%ajlb_value_statistic_hours_played_alltime%'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: 5000
+    background: transparent
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    billboard: fixed
+  parkour:
+    type: TEXT
+    location:
+      world: lobby
+      x: -18.5
+      y: -5.0
+      z: 8.5
+      yaw: -90.0
+      pitch: 0.0
+    visibility_distance: 48
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    billboard: fixed
+    text:
+    - '&#E0FC5C&lᴛᴏᴘ ᴘᴀʀᴋᴏᴜʀ'
+    - '&r'
+    - '&#E0FC5C#1 &7| &f%ajlb_lb_ajpk_stats_highscore_1_alltime_name%: &#E0FC5C%ajlb_lb_ajpk_stats_highscore_1_alltime_value%'
+    - '&#E0FC5C#2 &7| &f%ajlb_lb_ajpk_stats_highscore_2_alltime_name%: &#E0FC5C%ajlb_lb_ajpk_stats_highscore_2_alltime_value%'
+    - '&#E0FC5C#3 &7| &f%ajlb_lb_ajpk_stats_highscore_3_alltime_name%: &#E0FC5C%ajlb_lb_ajpk_stats_highscore_3_alltime_value%'
+    - '&#E0FC5C#4 &7| &f%ajlb_lb_ajpk_stats_highscore_4_alltime_name%: &#E0FC5C%ajlb_lb_ajpk_stats_highscore_4_alltime_value%'
+    - '&#E0FC5C#5 &7| &f%ajlb_lb_ajpk_stats_highscore_5_alltime_name%: &#E0FC5C%ajlb_lb_ajpk_stats_highscore_5_alltime_value%'
+    - '&#E0FC5C#6 &7| &f%ajlb_lb_ajpk_stats_highscore_6_alltime_name%: &#E0FC5C%ajlb_lb_ajpk_stats_highscore_6_alltime_value%'
+    - '&#E0FC5C#7 &7| &f%ajlb_lb_ajpk_stats_highscore_7_alltime_name%: &#E0FC5C%ajlb_lb_ajpk_stats_highscore_7_alltime_value%'
+    - '&#E0FC5C#8 &7| &f%ajlb_lb_ajpk_stats_highscore_8_alltime_name%: &#E0FC5C%ajlb_lb_ajpk_stats_highscore_8_alltime_value%'
+    - '&#E0FC5C#9 &7| &f%ajlb_lb_ajpk_stats_highscore_9_alltime_name%: &#E0FC5C%ajlb_lb_ajpk_stats_highscore_9_alltime_value%'
+    - '&#E0FC5C#10 &7| &f%ajlb_lb_ajpk_stats_highscore_10_alltime_name%: &#E0FC5C%ajlb_lb_ajpk_stats_highscore_10_alltime_value%'
+    - '&r'
+    - '&#E0FC5C%ajlb_position_ajpk_stats_highscore_alltime% &7| &f%player_name%: &#E0FC5C%ajlb_value_ajpk_stats_highscore_alltime%'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: 1000
+    background: transparent
+  spawn:
+    type: TEXT
+    location:
+      world: lobby
+      x: 0.5
+      y: -3.0
+      z: -8.5
+      yaw: -174.62274
+      pitch: 28.376028
+    visibility_distance: 100
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&#00FFCB&lC&#00FFCB&lh&#00FFCB&là&#00FFCB&lo &#00FFCB&lm&#00FFCB&lừ&#00FFCB&ln&#00FFCB&lg
+      &#00FFCB&lb&#00FFCB&lạ&#00FFCB&ln &#00FFCB&lđ&#00FFCB&lã &#00FFCB&lđ&#00FFCB&lế&#00FFCB&ln
+      &#00FFCB&lv&#00FFCB&lớ&#00FFCB&li &#00FFCB&ls&#00FFCB&le&#00FFCB&lr&#00FFCB&lv&#00FFCB&le&#00FFCB&lr'
+    - '&fBắt đầu cuộc hành trình của bạn bằng cách dùng /rtp'
+    - '&fBật tắt các tính năng của server tại /caidat'
+    - '&fBạn có thể dùng /menu để khám phá thêm các tiện ích mới'
+    - '&fKhám phá, xây dựng, chiến đấu'
+    - '&fChúc bạn có một trải nghiệm tốt tại server'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1

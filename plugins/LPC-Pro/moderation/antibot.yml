@@ -1,0 +1,8 @@
+enabled: false
+chat-cooldown-seconds: 2
+command-cooldown-seconds: 1
+max-messages-per-minute: 20
+max-similar-messages: 3
+similarity-threshold: 0.8
+kick-on-detection: true
+kick-message: Bot-like behavior detected.

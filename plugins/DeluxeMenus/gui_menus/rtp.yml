@@ -1,0 +1,90 @@
+open_command: rtp
+register_command: true
+size: 27
+menu_title: '&#BDB2FF&l❁ ᴅịᴄʜ ᴄʜᴜʏểɴ ɴɢẫᴜ ɴʜɪêɴ ❁'
+
+items:
+
+  'filler':
+    material: WHITE_STAINED_GLASS_PANE
+    display_name: " "
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 12
+    - 14
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+
+  'overworld':
+    material: GRASS_BLOCK
+    slot: 11
+    display_name: '&#57F287&l❁ ᴛʜế ɢɪớɪ ᴛʜựᴄ ❁'
+    lore:
+      - ''
+      - ' &#fcfcfc❖ &#E0E0E0Dịch chuyển ngẫu nhiên đến'
+      - ' &#E0E0E0một vị trí bất kỳ trên Overworld.'
+      - ''
+      - ' &#ED4245⚠ Cảnh báo: &#E0E0E0Khu vực có bật PVP!'
+      - ''
+      - '&#57F287▶ &#E0E0E0Nhấn để dịch chuyển'
+    left_click_commands:
+      - '[console] betterrtp player %player_name% world world'
+      - '[close]'
+    right_click_commands:
+      - '[console] betterrtp player %player_name% world world'
+      - '[close]'
+
+  'spawn':
+    material: COMPASS
+    slot: 13
+    display_name: '&#FCD05C&l❁ sảɴʜ ᴄʜíɴʜ ❁'
+    lore:
+      - ''
+      - ' &#fcfcfc❖ &#E0E0E0Dịch chuyển an toàn về điểm'
+      - ' &#E0E0E0xuất phát của máy chủ.'
+      - ''
+      - '&#FCD05C▶ &#E0E0E0Nhấn để quay về'
+    left_click_commands:
+      - '[player] spawn'
+      - '[close]'
+    right_click_commands:
+      - '[player] spawn'
+      - '[close]'
+
+  'nether':
+    material: NETHERRACK
+    slot: 15
+    display_name: '&#ED4245&l❁ địᴀ ɴɢụᴄ ❁'
+    lore:
+      - ''
+      - ' &#fcfcfc❖ &#E0E0E0Dịch chuyển ngẫu nhiên đến'
+      - ' &#E0E0E0một vị trí bất kỳ trong Nether.'
+      - ''
+      - ' &#ED4245⚠ Cảnh báo: &#E0E0E0Khu vực có bật PVP!'
+      - ''
+      - '&#ED4245▶ &#E0E0E0Nhấn để dịch chuyển'
+    left_click_commands:
+      - '[player] betterrtp world world_nether'
+      - '[close]'
+    right_click_commands:
+      - '[player] betterrtp world world_nether'
+      - '[close]'

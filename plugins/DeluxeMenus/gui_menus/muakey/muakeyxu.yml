@@ -1,0 +1,109 @@
+open_command: muakeyxu
+register_command: true
+size: 27
+menu_title: 'Mua key bằng xu'
+
+items:
+
+  'filler':
+    material: GRAY_STAINED_GLASS_PANE
+    display_name: "&f"
+    damage: 1
+    slots: [0-26]
+
+  'xukeythuong':
+    material: tripwire_hook
+    slot: 12
+    display_name: "&a&lMua key thường bằng xu"
+    lore:
+      - "&aMua key thường để mở rương"
+      - ""
+      - "&fKhi mua, bạn sẽ được 1 key để mở rương"
+      - "&fNhập /warps crates để đến khu vực quay thưởng"
+      - "&fSố xu bạn đang có là: &e%vault_eco_balance_formatted%"
+      - "&8&lGiá: &f1m xu"
+    click_commands:
+    - '[console] economy take %player_name% 1000000 '
+    - '[console] crate key give %player_name% key-all_key'
+    - '[message] &fBạn đã mua thành công.'
+    - '[close]'
+    click_requirement:
+      requirements:
+        Du-Xu:
+          type: '>='
+          input: "%vault_eco_balance%"
+          output: "1000000"
+          deny_commands:
+          - '[close]'
+          - '[sound] BLOCK_ANVIL_PLACE 1 5'
+          - '[message] &f'
+          - '[message] &8 >&f Bạn không có đủ xu để'
+          - '[message] &8 >&f mua &#FFC700key!'
+          - '[message] &f'
+  'xukeycaocap':
+    material: trial_key
+    slot: 13
+    display_name: "&a&lMua key cao cấp bằng xu"
+    lore:
+      - "&aMua key thường để mở rương"
+      - ""
+      - "&fKhi mua, bạn sẽ được 1 key để mở rương"
+      - "&fNhập /warps crates để đến khu vực quay thưởng"
+      - "&fSố xu bạn đang có là: &e%vault_eco_balance_formatted%"
+      - "&8&lGiá: &f5m xu"
+    click_commands:
+    - '[console] economy take %player_name% 5000000 '
+    - '[console] crate key give %player_name% mvp_key'
+    - '[message] &fBạn đã mua thành công 2,5k block claim.'
+    - '[close]'
+    click_requirement:
+      requirements:
+        Du-Xu:
+          type: '>='
+          input: "%vault_eco_balance%"
+          output: "5000000"
+          deny_commands:
+          - '[close]'
+          - '[sound] BLOCK_ANVIL_PLACE 1 5'
+          - '[message] &f'
+          - '[message] &8 >&f Bạn không có đủ xu để'
+          - '[message] &8 >&f mua &#FFC700ekey!'
+          - '[message] &f'
+
+  'xukeyvip':
+    material: ominous_trial_key
+    slot: 14
+    display_name: "&a&lMua key vip bằng xu"
+    lore:
+      - "&aMua key thường để mở rương"
+      - ""
+      - "&fKhi mua, bạn sẽ được 1 key để mở rương"
+      - "&fNhập /warps crates để đến khu vực quay thưởng"
+      - "&fSố xu bạn đang có là: &e%vault_eco_balance_formatted%"
+      - "&8&lGiá: &f10m xu"
+    click_commands:
+    - '[console] economy take %player_name% 10000000 '
+    - '[console] crate key give %player_name% titanium_key'
+    - '[message] &fBạn đã mua thành công.'
+    - '[close]'
+    click_requirement:
+      requirements:
+        Du-Xu:
+          type: '>='
+          input: "%vault_eco_balance%"
+          output: "10000000"
+          deny_commands:
+          - '[close]'
+          - '[sound] BLOCK_ANVIL_PLACE 1 5'
+          - '[message] &f'
+          - '[message] &8 >&f Bạn không có đủ points để'
+          - '[message] &8 >&f mua &#FFC700key!'
+          - '[message] &f'
+
+      
+  'back':
+    material: barrier
+    slot: 22
+    display_name: "&c&lBACK"
+    click_commands:
+    - '[player] muakey'

@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:stone"
+    },
+    "title":"\u00A7x\u00A7A\u00A7C\u00A7FT\u0280\u00F9\u1D0D x\u1EBF\u1D18 \u029C\u00EC\u0274\u029C",
+    "description":"\u00A7x\u00A7D\u00A7E\u00A7E\u0110\u1EB7\u1D1B \u00A7x\u00A7F\u00A7D\u00A7F\u00A7D50 \u00A7x\u00A7D\u00A7E\u00A7E\u1D04\u00E1\u026A \u0280\u01B0\u01A1\u0274\u0262.",
+    "frame":"challenge",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:place_5_chest"
+}

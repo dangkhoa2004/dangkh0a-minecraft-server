@@ -1,0 +1,36 @@
+menu_title: '&0&lCHỌN PHƯƠNG THỨC MUA'
+open_command:
+- rank
+- capbac
+register_command: true
+size: 27
+items:
+  'Mua_Xu':
+    material: GOLD_INGOT
+    slot: 11
+    display_name: '&e&lMUA RANK BẰNG XU'
+    lore:
+    - '&7Nhấn để mở danh sách cấp bậc'
+    - '&7thanh toán bằng hệ thống Xu.'
+    click_commands:
+    - '[player] rankxu'
+    - '[sound] UI_BUTTON_CLICK'
+    
+  'Mua_Points':
+    material: DIAMOND
+    slot: 15
+    display_name: '&b&lMUA RANK BẰNG POINTS'
+    lore:
+    - '&7Nhấn để mở danh sách cấp bậc'
+    - '&7thanh toán bằng hệ thống Points nạp.'
+    click_commands:
+    - '[player] rankpoints'
+    - '[sound] UI_BUTTON_CLICK'
+
+  'Filler':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+    - 0-10
+    - 12-14
+    - 16-26
+    display_name: '&f'

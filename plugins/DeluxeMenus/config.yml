@@ -1,0 +1,95 @@
+# DeluxeMenus 1.14.1-Release main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/helpchat-plugins/deluxemenus
+
+check_updates: true
+debug: LOW
+use_admin_commands_in_menus_list: false
+menus_list_page_size: 10
+metas_list_page_size: 15
+gui_menus:
+  rtp:
+    file: rtp.yml
+  warps:
+    file: warps.yml
+  tutorial:
+    file: tutorial.yml
+  leaderboards:
+    file: leaderboards.yml
+  teams:
+    file: teams.yml
+  stats:
+    file: stats.yml
+  settings:
+    file: settings.yml
+  rank:
+    file: rank.yml
+  taixiu:
+    file: taixiu.yml
+  muaclaim:
+    file: muaclaim.yml
+  muakey:
+    file: muakey/muakey.yml
+  muakeypoints:
+    file: muakey/muakeypoints.yml
+  muakeyxu:
+    file: muakey/muakeyxu.yml
+  social:
+    file: social.yml
+  staff-guide:
+    file: staff-guide.yml
+  rule:
+    file: rules.yml
+  cosmetic:
+    file: cosmetics.yml
+  menus:
+    file: menus.yml
+  pv:
+    file: pv.yml
+  special_shop:
+    file: special_shop.yml
+  claimlist:
+    file: claim/claimlist.yml
+  claims:
+    file: claim/claims.yml
+  claimsettings:
+    file: claim/claimsettings.yml
+  muashard:
+    file: muashard.yml
+  rankxu:
+    file: rank_xu.yml
+  rankpoints:
+    file: rank_points.yml
+  fastce:
+    file: fastce.yml
+  fastce_thuong:
+    file: fastce_thuong.yml
+  fastce_hiem:
+    file: fastce_hiem.yml
+  fastce_sieuhiem:
+    file: fastce_sieuhiem.yml
+  fastce_suthi:
+    file: fastce_suthi.yml
+  fastce_huyenthoai:
+    file: fastce_huyenthoai.yml
+  fastce_thanthoai:
+    file: fastce_thanthoai.yml
+  G-sit:
+    file: Gsit.yml
+  adminsettings_flyspeed_menu:
+    file: adminsettings_flyspeed_menu.yml
+  adminsettings_gamemode_menu:
+    file: adminsettings_gamemode_menu.yml
+  adminsettings_menu:
+    file: adminsettings_menu.yml
+#  BetterTeamsConfirmAction:
+#    file: BetterTeams/confirmAction.yml
+#  BetterTeamscontrolPanel:
+#    file: BetterTeams/controlPanel.yml
+#  BetterTeamsMain:
+#    file: BetterTeams/main.yml
+#  BetterTeamsManageAllies:
+#    file: BetterTeams/manageAllies.yml
+#  BetterTeamsManageMembers:
+#    file: BetterTeams/manageMembers.yml

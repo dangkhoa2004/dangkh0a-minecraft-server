@@ -1,0 +1,218 @@
+inventory:
+  armor:
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:elytra
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:mending":1,"minecraft:unbreaking":4}'
+      minecraft:damage: '5'
+    schema_version: 1
+  - null
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:cooked_beef
+    count: 20
+    schema_version: 1
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:golden_axe
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:-4.0d,id:"minecraft:barbaric_axe_rm",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:1.2000000476837158d,id:"minecraft:barbaric_axe",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:11.0d,id:"minecraft:barbaric_axe",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"}]'
+      minecraft:lore: '[" ",{color:"green",italic:0b,text:"Ability:"},{color:"gray",italic:0b,text:"When
+        hitting an enemy there is a "},{color:"gray",italic:0b,text:"25% chance to
+        create an explosion "},{color:"gray",italic:0b,text:"dealing 2 hearts of true
+        damage. "},"  ",{color:"gray",italic:0b,text:"When in Main Hand:"},{color:"dark_green",italic:0b,text:"
+        12 Attack Damage"},{color:"dark_green",italic:0b,text:" 1.2 Attack Speed"}]'
+      minecraft:unbreakable: '{}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers"]}'
+      minecraft:enchantments: '{"minecraft:bane_of_arthropods":1,"minecraft:knockback":1,"minecraft:sharpness":4,"minecraft:smite":3,"mt:weapons/barbaric_axe":1}'
+      minecraft:custom_name: '{color:"gold",italic:0b,text:"Barbaric Axe"}'
+      minecraft:custom_data: '{mt:"weapon",weapon:"barbaric_axe"}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_sword
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:1.7999999523162842d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:-4.0d,id:"minecraft:mine_treasure_2",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:9.5d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"}]'
+      minecraft:lore: '[" ",{color:"gray",italic:0b,text:"When in Main Hand:"},{color:"dark_green",italic:0b,text:"
+        10.5 Attack Damage"},{color:"dark_green",italic:0b,text:" 1.8 Attack Speed"}]'
+      minecraft:enchantments: '{"minecraft:fire_aspect":1,"minecraft:knockback":1,"minecraft:looting":5,"minecraft:mending":1,"minecraft:sharpness":2,"minecraft:unbreaking":9}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers"]}'
+      minecraft:custom_name: '{color:"gold",italic:0b,text:"Forged Netherite Sword"}'
+      minecraft:custom_data: '{}'
+    schema_version: 1
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:dried_ghast
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_pickaxe
+    count: 1
+    components:
+      minecraft:damage: '1336'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:crossbow
+    count: 1
+    components:
+      minecraft:lore: '[" ",{color:"green",italic:0b,text:"Ability:"},{color:"gray",italic:0b,text:"Shots
+        deal additional 3 true "},{color:"gray",italic:0b,text:"damage, works with
+        rockets. "}]'
+      minecraft:unbreakable: '{}'
+      minecraft:enchantments: '{"minecraft:multishot":1,"minecraft:piercing":2,"minecraft:quick_charge":2,"mt:weapons/drylands_piercer":1}'
+      minecraft:custom_name: '{color:"gold",italic:0b,text:"Drylands Piercer"}'
+      minecraft:custom_data: '{mt:"weapon",weapon:"drylands_piercer"}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:ender_chest
+    count: 8
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:blaze_rod
+    count: 8
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:golden_helmet
+    count: 1
+    components:
+      minecraft:damage: '8'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:spawner
+    count: 1
+    components:
+      minecraft:block_entity_data: '{Delay:20s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:blaze"}},SpawnPotentials:[],SpawnRange:4s,id:"minecraft:mob_spawner"}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:bees","minecraft:bundle_contents","minecraft:potion_contents","minecraft:pot_decorations","minecraft:instrument","minecraft:block_state","minecraft:block_entity_data","minecraft:tropical_fish/pattern","minecraft:container","minecraft:painting/variant","minecraft:container_loot","minecraft:banner_patterns","minecraft:fireworks","minecraft:firework_explosion","minecraft:jukebox_playable","minecraft:charged_projectiles","minecraft:written_book_content","minecraft:map_id"]}'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"#AAAAAA",italic:0b,obfuscated:0b,strikethrough:0b,text:"Quỷ
+        lửa",underlined:0b}],text:""}'
+      minecraft:custom_data: '{StackSize:1}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:ender_pearl
+    count: 16
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:skeleton_skull
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:lapis_lazuli
+    count: 12
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:experience_bottle
+    count: 8
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:stick
+    count: 4
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:arrow
+    count: 63
+    schema_version: 1
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:gold_ingot
+    count: 4
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:ender_pearl
+    count: 16
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:experience_bottle
+    count: 8
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:chiseled_polished_blackstone
+    count: 7
+    schema_version: 1
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:golden_chestplate
+    count: 1
+    components:
+      minecraft:damage: '5'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:golden_apple
+    count: 1
+    schema_version: 1
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:ender_pearl
+    count: 16
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_shovel
+    count: 1
+    components:
+      minecraft:damage: '66'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:iron_block
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:ender_pearl
+    count: 16
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:snout_armor_trim_smithing_template
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_upgrade_smithing_template
+    count: 2
+    schema_version: 1
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:elytra
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:mending":1,"minecraft:unbreaking":4}'
+      minecraft:damage: '5'
+    schema_version: 1
+  - null
+  - null
+  - null
+  - null

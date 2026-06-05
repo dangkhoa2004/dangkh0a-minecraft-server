@@ -1,0 +1,36 @@
+global:
+  ads:
+    message: Advertising other servers or services is not allowed and may result in
+      a ban.
+    description: Advertising warning
+  help:
+    message: Need help? Use /help for commands or ask a staff member!
+    description: Help info
+  discord:
+    message: Join our Discord at discord.gg/example for updates and community chat!
+    description: Discord link
+  report:
+    message: To report a player, use /report <player> <reason>. Staff will review
+      it.
+    description: Report instructions
+  rules:
+    message: Please read our server rules at /rules or on our website.
+    description: Remind about rules
+  language:
+    message: Please keep chat family-friendly. Profanity and inappropriate language
+      are not allowed.
+    description: Language warning
+  appeal:
+    message: If you've been punished, you can appeal on our website or Discord.
+    description: Appeal info
+  spam:
+    message: Please avoid spamming in chat. Repeated violations may result in a mute.
+    description: Spam warning
+  welcome:
+    message: Welcome to the server! Use /help to get started and /rules to see our
+      guidelines.
+    description: Welcome message
+  respect:
+    message: Please be respectful to other players. Harassment and toxicity are not
+      tolerated.
+    description: Respect reminder

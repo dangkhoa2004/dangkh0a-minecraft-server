@@ -1,0 +1,85 @@
+# LPC Pro V2 - Chat Translation Configuration
+# This file controls automatic chat translation
+
+# ===========================================
+# General Settings
+# ===========================================
+enabled: false
+
+# Permission to use translation
+permission: "lpcpro.translate"
+
+# ===========================================
+# API Settings
+# ===========================================
+api:
+  # Translation API URL
+  # Supports: LibreTranslate (free), Google Translate API, DeepL
+  url: "https://libretranslate.com/translate"
+
+  # API key (if required)
+  key: ""
+
+  # API type: LIBRETRANSLATE, GOOGLE, DEEPL
+  type: "LIBRETRANSLATE"
+
+# ===========================================
+# Translation Settings
+# ===========================================
+translation:
+  # Default target language for new players
+  default-language: "en"
+
+  # Auto-detect source language
+  auto-detect: true
+
+  # Available languages
+  available-languages:
+    - "en"   # English
+    - "es"   # Spanish
+    - "fr"   # French
+    - "de"   # German
+    - "pt"   # Portuguese
+    - "ru"   # Russian
+    - "ja"   # Japanese
+    - "ko"   # Korean
+    - "zh"   # Chinese
+
+# ===========================================
+# Display Settings
+# ===========================================
+display:
+  # Show original message on hover
+  show-original: true
+
+  # Translation indicator
+  indicator: "<gray>[TR]</gray>"
+
+  # Show detected language
+  show-detected: true
+
+# ===========================================
+# Rate Limiting
+# ===========================================
+rate-limits:
+  # Maximum translations per player per minute
+  max-per-minute: 10
+
+  # Cooldown between translations (seconds)
+  cooldown-seconds: 1
+
+  # Bypass permission
+  bypass-permission: "lpcpro.translate.bypass"
+
+# ===========================================
+# Caching
+# ===========================================
+cache:
+  # Enable translation cache
+  enabled: true
+
+  # Maximum cache size
+  max-size: 1000
+
+  # Cache TTL (minutes)
+  ttl-minutes: 60

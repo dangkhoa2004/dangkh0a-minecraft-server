@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1780630515341
+  login: 1780630392052
+money: '0'
+last-account-name: dangkh0a
+lastlocation:
+  world: d66ee1fc-55c0-4976-b0a1-0d13850ad81b
+  world-name: lobby
+  x: 7.851886691990963
+  y: -6.5
+  z: 15.322257044269884
+  yaw: 59.24530029296875
+  pitch: 11.460366249084473
+logoutlocation:
+  world: d66ee1fc-55c0-4976-b0a1-0d13850ad81b
+  world-name: lobby
+  x: 14.652773892161573
+  y: -6.0
+  z: 17.298787487461695
+  yaw: -36.82737350463867
+  pitch: -5.582642078399658

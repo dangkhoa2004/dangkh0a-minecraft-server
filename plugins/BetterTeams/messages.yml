@@ -1,0 +1,724 @@
+# =================================================================
+# GHI CHÚ TỪ SYSADMIN: 
+# 1. File ngôn ngữ của BetterTeams hỗ trợ PlaceholderAPI ở mọi dòng.
+# 2. Toàn bộ text đã được ép sang font Small Caps và lên màu Premium.
+# =================================================================
+
+invalidArg: '&#FF6B6Bꜱᴀɪ ᴄú ᴘʜáᴘ ʟệɴʜ, ʜãʏ ᴅùɴɢ ʟệɴʜ ᴛʀợ ɢɪúᴘ'
+inTeam: '&#FF6B6Bʙạɴ ᴘʜảɪ ᴄó ᴍặᴛ ᴛʀᴏɴɢ ᴍộᴛ ᴛᴏổ độɪ để ʟàᴍ ᴠɪệᴄ ɴàʏ'
+internalError: '&#FF6B6Bđã xảʏ ʀᴀ ʟỗɪ ᴋʜɪ ᴛʜựᴄ ʜɪệɴ ʟệɴʜ ɴàʏ, ᴠᴜɪ ʟòɴɢ ʙáᴏ ᴄáᴏ ᴄʜᴏ
+  ᴀᴅᴍɪɴ'
+notInTeam: '&#FF6B6Bʙạɴ ᴘʜảɪ ʀờɪ ᴋʜỏɪ ᴛổ độɪ ʜɪệɴ ᴛạɪ ᴛʀướᴄ ᴋʜɪ ʟàᴍ ᴠɪệᴄ đó'
+needOwner: '&#FF6B6Bʙạɴ ᴘʜảɪ ʟà độɪ ᴛʀưởɴɢ ᴍớɪ ᴄó ǫᴜʏềɴ ʟàᴍ ᴠɪệᴄ ɴàʏ'
+needAdmin: '&#FF6B6Bʙạɴ ᴘʜảɪ ʟà ǫᴜảɴ ʟý ʜᴏặᴄ độɪ ᴛʀưởɴɢ ᴍớɪ ᴄó ǫᴜʏềɴ ʟàᴍ ᴠɪệᴄ ɴàʏ'
+needPlayer: '&#FF6B6Bᴄʜỉ ɴɢườɪ ᴄʜơɪ ᴍớɪ ᴄó ᴛʜể ꜱử ᴅụɴɢ ʟệɴʜ ɴàʏ'
+noPlayer: '&#FF6B6Bᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ɴɢườɪ ᴄʜơɪ ɴàʏ'
+notTeam: '&#FF6B6Bᴛổ độɪ ɴàʏ ᴋʜôɴɢ ᴛồɴ ᴛạɪ, ʜãʏ ᴛʜử &b/team create <ᴛêɴ>'
+needSameTeam: '&#FFB347ʙạɴ ᴋʜôɴɢ ở ᴄùɴɢ ᴛổ độɪ ᴠớɪ ɴɢườɪ ɴàʏ'
+noPerm: '&#FF6B6Bʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ để ʟàᴍ ᴠɪệᴄ ɴàʏ'
+prefixSyntax: '&#888888[{0}&#888888] &r{1}'
+bannedChar: '&#FF6B6Bᴋý ᴛự ʙạɴ ᴠừᴀ ɴʜậᴘ đã ʙị ᴄấᴍ ꜱử ᴅụɴɢ'
+noTeam: '&#FF6B6Bᴛổ độɪ ɴàʏ ᴋʜôɴɢ ᴛồɴ ᴛạɪ'
+loading: '&#A3C4F3đᴀɴɢ ᴛảɪ...'
+
+cooldown:
+  wait: '&#FF6B6Bᴠᴜɪ ʟòɴɢ đợɪ ᴛʜêᴍ &#FDFD96{0} ɢɪâʏ &#FF6B6Bđể ꜱử ᴅụɴɢ ʟạɪ ʟệɴʜ ɴàʏ!'
+cost:
+  tooPoor: '&#FF6B6Bʙạɴ ᴋʜôɴɢ đủ ᴛɪềɴ để ᴅùɴɢ ʟệɴʜ ɴàʏ'
+  run: '&#FF6B6B&l-{0}'
+placeholder:
+  noTeam: ''
+  noDescription: ''
+  money: '{0}'
+  owner: độɪ ᴛʀưởɴɢ
+  admin: ǫᴜảɴ ʟý
+  default: ᴛʜàɴʜ ᴠɪêɴ
+  name: '{0}'
+  tag: '{0}'
+  displayname: '{0}'
+  inteam: đúɴɢ
+  notinteam: ꜱᴀɪ
+  noTitle: ''
+  hasHome: ᴄó
+  noHome: ᴋʜôɴɢ
+  teamChat: ᴋêɴʜ ᴛổ độɪ
+  globalChat: ᴋêɴʜ ᴛʜế ɢɪớɪ
+  allyChat: ᴋêɴʜ ʟɪêɴ ᴍɪɴʜ
+  noMeta: ''
+prefix:
+  owner: ' **'
+  admin: ' *'
+  default: ' '
+
+create:
+  exists: '&#FFB347ᴛổ độɪ ɴàʏ đã ᴛồɴ ᴛạɪ ʀồɪ'
+  success: '&#B9FBC0đã ᴛạᴏ ᴛʜàɴʜ ᴄôɴɢ ᴛổ độɪ ᴄủᴀ ʙạɴ'
+  banned: '&#FF6B6Bᴛêɴ ᴛổ độɪ ɴàʏ ʙị ᴄấᴍ ꜱử ᴅụɴɢ'
+  maxLength: '&#FF6B6Bᴛêɴ ᴛổ độɪ ǫᴜá ᴅàɪ'
+  minLength: '&#FF6B6Bᴛêɴ ᴛổ độɪ ǫᴜá ɴɢắɴ'
+leave:
+  success: '&#FFB347ʙạɴ đã ʀờɪ ᴋʜỏɪ ᴛổ độɪ'
+  lastOwner: '&#FF6B6Bʙạɴ ʟà độɪ ᴛʀưởɴɢ ᴅᴜʏ ɴʜấᴛ ᴄòɴ ʟạɪ. ʜãʏ ɴʜườɴɢ ᴄʜứᴄ ᴄʜᴏ ɴɢườɪ
+    ᴋʜáᴄ ʜᴏặᴄ ᴅùɴɢ &b/team disband &#FF6B6Bđể ɢɪảɪ ᴛáɴ.'
+
+rank:
+  noTeam: '&#FF6B6Bᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴛổ độɪ'
+  info: '&#D1E8E2ᴠị ᴛʀí ᴛʀᴏɴɢ độɪ:'
+  infos: '&#D1E8E2ᴄấᴘ độɪ: &#B9FBC0{0} &#D1E8E2(ᴄầɴ ᴛʜêᴍ &#FDFD96{1} đɪểᴍ &#D1E8E2để
+    ʟêɴ ᴄấᴘ)'
+  infom: '&#D1E8E2ᴄấᴘ độɪ: &#B9FBC0{0} &#D1E8E2(ᴄầɴ ᴛʜêᴍ &#F8E9A1${1} &#D1E8E2để ʟêɴ
+    ᴄấᴘ)'
+  infomm: '&#D1E8E2ᴄấᴘ độɪ: &#B9FBC0{0} &#D1E8E2(ᴛổ độɪ đã đạᴛ ᴄấᴘ ᴛốɪ đᴀ)'
+  syntax: '&#B9FBC0{0}: &#D1E8E2{1} &#888888({2})'
+  perks:
+    header: '&#F8E9A1&lǫᴜʏềɴ ʟợɪ ở ᴄấᴘ ᴛɪếᴘ ᴛʜᴇᴏ:'
+    warps: '&#888888- &#B9FBC0+{0} &#D1E8E2đɪểᴍ ᴅịᴄʜ ᴄʜᴜʏểɴ (ᴡᴀʀᴘ)'
+    members: '&#888888- &#B9FBC0+{0} &#D1E8E2ᴛʜàɴʜ ᴠɪêɴ ᴛốɪ đᴀ'
+    chests: '&#888888- &#B9FBC0+{0} &#D1E8E2ʀươɴɢ ʙảᴏ ʜộ'
+    bank: '&#888888- &#D1E8E2ᴛăɴɢ ɢɪớɪ ʜạɴ ɴɢâɴ ʜàɴɢ ʟêɴ (&#F8E9A1${0}&#D1E8E2)'
+    admins: '&#888888- &#B9FBC0+{0} &#D1E8E2ǫᴜảɴ ʟý ᴛốɪ đᴀ'
+    owners: '&#888888- &#B9FBC0+{0} &#D1E8E2độɪ ᴛʀưởɴɢ ᴛốɪ đᴀ'
+
+delhome:
+  success: '&#FFB347đã xóᴀ ᴛʜàɴʜ ᴄôɴɢ ɴʜà ᴄủᴀ ᴛổ độɪ'
+  noHome: '&#FF6B6Bᴛổ độɪ ᴄủᴀ ʙạɴ ᴄʜưᴀ ꜱᴇᴛ ɴʜà'
+disband:
+  success: '&#FFB347ʙạɴ đã ɢɪảɪ ᴛáɴ ᴛᴏàɴ ʙộ ᴛổ độɪ'
+  confirm: '&#FFB347ɢõ ʟạɪ &b/team disband &#FFB347ᴍộᴛ ʟầɴ ɴữᴀ để xáᴄ ɴʜậɴ'
+  warning: '&#FF6B6Bᴄảɴʜ ʙáᴏ: ᴛᴏàɴ ʙộ ᴠậᴛ ᴘʜẩᴍ ᴛʀᴏɴɢ &bechest &#FF6B6Bᴠà ᴛɪềɴ ᴛʀᴏɴɢ
+    &bɴɢâɴ ʜàɴɢ độɪ &#FF6B6Bꜱẽ ʙị xóᴀ ᴠĩɴʜ ᴠɪễɴ!'
+
+description:
+  success: '&#B9FBC0đã ᴛʜᴀʏ đổɪ ᴍô ᴛả ᴄủᴀ ᴛổ độɪ'
+  view: '&#D1E8E2ᴍô ᴛả ᴛổ độɪ: &#FFFFFF{0}'
+  noDesc: '&#FFB347ᴛổ độɪ ᴄʜưᴀ ᴄó ᴍô ᴛả ɴàᴏ'
+  noPerm: '&#FF6B6Bʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ đổɪ ᴍô ᴛả'
+name:
+  success: '&#B9FBC0đã đổɪ ᴛêɴ ᴛổ độɪ ᴛʜàɴʜ ᴄôɴɢ'
+  view: '&#D1E8E2ᴛêɴ ᴛổ độɪ: &#FFFFFF{0}'
+  exists: '&#FF6B6Bᴛêɴ ɴàʏ đã ᴄó ɴɢườɪ ꜱử ᴅụɴɢ'
+  noPerm: '&#FF6B6Bʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ đổɪ ᴛêɴ ᴛổ độɪ'
+invite:
+  success: '&#B9FBC0đã ɢửɪ ʟờɪ ᴍờɪ ᴄʜᴏ ɴɢườɪ ᴄʜơɪ đó'
+  invite: '&#D1E8E2ʙạɴ đượᴄ ᴍờɪ ᴠàᴏ ᴛổ độɪ &#B9FBC0{0}&#D1E8E2. ʜãʏ ɢõ &b/team join
+    <ᴛêɴ_độɪ> &#D1E8E2để ᴠàᴏ.'
+  inTeam: '&#FFB347ɴɢườɪ ɴàʏ đᴀɴɢ ở ᴛʀᴏɴɢ ᴍộᴛ ᴛổ độɪ ᴋʜáᴄ ʀồɪ'
+  banned: '&#FF6B6Bɴɢườɪ ɴàʏ đᴀɴɢ ʙị ᴄấᴍ ᴋʜỏɪ ᴛổ độɪ ᴄủᴀ ʙạɴ'
+  full: '&#FF6B6Bᴛổ độɪ đã đầʏ ɴɢườɪ. ʜãʏ đá ᴀɪ đó ʀᴀ ᴛʀướᴄ ᴋʜɪ ᴍờɪ ᴛʜêᴍ'
+  expired: '&#FFB347ʟờɪ ᴍờɪ ᴛừ &#FFFFFF{0} &#FFB347đã ʜếᴛ ʜạɴ'
+  hover: '&#FDFD96ᴄʟɪᴄᴋ để ᴛʜᴀᴍ ɢɪᴀ &#FFFFFF{0}'
+
+join:
+  success: '&#B9FBC0ʙạɴ đã ɢɪᴀ ɴʜậᴘ ᴛổ độɪ'
+  notify: '&#B9FBC0ᴄʜàᴏ ᴍừɴɢ &#FFFFFF{0} &#B9FBC0đã ɢɪᴀ ɴʜậᴘ ᴛổ độɪ!'
+  notInvited: '&#FF6B6Bʙạɴ ᴄʜưᴀ đượᴄ ᴍờɪ ᴠàᴏ ᴛổ độɪ ɴàʏ'
+  banned: '&#FF6B6Bʙạɴ đã ʙị ᴄấᴍ ᴋʜỏɪ ᴛổ độɪ ɴàʏ'
+  full: '&#FF6B6Bᴛổ độɪ ɴàʏ đã đầʏ ɴɢườɪ'
+open:
+  successopen: '&#B9FBC0ᴛổ độɪ ᴄủᴀ ʙạɴ ɢɪờ đᴀɴɢ ᴍở ᴄửᴀ ᴄʜᴏ ᴛấᴛ ᴄả ᴍọɪ ɴɢườɪ'
+  successclose: '&#FFB347ᴛổ độɪ ᴄủᴀ ʙạɴ ɢɪờ đã ᴄʜᴜʏểɴ ꜱᴀɴɢ ᴄʜế độ ᴄʜỉ ɴʜậɴ ʟờɪ ᴍờɪ'
+title:
+  change: '&#B9FBC0ᴅᴀɴʜ ʜɪệᴜ ᴄủᴀ ʙạɴ đã đượᴄ đổɪ ᴛʜàɴʜ &#FFFFFF{0}'
+  remove: '&#FFB347đã ɢỡ ʙỏ ᴅᴀɴʜ ʜɪệᴜ ᴄủᴀ ʙạɴ'
+  success: '&#B9FBC0đã đổɪ ᴅᴀɴʜ ʜɪệᴜ ᴛʜàɴʜ ᴄôɴɢ'
+  tooLong: '&#FF6B6Bᴅᴀɴʜ ʜɪệᴜ này ǫᴜá ᴅàɪ'
+  noFormat: '&#FF6B6Bʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ᴛʜêᴍ định dạng ᴄʜᴏ ᴅᴀɴʜ ʜɪệᴜ'
+  noColor: '&#FF6B6Bʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ᴛʜêᴍ ᴍàᴜ ᴄʜᴏ ᴅᴀɴʜ ʜɪệᴜ'
+  reset: '&#FFB347đã đặᴛ ʟạɪ ᴅᴀɴʜ ʜɪệᴜ'
+  noPerm: '&#FF6B6Bʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ᴛʜᴀʏ đổɪ ᴅᴀɴʜ ʜɪệᴜ ᴛʀᴏɴɢ độɪ'
+
+info:
+  needTeam: '&#FF6B6Bᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴛổ độɪ ʜᴀʏ ɴɢườɪ ᴄʜơɪ ɴàᴏ ᴄó ᴛêɴ ɴàʏ'
+  name: '&#D1E8E2ᴛêɴ: &#FFFFFF{0}'
+  description: '&#D1E8E2ᴍô ᴛả: &#FFFFFF{0}'
+  open: '&#D1E8E2ᴍở ᴄửᴀ: &#FFFFFF{0}'
+  level: '&#D1E8E2ᴄấᴘ độ: &#FFFFFF{0}'
+  owner: '&#D1E8E2độɪ ᴛʀưởɴɢ: &#FFFFFF{0}'
+  admin: '&#D1E8E2ǫᴜảɴ ʟý: &#FFFFFF{0}'
+  default: '&#D1E8E2ᴛʜàɴʜ ᴠɪêɴ: &#FFFFFF{0}'
+  tag: '&#D1E8E2ᴛʜẻ ᴛᴀɢ: &#FFFFFF{0}'
+  fail: '&#FF6B6Bᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴛổ độɪ ʜᴀʏ ɴɢườɪ ᴄʜơɪ ɴàᴏ ᴄó ᴛêɴ ɴàʏ'
+  score: '&#D1E8E2đɪểᴍ ꜱố: &#FFFFFF{0}'
+  money: '&#D1E8E2ɴɢâɴ ʜàɴɢ: &#FFFFFF{0}'
+  ally: '&#D1E8E2ʟɪêɴ ᴍɪɴʜ: &#FFFFFF{0}'
+  anchor: '&#F8E9A1ᴍᴏ ɴᴇᴏ: &#FFFFFF{0}'
+  online: '&#B9FBC0'
+  offline: '&#FF6B6B'
+  onlinePlayer: <green>{0}</green>
+  offlinePlayer: <red>{0}</red>
+  playerListSpace: ' '
+  limits: '&#F8E9A1ɢɪớɪ ʜạɴ: &#D1E8E2ᴛʜàɴʜ ᴠɪêɴ &#FFFFFF{0}/{1} &#888888| &#D1E8E2ᴡᴀʀᴘ
+    &#FFFFFF{2}/{3}'
+
+kick:
+  success: '&#FFB347đã đá ɴɢườɪ ᴄʜơɪ đó ᴋʜỏɪ ᴛổ độɪ'
+  notify: '&#FF6B6Bʙạɴ đã ʙị đá ᴋʜỏɪ ᴛổ độɪ {0}'
+  title: '&#FF6B6Bʙị đá ᴋʜỏɪ ᴛổ độɪ'
+  noPerm: '&#FF6B6Bʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ đá ɴɢườɪ ɴàʏ'
+ban:
+  success: '&#FFB347đã ᴄấᴍ ɴɢườɪ ᴄʜơɪ đó ᴋʜỏɪ ᴛổ độɪ'
+  notify: '&#FF6B6Bʙạɴ đã ʙị ᴄấᴍ ᴋʜỏɪ ᴛổ độɪ {0}'
+  title: '&#FF6B6Bʙị ᴄấᴍ ᴋʜỏɪ ᴛổ độɪ'
+  noPerm: '&#FF6B6Bʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ᴄấᴍ ɴɢườɪ ɴàʏ'
+  already: '&#FFB347ɴɢườɪ ɴàʏ đã ʙị ᴄấᴍ ꜱẵɴ ʀồɪ'
+unban:
+  success: '&#B9FBC0đã ʙỏ ᴄấᴍ ᴄʜᴏ ɴɢườɪ ᴄʜơɪ đó'
+  notify: '&#B9FBC0ʙạɴ đã đượᴄ ʙỏ ᴄấᴍ ᴋʜỏɪ ᴛổ độɪ {0}'
+  noPerm: '&#FF6B6Bʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ʙỏ ᴄấᴍ ɴɢườɪ ɴàʏ'
+  not: '&#FFB347ɴɢườɪ ɴàʏ ʜɪệɴ ᴋʜôɴɢ ʙị ᴄấᴍ'
+
+promote:
+  success: '&#B9FBC0đã ᴛʜăɴɢ ᴄấᴘ ᴄʜᴏ ɴɢườɪ ᴄʜơɪ đó'
+  noPerm: '&#FF6B6Bʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ᴛʜăɴɢ ᴄấᴘ ᴄʜᴏ ɴɢườɪ ɴàʏ'
+  max: '&#FFB347ɴɢườɪ ɴàʏ đã ở ᴄấᴘ ʙậᴄ ᴄᴀᴏ ɴʜấᴛ ʀồɪ!'
+  notify: '&#B9FBC0ʙạɴ đã đượᴄ ᴛʜăɴɢ ᴄấᴘ!'
+  maxAdmins: '&#FF6B6Bᴛổ độɪ đã đạᴛ ꜱố ʟượɴɢ ǫᴜảɴ ʟý ᴛốɪ đᴀ, ʜãʏ ɢɪáɴɢ ᴄʜứᴄ ᴀɪ đó
+    ʜᴏặᴄ ɴâɴɢ ᴄấᴘ ᴛổ độɪ'
+  maxOwners: '&#FF6B6Bᴛổ độɪ đã đạᴛ ꜱố ʟượɴɢ độɪ ᴛʀưởɴɢ ᴛốɪ đᴀ, ʜãʏ ɢɪáɴɢ ᴄʜứᴄ ᴀɪ
+    đó ʜᴏặᴄ ɴâɴɢ ᴄấᴘ ᴛổ độɪ'
+demote:
+  success: '&#FFB347đã ɢɪáɴɢ ᴄʜứᴄ ɴɢườɪ ᴄʜơɪ đó'
+  noPerm: '&#FF6B6Bʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ɢɪáɴɢ ᴄʜứᴄ ɴɢườɪ ɴàʏ'
+  min: '&#FFB347ɴɢườɪ ɴàʏ đᴀɴɢ ở ᴄấᴘ ʙậᴄ ᴛʜấᴘ ɴʜấᴛ ʀồɪ'
+  notify: '&#FFB347ʙạɴ đã ʙị ɢɪáɴɢ ᴄʜứᴄ'
+  lastOwner: '&#FF6B6Bᴋʜôɴɢ ᴛʜể ɢɪáɴɢ ᴄʜứᴄ độɪ ᴛʀưởɴɢ ᴄᴜốɪ ᴄùɴɢ, ʜãʏ ᴛʜăɴɢ ᴄấᴘ ᴄʜᴏ
+    ᴀɪ đó ᴛʀướᴄ'
+  maxAdmins: '&#FF6B6Bᴛổ độɪ đã đạᴛ ꜱố ʟượɴɢ ǫᴜảɴ ʟý ᴛốɪ đᴀ, ʜãʏ xóᴀ ʙớᴛ ǫᴜảɴ ʟý ʜᴏặᴄ
+    ɴâɴɢ ᴄấᴘ ᴛổ độɪ'
+
+home:
+  success: '&#B9FBC0đã ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề ɴʜà'
+  noHome: '&#FFB347ᴛổ độɪ ᴄủᴀ ʙạɴ ᴄʜưᴀ ꜱᴇᴛ ɴʜà'
+  world: '&#FF6B6Bᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴛʜế ɢɪớɪ ᴄʜứᴀ ɴʜà ᴄủᴀ ᴛổ độɪ'
+sethome:
+  success: '&#B9FBC0đã đặᴛ ᴛʜàɴʜ ᴄôɴɢ ɴʜà ᴄủᴀ ᴛổ độɪ'
+  noPerm: '&#FF6B6Bʙạɴ ᴄʜưᴀ đủ ᴄấᴘ ʙậᴄ để đặᴛ ɴʜà ᴄʜᴏ ᴛổ độɪ'
+
+chat:
+  enabled: '&#B9FBC0ᴛɪɴ ɴʜắɴ ᴄủᴀ ʙạɴ ɢɪờ ꜱẽ ɢửɪ ᴠàᴏ ᴋêɴʜ ᴛổ độɪ'
+  disabled: '&#FFB347ᴛɪɴ ɴʜắɴ ᴄủᴀ ʙạɴ ɢɪờ ꜱẽ ɢửɪ ᴠàᴏ ᴋêɴʜ ᴛʜế ɢɪớɪ'
+  syntax: '&#888888[&#F8E9A1độɪ&#888888] &#D1E8E2{0}&#888888: &#FFFFFF{1}'
+color:
+  success: '&#B9FBC0đã đổɪ ᴍàᴜ ᴄủᴀ ᴛổ độɪ'
+  fail: '&#FF6B6Bᴍàᴜ ᴄʜᴀᴛ ɴàʏ ᴋʜôɴɢ ʜợᴘ ʟệ'
+  banned: '&#FF6B6Bʙạɴ ᴄʜỉ đượᴄ ᴅùɴɢ ᴍàᴜ ꜱắᴄ, ᴋʜôɴɢ đượᴄ ᴅùɴɢ ᴍã địɴʜ ᴅạɴɢ (ɪɴ đậᴍ/ɴɢʜɪêɴɢ...)'
+
+deposit:
+  tooLittle: '&#FF6B6Bᴋʜôɴɢ ᴛʜể ɢửɪ ꜱố ᴛɪềɴ âᴍ'
+  fail: '&#FF6B6Bɢửɪ ᴛɪềɴ ᴛʜấᴛ ʙạɪ'
+  success: '&#B9FBC0đã ɢửɪ ᴛɪềɴ ᴠàᴏ ɴɢâɴ ʜàɴɢ độɪ'
+  max: '&#FF6B6Bꜱố ᴛɪềɴ ɴàʏ ᴠượᴛ ǫᴜá ɢɪớɪ ʜạɴ ɴɢâɴ ʜàɴɢ ᴄủᴀ ᴛổ độɪ'
+withdraw:
+  tooLittle: '&#FF6B6Bᴋʜôɴɢ ᴛʜể ʀúᴛ ꜱố ᴛɪềɴ âᴍ'
+  fail: '&#FF6B6Bʀúᴛ ᴛɪềɴ ᴛʜấᴛ ʙạɪ'
+  success: '&#B9FBC0đã ʀúᴛ ᴛɪềɴ ᴋʜỏɪ ɴɢâɴ ʜàɴɢ độɪ'
+  notEnough: '&#FFB347ᴛổ độɪ ᴄủᴀ ʙạɴ ᴋʜôɴɢ ᴄó đủ ᴛɪềɴ'
+
+ally:
+  already: '&#FFB347ʜᴀɪ độɪ đã ʟà ʟɪêɴ ᴍɪɴʜ ꜱẵɴ ʀồɪ'
+  success: '&#B9FBC0ʜᴀɪ độɪ ᴄủᴀ ʙạɴ ɢɪờ đã ʟà ʟɪêɴ ᴍɪɴʜ'
+  ally: '&#B9FBC0ᴛổ độɪ ᴄủᴀ ʙạɴ ɢɪờ đã ʟɪêɴ ᴍɪɴʜ ᴠớɪ &#FFFFFF{0}'
+  requested: '&#B9FBC0đã ɢửɪ ʟờɪ ᴍờɪ ʟɪêɴ ᴍɪɴʜ ᴄʜᴏ ᴛổ độɪ đó'
+  request: '&#FFFFFF{0} &#D1E8E2đã ɢửɪ ʟờɪ ᴍờɪ ʟɪêɴ ᴍɪɴʜ, ᴅùɴɢ &b/team ally <ᴛêɴ_độɪ>
+    &#D1E8E2để ᴄʜấᴘ ɴʜậɴ'
+  self: '&#FF6B6Bʙạɴ ᴋʜôɴɢ ᴛʜể ᴛự ʟɪêɴ ᴍɪɴʜ ᴠớɪ ᴄʜíɴʜ ᴍìɴʜ'
+  from: '&#D1E8E2ʙạɴ ᴄó ʟờɪ ᴍờɪ ʟɪêɴ ᴍɪɴʜ ᴛừ: &#FFFFFF{0}'
+  noRequests: '&#FFB347ʙạɴ ᴋʜôɴɢ ᴄó ʟờɪ ᴍờɪ ʟɪêɴ ᴍɪɴʜ ɴàᴏ'
+  onJoin: '&#B9FBC0ʙạɴ ᴄó ʟờɪ ᴍờɪ ʟɪêɴ ᴍɪɴʜ ᴍớɪ, ᴅùɴɢ &b/team ally &#B9FBC0để xᴇᴍ'
+  limit: '&#FF6B6Bđã đạᴛ ɢɪớɪ ʜạɴ ꜱố ʟượɴɢ ʟɪêɴ ᴍɪɴʜ'
+  alreadyrequest: '&#FFB347ʙạɴ đã ɢửɪ ʟờɪ ᴍờɪ ʟɪêɴ ᴍɪɴʜ ᴄʜᴏ ᴛổ độɪ đó ʀồɪ'
+  ally_title: '&#F8E9A1đã ʟɪêɴ ᴍɪɴʜ ᴠớɪ &#FFFFFF{0}'
+allychat:
+  disabled: '&#FFB347ᴛɪɴ ɴʜắɴ ᴄủᴀ ʙạɴ ꜱẽ ᴋʜôɴɢ ɢửɪ ᴠàᴏ ᴋêɴʜ ʟɪêɴ ᴍɪɴʜ ɴữᴀ'
+  enabled: '&#B9FBC0ᴛɪɴ ɴʜắɴ ᴄủᴀ ʙạɴ ɢɪờ ꜱẽ ɢửɪ ᴠàᴏ ᴋêɴʜ ʟɪêɴ ᴍɪɴʜ'
+  syntax: '&#888888[&#FDFD96{0}&#888888] &#D1E8E2{1}&#888888: &#FFFFFF{2}'
+neutral:
+  self: '&#FF6B6Bđó ʟà ᴛổ độɪ ᴄủᴀ ᴄʜíɴʜ ʙạɴ'
+  requestremove: '&#FFB347đã ɢỡ ʙỏ ʟờɪ ᴍờɪ ʟɪêɴ ᴍɪɴʜ đó'
+  reject: '&#FF6B6Bʟờɪ ᴍờɪ ʟɪêɴ ᴍɪɴʜ ᴠớɪ &#FFFFFF{0} &#FF6B6Bđã ʙị ᴛừ ᴄʜốɪ'
+  notAlly: '&#FF6B6Bʙạɴ ᴋʜôɴɢ ʜề ʟɪêɴ ᴍɪɴʜ ᴠớɪ ᴛổ độɪ đó'
+  success: '&#FF6B6Bʙạɴ đã ʜủʏ ʟɪêɴ ᴍɪɴʜ ᴠớɪ ᴛổ độɪ đó'
+  remove: '&#FF6B6Bʙạɴ đã ʜủʏ ʟɪêɴ ᴍɪɴʜ ᴠớɪ &#FFFFFF{0}'
+  remove_title: '&#FF6B6Bđã ʜủʏ ʟɪêɴ ᴍɪɴʜ ᴠớɪ &#FFFFFF{0}'
+
+list:
+  noPage: '&#FFB347ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴛʀᴀɴɢ ɴàʏ'
+  header: '&#888888--- &#A3C4F3ᴅᴀɴʜ ꜱáᴄʜ ᴛổ độɪ (ᴛʀᴀɴɢ {0}) &#888888---'
+  body: '&#D1E8E2{0}: &#FFFFFF{1}'
+  footer: '&#888888--- ᴅùɴɢ &b/team list [ᴛʀᴀɴɢ] &#888888để xᴇᴍ ᴛʜêᴍ ---'
+
+setowner:
+  use: '&#FFB347ᴋʜôɴɢ ᴛʜể ᴛʜăɴɢ ᴄấᴘ ɴɢườɪ ɴàʏ, ʜãʏ ᴅùɴɢ &b/team setowner <ᴛêɴ> &#FFB347để
+    ɴʜườɴɢ ᴄʜứᴄ độɪ ᴛʀưởɴɢ'
+  success: '&#B9FBC0ɴɢườɪ đó ɢɪờ ʟà độɪ ᴛʀưởɴɢ ᴍớɪ'
+  notify: '&#B9FBC0ʙạɴ ɢɪờ đã ʟà độɪ ᴛʀưởɴɢ ᴄủᴀ ᴛổ độɪ'
+  max: '&#FFB347ɴɢườɪ đó đã ʟà độɪ ᴛʀưởɴɢ ꜱẵɴ ʀồɪ'
+
+setwarp:
+  exist: '&#FFB347đɪểᴍ ᴡᴀʀᴘ ɴàʏ đã ᴛồɴ ᴛạɪ'
+  max: '&#FF6B6Bᴛổ độɪ ᴄủᴀ ʙạɴ đã đạᴛ ɢɪớɪ ʜạɴ ᴡᴀʀᴘ'
+  success: '&#B9FBC0đã ᴛạᴏ đɪểᴍ ᴡᴀʀᴘ ᴛʜàɴʜ ᴄôɴɢ'
+  char: '&#FF6B6Bᴛêɴ ᴡᴀʀᴘ ᴄó ᴄʜứᴀ ᴋý ᴛự ʙị ᴄấᴍ'
+warp:
+  nowarp: '&#FFB347đɪểᴍ ᴡᴀʀᴘ ɴàʏ ᴋʜôɴɢ ᴛồɴ ᴛạɪ'
+  invalidPassword: '&#FF6B6Bꜱᴀɪ ᴍậᴛ ᴋʜẩᴜ ᴄʜᴏ ᴡᴀʀᴘ ɴàʏ'
+  success: '&#B9FBC0đã ᴅịᴄʜ ᴄʜᴜʏểɴ'
+  world: '&#FF6B6Bᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴠị ᴛʀí ᴄủᴀ ᴡᴀʀᴘ ɴàʏ'
+warps:
+  syntax: '&#D1E8E2đɪểᴍ ᴡᴀʀᴘ: &#FFFFFF{0}'
+  none: '&#FFB347ᴛổ độɪ ᴄủᴀ ʙạɴ ᴄʜưᴀ ᴄó ᴡᴀʀᴘ ɴàᴏ'
+delwarp:
+  success: '&#FFB347đã xóᴀ đɪểᴍ ᴡᴀʀᴘ đó'
+
+teleport:
+  fail: '&#FF6B6Bᴅịᴄʜ ᴄʜᴜʏểɴ ᴛʜấᴛ ʙạɪ'
+  wait: '&#FFB347ᴠᴜɪ ʟòɴɢ đợɪ &#FFFFFF{0} &#FFB347ɢɪâʏ'
+  bypass: '&#F8E9A1ᴅᴏ ᴄó ǫᴜʏềɴ ʜạɴ, ʙạɴ đã ʙỏ ǫᴜᴀ ᴛʜờɪ ɢɪᴀɴ đợɪ ᴅịᴄʜ ᴄʜᴜʏểɴ!'
+  noTeleport: '&#F8E9A1ᴠị ᴛʀí đᴀɴɢ ɴằᴍ ở ᴛʜế ɢɪớɪ &#FFFFFF{0} &#F8E9A1ᴛạɪ &#FFFFFF{1},
+    {2}, {3}'
+
+chest:
+  claim:
+    noChest: '&#FF6B6Bʙạɴ ᴋʜôɴɢ đứɴɢ ᴛʀêɴ ᴍộᴛ ᴄáɪ ʀươɴɢ ɴàᴏ ᴄả'
+    limit: '&#FF6B6Bᴛổ độɪ đã đạᴛ ɢɪớɪ ʜạɴ ʙảᴏ ʜộ ʀươɴɢ'
+    claimed: '&#FFB347ʀươɴɢ ɴàʏ đã ᴄó ɴɢườɪ ʙảᴏ ʜộ ʀồɪ'
+    success: '&#B9FBC0đã ʙảᴏ ʜộ ʀươɴɢ ɴàʏ'
+  remove:
+    noChest: '&#FF6B6Bʙạɴ ᴋʜôɴɢ đứɴɢ ᴛʀêɴ ᴍộᴛ ᴄáɪ ʀươɴɢ ɴàᴏ ᴄả'
+    notClaimed: '&#FFB347ᴛổ độɪ ᴄủᴀ ʙạɴ ᴄʜưᴀ ʙảᴏ ʜộ ʀươɴɢ ɴàʏ'
+    success: '&#FFB347đã ɢỡ ʙảᴏ ʜộ ᴋʜỏɪ ʀươɴɢ ɴàʏ'
+  all:
+    success: '&#FFB347đã ɢỡ ʙảᴏ ʜộ ᴛᴏàɴ ʙộ ʀươɴɢ'
+  claimed: '&#FF6B6Bʀươɴɢ ɴàʏ đᴀɴɢ đượᴄ ʙảᴏ ʜộ ʙởɪ &#B9FBC0{0}'
+  check:
+    self: '&#F8E9A1ᴛổ độɪ ᴄủᴀ ʙạɴ đᴀɴɢ ʙảᴏ ʜộ ʀươɴɢ ɴàʏ'
+    notClaimed: '&#F8E9A1ʀươɴɢ ɴàʏ ᴄʜưᴀ đượᴄ ᴀɪ ʙảᴏ ʜộ'
+    claimed: '&#F8E9A1ʀươɴɢ ɴàʏ đᴀɴɢ đượᴄ ʙảᴏ ʜộ ʙởɪ &#B9FBC0{0}'
+
+echest:
+  echest: ʀươɴɢ ᴇɴᴅᴇʀ
+pvp:
+  enabled: '&#FF6B6Bđã ʙậᴛ ᴘᴠᴘ ᴛʀᴏɴɢ ɴộɪ ʙộ ᴛổ độɪ'
+  disabled: '&#B9FBC0đã ᴛắᴛ ᴘᴠᴘ ᴛʀᴏɴɢ ɴộɪ ʙộ ᴛổ độɪ'
+
+rankup:
+  max: '&#FFB347ᴛổ độɪ ᴄủᴀ ʙạɴ đã ở ᴄấᴘ ᴛốɪ đᴀ'
+  score: '&#FF6B6Bᴄầɴ ᴛʜêᴍ {0} đɪểᴍ để ɴâɴɢ ᴄấᴘ'
+  money: '&#FF6B6Bᴄầɴ ᴛʜêᴍ {0} ᴛɪềɴ ᴛʀᴏɴɢ ɴɢâɴ ʜàɴɢ để ɴâɴɢ ᴄấᴘ'
+  success: '&#B9FBC0ᴛổ độɪ ᴄủᴀ ʙạɴ ᴠừᴀ đượᴄ ɴâɴɢ ᴄấᴘ'
+
+tag:
+  banned: '&#FF6B6Bᴛʜẻ ᴛᴀɢ ɴàʏ đã ʙị ᴄấᴍ'
+  success: '&#B9FBC0đã đổɪ ᴛʜẻ ᴛᴀɢ ᴛʜàɴʜ ᴄôɴɢ'
+  maxLength: '&#FF6B6Bᴛʜẻ ᴛᴀɢ ǫᴜá ᴅàɪ'
+  noPerm: '&#FF6B6Bʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ đổɪ ᴛʜẻ ᴛᴀɢ'
+
+# =================================================================
+# GHI CHÚ TỪ SYSADMIN: 
+# Từ đoạn này trở xuống đa số là thông báo dành cho Admin và Console.
+# =================================================================
+
+admin:
+  cancel: '&#FF6B6Bʟệɴʜ ʙị ʜủʏ ʙởɪ ᴍộᴛ ᴘʟᴜɢɪɴ ᴋʜáᴄ'
+  tag:
+    success: '&#B9FBC0đã đổɪ ᴛᴀɢ ᴄủᴀ ᴛổ độɪ đó'
+  setrank:
+    success: '&#B9FBC0đã ꜱᴇᴛ ᴄấᴘ độ ᴄʜᴏ ᴛổ độɪ đó'
+    'no': '&#FF6B6Bᴄấᴘ độ ᴋʜôɴɢ ᴛồɴ ᴛạɪ ʜᴏặᴄ ᴄʜưᴀ ꜱᴇᴛᴜᴘ đúɴɢ'
+  config:
+    reload: '&#B9FBC0đã ᴛảɪ ʟạɪ ʙᴇᴛᴛᴇʀᴛᴇᴀᴍꜱ (ɴếᴜ ᴄó ʟỗɪ ʜãʏ ᴋʜởɪ độɴɢ ʟạɪ ꜱᴇʀᴠᴇʀ)'
+  holo:
+    create:
+      success: '&#B9FBC0đã ᴛạᴏ ʜᴏʟᴏɢʀᴀᴍ'
+    remove:
+      noHolo: '&#FFB347ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ʜᴏʟᴏɢʀᴀᴍ ɴàᴏ'
+      success: '&#FFB347đã xóᴀ ʜᴏʟᴏɢʀᴀᴍ'
+  title:
+    success: '&#B9FBC0đã đổɪ ᴅᴀɴʜ ʜɪệᴜ ᴄủᴀ ɴɢườɪ ᴄʜơɪ đó'
+    reset: '&#FFB347đã đặᴛ ʟạɪ ᴅᴀɴʜ ʜɪệᴜ ᴄủᴀ ɴɢườɪ ᴄʜơɪ đó'
+  version: '&#D1E8E2ᴘʜɪêɴ ʙảɴ ᴘʟᴜɢɪɴ: &#B9FBC0{0}'
+  versionstorage: '&#D1E8E2ᴘʜươɴɢ ᴛʜứᴄ ʟưᴜ ᴛʀữ: &#B9FBC0{0}'
+  versionversion: '&#D1E8E2ᴘʜɪêɴ ʙảɴ ᴍɪɴᴇᴄʀᴀꜰᴛ: &#B9FBC0{0}'
+  versionlanguage: '&#D1E8E2ɴɢôɴ ɴɢữ: &#B9FBC0{0}'
+  noTeam: '&#FF6B6Bđâʏ ᴋʜôɴɢ ᴘʜảɪ ʟà ᴍộᴛ ᴛổ độɪ'
+  home:
+    success: '&#B9FBC0đã ᴅịᴄʜ ᴄʜᴜʏểɴ đếɴ ɴʜà ᴄủᴀ ᴛổ độɪ đó'
+    noHome: '&#FFB347ᴛổ độɪ đó ᴄʜưᴀ ꜱᴇᴛ ɴʜà'
+  name:
+    success: '&#B9FBC0đã đổɪ ᴛêɴ ᴛổ độɪ đó'
+  description:
+    success: '&#B9FBC0đã đổɪ ᴍô ᴛả ᴄủᴀ ᴛổ độɪ đó'
+  open:
+    successopen: '&#B9FBC0ᴛổ độɪ đó ɢɪờ đᴀɴɢ ᴍở ᴄửᴀ ᴄʜᴏ ᴍọɪ ɴɢườɪ'
+    successclose: '&#FFB347ᴛổ độɪ đó ɢɪờ đã ᴄʜᴜʏểɴ ꜱᴀɴɢ ᴄʜỉ ɴʜậɴ ʟờɪ ᴍờɪ'
+  invite:
+    success: '&#B9FBC0đã ᴍờɪ ɴɢườɪ ᴄʜơɪ đó ᴠàᴏ ᴛổ độɪ'
+  create:
+    success: '&#B9FBC0đã ᴛạᴏ ᴛổ độɪ đó'
+  join:
+    banned: '&#FF6B6Bɴɢườɪ ᴄʜơɪ đó đᴀɴɢ ʙị ᴄấᴍ ᴋʜỏɪ ᴛổ độɪ'
+    success: '&#B9FBC0ɴɢườɪ ᴄʜơɪ đó đã ɢɪᴀ ɴʜậᴘ ᴛổ độɪ'
+    notify: '&#B9FBC0ʙạɴ đã ɢɪᴀ ɴʜậᴘ ᴛổ độɪ &#FFFFFF{0}'
+    full: '&#FF6B6Bᴛổ độɪ đó đã đầʏ'
+  notInTeam: '&#FF6B6Bɴɢườɪ ᴄʜơɪ đó ᴋʜôɴɢ đượᴄ ở ᴛʀᴏɴɢ ᴛổ độɪ ᴋʜɪ ʟàᴍ ᴠɪệᴄ ɴàʏ'
+  inTeam: '&#FF6B6Bɴɢườɪ ᴄʜơɪ đó ᴋʜôɴɢ ở ᴛʀᴏɴɢ ᴛổ độɪ'
+  leave:
+    success: '&#FFB347ɴɢườɪ ᴄʜơɪ đó đã ʀờɪ ᴛổ độɪ'
+    notify: '&#FFB347ʙạɴ đã ʀờɪ ᴋʜỏɪ ᴛổ độɪ'
+  demote:
+    notify: '&#FFB347ʙạɴ đã ʙị ɢɪáɴɢ ᴄʜứᴄ'
+    success: '&#FFB347đã ɢɪáɴɢ ᴄʜứᴄ ɴɢườɪ ᴄʜơɪ đó'
+    min: '&#FF6B6Bᴋʜôɴɢ ᴛʜể ɢɪáɴɢ ᴄʜứᴄ ɴɢườɪ đó ᴛʜêᴍ ɴữᴀ'
+    maxAdmins: '&#FF6B6Bᴛổ độɪ đó đã đạᴛ ꜱố ʟượɴɢ ǫᴜảɴ ʟý ᴛốɪ đᴀ, ʜãʏ xóᴀ ʙớᴛ ᴛʀướᴄ
+      ᴋʜɪ ɢɪáɴɢ ᴄʜứᴄ'
+  promote:
+    max: '&#FFB347ɴɢườɪ đó đã đạᴛ ᴄấᴘ ʙậᴄ ᴄᴀᴏ ɴʜấᴛ'
+    notify: '&#B9FBC0ʙạɴ đã đượᴄ ᴛʜăɴɢ ᴄấᴘ'
+    success: '&#B9FBC0đã ᴛʜăɴɢ ᴄấᴘ ᴄʜᴏ ɴɢườɪ ᴄʜơɪ đó'
+    owner: '&#FFB347ʜệ ᴛʜốɴɢ đᴀɴɢ ᴄʜỉ ᴄʜᴏ ᴘʜéᴘ 1 độɪ ᴛʀưởɴɢ, ᴅùɴɢ &b/teama setowner
+      <ᴛêɴ> &#FFB347để đặᴛ'
+    maxAdmins: '&#FF6B6Bᴛổ độɪ đó đã đạᴛ ꜱố ʟượɴɢ ǫᴜảɴ ʟý ᴛốɪ đᴀ, ʜãʏ xóᴀ ʙớᴛ ᴛʀướᴄ
+      ᴋʜɪ ᴛʜăɴɢ ᴄấᴘ'
+    maxOwners: '&#FF6B6Bᴛổ độɪ đó đã đạᴛ ꜱố ʟượɴɢ độɪ ᴛʀưởɴɢ ᴛốɪ đᴀ, ʜãʏ xóᴀ ʙớᴛ ᴛʀướᴄ
+      ᴋʜɪ ᴛʜăɴɢ ᴄấᴘ'
+  setowner:
+    already: '&#FFB347ɴɢườɪ đó đã ʟà độɪ ᴛʀưởɴɢ ʀồɪ'
+    nonotify: '&#FFB347ʙạɴ ᴋʜôɴɢ ᴄòɴ ʟà độɪ ᴛʀưởɴɢ ɴữᴀ'
+    success: '&#B9FBC0ɴɢườɪ đó ɢɪờ ʟà độɪ ᴛʀưởɴɢ ᴍớɪ'
+    notify: '&#B9FBC0ʙạɴ ɢɪờ đã ʟà độɪ ᴛʀưởɴɢ ᴄủᴀ ᴛổ độɪ'
+  warps:
+    none: '&#FFB347ᴛổ độɪ đó ᴄʜưᴀ ᴄó đɪểᴍ ᴡᴀʀᴘ ɴàᴏ'
+  setwarp:
+    success: '&#B9FBC0đã ꜱᴇᴛ đɪểᴍ ᴡᴀʀᴘ đó'
+    max: '&#FFB347ᴛổ độɪ đó đã đạᴛ ɢɪớɪ ʜạɴ ᴡᴀʀᴘ'
+  purge:
+    confirm: '&#FF6B6Bɢõ ʟạɪ ʟệɴʜ ᴛʀᴏɴɢ 10 ɢɪâʏ để xáᴄ ɴʜậɴ, ᴠɪệᴄ ɴàʏ ꜱẽ xóᴀ ꜱạᴄʜ
+      đɪểᴍ ᴄủᴀ ᴛᴏàɴ ʙộ ᴄáᴄ ᴛổ độɪ!'
+    success: '&#FFB347đã ᴅọɴ ᴅẹᴘ (ᴘᴜʀɢᴇ) ᴄáᴄ ᴛổ độɪ ᴛʜàɴʜ ᴄôɴɢ'
+  score:
+    tooSmall: '&#FF6B6Bđɪểᴍ ꜱố ᴘʜảɪ ʟớɴ ʜơɴ 0'
+    success: '&#B9FBC0đã ᴛʜᴀʏ đổɪ đɪểᴍ ꜱố ᴄủᴀ ᴛổ độɪ đó'
+  bal:
+    toSmall: '&#FF6B6Bꜱố ᴛɪềɴ ᴘʜảɪ ʟớɴ ʜơɴ 0'
+    success: '&#B9FBC0đã ᴛʜᴀʏ đổɪ ꜱố ᴛɪềɴ ᴄủᴀ ᴛổ độɪ đó'
+  update: '&#FFB347ᴄó ᴘʜɪêɴ ʙảɴ ᴍớɪ ᴄủᴀ ʙᴇᴛᴛᴇʀᴛᴇᴀᴍꜱ: (https://www.spigotmc.org/resources/better-teams.17129/)'
+  disband:
+    success: '&#FFB347đã ɢɪảɪ ᴛáɴ ᴛổ độɪ đó ᴛʜàɴʜ ᴄôɴɢ'
+  color:
+    success: '&#B9FBC0đã đổɪ ᴍàᴜ ᴄủᴀ ᴛổ độɪ đó'
+  chest:
+    claim:
+      success: '&#B9FBC0ʙạɴ đã ʙảᴏ ʜộ ʀươɴɢ đó ᴄʜᴏ ᴛổ độɪ'
+    remove:
+      success: '&#FFB347đã ɢỡ ʙảᴏ ʜộ ᴋʜỏɪ ʀươɴɢ đó'
+      notClaimed: '&#FFB347ᴋʜôɴɢ ᴄó ᴛổ độɪ ɴàᴏ ʙảᴏ ʜộ ʀươɴɢ đó'
+    all:
+      success: '&#FFB347đã ɢỡ ʙảᴏ ʜộ ᴛᴏàɴ ʙộ ʀươɴɢ ᴄủᴀ ᴛổ độɪ đó'
+    disable:
+      already: '&#FFB347ᴛíɴʜ ɴăɴɢ ʙảᴏ ʜộ ʀươɴɢ đã ᴛắᴛ ꜱẵɴ ʀồɪ'
+      success: '&#FFB347đã ᴛắᴛ ᴛíɴʜ ɴăɴɢ ʙảᴏ ʜộ ʀươɴɢ'
+    disabled:
+      bc: '&#B9FBC0&lᴛᴏàɴ ʙộ ʀươɴɢ ʙảᴏ ʜộ ʜɪệɴ ᴛạɪ đếᴜ ᴄó ᴛʜể ᴍở'
+    enable:
+      already: '&#FFB347ᴛíɴʜ ɴăɴɢ ʙảᴏ ʜộ ʀươɴɢ đã ʙậᴛ ꜱẵɴ ʀồɪ'
+      success: '&#B9FBC0đã ʙậᴛ ᴛíɴʜ ɴăɴɢ ʙảᴏ ʜộ ʀươɴɢ'
+    enabled:
+      bc: '&#FF6B6B&lᴛᴏàɴ ʙộ ʀươɴɢ ʙảᴏ ʜộ ʜɪệɴ ᴛạɪ đã ʙị ᴋʜóᴀ'
+  teleport:
+    success: '&#B9FBC0đã ᴅịᴄʜ ᴄʜᴜʏểɴ ᴛᴏàɴ ʙộ ᴛʜàɴʜ ᴠɪêɴ ᴏɴʟɪɴᴇ ᴄủᴀ ᴛổ độɪ đó'
+    noWorld: '&#FF6B6Bᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴛʜế ɢɪớɪ ɴàʏ'
+    player:
+      success: '&#B9FBC0đã ᴅịᴄʜ ᴄʜᴜʏểɴ ɴɢườɪ ᴄʜơɪ đó'
+    all:
+      success: '&#B9FBC0đã ᴅịᴄʜ ᴄʜᴜʏểɴ ᴛᴏàɴ ʙộ ɴɢườɪ ᴄʜơɪ ᴏɴʟɪɴᴇ ᴄủᴀ ᴛẤᴛ ᴄả ᴄáᴄ ᴛổ
+        độɪ'
+      home:
+        success: '&#B9FBC0đã ᴅịᴄʜ ᴄʜᴜʏểɴ ᴛᴏàɴ ʙộ ɴɢườɪ ᴄʜơɪ ᴠề ɴʜà ᴄủᴀ ʜọ'
+  versiononline: '&#F8E9A1ᴄʜế độ ᴏɴʟɪɴᴇ: &#B9FBC0{0}'
+  versionplayers: '&#F8E9A1ꜱố ɴɢườɪ ᴄʜơɪ: &#B9FBC0{0}'
+  versionplugins: '&#F8E9A1ʟɪêɴ ᴋếᴛ ᴘʟᴜɢɪɴ: &#B9FBC0{0}'
+  versionconflicts: '&#F8E9A1xᴜɴɢ độᴛ ᴛɪềᴍ ẩɴ: &#B9FBC0{0}'
+  anchor:
+    enabled: '&#B9FBC0đã éᴘ ɴɢườɪ ᴄʜơɪ đó ᴘʜảɪ ʜồɪ ꜱɪɴʜ ở ɴʜà ᴛổ độɪ'
+    disabled: '&#FFB347đã ʜủʏ éᴘ ɴɢườɪ ᴄʜơɪ đó ʜồɪ ꜱɪɴʜ ở ɴʜà ᴛổ độɪ'
+  setanchor:
+    enabled: '&#B9FBC0đã ʙậᴛ ᴛʀạɴɢ ᴛʜáɪ ᴍᴏ ɴᴇᴏ ᴄủᴀ ᴛổ độɪ đó'
+    disabled: '&#FFB347đã ᴛắᴛ ᴛʀạɴɢ ᴛʜáɪ ᴍᴏ ɴᴇᴏ ᴄủᴀ ᴛổ độɪ đó'
+    noHome: '&#FF6B6Bᴛổ độɪ đó ᴘʜảɪ đặᴛ ɴʜà ᴛʀướᴄ đã'
+  ally:
+    same: '&#FF6B6Bᴋʜôɴɢ ᴛʜể ʟɪêɴ ᴍɪɴʜ ᴠớɪ ᴄʜíɴʜ ᴍìɴʜ'
+    already: '&#FFB347ʜᴀɪ ᴛổ độɪ ɴàʏ đã ʟà ʟɪêɴ ᴍɪɴʜ ʀồɪ'
+    success: '&#B9FBC0ʜᴀɪ ᴛổ độɪ ɴàʏ ɢɪờ đᴀɴɢ ʟɪêɴ ᴍɪɴʜ ᴠớɪ ɴʜᴀᴜ'
+  neutral:
+    same: '&#FF6B6Bᴋʜôɴɢ ᴛʜể ᴛʜᴀᴍ ɢɪᴀ ᴄùɴɢ ᴍộᴛ ᴛổ độɪ 2 ʟầɴ'
+    not: '&#FFB347ᴄáᴄ ᴛổ độɪ ɴàʏ ᴋʜôɴɢ ᴘʜảɪ ʟɪêɴ ᴍɪɴʜ'
+    success: '&#FFB347ᴄáᴄ ᴛổ độɪ ɴàʏ đã ʜủʏ ʟɪêɴ ᴍɪɴʜ'
+  import:
+    fail: '&#FF6B6Bɴʜậᴘ ᴅữ ʟɪệᴜ ᴛʜấᴛ ʙạɪ, ʜãʏ xᴇᴍ ᴄᴏɴꜱᴏʟᴇ'
+    success: '&#B9FBC0ɴʜậᴘ ᴅữ ʟɪệᴜ ᴛʜàɴʜ ᴄôɴɢ'
+  versionnoconflicts: ᴋʜôɴɢ ᴘʜáᴛ ʜɪệɴ xᴜɴɢ độᴛ
+  versionextensions: '&#F8E9A1ᴛɪệɴ íᴄʜ: {0}'
+  versionnomanager: '&#FF6B6Bᴍᴀɴᴀɢᴇʀ ᴄʜưᴀ đượᴄ ᴛảɪ'
+  versionnoextensions: '&#FDFD96ᴋʜôɴɢ ᴄó'
+  meta:
+    get:
+      noMetaData: '&#FFB347ᴛổ độɪ ɴàʏ ᴋʜôɴɢ ᴄó ᴍᴇᴛᴀᴅᴀᴛᴀ.'
+      allMetaData: '&#D1E8E2ᴍᴇᴛᴀᴅᴀᴛᴀ ᴄủᴀ ᴛổ độɪ: &#B9FBC0{0}'
+      specificMetaData: '&#D1E8E2ᴍᴇᴛᴀᴅᴀᴛᴀ "&&#FFFFFF{0}&#D1E8E2" ᴄó ɢɪá ᴛʀị: "&&#FFFFFF{1}&#D1E8E2"'
+      noexist: '&#FF6B6Bᴍᴇᴛᴀᴅᴀᴛᴀ ɴàʏ ᴋʜôɴɢ ᴛồɴ ᴛạɪ.'
+    set:
+      needsValue: '&#FF6B6Bʙạɴ ᴘʜảɪ ɴʜậᴘ ɢɪá ᴛʀị ᴄʜᴏ ᴍᴇᴛᴀᴅᴀᴛᴀ.'
+      success: '&#B9FBC0đã ꜱᴇᴛ ᴍᴇᴛᴀᴅᴀᴛᴀ ᴛʜàɴʜ ᴄôɴɢ'
+    remove:
+      success: '&#FFB347đã xóᴀ ᴍᴇᴛᴀᴅᴀᴛᴀ "&&#FFFFFF{0}&#FFB347" ᴋʜỏɪ ᴛổ độɪ'
+
+nametag:
+  syntax: '&#888888&l{0}&r '
+holo:
+  leaderboard: '&#F8E9A1&lʙảɴɢ xếᴘ ʜạɴɢ'
+  syntax: '&#D1E8E2{0}: &#B9FBC0{1}'
+  msyntax: '&#D1E8E2{0}: &#B9FBC0${1}'
+top:
+  leaderboard: '&#F8E9A1&lʙảɴɢ xếᴘ ʜạɴɢ'
+  syntax: '&#B9FBC0{0}: &#D1E8E2{1} &#888888({2})'
+  divide: '&#FFFFFF...'
+baltop:
+  leaderboard: '&#F8E9A1&lʙảɴɢ xếᴘ ʜạɴɢ'
+  syntax: '&#B9FBC0{0}: &#D1E8E2{1} &#888888({2})'
+  divide: '&#FFFFFF...'
+
+spy:
+  stop: '&#FFB347ʙạɴ đᴀɴɢ ɴɢừɴɢ ᴛʜᴇᴏ ᴅõɪ ᴛɪɴ ɴʜắɴ ᴛổ độɪ'
+  start: '&#B9FBC0ʙạɴ đᴀɴɢ ᴛʜᴇᴏ ᴅõɪ ᴛɪɴ ɴʜắɴ ᴛổ độɪ'
+  team: '&#888888[&#F8E9A1{0}&#888888] &#D1E8E2{1}&#888888: &#FFFFFF{2}'
+  ally: '&#888888[&#FDFD96{0}&#888888] &#D1E8E2{1}&#888888: &#FFFFFF{2}'
+
+uclaim:
+  team: '&#FF6B6Bʙạɴ ᴘʜảɪ ᴛʀᴏɴɢ ᴛổ độɪ ᴍớɪ ᴄó ᴛʜể ᴛạᴏ ʙảᴏ ʜộ'
+  member: '&#FF6B6Bʙạɴ ᴋʜôɴɢ ᴛʜể ʀờɪ ᴋʜỏɪ ᴋʜᴜ ᴠựᴄ ʙảᴏ ʜộ ᴄủᴀ ᴛổ độɪ'
+  kick: '&#FF6B6Bʙạɴ ᴋʜôɴɢ ᴛʜể đá ᴛʜàɴʜ ᴠɪêɴ ᴄùɴɢ ᴛổ độɪ ᴋʜỏɪ ᴋʜᴜ ᴠựᴄ ʙảᴏ ʜộ'
+  ban: '&#FF6B6Bʙạɴ ᴋʜôɴɢ ᴛʜể ᴄấᴍ ᴛʜàɴʜ ᴠɪêɴ ᴄùɴɢ ᴛổ độɪ ᴋʜỏɪ ᴋʜᴜ ᴠựᴄ ʙảᴏ ʜộ'
+  dissolve: '&#FFB347ᴛổ độɪ ᴄủᴀ ʙạɴ đã ʙị ɢɪảɪ ᴛáɴ, ᴠùɴɢ ʙảᴏ ʜộ đã ʙị ʜủʏ'
+
+help:
+  description: xᴇᴍ ᴠà ᴛʜᴀʏ đổɪ ᴍô ᴛả ᴄủᴀ ᴛổ độɪ
+  ban: ᴄấᴍ ᴍộᴛ ɴɢườɪ ᴄʜơɪ ᴋʜỏɪ ᴛổ độɪ
+  home: ᴅịᴄʜ ᴄʜᴜʏểɴ ᴠề ɴʜà ᴄủᴀ ᴛổ độɪ
+  help: xᴇᴍ ʙảɴɢ ᴛʀợ ɢɪúᴘ ɴàʏ
+  promote: ᴛʜăɴɢ ᴄấᴘ ᴄʜᴏ ᴛʜàɴʜ ᴠɪêɴ
+  demote: ɢɪáɴɢ ᴄʜứᴄ ᴄʜᴏ ᴛʜàɴʜ ᴠɪêɴ
+  unban: ʙỏ ᴄấᴍ ᴄʜᴏ ᴍộᴛ ɴɢườɪ ᴄʜơɪ
+  kick: đá ᴍộᴛ ɴɢườɪ ᴄʜơɪ ᴋʜỏɪ ᴛổ độɪ
+  leave: ʀờɪ ᴋʜỏɪ ᴛổ độɪ ʜɪệɴ ᴛạɪ
+  chat: ɢửɪ ᴛɪɴ ɴʜắɴ ʀɪêɴɢ ᴄʜᴏ ᴛổ độɪ
+  name: xᴇᴍ ᴠà đổɪ ᴛêɴ ᴛổ độɪ
+  sethome: đặᴛ ᴠị ᴛʀí ɴʜà ᴄủᴀ ᴛổ độɪ
+  create: ᴛạᴏ ᴍộᴛ ᴛổ độɪ ᴍớɪ ᴠớɪ ᴛêɴ ᴄʜỉ địɴʜ
+  invite: ᴍờɪ ᴍộᴛ ɴɢườɪ ᴄʜơɪ ᴠàᴏ ᴛổ độɪ
+  disband: ɢɪảɪ ᴛáɴ ᴛổ độɪ ʜɪệɴ ᴛạɪ
+  open: ʙậᴛ/ᴛắᴛ ᴄʜế độ ᴄʜỉ ɴʜậɴ ʟờɪ ᴍờɪ
+  info: xᴇᴍ ᴛʜôɴɢ ᴛɪɴ ᴄủᴀ ᴍộᴛ ɴɢườɪ/ᴛổ độɪ
+  color: ᴛʜᴀʏ đổɪ ᴍàᴜ ꜱắᴄ ᴄủᴀ ᴛổ độɪ
+  deposit: ɢửɪ ᴛɪềɴ ᴠàᴏ ɴɢâɴ ʜàɴɢ độɪ
+  bal: xᴇᴍ ꜱố ᴅư ɴɢâɴ ʜàɴɢ độɪ
+  withdraw: ʀúᴛ ᴛɪềɴ ᴋʜỏɪ ɴɢâɴ ʜàɴɢ độɪ
+  title: đổɪ ᴅᴀɴʜ ʜɪệᴜ ᴄʜᴏ ᴍộᴛ ᴛʜàɴʜ ᴠɪêɴ
+  top: xᴇᴍ ʙảɴɢ xếᴘ ʜạɴɢ ᴄáᴄ ᴛổ độɪ ᴍạɴʜ ɴʜấᴛ
+  rank: xᴇᴍ ᴄấᴘ độ ᴄủᴀ ᴍộᴛ ᴛổ độɪ
+  join: ɢɪᴀ ɴʜậᴘ ᴠàᴏ ᴍộᴛ ᴛổ độɪ ᴄụ ᴛʜể
+  delhome: xóᴀ ɴʜà ᴄủᴀ ᴛổ độɪ
+  ally: ɢửɪ ʟờɪ ᴍờɪ ʟɪêɴ ᴍɪɴʜ ᴄʜᴏ ᴛổ độɪ ᴋʜáᴄ
+  neutral: xóᴀ ʟɪêɴ ᴍɪɴʜ ʜᴏặᴄ ᴛừ ᴄʜốɪ ʟờɪ ᴍờɪ
+  allychat: ɢửɪ ᴛɪɴ ɴʜắɴ ᴄʜᴏ ᴛᴏàɴ ʙộ ʟɪêɴ ᴍɪɴʜ
+  echest: ᴍở ʀươɴɢ ᴇɴᴅᴇʀ ᴄủᴀ ᴛổ độɪ
+  setwarp: đặᴛ đɪểᴍ ᴅịᴄʜ ᴄʜᴜʏểɴ (ᴡᴀʀᴘ) ᴄʜᴏ ᴛổ độɪ
+  warps: xᴇᴍ ᴅᴀɴʜ ꜱáᴄʜ đɪểᴍ ᴡᴀʀᴘ
+  rankup: ɴâɴɢ ᴄấᴘ ᴛổ độɪ để ɴʜậɴ ᴛʜêᴍ ǫᴜʏềɴ ʟợɪ
+  tag: đặᴛ ᴛʜẻ ᴛᴀɢ ᴄʜᴏ ᴛổ độɪ
+  delwarp: xóᴀ ᴍộᴛ đɪểᴍ ᴡᴀʀᴘ ᴄủᴀ ᴛổ độɪ
+  chest: ''
+  pvp: ʙậᴛ/ᴛắᴛ ᴄʜế độ ᴘᴠᴘ ɢɪữᴀ ᴄáᴄ ᴛʜàɴʜ ᴠɪêɴ ᴛʀᴏɴɢ độɪ
+  baltop: xᴇᴍ ʙảɴɢ xếᴘ ʜạɴɢ ᴄáᴄ ᴛổ độɪ ɢɪàᴜ ɴʜấᴛ
+  list: xᴇᴍ ᴅᴀɴʜ ꜱáᴄʜ ᴛᴏàɴ ʙộ ᴛổ độɪ ᴛʀêɴ ꜱᴇʀᴠᴇʀ
+  warp: ᴅịᴄʜ ᴄʜᴜʏểɴ đếɴ ᴍộᴛ đɪểᴍ ᴡᴀʀᴘ ᴄủᴀ ᴛổ độɪ
+  removeall: ɢỡ ʙỏ ᴛᴏàɴ ʙộ ʀươɴɢ ʙảᴏ ʜộ (ʜữᴜ íᴄʜ ɴếᴜ ʙị ᴛʜấᴛ ʟạᴄ)
+  claim: ʙảᴏ ʜộ ᴄáɪ ʀươɴɢ ᴍà ʙạɴ đᴀɴɢ đứɴɢ ʟêɴ
+  remove: ɢỡ ʙảᴏ ʜộ ᴋʜỏɪ ᴄáɪ ʀươɴɢ ᴍà ʙạɴ đᴀɴɢ đứɴɢ ʟêɴ
+  teleport: ᴅịᴄʜ ᴄʜᴜʏểɴ ᴍộᴛ ᴛổ độɪ ᴛớɪ ᴍộᴛ ᴠị ᴛʀí
+  purge: ʀᴇꜱᴇᴛ ᴛᴏàɴ ʙộ đɪểᴍ ꜱố ᴄủᴀ ᴄáᴄ ᴛổ độɪ
+  setrank: đặᴛ ᴄấᴘ độ ᴄʜᴏ ᴍộᴛ ᴛổ độɪ ᴄụ ᴛʜể
+  score: ''
+  reload: ᴛảɪ ʟạɪ ᴄấᴜ ʜìɴʜ ᴘʟᴜɢɪɴ
+  chatspy: ᴛʜᴇᴏ ᴅõɪ ᴛɪɴ ɴʜắɴ ᴄủᴀ ᴄáᴄ ᴛổ độɪ (ᴀᴅᴍɪɴ)
+  version: ᴋɪểᴍ ᴛʀᴀ ᴘʜɪêɴ ʙảɴ ᴘʟᴜɢɪɴ
+  money: ''
+  header: '&#F8E9A1&l---- ᴛʀợ ɢɪúᴘ ᴛổ độɪ ----'
+  footer: '&#F8E9A1&l---- ᴛʀᴀɴɢ {0}/{1} - ᴅùɴɢ /{2} help <ᴛʀᴀɴɢ> ----'
+  wrong: '&#FF6B6Bđã xảʏ ʀᴀ ʟỗɪ, ʜãʏ ʙáᴏ ᴄáᴏ ᴄʜᴏ ᴀᴅᴍɪɴ'
+  anchor: ʙậᴛ/ᴛắᴛ ᴄʜế độ ʜồɪ ꜱɪɴʜ ᴛạɪ ɴʜà ᴛổ độɪ
+  setanchor: ᴄʜᴏ ᴘʜéᴘ ɴʜà ᴄủᴀ ᴛổ độɪ ᴛʀở ᴛʜàɴʜ đɪểᴍ ʜồɪ ꜱɪɴʜ
+  teamadmin:
+    echest: View and edit that teams ender chest
+    color: Change that teams color
+    teleport: Teleports the specified target to the specified location (or executor's
+      location)
+    description: Change the specified teams description
+    setwarp: Set a warp for that team
+    purge: Reset the score and money for all teams, if you specify an value (i.e.
+      money) only that will be reset
+    title: Change a players title to the specified title
+
+command:
+  create: create
+  leave: leave
+  disband: disband
+  description: description
+  invite: invite
+  join: join
+  name: name
+  open: open
+  info: info
+  kick: kick
+  promote: promote
+  demote: demote
+  home: home
+  sethome: sethome
+  ban: ban
+  unban: unban
+  chat: chat
+  color: color
+  title: title
+  top: top
+  baltop: baltop
+  rank: rank
+  delhome: delhome
+  ally: ally
+  neutral: neutral
+  allychat: allychat
+  list: list
+  warp: warp
+  setwarp: setwarp
+  delwarp: delwarp
+  warps: warps
+  echest: echest
+  rankup: rankup
+  tag: tag
+  pvp: pvp
+  claim: claim
+  remove: remove
+  removeall: removeall
+  chest: chest
+  reload: reload
+  chatspy: chatspy
+  version: version
+  purge: purge
+  setrank: setrank
+  add: add
+  set: set
+  score: score
+  enableclaims: enableclaims
+  disableclaims: disableclaims
+  teleport: teleport
+  money: money
+  deposit: deposit
+  bal: bal
+  withdraw: withdraw
+  anchor: anchor
+  setanchor: setanchor
+  check: check
+  debug: debug
+  importmessages: importmessages
+  meta: meta
+  get: get
+
+announce:
+  join: '&#B9FBC0{0} &#D1E8E2đã ɢɪᴀ ɴʜậᴘ ᴛổ độɪ &#FFFFFF{1}'
+  leave: '&#FFB347{0} &#D1E8E2đã ʀờɪ ᴋʜỏɪ ᴛổ độɪ &#FFFFFF{1}'
+  disband: '&#FF6B6Bᴛổ độɪ &#FFFFFF{0} &#FF6B6Bđã ʙị ɢɪảɪ ᴛáɴ'
+
+anchor:
+  enabled: '&#B9FBC0ʙạɴ đᴀɴɢ ᴄʜᴏ ᴘʜéᴘ ʜồɪ ꜱɪɴʜ ᴛạɪ ɴʜà ᴛổ độɪ'
+  disabled: '&#FFB347ʙạɴ đᴀɴɢ ᴛắᴛ ʜồɪ ꜱɪɴʜ ᴛạɪ ɴʜà ᴛổ độɪ'
+  noHome: '&#FF6B6Bᴛổ độɪ ᴘʜảɪ đặᴛ ɴʜà ᴠà ʙậᴛ ᴛʀạɴɢ ᴛʜáɪ ᴍᴏ ɴᴇᴏ (ᴀɴᴄʜᴏʀ) ᴛʀướᴄ'
+setanchor:
+  enabled: '&#B9FBC0ᴍᴏ ɴᴇᴏ ᴄủᴀ ᴛổ độɪ đã ʙậᴛ'
+  disabled: '&#FFB347ᴍᴏ ɴᴇᴏ ᴄủᴀ ᴛổ độɪ đã ᴛắᴛ'
+  notifyEnable: '&#B9FBC0ᴍᴏ ɴᴇᴏ đã đượᴄ ʙậᴛ ʙởɪ {0}'
+  notifyDisable: '&#FFB347ᴍᴏ ɴᴇᴏ đã đượᴄ ᴛắᴛ ʙởɪ {0}'
+  noHome: '&#FF6B6Bᴘʜảɪ đặᴛ ɴʜà ᴛʀướᴄ đã'
+  noPerm: '&#FF6B6Bʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ đổɪ ᴛʀạɴɢ ᴛʜáɪ ᴍᴏ ɴᴇᴏ'
+  noBool: '&#FF6B6Bᴛʀạɴɢ ᴛʜáɪ ᴄʜỉ ᴄó ᴛʜể ʟà ᴛʀᴜᴇ (ʙậᴛ) ʜᴏặᴄ ꜰᴀʟꜱᴇ (ᴛắᴛ)'
+
+helpArg:
+  delhome: ''
+  echest: ''
+  color: <ᴍã_ᴍàᴜ>
+  allychat: '[ᴛɪɴ_ɴʜắɴ]'
+  description: '[ᴍô_ᴛả]'
+  setwarp: <ᴛêɴ> [ᴍậᴛ_ᴋʜẩᴜ]
+  title: '[ɴɢườɪ_ᴄʜơɪ/me] [ᴅᴀɴʜ_ʜɪệᴜ]'
+  bal: ''
+  ban: <ɴɢườɪ_ᴄʜơɪ>
+  promote: <ɴɢườɪ_ᴄʜơɪ>
+  warps: ''
+  top: ''
+  ally: <ᴛổ_độɪ>
+  rankup: ''
+  leave: ''
+  sethome: ''
+  create: <ᴛêɴ> [ᴛᴀɢ]
+  rank: '[ᴛổ_độɪ]'
+  join: <ᴛổ_độɪ>
+  tag: '[ᴛᴀɢ]'
+  disband: ''
+  info: '[ᴛổ_độɪ/ɴɢườɪ_ᴄʜơɪ]'
+  delwarp: <ᴛêɴ> [ᴍậᴛ_ᴋʜẩᴜ]
+  chest: ''
+  neutral: <ᴛổ_độɪ>
+  pvp: ''
+  baltop: ''
+  list: '[ᴛʀᴀɴɢ]'
+  home: ''
+  help: ''
+  unban: <ɴɢườɪ_ᴄʜơɪ>
+  demote: <ɴɢườɪ_ᴄʜơɪ>
+  kick: <ɴɢườɪ_ᴄʜơɪ>
+  chat: '[ᴛɪɴ_ɴʜắɴ]'
+  name: <ᴛêɴ>
+  deposit: <ꜱố_ᴛɪềɴ>
+  invite: <ɴɢườɪ_ᴄʜơɪ>
+  open: ''
+  warp: <ᴛêɴ>
+  withdraw: <ꜱố_ᴛɪềɴ>
+  anchor: ''
+  setanchor: <true/false>
+  teamadmin:
+    echest: <team>
+    color: <team> <color code>
+    teleport: <team <team> | player <player> | all> [home | player <player> | location
+      <x> <y> <z> [yaw] [pitch] [world]]
+    description: <team> <description>
+    setwarp: <team> <name> [password]
+    purge: '[score/money]'
+    title: <player> <title>
+
+webhook:
+  unknownPlayer: ᴍộᴛ ɴɢườɪ ᴄʜơɪ ẩɴ ᴅᴀɴʜ
+  create:
+    title: ᴛổ độɪ ᴍớɪ đượᴄ ᴛạᴏ - {0}
+    description: ᴛổ độɪ **{0}** ᴠừᴀ đượᴄ ᴛạᴏ ʙởɪ **{1}**
+  disband:
+    title: ᴛổ độɪ ʙị ɢɪảɪ ᴛáɴ - {0}
+    description: ᴛổ độɪ **{0}** đã ʙị ɢɪảɪ ᴛáɴ ʙởɪ **{1}**
+  leave:
+    title: ᴛʜàɴʜ ᴠɪêɴ ʀờɪ độɪ - {0}
+    description: ɴɢườɪ ᴄʜơɪ **{0}** đã ʀờɪ ᴋʜỏɪ ᴛổ độɪ **{1}**
+  rename:
+    title: đổɪ ᴛêɴ ᴛổ độɪ - {0}
+    description: ᴛổ độɪ **{0}** ᴠừᴀ đượᴄ đổɪ ᴛêɴ ᴛʜàɴʜ **{1}** ʙởɪ **{2}**
+  chat:
+    title: 'ᴛɪɴ ɴʜắɴ ᴛổ độɪ: {0} [{1}]'
+    description: '{0}'
+  allychat:
+    title: 'ᴛɪɴ ɴʜắɴ ʟɪêɴ ᴍɪɴʜ: {0} [{1}]'
+    description: '{0}'

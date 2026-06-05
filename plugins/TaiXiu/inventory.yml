@@ -1,0 +1,70 @@
+# GUI|TRANS REMAKE BY DaoMinhKhoi_
+inventory:
+  default-items:
+    nextPage:
+      name: '&#57F287ᴛʀᴀɴɢ ѕᴀᴜ ▶'
+      slot: 8
+      type: material
+      value: ARROW
+      data: 0
+      lore:
+      - '&#E0E0E0ᴄʜᴜʏểɴ ѕᴀɴɢ ᴛʀᴀɴɢ &#FFD700%nextPage%'
+
+    prevPage:
+      name: '&#FFB7B2◀ ᴛʀᴀɴɢ ᴛʀướᴄ'
+      slot: 0
+      type: material
+      value: ARROW
+      data: 0
+      lore:
+      - '&#E0E0E0ǫᴜᴀʏ ʟạɪ ᴛʀᴀɴɢ &#FFD700%prevPage%'
+    borderItem:
+      name: ' '
+      type: material
+      value: WHITE_STAINED_GLASS_PANE
+      data: 0
+      lore:
+      - ''
+  taiXiuInfo:
+    title: '&#FCD05C❁ ᴛʜôɴɢ ᴛɪɴ ᴘʜɪêɴ: &#E0E0E0#%session%'
+    rows: 6
+    items:
+      bet-player:
+        name: '&#FFD700&l%playerName%'
+        type: material
+        value: PLAYER_HEAD
+        data: 0
+        lore:
+        - ''
+        - '&#fcfcfc❖ ᴄửᴀ ᴄượᴄ: %bet%'
+        - '&#fcfcfc❖ ѕố ᴛɪềɴ ᴄượᴄ: &#57F287%money% ⛀'
+        - ''
+      bet-info:
+        name: '&#FCD05C&lᴛʜôɴɢ ᴛɪɴ ᴘʜɪêɴ'
+        slot: 4
+        type: material
+        value: BOOK
+        data: 0
+        lorePlaying:
+        - '&#fcfcfcᴄòɴ ʟạɪ &#FFD700%time% ɢɪâʏ &#fcfcfcđể ʀᴀ ᴋếᴛ ǫᴜả.'
+        - ''
+        - '&#fcfcfc❖ ᴘʜɪêɴ ᴄượᴄ ѕố: &#FCD05C#%session%'
+        - '&#fcfcfc❖ &#B9FBC0xỉᴜ&#fcfcfc: &#FFD700%xiuPlayerNumber% &#E0E0E0ɴɢườɪ &#57F287(%xiuTotalBet% ⛀)'
+        - '&#fcfcfc❖ &#FFB7B2ᴛàɪ&#fcfcfc: &#FFD700%taiPlayerNumber% &#E0E0E0ɴɢườɪ &#57F287(%taiTotalBet% ⛀)'
+        - '&#fcfcfc❖ ᴛổɴɢ ᴄượᴄ ᴘʜɪêɴ: &#57F287%totalBet% ⛀'
+        - ''
+        - '&#AEC6CF▶ ɴʜấɴ ᴄʜᴜộᴛ để ᴄậᴘ ɴʜậᴛ ᴛʀᴀɴɢ'
+        loreEnded:
+        - '&#E0E0E0ᴘʜɪêɴ ɴàʏ đã ᴋếᴛ ᴛʜúᴄ!'
+        - ''
+        - '&#fcfcfc❖ ᴘʜɪêɴ ᴄượᴄ ѕố: &#FCD05C#%session%'
+        - '&#fcfcfc❖ &#B9FBC0xỉᴜ&#fcfcfc: &#FFD700%xiuPlayerNumber% &#E0E0E0ɴɢườɪ &#57F287(%xiuTotalBet% ⛀)'
+        - '&#fcfcfc❖ &#FFB7B2ᴛàɪ&#fcfcfc: &#FFD700%taiPlayerNumber% &#E0E0E0ɴɢườɪ &#57F287(%taiTotalBet% ⛀)'
+        - '&#fcfcfc❖ ᴛổɴɢ ᴄượᴄ ᴘʜɪêɴ: &#57F287%totalBet% ⛀'
+        - '&#fcfcfc❖ ɴɢườɪ ăɴ ɴʜɪềᴜ ɴʜấᴛ: %bestWinners%'
+        - ''
+        - '&#E0E0E0▶ xúᴄ xắᴄ 1: &#FCD05C%dice1%'
+        - '&#E0E0E0▶ xúᴄ xắᴄ 2: &#FCD05C%dice2%'
+        - '&#E0E0E0▶ xúᴄ xắᴄ 3: &#FCD05C%dice3%'
+        - ''
+        - '&#57F287⭐ ᴋếᴛ ǫᴜả ᴄʜᴜɴɢ ᴄᴜộᴄ: %result%'

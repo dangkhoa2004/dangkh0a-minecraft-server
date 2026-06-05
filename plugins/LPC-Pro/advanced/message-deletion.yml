@@ -1,0 +1,8 @@
+enabled: true
+show-delete-button: true
+delete-button-format: "<hover:show_text:'<red>✕ Delete Message\n<gray>Click to remove\
+  \ this message'><click:run_command:'/deletemsg %id%'><dark_gray>[<red>✕<dark_gray>]</click></hover> "
+delete-permission: lpcpro.chat.delete
+message-retention-minutes: 10
+notify-on-delete: false
+notify-sender: true

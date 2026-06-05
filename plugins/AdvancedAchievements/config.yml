@@ -1,0 +1,911 @@
+#======================================================================================================================#
+#       _       _                               _      _        _     _                                     _          #
+#      / \   __| |_    ____ _ _ __   ___ ___  __| |    / \   ___| |__ (_) _____   _____ _ __ ___   ___ _ __ | |_ ___    #
+#     / _ \ / _` \ \ / / _` | '_ \ / __/ _ \/ _` |   / _ \ / __| '_ \| |/ _ \ \ / / _ \ '_ ` _ \ / _ \ '_ \| __/ __|   #
+#    / ___ \ (_| |\ V / (_| | | | | (_|  __/ (_| |  / ___ \ (__| | | | |  __/\ V /  __/ | | | | |  __/ | | | |_\__ \   #
+#   /_/   \_\__,_| \_/ \__,_|_| |_|\___\___|\__,_| /_/   \_\___|_| |_|_|\___| \_/ \___|_| |_| |_|\___|_| |_|\__|___/   #
+#                                                                                                                      #
+#======================================================================================================================#
+
+#======================================================================================================================#
+#                                                 CÀI ĐẶT CHUNG (GENERAL)                                              #
+#======================================================================================================================#
+
+TimeBook: 900
+BookChronologicalOrder: true
+BookSeparator: ""
+Firework: true
+FireworkStyle: ball_large
+SimplifiedReception: false
+TopList: 5
+AdditionalEffects: true
+Sound: true
+SoundBook: entity_player_levelup
+SoundStats: entity_firework_rocket_blast
+SoundRanking: entity_firework_rocket_blast
+Icon: \u2618
+Color: 5
+NotifyOtherPlayers: false
+ActionBarNotify: true
+TitleScreen: true
+BossBarProgress: true
+ReceiverChatMessages: true
+HoverableReceiverChatText: false
+ChatHeader: ""
+RestrictCreative: false
+RestrictSpectator: true
+RestrictAdventure: false
+ExcludedWorlds: []
+IgnoreVerticalDistance: false
+DisabledCategories:
+- AdvancementsCompleted
+DisableSilkTouchBreaks: false
+DisableSilkTouchOreBreaks: false
+OreBlocks:
+- coal_ore
+- diamond_ore
+- emerald_ore
+- lapis_ore
+- nether_gold_ore
+- nether_quartz_ore
+- redstone_ore
+LanguageFileName: lang.yml
+StatisticCooldown:
+  LavaBuckets: 10
+  WaterBuckets: 10
+  Milk: 10
+  Beds: 30
+  Brewing: 5
+  MusicDiscs: 30
+  BooksEdited: 10
+CooldownActionBar: false
+DateLocale: en
+DateDisplayTime: true
+AllAchievementsReceivedRewards:
+  IncreaseMaxOxygen: 30
+  Experience: 100
+IgnoreAFKPlayedTime: false
+RegisterAdvancementDescriptions: true
+HideAdvancements: false
+RootAdvancementTitle: "§x§A§3§C§4§F§3Tʜàɴʜ Tựᴜ Máʏ Cʜủ"
+AdvancementsBackground: "minecraft:block/purple_concrete"
+ForbiddenFireworkBlocks:
+- glow_item_frame
+- painting
+- item_frame
+- minecart
+- hopper_minecart
+- tnt_minecart
+- command_block_minecart
+- furnace_minecart
+- chest_minecart
+ForbiddenFireworkBlocksWhenNotSneaking:
+- polished_blackstone_button
+- furnace
+- dispenser
+- chest
+- note_block
+- lever
+- stone_button
+- ender_chest
+- beacon
+- anvil
+- trapped_chest
+- hopper
+- dropper
+- brewing_stand
+- crafting_table
+- acacia_button
+- birch_button
+- dark_oak_button
+- jungle_button
+- oak_button
+- spruce_button
+- acacia_door
+- birch_door
+- dark_oak_door
+- jungle_door
+- oak_door
+- spruce_door
+- acacia_fence_gate
+- birch_fence_gate
+- dark_oak_fence_gate
+- jungle_fence_gate
+- oak_fence_gate
+- spruce_fence_gate
+- enchanting_table
+- acacia_trapdoor
+- birch_trapdoor
+- dark_oak_trapdoor
+- jungle_trapdoor
+- oak_trapdoor
+- spruce_trapdoor
+- acacia_boat
+- birch_boat
+- dark_oak_boat
+- jungle_boat
+- oak_boat
+- spruce_boat
+- black_bed
+- blue_bed
+- brown_bed
+- cyan_bed
+- gray_bed
+- green_bed
+- light_blue_bed
+- light_gray_bed
+- lime_bed
+- magenta_bed
+- orange_bed
+- pink_bed
+- purple_bed
+- red_bed
+- white_bed
+- yellow_bed
+- cake
+- comparator
+- repeater
+- command_block
+- armor_stand
+- chain_command_block
+- repeating_command_block
+- black_shulker_box
+- blue_shulker_box
+- brown_shulker_box
+- cyan_shulker_box
+- gray_shulker_box
+- green_shulker_box
+- light_blue_shulker_box
+- lime_shulker_box
+- magenta_shulker_box
+- orange_shulker_box
+- pink_shulker_box
+- purple_shulker_box
+- red_shulker_box
+- white_shulker_box
+- yellow_shulker_box
+- shulker_box
+- barrel
+- bell
+- blast_furnace
+- cartography_table
+- grindstone
+- loom
+- smoker
+- stonecutter
+- acacia_sign
+- acacia_wall_sign
+- birch_sign
+- birch_wall_sign
+- dark_oak_sign
+- dark_oak_wall_sign
+- jungle_sign
+- jungle_wall_sign
+- oak_sign
+- oak_wall_sign
+- spruce_sign
+- spruce_wall_sign
+HoePlowableBlocks:
+- dirt
+- grass_block
+FishableFish:
+- cod
+- salmon
+- pufferfish
+- tropical_fish
+
+#======================================================================================================================#
+#                                                     CÀI ĐẶT GUI                                                      #
+#======================================================================================================================#
+
+ListAchievementFormat: "%ICON% %NAME% %ICON%"
+ObfuscateNotReceived: false
+ObfuscateProgressiveAchievements: false
+HideProgressiveAchievements: false
+HideNotReceivedCategories: false
+HideNoPermissionCategories: false
+HideRewardDisplayInList: false
+EnrichedListProgressBars: true
+NumberedItemsInList: false
+ListColorNotReceived: 8
+ListItaliciseNotReceived: true
+OverrideBackButtonBehaviour: ""
+BackButtonIsCategoryItem: true
+
+#======================================================================================================================#
+#                                                    CÀI ĐẶT DATABASE                                                  #
+#======================================================================================================================#
+
+DatabaseBackup: true
+DatabaseType: h2
+TablePrefix: ""
+TableMaxSizeOfGroupedSubcategories: 128
+AdditionalConnectionOptions: ""
+DatabaseAddress: "jdbc:mysql://localhost:3306/minecraft"
+DatabaseUser: root
+DatabasePassword: root
+
+#======================================================================================================================#
+#                                               CÀI ĐẶT HIỆU SUẤT (PERFORMANCE)                                        #
+#======================================================================================================================#
+
+PlaytimeTaskInterval: 60
+DistanceTaskInterval: 5
+BungeeMode: false
+
+#======================================================================================================================#
+#                                               THÀNH TỰU ĐA HÀNH ĐỘNG                                                 #
+#======================================================================================================================#
+
+Places:
+  chest:
+    5:
+      Goal: "§x§D§1§E§8§E§2Đặᴛ §x§F§D§F§D§9§65 §x§D§1§E§8§E§2ᴄáɪ ʀươɴɢ."
+      Message: "§x§F§F§B§3§4§7Bạɴ đã đặᴛ §x§F§D§F§D§9§65 §x§F§F§B§3§4§7ᴄáɪ ʀươɴɢ!"
+      Name: place_5_chest
+      DisplayName: "§x§A§3§C§4§F§3Cʜᴜʏêɴ ɢɪᴀ ᴋʜᴏ ʙãɪ"
+      Type: normal
+    50:
+      Goal: "§x§D§1§E§8§E§2Đặᴛ §x§F§D§F§D§9§650 §x§D§1§E§8§E§2ᴄáɪ ʀươɴɢ."
+      Message: "§x§F§F§B§3§4§7Bạɴ đã đặᴛ §x§F§D§F§D§9§650 §x§F§F§B§3§4§7ᴄáɪ ʀươɴɢ!"
+      Name: place_50_chest
+      DisplayName: "§x§A§3§C§4§F§3Tʀùᴍ xếᴘ ʜìɴʜ"
+      Type: normal
+  stone:
+    100:
+      Goal: "§x§D§1§E§8§E§2Đặᴛ §x§F§D§F§D§9§6100 §x§D§1§E§8§E§2ʙʟᴏᴄᴋ đá."
+      Message: "§x§F§F§B§3§4§7Mộᴛ ᴛʀăᴍ ᴄụᴄ đá đã đượᴄ đặᴛ!"
+      Name: place_100_stone
+      DisplayName: "§x§A§3§C§4§F§3Kẻ ɴɢʜɪệɴ đá"
+      Type: normal
+    1000:
+      Goal: "§x§D§1§E§8§E§2Đặᴛ §x§F§D§F§D§9§61000 §x§D§1§E§8§E§2ʙʟᴏᴄᴋ đá."
+      Message: "§x§F§F§B§3§4§7Mộᴛ ɴɢàɴ ᴄụᴄ đá đã đượᴄ đặᴛ!"
+      Name: place_1000_stone
+      DisplayName: "§x§A§3§C§4§F§3Tʜầɴ Đá"
+      Type: normal
+      Reward:
+        Command:
+          Execute: "say §x§D§1§E§8§E§2Tʜôɴɢ ʙáᴏ: §x§F§F§8§B§9§4PLAYER §x§D§1§E§8§E§2ᴠừᴀ ᴛʀở ᴛʜàɴʜ §x§F§F§8§B§9§4Tʜầɴ Đá§x§D§1§E§8§E§2!"
+          Display: "§x§B§9§F§B§C§0Tʀở ᴛʜàɴʜ Tʜầɴ Đá!"
+  §eMario:
+    1:
+      Goal: "§x§D§1§E§8§E§2Đặᴛ đầᴜ ᴄủᴀ Mᴀʀɪᴏ."
+      Message: "§x§F§F§B§3§4§7Đầᴜ ᴄủᴀ Mᴀʀɪᴏ đã ɴằᴍ ᴛʀêɴ ᴍặᴛ đấᴛ!"
+      Name: place_1_mario
+      DisplayName: "§x§A§3§C§4§F§3Iᴛ'ꜱ-ᴀ ᴍᴇ, Mᴀʀɪᴏ!"
+      Type: rare
+
+Breaks:
+  ice:
+    10:
+      Goal: "§x§D§1§E§8§E§2Đậᴘ §x§F§D§F§D§9§610 §x§D§1§E§8§E§2ʙʟᴏᴄᴋ ʙăɴɢ."
+      Message: "§x§F§F§B§3§4§7Bạɴ đã đậᴘ §x§F§D§F§D§9§610 §x§F§F§B§3§4§7ʙʟᴏᴄᴋ ʙăɴɢ!"
+      Name: break_10_ice
+      DisplayName: "§x§A§3§C§4§F§3Cửᴀ ʜàɴɢ ɢɪảɪ ᴋʜáᴛ"
+      Type: normal
+  snow|snow_block|ice:
+    32:
+      Goal: "§x§D§1§E§8§E§2Đậᴘ §x§F§D§F§D§9§632 §x§D§1§E§8§E§2ʙăɴɢ ʜᴏặᴄ ᴛᴜʏếᴛ."
+      Message: "§x§F§F§B§3§4§7Bạɴ đã ᴅọɴ ꜱạᴄʜ §x§F§D§F§D§9§632 §x§F§F§B§3§4§7ʙăɴɢ ᴛᴜʏếᴛ!"
+      Name: break_32_ice_any
+      DisplayName: "§x§A§3§C§4§F§3Cầᴜ ᴍᴏɴɢ ᴍùᴀ ʜè"
+      Type: normal
+  stone:
+    1:
+      Goal: "§x§D§1§E§8§E§2Đậᴘ §x§F§D§F§D§9§61 §x§D§1§E§8§E§2ʙʟᴏᴄᴋ."
+      Message: "§x§F§F§B§3§4§7Lầɴ đầᴜ đɪ ᴍɪɴᴇ ᴄủᴀ ʙạɴ!"
+      Name: break_1_stone
+      DisplayName: "§x§A§3§C§4§F§3Tʜợ ᴍỏ ᴛậᴘ ꜱự"
+      Type: normal
+      Reward:
+        Command:
+          Execute:
+          - give PLAYER dispenser 10
+          - give PLAYER lever 5
+
+Kills:
+  zombie:
+    1:
+      Goal: "§x§D§1§E§8§E§2Gɪếᴛ §x§F§D§F§D§9§61 §x§D§1§E§8§E§2ᴄᴏɴ ᴢᴏᴍʙɪᴇ."
+      Message: "§x§F§F§B§3§4§7Lầɴ đầᴜ ᴛɪêɴ ʙạɴ ʜạ ɢụᴄ ᴢᴏᴍʙɪᴇ!"
+      Name: kills_1_zombie
+      DisplayName: "§x§A§3§C§4§F§3Xáᴄ Sốɴɢ (Tʜᴇ Wᴀʟᴋɪɴɢ Dᴇᴀᴅ)"
+      Type: normal
+      Reward:
+        Money: 1
+        Item: diamond 1
+    50:
+      Goal: "§7Tɪêᴜ ᴅɪệᴛ §x§5§5§F§F§5§550 §7ᴢᴏᴍʙɪᴇ."
+      Message: "§7Bạɴ đã qᴜᴇɴ ᴠớɪ ᴍùɪ xáᴄ sốɴɢ..."
+      Name: kills_50_zombie
+      DisplayName: "§2☣ §x§6§6§F§F§6§6Tʜợ Săɴ Zᴏᴍʙɪᴇ"
+      Type: rare
+      Reward:
+        Money: 2000
+        Experience: 300
+
+  §2Skeletal Knight:
+    1:
+      Goal: "§x§D§1§E§8§E§2Tɪêᴜ ᴅɪệᴛ Hɪệᴘ ꜱĩ Xươɴɢ."
+      Message: "§x§F§F§B§3§4§7Bạɴ ᴠừᴀ ʜạ ᴍộᴛ Bᴏꜱꜱ Mʏᴛʜɪᴄ Mᴏʙ!"
+      Name: kills_1_skeletal_night
+      DisplayName: "§x§A§3§C§4§F§3Kẻ ᴅɪệᴛ Bᴏꜱꜱ"
+      Type: rare
+  specificplayer-56c79b19-4500-466c-94ea-514a755fdd09:
+    1:
+      Goal: "§x§D§1§E§8§E§2Áᴍ ꜱáᴛ Táᴄ ɢɪả ᴘʟᴜɢɪɴ."
+      Message: "§x§F§F§B§3§4§7Cʜà! Bạɴ ᴠừᴀ ʜạ ɢụᴄ ᴄʜᴀ đẻ ᴄủᴀ ᴘʟᴜɢɪɴ ɴàʏ!"
+      Name: kills_1_darkpyves
+      DisplayName: "§x§A§3§C§4§F§3Sáᴛ ᴛʜủ ʜᴜʏềɴ ᴛʜᴏạɪ"
+      Type: rare
+      Reward:
+        IncreaseMaxHealth: 1
+  villager:
+
+    1:
+      Goal: "§7Gɪếᴛ §x§F§F§6§B§6§B1 §7ᴅâɴ ʟàɴɢ."
+      Message: "§7Bạɴ đã xᴜốɴɢ ᴛᴀʏ ᴠớɪ ᴍộᴛ ᴅâɴ ʟàɴɢ..."
+      Name: kills_1_villager
+      DisplayName: "§8☠ §x§F§F§5§5§5§5Kẻ Gɪếᴛ Nɢườɪ"
+      Type: rare
+      Reward:
+        Money: 250
+
+    10:
+      Goal: "§7Gɪếᴛ §x§F§F§5§5§5§510 §7ᴅâɴ ʟàɴɢ."
+      Message: "§7Tɪếɴɢ khóᴄ ᴄủᴀ ᴅâɴ ʟàɴɢ ᴠᴀɴɢ ᴠọɴɢ..."
+      Name: kills_10_villager
+      DisplayName: "§4☠ §x§F§F§2§2§2§2Đồ Tể"
+      Type: epic
+      Reward:
+        Money: 1500
+        Experience: 500
+
+  skeleton:
+
+    25:
+      Goal: "§7Tɪêᴜ ᴅɪệᴛ §f25 §7skeleton."
+      Message: "§7Bạɴ đã sốɴɢ sóᴛ qᴜᴀ ɴʜữɴɢ ᴄơɴ ᴍưᴀ ᴛêɴ."
+      Name: kills_25_skeleton
+      DisplayName: "§f🏹 §x§D§D§D§D§D§DCᴜɴɢ Tʜủ Bóɴɢ Đêᴍ"
+      Type: normal
+      Reward:
+        Money: 750
+
+  creeper:
+
+    1:
+      Goal: "§7Tɪêᴜ ᴅɪệᴛ §a1 §7creeper."
+      Message: "§7Íᴛ ɴʜấᴛ ʟầɴ ɴàʏ ɴó ᴄʜưᴀ ᴋịᴘ ɴổ."
+      Name: kills_1_creeper
+      DisplayName: "§a☢ §x§7§7§F§F§7§7Cʜᴜʏêɴ Gɪᴀ Bᴏᴍ"
+      Type: normal
+      Reward:
+        Money: 250
+
+  enderman:
+
+    10:
+      Goal: "§7Tɪêᴜ ᴅɪệᴛ §510 §7enderman."
+      Message: "§7Bạɴ ᴄảᴍ ᴛʜấʏ đôɪ ᴍắᴛ ᴛíᴍ đᴀɴɢ ɴʜìɴ ᴍìɴʜ..."
+      Name: kills_10_enderman
+      DisplayName: "§5◈ §x§C§C§7§7§F§FKẻ Săɴ Hư Kʜôɴɢ"
+      Type: rare
+      Reward:
+        Money: 3000
+
+  player:
+
+    1:
+      Goal: "§7Hạ ɢụᴄ §c1 §7ɴɢườɪ ᴄʜơɪ."
+      Message: "§7Máᴜ đầᴜ ᴛɪêɴ đã đổ xᴜốɴɢ..."
+      Name: kills_1_player
+      DisplayName: "§c⚔ §x§F§F§7§7§7§7Kẻ Kʜáᴛ Máᴜ"
+      Type: normal
+      Reward:
+        Money: 500
+
+    25:
+      Goal: "§7Hạ ɢụᴄ §c25 §7ɴɢườɪ ᴄʜơɪ."
+      Message: "§7Têɴ ᴛᴜổɪ ᴄủᴀ ʙạɴ ʙắᴛ đầᴜ ʟᴀɴ ᴛʀᴜʏềɴ."
+      Name: kills_25_player
+      DisplayName: "§4⚔ §x§F§F§4§4§4§4Sáᴛ Tʜủ"
+      Type: rare
+      Reward:
+        Money: 5000
+
+  warden:
+
+    1:
+      Goal: "§7Tɪêᴜ ᴅɪệᴛ §31 §7warden."
+      Message: "§7Bạɴ đã sốɴɢ sóᴛ ᴋʜỏɪ ʙóɴɢ ᴛốɪ sâᴜ ᴛʜẳᴍ."
+      Name: kills_1_warden
+      DisplayName: "§3☠ §x§5§5§F§F§F§FKẻ Cʜɪɴʜ Pʜụᴄ Bóɴɢ Tốɪ"
+      Type: legendary
+      Reward:
+        Money: 50000
+        Experience: 5000
+TargetsShot:
+  villager:
+    10:
+      Goal: "§x§D§1§E§8§E§2Néᴍ đồ ᴠàᴏ Dâɴ ʟàɴɢ §x§F§D§F§D§9§610 §x§D§1§E§8§E§2ʟầɴ."
+      Message: "§x§F§F§B§3§4§7Bạɴ đã ɴéᴍ đồ ᴠàᴏ ᴅâɴ ʟàɴɢ §x§F§D§F§D§9§610 §x§F§F§B§3§4§7ʟầɴ."
+      Name: targetsshot_10_villager
+      DisplayName: "§x§A§3§C§4§F§3Kẻ ᴘʜá ʙĩɴʜ"
+      Type: normal
+  glass:
+    100:
+      Goal: "§x§D§1§E§8§E§2Tậᴘ ʟàᴍ ᴠỡ ᴄửᴀ ꜱổ ɴʜà ʜàɴɢ xóᴍ."
+      Message: "§x§F§F§B§3§4§7Bạɴ đã ʙắɴ §x§F§D§F§D§9§6100 §x§F§F§B§3§4§7ᴘʜáᴛ ᴠàᴏ ᴄửᴀ ᴋíɴʜ!"
+      Name: targetsshot_100_glass
+      DisplayName: "§x§A§3§C§4§F§3Máʏ đậᴘ ᴋíɴʜ"
+      Type: normal
+
+Crafts:
+  diamond_sword:
+    1:
+      Goal: "§x§D§1§E§8§E§2Cʜế ᴛạᴏ ᴋɪếᴍ."
+      Message: "§x§F§F§B§3§4§7Lầɴ đầᴜ ᴛɪêɴ ʙạɴ ᴛự ʀèɴ đượᴄ ᴍộᴛ ᴛʜᴀɴʜ ᴋɪếᴍ!"
+      Name: craft_1_blade
+      DisplayName: "§x§A§3§C§4§F§3Tʜợ ʀèɴ ᴛậᴘ ꜱự"
+      Type: normal
+      Reward:
+        Money: 2
+    100:
+      Goal: "§x§D§1§E§8§E§2Cʜế ᴛạᴏ §x§F§D§F§D§9§6100 §x§D§1§E§8§E§2ᴛʜᴀɴʜ ᴋɪếᴍ."
+      Message: "§x§F§F§B§3§4§7Cʜế ᴛạᴏ ᴛɪếᴘ ᴛʜᴇᴏ ʟà Exᴄᴀʟɪʙᴜʀ ᴄʜăɴɢ?"
+      Name: craft_100_blade
+      DisplayName: "§x§A§3§C§4§F§3Tʜợ ʀèɴ ʜᴜʏềɴ ᴛʜᴏạɪ"
+      Type: rare
+      Reward:
+        Experience: 500
+
+PlayerCommands:
+  aach stats:
+    10:
+      Goal: "§x§D§1§E§8§E§2Kɪểᴍ ᴛʀᴀ ᴄʜỉ ꜱố §x§F§D§F§D§9§610 §x§D§1§E§8§E§2ʟầɴ."
+      Message: "§x§F§F§B§3§4§7Gõ ʟệɴʜ ꜱᴛᴀᴛꜱ §x§F§D§F§D§9§610 §x§F§F§B§3§4§7ʟầɴ!"
+      Name: playercommand_aachstats_10
+      DisplayName: "§x§A§3§C§4§F§3Kẻ ᴄᴜồɴɢ ꜱố ʟɪệᴜ"
+      Type: normal
+      Rewards:
+        Command:
+          Execute: say §x§D§1§E§8§E§2PLAYER ʜɪệɴ ʟà ᴍộᴛ ɴʜà ᴛʜốɴɢ ᴋê
+          Display: "§x§B§9§F§B§C§0Tʜôɴɢ ʙáᴏ ʜệ ᴛʜốɴɢ"
+
+Breeding:
+  sheep:
+    1:
+      Goal: "§x§D§1§E§8§E§2Nʜâɴ ɢɪốɴɢ ᴄừᴜ."
+      Message: "§x§F§F§B§3§4§7Bạɴ ᴠừᴀ ʟᴀɪ ᴛạᴏ ᴄᴏɴ ᴄừᴜ đầᴜ ᴛɪêɴ!"
+      Name: breeding_1_sheep
+      DisplayName: "§x§A§3§C§4§F§3Nôɴɢ ᴅâɴ ᴄʜăɴ ɴᴜôɪ"
+      Type: normal
+
+JobsReborn:
+  hunter:
+    1:
+      Goal: "§x§D§1§E§8§E§2Lêɴ ᴄấᴘ ᴛʜợ ꜱăɴ!"
+      Message: "§x§F§F§B§3§4§7Bạɴ đã đạᴛ Tʜợ ꜱăɴ ᴄấᴘ §x§F§D§F§D§9§62§x§F§F§B§3§4§7!"
+      Name: jobsreborn_1_hunter
+      DisplayName: "§x§A§3§C§4§F§3Tʜợ Săɴ"
+      Type: normal
+
+EffectsHeld:
+  jump:
+    1:
+      Goal: "§x§D§1§E§8§E§2Nʜậɴ ʜɪệᴜ ứɴɢ Nʜảʏ ᴄᴀᴏ!"
+      Message: "§x§F§F§B§3§4§7Bạɴ ʙậᴛ ɴʜảʏ ᴄᴀᴏ ɴʜư ᴍộᴛ ᴄᴏɴ ᴋᴀɴɢᴀʀᴏᴏ!"
+      Name: effectsheld_1_jump
+      DisplayName: "§x§A§3§C§4§F§3Cʜᴜộᴛ ᴛúɪ"
+      Type: normal
+
+#======================================================================================================================#
+#                                               THÀNH TỰU ĐƠN HÀNH ĐỘNG                                                #
+#======================================================================================================================#
+
+Connections:
+  1:
+    Message: "§x§F§F§B§3§4§7Lầɴ đầᴜ ᴛɪêɴ ᴛʜᴀᴍ ɢɪᴀ ᴠàᴏ ꜱᴇʀᴠᴇʀ!"
+    Name: connect_1
+    DisplayName: "§x§A§3§C§4§F§3Sự ʟựᴀ ᴄʜọɴ ʜᴏàɴ ʜảᴏ"
+    Type: normal
+
+Deaths:
+  1:
+    Goal: "§x§D§1§E§8§E§2Bạɴ ᴘʜảɪ ᴄʜếᴛ."
+    Message: "§x§F§F§B§3§4§7Lầɴ đầᴜ ᴛɪêɴ ʙạɴ đăɴɢ xᴜấᴛ ᴋʜỏɪ ᴛʀáɪ đấᴛ!"
+    Name: deaths_1
+    DisplayName: "§x§A§3§C§4§F§3Yêɴ ɴɢʜỉ"
+    Type: normal
+    Reward:
+      Item: stone 5 §x§D§1§E§8§E§2Bɪᴀ ᴍộ
+
+Arrows:
+  50:
+    Goal: "§x§D§1§E§8§E§2Bắɴ §x§F§D§F§D§9§650 §x§D§1§E§8§E§2ᴍũɪ ᴛêɴ."
+    Message: "§x§F§F§B§3§4§7Đã ʙắɴ §x§F§D§F§D§9§650 §x§F§F§B§3§4§7ᴘʜáᴛ!"
+    Name: arrows_50
+    DisplayName: "§x§A§3§C§4§F§3Tʜáɴʜ Sᴘᴀᴍ Cᴜɴɢ"
+    Type: normal
+
+Snowballs:
+  1000:
+    Goal: "§x§D§1§E§8§E§2Néᴍ §x§F§D§F§D§9§61000 §x§D§1§E§8§E§2ǫᴜả ʙóɴɢ ᴛᴜʏếᴛ."
+    Message: "§x§F§F§B§3§4§7Néᴍ §x§F§D§F§D§9§61000 §x§F§F§B§3§4§7ǫᴜả ᴛᴜʏếᴛ. Tɪɴʜ ᴛʜầɴ ᴛʜậᴛ ᴛᴜʏệᴛ!"
+    Name: snowballs_1000
+    DisplayName: "§x§A§3§C§4§F§3Hệ Băɴɢ Gɪá"
+    Type: normal
+    Reward:
+      IncreaseMaxOxygen: 30
+
+Eggs:
+  1000:
+    Goal: "§x§D§1§E§8§E§2Néᴍ §x§F§D§F§D§9§61000 §x§D§1§E§8§E§2ǫᴜả ᴛʀứɴɢ."
+    Message: "§x§F§F§B§3§4§7Đã ɴéᴍ §x§F§D§F§D§9§61000 §x§F§F§B§3§4§7ǫᴜả ᴛʀứɴɢ!"
+    Name: eggs_1000
+    DisplayName: "§x§A§3§C§4§F§3Tíɴ đố ốᴘ ʟᴀ"
+    Type: normal
+
+Fish:
+  1:
+    Goal: "§x§D§1§E§8§E§2Câᴜ đượᴄ §x§F§D§F§D§9§61 §x§D§1§E§8§E§2ᴄᴏɴ ᴄá."
+    Message: "§x§F§F§B§3§4§7Cᴏɴ ᴄá đầᴜ ᴛɪêɴ ᴄủᴀ ʙạɴ!"
+    Name: fish_1
+    DisplayName: "§x§A§3§C§4§F§3Cầɴ ᴛʜủ"
+    Type: normal
+
+Treasures:
+  1:
+    Goal: "§x§D§1§E§8§E§2Móᴄ đượᴄ ᴋʜᴏ ʙáᴜ ᴛừ ᴅướɪ ʙɪểɴ."
+    Message: "§x§F§F§B§3§4§7Kʜᴏ ʙáᴜ đầᴜ đờɪ ᴄủᴀ ʙạɴ!"
+    Name: treasure_1
+    DisplayName: "§x§A§3§C§4§F§3Tʜợ ꜱăɴ ᴋʜᴏ ʙáᴜ"
+    Type: normal
+
+ItemBreaks:
+  1:
+    Goal: "§x§D§1§E§8§E§2Làᴍ ʜỏɴɢ §x§F§D§F§D§9§61 §x§D§1§E§8§E§2ᴛʀᴀɴɢ ʙị."
+    Message: "§x§F§F§B§3§4§7Bạɴ ᴠừᴀ ᴅùɴɢ ʜỏɴɢ ᴍóɴ đồ ʏêᴜ ᴛʜíᴄʜ!"
+    Name: itembreaks_1
+    DisplayName: "§x§F§F§8§B§9§4Kẻ ᴘʜá ʜᴏạɪ"
+    Type: normal
+
+EatenItems:
+  1:
+    Goal: "§x§D§1§E§8§E§2Ăɴ ᴛʜứ ɢì đó."
+    Message: "§x§F§F§B§3§4§7Vừᴀ ăɴ ᴠặᴛ xᴏɴɢ!"
+    Name: eatenitems_1
+    DisplayName: "§x§A§3§C§4§F§3Bữᴀ ᴘʜụ đầᴜ ᴛɪêɴ"
+    Type: normal
+
+Shear:
+  100:
+    Goal: "§x§D§1§E§8§E§2Cạᴏ ʟôɴɢ §x§F§D§F§D§9§6100 §x§D§1§E§8§E§2ᴄᴏɴ ᴄừᴜ."
+    Message: "§x§F§F§B§3§4§7100 ᴄᴏɴ ᴄừᴜ đã ʙị ᴄạᴏ ᴛʀụɪ!"
+    Name: shear_100
+    DisplayName: "§x§A§3§C§4§F§3Tʜợ ʜớᴛ ᴛóᴄ"
+    Type: normal
+
+Milk:
+  1:
+    Goal: "§x§D§1§E§8§E§2Vắᴛ ꜱữᴀ ʙò."
+    Message: "§x§F§F§B§3§4§7Vắᴛ ꜱữᴀ ʙò xᴏɴɢ!.... §x§F§F§8§B§9§4MOOW"
+    Name: milk_1
+    DisplayName: "§x§A§3§C§4§F§3Dòɴɢ ꜱữᴀ đầᴜ ᴛɪêɴ"
+    Type: normal
+    Reward:
+      Experience: 100
+
+LavaBuckets:
+  10:
+    Goal: "§x§D§1§E§8§E§2Múᴄ §x§F§D§F§D§9§610 §x§D§1§E§8§E§2xô Lᴀᴠᴀ."
+    Message: "§x§F§F§B§3§4§710 xô ʟᴀᴠᴀ đã đượᴄ ᴍúᴄ đầʏ!"
+    Name: lavabuckets_10
+    DisplayName: "§x§A§3§C§4§F§3Kẻ đốᴛ ɴʜà"
+    Type: normal
+
+WaterBuckets:
+  15:
+    Goal: "§x§D§1§E§8§E§2Múᴄ §x§F§D§F§D§9§615 §x§D§1§E§8§E§2xô ɴướᴄ."
+    Message: "§x§F§F§B§3§4§715 xô ɴướᴄ đã đượᴄ ᴍúᴄ đầʏ!"
+    Name: waterbuckets_15
+    DisplayName: "§x§A§3§C§4§F§3Líɴʜ ᴄứᴜ ʜỏᴀ"
+    Type: normal
+
+Trades:
+  1:
+    Goal: "§x§D§1§E§8§E§2Tʀᴀᴅᴇ ᴠớɪ Dâɴ ʟàɴɢ."
+    Message: "§x§F§F§B§3§4§7Gɪᴀᴏ ᴅịᴄʜ ᴛʜàɴʜ ᴄôɴɢ ᴠụ ʟàᴍ ăɴ đầᴜ ᴛɪêɴ!"
+    Name: trades_1
+    DisplayName: "§x§A§3§C§4§F§3Tʜươɴɢ ᴠụ đầᴜ đờɪ"
+    Type: normal
+
+AnvilsUsed:
+  1:
+    Goal: "§x§D§1§E§8§E§2Sửᴀ ᴄʜữᴀ §x§F§D§F§D§9§61 §x§D§1§E§8§E§2ᴍóɴ đồ."
+    Message: "§x§F§F§B§3§4§7Bạɴ ᴠừᴀ ꜱửᴀ xᴏɴɢ ᴍóɴ đồ đầᴜ ᴛɪêɴ!"
+    Name: anvilsused_1
+    DisplayName: "§x§A§3§C§4§F§3Lầɴ đầᴜ ꜱửᴀ ᴄʜữᴀ"
+    Type: normal
+
+Enchantments:
+  5:
+    Goal: "§x§D§1§E§8§E§2Cườɴɢ ʜóᴀ §x§F§D§F§D§9§65 §x§D§1§E§8§E§2ᴠậᴛ ᴘʜẩᴍ."
+    Message: "§x§F§F§B§3§4§7Pʜù ᴘʜéᴘ xᴏɴɢ 5 ᴍóɴ đồ!"
+    Name: enchantments_5
+    DisplayName: "§x§A§3§C§4§F§3Pʜáᴘ Sư"
+    Type: normal
+
+Beds:
+  5:
+    Goal: "§x§D§1§E§8§E§2Đɪ ɴɢủ §x§F§D§F§D§9§65 §x§D§1§E§8§E§2ʟầɴ."
+    Message: "§x§F§F§B§3§4§7Bạɴ đã ʟᴇᴏ ʟêɴ ɢɪườɴɢ 5 ʟầɴ!"
+    Name: bed_5
+    DisplayName: "§x§A§3§C§4§F§3Sâᴜ ʟườɪ"
+    Type: normal
+
+MaxLevel:
+  10:
+    Goal: "§x§D§1§E§8§E§2Đạᴛ ᴄấᴘ §x§F§D§F§D§9§610§x§D§1§E§8§E§2."
+    Message: "§x§F§F§B§3§4§7Đã ᴄʜạᴍ ᴍốᴄ ʟᴇᴠᴇʟ 10!"
+    Name: maxlevel_10
+    DisplayName: "§x§A§3§C§4§F§3Líɴʜ ᴍớɪ"
+    Type: normal
+
+ConsumedPotions:
+  100:
+    Goal: "§x§D§1§E§8§E§2Uốɴɢ §x§F§D§F§D§9§6100 §x§D§1§E§8§E§2ʟọ ᴛʜᴜốᴄ."
+    Message: "§x§F§F§B§3§4§7Cứ ɴốᴄ ᴍấʏ ʟᴏạɪ ɴướᴄ ʟẩᴜ ᴛʜậᴘ ᴄẩᴍ ɴàʏ ᴍɪếᴛ..."
+    Name: consumedpotions_100
+    DisplayName: "§x§A§3§C§4§F§3Đỗɴ ʟì"
+    Type: normal
+
+PlayedTime:
+  1:
+    Goal: "§x§D§1§E§8§E§2Cʜơɪ đủ §x§F§D§F§D§9§61 §x§D§1§E§8§E§2ɢɪờ."
+    Message: "§x§F§F§B§3§4§7Bạɴ đã ᴅàɴʜ 1 ᴛɪếɴɢ đồɴɢ ʜồ ᴄʜᴏ ꜱᴇʀᴠᴇʀ!"
+    Name: playedtime_1
+    DisplayName: "§x§A§3§C§4§F§3Gɪờ ᴄʜơɪ đầᴜ ᴛɪêɴ"
+    Type: normal
+
+DistanceFoot:
+  1000:
+    Goal: "§x§D§1§E§8§E§2Đɪ ʙộ §x§F§D§F§D§9§61000 §x§D§1§E§8§E§2ʙʟᴏᴄᴋ."
+    Message: "§x§F§F§B§3§4§7Bạɴ đã đɪ ʙộ đượᴄ 1000 ʙʟᴏᴄᴋ!"
+    Name: distancefoot_1000
+    DisplayName: "§x§A§3§C§4§F§3Vậɴ độɴɢ ᴠɪêɴ"
+    Type: normal
+
+DistancePig:
+  100:
+    Goal: "§x§D§1§E§8§E§2Cưỡɪ ʜᴇᴏ đɪ §x§F§D§F§D§9§6100 §x§D§1§E§8§E§2ʙʟᴏᴄᴋ."
+    Message: "§x§F§F§B§3§4§7Bạɴ đã ᴄưỡɪ ʜᴇᴏ đɪ đượᴄ 100 ʙʟᴏᴄᴋ!"
+    Name: distancepig_100
+    DisplayName: "§x§A§3§C§4§F§3Tʀùᴍ ᴄầᴍ ᴄầɴ ᴄâᴜ ᴄà ʀốᴛ"
+    Type: rare
+
+DistanceHorse:
+  500:
+    Goal: "§x§D§1§E§8§E§2Cưỡɪ ɴɢựᴀ đɪ §x§F§D§F§D§9§6500 §x§D§1§E§8§E§2ʙʟᴏᴄᴋ."
+    Message: "§x§F§F§B§3§4§7Bạɴ đã ᴄưỡɪ ɴɢựᴀ ᴘʜɪ 500 ʙʟᴏᴄᴋ!"
+    Name: distancehorse_500
+    DisplayName: "§x§A§3§C§4§F§3Kỵ ꜱĩ"
+    Type: normal
+
+DistanceMinecart:
+  100:
+    Goal: "§x§D§1§E§8§E§2Đɪ §x§F§D§F§D§9§6100 §x§D§1§E§8§E§2ʙʟᴏᴄᴋ ʙằɴɢ xᴇ ᴍɪɴᴇᴄᴀʀᴛ."
+    Message: "§x§F§F§B§3§4§7Bạɴ đã ɴɢồɪ xᴇ ᴍɪɴᴇᴄᴀʀᴛ ǫᴜᴀ 100 ʙʟᴏᴄᴋ!"
+    Name: distanceminecart_100
+    DisplayName: "§x§A§3§C§4§F§3Dâɴ ᴄʜơɪ ᴛàᴜ ʟượɴ"
+    Type: normal
+
+DistanceBoat:
+  200:
+    Goal: "§x§D§1§E§8§E§2Cʜèᴏ ᴛʜᴜʏềɴ §x§F§D§F§D§9§6200 §x§D§1§E§8§E§2ʙʟᴏᴄᴋ."
+    Message: "§x§F§F§B§3§4§7Bạɴ đã ᴄʜèᴏ ᴛʜᴜʏềɴ ǫᴜᴀ 200 ʙʟᴏᴄᴋ!"
+    Name: distanceboat_200
+    DisplayName: "§x§A§3§C§4§F§3Vᴜᴀ Hảɪ Tặᴄ"
+    Type: normal
+
+DistanceGliding:
+  100:
+    Goal: "§x§D§1§E§8§E§2Bᴀʏ §x§F§D§F§D§9§6100 §x§D§1§E§8§E§2ʙʟᴏᴄᴋ ᴠớɪ Eʟʏᴛʀᴀ."
+    Message: "§x§F§F§B§3§4§7Bạɴ đã ʙᴀʏ 100 ʙʟᴏᴄᴋ ʙằɴɢ Eʟʏᴛʀᴀ!"
+    Name: distancegliding_100
+    DisplayName: "§x§A§3§C§4§F§3Tʜɪêɴ ᴛʜầɴ"
+    Type: rare
+
+DistanceLlama:
+  150:
+    Goal: "§x§D§1§E§8§E§2Cưỡɪ Lʟᴀᴍᴀ ǫᴜᴀ §x§F§D§F§D§9§6150 §x§D§1§E§8§E§2ʙʟᴏᴄᴋ."
+    Message: "§x§F§F§B§3§4§7Bạɴ đã ᴄưỡɪ Lʟᴀᴍᴀ đɪ 150 ʙʟᴏᴄᴋ!"
+    Name: distancellama_150
+    DisplayName: "§x§A§3§C§4§F§3Kỵ ꜱĩ Lʟᴀᴍᴀ"
+    Type: rare
+
+DistanceSneaking:
+  500:
+    Goal: "§x§D§1§E§8§E§2Đɪ ʟéɴ §x§F§D§F§D§9§6500 §x§D§1§E§8§E§2ʙʟᴏᴄᴋ."
+    Message: "§x§F§F§B§3§4§7Bạɴ đã ᴠừᴀ ʙò ᴠừᴀ đɪ 500 ʙʟᴏᴄᴋ!"
+    Name: distancesneaking_500
+    DisplayName: "§x§A§3§C§4§F§3Nɪɴᴊᴀ Rùᴀ"
+    Type: normal
+
+ItemDrops:
+  15:
+    Goal: "§x§D§1§E§8§E§2Vứᴛ §x§F§D§F§D§9§615 §x§D§1§E§8§E§2ᴍóɴ đồ."
+    Message: "§x§F§F§8§B§9§4Bạɴ đᴀɴɢ ᴘʜá ʜᴏạɪ ʜàɴʜ ᴛɪɴʜ ɴàʏ!"
+    Name: itemdrops_15
+    DisplayName: "§x§A§3§C§4§F§3Kẻ xả ʀáᴄ"
+    Type: normal
+
+ItemPickups:
+  40:
+    Goal: "§x§D§1§E§8§E§2Nʜặᴛ §x§F§D§F§D§9§640 §x§D§1§E§8§E§2ᴍóɴ đồ."
+    Message: "§x§F§F§B§3§4§7Bạɴ đᴀɴɢ ᴄứᴜ ʟấʏ ʜàɴʜ ᴛɪɴʜ ɴàʏ!"
+    Name: itempickups_40
+    DisplayName: "§x§A§3§C§4§F§3Nʜà ʜᴏạᴛ độɴɢ ᴍôɪ ᴛʀườɴɢ"
+    Type: normal
+
+HoePlowings:
+  10:
+    Goal: "§x§D§1§E§8§E§2Xớɪ đấᴛ §x§F§D§F§D§9§610 §x§D§1§E§8§E§2ʟầɴ."
+    Message: "§x§F§F§B§3§4§7Bạɴ đã ᴄàʏ xớɪ ᴍặᴛ đấᴛ 10 ʟầɴ!"
+    Name: hoeplowings_10
+    DisplayName: "§x§A§3§C§4§F§3Nôɴɢ ᴅâɴ"
+    Type: normal
+    Reward:
+      Item: cookie 15
+
+Fertilising:
+  15:
+    Goal: "§x§D§1§E§8§E§2Dùɴɢ ʙộᴛ xươɴɢ §x§F§D§F§D§9§615 §x§D§1§E§8§E§2ʟầɴ."
+    Message: "§x§F§F§B§3§4§7Bạɴ đã ʙóɴ ᴘʜâɴ 15 ʟầɴ!"
+    Name: fertilising_15
+    DisplayName: "§x§A§3§C§4§F§3Tʜợ ʟàᴍ ᴠườɴ"
+    Type: normal
+
+Taming:
+  1:
+    Goal: "§x§D§1§E§8§E§2Tʜᴜầɴ ᴘʜụᴄ §x§F§D§F§D§9§61 §x§D§1§E§8§E§2ʟᴏàɪ ᴠậᴛ."
+    Message: "§x§F§F§B§3§4§7Bạɴ ᴠừᴀ ᴄó ᴄᴏɴ ᴛʜú ᴄưɴɢ đầᴜ ᴛɪêɴ!"
+    Name: taming_1
+    DisplayName: "§x§A§3§C§4§F§3Bậᴄ ᴛʜầʏ ʜᴜấɴ ʟᴜʏệɴ"
+    Type: normal
+
+Brewing:
+  1:
+    Goal: "§x§D§1§E§8§E§2Cʜế §x§F§D§F§D§9§61 §x§D§1§E§8§E§2ʙìɴʜ ᴛʜᴜốᴄ."
+    Message: "§x§F§F§B§3§4§7Bìɴʜ ᴛʜᴜốᴄ đầᴜ ᴛᴀʏ ᴄủᴀ ʙạɴ!"
+    Name: brewing_1
+    DisplayName: "§x§A§3§C§4§F§3Nʜà ɢɪả ᴋɪᴍ"
+    Type: normal
+
+Fireworks:
+  10:
+    Goal: "§x§D§1§E§8§E§2Bắɴ ᴘʜáᴏ ʜᴏᴀ §x§F§D§F§D§9§610 §x§D§1§E§8§E§2ʟầɴ."
+    Message: "§x§F§F§B§3§4§7Bạɴ đã ᴄʜâᴍ ɴɢòɪ 10 ǫᴜả ᴘʜáᴏ!"
+    Name: fireworks_10
+    DisplayName: "§x§A§3§C§4§F§3Tʀẻ ᴛʀâᴜ đốᴛ ᴘʜáᴏ"
+    Type: normal
+    Reward:
+      Experience: 200
+
+MusicDiscs:
+  1:
+    Goal: "§x§D§1§E§8§E§2Cʜơɪ §x§F§D§F§D§9§61 §x§D§1§E§8§E§2ʙảɴ ɴʜạᴄ."
+    Message: "§x§F§F§B§3§4§7Đã ʙậᴛ Jᴜᴋᴇʙᴏx!"
+    Name: musicdiscs_1
+    DisplayName: "§x§A§3§C§4§F§3Pʜù ᴛʜủʏ âᴍ ɴʜạᴄ"
+    Type: normal
+
+EnderPearls:
+  10:
+    Goal: "§x§D§1§E§8§E§2Dịᴄʜ ᴄʜᴜʏểɴ ʙằɴɢ ɴɢọᴄ Eɴᴅᴇʀ §x§F§D§F§D§9§610 §x§D§1§E§8§E§2ʟầɴ."
+    Message: "§x§F§F§B§3§4§710 ᴄú ʟướᴛ ʙằɴɢ ɴɢọᴄ Eɴᴅᴇʀ!"
+    Name: enderpearls_10
+    DisplayName: "§x§A§3§C§4§F§3Tɪᴀ ᴄʜớᴘ"
+    Type: normal
+
+PetMasterGive:
+  3:
+    Goal: "§x§D§1§E§8§E§2Tặɴɢ §x§F§D§F§D§9§63 §x§D§1§E§8§E§2ᴄᴏɴ ᴘᴇᴛ ᴄʜᴏ ʙạɴ ʙè."
+    Message: "§x§F§F§B§3§4§73 ᴄᴏɴ ᴛʜú ᴄưɴɢ đã đượᴄ ᴛʀᴀᴏ đɪ!"
+    Name: petmastergive_3
+    DisplayName: "§x§A§3§C§4§F§3Mạɴʜ ᴛʜườɴɢ ǫᴜâɴ"
+    Type: rare
+
+PetMasterReceive:
+  10:
+    Goal: "§x§D§1§E§8§E§2Nʜậɴ §x§F§D§F§D§9§610 §x§D§1§E§8§E§2ᴄᴏɴ ᴘᴇᴛ."
+    Message: "§x§F§F§B§3§4§710 ᴄᴏɴ ᴘᴇᴛ đượᴄ ᴄʜᴜʏểɴ ɴʜượng ᴛừ ᴀɴʜ ᴇᴍ!"
+    Name: petmasterreceive_10
+    DisplayName: "§x§A§3§C§4§F§3Kẻ ʙú ʟɪếᴍ"
+    Type: rare
+
+Smelting:
+  250:
+    Goal: "§x§D§1§E§8§E§2Nᴜɴɢ §x§F§D§F§D§9§6250 §x§D§1§E§8§E§2ᴍóɴ đồ."
+    Message: "§x§F§F§B§3§4§7250 ᴍóɴ đồ đã đượᴄ ɴᴜɴɢ ʀựᴄ ᴄʜáʏ!"
+    Name: smeltitems_250
+    DisplayName: "§x§A§3§C§4§F§3Tʜợ đốᴛ ʟò"
+    Type: normal
+
+RaidsWon:
+  1:
+    Goal: "§x§D§1§E§8§E§2Tʜắɴɢ §x§F§D§F§D§9§61 §x§D§1§E§8§E§2đợᴛ Rᴀɪᴅ."
+    Message: "§x§F§F§B§3§4§7Đã đỡ ᴛʜàɴʜ ᴄôɴɢ 1 ᴄᴜộᴄ ᴛậᴘ ᴋíᴄʜ!"
+    Name: raidswon_1
+    DisplayName: "§x§A§3§C§4§F§3Vô ᴛìɴʜ ʜᴀʏ ᴄố ý?"
+    Type: normal
+    Reward:
+      Item: emerald 8
+  10:
+    Goal: "§x§D§1§E§8§E§2Tʜắɴɢ §x§F§D§F§D§9§610 §x§D§1§E§8§E§2đợᴛ Rᴀɪᴅ."
+    Message: "§x§F§F§B§3§4§7Mườɪ ᴛʀậɴ Rᴀɪᴅ đã ʙị ʙẻ ɢãʏ!"
+    Name: raidswon_10
+    DisplayName: "§x§A§3§C§4§F§3Vệ ʙɪɴʜ ʟàɴɢ"
+    Type: rare
+    Reward:
+      Item: totem_of_undying 1
+
+Riptides:
+  1:
+    Goal: "§x§D§1§E§8§E§2Dùɴɢ đɪɴʜ ʙᴀ ᴍᴀ ᴛʜᴜậᴛ."
+    Message: "§x§F§F§B§3§4§7Bạɴ đã ʟàᴍ ᴄʜủ đượᴄ ꜱứᴄ ᴍạɴʜ ʙɪểɴ ᴄả!"
+    Name: riptides_1
+    DisplayName: "§x§A§3§C§4§F§3Tʜầɴ ʙɪểɴ Pᴏꜱᴇɪᴅᴏɴ"
+    Type: normal
+
+AdvancementsCompleted:
+  20:
+    Goal: "§x§D§1§E§8§E§2Hᴏàɴ ᴛʜàɴʜ §x§F§D§F§D§9§620 §x§D§1§E§8§E§2Aᴅᴠᴀɴᴄᴇᴍᴇɴᴛꜱ."
+    Message: "§x§F§F§B§3§4§720 Tɪếɴ ᴛʀìɴʜ đã xᴏɴɢ!"
+    Name: advancements_20
+    DisplayName: "§x§A§3§C§4§F§3Gᴀᴍᴇ ᴛʜủ ʜᴀʀᴅᴄᴏʀᴇ"
+    Type: normal
+    Reward:
+      Item:
+      - diamond 8
+      - cake 1
+
+BooksEdited:
+  10:
+    Goal: "§x§D§1§E§8§E§2Cʜéᴘ §x§F§D§F§D§9§610 §x§D§1§E§8§E§2ᴄᴜốɴ ꜱáᴄʜ."
+    Message: "§x§F§F§B§3§4§7Bạɴ xàɪ ʜếᴛ ᴄả ᴍớ ᴍựᴄ ʙúᴛ ʟôɴɢ ʀồɪ đấʏ!"
+    Name: booksedited_10
+    DisplayName: "§x§A§3§C§4§F§3Họᴄ ɢɪả"
+    Type: normal
+
+#======================================================================================================================#
+#                                               THÀNH TỰU LỆNH (COMMAND)                                               #
+#======================================================================================================================#
+
+MultiCommand: true
+
+Commands:
+  yourAch1:
+    Goal: "§x§D§1§E§8§E§2Tʜᴀᴍ ɢɪᴀ ꜱự ᴋɪệɴ đặᴄ ʙɪệᴛ!
+
+      Mỗɪ 8 ɢɪờ ᴛốɪ Tʜứ Sáᴜ!"
+    Message: "§x§F§F§B§3§4§7Bạɴ đã ᴛʜᴀᴍ ɢɪᴀ ᴠàᴏ Eᴠᴇɴᴛ!"
+    Name: your_ach1
+    DisplayName: "§x§A§3§C§4§F§3Tʜàɴʜ Tựᴜ Sự Kɪệɴ!"
+    Type: rare
+
+Custom:
+  votes:
+    10:
+      Message: "§x§F§F§B§3§4§7Đã ᴠᴏᴛᴇ 10 ʟầɴ ᴄʜᴏ ꜱᴇʀᴠᴇʀ!"
+      Name: customs_votes_10
+      DisplayName: "§x§A§3§C§4§F§3Fᴀɴ ᴄứɴɢ Sᴇʀᴠᴇʀ"
+      Type: normal
+      Reward:
+        Money: 5
+
+#======================================================================================================================#
+#                                                 THAM SỐ TƯƠNG LAI                                                    #
+#======================================================================================================================#

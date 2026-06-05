@@ -1,0 +1,239 @@
+inventory:
+  armor:
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_boots
+    count: 1
+    components:
+      minecraft:damage: '72'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_leggings
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:protection":3}'
+      minecraft:damage: '73'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:elytra
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:unbreaking":7}'
+      minecraft:damage: '92'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_helmet
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:respiration":2}'
+      minecraft:damage: '56'
+    schema_version: 1
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_pickaxe
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:1.2000000476837158d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:-4.0d,id:"minecraft:mine_treasure_rm",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:4.0d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"}]'
+      minecraft:lore: '[{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thu
+        Gom IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khai
+        Mỏ III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Tái
+        Tạo VI",underlined:0b}],text:""},{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Phép
+        Nhân V",underlined:0b}],text:""},{extra:["  "],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"When
+        in Main Hand:",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"
+        5 Attack Damage",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"
+        1.2 Attack Speed",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 5"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:efficiency":6,"minecraft:mending":1,"minecraft:sharpness":3,"minecraft:silk_touch":1,"minecraft:unbreaking":3}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers"]}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-khaimo":3,"advancedenchantments:ae_enchantment-phepnhan":5,"advancedenchantments:ae_enchantment-taitao":6,"advancedenchantments:ae_enchantment-thugom":4,"advancedenchantments:repaircost":1,"advancedenchantments:slots":4},tool:"dark_pickaxe"}'
+      minecraft:damage: '1'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_pickaxe
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:1.2000000476837158d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:-4.0d,id:"minecraft:mine_treasure_rm",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:4.0d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"}]'
+      minecraft:lore: '[{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Vội
+        Vàng II",underlined:0b}],text:""},{extra:["  "],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"When
+        in Main Hand:",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"
+        5 Attack Damage",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"
+        1.2 Attack Speed",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 8"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:efficiency":5,"minecraft:silk_touch":1,"minecraft:unbreaking":1}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers"]}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-voivang":2,"advancedenchantments:slots":1},tool:"dark_pickaxe"}'
+      minecraft:damage: '212'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_shovel
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:unbreaking":3}'
+      minecraft:damage: '123'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:firework_rocket
+    count: 22
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:enchanted_golden_apple
+    count: 29
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:blaze_powder
+    count: 26
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:spruce_log
+    count: 8
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:spruce_log
+    count: 16
+    schema_version: 1
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_helmet
+    count: 1
+    components:
+      minecraft:damage: '67'
+    schema_version: 1
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:spruce_log
+    count: 64
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:spruce_log
+    count: 64
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:spruce_log
+    count: 64
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:lantern
+    count: 64
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:iron_block
+    count: 36
+    schema_version: 1
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_pickaxe
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:efficiency":4,"minecraft:mending":1,"minecraft:silk_touch":1,"minecraft:unbreaking":2}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:repaircost":7},tool:"hidden_pickaxe"}'
+    schema_version: 1
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:potion
+    count: 1
+    components:
+      minecraft:potion_contents: '{potion:"minecraft:night_vision"}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_axe
+    count: 1
+    components:
+      minecraft:damage: '143'
+    schema_version: 1
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_chestplate
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:0.10000000149011612d,id:"minecraft:refined_chestplate",operation:"add_value",slot:"chest",type:"minecraft:knockback_resistance"},{amount:4.5d,id:"minecraft:refined_chestplate",operation:"add_value",slot:"chest",type:"minecraft:armor_toughness"},{amount:9.5d,id:"minecraft:refined_chestplate",operation:"add_value",slot:"chest",type:"minecraft:armor"}]'
+      minecraft:lore: '[{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ngự
+        Hỏa I",underlined:0b}],text:""},{extra:[" "],text:""},{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ability:",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"When
+        a full set of Refined Netherite",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Armor
+        is worn, the user gains permanent",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Resistance
+        I and 25% more health.",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 8"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":3}'
+      minecraft:custom_name: '{color:"gold",italic:0b,text:"Refined Netherite Chestplate"}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-nguhoa":1,"advancedenchantments:slots":1},armor:"rn_chest",mt:"armor"}'
+    schema_version: 1
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_boots
+    count: 1
+    components:
+      minecraft:damage: '72'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_leggings
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:protection":3}'
+      minecraft:damage: '73'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:elytra
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:unbreaking":7}'
+      minecraft:damage: '92'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_helmet
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:respiration":2}'
+      minecraft:damage: '56'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:shield
+    count: 1
+    components:
+      minecraft:banner_patterns: '[{color:"cyan",pattern:"minecraft:gradient_up"},{color:"light_gray",pattern:"minecraft:half_horizontal_bottom"},{color:"gray",pattern:"minecraft:stripe_middle"},{color:"gray",pattern:"minecraft:border"}]'
+      minecraft:lore: '[{color:"blue",italic:0b,text:"MobCaptains"}]'
+      minecraft:enchantments: '{"minecraft:protection":3,"minecraft:unbreaking":4}'
+      minecraft:base_color: '"white"'
+      minecraft:item_name: '{color:"#2C348F",italic:0b,text:"Riot Shield"}'
+    schema_version: 1
+  - null
+  - null

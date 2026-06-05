@@ -1,0 +1,31 @@
+tasks:
+  riddle:
+    type: "inventory"
+    item: "NETHER_STAR"
+    amount: 1
+    remove-items-when-complete: true
+display:
+  name: "&#A3C4F3&nɴʜɪệᴍ ᴠᴜ áᴄ ᴍộɴɢ:&r &#FDFD96#11"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ ɢɪảɪ'
+    - '&#D1E8E2ᴄâᴜ đố ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ᴄâᴜ đố: &#D1E8E2ᴍộᴛ ɴɢôɪ ꜱᴀᴏ ʟấᴘ ʟáɴʜ ᴛᴏả ꜱáɴɢ ʀựᴄ ʀỡ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{riddle:progress}/1'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$25,000'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "IRON_BARS"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 25000"
+options:
+  category: "nightmare"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 2880
+  sort-order: 11

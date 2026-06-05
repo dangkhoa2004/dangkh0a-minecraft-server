@@ -1,0 +1,23 @@
+part-separator: " "
+
+player:
+  text: "{prefix}{tag} {name}{suffix} "
+  hover:
+  - "<#BDB2FF>{prefix}{tag} {name}{suffix}"
+  - "<#888888>Tham gia: %player_first_join_date%"
+  - ""
+  - "<#57F287>❖ Tài khoản: <white>%vault_eco_balance_formatted% ⛃"
+  - ""
+  - "<#E0E0E0>❖ Tin nhắn: <white>%lpcpro_messages%"
+  - "<#E0E0E0>❖ Giờ chơi: <white>%statistic_hours_played%h"
+  - ""
+  - "<#57F287>▶ Nhấn để nhắn tin riêng!"
+  suggest: "/msg {name} "
+
+divider:
+  text: "&8»"
+
+message:
+  text: "<#fcfcfc>{message}"
+  hover: "<#ED4245>▶ Nhấn để báo cáo tin nhắn của {name}!"
+  suggest: "/report {name} "

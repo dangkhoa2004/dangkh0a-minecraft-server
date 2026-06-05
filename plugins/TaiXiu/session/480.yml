@@ -1,0 +1,10 @@
+data:
+  session: 480
+  dice1: 3
+  dice2: 4
+  dice3: 2
+  result: XIU
+  currency: VAULT
+  xiuPlayers:
+    yunnie: 1000000
+    DaoMinhKhoi_: 50000000

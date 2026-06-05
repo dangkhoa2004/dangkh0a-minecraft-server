@@ -1,0 +1,29 @@
+tasks:
+  killing:
+    type: "mobkillingcertain"
+    amount: 50
+    mob: BLAZE
+display:
+  name: "&#A3C4F3&nɴʜɪệᴍ ᴠụ ᴄʜɪếɴ đấᴜ:&r &#FDFD96#33"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó'
+    - '&#D1E8E2ᴠớɪ ᴄʜɪếɴ đấᴜ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴛɪêᴜ ᴅɪệᴛ 50 ʙʟᴀᴢᴇ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{killing:progress}/50 ʙʟᴀᴢᴇ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC032 ʙìɴʜ ᴋɪɴʜ ɴɢʜɪệᴍ'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "BLAZE_ROD"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "give {player} EXPERIENCE_BOTTLE 32"
+options:
+  category: "combat"
+  repeatable: true
+  cooldown:
+    enabled: true
+    time: 2880
+  sort-order: 33

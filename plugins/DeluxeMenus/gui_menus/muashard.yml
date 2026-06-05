@@ -1,0 +1,125 @@
+menu_title: '&#B955FF&l♦ ᴄửᴀ ʜàɴɢ ᴍᴜᴀ ѕʜᴀʀᴅ ♦'
+open_command: 'muashard'
+register_command: true
+size: 27
+update_interval: -1
+
+items:
+  # === [ TRANG TRÍ VIỀN ] ===
+  'border':
+    material: BLACK_STAINED_GLASS_PANE
+    slots: [ '0-9', '17-18', '19-26' ]
+    display_name: ' '
+
+  # === [ TÙY CHỌN 1: MUA x1 ] ===
+  'buy_1':
+    material: AMETHYST_SHARD
+    slot: 10
+    display_name: '&#B955FF💎 &lᴍᴜᴀ x1 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể'
+    custom_model_data: 1000
+    lore:
+    - '&#AAAAAAѕố ʟượɴɢ ɴʜậɴ: &#BDB2FF1'
+    - '&#AAAAAAᴄʜɪ ᴘʜí: &#FFD7001 ᴘᴏɪɴᴛ'
+    - ''
+    - '&#57F287➥ &lɴʜấɴ để ᴛʜᴀɴʜ ᴛᴏáɴ!'
+    left_click_requirement:
+      requirements:
+        check_points:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '1'
+      deny_commands:
+      - '[message] &#ED4245ʙạɴ ᴄʜỉ ᴄó &#FFD700%playerpoints_points% ᴘᴏɪɴᴛѕ&#ED4245. ᴋʜôɴɢ đủ &#FFD7001 ᴘᴏɪɴᴛ &#ED4245để ᴍᴜᴀ!'
+      - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] points take %player_name% 1'
+    - '[console] customitem giveshard %player_name% 1'
+    - '[message] &#57F287ᴍᴜᴀ ᴛʜàɴʜ ᴄôɴɢ &#BDB2FFx1 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể&#57F287!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[refresh]'
+
+  # === [ TÙY CHỌN 2: MUA x5 ] ===
+  'buy_5':
+    material: AMETHYST_SHARD
+    slot: 12
+    amount: 5
+    display_name: '&#B955FF💎 &lᴍᴜᴀ x5 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể'
+    custom_model_data: 1000
+    lore:
+    - '&#AAAAAAѕố ʟượɴɢ ɴʜậɴ: &#BDB2FF5'
+    - '&#AAAAAAᴄʜɪ ᴘʜí: &#FFD7005 ᴘᴏɪɴᴛѕ'
+    - ''
+    - '&#57F287➥ &lɴʜấɴ để ᴛʜᴀɴʜ ᴛᴏáɴ!'
+    left_click_requirement:
+      requirements:
+        check_points:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '5'
+      deny_commands:
+      - '[message] &#ED4245ʙạɴ ᴄʜỉ ᴄó &#FFD700%playerpoints_points% ᴘᴏɪɴᴛѕ&#ED4245. ᴋʜôɴɢ đủ &#FFD7005 ᴘᴏɪɴᴛѕ &#ED4245để ᴍᴜᴀ!'
+      - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] points take %player_name% 5'
+    - '[console] customitem giveshard %player_name% 5'
+    - '[message] &#57F287ᴍᴜᴀ ᴛʜàɴʜ ᴄôɴɢ &#BDB2FFx5 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể&#57F287!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[refresh]'
+
+  # === [ TÙY CHỌN 3: MUA x10 ] ===
+  'buy_10':
+    material: AMETHYST_SHARD
+    slot: 14
+    amount: 10
+    display_name: '&#B955FF💎 &lᴍᴜᴀ x10 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể'
+    custom_model_data: 1000
+    lore:
+    - '&#AAAAAAѕố ʟượɴɢ ɴʜậɴ: &#BDB2FF10'
+    - '&#AAAAAAᴄʜɪ ᴘʜí: &#FFD70010 ᴘᴏɪɴᴛѕ'
+    - ''
+    - '&#57F287➥ &lɴʜấɴ để ᴛʜᴀɴʜ ᴛᴏáɴ!'
+    left_click_requirement:
+      requirements:
+        check_points:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '10'
+      deny_commands:
+      - '[message] &#ED4245ʙạɴ ᴄʜỉ ᴄó &#FFD700%playerpoints_points% ᴘᴏɪɴᴛѕ&#ED4245. ᴋʜôɴɢ đủ &#FFD70010 ᴘᴏɪɴᴛѕ &#ED4245để ᴍᴜᴀ!'
+      - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] points take %player_name% 10'
+    - '[console] customitem giveshard %player_name% 10'
+    - '[message] &#57F287ᴍᴜᴀ ᴛʜàɴʜ ᴄôɴɢ &#BDB2FFx10 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể&#57F287!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[refresh]'
+
+  # === [ TÙY CHỌN 4: MUA x50 ] ===
+  'buy_50':
+    material: AMETHYST_SHARD
+    slot: 16
+    amount: 50
+    display_name: '&#B955FF💎 &lᴍᴜᴀ x50 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể'
+    custom_model_data: 1000
+    lore:
+    - '&#AAAAAAѕố ʟượɴɢ ɴʜậɴ: &#BDB2FF50'
+    - '&#AAAAAAᴄʜɪ ᴘʜí: &#FFD70050 ᴘᴏɪɴᴛѕ'
+    - ''
+    - '&#ED4245ᴄʜú ý: ʜãʏ đảᴍ ʙảᴏ ᴋʜᴏ đồ ᴄó đủ ᴄʜỗ ᴛʀốɴɢ!'
+    - ''
+    - '&#57F287➥ &lɴʜấɴ để ᴛʜᴀɴʜ ᴛᴏáɴ!'
+    left_click_requirement:
+      requirements:
+        check_points:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: '50'
+      deny_commands:
+      - '[message] &#ED4245ʙạɴ ᴄʜỉ ᴄó &#FFD700%playerpoints_points% ᴘᴏɪɴᴛѕ&#ED4245. ᴋʜôɴɢ đủ &#FFD70050 ᴘᴏɪɴᴛѕ &#ED4245để ᴍᴜᴀ!'
+      - '[sound] ENTITY_VILLAGER_NO'
+    left_click_commands:
+    - '[console] points take %player_name% 50'
+    - '[console] customitem giveshard %player_name% 50'
+    - '[message] &#57F287ᴍᴜᴀ ᴛʜàɴʜ ᴄôɴɢ &#BDB2FFx50 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể&#57F287!'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[refresh]'

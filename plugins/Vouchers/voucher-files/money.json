@@ -1,0 +1,162 @@
+{
+  "item": "PAPER",
+  "appearance": {
+    "display_name": "&#FFD700&lᴠᴏᴜᴄʜᴇʀ ᴛɪềɴ ᴍặᴛ",
+    "glow": true,
+    "description": [
+      "&#fcfcfc❖ &#E0E0E0Đâʏ ʟà ᴍô ᴛả ᴍặᴄ địɴʜ ᴄʜᴏ ᴠᴏᴜᴄʜᴇʀ ᴍớɪ",
+      "&#E0E0E0ʙạɴ ᴄó ᴛʜể đổɪ ɴó ᴛʀᴏɴɢ ғɪʟᴇ ʜᴏặᴄ ᴍᴇɴᴜ"
+    ]
+  },
+  "permissions": {
+    "requires_permission": true,
+    "use_permission": "vouchers.use.money"
+  },
+  "sounds": {
+    "play_sound": true,
+    "use_sound": "entity.bat.takeoff"
+  },
+  "usage": {
+    "remove_on_use": true,
+    "ask_for_confirm": true,
+    "max_uses": -1,
+    "cooldown": {
+      "use_cooldown": false,
+      "cooldown_time": "1 second"
+    }
+  },
+  "messages": {
+    "broadcast": [],
+    "chat_messages": [],
+    "actionbar": [],
+    "titles": []
+  },
+  "reward_options": {
+    "reward_mode": "AUTOMATIC",
+    "maximum_rewards": 1,
+    "rewards": [
+      {
+        "chance": 100.0,
+        "delay": 0,
+        "messages": {
+          "broadcast": [],
+          "chat_messages": [
+            "&#57F287&l(!) &#E0E0E0ʙạɴ đã ɴʜậɴ đượᴄ ʙáɴʜ ᴋᴇᴍ!"
+          ],
+          "actionbar": [],
+          "titles": [
+            {
+              "title": "&#57F287&lᴘʜầɴ ᴛʜưởɴɢ",
+              "subtitle": "&#FFD700+1 ʙáɴʜ ᴋᴇᴍ",
+              "fade_in": 20,
+              "stay_duration": 20,
+              "fade_out": 20
+            }
+          ]
+        },
+        "type": "ITEM",
+        "item": "{DataVersion:4554,count:1,id:\"minecraft:cake\"}"
+      },
+      {
+        "chance": 100.0,
+        "delay": 0,
+        "messages": {
+          "broadcast": [
+            "&#FCD05C&l(!) &#FFD700%player% &#E0E0E0ᴠừᴀ ɴʜậɴ đượᴄ &#57F287$1000 ⛃"
+          ],
+          "chat_messages": [
+            "&#57F287&l(!) &#E0E0E0ʙạɴ ɴʜậɴ đượᴄ &#57F287$100 ⛃"
+          ],
+          "actionbar": [],
+          "titles": []
+        },
+        "type": "COMMAND",
+        "command": "eco give %player% 1000",
+        "name": "&#FCD05C&lᴘʜầɴ ᴛʜưởɴɢ ʟệɴʜ",
+        "description": [
+          "&#fcfcfc❖ &#E0E0E0ᴍô ᴛả ᴘʜầɴ ᴛʜưởɴɢ ᴍặᴄ địɴʜ"
+        ]
+      },
+      {
+        "chance": 100.0,
+        "delay": 0,
+        "messages": {
+          "broadcast": [],
+          "chat_messages": [],
+          "actionbar": [],
+          "titles": []
+        },
+        "type": "COMMAND",
+        "command": "eco give %player% 10m",
+        "name": "&#FCD05C&lᴘʜầɴ ᴛʜưởɴɢ ʟệɴʜ",
+        "description": [
+          "&#fcfcfc❖ &#E0E0E0ᴍô ᴛả ᴘʜầɴ ᴛʜưởɴɢ ᴍặᴄ địɴʜ"
+        ]
+      },
+      {
+        "chance": 100.0,
+        "delay": 0,
+        "messages": {
+          "broadcast": [],
+          "chat_messages": [],
+          "actionbar": [],
+          "titles": []
+        },
+        "type": "COMMAND",
+        "command": "eco give %player% 10m",
+        "name": "&#FCD05C&lᴘʜầɴ ᴛʜưởɴɢ ʟệɴʜ",
+        "description": [
+          "&#fcfcfc❖ &#E0E0E0ᴍô ᴛả ᴘʜầɴ ᴛʜưởɴɢ ᴍặᴄ địɴʜ"
+        ]
+      },
+      {
+        "chance": 100.0,
+        "delay": 0,
+        "messages": {
+          "broadcast": [],
+          "chat_messages": [],
+          "actionbar": [],
+          "titles": []
+        },
+        "type": "COMMAND",
+        "command": "eco give %player% 10m",
+        "name": "&#FCD05C&lᴘʜầɴ ᴛʜưởɴɢ ʟệɴʜ",
+        "description": [
+          "&#fcfcfc❖ &#E0E0E0ᴍô ᴛả ᴘʜầɴ ᴛʜưởɴɢ ᴍặᴄ địɴʜ"
+        ]
+      },
+      {
+        "chance": 100.0,
+        "delay": 0,
+        "messages": {
+          "broadcast": [],
+          "chat_messages": [],
+          "actionbar": [],
+          "titles": []
+        },
+        "type": "COMMAND",
+        "command": "eco give %player% 10m",
+        "name": "&#FCD05C&lᴘʜầɴ ᴛʜưởɴɢ ʟệɴʜ",
+        "description": [
+          "&#fcfcfc❖ &#E0E0E0ᴍô ᴛả ᴘʜầɴ ᴛʜưởɴɢ ᴍặᴄ địɴʜ"
+        ]
+      },
+      {
+        "chance": 100.0,
+        "delay": 0,
+        "messages": {
+          "broadcast": [],
+          "chat_messages": [],
+          "actionbar": [],
+          "titles": []
+        },
+        "type": "COMMAND",
+        "command": "eco give %player% 10m",
+        "name": "&#FCD05C&lᴘʜầɴ ᴛʜưởɴɢ ʟệɴʜ",
+        "description": [
+          "&#fcfcfc❖ &#E0E0E0ᴍô ᴛả ᴘʜầɴ ᴛʜưởɴɢ ᴍặᴄ địɴʜ"
+        ]
+      }
+    ]
+  }
+}

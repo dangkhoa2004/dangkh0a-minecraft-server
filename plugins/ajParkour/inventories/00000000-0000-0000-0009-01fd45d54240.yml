@@ -1,0 +1,409 @@
+inventory:
+  armor:
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_boots
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:0.10000000149011612d,id:"minecraft:refined_boots",operation:"add_value",slot:"feet",type:"minecraft:knockback_resistance"},{amount:2.5d,id:"minecraft:refined_boots",operation:"add_value",slot:"feet",type:"minecraft:armor_toughness"},{amount:3.0d,id:"minecraft:refined_boots",operation:"add_value",slot:"feet",type:"minecraft:armor"}]'
+      minecraft:lore: '[" ",{color:"green",italic:0b,text:"Ability:"},{color:"gray",italic:0b,text:"When
+        a full set of Refined Netherite"},{color:"gray",italic:0b,text:"Armor is worn,
+        the user gains permanent"},{color:"gray",italic:0b,text:"Resistance I and
+        25% more health."}]'
+      minecraft:enchantments: '{"minecraft:protection":4,"minecraft:unbreaking":2}'
+      minecraft:custom_name: '{color:"gold",italic:0b,text:"Refined Netherite Boots"}'
+      minecraft:custom_data: '{armor:"rn_boots",mt:"armor"}'
+      minecraft:damage: '204'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_leggings
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:0.10000000149011612d,id:"minecraft:refined_leggings",operation:"add_value",slot:"legs",type:"minecraft:knockback_resistance"},{amount:2.5d,id:"minecraft:refined_leggings",operation:"add_value",slot:"legs",type:"minecraft:armor_toughness"},{amount:6.0d,id:"minecraft:refined_leggings",operation:"add_value",slot:"legs",type:"minecraft:armor"}]'
+      minecraft:lore: '[" ",{color:"green",italic:0b,text:"Ability:"},{color:"gray",italic:0b,text:"When
+        a full set of Refined Netherite"},{color:"gray",italic:0b,text:"Armor is worn,
+        the user gains permanent"},{color:"gray",italic:0b,text:"Resistance I and
+        25% more health."}]'
+      minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":7}'
+      minecraft:custom_name: '{color:"gold",italic:0b,text:"Refined Netherite Leggings"}'
+      minecraft:custom_data: '{armor:"rn_legs",mt:"armor"}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:elytra
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:unbreaking":6}'
+      minecraft:damage: '113'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_helmet
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"#CCCCCC",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cú
+        Đêm I",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Né
+        Đòn III",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 7"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:aqua_affinity":1,"minecraft:fire_protection":3,"minecraft:unbreaking":3}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-cudem":1,"advancedenchantments:ae_enchantment-nedon":3,"advancedenchantments:slots":2}}'
+      minecraft:damage: '279'
+    schema_version: 1
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_pickaxe
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Tái
+        Tạo VI",underlined:0b}],text:""},{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Giả
+        Kim III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Phép
+        Nhân V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#B30B0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"Vội
+        Vàng III",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 5"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:unbreaking":3}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-giakim":3,"advancedenchantments:ae_enchantment-phepnhan":5,"advancedenchantments:ae_enchantment-taitao":6,"advancedenchantments:ae_enchantment-voivang":3,"advancedenchantments:repaircost":7,"advancedenchantments:slots":4}}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_pickaxe
+    count: 1
+    components:
+      minecraft:repair_cost: '1'
+      minecraft:lore: '[{extra:[{bold:0b,color:"#CCCCCC",italic:0b,obfuscated:0b,strikethrough:0b,text:"Nung
+        Nóng III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Thu
+        Gom IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 7"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:unbreaking":3}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-nungnong":3,"advancedenchantments:ae_enchantment-thugom":4,"advancedenchantments:repaircost":7,"advancedenchantments:slots":2}}'
+      minecraft:damage: '398'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:firework_rocket
+    count: 11
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:firework_rocket
+    count: 8
+    components:
+      minecraft:lore: '[{color:"gray",italic:0b,text:"The greatest firework rocket
+        for  "},{color:"gray",italic:0b,text:"traveling, lasts for 1900 blocks. "}]'
+      minecraft:custom_name: '{color:"gold",italic:0b,text:"Ultimate Flight Rocket"}'
+      minecraft:custom_data: '{item:"uflight"}'
+      minecraft:fireworks: '{flight_duration:-128b}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:polished_blackstone_bricks
+    count: 11
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_helmet
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:0.10000000149011612d,id:"minecraft:refined_helmet",operation:"add_value",slot:"head",type:"minecraft:knockback_resistance"},{amount:4.5d,id:"minecraft:refined_helmet",operation:"add_value",slot:"head",type:"minecraft:armor_toughness"},{amount:4.0d,id:"minecraft:refined_helmet",operation:"add_value",slot:"head",type:"minecraft:armor"}]'
+      minecraft:lore: '[" ",{color:"green",italic:0b,text:"Ability:"},{color:"gray",italic:0b,text:"When
+        a full set of Refined Netherite"},{color:"gray",italic:0b,text:"Armor is worn,
+        the user gains permanent"},{color:"gray",italic:0b,text:"Resistance I and
+        25% more health."}]'
+      minecraft:enchantments: '{"minecraft:protection":1,"minecraft:unbreaking":8}'
+      minecraft:custom_name: '{color:"gold",italic:0b,text:"Refined Netherite Helmet"}'
+      minecraft:custom_data: '{armor:"rn_helmet",mt:"armor"}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:golden_apple
+    count: 16
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_sword
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:-2.5d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:13.0d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"}]'
+      minecraft:unbreakable: '{}'
+      minecraft:lore: '["  ",{color:"gray",italic:0b,text:"When in Main Hand:"},{color:"dark_green",italic:0b,text:"
+        14 Attack Damage"},{color:"dark_green",italic:0b,text:" 1.5 Attack Speed"}]'
+      minecraft:enchantments: '{"minecraft:knockback":2,"minecraft:sharpness":5}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers"]}'
+      minecraft:custom_name: '{color:"gold",italic:0b,text:"Refined Netherite Sword"}'
+      minecraft:custom_data: '{mt:"weapon"}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:golden_shovel
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:efficiency":2,"minecraft:unbreaking":9}'
+      minecraft:custom_name: '{color:"aqua",italic:0b,text:"Rare Golden Shovel"}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:bone
+    count: 4
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:enchanted_golden_apple
+    count: 21
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:red_dye
+    count: 1
+    components:
+      minecraft:max_stack_size: '16'
+      minecraft:lore: '[{color:"gray",italic:0b,text:"Right click to increase "},{color:"gray",italic:0b,text:"treasure
+        spawning for "},{color:"gray",italic:0b,text:"5 minutes "}]'
+      minecraft:enchantment_glint_override: 1b
+      minecraft:consumable: '{consume_seconds:0.0f,has_consume_particles:0b,on_consume_effects:[{sound:"minecraft:entity.player.levelup",type:"minecraft:play_sound"}],sound:"minecraft:intentionally_empty"}'
+      minecraft:use_cooldown: '{cooldown_group:"mt:charms",seconds:0.5f}'
+      minecraft:custom_data: '{mt:"epic_charm"}'
+      minecraft:item_name: '{color:"red",italic:0b,text:"Epic Charm"}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:lapis_block
+    count: 41
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_block
+    count: 13
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:emerald_block
+    count: 12
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:deepslate_diamond_ore
+    count: 53
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:gold_block
+    count: 30
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_leggings
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:0.10000000149011612d,id:"minecraft:refined_leggings",operation:"add_value",slot:"legs",type:"minecraft:knockback_resistance"},{amount:4.5d,id:"minecraft:refined_leggings",operation:"add_value",slot:"legs",type:"minecraft:armor_toughness"},{amount:6.5d,id:"minecraft:refined_leggings",operation:"add_value",slot:"legs",type:"minecraft:armor"}]'
+      minecraft:lore: '[" ",{color:"green",italic:0b,text:"Ability:"},{color:"gray",italic:0b,text:"When
+        a full set of Refined Netherite"},{color:"gray",italic:0b,text:"Armor is worn,
+        the user gains permanent"},{color:"gray",italic:0b,text:"Resistance I and
+        25% more health."}]'
+      minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":5,"minecraft:unbreaking":6}'
+      minecraft:custom_name: '{color:"gold",italic:0b,text:"Refined Netherite Leggings"}'
+      minecraft:custom_data: '{armor:"rn_legs",mt:"armor"}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:enchanted_book
+    count: 1
+    components:
+      minecraft:stored_enchantments: '{"minecraft:looting":3}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherrack
+    count: 64
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:experience_bottle
+    count: 64
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:emerald
+    count: 7
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:experience_bottle
+    count: 64
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:golden_apple
+    count: 64
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:dried_kelp
+    count: 12
+    components:
+      minecraft:food: '{can_always_eat:1b,nutrition:2,saturation:2.0f}'
+      minecraft:lore: '[{color:"gray",italic:0b,text:"Gives Strength II"},{color:"gray",italic:0b,text:"and
+        Speed II or 4s "}]'
+      minecraft:max_stack_size: '99'
+      minecraft:enchantment_glint_override: 1b
+      minecraft:consumable: '{consume_seconds:2.0f,has_consume_particles:0b,on_consume_effects:[{effects:[{amplifier:1b,duration:80,id:"minecraft:strength",show_icon:1b},{amplifier:1b,duration:80,id:"minecraft:speed",show_icon:1b}],type:"minecraft:apply_effects"}]}'
+      minecraft:custom_name: '{color:"aqua",italic:0b,text:"Dark Meat"}'
+      minecraft:custom_data: '{food:"dark_meat"}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:black_shulker_box
+    count: 1
+    components:
+      minecraft:container: '[{item:{count:64,id:"minecraft:budding_amethyst"},slot:0},{item:{components:{"minecraft:custom_data":{weapon:"soul_steel"},"minecraft:custom_name":{color:"aqua",italic:0b,text:"Soul
+        Flint and Steel"},"minecraft:enchantments":{"minecraft:mending":1},"minecraft:lore":[{color:"green",italic:0b,text:"Ability:"},{color:"gray",italic:0b,text:"Right
+        Click on sculk-related blocks to"},{color:"gray",italic:0b,text:"clear a large
+        area of them in an instant."}]},count:1,id:"minecraft:flint_and_steel"},slot:1},{item:{components:{"minecraft:custom_data":{weapon:"soul_steel"},"minecraft:custom_name":{color:"aqua",italic:0b,text:"Soul
+        Flint and Steel"},"minecraft:enchantments":{"minecraft:unbreaking":1},"minecraft:lore":[{color:"green",italic:0b,text:"Ability:"},{color:"gray",italic:0b,text:"Right
+        Click on sculk-related blocks to"},{color:"gray",italic:0b,text:"clear a large
+        area of them in an instant."}]},count:1,id:"minecraft:flint_and_steel"},slot:2},{item:{components:{"minecraft:custom_data":{weapon:"soul_steel"},"minecraft:custom_name":{color:"aqua",italic:0b,text:"Soul
+        Flint and Steel"},"minecraft:enchantments":{"minecraft:unbreaking":6},"minecraft:lore":[{color:"green",italic:0b,text:"Ability:"},{color:"gray",italic:0b,text:"Right
+        Click on sculk-related blocks to"},{color:"gray",italic:0b,text:"clear a large
+        area of them in an instant."}]},count:1,id:"minecraft:flint_and_steel"},slot:3},{item:{components:{"minecraft:attribute_modifiers":[{amount:1.2000000476837158d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:-4.0d,id:"minecraft:mine_treasure_rm",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:4.0d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"}],"minecraft:custom_data":{tool:"dark_pickaxe"},"minecraft:enchantments":{"minecraft:efficiency":5,"minecraft:mending":1,"minecraft:sharpness":1},"minecraft:lore":["  ",{color:"gray",italic:0b,text:"When
+        in Main Hand:"},{color:"dark_green",italic:0b,text:" 5 Attack Damage"},{color:"dark_green",italic:0b,text:"
+        1.2 Attack Speed"}],"minecraft:tooltip_display":{hidden_components:["minecraft:attribute_modifiers"]}},count:1,id:"minecraft:netherite_pickaxe"},slot:4},{item:{count:9,id:"minecraft:sculk_sensor"},slot:5},{item:{count:1,id:"minecraft:recovery_compass"},slot:6},{item:{components:{"minecraft:attribute_modifiers":[{amount:1.2000000476837158d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:-4.0d,id:"minecraft:mine_treasure_rm",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:4.0d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"}],"minecraft:custom_data":{tool:"dark_pickaxe"},"minecraft:enchantments":{"minecraft:efficiency":1,"minecraft:mending":1,"minecraft:unbreaking":2},"minecraft:lore":["  ",{color:"gray",italic:0b,text:"When
+        in Main Hand:"},{color:"dark_green",italic:0b,text:" 5 Attack Damage"},{color:"dark_green",italic:0b,text:"
+        1.2 Attack Speed"}],"minecraft:tooltip_display":{hidden_components:["minecraft:attribute_modifiers"]}},count:1,id:"minecraft:netherite_pickaxe"},slot:7},{item:{components:{"minecraft:attribute_modifiers":[{amount:1.2000000476837158d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:-4.0d,id:"minecraft:mine_treasure_rm",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:4.0d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"}],"minecraft:custom_data":{tool:"dark_pickaxe"},"minecraft:enchantments":{"minecraft:efficiency":1,"minecraft:sharpness":1,"minecraft:unbreaking":1},"minecraft:lore":["  ",{color:"gray",italic:0b,text:"When
+        in Main Hand:"},{color:"dark_green",italic:0b,text:" 5 Attack Damage"},{color:"dark_green",italic:0b,text:"
+        1.2 Attack Speed"}],"minecraft:tooltip_display":{hidden_components:["minecraft:attribute_modifiers"]}},count:1,id:"minecraft:netherite_pickaxe"},slot:8},{item:{count:9,id:"minecraft:sculk_catalyst"},slot:9},{item:{count:64,id:"minecraft:sculk_sensor"},slot:10},{item:{count:2,id:"minecraft:golden_apple"},slot:11},{item:{components:{"minecraft:custom_data":{tool:"hidden_pickaxe"},"minecraft:enchantments":{"minecraft:efficiency":3,"minecraft:mending":1,"minecraft:sharpness":1}},count:1,id:"minecraft:diamond_pickaxe"},slot:12},{item:{components:{"minecraft:attribute_modifiers":[{amount:1.2000000476837158d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:-4.0d,id:"minecraft:mine_treasure_rm",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:4.0d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"}],"minecraft:custom_data":{tool:"dark_pickaxe"},"minecraft:enchantments":{"minecraft:efficiency":5,"minecraft:mending":1,"minecraft:silk_touch":1,"minecraft:unbreaking":2},"minecraft:lore":["  ",{color:"gray",italic:0b,text:"When
+        in Main Hand:"},{color:"dark_green",italic:0b,text:" 5 Attack Damage"},{color:"dark_green",italic:0b,text:"
+        1.2 Attack Speed"}],"minecraft:tooltip_display":{hidden_components:["minecraft:attribute_modifiers"]}},count:1,id:"minecraft:netherite_pickaxe"},slot:13},{item:{components:{"minecraft:enchantments":{"minecraft:efficiency":5,"minecraft:unbreaking":3}},count:1,id:"minecraft:netherite_pickaxe"},slot:14},{item:{components:{"minecraft:enchantments":{"minecraft:fortune":3,"minecraft:unbreaking":3}},count:1,id:"minecraft:netherite_pickaxe"},slot:15},{item:{components:{"minecraft:enchantments":{"minecraft:efficiency":5,"minecraft:unbreaking":3}},count:1,id:"minecraft:netherite_pickaxe"},slot:16},{item:{components:{"minecraft:attribute_modifiers":[{amount:1.2000000476837158d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:-4.0d,id:"minecraft:mine_treasure_rm",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"},{amount:4.0d,id:"minecraft:mine_treasure",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"}],"minecraft:custom_data":{tool:"dark_pickaxe"},"minecraft:enchantments":{"minecraft:efficiency":5,"minecraft:unbreaking":3},"minecraft:lore":["  ",{color:"gray",italic:0b,text:"When
+        in Main Hand:"},{color:"dark_green",italic:0b,text:" 5 Attack Damage"},{color:"dark_green",italic:0b,text:"
+        1.2 Attack Speed"}],"minecraft:tooltip_display":{hidden_components:["minecraft:attribute_modifiers"]}},count:1,id:"minecraft:netherite_pickaxe"},slot:17},{item:{components:{"minecraft:custom_data":{weapon:"soul_steel"},"minecraft:custom_name":{color:"aqua",italic:0b,text:"Soul
+        Flint and Steel"},"minecraft:enchantments":{"minecraft:unbreaking":4},"minecraft:lore":[{color:"green",italic:0b,text:"Ability:"},{color:"gray",italic:0b,text:"Right
+        Click on sculk-related blocks to"},{color:"gray",italic:0b,text:"clear a large
+        area of them in an instant."}]},count:1,id:"minecraft:flint_and_steel"},slot:18},{item:{components:{"minecraft:custom_data":{weapon:"soul_steel"},"minecraft:custom_name":{color:"aqua",italic:0b,text:"Soul
+        Flint and Steel"},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:unbreaking":5},"minecraft:lore":[{color:"green",italic:0b,text:"Ability:"},{color:"gray",italic:0b,text:"Right
+        Click on sculk-related blocks to"},{color:"gray",italic:0b,text:"clear a large
+        area of them in an instant."}]},count:1,id:"minecraft:flint_and_steel"},slot:19},{item:{components:{"minecraft:custom_data":{weapon:"soul_steel"},"minecraft:custom_name":{color:"aqua",italic:0b,text:"Soul
+        Flint and Steel"},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:unbreaking":1},"minecraft:lore":[{color:"green",italic:0b,text:"Ability:"},{color:"gray",italic:0b,text:"Right
+        Click on sculk-related blocks to"},{color:"gray",italic:0b,text:"clear a large
+        area of them in an instant."}]},count:1,id:"minecraft:flint_and_steel"},slot:20},{item:{components:{"minecraft:custom_data":{weapon:"soul_steel"},"minecraft:custom_name":{color:"aqua",italic:0b,text:"Soul
+        Flint and Steel"},"minecraft:enchantments":{"minecraft:unbreaking":5},"minecraft:lore":[{color:"green",italic:0b,text:"Ability:"},{color:"gray",italic:0b,text:"Right
+        Click on sculk-related blocks to"},{color:"gray",italic:0b,text:"clear a large
+        area of them in an instant."}]},count:1,id:"minecraft:flint_and_steel"},slot:21},{item:{components:{"minecraft:custom_data":{weapon:"soul_steel"},"minecraft:custom_name":{color:"aqua",italic:0b,text:"Soul
+        Flint and Steel"},"minecraft:enchantments":{"minecraft:mending":1,"minecraft:unbreaking":5},"minecraft:lore":[{color:"green",italic:0b,text:"Ability:"},{color:"gray",italic:0b,text:"Right
+        Click on sculk-related blocks to"},{color:"gray",italic:0b,text:"clear a large
+        area of them in an instant."}]},count:1,id:"minecraft:flint_and_steel"},slot:22},{item:{count:64,id:"minecraft:diamond"},slot:23},{item:{count:64,id:"minecraft:diamond"},slot:24},{item:{count:64,id:"minecraft:diamond"},slot:25},{item:{count:64,id:"minecraft:deepslate_diamond_ore"},slot:26}]'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:prismarine_shard
+    count: 1
+    components:
+      minecraft:lore: '[{color:"#89AEBF",translate:"If it falls over, it''s not a
+        dream"}," ",{color:"gray",translate:"Awarded for achieving"},{color:"light_purple",italic:0b,translate:"Inception"}]'
+      minecraft:enchantment_glint_override: 1b
+      minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:banner_patterns","minecraft:base_color","minecraft:dyed_color","minecraft:fireworks","minecraft:firework_explosion","minecraft:instrument","minecraft:potion_contents","minecraft:provides_banner_patterns","minecraft:provides_trim_material","minecraft:stored_enchantments","minecraft:trim","minecraft:unbreakable","minecraft:written_book_content"]}'
+      minecraft:custom_name: '{bold:1b,color:"#89AEBF",italic:0b,translate:"Spinny
+        Top"}'
+      minecraft:custom_model_data: '{floats:[131.0f]}'
+      minecraft:custom_data: '{Trophy:1b}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:experience_bottle
+    count: 29
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond
+    count: 2
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:quartz
+    count: 64
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:gold_ingot
+    count: 12
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:ancient_debris
+    count: 9
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_ingot
+    count: 5
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:raw_iron
+    count: 12
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:iron_block
+    count: 14
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_scrap
+    count: 4
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_boots
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:0.10000000149011612d,id:"minecraft:refined_boots",operation:"add_value",slot:"feet",type:"minecraft:knockback_resistance"},{amount:2.5d,id:"minecraft:refined_boots",operation:"add_value",slot:"feet",type:"minecraft:armor_toughness"},{amount:3.0d,id:"minecraft:refined_boots",operation:"add_value",slot:"feet",type:"minecraft:armor"}]'
+      minecraft:lore: '[" ",{color:"green",italic:0b,text:"Ability:"},{color:"gray",italic:0b,text:"When
+        a full set of Refined Netherite"},{color:"gray",italic:0b,text:"Armor is worn,
+        the user gains permanent"},{color:"gray",italic:0b,text:"Resistance I and
+        25% more health."}]'
+      minecraft:enchantments: '{"minecraft:protection":4,"minecraft:unbreaking":2}'
+      minecraft:custom_name: '{color:"gold",italic:0b,text:"Refined Netherite Boots"}'
+      minecraft:custom_data: '{armor:"rn_boots",mt:"armor"}'
+      minecraft:damage: '204'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_leggings
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:0.10000000149011612d,id:"minecraft:refined_leggings",operation:"add_value",slot:"legs",type:"minecraft:knockback_resistance"},{amount:2.5d,id:"minecraft:refined_leggings",operation:"add_value",slot:"legs",type:"minecraft:armor_toughness"},{amount:6.0d,id:"minecraft:refined_leggings",operation:"add_value",slot:"legs",type:"minecraft:armor"}]'
+      minecraft:lore: '[" ",{color:"green",italic:0b,text:"Ability:"},{color:"gray",italic:0b,text:"When
+        a full set of Refined Netherite"},{color:"gray",italic:0b,text:"Armor is worn,
+        the user gains permanent"},{color:"gray",italic:0b,text:"Resistance I and
+        25% more health."}]'
+      minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":7}'
+      minecraft:custom_name: '{color:"gold",italic:0b,text:"Refined Netherite Leggings"}'
+      minecraft:custom_data: '{armor:"rn_legs",mt:"armor"}'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:elytra
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:unbreaking":6}'
+      minecraft:damage: '113'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_helmet
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"#CCCCCC",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cú
+        Đêm I",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Né
+        Đòn III",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 7"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:aqua_affinity":1,"minecraft:fire_protection":3,"minecraft:unbreaking":3}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-cudem":1,"advancedenchantments:ae_enchantment-nedon":3,"advancedenchantments:slots":2}}'
+      minecraft:damage: '279'
+    schema_version: 1
+  - null
+  - null
+  - null

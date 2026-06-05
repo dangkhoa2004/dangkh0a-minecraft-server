@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:bone"
+    },
+    "title":"\u2622 \u00A7x\u00A7F\u00A7FC\u029C\u1D1C\u028F\u00EA\u0274 G\u026A\u1D00 B\u1D0F\u1D0D",
+    "description":"T\u026A\u00EA\u1D1C \u1D05\u026A\u1EC7\u1D1B 1 creeper.",
+    "frame":"challenge",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:kills_25_skeleton"
+}

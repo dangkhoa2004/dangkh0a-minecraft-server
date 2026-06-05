@@ -1,0 +1,9 @@
+data:
+  session: 5
+  dice1: 2
+  dice2: 5
+  dice3: 5
+  result: TAI
+  currency: VAULT
+  taiPlayers:
+    AnhBawp: 50

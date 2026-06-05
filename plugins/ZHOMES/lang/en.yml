@@ -1,0 +1,63 @@
+# English Language File for ZHOMES
+
+prefix: "&7[&b&lHOMES&7]"
+
+messages:
+  home-set: "&aHome set successfully! &7(Home #{number})"
+  home-deleted: "&cDeleted Home #{number}."
+  home-max-reached: "&cYou have already set the max amount of homes!"
+  home-not-exist: "&cThis home does not exist."
+  home-no-permission: "&cYou don't have permission to set this home! &7(Required: &ezhomes.home.{number}&7)"
+  teleporting: "&aTeleporting in &e{seconds}&a seconds. Do not move!"
+  teleport-success: "&aYou were teleported to your home."
+  teleport-cancelled: "&cTeleport cancelled because you moved!"
+  invalid-number: "&cInvalid number!"
+
+gui:
+  home-title: "&8Homes"
+  delete-title: "&8Deleting home #{number}"
+  
+  # Home slot items
+  no-home-set:
+    name: "&7&lNO HOME SET"
+    lore:
+      - "&7Click to create home."
+  
+  home-set:
+    name: "&x&9&8&f&d&0&f&lHOME #{number}"
+    lore:
+      - "&fClick to teleport to this home"
+  
+  # Delete button
+  delete-button:
+    name: "&x&9&8&f&d&0&f&lDELETE #{number}"
+    lore:
+      - "&fClick to delete this home."
+  
+  # Pagination
+  next-page:
+    name: "&a&lNEXT PAGE &7({current}/{total})"
+    lore:
+      - "&7Click to view next page"
+  
+  previous-page:
+    name: "&c&lPREVIOUS PAGE &7({current}/{total})"
+    lore:
+      - "&7Click to view previous page"
+  
+  # Delete confirmation GUI
+  confirm:
+    name: "&a&lCONFIRM"
+    lore:
+      - "&fClick to confirm."
+  
+  cancel:
+    name: "&c&lCANCEL"
+    lore:
+      - "&fClick to deny."
+  
+  back:
+    name: "&e&lBACK"
+    lore:
+      - "&fClick to return."
+

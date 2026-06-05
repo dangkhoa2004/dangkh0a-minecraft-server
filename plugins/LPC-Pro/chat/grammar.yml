@@ -1,0 +1,5 @@
+enabled: false
+auto-capitalize: true
+auto-period: true
+min-length-for-period: 3
+bypass-permission: lpcpro.bypass.grammar

@@ -1,0 +1,34 @@
+tasks:
+  walking:
+    type: "walking"
+    mode: walking
+    distance: 1000
+
+display:
+  name: "&#A3C4F3&nʙộ ʜàɴʜ ɪɪ:&r &#FDFD96#2"
+  lore-normal:
+    - "&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ ᴅɪ ᴄʜᴜʏểɴ"
+    - "&#D1E8E2ʙằɴɢ đôɪ ᴄʜâɴ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ."
+    - ""
+    - "&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2đɪ ʙộ ᴛʀêɴ ᴍặᴛ đấᴛ."
+    - "&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{walking:progress}/1000 ʙʟᴏᴄᴋ."
+    - "&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$600"
+    - ""
+  lore-started:
+    - "&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ."
+  type: "LEATHER_BOOTS"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+
+rewards:
+  - "eco give {player} 600"
+
+options:
+  category: "walking"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 2
+  requires:
+   - "walking1"

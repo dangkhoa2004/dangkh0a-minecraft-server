@@ -1,0 +1,360 @@
+enabled: false
+auto-game-interval-minutes: 30
+game-duration-seconds: 60
+word-list:
+- creeper
+- skeleton
+- enderman
+- zombie
+- spider
+- blaze
+- ghast
+- wither
+- guardian
+- phantom
+- drowned
+- pillager
+- ravager
+- piglin
+- hoglin
+- strider
+- warden
+- allay
+- axolotl
+- sniffer
+- silverfish
+- endermite
+- vindicator
+- evoker
+- vex
+- slime
+- shulker
+- breeze
+- bogged
+- stray
+- pickaxe
+- trident
+- elytra
+- crossbow
+- spyglass
+- netherite
+- diamond
+- emerald
+- amethyst
+- redstone
+- lodestone
+- compass
+- totem
+- shield
+- armor
+- obsidian
+- deepslate
+- dripstone
+- sculk
+- anvil
+- beacon
+- lectern
+- grindstone
+- stonecutter
+- smoker
+- hopper
+- dropper
+- dispenser
+- daylight
+- respawn
+- terracotta
+- prismarine
+- purpur
+- glowstone
+- bookshelf
+- stronghold
+- monument
+- mansion
+- fortress
+- bastion
+- mineshaft
+- outpost
+- dungeon
+- igloo
+- shipwreck
+- jungle
+- savanna
+- badlands
+- mushroom
+- mangrove
+- cherry
+- taiga
+- tundra
+- sharpness
+- smite
+- looting
+- mending
+- unbreaking
+- thorns
+- knockback
+- riptide
+- channeling
+- multishot
+- infinity
+- piercing
+- sweeping
+- beetroot
+- pumpkin
+- melon
+- cookie
+- potato
+- carrot
+- steak
+- bread
+- enchanting
+- smelting
+- brewing
+- crafting
+- trading
+- taming
+- speedrun
+- hardcore
+reward-commands:
+- give {player} diamond 1
+trivia-questions:
+  q1:
+    question: How many obsidian blocks are needed for a Nether portal?
+    answer: '10'
+  q2:
+    question: What tool mines diamonds fastest?
+    answer: pickaxe
+  q3:
+    question: What mob drops gunpowder?
+    answer: creeper
+  q4:
+    question: What dimension has the Ender Dragon?
+    answer: end
+  q5:
+    question: What ore is found only in the Nether?
+    answer: quartz
+  q6:
+    question: How many slots in a double chest?
+    answer: '54'
+  q7:
+    question: What mob drops string?
+    answer: spider
+  q8:
+    question: What block gives you Jump Boost?
+    answer: slime
+  q9:
+    question: What item do you need to trade with Piglins?
+    answer: gold
+  q10:
+    question: What mob can teleport?
+    answer: enderman
+  q11:
+    question: What do you need to make a beacon work?
+    answer: pyramid
+  q12:
+    question: How many eyes of ender are needed for a full portal?
+    answer: '12'
+  q13:
+    question: What food gives the most saturation?
+    answer: steak
+  q14:
+    question: What villager sells enchanted books?
+    answer: librarian
+  q15:
+    question: What mob is immune to fire?
+    answer: blaze
+  q16:
+    question: What block can you use to breathe underwater?
+    answer: door
+  q17:
+    question: What is the maximum enchantment level for Sharpness?
+    answer: '5'
+  q18:
+    question: How many bookshelves for max enchanting?
+    answer: '15'
+  q19:
+    question: What ore can only be mined with an iron pickaxe or better?
+    answer: diamond
+  q20:
+    question: What potion effect makes you invisible?
+    answer: invisibility
+  q21:
+    question: What block can pistons not push?
+    answer: obsidian
+  q22:
+    question: What is the fastest way to travel in the Nether?
+    answer: ice
+  q23:
+    question: What mob drops blaze rods?
+    answer: blaze
+  q24:
+    question: What is the max stack size for ender pearls?
+    answer: '16'
+  q25:
+    question: What enchantment lets you walk on water?
+    answer: frost walker
+  q26:
+    question: What mob spawns from a lightning strike on a pig?
+    answer: zombie pigman
+  q27:
+    question: What block emits the strongest redstone signal?
+    answer: redstone block
+  q28:
+    question: How many iron ingots to make a full set of armor?
+    answer: '24'
+  q29:
+    question: What is the rarest ore in Minecraft?
+    answer: emerald
+  q30:
+    question: What mob drops prismarine shards?
+    answer: guardian
+  q31:
+    question: What is the strongest material for tools?
+    answer: netherite
+  q32:
+    question: What enchantment lets you mine faster underwater?
+    answer: aqua affinity
+  q33:
+    question: What animal can be tamed with fish?
+    answer: cat
+  q34:
+    question: What block do bees make honey in?
+    answer: beehive
+  q35:
+    question: What mob attacks if you look at it?
+    answer: enderman
+  q36:
+    question: What item repairs an elytra?
+    answer: phantom membrane
+  q37:
+    question: What dimension is accessed through the End portal?
+    answer: end
+  q38:
+    question: What mob drops wither skeleton skulls?
+    answer: wither skeleton
+  q39:
+    question: What enchantment increases loot drops?
+    answer: looting
+  q40:
+    question: What is the name of the underwater temple?
+    answer: monument
+type-race-phrases:
+- The quick brown fox jumps
+- Minecraft is the best game
+- Diamond pickaxe forever
+- Creeper aw man so we back
+- Never dig straight down
+- Always carry a water bucket
+- Bed explosion in nether
+- Fortune three is the way
+- Silk touch on everything
+- Watch out for lava pools
+- Build a shelter before night
+- Zombies burn in sunlight
+- Bring food on adventures
+- Torches light up caves
+- Iron is very important
+- Endermen hate water
+- Sheep drop wool blocks
+- To the moon and back
+- Best server in the world
+- Practice makes perfect
+- I love this community
+- Gaming is my passion
+- Speed typing champion
+- Faster than lightning
+- Type like the wind blows
+- Building a house takes time and patience
+- The Ender Dragon awaits brave warriors
+- Mining deep underground is dangerous
+- Friends make the game more fun
+- Explore every cave you find
+- Enchanting requires experience levels
+- The Nether is a scary place
+- Villagers trade valuable items
+- Go go go
+- Type fast
+- Quick fingers
+- Speed demon
+- Lightning fast
+- Race to win
+emoji-riddles:
+  r1:
+    emoji: <white>☠</white> <green>🏹</green>
+    answer: skeleton
+    category: mob
+  r2:
+    emoji: <green>🟩</green> <yellow>💥</yellow>
+    answer: creeper
+    category: mob
+  r3:
+    emoji: <dark_gray>🕷</dark_gray> <white>🕸</white>
+    answer: spider
+    category: mob
+  r4:
+    emoji: <white>👻</white>
+    answer: ghast
+    category: mob
+  r5:
+    emoji: <gray>🐺</gray> <white>🦴</white>
+    answer: wolf
+    category: mob
+  r6:
+    emoji: <gold>🐱</gold> <aqua>🐟</aqua>
+    answer: cat|ocelot
+    category: mob
+  r7:
+    emoji: <yellow>🐝</yellow> <gold>🍯</gold>
+    answer: bee
+    category: mob
+  r8:
+    emoji: <yellow>🐔</yellow> <white>🥚</white>
+    answer: chicken
+    category: mob
+  r9:
+    emoji: <dark_purple>🐉</dark_purple> <dark_purple>🟣</dark_purple>
+    answer: ender dragon
+    category: mob
+  r10:
+    emoji: <gold>🔥</gold> <yellow>☀</yellow> <gold>🔥</gold>
+    answer: blaze
+    category: mob
+  r11:
+    emoji: <dark_aqua>🦑</dark_aqua> <blue>🌊</blue>
+    answer: squid
+    category: mob
+  r12:
+    emoji: <light_purple>🐷</light_purple> <light_purple>👃</light_purple>
+    answer: pig
+    category: mob
+  r13:
+    emoji: <aqua>💎</aqua> <gray>⛏</gray>
+    answer: diamond pickaxe
+    category: item
+  r14:
+    emoji: <aqua>💎</aqua> <white>🗡</white>
+    answer: diamond sword
+    category: item
+  r15:
+    emoji: <red>🍎</red> <yellow>💛</yellow>
+    answer: golden apple
+    category: item
+  r16:
+    emoji: <aqua>🔱</aqua> <blue>🌊</blue>
+    answer: trident
+    category: item
+  r17:
+    emoji: <white>🛡</white> <gray>⚔</gray>
+    answer: shield
+    category: item
+  r18:
+    emoji: <red>🛏</red> <blue>💤</blue>
+    answer: bed
+    category: item
+  r19:
+    emoji: <aqua>💎</aqua> <dark_gray>⬛</dark_gray>
+    answer: diamond ore
+    category: block
+  r20:
+    emoji: <dark_purple>🟣</dark_purple> <dark_gray>⬛</dark_gray>
+    answer: obsidian
+    category: block

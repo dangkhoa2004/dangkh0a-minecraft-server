@@ -1,0 +1,31 @@
+tasks:
+  mobkilling:
+    type: "mobkillingcertain"
+    amount: 90
+    mob: PIGLIN
+display:
+  name: "&#A3C4F3&nᴛɪêᴜ ᴅɪệᴛ ǫᴜáɪ ᴠậᴛ:&r &#FDFD96#XXIX"
+  lore-normal:
+    - "&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ᴛɪêᴜ ᴅɪệᴛ ᴘɪɢʟɪɴ"
+    - "&#D1E8E2ʜᴏàɴ ᴛʜàɴʜ ᴛʜử ᴛʜáᴄʜ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ."
+    - ""
+    - "&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴛɪêᴜ ᴅɪệᴛ 90 ᴘɪɢʟɪɴ."
+    - "&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{mobkilling:progress}/90 ᴄᴏɴ."
+    - "&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC090 ᴋɪᴍ ᴄươɴɢ"
+    - ""
+  lore-started:
+    - "&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ."
+  type: "PIGLIN_SPAWN_EGG"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} "
+options:
+  category: "mobkilling"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 29
+  requires:
+    - "mobkilling28"

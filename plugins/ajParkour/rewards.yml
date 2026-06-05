@@ -1,0 +1,23 @@
+# This is the rewards file.
+# Here is a guide for this: https://wiki.ajg0702.us/ajparkour/configs/Rewards
+
+intervals:
+  '10':
+    # Thưởng mỗi 10 bước nhảy (Có thể thêm lệnh give kim cương vào mục commands nếu cần)
+    message: ''
+exceptions:
+  '1':
+    # Lời chúc cho bước nhảy đầu tiên
+    message: §x§5§7§F§2§8§7&lᴄʜúᴄ ᴍừɴɢ, ʙạɴ ᴠừᴀ ᴛʜựᴄ ʜɪệɴ ʙướᴄ ɴʜảʏ đầᴜ ᴛɪêɴ!
+    first-time-only: true
+specials:
+  beat-server-record:
+    # Phá kỷ lục server
+    message: §x§5§7§F§2§8§7&lᴄʜúᴄ ᴍừɴɢ!&r§x§A§A§A§A§A§A ʙạɴ đã ᴘʜá ᴋỷ ʟụᴄ ᴄủᴀ ᴍáʏ
+      ᴄʜủ!
+  start:
+    message: ''
+    commands: []
+  end:
+    message: ''
+    commands: []

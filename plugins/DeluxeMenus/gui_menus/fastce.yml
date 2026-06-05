@@ -1,0 +1,115 @@
+menu_title: '&#BDB2FF&l❁ ᴍᴜᴀ ɴʜᴀɴʜ ᴘʜù ᴘʜéᴘ ❁'
+open_command: fastce
+register_command: true
+size: 27
+
+items:
+  'filler':
+    material: WHITE_STAINED_GLASS_PANE
+    display_name: ' '
+    slots:
+    - 0-9
+    - 13
+    - 17-26
+
+  'thuong':
+    material: WHITE_DYE
+    slot: 10
+    display_name: '&#E0E0E0&lᴘʜù ᴘʜéᴘ ᴛʜườɴɢ'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Giá cơ bản: &#57F2874,000 ⛃&#E0E0E0/sách'
+    - ' &#fcfcfc❖ &#E0E0E0Độ hiếm: &#E0E0E0Cơ bản'
+    - ''
+    - '&#E0E0E0▶ &#E0E0E0Nhấn để chọn số lượng mua'
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] fastce_thuong'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] fastce_thuong'
+
+  'hiem':
+    material: LIME_DYE
+    slot: 11
+    display_name: '&#57F287&lᴘʜù ᴘʜéᴘ ʜɪếᴍ'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Giá cơ bản: &#57F2878,000 ⛃&#E0E0E0/sách'
+    - ' &#fcfcfc❖ &#E0E0E0Độ hiếm: &#57F287Tầm trung'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để chọn số lượng mua'
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] fastce_hiem'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] fastce_hiem'
+
+  'sieuhiem':
+    material: LIGHT_BLUE_DYE
+    slot: 12
+    display_name: '&#AEC6CF&lᴘʜù ᴘʜéᴘ sɪêᴜ ʜɪếᴍ'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Giá cơ bản: &#57F28725,000 ⛃&#E0E0E0/sách'
+    - ' &#fcfcfc❖ &#E0E0E0Độ hiếm: &#AEC6CFNâng cao'
+    - ''
+    - '&#AEC6CF▶ &#E0E0E0Nhấn để chọn số lượng mua'
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] fastce_sieuhiem'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] fastce_sieuhiem'
+
+  'suthi':
+    material: YELLOW_DYE
+    slot: 14
+    display_name: '&#FCD05C&lᴘʜù ᴘʜéᴘ sử ᴛʜɪ'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Giá cơ bản: &#57F28750,000 ⛃&#E0E0E0/sách'
+    - ' &#fcfcfc❖ &#E0E0E0Độ hiếm: &#FCD05CCao cấp'
+    - ''
+    - '&#FCD05C▶ &#E0E0E0Nhấn để chọn số lượng mua'
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] fastce_suthi'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] fastce_suthi'
+
+  'huyenthoai':
+    material: ORANGE_DYE
+    slot: 15
+    display_name: '&#FFB7B2&lᴘʜù ᴘʜéᴘ ʜᴜʏềɴ ᴛʜᴏạɪ'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Giá cơ bản: &#57F287250,000 ⛃&#E0E0E0/sách'
+    - ' &#fcfcfc❖ &#E0E0E0Độ hiếm: &#FFB7B2Chuyên gia'
+    - ''
+    - '&#FFB7B2▶ &#E0E0E0Nhấn để chọn số lượng mua'
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] fastce_huyenthoai'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] fastce_huyenthoai'
+
+  'thanthoai':
+    material: PINK_DYE
+    slot: 16
+    display_name: '&#BDB2FF&lᴘʜù ᴘʜéᴘ ᴛʜầɴ ᴛʜᴏạɪ'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Giá cơ bản: &#57F287400,000 ⛃&#E0E0E0/sách'
+    - ' &#fcfcfc❖ &#E0E0E0Độ hiếm: &#BDB2FFTối thượng'
+    - ''
+    - '&#BDB2FF▶ &#E0E0E0Nhấn để chọn số lượng mua'
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] fastce_thanthoai'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] fastce_thanthoai'

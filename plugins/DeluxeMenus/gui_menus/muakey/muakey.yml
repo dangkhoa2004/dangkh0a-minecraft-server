@@ -1,0 +1,27 @@
+open_command: muakey
+register_command: true
+size: 27
+menu_title: 'Mua key'
+
+items:
+
+  'filler':
+    material: GRAY_STAINED_GLASS_PANE
+    display_name: "&f"
+    damage: 1
+    slots: [0-26]
+
+  'pointkey':
+    material: tripwire_hook
+    slot: 12
+    display_name: "&a&lMua key bằng points"
+    click_commands:
+    - '[player] muakeypoints'
+  'xukey':
+    material: tripwire_hook
+    slot: 14
+    display_name: "&a&lMua key bằng bằng xu"
+    click_commands:
+    - '[player] muakeyxu'
+      
+  

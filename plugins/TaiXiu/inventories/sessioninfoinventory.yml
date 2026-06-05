@@ -1,0 +1,162 @@
+#
+#     ______   ______     __        __  __     __     __  __
+#    /\__  _\ /\  __ \   /\ \      /\_\_\_\   /\ \   /\ \/\ \
+#    \/_/\ \/ \ \  __ \  \ \ \     \/_/\_\/_  \ \ \  \ \ \_\ \
+#       \ \_\  \ \_\ \_\  \ \_\      /\_\/\_\  \ \_\  \ \_____\
+#        \/_/   \/_/\/_/   \/_/      \/_/\/_/   \/_/   \/_____/
+#
+#  Author: Cortez_Romeo
+#  Download this plugin for free at:
+#  https://minecraftvn.net
+#  https://www.spigotmc.org/
+#
+#  Discord: https://discord.gg/NWbTVddmBM
+#
+#  Note:
+#  * Hex color supported
+#  * There are 3 main types:
+#    + material: value is set to the MATERIAL of the block
+#      > For versions before 1.13, you can use numeric IDs in 'value:' and 'data:'
+#          Example: (value: 95 | data: 1) [https://minecraft-ids.grahamedgecombe.com/]
+#      > For versions after 1.12.2, use the material name directly (no 'data:' needed)
+#          Example: (value: BOOK) [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html]
+#    + playerhead: used for "bet-player:" item to display player head
+#    + customhead: See below
+#      + How to use custom-head:
+#          Step 1: Go to a desired custom-head at https://minecraft-heads.com/custom-heads/
+#          Step 2: Scroll to the bottom, under "Other", copy the "Value:"
+#                  Paste it into the "value:" field of your desired item
+
+title: '&#FCD05C❁ ᴛʜôɴɢ ᴛɪɴ ᴘʜɪêɴ: &#E0E0E0#%session% ❁'
+items:
+  border:
+    type: material
+    value: WHITE_STAINED_GLASS_PANE
+    data: 0
+    name: ' '
+    lore:
+    - ''
+  nextPage:
+    name: '&#57F287ᴛʀᴀɴɢ ѕᴀᴜ ▶'
+    slot: 8
+    type: material
+    value: ARROW
+    data: 0
+    lore:
+    - '&#E0E0E0ᴄʜᴜʏểɴ ѕᴀɴɢ ᴛʀᴀɴɢ &#FFD700%nextPage%'
+  prevPage:
+    name: '&#FFB7B2◀ ᴛʀᴀɴɢ ᴛʀướᴄ'
+    slot: 0
+    type: material
+    value: ARROW
+    data: 0
+    lore:
+    - '&#E0E0E0ǫᴜᴀʏ ʟạɪ ᴛʀᴀɴɢ &#FFD700%prevPage%'
+  sortItems:
+    name: '&#AEC6CF&lʟọᴄ ᴅᴀɴʜ ѕáᴄʜ'
+    slot: 3
+    type: material
+    value: OAK_SIGN
+    data: 0
+    lore:
+      all:
+      - ''
+      - '&#E0E0E0ѕắᴘ xếᴘ ᴅᴀɴʜ ѕáᴄʜ ɴɢườɪ ᴄʜơɪ.'
+      - ''
+      - '&#57F287▶ ᴛấᴛ ᴄả'
+      - '&#fcfcfc❖ ɴɢườɪ ᴄượᴄ ᴛàɪ'
+      - '&#fcfcfc❖ ɴɢườɪ ᴄượᴄ xỉᴜ'
+      - '&#fcfcfc❖ ᴛổɴɢ ᴄượᴄ ɢɪảᴍ ᴅầɴ'
+      - '&#fcfcfc❖ ᴛổɴɢ ᴄượᴄ ᴛăɴɢ ᴅầɴ'
+      - ''
+      - '&#FFD700⭐ ɴʜấɴ ᴄʜᴜộᴛ để đổɪ'
+      taiPlayers:
+      - ''
+      - '&#E0E0E0ѕắᴘ xếᴘ ᴅᴀɴʜ ѕáᴄʜ ɴɢườɪ ᴄʜơɪ.'
+      - ''
+      - '&#fcfcfc❖ ᴛấᴛ ᴄả'
+      - '&#57F287▶ ɴɢườɪ ᴄượᴄ ᴛàɪ'
+      - '&#fcfcfc❖ ɴɢườɪ ᴄượᴄ xỉᴜ'
+      - '&#fcfcfc❖ ᴛổɴɢ ᴄượᴄ ɢɪảᴍ ᴅầɴ'
+      - '&#fcfcfc❖ ᴛổɴɢ ᴄượᴄ ᴛăɴɢ ᴅầɴ'
+      - ''
+      - '&#FFD700⭐ ɴʜấɴ ᴄʜᴜộᴛ để đổɪ'
+      xiuPlayers:
+      - ''
+      - '&#E0E0E0ѕắᴘ xếᴘ ᴅᴀɴʜ ѕáᴄʜ ɴɢườɪ ᴄʜơɪ.'
+      - ''
+      - '&#fcfcfc❖ ᴛấᴛ ᴄả'
+      - '&#fcfcfc❖ ɴɢườɪ ᴄượᴄ ᴛàɪ'
+      - '&#57F287▶ ɴɢườɪ ᴄượᴄ xỉᴜ'
+      - '&#fcfcfc❖ ᴛổɴɢ ᴄượᴄ ɢɪảᴍ ᴅầɴ'
+      - '&#fcfcfc❖ ᴛổɴɢ ᴄượᴄ ᴛăɴɢ ᴅầɴ'
+      - ''
+      - '&#FFD700⭐ ɴʜấɴ ᴄʜᴜộᴛ để đổɪ'
+      highestCurrency:
+      - ''
+      - '&#E0E0E0ѕắᴘ xếᴘ ᴅᴀɴʜ ѕáᴄʜ ɴɢườɪ ᴄʜơɪ.'
+      - ''
+      - '&#fcfcfc❖ ᴛấᴛ ᴄả'
+      - '&#fcfcfc❖ ɴɢườɪ ᴄượᴄ ᴛàɪ'
+      - '&#fcfcfc❖ ɴɢườɪ ᴄượᴄ xỉᴜ'
+      - '&#57F287▶ ᴛổɴɢ ᴄượᴄ ɢɪảᴍ ᴅầɴ'
+      - '&#fcfcfc❖ ᴛổɴɢ ᴄượᴄ ᴛăɴɢ ᴅầɴ'
+      - ''
+      - '&#FFD700⭐ ɴʜấɴ ᴄʜᴜộᴛ để đổɪ'
+      lowestCurrency:
+      - ''
+      - '&#E0E0E0ѕắᴘ xếᴘ ᴅᴀɴʜ ѕáᴄʜ ɴɢườɪ ᴄʜơɪ.'
+      - ''
+      - '&#fcfcfc❖ ᴛấᴛ ᴄả'
+      - '&#fcfcfc❖ ɴɢườɪ ᴄượᴄ ᴛàɪ'
+      - '&#fcfcfc❖ ɴɢườɪ ᴄượᴄ xỉᴜ'
+      - '&#fcfcfc❖ ᴛổɴɢ ᴄượᴄ ɢɪảᴍ ᴅầɴ'
+      - '&#57F287▶ ᴛổɴɢ ᴄượᴄ ᴛăɴɢ ᴅầɴ'
+      - ''
+      - '&#FFD700⭐ ɴʜấɴ ᴄʜᴜộᴛ để đổɪ'
+  close:
+    name: '&#FFB7B2&l✖ đóɴɢ ᴍᴇɴᴜ'
+    slot: 4
+    type: material
+    value: BARRIER
+    data: 0
+    lore:
+    - '&#E0E0E0ɴʜấɴ ᴠàᴏ đâʏ để đóɴɢ'
+  sessionInfo:
+    name: '&#FCD05C&lᴛʜôɴɢ ᴛɪɴ ᴘʜɪêɴ'
+    slot: 5
+    type: material
+    value: BOOK
+    data: 0
+    lore:
+      playing:
+      - '&#fcfcfcᴄòɴ ʟạɪ &#FFD700%time% ɢɪâʏ &#fcfcfcđể ʀᴀ ᴋếᴛ ǫᴜả.'
+      - ''
+      - '&#fcfcfc❖ ᴘʜɪêɴ ᴄượᴄ ѕố: &#FCD05C#%session%'
+      - '&#fcfcfc❖ ᴛɪềɴ ᴛệ: %currencyName%'
+      - '&#fcfcfc❖ &#B9FBC0xỉᴜ&#fcfcfc: &#FFD700%xiuPlayerNumber% &#E0E0E0ɴɢườɪ &#57F287(%currencySymbol%%xiuTotalBet%)'
+      - '&#fcfcfc❖ &#FFB7B2ᴛàɪ&#fcfcfc: &#FFD700%taiPlayerNumber% &#E0E0E0ɴɢườɪ &#57F287(%currencySymbol%%taiTotalBet%)'
+      - '&#fcfcfc❖ ᴛổɴɢ ᴄượᴄ ᴘʜɪêɴ: &#57F287%currencySymbol%%totalBet%'
+      ending:
+      - '&#E0E0E0ᴘʜɪêɴ ɴàʏ đã ᴋếᴛ ᴛʜúᴄ!'
+      - ''
+      - '&#fcfcfc❖ ᴘʜɪêɴ ᴄượᴄ ѕố: &#FCD05C#%session%'
+      - '&#fcfcfc❖ ᴛɪềɴ ᴛệ: %currencyName%'
+      - '&#fcfcfc❖ &#B9FBC0xỉᴜ&#fcfcfc: &#FFD700%xiuPlayerNumber% &#E0E0E0ɴɢườɪ &#57F287(%currencySymbol%%xiuTotalBet%)'
+      - '&#fcfcfc❖ &#FFB7B2ᴛàɪ&#fcfcfc: &#FFD700%taiPlayerNumber% &#E0E0E0ɴɢườɪ &#57F287(%currencySymbol%%taiTotalBet%)'
+      - '&#fcfcfc❖ ᴛổɴɢ ᴄượᴄ ᴘʜɪêɴ: &#57F287%currencySymbol%%totalBet%'
+      - '&#fcfcfc❖ ɴɢườɪ ăɴ ɴʜɪềᴜ ɴʜấᴛ: %bestWinners%'
+      - ''
+      - '&#E0E0E0▶ xúᴄ xắᴄ 1: &#FCD05C%dice1%'
+      - '&#E0E0E0▶ xúᴄ xắᴄ 2: &#FCD05C%dice2%'
+      - '&#E0E0E0▶ xúᴄ xắᴄ 3: &#FCD05C%dice3%'
+      - ''
+      - '&#57F287⭐ ᴋếᴛ ǫᴜả ᴄʜᴜɴɢ ᴄᴜộᴄ: %result%'
+  betPlayer:
+    name: '&#FFD700&l%playerName%'
+    type: material
+    data: 0
+    lore:
+    - ''
+    - '&#fcfcfc❖ ᴄửᴀ ᴄượᴄ: %bet%'
+    - '&#fcfcfc❖ ѕố ᴛɪềɴ ᴄượᴄ: &#57F287%currencySymbol%%amountBet%'

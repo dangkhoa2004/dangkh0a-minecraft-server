@@ -1,0 +1,95 @@
+# DeluxeTags messages.yml
+# Edit the plugin messages to your liking!
+
+cmd:
+  no_permission: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5để
+    ʟàᴍ đɪềᴜ ɴàʏ!
+  target_not_online: §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴋʜôɴɢ ᴏɴʟɪɴᴇ!
+  no_tags_loaded: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴄó ᴛᴀɢ ɴàᴏ đượᴄ ᴛảɪ!
+  no_tags_available: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴄó ѕẵɴ ᴛᴀɢ ɴàᴏ!
+  no_tags_available_target: §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴋʜôɴɢ ᴄó ѕẵɴ ᴛᴀɢ ɴàᴏ!
+  tag_list_fail: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴄó ᴛᴀɢ ɴàᴏ đượᴄ ᴛảɪ.
+  tag_list_fail_target: §x§E§D§4§2§4§5{0} ᴋʜôɴɢ ᴄó ᴛᴀɢ ɴàᴏ đượᴄ ᴛảɪ.
+  tags_list: '§x§F§F§D§7§0§0{0} §x§5§7§F§2§8§7ᴛᴀɢ ᴄó ѕẵɴ: §x§F§F§F§F§F§F{1}'
+  tags_list_all: '§x§F§F§D§7§0§0{0} §x§5§7§F§2§8§7ᴛổɴɢ ѕố ᴛᴀɢ đượᴄ ᴛảɪ: §x§F§F§F§F§F§F{1}'
+  tags_list_others: '§x§F§F§D§7§0§0{0} §x§5§7§F§2§8§7ᴄó §x§F§F§F§F§F§F{1} §x§5§7§F§2§8§7ᴛổɴɢ
+    ѕố ᴛᴀɢ đượᴄ ᴛảɪ: §x§F§F§F§F§F§F{2}'
+  tag_select_incorrect_usage: §x§E§D§4§2§4§5ѕᴀɪ ᴄú ᴘʜáᴘ! §x§A§A§A§A§A§A/tags select
+    <tên_tag>
+  tag_select_success: '§x§5§7§F§2§8§7ᴛᴀɢ ᴄủᴀ ʙạɴ đã đượᴄ đặᴛ ᴛʜàɴʜ: &r{1}'
+  tag_select_invalid_name: §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴋʜôɴɢ ᴘʜảɪ ʟà ᴛêɴ ᴛᴀɢ ʜợᴘ
+    ʟệ!
+  tag_select_already_set: §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5đã ʟà ᴛᴀɢ ʜɪệɴ ᴛạɪ ᴄủᴀ ʙạɴ
+    ʀồɪ!
+  help_title: §x§5§8§6§5§F§2&lᴅᴇʟᴜxᴇᴛᴀɢѕ §x§F§F§F§F§F§F&oᴛʀợ ɢɪúᴘ
+  help_color: §x§A§A§A§A§A§A> §x§5§8§6§5§F§2&l
+  help_tags: §x§F§F§F§F§F§F&oᴍở ᴍᴇɴᴜ ᴛᴀɢѕ ᴄủᴀ ʙạɴ
+  help_list: §x§F§F§F§F§F§F&oxᴇᴍ ᴄáᴄ ᴛᴀɢ ʙạɴ ᴄó ѕẵɴ
+  help_select: §x§F§F§F§F§F§F&oᴄʜọɴ ᴍộᴛ ᴛᴀɢ ʟàᴍ ᴛᴀɢ ʜᴏạᴛ độɴɢ
+  help_admin_set: §x§F§F§F§F§F§F&ođặᴛ ᴛᴀɢ ᴄʜᴏ ɴɢườɪ ᴄʜơɪ
+  help_admin_clear: §x§F§F§F§F§F§F&oxóᴀ ᴛᴀɢ ᴄủᴀ ɴɢườɪ ᴄʜơɪ
+  help_admin_create: §x§F§F§F§F§F§F&oᴛạᴏ ᴍộᴛ ᴛᴀɢ ᴍớɪ
+  help_admin_delete: §x§F§F§F§F§F§F&oxóᴀ ᴍộᴛ ᴛᴀɢ đã ᴄó
+  help_admin_setdesc: §x§F§F§F§F§F§F&ođặᴛ ᴍô ᴛả ᴄʜᴏ ᴛᴀɢ
+  help_admin_setorder: §x§F§F§F§F§F§F&oᴛʜᴀʏ đổɪ ᴛʜứ ᴛự ᴄủᴀ ᴛᴀɢ
+  help_admin_setdisplay: §x§F§F§F§F§F§F&oᴛʜᴀʏ đổɪ ʜɪểɴ ᴛʜị ᴄủᴀ ᴛᴀɢ
+  help_version: §x§F§F§F§F§F§F&oxᴇᴍ ᴛʜôɴɢ ᴛɪɴ ᴘʜɪêɴ ʙảɴ ᴠà ᴛáᴄ ɢɪả
+  help_reload: §x§F§F§F§F§F§F&oᴛảɪ ʟạɪ ᴄấᴜ ʜìɴʜ ᴛᴀɢѕ
+  admin_set_incorrect_usage: §x§E§D§4§2§4§5ѕᴀɪ ᴄú ᴘʜáᴘ! §x§A§A§A§A§A§A/tags set <người_chơi>
+    <tag>
+  admin_set_no_tags_avail: §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴋʜôɴɢ ᴄó ѕẵɴ ᴛᴀɢ ɴàᴏ!
+  admin_set_success: '§x§5§7§F§2§8§7ᴛᴀɢ ᴄủᴀ §x§F§F§D§7§0§0{0} §x§5§7§F§2§8§7đã đượᴄ
+    đặᴛ ᴛʜàɴʜ: {1} §x§A§A§A§A§A§A({2}§x§A§A§A§A§A§A)'
+  admin_set_success_to_target: §x§5§7§F§2§8§7ᴛᴀɢ ᴄủᴀ ʙạɴ đã đượᴄ đặᴛ ᴛʜàɴʜ §x§F§F§D§7§0§0{1}
+    §x§5§7§F§2§8§7ʙởɪ §x§F§F§D§7§0§0{2}
+  admin_set_success_fail: §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴋʜôɴɢ ᴘʜảɪ ʟà ᴛᴀɢ ʜợᴘ ʟệ
+    ᴄʜᴏ §x§F§F§D§7§0§0{1}§x§E§D§4§2§4§5!
+  admin_clear_incorrect_usage: §x§E§D§4§2§4§5ѕᴀɪ ᴄú ᴘʜáᴘ! §x§A§A§A§A§A§A/tags clear
+    <người_chơi>
+  admin_clear_no_tag_set: §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴄʜưᴀ đượᴄ đặᴛ ᴛᴀɢ ɴàᴏ!
+  admin_clear_success: §x§5§7§F§2§8§7ᴛᴀɢ ᴄủᴀ §x§F§F§D§7§0§0{0} §x§5§7§F§2§8§7đã đượᴄ
+    xóᴀ ʙỏ!
+  admin_clear_success_to_target: §x§5§7§F§2§8§7ᴛᴀɢ ᴄủᴀ ʙạɴ đã ʙị xóᴀ ʙởɪ §x§F§F§D§7§0§0{0}
+  admin_create_tag_incorrect_usage: §x§E§D§4§2§4§5ѕᴀɪ ᴄú ᴘʜáᴘ! §x§A§A§A§A§A§A/tags
+    create <id> <tag>
+  admin_create_tag_success: '§x§5§7§F§2§8§7đã ᴛạᴏ ᴛᴀɢ§x§A§A§A§A§A§A: §x§F§F§D§7§0§0{0}§x§A§A§A§A§A§A:§x§F§F§F§F§F§F{1}'
+  admin_create_tag_fail: §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5đã ʟà ᴛêɴ ᴛᴀɢ đượᴄ ᴛảɪ ʀồɪ!
+  admin_delete_tag_incorrect_usage: §x§E§D§4§2§4§5ѕᴀɪ ᴄú ᴘʜáᴘ! §x§A§A§A§A§A§A/tags
+    delete <id>
+  admin_delete_tag_success: §x§5§7§F§2§8§7ᴛᴀɢ §x§F§F§D§7§0§0{0} §x§5§7§F§2§8§7đã ʙị
+    xóᴀ!
+  admin_delete_tag_fail: §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴋʜôɴɢ ᴘʜảɪ ʟà ᴛêɴ ᴛᴀɢ đượᴄ
+    ᴛảɪ!
+  admin_set_description_incorrect_usage: §x§E§D§4§2§4§5ѕᴀɪ ᴄú ᴘʜáᴘ! §x§A§A§A§A§A§A/tags
+    setdesc <id> <mô_tả>
+  admin_set_description_success: '§x§5§7§F§2§8§7ᴍô ᴛả ᴄủᴀ §x§F§F§D§7§0§0{0} §x§5§7§F§2§8§7đượᴄ
+    đặᴛ ᴛʜàɴʜ§x§A§A§A§A§A§A: §x§F§F§F§F§F§F{2}'
+  admin_set_description_fail: §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴋʜôɴɢ ᴘʜảɪ ʟà ᴛêɴ ᴛᴀɢ
+    đượᴄ ᴛảɪ!
+  admin_set_order_incorrect_usage: §x§E§D§4§2§4§5ѕᴀɪ ᴄú ᴘʜáᴘ! §x§A§A§A§A§A§A/tags
+    setorder <id> <thứ_tự>
+  admin_set_order_success: '§x§5§7§F§2§8§7ᴛʜứ ᴛự §x§F§F§D§7§0§0{0}§x§5§7§F§2§8§7 đượᴄ
+    đặᴛ ᴄʜᴏ§x§A§A§A§A§A§A: §x§F§F§F§F§F§F{1}'
+  admin_set_order_fail: §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴋʜôɴɢ ᴘʜảɪ ʟà ᴛêɴ ᴛᴀɢ đượᴄ
+    ᴛảɪ!
+  admin_set_order_not_a_number: §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴋʜôɴɢ ᴘʜảɪ ʟà ᴛʜứ
+    ᴛự ʜợᴘ ʟệ! ɴó ᴘʜảɪ ʟà ᴍộᴛ ᴄᴏɴ ѕố.
+  admin_set_order_already_exists: §x§E§D§4§2§4§5ᴛʜứ ᴛự §x§F§F§D§7§0§0{0}§x§E§D§4§2§4§5
+    đã đượᴄ ѕử ᴅụɴɢ.
+  admin_set_display_incorrect_usage: §x§E§D§4§2§4§5ѕᴀɪ ᴄú ᴘʜáᴘ! §x§A§A§A§A§A§A/tags
+    setdisplay <id> <hiển_thị>
+  admin_set_display_success: '§x§5§7§F§2§8§7ʜɪểɴ ᴛʜị ᴄủᴀ §x§F§F§D§7§0§0{0} §x§5§7§F§2§8§7đượᴄ
+    đặᴛ ᴛʜàɴʜ§x§A§A§A§A§A§A: §x§F§F§F§F§F§F{1}'
+  admin_set_display_fail: §x§F§F§D§7§0§0{0} §x§E§D§4§2§4§5ᴋʜôɴɢ ᴘʜảɪ ʟà ᴛêɴ ᴛᴀɢ đượᴄ
+    ᴛảɪ!
+  admin_reload: §x§5§7§F§2§8§7ᴛảɪ ʟạɪ ᴄấᴜ ʜìɴʜ ᴛʜàɴʜ ᴄôɴɢ! đᴀɴɢ ᴛảɪ §x§F§F§D§7§0§0{0}
+    §x§5§7§F§2§8§7ᴛᴀɢѕ!
+  incorrect_usage: §x§E§D§4§2§4§5ѕᴀɪ ᴄú ᴘʜáᴘ! ᴅùɴɢ §x§A§A§A§A§A§A/tags help
+gui:
+  placeholders:
+    tag:
+      available: §x§5§7§F§2§8§7ᴄó ѕẵɴ
+      unavailable: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴄó ѕẵɴ
+  tag_selected: §x§5§7§F§2§8§7ᴛᴀɢ ᴄủᴀ ʙạɴ đã đượᴄ đặᴛ ᴛʜàɴʜ §x§F§F§D§7§0§0{0} §x§A§A§A§A§A§A({1}§x§A§A§A§A§A§A)
+  tag_disabled: §x§A§A§A§A§A§Aᴛᴀɢ ᴄủᴀ ʙạɴ đã ʙị ᴠô ʜɪệᴜ ʜóᴀ!
+  page_error: §x§E§D§4§2§4§5đã ᴄó ʟỗɪ xảʏ ʀᴀ ᴋʜɪ ʟấʏ ѕố ᴛʀᴀɴɢ ᴛʀướᴄ!

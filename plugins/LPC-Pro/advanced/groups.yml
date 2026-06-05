@@ -1,0 +1,212 @@
+# LPC Pro V2 - Groups Configuration
+# This file controls per-group chat settings (VIP tiers, staff, etc.)
+
+# ===========================================
+# General Settings
+# ===========================================
+enabled: false
+
+# How to determine group: PERMISSION, LUCKPERMS_GROUP, VAULT_GROUP
+# PERMISSION: Check for lpcpro.group.<name> permission
+# LUCKPERMS_GROUP: Use LuckPerms primary group (group names below must match LuckPerms group names)
+# VAULT_GROUP: Use Vault primary group
+detection-mode: "LUCKPERMS_GROUP"
+
+# ===========================================
+# Default Settings
+# ===========================================
+# Applied to players who don't match any group below
+default:
+  message-cooldown: 3
+  command-cooldown: 1
+  max-mentions: 3
+  max-message-length: 256
+  can-use-colors: false
+  can-use-formatting: false
+  can-use-gradients: false
+  # Chat prefix: leave empty "" to use LuckPerms/Vault prefix instead
+  chat-prefix: ""
+
+# ===========================================
+# Group Definitions
+# ===========================================
+# Groups are checked in order of priority (highest first)
+# First matching group is used
+#
+# NOTE: When using LUCKPERMS_GROUP detection mode, the group name (e.g. "owner:")
+# must match your LuckPerms group name exactly.
+#
+# TIP: Set chat-prefix to "" (empty) to use prefixes from LuckPerms instead.
+# Example: /lp group owner meta setprefix 100 "<red>[Owner]</red>"
+
+groups:
+  # ===========================================
+  # Staff Groups
+  # ===========================================
+  owner:
+    priority: 1000
+    permission: "lpcpro.group.owner"
+    message-cooldown: 0
+    command-cooldown: 0
+    max-mentions: -1
+    max-message-length: -1
+    can-use-colors: true
+    can-use-formatting: true
+    can-use-gradients: true
+    bypass-moderation: true
+    bypass-slowmode: true
+    bypass-mute: true
+    chat-prefix: ""
+
+  developer:
+    priority: 900
+    permission: "lpcpro.group.developer"
+    message-cooldown: 0
+    command-cooldown: 0
+    max-mentions: -1
+    max-message-length: -1
+    can-use-colors: true
+    can-use-formatting: true
+    can-use-gradients: true
+    bypass-moderation: true
+    bypass-slowmode: true
+    bypass-mute: true
+    chat-prefix: ""
+
+  admin:
+    priority: 800
+    permission: "lpcpro.group.admin"
+    message-cooldown: 0
+    command-cooldown: 0
+    max-mentions: -1
+    max-message-length: 1000
+    can-use-colors: true
+    can-use-formatting: true
+    can-use-gradients: true
+    bypass-moderation: true
+    bypass-slowmode: true
+    bypass-mute: true
+    chat-prefix: ""
+
+  mod:
+    priority: 700
+    permission: "lpcpro.group.mod"
+    message-cooldown: 0
+    command-cooldown: 0
+    max-mentions: 15
+    max-message-length: 512
+    can-use-colors: true
+    can-use-formatting: true
+    can-use-gradients: false
+    bypass-moderation: false
+    bypass-slowmode: true
+    bypass-mute: false
+    chat-prefix: ""
+
+  helper:
+    priority: 600
+    permission: "lpcpro.group.helper"
+    message-cooldown: 0
+    command-cooldown: 0
+    max-mentions: 10
+    max-message-length: 512
+    can-use-colors: true
+    can-use-formatting: true
+    can-use-gradients: false
+    bypass-moderation: false
+    bypass-slowmode: true
+    bypass-mute: false
+    chat-prefix: ""
+
+  builder:
+    priority: 500
+    permission: "lpcpro.group.builder"
+    message-cooldown: 1
+    command-cooldown: 0
+    max-mentions: 8
+    max-message-length: 400
+    can-use-colors: true
+    can-use-formatting: true
+    can-use-gradients: false
+    bypass-moderation: false
+    bypass-slowmode: false
+    bypass-mute: false
+    chat-prefix: ""
+
+  # ===========================================
+  # Donator / VIP Groups
+  # ===========================================
+  mvp_plus:
+    priority: 400
+    permission: "lpcpro.group.mvpplus"
+    message-cooldown: 0
+    command-cooldown: 0
+    max-mentions: 10
+    max-message-length: 500
+    can-use-colors: true
+    can-use-formatting: true
+    can-use-gradients: true
+    chat-prefix: ""
+
+  mvp:
+    priority: 350
+    permission: "lpcpro.group.mvp"
+    message-cooldown: 1
+    command-cooldown: 0
+    max-mentions: 8
+    max-message-length: 450
+    can-use-colors: true
+    can-use-formatting: true
+    can-use-gradients: true
+    chat-prefix: ""
+
+  vip_plus:
+    priority: 300
+    permission: "lpcpro.group.vipplus"
+    message-cooldown: 1
+    command-cooldown: 0
+    max-mentions: 6
+    max-message-length: 400
+    can-use-colors: true
+    can-use-formatting: true
+    can-use-gradients: false
+    chat-prefix: ""
+
+  vip:
+    priority: 250
+    permission: "lpcpro.group.vip"
+    message-cooldown: 2
+    command-cooldown: 1
+    max-mentions: 5
+    max-message-length: 350
+    can-use-colors: true
+    can-use-formatting: false
+    can-use-gradients: false
+    chat-prefix: ""
+
+  # ===========================================
+  # Regular Player Groups
+  # ===========================================
+  trusted:
+    priority: 150
+    permission: "lpcpro.group.trusted"
+    message-cooldown: 2
+    command-cooldown: 1
+    max-mentions: 4
+    max-message-length: 300
+    can-use-colors: true
+    can-use-formatting: false
+    can-use-gradients: false
+    chat-prefix: ""
+
+  member:
+    priority: 100
+    permission: "lpcpro.group.member"
+    message-cooldown: 3
+    command-cooldown: 1
+    max-mentions: 3
+    max-message-length: 256
+    can-use-colors: false
+    can-use-formatting: false
+    can-use-gradients: false
+    chat-prefix: ""

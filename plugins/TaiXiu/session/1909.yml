@@ -1,0 +1,9 @@
+data:
+  session: 1909
+  dice1: 5
+  dice2: 4
+  dice3: 4
+  result: TAI
+  currency: VAULT
+  taiPlayers:
+    hazumi: 100000000

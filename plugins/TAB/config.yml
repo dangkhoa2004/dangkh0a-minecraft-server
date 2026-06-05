@@ -1,0 +1,302 @@
+header-footer:
+  enabled: true
+  designs:
+    default:
+      display-condition: '%world%!=disabledworld;%server%!=disabledserver'
+      header:
+      - ''
+      - '&#BDB2FF&l❁ ᴡɪʙᴜʟᴀɴᴅ ❁'
+      - '&#E0E0E0sᴜʀᴠɪᴠᴀʟ ᴄʜɪʟʟ &8• &#E0E0E0xâʏ ᴅựɴɢ &8• &#E0E0E0ᴋʜáᴍ ᴘʜá'
+      - ''
+      - '&#fcfcfc❖ ᴏɴʟɪɴᴇ: &#57F287%server_online% &#888888| &#fcfcfcᴘɪɴɢ: &#FCD05C%player_ping%ᴍs'
+      - ''
+      footer:
+      - ''
+      - '&#AEC6CF💬 &#fcfcfcᴅɪsᴄᴏʀᴅ: &#BDB2FFdiscord.gg/tDsSHDHPps'
+      - '&#57F287🌐 &#fcfcfcᴡᴇʙsɪᴛᴇ: &#BDB2FFdangkh0a.io.vn'
+      #- '%animation:Labels%'
+      #- ''
+      #- '%animation:InfoText%'
+      #- ''
+      #- '%animation:ProgressBar%'
+      #- ''
+      - '&#E0E0E0ʙạɴ đᴀɴɢ ᴄʜơɪ ᴛạɪ'
+      - '&#BDB2FF&lᴘʟᴀʏ.ᴡɪʙᴜʟᴀɴᴅ.ᴠɴ'
+      - ''
+  #default:
+  #  display-condition: '%world%!=disabledworld;%server%!=disabledserver'
+  #  header:
+  #  - ''
+  #  - '%animation:server%'
+  #  - ''
+  #  - '&7Survival chill • Xây dựng • Khám phá'
+  #  - ''
+  #  - '&7online: &f%server_online%  | &7Ping: &f%player_ping%'
+  #  - ''
+  #  footer:
+  #  - ''
+  #  - '&#006EFF💬 &fTham gia Discord: &#e0c2ffdiscord.gg/tDsSHDHPps'
+  #  - '&#006EFF🌐 &fGhé thăm Website: &#d6c2ffwww.dangkh0a.io.vn'
+  #  - ''
+  #  - '&7Bạn đang chơi tại'
+  #  - '%animation:ip%'
+  #  - ''
+tablist-name-formatting:
+  enabled: true
+  disable-condition: '%world%=disabledworld|%server%=disabledserver'
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  sorting-types:
+  - GROUPS:owner,admin,helper,mod,elite,king,donate,mvp,beauty,vip,builder,default,member,user
+  - PLACEHOLDER_A_TO_Z:%bedrock%
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  can-see-friendly-invisibles: false
+  disable-condition: '%world%=disabledworld|%server%=disabledserver'
+belowname-objective:
+  enabled: false
+  disable-condition: '%world%=disabledworld|%server%=disabledserver'
+  fancy-value-default: NPC
+  fancy-value: '&c%health%'
+  value: '%health%'
+  title: '&cHealth'
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: true
+  hidden-by-default: false
+  bars:
+    Server:
+      style: PROGRESS
+      color: '%animation:barcolors%'
+      progress: '100'
+      text: X2 nạp từ 23-27
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: true
+  hidden-by-default: false
+  delay-on-join-milliseconds: 0
+  scoreboards:
+    toi-gian:
+      display-condition: "%player_has_permission_sco.toigian%=yes"
+      title: '&#BDB2FF&l❁ ᴡɪʙᴜʟᴀɴᴅ ❁'
+      lines:
+      - '&r &#BDB2FF&l%player_name%'
+      - '  &#fcfcfc⭐ &#fcfcfc%luckperms_prefix%'
+      - '  &#fcfcfc$ &#57F287$%vault_eco_balance_formatted%'
+      - '  &#fcfcfc🪙 &#FFD700%playerpoints_points%'
+      - '  &#fcfcfc⚔ &#ED4245%statistic_player_kills%'
+      - '  &#fcfcfc💀 &#888888%statistic_deaths%'
+      - '  &#fcfcfc🧊 &#AEC6CF%griefprevention_remainingclaims%'
+      - '  &#fcfcfc🏠 &#FCD05C%changeoutput_equals_input:{griefprevention_currentclaim_ownername}_matcher:Unclaimed_ifmatch:&#FCD05CVùng Hoang Dã_else:{griefprevention_currentclaim_ownername}%'
+      - '&#888888ᴘʟᴀʏ.ᴡɪʙᴜʟᴀɴᴅ.ᴠɴ'
+    sur:
+      display-condition: "%player_has_permission_sco.sur.1%=yes"
+      title: '&#BDB2FF&l❁ ᴡɪʙᴜʟᴀɴᴅ ❁'
+      lines:
+      - '&#888888⌚ %server_time_HH:mm% ﹣ %server_time_dd/MM%'
+      - ''
+      - '&#BDB2FF&l%player_name%'
+      - ' &#fcfcfc❖ &#E0E0E0ʀᴀɴᴋ: %luckperms_prefix%'
+      - ' &#fcfcfc❖ &#E0E0E0ᴛɪềɴ: &#57F287%vault_eco_balance_formatted% ⛃'
+      - ' &#fcfcfc❖ &#E0E0E0ᴘᴏɪɴᴛ: &#FFD700%playerpoints_points% ✪'
+      - ''
+      - '&#FFB7B2&lᴛʜốɴɢ ᴋê'
+      - ' &#fcfcfc❖ &#E0E0E0ᴋɪʟʟs: &#ED4245%statistic_player_kills% 🗡'
+      - ' &#fcfcfc❖ &#E0E0E0ᴅᴇᴀᴛʜs: &#888888%statistic_deaths% ☠'
+      - ' &#fcfcfc❖ &#E0E0E0ʙʟᴏᴄᴋs: &#AEC6CF%griefprevention_remainingclaims% 🧊'
+      - ''
+      - '&#FCD05C&lᴍáʏ ᴄʜủ'
+      - ' &#fcfcfc❖ &#E0E0E0ᴛᴘs: &#57F287%server_tps_1% ⚡'
+      - ' &#fcfcfc❖ &#E0E0E0ᴄʜủ đấᴛ: &#FCD05C%changeoutput_equals_input:{griefprevention_currentclaim_ownername}_matcher:Unclaimed_ifmatch:&fVùng Hoang Dã_else:{griefprevention_currentclaim_ownername}% 🏠'
+      - ' &#fcfcfc❖ &#E0E0E0ʙɪᴏᴍᴇ: &#AEC6CF%player_biome%'
+      - ''
+      - '&#888888ᴘʟᴀʏ.ᴡɪʙᴜʟᴀɴᴅ.ᴠɴ'
+    toigian:
+      display-condition: "%player_has_permission_sco.toigian.1%=yes"
+      title: '&#BDB2FF&l❁ ᴡɪʙᴜʟᴀɴᴅ ❁'
+      lines:
+      - ''
+      - '&#BDB2FF&l%player_name%'
+      - ' &#fcfcfc❖ %luckperms_prefix%'
+      - ' &#fcfcfc❖ &#57F287%vault_eco_balance_formatted% ⛃'
+      - ' &#fcfcfc❖ &#FFD700%playerpoints_points% ✪'
+      - ''
+      - '&#FCD05C&lᴛʜốɴɢ ᴋê'
+      - ' &#fcfcfc❖ &#ED4245%statistic_player_kills% 🗡'
+      - ' &#fcfcfc❖ &#888888%statistic_deaths% ☠'
+      - ' &#fcfcfc❖ &#AEC6CF%griefprevention_remainingclaims% 🧊'
+      - ''
+      - '&#888888ᴘʟᴀʏ.ᴡɪʙᴜʟᴀɴᴅ.ᴠɴ'
+    scoreboard:
+      title: '&#BDB2FF&l❁ ᴡɪʙᴜʟᴀɴᴅ ❁'
+      lines:
+      - '&#888888  ⌚  %server_time_HH:mm        dd/MM%'
+      - '&r &#BDB2FF&l%player_name%'
+      - '  &#fcfcfc⭐ &#E0E0E0Rank: &#fcfcfc%luckperms_prefix%'
+      - '  &#fcfcfc$ &#E0E0E0Xu: &#57F287$%vault_eco_balance_formatted%'
+      - '  &#fcfcfc🪙 &#E0E0E0Point: &#FFD700%playerpoints_points%'
+      - '  &#fcfcfc⚔ &#E0E0E0Kill: &#ED4245%statistic_player_kills%'
+      - '  &#fcfcfc💀 &#E0E0E0Death: &#888888%statistic_deaths%'
+      - '  &#fcfcfc🧊 &#E0E0E0Block: &#AEC6CF%griefprevention_remainingclaims%'
+      - '  &#fcfcfc🏠 &#E0E0E0Chủ đất: &#FCD05C%changeoutput_equals_input:{griefprevention_currentclaim_ownername}_matcher:Unclaimed_ifmatch:&#FCD05CVùng Hoang Dã_else:{griefprevention_currentclaim_ownername}%'
+      - '&r &#FCD05C&lMáy chủ &#888888(&#57F287%server_online%&#888888)'
+      - '  &#fcfcfc⚐ &#E0E0E0TPS: &#57F287%server_tps_1%'
+      - '  &#fcfcfc📶 &#E0E0E0ping: &#57F287%player_ping%'
+      - '  &#fcfcfcⓘ &#E0E0E0Biome: '
+      - '    | &#AEC6CF%player_biome%'
+      - '&#888888ᴘʟᴀʏ.ᴡɪʙᴜʟᴀɴᴅ.ᴠɴ'
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%afk%':
+    true: ' &o[AFK]&r'
+    false: ''
+  '%essentials_nickname%':
+    '%essentials_nickname%': '%luckperms_prefix% %player%'
+conditions:
+  nick:
+    conditions:
+    - '%player%=%essentials_nickname%'
+    true: '%luckperms_prefix% %player%'
+    false: ~%essentials_nickname%
+  wilderness:
+    conditions:
+    - '%griefprevention_currentclaim_ownername%=Wilderness'
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  register-tab-expansion: false
+  locale: en-US
+assign-groups-by-permissions: true
+primary-group-finding-list:
+- owner
+- admin
+- mod
+- helper
+- supporter
+- elite
+- king
+- donate
+- mvp
+- beauty
+- vip
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+global-playerlist:
+  enabled: false
+  display-others-as-spectators: false
+  display-vanished-players-as-spectators: true
+  isolate-unlisted-servers: false
+  update-latency: false
+  spy-servers:
+  - spyserver1
+  - spyserver2
+  server-groups:
+    lobbies:
+    - lobby1
+    - lobby2
+    group2:
+    - server1
+    - server2
+use-bukkit-permissions-manager: false
+use-online-uuid-in-tablist: true
+layout:
+  enabled: false
+  direction: COLUMNS
+  default-skin: mineskin:1753261242
+  enable-remaining-players-text: false
+  remaining-players-text: '... and %s more'
+  empty-slot-ping-value: 500
+  layouts:
+    default:
+      fixed-slots:
+      - 1|&f&l       %animation:profile%
+      - '3|&7 &fᴋɪʟʟꜱ: &#006EFF%statistic_player_kills% 🗡'
+      - '4|&7 &fᴅᴇᴀᴛʜꜱ: &#006EFF%statistic_deaths% ☠'
+      - '5|&7 &fᴛɪᴍᴇ ᴘʟᴀʏᴇᴅ: &#006EFF%statistic_time_played:days%d %statistic_time_played:hours%h ⌚'
+      - '6|&7 &fRank: %luckperms_prefix%'
+      - '7|&7 &fPower: &#006EFF%mcmmo_power_level% ✯'
+      - 8|&7 &f
+      - 10|&f&l          Tiền tệ
+      - 11|&7        Số hạng &#006EFF#%essentials_baltop_rank%
+      - '12|&7 &fSố xu: &#006EFF$%vault_eco_balance_commas%'
+      - 13|&7 &f
+      - 14|&f&l
+      - 15|&7
+      - 17|&7 &f
+      - 18|&7 &f
+      - 19|&7 &f
+      - 21|&f&l         ᴘʟᴀʏᴇʀꜱ &7(&#006EFF%online%&7)
+      - 61|&f&l       %animation:info%
+      - 63|&f         %ping%ᴍꜱ ⚡ %server_tps_1%ᴛᴘꜱ
+      - '65|&7 &f☁ ᴏɴʟɪɴᴇ ᴘʟᴀʏᴇʀꜱ: &#006EFF%server_online%/%server_max_players%'
+      - '67|&7 &f↑ ᴜᴘᴛɪᴍᴇ: &#006EFF%server_uptime% ⌛'
+      - '69|&7 &f⏯ ᴠᴇʀꜱɪᴏɴ: &#006EFF%server_version%'
+      - 71|&f&l
+      - '73|&f '
+      - '74|&f '
+      - '75|&f '
+      - 77|&f&l
+      - 79|&f
+      groups:
+        players:
+          slots:
+          - 23-60
+permission-refresh-interval: 1000
+placeholder-refresh-intervals:
+  default-refresh-interval: 500
+  '%server_uptime%': 1000
+  '%server_tps_1_colored%': 1000
+  '%server_unique_joins%': 5000
+  '%player_health%': 200
+  '%player_ping%': 1000
+  '%vault_prefix%': 1000
+  '%rel_factionsuuid_relation_color%': 1000
+proxy-support:
+  enabled: false
+  type: PLUGIN
+  plugin:
+    name: RedisBungee
+  channel-name-suffix: TAB
+compensate-for-packetevents-bug: false
+playerlist-objective:
+  enabled: true
+  value: '%ping%'
+  disable-condition: '%world%=disabledworld|%server%=disabledserver'
+  fancy-value: '&7Ping: %ping%'
+  title: TAB
+  render-type: INTEGER
+config-version: 6
+components:
+  minimessage-support: true
+  disable-shadow-for-heads: true
+ping-spoof:
+  enabled: false

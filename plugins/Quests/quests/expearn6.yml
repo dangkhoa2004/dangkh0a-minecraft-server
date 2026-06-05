@@ -1,0 +1,30 @@
+tasks:
+  expearn:
+    type: "expearn"
+    amount: 2500
+display:
+  name: "&#A3C4F3&nᴋɪɴʜ ɴɢʜɪệᴍ ᴛʜàɴʜ ᴛʜạᴏ:&r &#FDFD96#VI"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+  lore-normal:
+    - "&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ʟàᴍ đɪềᴜ ɢì đó"
+    - "&#D1E8E2ᴛʜᴜ ᴛʜậᴘ ᴋɪɴʜ ɴɢʜɪệᴍ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ."
+    - ""
+    - "&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴛʜᴜ ᴛʜậᴘ ᴋɪɴʜ ɴɢʜɪᴇᴍ (xᴘ)."
+    - "&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{expearn:progress}/2500 xᴘ."
+    - "&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$2100"
+    - ""
+  lore-started:
+    - "&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ."
+  type: "EXPERIENCE_BOTTLE"
+rewards:
+  - "eco give {player} 2100"
+options:
+  category: "expearn"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 6
+  requires:
+    - "expearn5"

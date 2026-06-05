@@ -1,0 +1,486 @@
+Title: "&#00D5FF♦ đɪểᴍ ᴅᴀɴʜ ᴛʜáɴɢ <month> ♦"
+language: vi
+version: 1
+
+Item:
+  NgayDiemDanh:
+    ID: LIGHT_BLUE_STAINED_GLASS_PANE
+    Data: 0
+    Name: "&#E0E0E0&lɴɢàʏ <date>"
+    Glow: false
+  DiemDanh:
+    ID: CHEST_MINECART
+    Data: 0
+    Name: "&#57F287&lɴɢàʏ <date> (ɴʜấɴ để ɴʜậɴ)"
+    Glow: true
+  ChuaDiemDanh:
+    ID: RED_STAINED_GLASS_PANE
+    Data: 0
+    Name: "&#ED4245&lɴɢàʏ <date> (đã ʙỏ ʟỡ)"
+    Glow: false
+  DaDiemDanh:
+    ID: MINECART
+    Data: 0
+    Name: "&#FFD700&lɴɢàʏ <date> (đã ɴʜậɴ)"
+    Glow: false
+  DiemDanhBu:
+    ID: HOPPER_MINECART
+    Data: 0
+    Name: "&#00D5FF&lɴɢàʏ <date> (ɴʜấɴ để ɴʜậɴ ʙù)"
+    Glow: true
+  ThongTin:
+    ID: BOOK
+    Data: 0
+    Name: "&#FFD700&lᴛʜôɴɢ ᴛɪɴ đɪểᴍ ᴅᴀɴʜ"
+    Lore:
+    - "&#E0E0E0ʙạɴ đã đɪểᴍ ᴅᴀɴʜ đượᴄ: &#57F287<days> ɴɢàʏ"
+    - "  "
+    - "&#00D5FF➥ &#E0E0E0ᴄʜăᴍ ᴄʜỉ ᴍỗɪ ɴɢàʏ để ɴʜậɴ ǫᴜà ʟớɴ!"
+    Glow: true
+  Ticket:
+    ID: NAME_TAG
+    Data: 0
+    Name: "&#FFD700&lᴠé đɪểᴍ ᴅᴀɴʜ ʙù"
+    Lore:
+    - "&#E0E0E0ѕố ʟượɴɢ ᴠé đᴀɴɢ ᴄó: &#57F287<tickets>"
+    - "  "
+    - "&#00D5FF➥ &#E0E0E0ᴅùɴɢ để ɴʜậɴ ǫᴜà ᴄáᴄ ɴɢàʏ ʙỏ ʟỡ."
+    Glow: true
+
+# ==========================================
+# HỆ THỐNG PHẦN THƯỞNG 31 NGÀY (ĐÃ GIẢM TỶ LỆ)
+# ==========================================
+Days:
+  1:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E01,000 xᴜ"
+    - "&#FFD700 • &#E0E0E050 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+    Reward:
+    - eco give <player> 1000
+    - acb <player> 50
+  2:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E01 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể"
+    - "&#FFD700 • &#E0E0E016 ʙìɴʜ ᴋɪɴʜ ɴɢʜɪệᴍ"
+    Reward:
+    - customitem giveshard <player> 1
+    - give <player> experience_bottle 16
+  3:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E01,500 xᴜ"
+    - "&#FFD700 • &#E0E0E0100 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+    Reward:
+    - eco give <player> 1500
+    - acb <player> 100
+  4:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E016 ᴋɪᴍ ᴄươɴɢ"
+    - "&#FFD700 • &#E0E0E01 ᴘᴏɪɴᴛѕ ɴạᴘ"
+    Reward:
+    - give <player> diamond 16
+    - points give <player> 1
+  5:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E01 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể"
+    - "&#FFD700 • &#E0E0E0150 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+    Reward:
+    - customitem giveshard <player> 1
+    - acb <player> 150
+  6:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E02,000 xᴜ"
+    - "&#FFD700 • &#E0E0E032 ʙìɴʜ ᴋɪɴʜ ɴɢʜɪệᴍ"
+    Reward:
+    - eco give <player> 2000
+    - give <player> experience_bottle 32
+  7:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ &#57F287(ᴍốᴄ 7 ɴɢàʏ):"
+    - "&#FFD700 • &#E0E0E05,000 xᴜ"
+    - "&#FFD700 • &#E0E0E02 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể"
+    - "&#FFD700 • &#E0E0E02 ᴘᴏɪɴᴛѕ ɴạᴘ"
+    Reward:
+    - eco give <player> 5000
+    - customitem giveshard <player> 2
+    - points give <player> 2
+  8:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E0200 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+    - "&#FFD700 • &#E0E0E02 ᴛáᴏ ᴠàɴɢ"
+    Reward:
+    - acb <player> 200
+    - give <player> golden_apple 2
+  9:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E02,500 xᴜ"
+    - "&#FFD700 • &#E0E0E01 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể"
+    Reward:
+    - eco give <player> 2500
+    - customitem giveshard <player> 1
+  10:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E016 ɴɢọᴄ ʟụᴄ ʙảᴏ"
+    - "&#FFD700 • &#E0E0E0250 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+    Reward:
+    - give <player> emerald 16
+    - acb <player> 250
+  11:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E03,000 xᴜ"
+    - "&#FFD700 • &#E0E0E064 ʙìɴʜ ᴋɪɴʜ ɴɢʜɪệᴍ"
+    Reward:
+    - eco give <player> 3000
+    - give <player> experience_bottle 64
+  12:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E01 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể"
+    - "&#FFD700 • &#E0E0E01 ᴘᴏɪɴᴛѕ ɴạᴘ"
+    Reward:
+    - customitem giveshard <player> 1
+    - points give <player> 1
+  13:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E0300 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+    - "&#FFD700 • &#E0E0E032 ᴋɪᴍ ᴄươɴɢ"
+    Reward:
+    - acb <player> 300
+    - give <player> diamond 32
+  14:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ &#57F287(ᴍốᴄ 14 ɴɢàʏ):"
+    - "&#FFD700 • &#E0E0E010,000 xᴜ"
+    - "&#FFD700 • &#E0E0E02 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể"
+    - "&#FFD700 • &#E0E0E03 ᴘᴏɪɴᴛѕ ɴạᴘ"
+    Reward:
+    - eco give <player> 10000
+    - customitem giveshard <player> 2
+    - points give <player> 3
+  15:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E03,500 xᴜ"
+    - "&#FFD700 • &#E0E0E0350 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+    Reward:
+    - eco give <player> 3500
+    - acb <player> 350
+  16:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E01 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể"
+    - "&#FFD700 • &#E0E0E04 ᴛáᴏ ᴠàɴɢ"
+    Reward:
+    - customitem giveshard <player> 1
+    - give <player> golden_apple 4
+  17:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E04,000 xᴜ"
+    - "&#FFD700 • &#E0E0E064 ʙìɴʜ ᴋɪɴʜ ɴɢʜɪệᴍ"
+    Reward:
+    - eco give <player> 4000
+    - give <player> experience_bottle 64
+  18:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E0400 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+    - "&#FFD700 • &#E0E0E02 ᴘᴏɪɴᴛѕ ɴạᴘ"
+    Reward:
+    - acb <player> 400
+    - points give <player> 2
+  19:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E01 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể"
+    - "&#FFD700 • &#E0E0E04 ᴋʜốɪ ᴋɪᴍ ᴄươɴɢ"
+    Reward:
+    - customitem giveshard <player> 1
+    - give <player> diamond_block 4
+  20:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E04,500 xᴜ"
+    - "&#FFD700 • &#E0E0E0450 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+    Reward:
+    - eco give <player> 4500
+    - acb <player> 450
+  21:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ &#57F287(ᴍốᴄ 21 ɴɢàʏ):"
+    - "&#FFD700 • &#E0E0E015,000 xᴜ"
+    - "&#FFD700 • &#E0E0E03 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể"
+    - "&#FFD700 • &#E0E0E05 ᴘᴏɪɴᴛѕ ɴạᴘ"
+    Reward:
+    - eco give <player> 15000
+    - customitem giveshard <player> 3
+    - points give <player> 5
+  22:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E0500 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+    - "&#FFD700 • &#E0E0E02 ᴛáᴏ ᴠàɴɢ ᴘʜù ᴘʜéᴘ"
+    Reward:
+    - acb <player> 500
+    - give <player> enchanted_golden_apple 2
+  23:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E05,000 xᴜ"
+    - "&#FFD700 • &#E0E0E01 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể"
+    Reward:
+    - eco give <player> 5000
+    - customitem giveshard <player> 1
+  24:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E0550 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+    - "&#FFD700 • &#E0E0E02 ᴘᴏɪɴᴛѕ ɴạᴘ"
+    Reward:
+    - acb <player> 550
+    - points give <player> 2
+  25:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E02 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể"
+    - "&#FFD700 • &#E0E0E0128 ʙìɴʜ ᴋɪɴʜ ɴɢʜɪệᴍ"
+    Reward:
+    - customitem giveshard <player> 2
+    - give <player> experience_bottle 128
+  26:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E06,000 xᴜ"
+    - "&#FFD700 • &#E0E0E08 ᴋʜốɪ ᴋɪᴍ ᴄươɴɢ"
+    Reward:
+    - eco give <player> 6000
+    - give <player> diamond_block 8
+  27:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E0600 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+    - "&#FFD700 • &#E0E0E01 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể"
+    Reward:
+    - acb <player> 600
+    - customitem giveshard <player> 1
+  28:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ &#57F287(ᴍốᴄ 28 ɴɢàʏ):"
+    - "&#FFD700 • &#E0E0E025,000 xᴜ"
+    - "&#FFD700 • &#E0E0E03 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể"
+    - "&#FFD700 • &#E0E0E05 ᴘᴏɪɴᴛѕ ɴạᴘ"
+    Reward:
+    - eco give <player> 25000
+    - customitem giveshard <player> 3
+    - points give <player> 5
+  29:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E0700 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+    - "&#FFD700 • &#E0E0E04 ᴛáᴏ ᴠàɴɢ ᴘʜù ᴘʜéᴘ"
+    Reward:
+    - acb <player> 700
+    - give <player> enchanted_golden_apple 4
+  30:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+    - "&#FFD700 • &#E0E0E07,500 xᴜ"
+    - "&#FFD700 • &#E0E0E02 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể"
+    Reward:
+    - eco give <player> 7500
+    - customitem giveshard <player> 2
+  31:
+    Lore:
+    - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ &#00D5FF(ᴄᴜốɪ ᴛʜáɴɢ):"
+    - "&#FFD700 • &#E0E0E01,000 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+    - "&#FFD700 • &#E0E0E05 ᴘᴏɪɴᴛѕ ɴạᴘ"
+    Reward:
+    - acb <player> 1000
+    - points give <player> 5
+
+# ==========================================
+# PHẦN THƯỞNG TÍCH LŨY (MỐC LỚN)
+# ==========================================
+TichLuy:
+  7ngay:
+    Icon:
+      ChuaNhanQua:
+        ID: CHEST_MINECART
+        Data: 0
+        Name: "&#E0E0E0&lǫᴜà ᴛíᴄʜ ʟũʏ 7 ɴɢàʏ"
+        Lore:
+        - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+        - "&#FFD700 • &#E0E0E05,000 xᴜ"
+        - "&#FFD700 • &#E0E0E05 ᴘᴏɪɴᴛѕ ɴạᴘ"
+        - "&#FFD700 • &#E0E0E0500 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+        Glow: false
+      NhanQua:
+        ID: CHEST_MINECART
+        Data: 0
+        Name: "&#FFD700&lǫᴜà ᴛíᴄʜ ʟũʏ 7 ɴɢàʏ (ɴʜấɴ để ɴʜậɴ)"
+        Lore:
+        - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+        - "&#FFD700 • &#E0E0E05,000 xᴜ"
+        - "&#FFD700 • &#E0E0E05 ᴘᴏɪɴᴛѕ ɴạᴘ"
+        - "&#FFD700 • &#E0E0E0500 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+        Glow: true
+      DaNhanQua:
+        ID: MINECART
+        Data: 0
+        Name: "&#57F287&lǫᴜà ᴛíᴄʜ ʟũʏ 7 ɴɢàʏ (đã ɴʜậɴ)"
+        Lore:
+        - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+        - "&#FFD700 • &#E0E0E05,000 xᴜ"
+        - "&#FFD700 • &#E0E0E05 ᴘᴏɪɴᴛѕ ɴạᴘ"
+        - "&#FFD700 • &#E0E0E0500 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+        Glow: false
+    Require: 7
+    Reward:
+    - eco give <player> 5000
+    - points give <player> 5
+    - acb <player> 500
+  14ngay:
+    Icon:
+      ChuaNhanQua:
+        ID: CHEST_MINECART
+        Data: 0
+        Name: "&#E0E0E0&lǫᴜà ᴛíᴄʜ ʟũʏ 14 ɴɢàʏ"
+        Lore:
+        - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+        - "&#FFD700 • &#E0E0E015,000 xᴜ"
+        - "&#FFD700 • &#E0E0E010 ᴘᴏɪɴᴛѕ ɴạᴘ"
+        - "&#FFD700 • &#E0E0E01,000 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+        Glow: false
+      NhanQua:
+        ID: CHEST_MINECART
+        Data: 0
+        Name: "&#FFD700&lǫᴜà ᴛíᴄʜ ʟũʏ 14 ɴɢàʏ (ɴʜấɴ để ɴʜậɴ)"
+        Lore:
+        - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+        - "&#FFD700 • &#E0E0E015,000 xᴜ"
+        - "&#FFD700 • &#E0E0E010 ᴘᴏɪɴᴛѕ ɴạᴘ"
+        - "&#FFD700 • &#E0E0E01,000 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+        Glow: true
+      DaNhanQua:
+        ID: MINECART
+        Data: 0
+        Name: "&#57F287&lǫᴜà ᴛíᴄʜ ʟũʏ 14 ɴɢàʏ (đã ɴʜậɴ)"
+        Lore:
+        - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+        - "&#FFD700 • &#E0E0E015,000 xᴜ"
+        - "&#FFD700 • &#E0E0E010 ᴘᴏɪɴᴛѕ ɴạᴘ"
+        - "&#FFD700 • &#E0E0E01,000 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+        Glow: false
+    Require: 14
+    Reward:
+    - eco give <player> 15000
+    - points give <player> 10
+    - acb <player> 1000
+  21ngay:
+    Icon:
+      ChuaNhanQua:
+        ID: ENDER_CHEST
+        Data: 0
+        Name: "&#E0E0E0&lǫᴜà ᴛíᴄʜ ʟũʏ 21 ɴɢàʏ"
+        Lore:
+        - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+        - "&#FFD700 • &#E0E0E050,000 xᴜ"
+        - "&#FFD700 • &#E0E0E025 ᴘᴏɪɴᴛѕ ɴạᴘ"
+        - "&#FFD700 • &#E0E0E02,000 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+        - "&#FFD700 • &#E0E0E05 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể"
+        Glow: false
+      NhanQua:
+        ID: ENDER_CHEST
+        Data: 0
+        Name: "&#FFD700&lǫᴜà ᴛíᴄʜ ʟũʏ 21 ɴɢàʏ (ɴʜấɴ để ɴʜậɴ)"
+        Lore:
+        - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+        - "&#FFD700 • &#E0E0E050,000 xᴜ"
+        - "&#FFD700 • &#E0E0E025 ᴘᴏɪɴᴛѕ ɴạᴘ"
+        - "&#FFD700 • &#E0E0E02,000 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+        - "&#FFD700 • &#E0E0E05 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể"
+        Glow: true
+      DaNhanQua:
+        ID: ENDER_CHEST
+        Data: 0
+        Name: "&#57F287&lǫᴜà ᴛíᴄʜ ʟũʏ 21 ɴɢàʏ (đã ɴʜậɴ)"
+        Lore:
+        - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+        - "&#FFD700 • &#E0E0E050,000 xᴜ"
+        - "&#FFD700 • &#E0E0E025 ᴘᴏɪɴᴛѕ ɴạᴘ"
+        - "&#FFD700 • &#E0E0E02,000 ʙʟᴏᴄᴋ ᴄʟᴀɪᴍ"
+        - "&#FFD700 • &#E0E0E05 ᴍảɴʜ ᴠỡ ᴛɪɴʜ ᴛʜể"
+        Glow: false
+    Require: 21
+    Reward:
+    - eco give <player> 50000
+    - points give <player> 25
+    - acb <player> 2000
+    - customitem giveshard <player> 5
+
+# ==========================================
+# SỰ KIỆN ĐẶC BIỆT TRONG NĂM
+# ==========================================
+SpecialDay:
+  lehoi:
+    Icon:
+      NgayDiemDanh:
+        ID: BEACON
+        Data: 0
+        Name: "&#E0E0E0&lǫᴜà ᴛặɴɢ ʟễ ʜộɪ"
+        Lore:
+        - "&#E0E0E0đɪểᴍ ᴅᴀɴʜ ɴɢàʏ ʟễ ʜộɪ để ɴʜậɴ ǫᴜà!"
+        - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+        - "&#FFD700 • &#E0E0E010,000 xᴜ"
+        - "&#FFD700 • &#E0E0E020 ᴘᴏɪɴᴛѕ ɴạᴘ"
+        Glow: false
+      DiemDanh:
+        ID: BEACON
+        Data: 0
+        Name: "&#FFD700&lǫᴜà ᴛặɴɢ ʟễ ʜộɪ (ɴʜấɴ để ɴʜậɴ)"
+        Lore:
+        - "&#E0E0E0đɪểᴍ ᴅᴀɴʜ ɴɢàʏ ʟễ ʜộɪ để ɴʜậɴ ǫᴜà!"
+        - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+        - "&#FFD700 • &#E0E0E010,000 xᴜ"
+        - "&#FFD700 • &#E0E0E020 ᴘᴏɪɴᴛѕ ɴạᴘ"
+        Glow: true
+      ChuaDiemDanh:
+        ID: RED_STAINED_GLASS_PANE
+        Data: 0
+        Name: "&#ED4245&lǫᴜà ᴛặɴɢ ʟễ ʜộɪ (đã ʙỏ ʟỡ)"
+        Lore:
+        - "&#E0E0E0ʙạɴ đã ʙỏ ʟỡ ǫᴜà ᴛặɴɢ ɴɢàʏ ʟễ."
+        Glow: false
+      DaDiemDanh:
+        ID: BEACON
+        Data: 0
+        Name: "&#57F287&lǫᴜà ᴛặɴɢ ʟễ ʜộɪ (đã ɴʜậɴ)"
+        Lore:
+        - "&#E0E0E0đɪểᴍ ᴅᴀɴʜ ɴɢàʏ ʟễ ʜộɪ để ɴʜậɴ ǫᴜà!"
+        - "&#E0E0E0ᴘʜầɴ ᴛʜưởɴɢ:"
+        - "&#FFD700 • &#E0E0E010,000 xᴜ"
+        - "&#FFD700 • &#E0E0E020 ᴘᴏɪɴᴛѕ ɴạᴘ"
+        Glow: false
+      DiemDanhBu:
+        ID: HOPPER_MINECART
+        Data: 0
+        Name: "&#00D5FF&lǫᴜà ᴛặɴɢ ʟễ ʜộɪ (ɴʜấɴ để ɴʜậɴ ʙù)"
+        Lore:
+        - "&#E0E0E0ѕử ᴅụɴɢ ᴠé để ɴʜậɴ ʟạɪ ǫᴜà ʟễ ʜộɪ."
+        Glow: true
+    Require:
+      Date: 1
+      Month: 1
+    Reward:
+    - eco give <player> 10000
+    - points give <player> 20

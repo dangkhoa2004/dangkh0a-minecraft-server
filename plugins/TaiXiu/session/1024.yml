@@ -1,0 +1,10 @@
+data:
+  session: 1024
+  dice1: 1
+  dice2: 4
+  dice3: 3
+  result: XIU
+  currency: VAULT
+  xiuPlayers:
+    KaiseFitzs: 25000000
+    luan27852: 500000

@@ -1,0 +1,519 @@
+{
+    "metadata": {
+        "generatedBy": "k5zog",
+        "generatedAt": "2024-04-17 02:40:58 UTC"
+    },
+    "groups": {
+        "owner": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.100.&#FF0000&lᴏ&#FF0000&lᴡ&#FF0000&lɴ&#FF0000&lᴇ&#FF0000&lʀ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.100",
+                    "value": true
+                }
+            ]
+        },
+        "coowner": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.90.&#FF0000&lᴄ&#FF0000&lᴏ&#FF0000&l-&#FF0000&lᴏ&#FF0000&lᴡ&#FF0000&lɴ&#FF0000&lᴇ&#FF0000&lʀ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.90",
+                    "value": true
+                }
+            ]
+        },
+        "dev": {
+            "nodes": [
+                {
+                    "type": "inheritance",
+                    "key": "group.staff",
+                    "value": true
+                },
+                {
+                    "type": "prefix",
+                    "key": "prefix.60.&#00E0FF&lᴅ&#00E0FF&lᴇ&#00E0FF&lᴠ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.60",
+                    "value": true
+                }
+            ]
+        },
+        "manager": {
+            "nodes": [
+                {
+                    "type": "inheritance",
+                    "key": "group.staff",
+                    "value": true
+                },
+                {
+                    "type": "prefix",
+                    "key": "prefix.55.&#FF5D00&lᴍ&#FF4E0A&lᴀ&#FF3E15&lɴ&#FF2F1F&lᴀ&#FF1F29&lɢ&#FF1034&lᴇ&#FF003E&lʀ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.55",
+                    "value": true
+                }
+            ]
+        },
+        "admin": {
+            "nodes": [
+                {
+                    "type": "inheritance",
+                    "key": "group.staff",
+                    "value": true
+                },
+                {
+                    "type": "prefix",
+                    "key": "prefix.54.&#FF003E&lᴀ&#FF003E&lᴅ&#FF003E&lᴍ&#FF003E&lɪ&#FF003E&lɴ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.54",
+                    "value": true
+                }
+            ]
+        },
+        "srmod": {
+            "nodes": [
+                {
+                    "type": "inheritance",
+                    "key": "group.staff",
+                    "value": true
+                },
+                {
+                    "type": "prefix",
+                    "key": "prefix.53.&#00C1FF&lꜱ&#00C1FF&lʀ&#00C1FF&lᴍ&#00C1FF&lᴏ&#00C1FF&lᴅ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.53",
+                    "value": true
+                }
+            ]
+        },
+        "mod+": {
+            "nodes": [
+                {
+                    "type": "inheritance",
+                    "key": "group.staff",
+                    "value": true
+                },
+                {
+                    "type": "prefix",
+                    "key": "prefix.52.&#005AFF&lᴍ&#005AFF&lᴏ&#005AFF&lᴅ+ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.52",
+                    "value": true
+                }
+            ]
+        },
+        "mod": {
+            "nodes": [
+                {
+                    "type": "inheritance",
+                    "key": "group.staff",
+                    "value": true
+                },
+                {
+                    "type": "prefix",
+                    "key": "prefix.51.&#005AFF&lᴍ&#005AFF&lᴏ&#005AFF&lᴅ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.51",
+                    "value": true
+                }
+            ]
+        },
+        "helper": {
+            "nodes": [
+                {
+                    "type": "inheritance",
+                    "key": "group.staff",
+                    "value": true
+                },
+                {
+                    "type": "prefix",
+                    "key": "prefix.50.&#75FF00&lʜ&#75FF00&lᴇ&#75FF00&lʟ&#75FF00&lᴘ&#75FF00&lᴇ&#75FF00&lʀ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.50",
+                    "value": true
+                }
+            ]
+        },
+        "magnate": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.46.&#FFFFFF&lᴍ&#F5E6D5&lᴀ&#EACCAA&lɢ&#E0B380&lɴ&#D69955&lᴀ&#CB802B&lᴛ&#C16600&lᴇ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.46",
+                    "value": true
+                }
+            ]
+        },
+        "master": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.45.&#8A00FF&lᴍ&#8A00FF&lᴀ&#8A00FF&lꜱ&#8A00FF&lᴛ&#8A00FF&lᴇ&#8A00FF&lʀ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.45",
+                    "value": true
+                }
+            ]
+        },
+        "titan": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.44.&#0079FF&lᴛ&#0079FF&lɪ&#0079FF&lᴛ&#0079FF&lᴀ&#0079FF&lɴ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.44",
+                    "value": true
+                }
+            ]
+        },
+        "elite": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.43.&#00F5FF&lᴇ&#00F5FF&lʟ&#00F5FF&lɪ&#00F5FF&lᴛ&#00F5FF&lᴇ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.43",
+                    "value": true
+                }
+            ]
+        },
+        "mvp": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.42.&#FF1F00&lᴍ&#FF1F00&lᴠ&#FF1F00&lᴘ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.42",
+                    "value": true
+                }
+            ]
+        },
+        "vip+": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.41.&#18FF00&lᴠ&#18FF00&lɪ&#18FF00&lᴘ&#18FF00&l+ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.41",
+                    "value": true
+                }
+            ]
+        },
+        "vip": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.40.&#18FF00&lᴠ&#18FF00&lɪ&#18FF00&lᴘ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.40",
+                    "value": true
+                }
+            ]
+        },
+        "booster": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.35.&#6B00FF&lʙ&#6B00FF&lᴏ&#6B00FF&lᴏ&#6B00FF&lꜱ&#6B00FF&lᴛ&#6B00FF&lᴇ&#6B00FF&lʀ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.35",
+                    "value": true
+                }
+            ]
+        },
+        "support": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.33.&#FFFFFF&lꜱ&#FFFFFF&lᴜ&#FFFFFF&lᴘ&#FFFFFF&lᴘ&#FFFFFF&lᴏ&#FFFFFF&lʀ&#FFFFFF&lᴛ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.33",
+                    "value": true
+                }
+            ]
+        },
+        "staff": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.32.&#0D89FF&lꜱ&#0D89FF&lᴛ&#0D89FF&lᴀ&#0D89FF&lꜰ&#0D89FF&lꜰ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.32",
+                    "value": true
+                }
+            ]
+        },
+        "sponsor": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.31.&#00FF11&lꜱ&#00FF11&lᴘ&#00FF11&lᴏ&#00FF11&lɴ&#00FF11&lꜱ&#00FF11&lᴏ&#00FF11&lʀ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.31",
+                    "value": true
+                }
+            ]
+        },
+        "media": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.30.&#FF0034&lᴍ&#FF0034&lᴇ&#FF0034&lᴅ&#FF0034&lɪ&#FF0034&lᴀ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.30",
+                    "value": true
+                }
+            ]
+        },
+        "partner": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.25.&#FF00F8&lᴘ&#FF00F8&lᴀ&#FF00F8&lʀ&#FF00F8&lᴛ&#FF00F8&lɴ&#FF00F8&lᴇ&#FF00F8&lʀ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.25",
+                    "value": true
+                }
+            ]
+        },
+        "famous": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.20.&#FF00F8&lꜰ&#FF00F8&lᴀ&#FF00F8&lᴍ&#FF00F8&lᴏ&#FF00F8&lᴜ&#FF00F8&lꜱ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.20",
+                    "value": true
+                }
+            ]
+        },
+        "twitch": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.15.&#9400FF&lᴛ&#9400FF&lᴡ&#9400FF&lɪ&#9400FF&lᴛ&#9400FF&lᴄ&#9400FF&lʜ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.15",
+                    "value": true
+                }
+            ]
+        },
+        "youtube": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.10.&#FFFFFF&lʏ&#FFD5D5&lᴏ&#FFAAAA&lᴜ&#FF8080&lᴛ&#FF5555&lᴜ&#FF2B2B&lʙ&#FF0000&lᴇ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.10",
+                    "value": true
+                }
+            ]
+        },
+        "premium": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.7.&#006392&lᴘ&#006392&lʀ&#006392&lᴇ&#006392&lᴍ&#006392&lɪ&#006392&lᴜ&#006392&lᴍ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.7",
+                    "value": true
+                }
+            ]
+        },
+        "god": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.6.&#00ACFF&lɢ&#00ACFF&lᴏ&#00ACFF&lᴅ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.6",
+                    "value": true
+                }
+            ]
+        },
+        "legendary": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.5.&#FF7C00&lʟ&#FF7C00&lᴇ&#FF7C00&lɢ&#FF7C00&lᴇ&#FF7C00&lɴ&#FF7C00&lᴅ&#FF7C00&lᴀ&#FF7C00&lʀ&#FF7C00&lʏ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.5",
+                    "value": true
+                }
+            ]
+        },
+        "ancestral": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.4.&#00FF30&lᴀ&#00FF30&lɴ&#00FF30&lᴄ&#00FF30&lᴇ&#00FF30&lꜱ&#00FF30&lᴛ&#00FF30&lʀ&#00FF30&lᴀ&#00FF30&lʟ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.4",
+                    "value": true
+                }
+            ]
+        },
+        "inmortal": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.3.&#A0A0A0&lɪ&#AEAEAE&lɴ&#BBBBBB&lᴍ&#C9C9C9&lᴏ&#D6D6D6&lʀ&#E4E4E4&lᴛ&#F1F1F1&lᴀ&#FFFFFF&lʟ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.3",
+                    "value": true
+                }
+            ]
+        },
+        "legend": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.2.&#6E0094&lʟ&#6E0094&lᴇ&#6E0094&lɢ&#6E0094&lᴇ&#6E0094&lɴ&#6E0094&lᴅ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.2",
+                    "value": true
+                }
+            ]
+        },
+        "hero": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.1.&#0079FF&lʜ&#0079FF&lᴇ&#0079FF&lʀ&#0079FF&lᴏ ",
+                    "value": true
+                },
+                {
+                    "type": "weight",
+                    "key": "weight.1",
+                    "value": true
+                }
+            ]
+        },
+        "default": {
+            "nodes": [
+                {
+                    "type": "prefix",
+                    "key": "prefix.1.&#818181&lᴜ&#818181&lꜱ&#818181&lᴇ&#818181&lʀ ",
+                    "value": true
+                }
+            ]
+        }
+    },
+    "tracks": {},
+    "users": {
+        "12812d92-3908-34d7-99b8-335351304105": {
+            "username": "k5zog",
+            "primaryGroup": "owner",
+            "nodes": [
+                {
+                    "type": "inheritance",
+                    "key": "group.owner",
+                    "value": true
+                },
+                {
+                    "type": "permission",
+                    "key": "luckperms.log.notify.ignoring",
+                    "value": true
+                }
+            ]
+        }
+    }
+}

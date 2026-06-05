@@ -1,0 +1,13 @@
+name: TheFarmers
+description: ''
+open: false
+pvp: false
+anchor: false
+home: ''
+color: '6'
+chests: []
+players:
+- f157a001-63c2-3305-b9f7-87b9ce7abfc5,OWNER
+anchoredPlayers: []
+level: 1
+tag: Farmers

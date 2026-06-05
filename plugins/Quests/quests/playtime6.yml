@@ -1,0 +1,26 @@
+tasks:
+  playtime:
+    type: "playtime"
+    minutes: 2880
+display:
+  name: "&#A3C4F3&nᴛʜờɪ ɢɪᴀɴ ᴄʜơɪ:&r &#FDFD96#6"
+  lore-normal:
+    - '&#D1E8E2Độ ᴋʜó: &#FDFD96Trung Bình'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴄʜơɪ 48 giờs ᴛʀêɴ ᴍáʏ ᴄʜủ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$3,000'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ᴛɪếɴ độ: &#FDFD96{playtime:progress}/2880 ᴘʜúᴛ'
+  type: "EXPERIENCE_BOTTLE"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 3000"
+options:
+  category: "playtime"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 2880
+  sort-order: 6

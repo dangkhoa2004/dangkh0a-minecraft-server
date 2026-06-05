@@ -1,0 +1,118 @@
+Language:
+  NotFromConsole: "§x§F§F§6§B§6§Bʟệɴʜ ɴàʏ ᴋʜôɴɢ ᴛʜể ꜱử ᴅụɴɢ ᴛừ ᴄᴏɴꜱᴏʟᴇ."
+  Ingame:
+    NoPermission: "§x§F§F§6§B§6§Bʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ để ʟàᴍ ᴠɪệᴄ ɴàʏ."
+    WorldDisabled: "§x§F§F§6§B§6§Bʙᴀʟᴏ ʙị ᴄấᴍ ꜱử ᴅụɴɢ ᴛʀᴏɴɢ ᴛʜế ɢɪớɪ ɴàʏ."
+    NaN: "[\"\",{\"text\":\"ɢɪá ᴛʀị ʙạɴ ɴʜậᴘ ᴋʜôɴɢ ᴘʜảɪ ʟà ꜱố!\",\"color\":\"#FF6B6B\"}]"
+    OwnBackpackClose: "§x§B§9§F§B§C§0đã đóɴɢ ʙᴀʟᴏ!"
+    OwnBackpackClose_SendMethod: "action_bar"
+    # Parameter: {OwnerName}, {OwnerDisplayName}
+    PlayerBackpackClose: "§x§B§9§F§B§C§0đã đóɴɢ ʙᴀʟᴏ ᴄủᴀ {OwnerName}!"
+    PlayerBackpackClose_SendMethod: "action_bar"
+    InvalidBackpack: "§x§F§F§6§B§6§Bʙᴀʟᴏ ᴋʜôɴɢ ʜợᴘ ʟệ."
+    NotAllowedInBackpack: "§x§F§F§6§B§6§Bᴋʜôɴɢ đượᴄ ᴘʜéᴘ ᴄấᴛ {ItemName} ᴠàᴏ ʙᴀʟᴏ."
+    NotAllowedInBackpack_SendMethod: "action_bar"
+    DontRemoveShortcut: "§x§F§F§6§B§6§Bʙạɴ ᴋʜôɴɢ đượᴄ xóᴀ ᴘʜíᴍ ᴛắᴛ ʙᴀʟᴏ ᴋʜỏɪ ᴛúɪ đồ!"
+    DontRemoveShortcut_SendMethod: "action_bar"
+    BackpackShrunk: "§x§F§F§6§B§6§Bʙᴀʟᴏ ᴄủᴀ ʙạɴ ʙị ᴛʜᴜ ʜẹᴘ! ᴍộᴛ ᴠàɪ ᴍóɴ đồ đã ʀơɪ ʀᴀ ɴɢᴏàɪ!"
+    Open:
+      # Parameter: {TimeLeft}, {TimeSpanLeft}
+      Cooldown: "[{\"text\":\"ᴠᴜɪ ʟòɴɢ đợɪ \",\"color\":\"#FFB347\"},{\"text\":\"{TimeSpanLeft}\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"{TimeLeft} ɢɪâʏ\"},\"color\":\"#FDFD96\"},{\"text\":\" để ᴍở ʟạɪ ʙᴀʟᴏ.\",\"color\":\"#FFB347\"}]"
+      # Parameter: {CurrentGameMode}, {AllowedGameModes}
+      WrongGameMode: "§x§F§F§6§B§6§Bʙạɴ ᴋʜôɴɢ đượᴄ ᴍở ʙᴀʟᴏ ᴛʀᴏɴɢ ᴄʜế độ ᴄʜơɪ ʜɪệɴ ᴛạɪ."
+    Clean:
+      BackpackCleaned: "§x§B§9§F§B§C§0đã ᴅọɴ ꜱạᴄʜ ʙᴀʟᴏ."
+      BackpackCleanedBy: "§x§F§F§B§3§4§7ʙᴀʟᴏ ᴄủᴀ ʙạɴ đã ʙị ᴅọɴ ꜱạᴄʜ ʙởɪ {DisplayName}§r."
+      BackpackCleanedOther: "§x§B§9§F§B§C§0đã ᴅọɴ ꜱạᴄʜ ʙᴀʟᴏ ᴄủᴀ {DisplayName}§r."
+    Sort:
+      Sorted: "§x§B§9§F§B§C§0đã ꜱắᴘ xếᴘ ʙᴀʟᴏ."
+    Help:
+      Header: "§x§F§8§E§9§A§1§l### ʟệɴʜ ᴍɪɴᴇᴘᴀᴄᴋꜱ ###"
+      Footer: "§x§F§8§E§9§A§1§l#############################"
+    Reload:
+      Reloading: "§x§A§3§C§4§F§3đᴀɴɢ ᴛảɪ ʟạɪ ᴍɪɴᴇᴘᴀᴄᴋꜱ ..."
+      Reloaded: "§x§B§9§F§B§C§0đã ᴛảɪ ʟạɪ ᴍɪɴᴇᴘᴀᴄᴋꜱ ᴛʜàɴʜ ᴄôɴɢ!"
+    Update:
+      CheckingForUpdates: "§x§A§3§C§4§F§3đᴀɴɢ ᴋɪểᴍ ᴛʀᴀ ʙảɴ ᴄậᴘ ɴʜậᴛ ..."
+      Updated: "[\"\",{\"text\":\"đã ᴄậᴘ ɴʜậᴛ ᴘʟᴜɢɪɴ, ꜱẽ áᴘ ᴅụɴɢ ở ʟầɴ ᴋʜởɪ độɴɢ ʟạɪ ᴛɪếᴘ ᴛʜᴇᴏ.\",\"color\":\"#B9FBC0\"}]"
+      NoUpdate: "[\"\",{\"text\":\"ᴋʜôɴɢ ᴄó ʙảɴ ᴄậᴘ ɴʜậᴛ ɴàᴏ ᴍớɪ.\",\"color\":\"#FDFD96\"}]"
+      UpdateFail: "[\"\",{\"text\":\"ᴄó ʟỗɪ ᴋʜɪ ᴋɪểᴍ ᴛʀᴀ ᴄậᴘ ɴʜậᴛ! ᴠᴜɪ ʟòɴɢ xᴇᴍ ᴄᴏɴꜱᴏʟᴇ!\",\"color\":\"#FF6B6B\"}]"
+      UpdateAvailable: "[{\"text\":\"ᴄó ʙảɴ ᴄậᴘ ɴʜậᴛ ᴍớɪ! ᴠᴜɪ ʟòɴɢ ᴛʀᴜʏ ᴄậᴘ \\\"\",\"color\":\"#D1E8E2\"},{\"text\":\"https://www.spigotmc.org/resources/19286/\",\"color\":\"#A3C4F3\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.spigotmc.org/resources/19286/\"}},{\"text\":\"\\\" để ᴛảɪ ᴠề!\",\"color\":\"#D1E8E2\"}]"
+    Backup:
+      Created: "§x§B§9§F§B§C§0đã ꜱᴀᴏ ʟưᴜ ʙᴀʟᴏ ᴛʜàɴʜ ᴄôɴɢ."
+      NoBackpack: "§x§F§F§B§3§4§7ɴɢườɪ ᴄʜơɪ ɴàʏ ᴋʜôɴɢ ᴄó ʙᴀʟᴏ ʜᴏặᴄ ʙᴀʟᴏ đᴀɴɢ ᴛʀốɴɢ."
+    Restore:
+      BackupsPerPage: 10
+      Headline: "[\"\",{\"text\":\"ꜱᴀᴏ ʟưᴜ\",\"color\":\"#FDFD96\"},{\"text\":\" - \",\"color\":\"gray\"},{\"text\":\"đᴀɴɢ ʜɪểɴ ᴛʜị ᴛʀᴀɴɢ {CurrentPage}/{MaxPage}\",\"color\":\"#F8E9A1\"}]"
+      Footer: "[{\"text\":\"<<< ᴛʀᴀɴɢ ᴛʀướᴄ <<<\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/{MainCommand} {SubCommand} {CurrentPage}--\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"/{MainCommand} {SubCommand} {CurrentPage}--\"}},{\"text\":\" đᴀɴɢ ʜɪểɴ ᴛʜị ᴛʀᴀɴɢ {CurrentPage}/{MaxPage} \",\"color\":\"#F8E9A1\"},{\"text\":\">>> ᴛʀᴀɴɢ ꜱᴀᴜ >>>\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/{MainCommand} {SubCommand} {CurrentPage}++\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"/{MainCommand} {SubCommand} {CurrentPage}++\"}}]"
+      BackupEntry: "[\"\",{\"text\":\"{BackupIdentifier}\",\"color\":\"#A3C4F3\",\"clickEvent\":{\"action\":\"suggest_command\",\"value\":\"/{MainCommand} {SubCommand} {BackupIdentifier}\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"ɴɢườɪ ᴄʜơɪ: {BackupPlayerName} ({BackupPlayerUUID})\\nɴɢàʏ ᴛạᴏ: {BackupDate}\"}}]"
+      NoValidBackup: "§x§F§F§6§B§6§Bᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ʙảɴ ꜱᴀᴏ ʟưᴜ ɴàᴏ ᴋʜớᴘ ᴠớɪ {BackupIdentifier}"
+      NoUserToRestoreToFound: "§x§F§F§6§B§6§Bᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ɴɢườɪ ᴄʜơɪ ʜợᴘ ʟệ để ᴋʜôɪ ᴘʜụᴄ"
+      ParameterBackupName: "backup_name"
+      DateFormat: "dd/MM/yyyy HH:mm:ss"
+      Restored: "§x§B§9§F§B§C§0ʙảɴ ꜱᴀᴏ ʟưᴜ đã đượᴄ ᴋʜôɪ ᴘʜụᴄ ᴛʜàɴʜ ᴄôɴɢ."
+    InventoryClear:
+      UnknownPlayer: "§x§F§F§6§B§6§Bᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ɴɢườɪ ᴄʜơɪ {Name}!"
+      Cleared: "§x§B§9§F§B§C§0đã ᴅọɴ ꜱạᴄʜ ᴛúɪ đồ."
+      ClearedOther: "§x§B§9§F§B§C§0đã ᴅọɴ ꜱạᴄʜ ᴛúɪ đồ ᴄủᴀ {DisplayName}§r."
+      ClearedOtherTarget: "§x§F§F§B§3§4§7ᴛúɪ đồ ᴄủᴀ ʙạɴ đã ʙị ᴅọɴ ꜱạᴄʜ ʙởɪ {DisplayName}§r."
+    Pickup:
+      ToggleOn: "§x§D§1§E§8§E§2ᴛíɴʜ ɴăɴɢ ᴛự độɴɢ ɴʜặᴛ đồ ᴠàᴏ ʙᴀʟᴏ đã ʙậᴛ §x§B§9§F§B§C§0(ᴏɴ)§x§D§1§E§8§E§2."
+      ToggleOff: "§x§D§1§E§8§E§2ᴛíɴʜ ɴăɴɢ ᴛự độɴɢ ɴʜặᴛ đồ ᴠàᴏ ʙᴀʟᴏ đã ᴛắᴛ §x§F§F§6§B§6§B(ᴏꜰꜰ)§x§D§1§E§8§E§2."
+  Commands:
+    HelpFormat: "[\"\",{\"text\":\"/{MainCommand} {SubCommand} {Parameters}\",\"color\":\"#FDFD96\",\"clickEvent\":{\"action\":\"suggest_command\",\"value\":\"/{MainCommand} {SubCommand}\"}},{\"text\":\" - \",\"color\":\"gray\"},{\"text\":\"{Description}\",\"color\":\"#A3C4F3\"}]"
+    PlayerNameVariable: "ᴛêɴ_ɴɢườɪ_ᴄʜơɪ"
+    Description:
+      Backpack: "ᴍở ʙᴀʟᴏ ᴄủᴀ ʙạɴ."
+      Sort: "ꜱắᴘ xếᴘ ʙᴀʟᴏ."
+      Clean: "ᴅọɴ ꜱạᴄʜ ʙᴀʟᴏ ᴄủᴀ ʙạɴ."
+      CleanOthers: "ᴅọɴ ꜱạᴄʜ ʙᴀʟᴏ ᴄủᴀ ɴɢườɪ ᴋʜáᴄ."
+      OpenOthers: "xᴇᴍ ʙᴀʟᴏ ᴄủᴀ ɴɢườɪ ᴋʜáᴄ."
+      Reload: "ᴛảɪ ʟạɪ ᴄấᴜ ʜìɴʜ ᴘʟᴜɢɪɴ."
+      Update: "ᴋɪểᴍ ᴛʀᴀ ʙảɴ ᴄậᴘ ɴʜậᴛ ᴘʟᴜɢɪɴ."
+      Version: "xᴇᴍ ᴛʜôɴɢ ᴛɪɴ ᴘʜɪêɴ ʙảɴ."
+      Backup: "ᴛạᴏ ʙảɴ ꜱᴀᴏ ʟưᴜ ʙᴀʟᴏ ᴄủᴀ ᴍộᴛ ɴɢườɪ."
+      BackupEveryone: "ᴛạᴏ ʙảɴ ꜱᴀᴏ ʟưᴜ ᴄʜᴏ ᴛᴏàɴ ʙộ ɴɢườɪ ᴄʜơɪ ᴏɴʟɪɴᴇ."
+      Restore: "ᴋʜôɪ ᴘʜụᴄ ʙảɴ ꜱᴀᴏ ʟưᴜ."
+      RestoreList: "xᴇᴍ ᴅᴀɴʜ ꜱáᴄʜ ᴄáᴄ ʙảɴ ꜱᴀᴏ ʟưᴜ."
+      Help: "xᴇᴍ ᴅᴀɴʜ ꜱáᴄʜ ʟệɴʜ."
+      Migrate: "ᴄʜᴜʏểɴ đổɪ ᴅữ ʟɪệᴜ ᴛừ ʟᴏạɪ ᴅᴀᴛᴀʙᴀꜱᴇ ɴàʏ ꜱᴀɴɢ ʟᴏạɪ ᴋʜáᴄ."
+      Pickup: "ʙậᴛ/ᴛắᴛ ᴛự độɴɢ ɴʜặᴛ đồ ᴠàᴏ ʙᴀʟᴏ ᴋʜɪ ᴛúɪ đầʏ."
+
+Command:
+  Backpack:
+  - backpack
+  - bp
+  Open:
+  - open
+  Sort:
+  - sort
+  Clean:
+  - clean
+  - clear
+  - empty
+  Reload:
+  - reload
+  - restart
+  Update:
+  - update
+  Backup:
+  - backup
+  Restore:
+  - restore
+  ListBackups:
+  - listbackups
+  Version:
+  - version
+  Help:
+  - help
+  InventoryClear:
+  - clear
+  - inventoryclear
+  - clean
+  Pickup:
+  - pickup
+
+LanguageName: "vietnamese"
+Author: "GeorgH93"
+Version: 21

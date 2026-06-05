@@ -1,0 +1,74 @@
+enabled: true
+commands:
+  msg:
+    enabled: true
+    name: msg
+    description: Send a private message
+    aliases:
+    - whisper
+    - tell
+    - w
+    - pm
+    - dm
+  reply:
+    enabled: true
+    name: reply
+    description: Reply to last message
+    aliases:
+    - r
+  channel:
+    enabled: true
+    name: channel
+    description: Channel management
+    aliases:
+    - ch
+    - chat
+  ignore:
+    enabled: true
+    name: ignore
+    description: Ignore a player
+    aliases:
+    - block
+  mute:
+    enabled: true
+    name: mute
+    description: Mute a player
+    aliases:
+    - silence
+  warn:
+    enabled: true
+    name: warn
+    description: Warn a player
+    aliases:
+    - strike
+  color:
+    enabled: true
+    name: color
+    description: Open chat color GUI
+    aliases:
+    - chatcolor
+    - colours
+  tags:
+    enabled: true
+    name: tags
+    description: Open tags GUI
+    aliases:
+    - tag
+    - chattags
+    - nametag
+    - title
+  announce:
+    enabled: true
+    name: announce
+    description: Broadcast an announcement
+    aliases:
+    - broadcast
+    - bc
+    - alert
+  clearchat:
+    enabled: true
+    name: clearchat
+    description: Clear the chat
+    aliases:
+    - cc
+    - chatclear

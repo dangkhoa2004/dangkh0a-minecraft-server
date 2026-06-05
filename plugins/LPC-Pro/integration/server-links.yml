@@ -1,0 +1,16 @@
+enabled: true
+links:
+- type: CUSTOM
+  label: Our Website
+  url: https://example.com
+- type: CUSTOM
+  label: Discord Server
+  url: https://discord.gg/example
+- type: CUSTOM
+  label: Store
+  url: https://store.example.com
+- type: COMMUNITY_GUIDELINES
+  url: https://example.com/rules
+- type: SUPPORT
+  url: https://example.com/support
+  permission: lpcpro.staff

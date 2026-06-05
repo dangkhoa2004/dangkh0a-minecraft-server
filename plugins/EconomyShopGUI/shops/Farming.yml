@@ -1,0 +1,530 @@
+pages:
+  page1:
+    gui-rows: 6
+    items:
+      OAK_SAPLING:
+        material: OAK_SAPLING
+        displayname: '&eChồi cây sồi'
+        buy: 20.0
+        sell: 2.0
+      SPRUCE_SAPLING:
+        material: SPRUCE_SAPLING
+        displayname: '&eChồi cây vân sam'
+        buy: 20
+        sell: 10
+      BIRCH_SAPLING:
+        material: BIRCH_SAPLING
+        displayname: '&eChồi cây bạch dương'
+        buy: 20
+        sell: 10
+      DARK_OAK_SAPLING:
+        material: DARK_OAK_SAPLING
+        displayname: '&eChồi cây sồi sẫm'
+        buy: 20
+        sell: 10
+      ACACIA_SAPLING:
+        material: ACACIA_SAPLING
+        displayname: '&eChồi cây xiêm gai'
+        buy: 20
+        sell: 10
+      JUNGLE_SAPLING:
+        material: JUNGLE_SAPLING
+        displayname: '&eChồi cây rừng'
+        buy: 20
+        sell: 10
+      SWEET_BERRIES:
+        material: SWEET_BERRIES
+        displayname: '&eQuả mọng ngọt'
+        buy: 10
+        sell: 5
+      GLOW_BERRIES:
+        material: GLOW_BERRIES
+        displayname: '&eQuả mọng phát sáng'
+        buy: 20
+        sell: 10
+      SEA_PICKLE:
+        material: SEA_PICKLE
+        displayname: '&eDưa muối biển'
+        buy: 16.0
+        sell: 20.0
+      CHORUS_FRUIT:
+        material: CHORUS_FRUIT
+        displayname: '&eQuả Chorus'
+        buy: 30
+        sell: 15
+      CHORUS_FLOWER:
+        material: CHORUS_FLOWER
+        displayname: '&eHoa Chorus'
+        buy: 100
+        sell: 50
+      PITCHER_POD:
+        material: PITCHER_POD
+        displayname: '&eVỏ cây nắp ấm'
+        buy: 50
+        sell: 25
+      PITCHER_PLANT:
+        material: PITCHER_PLANT
+        displayname: '&eCây nắp ấm'
+        buy: 100
+        sell: 50
+      CLOSED_EYEBLOSSOM:
+        material: CLOSED_EYEBLOSSOM
+        displayname: '&eHoa nhãn khép kín'
+        buy: 60
+        sell: 30
+      OPEN_EYEBLOSSOM:
+        material: OPEN_EYEBLOSSOM
+        displayname: '&eHoa nhãn nở rộ'
+        buy: 60
+        sell: 30
+      WHEAT:
+        material: WHEAT
+        displayname: '&eLúa mì'
+        buy: 20.0
+        sell: 9.0
+      SUGAR_CANE:
+        material: SUGAR_CANE
+        displayname: '&eCây mía'
+        buy: 20.0
+        sell: 10.0
+      CARROT:
+        material: CARROT
+        displayname: '&eCà rốt'
+        buy: 20
+        sell: 10
+      POTATO:
+        material: POTATO
+        displayname: '&eKhoai tây'
+        buy: 20
+        sell: 10
+      WHEAT_SEEDS:
+        material: WHEAT_SEEDS
+        displayname: '&eHạt lúa mì'
+        buy: 10
+        sell: 5
+      PUMPKIN_SEEDS:
+        material: PUMPKIN_SEEDS
+        displayname: '&eHạt bí ngô'
+        buy: 10
+        sell: 5
+      MELON_SEEDS:
+        material: MELON_SEEDS
+        displayname: '&eHạt dưa hấu'
+        buy: 10
+        sell: 5
+      COCOA_BEANS:
+        material: COCOA_BEANS
+        displayname: '&eHạt ca cao'
+        buy: 20
+        sell: 10
+      NETHER_WART:
+        material: NETHER_WART
+        displayname: '&eBướu Nether'
+        buy: 40
+        sell: 20
+      TORCHFLOWER_SEEDS:
+        material: TORCHFLOWER_SEEDS
+        displayname: '&eHạt hoa đuốc'
+        buy: 100
+        sell: 50
+      KELP:
+        material: KELP
+        displayname: '&eTảo bẹ'
+        buy: 50
+        sell: 10
+      DRIED_KELP:
+        material: DRIED_KELP
+        displayname: '&eTảo bẹ khô'
+        buy: 150
+        sell: 30
+      CACTUS:
+        material: CACTUS
+        displayname: '&eXương rồng'
+        buy: 20.0
+        sell: 10.0
+      PUMPKIN:
+        material: PUMPKIN
+        displayname: '&eBí ngô'
+        buy: 40.0
+        sell: 50.0
+      MELON_SLICE:
+        material: MELON_SLICE
+        displayname: '&eLát cắt dưa hấu'
+        buy: 10
+        sell: 5
+      BAMBOO:
+        material: BAMBOO
+        displayname: '&eCây tre'
+        buy: 10
+        sell: 5
+      BROWN_MUSHROOM:
+        material: BROWN_MUSHROOM
+        displayname: '&eNấm nâu'
+        buy: 16.0
+        sell: 2.0
+      RED_MUSHROOM:
+        material: RED_MUSHROOM
+        displayname: '&eNấm đỏ'
+        buy: 16.0
+        sell: 2.0
+      MUTTON:
+        material: MUTTON
+        displayname: '&eThịt cừu sống'
+        buy: 30
+        sell: 15
+      BEEF:
+        material: BEEF
+        displayname: '&eThịt bò sống'
+        buy: 30
+        sell: 15
+      PORKCHOP:
+        material: PORKCHOP
+        displayname: '&eThịt heo sống'
+        buy: 30
+        sell: 15
+      CHICKEN:
+        material: CHICKEN
+        displayname: '&eThịt gà sống'
+        buy: 20
+        sell: 10
+      RABBIT:
+        material: RABBIT
+        displayname: '&eThịt thỏ sống'
+        buy: 30
+        sell: 15
+      COOKED_MUTTON:
+        material: COOKED_MUTTON
+        displayname: '&eThịt cừu chín'
+        buy: 34
+        sell: 17
+      COOKED_BEEF:
+        material: COOKED_BEEF
+        displayname: '&eBít tết'
+        buy: 34
+        sell: 17
+      COOKED_PORKCHOP:
+        material: COOKED_PORKCHOP
+        displayname: '&eThịt heo chín'
+        buy: 34.0
+        sell: 7.0
+      COOKED_RABBIT:
+        material: COOKED_RABBIT
+        displayname: '&eThịt thỏ chín'
+        buy: 34
+        sell: 17
+      COOKED_CHICKEN:
+        material: COOKED_CHICKEN
+        displayname: '&eThịt gà chín'
+        buy: 24
+        sell: 12
+      APPLE:
+        material: APPLE
+        displayname: '&eTáo'
+        buy: 40.0
+        sell: 10.0
+      GOLDEN_APPLE:
+        material: GOLDEN_APPLE
+        displayname: '&eTáo vàng'
+        buy: 1048.0
+        sell: 100.0
+  page2:
+    gui-rows: 6
+    items:
+      ENCHANTED_GOLDEN_APPLE:
+        material: ENCHANTED_GOLDEN_APPLE
+        displayname: '&eTáo vàng được phù phép'
+        buy: 9112
+        sell: 5060
+      SALMON:
+        material: SALMON
+        displayname: '&eCá hồi sống'
+        buy: 30
+        sell: 15
+      COOKED_SALMON:
+        material: COOKED_SALMON
+        displayname: '&eCá hồi chín'
+        buy: 34
+        sell: 17
+      COD:
+        material: COD
+        displayname: '&eCá tuyết sống'
+        buy: 30.0
+        sell: 5.0
+      COOKED_COD:
+        material: COOKED_COD
+        displayname: '&eCá tuyết chín'
+        buy: 34.0
+        sell: 7.0
+      PUFFERFISH:
+        material: PUFFERFISH
+        displayname: '&eCá nóc'
+        buy: 60
+        sell: 30
+      TROPICAL_FISH:
+        material: TROPICAL_FISH
+        displayname: '&eCá nhiệt đới'
+        buy: 30
+        sell: 15
+      CHERRY_SAPLING:
+        material: CHERRY_SAPLING
+        displayname: '&eChồi cây anh đào'
+        buy: 20
+        sell: 10
+      MANGROVE_PROPAGULE:
+        material: MANGROVE_PROPAGULE
+        displayname: '&eMầm cây đước'
+        buy: 20
+        sell: 10
+      PALE_OAK_SAPLING:
+        material: PALE_OAK_SAPLING
+        displayname: '&eChồi cây sồi nhạt'
+        buy: 20
+        sell: 10
+      BEETROOT:
+        material: BEETROOT
+        displayname: '&eCủ dền'
+        buy: 20
+        sell: 10
+      BEETROOT_SEEDS:
+        material: BEETROOT_SEEDS
+        displayname: '&eHạt củ dền'
+        buy: 10
+        sell: 5
+      MELON:
+        material: MELON
+        displayname: '&eDưa hấu'
+        buy: 90
+        sell: 45
+      TORCHFLOWER:
+        material: TORCHFLOWER
+        displayname: '&eHoa đuốc'
+        buy: 100
+        sell: 50
+      POISONOUS_POTATO:
+        material: POISONOUS_POTATO
+        displayname: '&eKhoai tây độc'
+        buy: 10
+        sell: 5
+      CRIMSON_FUNGUS:
+        material: CRIMSON_FUNGUS
+        displayname: '&eNấm đỏ thẫm'
+        buy: 16
+        sell: 8
+      WARPED_FUNGUS:
+        material: WARPED_FUNGUS
+        displayname: '&eNấm kì dị'
+        buy: 16
+        sell: 8
+      NETHER_SPROUTS:
+        material: NETHER_SPROUTS
+        displayname: '&eMầm Nether'
+        buy: 10
+        sell: 5
+      CRIMSON_ROOTS:
+        material: CRIMSON_ROOTS
+        displayname: '&eRễ đỏ thẫm'
+        buy: 10
+        sell: 5
+      WARPED_ROOTS:
+        material: WARPED_ROOTS
+        displayname: '&eRễ kì dị'
+        buy: 10
+        sell: 5
+      WEEPING_VINES:
+        material: WEEPING_VINES
+        displayname: '&eDây leo rủ'
+        buy: 16
+        sell: 8
+      TWISTING_VINES:
+        material: TWISTING_VINES
+        displayname: '&eDây leo xoắn'
+        buy: 16
+        sell: 8
+      AZALEA:
+        material: AZALEA
+        displayname: '&eCây đỗ quyên'
+        buy: 20
+        sell: 10
+      FLOWERING_AZALEA:
+        material: FLOWERING_AZALEA
+        displayname: '&eCây đỗ quyên nở hoa'
+        buy: 24
+        sell: 12
+      BIG_DRIPLEAF:
+        material: BIG_DRIPLEAF
+        displayname: '&eLá nhỏ giọt lớn'
+        buy: 20
+        sell: 10
+      SMALL_DRIPLEAF:
+        material: SMALL_DRIPLEAF
+        displayname: '&eLá nhỏ giọt nhỏ'
+        buy: 20
+        sell: 10
+      HANGING_ROOTS:
+        material: HANGING_ROOTS
+        displayname: '&eRễ treo'
+        buy: 10
+        sell: 5
+      SPORE_BLOSSOM:
+        material: SPORE_BLOSSOM
+        displayname: '&eHoa bào tử'
+        buy: 100
+        sell: 50
+      SUNFLOWER:
+        material: SUNFLOWER
+        displayname: '&eHoa hướng dương'
+        buy: 20
+        sell: 10
+      LILAC:
+        material: LILAC
+        displayname: '&eHoa tử đinh hương'
+        buy: 20
+        sell: 10
+      ROSE_BUSH:
+        material: ROSE_BUSH
+        displayname: '&eBụi hoa hồng'
+        buy: 20
+        sell: 10
+      PEONY:
+        material: PEONY
+        displayname: '&eHoa mẫu đơn'
+        buy: 20
+        sell: 10
+      DANDELION:
+        material: DANDELION
+        displayname: '&eHoa bồ công anh'
+        buy: 16.0
+        sell: 2.0
+      POPPY:
+        material: POPPY
+        displayname: '&eHoa anh túc'
+        buy: 16.0
+        sell: 2.0
+      BLUE_ORCHID:
+        material: BLUE_ORCHID
+        displayname: '&ePhong lan xanh'
+        buy: 16
+        sell: 8
+      ALLIUM:
+        material: ALLIUM
+        displayname: '&eHành kiểng'
+        buy: 16
+        sell: 8
+      AZURE_BLUET:
+        material: AZURE_BLUET
+        displayname: '&eHoa thiến thảo'
+        buy: 16
+        sell: 8
+      RED_TULIP:
+        material: RED_TULIP
+        displayname: '&eHoa tulip đỏ'
+        buy: 16
+        sell: 8
+      ORANGE_TULIP:
+        material: ORANGE_TULIP
+        displayname: '&eHoa tulip cam'
+        buy: 16
+        sell: 8
+      WHITE_TULIP:
+        material: WHITE_TULIP
+        displayname: '&eHoa tulip trắng'
+        buy: 16
+        sell: 8
+      PINK_TULIP:
+        material: PINK_TULIP
+        displayname: '&eHoa tulip hồng'
+        buy: 16
+        sell: 8
+      OXEYE_DAISY:
+        material: OXEYE_DAISY
+        displayname: '&eHoa cúc trắng'
+        buy: 16
+        sell: 8
+      CORNFLOWER:
+        material: CORNFLOWER
+        displayname: '&eHoa cúc lam'
+        buy: 16
+        sell: 8
+      LILY_OF_THE_VALLEY:
+        material: LILY_OF_THE_VALLEY
+        displayname: '&eHoa linh lan'
+        buy: 16
+        sell: 8
+      FIREFLY_BUSH:
+        material: FIREFLY_BUSH
+        displayname: '&eBụi đom đóm'
+        buy: 160
+        sell: 80
+  page3:
+    gui-rows: 6
+    items:
+      WITHER_ROSE:
+        material: WITHER_ROSE
+        displayname: '&eHoa Wither'
+        buy: 160
+        sell: 80
+      HONEYCOMB:
+        material: HONEYCOMB
+        displayname: '&eTổ ong'
+        buy: 20
+        sell: 10
+      HONEY_BOTTLE:
+        material: HONEY_BOTTLE
+        displayname: '&eChai mật ong'
+        buy: 60
+        sell: 30
+      MILK_BUCKET:
+        material: MILK_BUCKET
+        displayname: '&eXô sữa'
+        buy: 200.0
+        sell: 40.0
+      EGG:
+        material: EGG
+        displayname: '&eTrứng'
+        buy: 16.0
+        sell: 1.0
+      BONE_MEAL:
+        material: BONE_MEAL
+        displayname: '&eBột xương'
+        buy: 10
+        sell: 5
+      HAY_BLOCK:
+        material: HAY_BLOCK
+        displayname: '&eKhối rơm'
+        buy: 180
+        sell: 90
+      BREAD:
+        material: BREAD
+        displayname: '&eBánh mì'
+        buy: 60.0
+        sell: 30.0
+      BAKED_POTATO:
+        material: BAKED_POTATO
+        displayname: '&eKhoai tây nướng'
+        buy: 24
+        sell: 12
+      COOKIE:
+        material: COOKIE
+        displayname: '&eBánh quy'
+        buy: 10
+        sell: 5
+      PUMPKIN_PIE:
+        material: PUMPKIN_PIE
+        displayname: '&eBánh bí ngô'
+        buy: 76
+        sell: 38
+      MUSHROOM_STEW:
+        material: MUSHROOM_STEW
+        displayname: '&eSúp nấm'
+        buy: 36
+        sell: 18
+      BEETROOT_SOUP:
+        material: BEETROOT_SOUP
+        displayname: '&eSúp củ dền'
+        buy: 124
+        sell: 62
+      RABBIT_STEW:
+        material: RABBIT_STEW
+        displayname: '&eThịt thỏ hầm'
+        buy: 98
+        sell: 49

@@ -1,0 +1,94 @@
+menu_title: '&#a8e6cf&l❁ ǫᴜảɴ ʟý ᴛổ độɪ ❁'
+open_command: teams
+register_command: true
+size: 27
+update_interval: -1
+
+items:
+  # ==================================================
+  # CÁC NÚT TÍNH NĂNG CHÍNH
+  # ==================================================
+  'create':
+    material: LIGHT_BLUE_BANNER
+    item_flags: [ HIDE_ATTRIBUTES ]
+    slot: 10
+    display_name: '&#B5EAD7&lᴛạᴏ ᴛổ độɪ (ᴛᴇᴀᴍ)'
+    lore:
+    - '&#fcfcfcᴛạᴏ ᴛổ độɪ ᴄủᴀ ʀɪêɴɢ ʙạɴ để'
+    - '&#fcfcfcᴄùɴɢ ɴʜᴀᴜ ѕɪɴʜ ᴛồɴ ᴠà ᴘʜáᴛ ᴛʀɪểɴ.'
+    - ''
+    - '&#B5EAD7&lᴛíɴʜ ɴăɴɢ ɴổɪ ʙậᴛ:'
+    - ' &#57F287➥ &#fcfcfcʟɪêɴ ᴍɪɴʜ ɢɪữᴀ ᴄáᴄ ɴɢườɪ ᴄʜơɪ'
+    - ' &#57F287➥ &#fcfcfcᴋʜᴜ ᴠựᴄ ɴʜà ᴄʜᴜɴɢ (ʜᴏᴍᴇ)'
+    - ' &#57F287➥ &#fcfcfcʀươɴɢ ʟưᴜ ᴛʀữ ᴄʜᴜɴɢ'
+    - ' &#57F287➥ &#fcfcfcʙậᴛ/ᴛắᴛ ᴘᴠᴘ ɴộɪ ʙộ'
+    - ' &#57F287➥ &#fcfcfcᴋêɴʜ ᴄʜᴀᴛ ʀɪêɴɢ ᴛư'
+    - ''
+    - '&#E0E0E0ᴄú ᴘʜáᴘ: &#FFD700/team create <tên> <tag>'
+    click_commands:
+    - '[close]'
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    - '[message] &#57F287&l(!) &#E0E0E0ʜãʏ ɢõ ʟệɴʜ &#FFD700/team create <tên> <tag> &#E0E0E0để ᴛạᴏ ᴛổ độɪ!'
+
+  'leave':
+    material: PINK_BANNER
+    item_flags: [ HIDE_ATTRIBUTES ]
+    slot: 13
+    display_name: '&#FFB7B2&lʀờɪ ᴛổ độɪ'
+    lore:
+    - '&#fcfcfcʀờɪ ᴋʜỏɪ ᴛổ độɪ ʜɪệɴ ᴛạɪ ᴄủᴀ ʙạɴ.'
+    - ''
+    - '&#fcfcfcʙạɴ ᴍᴜốɴ ᴛìᴍ ᴍộᴛ ʙếɴ đỗ ᴍớɪ?'
+    - '&#fcfcfcʜãʏ ʀờɪ đɪ để ᴛìᴍ ᴋɪếᴍ ѕự ᴛự ᴅᴏ.'
+    - ''
+    - '&#E0E0E0ᴄú ᴘʜáᴘ: &#FFD700/team leave'
+    - ''
+    - '&#a8e6cf▶ ɴʜấɴ ᴄʜᴜộᴛ để ʀờɪ đɪ'
+    click_commands:
+    - '[close]'
+    - '[player] team leave'
+    - '[sound] UI_BUTTON_CLICK'
+
+  'disband':
+    material: RED_BANNER
+    item_flags: [ HIDE_ATTRIBUTES ]
+    slot: 16
+    display_name: '&#FF9AA2&lɢɪảɪ ᴛáɴ ᴛổ độɪ'
+    lore:
+    - '&#fcfcfcxóᴀ ʙỏ ʜᴏàɴ ᴛᴏàɴ ᴛổ độɪ ᴄủᴀ ʙạɴ.'
+    - ''
+    - '&#fcfcfcᴋʜɪ ᴛổ độɪ ᴋʜôɴɢ ᴄòɴ ᴀɪ ʜᴏặᴄ ʙạɴ ʟà'
+    - '&#fcfcfcđộɪ ᴛʀưởɴɢ, ʙạɴ ᴄó ǫᴜʏềɴ ɢɪảɪ ᴛáɴ.'
+    - ''
+    - '&#FF9AA2&l⚠ ᴄảɴʜ ʙáᴏ:'
+    - '&#FF9AA2ʜàɴʜ độɴɢ ɴàʏ ᴋʜôɴɢ ᴛʜể ᴋʜôɪ ᴘʜụᴄ!'
+    - '&#FF9AA2ʜãʏ ᴄâɴ ɴʜắᴄ ᴛʜậᴛ ᴋỹ ᴛʀướᴄ ᴋʜɪ ʟàᴍ.'
+    - ''
+    - '&#E0E0E0ᴄú ᴘʜáᴘ: &#FFD700/team disband'
+    - ''
+    - '&#a8e6cf▶ ɴʜấɴ ᴄʜᴜộᴛ để ɢɪảɪ ᴛáɴ'
+    click_commands:
+    - '[close]'
+    - '[player] team disband'
+    - '[sound] ENTITY_ENDER_DRAGON_GROWL'
+
+  # ==================================================
+  # NÚT ĐÓNG & VIỀN KÍNH TRANG TRÍ CHUẨN PASTEL
+  # ==================================================
+  'close_button':
+    material: BARRIER
+    slot: 22
+    display_name: '&#FFB7B2&l✖ đóɴɢ ᴍᴇɴᴜ'
+    click_commands:
+    - '[close]'
+    - '[sound] BLOCK_WOODEN_BUTTON_CLICK_ON'
+
+  'border_white':
+    material: WHITE_STAINED_GLASS_PANE
+    slots: [ '0', '1', '7', '8', '9', '17', '18', '19', '25', '26' ]
+    display_name: ' '
+
+  'border_blue':
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    slots: [ '2', '3', '4', '5', '6', '20', '21', '23', '24' ]
+    display_name: ' '

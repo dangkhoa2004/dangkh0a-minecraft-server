@@ -1,0 +1,10 @@
+part-separator: " "
+
+msg:
+  text: "<#AEC6CF>[<white>Tôi <#AEC6CF>➥ <white>{receiver_name}<#AEC6CF>] <#fcfcfc>{message}"
+  hover:
+    - "<#888888>%server_time_yyyy-MM-dd HH:mm:ss%"
+    - "<#E0E0E0>Bạn đã gửi tin nhắn này cho <white>{receiver_name}<#E0E0E0>."
+    - ""
+    - "<#57F287>▶ Nhấn để tiếp tục nhắn tin!"
+  suggest: "/msg {receiver_name} "

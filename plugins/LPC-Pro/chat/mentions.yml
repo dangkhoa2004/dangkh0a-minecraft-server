@@ -1,0 +1,32 @@
+# Mention Settings
+# Configure how @mentions work in chat
+
+# Master toggle - set to false to disable all @mention processing
+enabled: true
+
+# Mention styling
+color: "YELLOW"
+bold: false
+italic: false
+underlined: true
+
+# Sound settings
+sound:
+  enabled: true
+  name: "entity.experience_orb.pickup"
+  volume: 1.0
+  pitch: 1.0
+
+# Title notification settings (shown on screen when mentioned)
+title:
+  enabled: true
+  fade-in: 10
+  stay: 40
+  fade-out: 10
+
+# Special mentions
+everyone:
+  enabled: true  # Allow @everyone to mention all players (requires lpcpro.mention.everyone)
+
+here:
+  enabled: true  # Allow @here to mention players in same world (requires lpcpro.mention.here)

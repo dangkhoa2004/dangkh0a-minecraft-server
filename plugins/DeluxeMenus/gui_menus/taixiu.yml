@@ -1,0 +1,440 @@
+menu_title: '&#BDB2FF&l❁ ĐẶT CƯỢC TÀI XỈU ❁'
+open_command: taixiu
+size: 54
+items:
+  'background-0':
+    material: RED_STAINED_GLASS_PANE
+    slots:
+    - 14
+    - 15
+    - 16
+    display_name: '&#ED4245&lXỈU'
+  'background-1':
+    material: LIME_STAINED_GLASS_PANE
+    slots:
+    - 10
+    - 11
+    - 12
+    display_name: '&#57F287&lTÀI'
+  'background-main':
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+    - 1
+    - 2
+    - 3
+    - 5
+    - 6
+    - 7
+    - 9
+    - 13
+    - 17
+    - 18
+    - 22
+    - 26
+    - 27
+    - 31
+    - 35
+    - 36
+    - 40
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+    - 50
+    - 51
+    - 52
+    - 53
+    display_name: ' '
+  'what':
+    material: gold_ingot
+    slot: 4
+    display_name: '&#BDB2FF&l❁ ĐÂY LÀ GÌ? ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Trò chơi Tài Xỉu đặt cược bằng Bạc.'
+    - ' &#E0E0E0Tham gia ngay và làm giàu nhé!'
+    - ''
+    - '&#ED4245▶ &#E0E0E0Nhấn để thoát'
+    left_click_commands:
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+  'luatchoi':
+    material: BOOK
+    slot: 0
+    display_name: '&#FCD05C&l❁ LUẬT CHƠI LÀ GÌ? ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#AEC6CF&lCách thức chơi:'
+    - ' &#E0E0E0Hệ thống sẽ quay ngẫu nhiên 3 xúc xắc:'
+    - '  &#888888• &#E0E0E0Tổng từ &#FCD05C4 &#E0E0E0đến &#FCD05C11 &#E0E0E0=> Kết quả: &#ED4245[XỈU]'
+    - '  &#888888• &#E0E0E0Tổng từ &#FCD05C12 &#E0E0E0đến &#FCD05C17 &#E0E0E0=> Kết quả: &#57F287[TÀI]'
+    - '  &#888888• &#E0E0E0Ra &#FCD05C3 &#E0E0E0hoặc &#FCD05C18 &#E0E0E0=> &#ED4245Nhà cái thắng.'
+    - ''
+    - ' &#fcfcfc❖ &#AEC6CF&lCách đặt cược:'
+    - ' &#E0E0E0Mức cược từ &#FCD05C500 ⛃ &#E0E0E0đến &#FCD05C1.000.000 ⛃&#E0E0E0.'
+    - ' &#E0E0E0Thắng cược sẽ nhận lại &#57F287Gấp đôi &#E0E0E0số bạc.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Hoặc dùng lệnh: &#AEC6CF/taixiu luatchoi'
+    left_click_commands:
+    - '[player] taixiu luatchoi'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu luatchoi'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+  'thongtin':
+    material: BOOK
+    slot: 8
+    display_name: '&#BDB2FF&l❁ THÔNG TIN ĐẶT CƯỢC ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Nhấn vào để xem thông tin'
+    - ' &#E0E0E0phiên Tài Xỉu đang hoạt động.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xem'
+    left_click_commands:
+    - '[player] taixiu thongtin'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu thongtin'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+
+  # ==================================================
+  # KHU VỰC CƯỢC TÀI
+  # ==================================================
+  'tai500':
+    material: PAPER
+    slot: 19
+    display_name: '&#57F287&lCƯỢC TÀI &#888888| &#E0E0E0Giá: &#FCD05C500 ⛃'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn sẽ tiêu tốn &#FCD05C500 ⛃ &#E0E0E0để cược'
+    - ' &#E0E0E0vào cửa &#57F287[TÀI] &#E0E0E0phiên này.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xác nhận cược'
+    left_click_commands:
+    - '[player] taixiu:choitaixiu cuoc tai 500'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu:choitaixiu cuoc tai 500'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+  'tai1000':
+    material: PAPER
+    slot: 20
+    display_name: '&#57F287&lCƯỢC TÀI &#888888| &#E0E0E0Giá: &#FCD05C1.000 ⛃'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn sẽ tiêu tốn &#FCD05C1.000 ⛃ &#E0E0E0để cược'
+    - ' &#E0E0E0vào cửa &#57F287[TÀI] &#E0E0E0phiên này.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xác nhận cược'
+    left_click_commands:
+    - '[player] taixiu:choitaixiu cuoc tai 1000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu:choitaixiu cuoc tai 1000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+  'tai1500':
+    material: PAPER
+    slot: 21
+    display_name: '&#57F287&lCƯỢC TÀI &#888888| &#E0E0E0Giá: &#FCD05C1.500 ⛃'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn sẽ tiêu tốn &#FCD05C1.500 ⛃ &#E0E0E0để cược'
+    - ' &#E0E0E0vào cửa &#57F287[TÀI] &#E0E0E0phiên này.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xác nhận cược'
+    left_click_commands:
+    - '[player] taixiu:choitaixiu cuoc tai 1500'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu:choitaixiu cuoc tai 1500'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+  'tai2000':
+    material: PAPER
+    slot: 28
+    display_name: '&#57F287&lCƯỢC TÀI &#888888| &#E0E0E0Giá: &#FCD05C2.000 ⛃'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn sẽ tiêu tốn &#FCD05C2.000 ⛃ &#E0E0E0để cược'
+    - ' &#E0E0E0vào cửa &#57F287[TÀI] &#E0E0E0phiên này.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xác nhận cược'
+    left_click_commands:
+    - '[player] taixiu:choitaixiu cuoc tai 2000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu:choitaixiu cuoc tai 2000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+  'tai2500':
+    material: PAPER
+    slot: 29
+    display_name: '&#57F287&lCƯỢC TÀI &#888888| &#E0E0E0Giá: &#FCD05C2.500 ⛃'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn sẽ tiêu tốn &#FCD05C2.500 ⛃ &#E0E0E0để cược'
+    - ' &#E0E0E0vào cửa &#57F287[TÀI] &#E0E0E0phiên này.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xác nhận cược'
+    left_click_commands:
+    - '[player] taixiu:choitaixiu cuoc tai 2500'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu:choitaixiu cuoc tai 2500'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+  'tai3000':
+    material: PAPER
+    slot: 30
+    display_name: '&#57F287&lCƯỢC TÀI &#888888| &#E0E0E0Giá: &#FCD05C3.000 ⛃'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn sẽ tiêu tốn &#FCD05C3.000 ⛃ &#E0E0E0để cược'
+    - ' &#E0E0E0vào cửa &#57F287[TÀI] &#E0E0E0phiên này.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xác nhận cược'
+    left_click_commands:
+    - '[player] taixiu:choitaixiu cuoc tai 3000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu:choitaixiu cuoc tai 3000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+  'tai5000':
+    material: PAPER
+    slot: 37
+    display_name: '&#57F287&lCƯỢC TÀI &#888888| &#E0E0E0Giá: &#FCD05C5.000 ⛃'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn sẽ tiêu tốn &#FCD05C5.000 ⛃ &#E0E0E0để cược'
+    - ' &#E0E0E0vào cửa &#57F287[TÀI] &#E0E0E0phiên này.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xác nhận cược'
+    left_click_commands:
+    - '[player] taixiu:choitaixiu cuoc tai 5000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu:choitaixiu cuoc tai 5000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+  'tai10000':
+    material: PAPER
+    slot: 38
+    display_name: '&#57F287&lCƯỢC TÀI &#888888| &#E0E0E0Giá: &#FCD05C10.000 ⛃'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn sẽ tiêu tốn &#FCD05C10.000 ⛃ &#E0E0E0để cược'
+    - ' &#E0E0E0vào cửa &#57F287[TÀI] &#E0E0E0phiên này.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xác nhận cược'
+    left_click_commands:
+    - '[player] taixiu:choitaixiu cuoc tai 10000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu:choitaixiu cuoc tai 10000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+  'tai20000':
+    material: PAPER
+    slot: 39
+    display_name: '&#57F287&lCƯỢC TÀI &#888888| &#E0E0E0Giá: &#FCD05C20.000 ⛃'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn sẽ tiêu tốn &#FCD05C20.000 ⛃ &#E0E0E0để cược'
+    - ' &#E0E0E0vào cửa &#57F287[TÀI] &#E0E0E0phiên này.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xác nhận cược'
+    left_click_commands:
+    - '[player] taixiu:choitaixiu cuoc tai 20000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu:choitaixiu cuoc tai 20000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+
+  # ==================================================
+  # KHU VỰC CƯỢC XỈU
+  # ==================================================
+  'xiu500':
+    material: PAPER
+    slot: 23
+    display_name: '&#ED4245&lCƯỢC XỈU &#888888| &#E0E0E0Giá: &#FCD05C500 ⛃'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn sẽ tiêu tốn &#FCD05C500 ⛃ &#E0E0E0để cược'
+    - ' &#E0E0E0vào cửa &#ED4245[XỈU] &#E0E0E0phiên này.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xác nhận cược'
+    left_click_commands:
+    - '[player] taixiu:choitaixiu cuoc xiu 500'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu:choitaixiu cuoc xiu 500'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+  'xiu1000':
+    material: PAPER
+    slot: 24
+    display_name: '&#ED4245&lCƯỢC XỈU &#888888| &#E0E0E0Giá: &#FCD05C1.000 ⛃'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn sẽ tiêu tốn &#FCD05C1.000 ⛃ &#E0E0E0để cược'
+    - ' &#E0E0E0vào cửa &#ED4245[XỈU] &#E0E0E0phiên này.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xác nhận cược'
+    left_click_commands:
+    - '[player] taixiu:choitaixiu cuoc xiu 1000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu:choitaixiu cuoc xiu 1000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+  'xiu1500':
+    material: PAPER
+    slot: 25
+    display_name: '&#ED4245&lCƯỢC XỈU &#888888| &#E0E0E0Giá: &#FCD05C1.500 ⛃'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn sẽ tiêu tốn &#FCD05C1.500 ⛃ &#E0E0E0để cược'
+    - ' &#E0E0E0vào cửa &#ED4245[XỈU] &#E0E0E0phiên này.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xác nhận cược'
+    left_click_commands:
+    - '[player] taixiu:choitaixiu cuoc xiu 1500'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu:choitaixiu cuoc xiu 1500'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+  'xiu2000':
+    material: PAPER
+    slot: 32
+    display_name: '&#ED4245&lCƯỢC XỈU &#888888| &#E0E0E0Giá: &#FCD05C2.000 ⛃'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn sẽ tiêu tốn &#FCD05C2.000 ⛃ &#E0E0E0để cược'
+    - ' &#E0E0E0vào cửa &#ED4245[XỈU] &#E0E0E0phiên này.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xác nhận cược'
+    left_click_commands:
+    - '[player] taixiu:choitaixiu cuoc xiu 2000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu:choitaixiu cuoc xiu 2000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+  'xiu2500':
+    material: PAPER
+    slot: 33
+    display_name: '&#ED4245&lCƯỢC XỈU &#888888| &#E0E0E0Giá: &#FCD05C2.500 ⛃'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn sẽ tiêu tốn &#FCD05C2.500 ⛃ &#E0E0E0để cược'
+    - ' &#E0E0E0vào cửa &#ED4245[XỈU] &#E0E0E0phiên này.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xác nhận cược'
+    left_click_commands:
+    - '[player] taixiu:choitaixiu cuoc xiu 2500'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu:choitaixiu cuoc xiu 2500'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+  'xiu3000':
+    material: PAPER
+    slot: 34
+    display_name: '&#ED4245&lCƯỢC XỈU &#888888| &#E0E0E0Giá: &#FCD05C3.000 ⛃'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn sẽ tiêu tốn &#FCD05C3.000 ⛃ &#E0E0E0để cược'
+    - ' &#E0E0E0vào cửa &#ED4245[XỈU] &#E0E0E0phiên này.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xác nhận cược'
+    left_click_commands:
+    - '[player] taixiu:choitaixiu cuoc xiu 3000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu:choitaixiu cuoc xiu 3000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+  'xiu5000':
+    material: PAPER
+    slot: 41
+    display_name: '&#ED4245&lCƯỢC XỈU &#888888| &#E0E0E0Giá: &#FCD05C5.000 ⛃'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn sẽ tiêu tốn &#FCD05C5.000 ⛃ &#E0E0E0để cược'
+    - ' &#E0E0E0vào cửa &#ED4245[XỈU] &#E0E0E0phiên này.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xác nhận cược'
+    left_click_commands:
+    - '[player] taixiu:choitaixiu cuoc xiu 5000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu:choitaixiu cuoc xiu 5000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+  'xiu10000':
+    material: PAPER
+    slot: 42
+    display_name: '&#ED4245&lCƯỢC XỈU &#888888| &#E0E0E0Giá: &#FCD05C10.000 ⛃'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn sẽ tiêu tốn &#FCD05C10.000 ⛃ &#E0E0E0để cược'
+    - ' &#E0E0E0vào cửa &#ED4245[XỈU] &#E0E0E0phiên này.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xác nhận cược'
+    left_click_commands:
+    - '[player] taixiu:choitaixiu cuoc xiu 10000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu:choitaixiu cuoc xiu 10000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+  'xiu20000':
+    material: PAPER
+    slot: 43
+    display_name: '&#ED4245&lCƯỢC XỈU &#888888| &#E0E0E0Giá: &#FCD05C20.000 ⛃'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Bạn sẽ tiêu tốn &#FCD05C20.000 ⛃ &#E0E0E0để cược'
+    - ' &#E0E0E0vào cửa &#ED4245[XỈU] &#E0E0E0phiên này.'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để xác nhận cược'
+    left_click_commands:
+    - '[player] taixiu:choitaixiu cuoc xiu 20000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'
+    right_click_commands:
+    - '[player] taixiu:choitaixiu cuoc xiu 20000'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[close]'

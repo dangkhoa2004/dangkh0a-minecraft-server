@@ -1,0 +1,39 @@
+# # These are a list of placeholders for your use, Editting these will do nothing!
+betterrtp_count: Get total amount of rtp's done
+betterrtp_cooldown: Get cooldown in current world
+betterrtp_cooldown_<world_name>: Get cooldown of a specified world
+betterrtp_cooldowntime: Get cooldown time subject to in current world
+betterrtp_cooldowntime_<world_name>: Get cooldown time subject to in specified world
+betterrtp_canrtp: Get the reason or yes output if player can rtp in current world
+betterrtp_canrtp_<world_name>: Get the reason or yes output if player can rtp in set
+  world
+betterrtp_canrtpcooldown: Get if a player can rtp just based off their cooldown
+betterrtp_canrtpcooldown_<world_name>: Get if a player can rtp just based off their
+  cooldown for this world
+betterrtp_canrtpprice: Get if a player can rtp just based off their bank account
+betterrtp_canrtpprice_<world_name>: Get if a player can rtp just based off their bank
+  account for this world
+betterrtp_canrtphunger: Get if a player can rtp just based off their hunger
+betterrtp_canrtphunger_<world_name>: Get if a player can rtp just based off their
+  hunger for this world
+betterrtp_price: Get the price of rtp'ing in current world
+betterrtp_price_<world_name>: Get the price of rtp'ing in specified world
+
+# #Config section for placeholder outputs
+Config:
+  TimeFormat:
+    Days: '{0} ɴɢàʏ'
+    Hours: '{0} ɢɪờ'
+    Minutes: '{0} ᴘʜúᴛ'
+    Seconds: '{0} ɢɪâʏ'
+    ZeroAll: 0 ɢɪâʏ
+    Infinite: ᴠô ʜạɴ
+    Separator:
+      Middle: ', ' # Ví dụ: 1 Ngày, 5 Giờ, 2 phút và 5 giây
+      Last: ' ᴠà ' # Ví dụ: 1 Phút và 10 Giây
+  CanRTP:
+    Success: '#57F287sẵɴ sàɴɢ'
+    NoPermission: '#ED4245ᴋʜôɴɢ ᴄó ǫᴜʏềɴ'
+    Cooldown: '#FCD05Cđᴀɴɢ ʜồɪ...'
+    Price: '#ED4245ᴛʜɪếᴜ ᴛɪềɴ'
+    Hunger: '#ED4245ǫᴜá đóɪ'

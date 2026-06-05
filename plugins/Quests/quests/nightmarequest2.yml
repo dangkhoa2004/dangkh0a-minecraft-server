@@ -1,0 +1,33 @@
+tasks:
+  riddle:
+    type: "inventory"
+    item: "BEACON"
+    amount: 1
+    remove-items-when-complete: true
+display:
+  name: "&#A3C4F3&nɴʜɪệᴍ ᴠụ áᴄ ᴍộɴɢ:&r &#FDFD96#2"
+  lore-normal:
+  - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ ɢɪảɪ'
+  - '&#D1E8E2ᴄâᴜ đố ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+  - ''
+  - '&#FFB347◆ &#FDFD96ᴄâᴜ đố: &#D1E8E2đâʏ ꜱẽ ʟà ɴɢọɴ ʜảɪ đăɴɢ ᴄủᴀ ᴛôɪ'
+  - '&#D1E8E2                  ᴍỗɪ ᴋʜɪ ᴛôɪ ʟạᴄ ʟốɪ.'
+  - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{riddle:progress}/1'
+  - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC01x ɢɪàʏ áᴄ ᴍộɴɢ'
+  - '&#D1E8E2&o(ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ɪᴠ, ғɪʀᴇ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ɪɪɪ, ᴜɴʙʀᴇᴀᴋɪɴɢ ɪɪɪ)'
+  - ''
+  lore-started:
+  - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "IRON_BARS"
+  itemflags:
+  - "HIDE_ATTRIBUTES"
+rewards:
+- "give {player} NETHERITE_BOOTS 1 protection:4 unbreaking:3 mending:1 thorns:3 feather_falling:4 depth_strider:3 soul_speed:3 name:&#800000&l◆_&#FF0000&lNIGHTMARE_BOOTS_&#800000&l◆"
+options:
+  category: "nightmare"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 2880
+  sort-order: 2

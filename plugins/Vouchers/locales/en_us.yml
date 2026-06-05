@@ -1,0 +1,76 @@
+gui:
+  shared buttons:
+    back button:
+      lore: '&#ED4245▶ %left_click% &#E0E0E0để qᴜᴀʏ ʟạɪ'
+      name: '&#ED4245&lqᴜᴀʏ ʟạɪ'
+    previous button:
+      lore: '&#FCD05C▶ %left_click% &#E0E0E0để ᴠề ᴛʀᴀɴɢ ᴛʀướᴄ'
+      name: '&#AEC6CF&lᴛʀᴀɴɢ ᴛʀướᴄ'
+    next button:
+      lore: '&#FCD05C▶ %left_click% &#E0E0E0để sᴀɴɢ ᴛʀᴀɴɢ ᴛɪếᴘ'
+      name: '&#AEC6CF&lᴛʀᴀɴɢ ᴛɪếᴘ'
+    exit button:
+      lore: '&#ED4245▶ %left_click% &#E0E0E0để ᴛʜᴏáᴛ ᴍᴇɴᴜ'
+      name: '&#ED4245&lᴛʜᴏáᴛ'
+  user menus:
+    confirm:
+      title: '&#FCD05C❁ xáᴄ ɴʜậɴ sử ᴅụɴɢ ❁'
+      items:
+        'no':
+          lore: '&#fcfcfc❖ &#E0E0E0ʜủʏ ʙỏ qᴜá ᴛʀìɴʜ sử ᴅụɴɢ'
+          name: '&#ED4245&lʜủʏ ʙỏ'
+        'yes':
+          lore: '&#fcfcfc❖ &#E0E0E0Đồɴɢ ý sử ᴅụɴɢ ᴠᴏᴜᴄʜᴇʀ'
+          name: '&#57F287&lxáᴄ ɴʜậɴ'
+    reward selection:
+      title: '&#FCD05C❁ ᴄʜọɴ &#FFD700%total_rewards% &#FCD05Cᴘʜầɴ ᴛʜưởɴɢ ❁'
+      items:
+        reward:
+          lore:
+            unselected:
+            - '&#E0E0E0─────────────────'
+            - '&#fcfcfc❖ &#E0E0E0ᴛỷ ʟệ: &#57F287%reward_chance%%'
+            - ''
+            - '&#57F287▶ ɴʜấɴ %left_click%'
+            - '&#E0E0E0để ᴄʜọɴ ᴘʜầɴ ᴛʜưởɴɢ ɴàʏ'
+            selected:
+            - '&#E0E0E0─────────────────'
+            - '&#fcfcfc❖ &#E0E0E0ᴛỷ ʟệ: &#57F287%reward_chance%%'
+            - ''
+            - '&#57F287&l[Đã ᴄʜọɴ]'
+            - ''
+            - '&#ED4245▶ ɴʜấɴ %left_click%'
+            - '&#E0E0E0để ʙỏ ᴄʜọɴ ᴘʜầɴ ᴛʜưởɴɢ ɴàʏ'
+  admin menus:
+    voucher list:
+      title: '&#BDB2FF&l❁ ᴅᴀɴʜ sáᴄʜ ᴠᴏᴜᴄʜᴇʀ ❁'
+conditionals:
+  'false': '&#ED4245sᴀɪ'
+  'true': '&#57F287Đúɴɢ'
+  closed: '&#ED4245Đóɴɢ'
+  disabled: '&#ED4245ᴛắᴛ'
+  enabled: '&#57F287ʙậᴛ'
+  open: '&#57F287ᴍở'
+error:
+  not a number: '&#ED4245&l(!) &#FFD700%value% &#E0E0E0ᴋʜôɴɢ ᴘʜảɪ ʟà ᴍộᴛ ᴄᴏɴ số ʜợᴘ ʟệ!'
+  no permission: '&#ED4245&l(!) &#E0E0E0ʙạɴ ᴋʜôɴɢ đủ ǫᴜʏềɴ để ᴛʜựᴄ ʜɪệɴ ʟệɴʜ ɴàʏ!'
+  not allowed to use: '&#ED4245&l(!) &#E0E0E0ʙạɴ ᴋʜôɴɢ đượᴄ ᴘʜéᴘ sử ᴅụɴɢ ᴠᴏᴜᴄʜᴇʀ ɴàʏ.'
+  redeem limit reached: '&#ED4245&l(!) &#E0E0E0ʙạɴ đã đạᴛ ɢɪớɪ ʜạɴ sử ᴅụɴɢ ᴠᴏᴜᴄʜᴇʀ ɴàʏ!'
+  player offline: '&#ED4245&l(!) &#E0E0E0ɴɢườɪ ᴄʜơɪ &#FFD700%value% &#E0E0E0ᴋʜôɴɢ ᴏɴʟɪɴᴇ!'
+  not enough money: '&#ED4245&l(!) &#E0E0E0ʙạɴ ᴋʜôɴɢ đủ ᴛɪềɴ để ᴛʜựᴄ ʜɪệɴ!'
+  player not found: '&#ED4245&l(!) &#E0E0E0ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ɴɢườɪ ᴄʜơɪ &#FFD700%value%&#E0E0E0!'
+  voucher already exists: '&#ED4245&l(!) &#E0E0E0ᴍộᴛ ᴠᴏᴜᴄʜᴇʀ ᴠớɪ ID đó đã ᴛồɴ ᴛạɪ!'
+  redeem history cleared: '&#57F287&l(!) &#E0E0E0Đã xóᴀ ʟịᴄʜ sử sử ᴅụɴɢ ᴠᴏᴜᴄʜᴇʀ ᴄủᴀ ɴɢườɪ ᴄʜơɪ.'
+  voucher not found: '&#ED4245&l(!) &#E0E0E0ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴠᴏᴜᴄʜᴇʀ ɴàᴏ ᴄó ID: &#FFD700%voucher_id%'
+  voucher cooldown: '&#ED4245&l(!) &#E0E0E0ʙạɴ ᴄó ᴛʜể sử ᴅụɴɢ ʟạɪ ᴠᴏᴜᴄʜᴇʀ ɴàʏ sᴀᴜ &#FFD700%cooldown_time% ɢɪâʏ&#E0E0E0.'
+info:
+  give:
+    placed into inventory: '&#57F287&l(!) &#E0E0E0ᴠᴏᴜᴄʜᴇʀ đã đượᴄ ᴛʜêᴍ ᴠàᴏ ᴛúɪ đồ ᴄủᴀ &#FFD700%player_name%&#E0E0E0.'
+    dropped near player: '&#FCD05C&l(!) &#E0E0E0ᴛúɪ đồ đầʏ! ᴠᴏᴜᴄʜᴇʀ đã ʀơɪ ʀᴀ ɢầɴ &#FFD700%player_name%&#E0E0E0.'
+button:
+  number key: 'ɴʜấɴ ᴘʜíᴍ #'
+  left click: 'ᴄʟɪᴄᴋ ᴛʀáɪ'
+  right click: 'ᴄʟɪᴄᴋ ᴘʜảɪ'
+  left shift click: 'sʜɪғᴛ + ᴄʟɪᴄᴋ ᴛʀáɪ'
+  middle click: 'ᴄʟɪᴄᴋ ɢɪữᴀ'
+  drop key: 'ɴʜấɴ ᴘʜíᴍ ᴠứᴛ (Q)'

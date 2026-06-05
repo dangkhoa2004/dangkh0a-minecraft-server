@@ -1,0 +1,186 @@
+inventory:
+  armor:
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_boots
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Hỏa
+        Thiêu IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Chấn
+        Phản V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ngự
+        Hỏa I",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Quỹ
+        Đạo IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 5"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:depth_strider":3,"minecraft:protection":4,"minecraft:unbreaking":3}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-chanphan":5,"advancedenchantments:ae_enchantment-hoathieu":4,"advancedenchantments:ae_enchantment-nguhoa":1,"advancedenchantments:ae_enchantment-quydao":4,"advancedenchantments:repaircost":7,"advancedenchantments:slots":4}}'
+      minecraft:trim: '{material:"minecraft:diamond",pattern:"minecraft:silence"}'
+      minecraft:damage: '2'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_leggings
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khóa
+        Đòn III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Né
+        Đòn V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Sáng
+        Suốt II",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 6"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:protection":4,"minecraft:unbreaking":3}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-khoadon":3,"advancedenchantments:ae_enchantment-nedon":5,"advancedenchantments:ae_enchantment-sangsuot":2,"advancedenchantments:repaircost":1,"advancedenchantments:slots":3}}'
+      minecraft:trim: '{material:"minecraft:diamond",pattern:"minecraft:silence"}'
+      minecraft:damage: '1'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_chestplate
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khóa
+        Đòn IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khô
+        Héo IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Quỹ
+        Đạo III",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 6"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:blast_protection":4,"minecraft:thorns":3,"minecraft:unbreaking":3}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-khoadon":4,"advancedenchantments:ae_enchantment-khoheo":4,"advancedenchantments:ae_enchantment-quydao":3,"advancedenchantments:repaircost":3,"advancedenchantments:slots":3}}'
+      minecraft:trim: '{material:"minecraft:diamond",pattern:"minecraft:silence"}'
+      minecraft:damage: '4'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_helmet
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"#CCCCCC",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cú
+        Đêm I",underlined:0b}],text:""},{extra:[{bold:0b,color:"#CCCCCC",italic:0b,obfuscated:0b,strikethrough:0b,text:"Sức
+        Sống Biển Cả I",underlined:0b}],text:""},{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khóa
+        Đòn IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Băng
+        Giá III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bóng
+        Ma VIII",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Dinh
+        Dưỡng II",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khiên
+        Ngàn Tấn III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Hóa
+        Cứng III",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 1"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:aqua_affinity":1,"minecraft:protection":4,"minecraft:respiration":3,"minecraft:unbreaking":3}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-banggia":3,"advancedenchantments:ae_enchantment-bongma":8,"advancedenchantments:ae_enchantment-cudem":1,"advancedenchantments:ae_enchantment-dinhduong":2,"advancedenchantments:ae_enchantment-hoacung":3,"advancedenchantments:ae_enchantment-khienngantan":3,"advancedenchantments:ae_enchantment-khoadon":4,"advancedenchantments:ae_enchantment-sucsongbienca":1,"advancedenchantments:repaircost":15,"advancedenchantments:slots":8}}'
+      minecraft:trim: '{material:"minecraft:diamond",pattern:"minecraft:silence"}'
+      minecraft:damage: '1'
+    schema_version: 1
+  content:
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_boots
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Hỏa
+        Thiêu IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Chấn
+        Phản V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ngự
+        Hỏa I",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Quỹ
+        Đạo IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 5"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:depth_strider":3,"minecraft:protection":4,"minecraft:unbreaking":3}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-chanphan":5,"advancedenchantments:ae_enchantment-hoathieu":4,"advancedenchantments:ae_enchantment-nguhoa":1,"advancedenchantments:ae_enchantment-quydao":4,"advancedenchantments:repaircost":7,"advancedenchantments:slots":4}}'
+      minecraft:trim: '{material:"minecraft:diamond",pattern:"minecraft:silence"}'
+      minecraft:damage: '2'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_leggings
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khóa
+        Đòn III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Né
+        Đòn V",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Sáng
+        Suốt II",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 6"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:protection":4,"minecraft:unbreaking":3}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-khoadon":3,"advancedenchantments:ae_enchantment-nedon":5,"advancedenchantments:ae_enchantment-sangsuot":2,"advancedenchantments:repaircost":1,"advancedenchantments:slots":3}}'
+      minecraft:trim: '{material:"minecraft:diamond",pattern:"minecraft:silence"}'
+      minecraft:damage: '1'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_chestplate
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khóa
+        Đòn IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khô
+        Héo IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Quỹ
+        Đạo III",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 6"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:blast_protection":4,"minecraft:thorns":3,"minecraft:unbreaking":3}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-khoadon":4,"advancedenchantments:ae_enchantment-khoheo":4,"advancedenchantments:ae_enchantment-quydao":3,"advancedenchantments:repaircost":3,"advancedenchantments:slots":3}}'
+      minecraft:trim: '{material:"minecraft:diamond",pattern:"minecraft:silence"}'
+      minecraft:damage: '4'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_helmet
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"#CCCCCC",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cú
+        Đêm I",underlined:0b}],text:""},{extra:[{bold:0b,color:"#CCCCCC",italic:0b,obfuscated:0b,strikethrough:0b,text:"Sức
+        Sống Biển Cả I",underlined:0b}],text:""},{extra:[{bold:0b,color:"#47D647",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khóa
+        Đòn IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Băng
+        Giá III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#508BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bóng
+        Ma VIII",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Dinh
+        Dưỡng II",underlined:0b}],text:""},{extra:[{bold:0b,color:"#EFE556",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khiên
+        Ngàn Tấn III",underlined:0b}],text:""},{extra:[{bold:0b,color:"#F1AC21",italic:0b,obfuscated:0b,strikethrough:0b,text:"Hóa
+        Cứng III",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"[",underlined:0b},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈",underlined:0b},{color:"dark_gray",italic:0b,text:"]
+        "},{bold:0b,color:"#AC3BD9",italic:0b,obfuscated:0b,strikethrough:0b,text:"Khe
+        Trống ",underlined:0b},{color:"gray",italic:0b,text:": 1"}],text:""}]'
+      minecraft:enchantments: '{"minecraft:aqua_affinity":1,"minecraft:protection":4,"minecraft:respiration":3,"minecraft:unbreaking":3}'
+      minecraft:custom_data: '{PublicBukkitValues:{"advancedenchantments:ae_enchantment-banggia":3,"advancedenchantments:ae_enchantment-bongma":8,"advancedenchantments:ae_enchantment-cudem":1,"advancedenchantments:ae_enchantment-dinhduong":2,"advancedenchantments:ae_enchantment-hoacung":3,"advancedenchantments:ae_enchantment-khienngantan":3,"advancedenchantments:ae_enchantment-khoadon":4,"advancedenchantments:ae_enchantment-sucsongbienca":1,"advancedenchantments:repaircost":15,"advancedenchantments:slots":8}}'
+      minecraft:trim: '{material:"minecraft:diamond",pattern:"minecraft:silence"}'
+      minecraft:damage: '1'
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:enchanted_golden_apple
+    count: 40
+    schema_version: 1
+  - null
+  - null

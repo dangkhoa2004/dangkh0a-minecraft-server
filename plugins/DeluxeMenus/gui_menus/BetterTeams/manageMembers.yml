@@ -1,0 +1,142 @@
+menu_title: '&#FCD05C&l❁ ǫᴜảɴ ʟý ᴛʜàɴʜ ᴠɪêɴ ❁'
+size: 27
+open_command: []
+items:
+  'Close':
+    material: BARRIER
+    slot: 22
+    display_name: '&#ED4245&l✖ ĐÓɴɢ ᴍᴇɴᴜ'
+    lore:
+    - ''
+    - '&#ED4245▶ &#E0E0E0Nhấn để đóng giao diện'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+  'Go Back':
+    material: ARROW
+    slot: 21
+    display_name: '&#AEC6CF&l◀ ǫᴜᴀʏ ʟạɪ'
+    lore:
+    - ''
+    - '&#AEC6CF▶ &#E0E0E0Nhấn để quay lại'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] BetterTeamsMain'
+  'Filler 1':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    display_name: '&r'
+  'Filler 2':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 1-7
+    - 19-20
+    - 23-25
+    display_name: '&r'
+
+  'Member List':
+    material: PAPER
+    slot: 4
+    display_name: '&#57F287&l❁ ᴅᴀɴʜ sáᴄʜ ᴛʜàɴʜ ᴠɪêɴ ❁'
+    lore:
+    - ''
+    - '%betterteamsextra_memberlist%'
+    - ''
+
+  'Promote Member':
+    material: EMERALD
+    slot: 11
+    display_name: '&#57F287&l❁ ᴛʜăɴɢ ᴄấᴘ ❁'
+    lore:
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để thăng cấp thành viên'
+    view_requirement:
+      requirements:
+        isOwner:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Owner'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team promote '
+
+  'Ban Member':
+    material: ANVIL
+    slot: 12
+    display_name: '&#ED4245&l❁ ᴄấᴍ (ʙᴀɴ) ❁'
+    lore:
+    - ''
+    - '&#ED4245▶ &#E0E0E0Nhấn để cấm vĩnh viễn'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team ban '
+
+  'Kick Member':
+    material: LEATHER_BOOTS
+    hide_attributes: true
+    slot: 13
+    display_name: '&#FCD05C&l❁ Đᴜổɪ (ᴋɪᴄᴋ) ❁'
+    lore:
+    - ''
+    - '&#FCD05C▶ &#E0E0E0Nhấn để đuổi khỏi team'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team kick '
+
+  'Unban Member':
+    material: ENCHANTED_GOLDEN_APPLE
+    slot: 14
+    display_name: '&#BDB2FF&l❁ ɢỡ ᴄấᴍ (ᴜɴʙᴀɴ) ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Đang bị cấm:'
+    - '%betterteamsextra_banlist%'
+    - ''
+    - '&#BDB2FF▶ &#E0E0E0Nhấn để gỡ cấm'
+    priority: 1
+    view_requirement:
+      requirements:
+        hasBannedPlayers:
+          type: string equals
+          input: '%betterteamsextra_hasbannedplayers%'
+          output: 'yes'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team unban '
+
+  'No Banned Players':
+    material: ENCHANTED_GOLDEN_APPLE
+    slot: 14
+    display_name: '&#BDB2FF&l❁ ɢỡ ᴄấᴍ (ᴜɴʙᴀɴ) ❁'
+    lore:
+    - ''
+    - ' &#57F287[!] Không có ai đang bị cấm'
+    priority: 2
+
+  'Demote Member':
+    material: REDSTONE
+    slot: 15
+    display_name: '&#ED4245&l❁ ɢɪáɴɢ ᴄʜứᴄ ❁'
+    lore:
+    - ''
+    - '&#ED4245▶ &#E0E0E0Nhấn để giáng chức thành viên'
+    view_requirement:
+      requirements:
+        isOwner:
+          type: string equals
+          input: '%betterteams_rank%'
+          output: 'Owner'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[close]'
+    - '[suggest_command] /team demote '

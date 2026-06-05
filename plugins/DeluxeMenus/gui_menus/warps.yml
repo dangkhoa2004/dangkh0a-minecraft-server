@@ -1,0 +1,89 @@
+menu_title: '&#a8e6cf&l❁ ᴅịᴄʜ ᴄʜᴜʏểɴ ᴋʜᴜ ᴠựᴄ ❁'
+open_command: warps
+register_command: true
+size: 27
+update_interval: -1
+
+items:
+  # ==================================================
+  # CÁC KHU VỰC DỊCH CHUYỂN CHÍNH
+  # ==================================================
+  'wilderness':
+    material: GRASS_BLOCK
+    slot: 10
+    display_name: '&#B9FBC0&lᴅịᴄʜ ᴄʜᴜʏểɴ ɴɢẫᴜ ɴʜɪêɴ'
+    lore:
+    - ''
+    - '&#fcfcfcᴅịᴄʜ ᴄʜᴜʏểɴ ʙạɴ đếɴ ᴍộᴛ ᴠùɴɢ'
+    - '&#fcfcfcđấᴛ ʜᴏᴀɴɢ ѕơ để ʙắᴛ đầᴜ ѕɪɴʜ ᴛồɴ.'
+    - ''
+    - '&#a8e6cf▶ ɴʜấɴ để ᴍở ᴍᴇɴᴜ ʀᴛᴘ!'
+    click_commands:
+    - '[openguimenu] rtp'
+    - '[sound] UI_BUTTON_CLICK'
+
+  'parkour':
+    material: WHITE_GLAZED_TERRACOTTA
+    slot: 12
+    display_name: '&#FDFD96&lᴋʜᴜ ᴠᴜɪ ᴄʜơɪ ᴘᴀʀᴋᴏᴜʀ'
+    lore:
+    - ''
+    - '&#fcfcfcᴛʜử ᴛʜáᴄʜ ᴋỹ ɴăɴɢ ɴʜảʏ ᴄủᴀ ʙạɴ'
+    - '&#fcfcfcᴠà ɴʜậɴ ɴʜữɴɢ ᴘʜầɴ ᴛʜưởɴɢ ʜấᴘ ᴅẫɴ.'
+    - ''
+    - '&#a8e6cf▶ ɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ!'
+    click_commands:
+    - '[close]'
+    - '[player] warp parkour'
+    - '[sound] ENTITY_ENDERMAN_TELEPORT'
+
+  'crates':
+    material: CHEST
+    slot: 14
+    display_name: '&#FFB7B2&lʀươɴɢ ᴍᴀʏ ᴍắɴ (ᴄʀᴀᴛᴇѕ)'
+    lore:
+    - ''
+    - '&#fcfcfcᴅịᴄʜ ᴄʜᴜʏểɴ đếɴ ᴋʜᴜ ᴠựᴄ ᴍở ʀươɴɢ'
+    - '&#fcfcfcđể ᴛìᴍ ᴋɪếᴍ ᴠậᴛ ᴘʜẩᴍ ɢɪá ᴛʀị.'
+    - ''
+    - '&#a8e6cf▶ ɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ!'
+    click_commands:
+    - '[close]'
+    - '[player] warp crates'
+    - '[sound] ENTITY_ENDERMAN_TELEPORT'
+
+  'enchant':
+    material: ENCHANTING_TABLE
+    slot: 16
+    display_name: '&#BDB2FF&lᴋʜᴜ ᴘʜù ᴘʜéᴘ'
+    lore:
+    - ''
+    - '&#fcfcfcᴋʜᴜ ᴠựᴄ ᴀɴ ᴛᴏàɴ để ᴘʜù ᴘʜéᴘ'
+    - '&#fcfcfcᴠà ɴâɴɢ ᴄấᴘ ᴛʀᴀɴɢ ʙị ᴄủᴀ ʙạɴ.'
+    - ''
+    - '&#a8e6cf▶ ɴʜấɴ để ᴅịᴄʜ ᴄʜᴜʏểɴ!'
+    click_commands:
+    - '[close]'
+    - '[player] warp enchant'
+    - '[sound] ENTITY_ENDERMAN_TELEPORT'
+
+  # ==================================================
+  # NÚT ĐÓNG & VIỀN KÍNH TRANG TRÍ CHUẨN PASTEL
+  # ==================================================
+  'close_button':
+    material: BARRIER
+    slot: 22
+    display_name: '&#FFB7B2&l✖ đóɴɢ ᴍᴇɴᴜ'
+    click_commands:
+    - '[close]'
+    - '[sound] BLOCK_WOODEN_BUTTON_CLICK_ON'
+
+  'border_white':
+    material: WHITE_STAINED_GLASS_PANE
+    slots: [ '0', '1', '7', '8', '9', '17', '18', '19', '25', '26' ]
+    display_name: ' '
+
+  'border_blue':
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    slots: [ '2', '3', '4', '5', '6', '20', '21', '23', '24' ]
+    display_name: ' '

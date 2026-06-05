@@ -1,0 +1,10 @@
+data:
+  session: 650
+  dice1: 1
+  dice2: 3
+  dice3: 5
+  result: XIU
+  currency: VAULT
+  xiuPlayers:
+    yunnie: 1000000
+    Nhatcuongbeo: 2500

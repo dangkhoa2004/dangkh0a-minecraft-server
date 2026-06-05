@@ -1,0 +1,29 @@
+tasks:
+  shearing:
+    type: "shearing"
+    amount: 10
+display:
+  item: "SHEARS"
+  name: "&#A3C4F3&nᴛʜợ ʜớᴛ ᴛóᴄ:&r &#FDFD96#01"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ xéɴ ʟôɴɢ ᴄừᴜ'
+    - '&#D1E8E2xéɴ ʟôɴɢ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2xéɴ ʟôɴɢ ᴄừᴜ ᴛʜủ ᴄôɴɢ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{shearing:progress}/10 ʟôɴɢ ᴄừᴜ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$250'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+rewards:
+  - "eco give {player} 250"
+options:
+  category: "shearing"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 1
+  requires: []

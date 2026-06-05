@@ -1,0 +1,9 @@
+data:
+  session: 899
+  dice1: 4
+  dice2: 6
+  dice3: 1
+  result: TAI
+  currency: VAULT
+  taiPlayers:
+    gnurtz1: 1000000

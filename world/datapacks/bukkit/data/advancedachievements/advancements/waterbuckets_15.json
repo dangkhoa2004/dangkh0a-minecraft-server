@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:water_bucket"
+    },
+    "title":"\u00A7x\u00A7A\u00A7C\u00A7FL\u00ED\u0274\u029C \u1D04\u1EE9\u1D1C \u029C\u1ECF\u1D00",
+    "description":"\u00A7x\u00A7D\u00A7E\u00A7EM\u00FA\u1D04 \u00A7x\u00A7F\u00A7D\u00A7F\u00A7D15 \u00A7x\u00A7D\u00A7E\u00A7Ex\u00F4 \u0274\u01B0\u1EDB\u1D04.",
+    "frame":"challenge",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:advanced_achievements_parent"
+}

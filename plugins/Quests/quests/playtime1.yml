@@ -1,0 +1,26 @@
+tasks:
+  playtime:
+    type: "playtime"
+    minutes: 60
+display:
+  name: "&#A3C4F3&nᴛʜờɪ ɢɪᴀɴ ᴄʜơɪ:&r &#FDFD96#1"
+  lore-normal:
+    - '&#D1E8E2Độ ᴋʜó: &#FDFD96Dễ'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴄʜơɪ 1 giờ ᴛʀêɴ ᴍáʏ ᴄʜủ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$300'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ᴛɪếɴ độ: &#FDFD96{playtime:progress}/60 ᴘʜúᴛ'
+  type: "EXPERIENCE_BOTTLE"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 300"
+options:
+  category: "playtime"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 2880
+  sort-order: 1

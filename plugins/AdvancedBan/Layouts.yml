@@ -1,0 +1,51 @@
+# Các layout mặc định nằm trong file Message.yml nhé!
+
+# Message-Layouts (Mẫu tin nhắn) không chỉ dùng cho ban mà còn dùng được cho cả mute và warn.
+# Các biến (variable) hiện có thể sử dụng:
+#   %OPERATOR% - Người thực hiện lệnh phạt (Admin/Staff).
+#   %REASON% - Lý do phạt.
+#   %PREFIX% - Tiền tố được cài trong file Message.yml.
+#   %DURATION% - Thời gian còn lại trước khi hết hạn phạt (sẽ hiện -1 nếu là phạt vĩnh viễn).
+#   %DATE% - Ngày thực hiện hình phạt.
+#   %ID% - Hiển thị ID của hình phạt (ví dụ: phạt lần 1 = 0, lần 2 = 1, lần 3 = 2, v.v.)
+#   %HEXID% - Hiển thị ID hình phạt dưới dạng cơ số 16 (Hex).
+# Riêng với cảnh cáo (warn), bạn có thêm biến %COUNT% 
+# sẽ được thay thế bằng tổng số cảnh cáo mà người chơi đó đang có.
+# Ví dụ cách dùng: /ban Leoko @ExampleLayout
+Message:
+  # GHI CHÚ: 'ExampleLayout' là tên của mẫu. Khi dùng lệnh sẽ gõ kèm @ExampleLayout.
+  # Bạn có thể tự đổi tên nó thành @Hack, @Spam, @Toxic... cho dễ nhớ khi gõ lệnh.
+  ExampleLayout:
+  - '%PREFIX% §x§D§1§E§8§E§2Bị ʙᴀɴ ᴠì ꜱử ᴅụɴɢ Hᴀᴄᴋ/Cʜᴇᴀᴛ'
+  - '§x§F§F§8§B§9§4§oNɢườɪ ʙᴀɴ: %OPERATOR%'
+  - ''
+  - "§x§F§F§8§B§9§4Có ᴠẻ ɴʜư ʙạɴ đᴀɴɢ ꜱử ᴅụɴɢ ᴘʜầɴ ᴍềᴍ"
+  - "§x§F§F§8§B§9§4ᴛʜứ 3 để ɢɪᴀɴ ʟậɴ. Vᴜɪ ʟòɴɢ ᴛắᴛ ɴó đɪ!"
+  - "§x§F§F§8§B§9§4Tʜờɪ ɢɪᴀɴ ɢỡ ʙᴀɴ §x§8§8§8§8§8§8» §x§D§1§E§8§E§2%DURATION%"
+  - ''
+  - '§x§8§8§8§8§8§8Xɪɴ ɢỡ ʙᴀɴ ᴛạɪ Dɪꜱᴄᴏʀᴅ ʜᴏặᴄ Dɪễɴ đàɴ'
+  - "§x§F§D§F§D§9§6Dɪꜱᴄᴏʀᴅ §x§8§8§8§8§8§8» §x§F§F§8§B§9§4§ndiscord.gg/tDsSHDHPps"
+  - "§x§F§D§F§D§9§6Dɪễɴ đàɴ §x§8§8§8§8§8§8» §x§F§F§8§B§9§4§nwww.dangkh0a.io.vn"
+  ExampleLayout2:
+  - '%PREFIX% §x§D§1§E§8§E§2Bị ʙᴀɴ ᴠì ɴɢôɴ ᴛừ ᴋʜôɴɢ ᴄʜᴜẩɴ ᴍựᴄ'
+  - ''
+  - "§x§F§F§8§B§9§4Sᴇʀᴠᴇʀ ᴋʜôɴɢ ᴄʜấᴘ ɴʜậɴ ᴠɪệᴄ ᴄʜửɪ ᴛʜề/ᴛᴏxɪᴄ!"
+  - "§x§F§F§8§B§9§4Bạɴ ʙị ᴘʜạᴛ ᴠì đã ᴅùɴɢ ᴛừ '%REASON%'" # Bạn thậm chí có thể chèn biến %REASON% vào trong mẫu này
+
+# Bạn có thể dùng time-layout (Mẫu thời gian) như ví dụ sau: "/tempban Leoko #ExampleLayout Dùng hack trong khu FFA"
+# Hoặc với warn: "/tempwarn Leoko #ExampleLayout Quảng cáo server khác" hoặc "/tempwarn Leoko #ExampleLayout Đừng chat Capslock"
+# Bạn cũng có thể kết hợp cả 2 mẫu Thời gian và Tin nhắn cùng lúc: "/tempban Leoko #ExampleLayout @ExampleLayout"
+Time:
+  # GHI CHÚ: Đây là hệ thống phạt tăng dần (Escalating Punishments) cực hay của AdvancedBan.
+  # Hệ thống tự động đếm số lần vi phạm của người chơi: 
+  # Lần 1 phạt 30 phút -> Lần 2 phạt 2 giờ -> Lần 3 phạt 1 ngày... đến lần 8 là khóa vĩnh viễn (perma).
+  # Gọi mẫu này ra bằng cách thêm dấu '#' trước tên mẫu trong lệnh (Ví dụ: #ExampleLayout).
+  ExampleLayout:
+  - '30m'
+  - '2h'
+  - '1d'
+  - '1w'
+  - '1mo'
+  - '2mo'
+  - '4mo'
+  - 'perma' # GHI CHÚ: Tuyệt đối giữ nguyên chữ 'perma', đây là từ khóa nội bộ của plugin có nghĩa là vĩnh viễn.

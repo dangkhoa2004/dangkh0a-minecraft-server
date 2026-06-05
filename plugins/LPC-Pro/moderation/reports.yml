@@ -1,0 +1,7 @@
+enabled: true
+rate-limit:
+  max-reports: 5
+  period-minutes: 60
+max-cached-messages: 10
+notify-staff-on-join: true
+allow-self-report: false

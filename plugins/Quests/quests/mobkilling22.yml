@@ -1,0 +1,31 @@
+tasks:
+  mobkilling:
+    type: "mobkillingcertain"
+    amount: 96
+    mob: HOGLIN
+display:
+  name: "&#A3C4F3&nᴛɪêᴜ ᴅɪệᴛ ǫᴜáɪ ᴠậᴛ:&r &#FDFD96#XXII"
+  lore-normal:
+    - "&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ᴛɪêᴜ ᴅɪệᴛ ʜᴏɢʟɪɴ"
+    - "&#D1E8E2ʜᴏàɴ ᴛʜàɴʜ ᴛʜử ᴛʜáᴄʜ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ."
+    - ""
+    - "&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴛɪêᴜ ᴅɪệᴛ 96 ʜᴏɢʟɪɴ."
+    - "&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{mobkilling:progress}/96 ᴄᴏɴ."
+    - "&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$3550"
+    - ""
+  lore-started:
+    - "&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ."
+  type: "HOGLIN_SPAWN_EGG"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 3550"
+options:
+  category: "mobkilling"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 22
+  requires:
+    - "mobkilling21"

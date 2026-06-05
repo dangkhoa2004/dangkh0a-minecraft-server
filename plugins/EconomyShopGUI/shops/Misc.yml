@@ -1,0 +1,231 @@
+pages:
+  page1:
+    gui-rows: 6
+    items:
+      CHEST:
+        material: CHEST
+        displayname: '&eRương'
+        buy: 32.0
+        sell: 4.0
+      
+      TRAPPED_CHEST:
+        material: TRAPPED_CHEST
+        displayname: '&eRương gài bẫy'
+        buy: 64
+        sell: 32
+      
+      ENDER_CHEST:
+        material: ENDER_CHEST
+        displayname: '&eRương Ender'
+        buy: 2160
+        sell: 1080
+      
+      BARREL:
+        material: BARREL
+        displayname: '&eThùng'
+        buy: 28
+        sell: 14
+      
+      SLIME_BLOCK:
+        material: SLIME_BLOCK
+        displayname: '&eKhối chất nhờn'
+        buy: 720
+        sell: 360
+      
+      HONEY_BLOCK:
+        material: HONEY_BLOCK
+        displayname: '&eKhối mật ong'
+        buy: 240
+        sell: 120
+      
+      ENCHANTING_TABLE:
+        material: ENCHANTING_TABLE
+        displayname: '&eBàn phù phép'
+        buy: 1870
+        sell: 935
+      
+      ANVIL:
+        material: ANVIL
+        displayname: '&eCái đe'
+        buy: 1860
+        sell: 930
+      
+      BUCKET:
+        material: BUCKET
+        displayname: '&eXô'
+        buy: 180.0
+        sell: 22.0
+      
+      WATER_BUCKET:
+        material: WATER_BUCKET
+        displayname: '&eXô nước'
+        buy: 190.0
+        sell: 40.0
+      
+      LAVA_BUCKET:
+        material: LAVA_BUCKET
+        displayname: '&eXô dung nham'
+        buy: 380.0
+        sell: 40.0
+      
+      MILK_BUCKET:
+        material: MILK_BUCKET
+        displayname: '&eXô sữa'
+        buy: 200.0
+        sell: 40.0
+      
+      POWDER_SNOW_BUCKET:
+        material: POWDER_SNOW_BUCKET
+        displayname: '&eXô tuyết bột'
+        buy: 200
+        sell: 100
+      
+      NOTE_BLOCK:
+        material: NOTE_BLOCK
+        displayname: '&eKhối nốt nhạc'
+        buy: 50.0
+        sell: 36.0
+      
+      CAMPFIRE:
+        material: CAMPFIRE
+        displayname: '&eLửa trại'
+        buy: 84
+        sell: 42
+      
+      BEACON:
+        material: BEACON
+        displayname: '&eĐèn hiệu'
+        buy: 5800
+        sell: 2900
+      
+      BELL:
+        material: BELL
+        displayname: '&eChuông'
+        buy: 600
+        sell: 300
+      
+      LECTERN:
+        material: LECTERN
+        displayname: '&eBục để sách'
+        buy: 242
+        sell: 121
+      
+      LOOM:
+        material: LOOM
+        displayname: '&eKhung cửi'
+        buy: 48
+        sell: 24
+      
+      COMPOSTER:
+        material: COMPOSTER
+        displayname: '&eThùng ủ phân'
+        buy: 14
+        sell: 7
+      
+      BLAST_FURNACE:
+        material: BLAST_FURNACE
+        displayname: '&eLò luyện kim'
+        buy: 356
+        sell: 178
+      
+      SMOKER:
+        material: SMOKER
+        displayname: '&eLò hun khói'
+        buy: 96
+        sell: 48
+      
+      STONECUTTER:
+        material: STONECUTTER
+        displayname: '&eMáy cắt đá'
+        buy: 78
+        sell: 39
+      
+      GRINDSTONE:
+        material: GRINDSTONE
+        displayname: '&eĐá mài'
+        buy: 14
+        sell: 7
+      
+      SMITHING_TABLE:
+        material: SMITHING_TABLE
+        displayname: '&eBàn rèn'
+        buy: 136
+        sell: 68
+      
+      CARTOGRAPHY_TABLE:
+        material: CARTOGRAPHY_TABLE
+        displayname: '&eBàn vẽ bản đồ'
+        buy: 36
+        sell: 18
+      
+      FLETCHING_TABLE:
+        material: FLETCHING_TABLE
+        displayname: '&eBàn làm cung tên'
+        buy: 46
+        sell: 23
+      
+      FLOWER_POT:
+        material: FLOWER_POT
+        displayname: '&eChậu hoa'
+        buy: 45
+        sell: 22
+      
+      BOOKSHELF:
+        material: BOOKSHELF
+        displayname: '&eKệ sách'
+        buy: 234.0
+        sell: 140.0
+      
+      CHISELED_BOOKSHELF:
+        material: CHISELED_BOOKSHELF
+        displayname: '&eKệ sách được đục'
+        buy: 30
+        sell: 15
+      
+      DECORATED_POT:
+        material: DECORATED_POT
+        displayname: '&eChậu trang trí'
+        buy: 60
+        sell: 30
+      
+      EXPERIENCE_BOTTLE:
+        material: EXPERIENCE_BOTTLE
+        displayname: '&eChai kinh nghiệm'
+        buy: 120
+        sell: 60
+      
+      LODESTONE:
+        material: LODESTONE
+        displayname: '&eĐá nam châm'
+        buy: 3792
+        sell: 1896
+      
+      RESPAWN_ANCHOR:
+        material: RESPAWN_ANCHOR
+        displayname: '&eNeo hồi sinh'
+        buy: 2100
+        sell: 1050
+      
+      SPONGE:
+        material: SPONGE
+        displayname: '&eMiếng bọt biển'
+        buy: 600.0
+        sell: 80.0
+      
+      TOTEM_OF_UNDYING:
+        material: TOTEM_OF_UNDYING
+        displayname: '&eTotem trường sinh'
+        buy: 5000
+        sell: 2500
+      
+      WIND_CHARGE:
+        material: WIND_CHARGE
+        displayname: '&eLốc xoáy'
+        buy: 150
+        sell: 75
+      
+      OMINOUS_BOTTLE:
+        material: OMINOUS_BOTTLE
+        displayname: '&eChai điềm gở'
+        buy: 1000
+        sell: 500

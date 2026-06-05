@@ -1,0 +1,89 @@
+# LPC-Pro Main Configuration
+check-for-updates: true
+# Notify console when an update is available
+update-notify-console: true
+# Notify admins with lpcpro.update.notify permission on join when an update is available
+update-notify-join: true
+
+# After editing these settings, the server must be restarted for the changes to take effect.
+enable-private-messages: true
+# If private messages are enabled, ignoring messages will also be enabled, even if it is set to false.
+enable-ignore-messages: true
+# Enable the chat tags system (/tags command, {tag} placeholder, tag shop)
+enable-tags: true
+# Enable automatic chat tag assignment based on lpcpro.autotag.<id> permissions.
+# When false, only manual /tags selections are rendered; staff with autotag perms
+# no longer receive their tag automatically. Distinct from enable-tags, which kills
+# ALL tag rendering (manual and auto).
+enable-auto-tag: true
+# Enable @mention system in chat
+enable-mentions: true
+# Enable reputation system (+rep, leaderboards)
+enable-reputation: true
+# Enable polls system
+enable-polls: true
+# Enable achievements system
+enable-achievements: false
+# Enable chat games
+enable-chat-games: false
+# Enable message of the day on join
+enable-motd: true
+# Enable custom tab list
+enable-tab-list: false
+# Enable chat bubbles above players
+enable-chat-bubbles: true
+# Enable chat translation
+enable-translation: false
+# Enable Discord integration
+enable-discord: false
+# Enable mail system
+enable-mail: false
+# Enable grammar correction
+enable-grammar: false
+# Strip unresolved %placeholder% text from chat (useful when PAPI expansions return raw placeholders)
+strip-unresolved-placeholders: false
+# Strip unauthorized color codes from player messages (true = codes are removed, false = codes are shown as literal text like &c)
+strip-unauthorized-color-codes: true
+
+# Plugin integrations - enable/disable hooks for other plugins
+hooks:
+  # Enable ItemsAdder integration for custom emojis (:emoji:) and font images in chat
+  items-adder: false
+  # Enable PlaceholderAPI integration for %placeholder% support in chat formats
+  placeholder-api: true
+  # Enable Oraxen integration for custom glyphs (:glyph:) in chat
+  oraxen: false
+  # Enable ViaVersion integration for client version detection
+  via-version: true
+  # Enable Geyser/Floodgate integration for Bedrock player detection
+  geyser: true
+  # Enable ProtocolLib integration for message interception and deletion
+  protocol-lib: true
+  # Enable vanish integration (SuperVanish, PremiumVanish, Essentials, etc.) to hide vanished players from chat mentions, PMs, and tab completion
+  vanish: true
+
+# /lpc info command layout - customize the output of /lpc info
+# Available placeholders: {version}, {server_version}, {java_version},
+# {db_type}, {db_status}, {features}, {hooks}, {online}, {max_players}
+# You can add your own lines, remove lines, or reorder them freely.
+info-command:
+- <gray>──────── <yellow><bold>LPC Pro</bold></yellow> <gray>────────
+- '<gray>Version: <yellow>{version}'
+- '<gray>Server: <yellow>{server_version}'
+- '<gray>Java: <yellow>{java_version}'
+- '<gray>Database: <yellow>{db_type} <gray>(<green>{db_status}<gray>)'
+- ''
+- <gray>──── <yellow>Features</yellow> <gray>────
+- '{features}'
+- ''
+- <gray>──── <yellow>Integrations</yellow> <gray>────
+- '{hooks}'
+
+# Format for individual feature lines in /lpc info
+info-feature-format:
+  enabled: '<gray>{feature}: <green>enabled'
+  disabled: '<gray>{feature}: <red>disabled'
+# Format for individual hook/integration lines in /lpc info
+info-hook-format:
+  active: '<gray>{hook}: <green>active'
+  inactive: '<gray>{hook}: <red>not found'

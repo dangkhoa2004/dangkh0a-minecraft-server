@@ -1,0 +1,88 @@
+###
+# Custom Messaging File.
+# Remaked & Optimized with Legacy Colors
+###
+
+prefix: '&d[&lᴘʟᴜɢᴍᴀɴ&d] &r'
+check:
+  header: '&e&l(!)&7 Đᴀɴɢ ᴋɪểᴍ ᴛʀᴀ ᴘʜɪêɴ ʙảɴ ᴘʟᴜɢɪɴ...'
+  not-found: '&c&l(!)&7 ᴘʟᴜɢɪɴ ᴄʜưᴀ đượᴄ ᴄàɪ đặᴛ - ᴘʜɪêɴ ʙảɴ ᴍớɪ ɴʜấᴛ ʟà &e"{0}"&7.'
+  not-found-spigot: '&c&l(!)&7 ᴋʜôɴɢ ᴛʜể ʟấʏ ᴅữ ʟɪệᴜ - ᴘʟᴜɢɪɴ ɴàʏ ᴄó ᴛʀêɴ SpigotMC ᴋʜôɴɢ?'
+  out-of-date: '&c&l(!)&7 ᴘʜɪêɴ ʙảɴ ʜɪệɴ ᴛạɪ (&e{0}&c) ᴋʜôɴɢ ᴋʜớᴘ ᴠớɪ ʙảɴ ᴍớɪ ɴʜấᴛ (&a{1}&c).'
+  out-of-date-player: '&c&l(!)&7 ᴄó ᴛʜể đã ᴄũ (Đᴀɴɢ ᴅùɴɢ -> ᴍớɪ ɴʜấᴛ): &e{0}'
+  up-to-date: '&a&l(!)&7 ᴘʟᴜɢɪɴ đã đượᴄ ᴄậᴘ ɴʜậᴛ ở ᴘʜɪêɴ ʙảɴ &e"{0}"&7.'
+  up-to-date-player: '&a&l(!)&7 đã đượᴄ ᴄậᴘ ɴʜậᴛ (Đᴀɴɢ ᴅùɴɢ): &e{0}'
+  file-done: '&a&l(!)&7 xᴜấᴛ ғɪʟᴇ ʜᴏàɴ ᴛấᴛ: &e{0}'
+  unknown: '&c&l(!)&7 ᴋʜôɴɢ ʀõ ᴛʜôɴɢ ᴛɪɴ ᴘʜɪêɴ ʙảɴ.'
+  unknown-player: '&c&l(!)&7 ᴋʜôɴɢ ʀõ (Đᴀɴɢ ᴅùɴɢ): &e{0}'
+  not-available: '&c&l(!)&7 ᴛʜôɴɢ ᴛɪɴ ᴘʜɪêɴ ʙảɴ ᴄʜᴏ &e{0} &7ᴋʜôɴɢ ᴄó sẵɴ.'
+disable:
+  all: '&a&l(!)&7 ᴛấᴛ ᴄả ᴘʟᴜɢɪɴ đã ʙị ᴛắᴛ (ɴɢᴏạɪ ᴛʀừ PlugMan).'
+  already-disabled: '&c&l(!)&e {0} &7đã ʙị ᴛắᴛ ᴛừ ᴛʀướᴄ.'
+  disabled: '&a&l(!)&e {0} &7đã ʙị ᴛắᴛ.'
+dump:
+  dumped: '&a&l(!)&7 Đã xᴜấᴛ ᴘʟᴜɢɪɴ ʀᴀ &e{0}&7.'
+  error: '&c&l(!)&7 ᴋʜôɴɢ ᴛʜể xᴜấᴛ ʀᴀ ғɪʟᴇ.'
+enable:
+  all: '&a&l(!)&7 ᴛấᴛ ᴄả ᴘʟᴜɢɪɴ đã đượᴄ ʙậᴛ.'
+  already-enabled: '&c&l(!)&e {0} &7đã đượᴄ ʙậᴛ ᴛừ ᴛʀướᴄ.'
+  enabled: '&a&l(!)&e {0} &7đã đượᴄ ʙậᴛ.'
+error:
+  ignored: '&c&l(!)&7 PlugMan đᴀɴɢ đượᴄ ᴄấᴜ ʜìɴʜ để ʙỏ ǫᴜᴀ ᴘʟᴜɢɪɴ ɴàʏ.'
+  invalid-plugin: '&c&l(!)&7 Đó ᴋʜôɴɢ ᴘʜảɪ ʟà ᴍộᴛ ᴘʟᴜɢɪɴ ʜợᴘ ʟệ.'
+  no-permission: '&c&l(!)&7 ʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ᴛʜựᴄ ʜɪệɴ ʟệɴʜ ɴàʏ.'
+  specify-plugin: '&c&l(!)&7 ʙạɴ ᴘʜảɪ ᴄʜỉ địɴʜ ᴍộᴛ ᴘʟᴜɢɪɴ.'
+  specify-command: '&c&l(!)&7 ʙạɴ ᴘʜảɪ ᴄʜỉ địɴʜ ᴍộᴛ ʟệɴʜ.'
+  paper-plugin: '&c&l(!)&7 xɪɴ ʟỗɪ, ᴄáᴄ ᴘʟᴜɢɪɴ ᴄủᴀ Paper ʜɪệɴ ᴄʜưᴀ đượᴄ ʜỗ ᴛʀợ.'
+  usage:
+    command: ' &f❖ &7Lệɴʜ: &e{0}'
+    description: ' &f❖ &7ᴍô ᴛả: &e{0}'
+    usage: ' &f❖ &7sử ᴅụɴɢ: &e{0}'
+help:
+  header: '&d&l❁ ᴛʀợ ɢɪúᴘ PLUGMAN ❁'
+  help: ' &f❖ &b/{0} help &7- ʜɪệɴ ʙảɴɢ ᴛʀợ ɢɪúᴘ.'
+  list: ' &f❖ &b/{0} list [-v] &7- ᴅᴀɴʜ sáᴄʜ ᴘʟᴜɢɪɴ (ᴛʜêᴍ -v để xᴇᴍ ᴘʜɪêɴ ʙảɴ).'
+  dump: ' &f❖ &b/{0} dump &7- xᴜấᴛ ᴛêɴ ᴠà ᴘʜɪêɴ ʙảɴ ᴘʟᴜɢɪɴ ʀᴀ ғɪʟᴇ.'
+  info: ' &f❖ &b/{0} info <tên> &7- xᴇᴍ ᴛʜôɴɢ ᴛɪɴ ᴘʟᴜɢɪɴ.'
+  usage: ' &f❖ &b/{0} usage <tên> &7- xᴇᴍ ᴄáᴄ ʟệɴʜ ᴄủᴀ ᴘʟᴜɢɪɴ.'
+  lookup: ' &f❖ &b/{0} lookup <lệnh> &7- ᴛìᴍ ᴘʟᴜɢɪɴ qᴜảɴ ʟý ʟệɴʜ đó.'
+  enable: ' &f❖ &b/{0} enable <tên|all> &7- ʙậᴛ ᴘʟᴜɢɪɴ.'
+  disable: ' &f❖ &b/{0} disable <tên|all> &7- ᴛắᴛ ᴘʟᴜɢɪɴ.'
+  restart: ' &f❖ &b/{0} restart <tên|all> &7- ᴋʜởɪ độɴɢ ʟạɪ ᴘʟᴜɢɪɴ.'
+  load: ' &f❖ &b/{0} load <tên> &7- ᴛảɪ 1 ᴘʟᴜɢɪɴ ᴍớɪ.'
+  reload: ' &f❖ &b/{0} reload <tên|all> &7- ᴛảɪ ʟạɪ ᴘʟᴜɢɪɴ.'
+  unload: ' &f❖ &b/{0} unload <tên> &7- ɢỡ ᴘʟᴜɢɪɴ ᴋʜỏɪ sᴇʀᴠᴇʀ.'
+  check: ' &f❖ &b/{0} check <tên|all> [-f] &7- ᴋɪểᴍ ᴛʀᴀ ᴄậᴘ ɴʜậᴛ.'
+info:
+  header: '&d&l❁ ᴛʜôɴɢ ᴛɪɴ PLUGIN: &e{0} &d&l❁'
+  version: ' &f❖ &7ᴘʜɪêɴ ʙảɴ: &a{0}'
+  authors: ' &f❖ &7ᴛáᴄ ɢɪả: &a{0}'
+  status: ' &f❖ &7ᴛʀạɴɢ ᴛʜáɪ: &a{0}'
+  depends: ' &f❖ &7ᴘʜụ ᴛʜᴜộᴄ: &e{0}'
+  softdepends: ' &f❖ &7ʜỗ ᴛʀợ: &e{0}'
+list:
+  list: '&e&l(!)&7 ᴅᴀɴʜ sáᴄʜ ᴘʟᴜɢɪɴs (&e{0}&7): {1}'
+load:
+  already-loaded: '&c&l(!)&e {0} &7đã đượᴄ ᴛảɪ ᴛừ ᴛʀướᴄ.'
+  cannot-find: '&c&l(!)&7 ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ғɪʟᴇ ᴠà ᴋʜôɴɢ ᴛʜể đọᴄ ᴍô ᴛả ᴘʟᴜɢɪɴ.'
+  invalid-description: '&c&l(!)&7 ᴘʟᴜɢɪɴ ɴàʏ ᴄó ᴍô ᴛả ᴋʜôɴɢ ʜợᴘ ʟệ (plugin.yml ʟỗɪ).'
+  invalid-plugin: '&c&l(!)&7 ғɪʟᴇ ɴàʏ ᴋʜôɴɢ ᴘʜảɪ ʟà ᴍộᴛ ᴘʟᴜɢɪɴ ʜợᴘ ʟệ.'
+  loaded: '&a&l(!)&e {0} &7đã đượᴄ ᴛảɪ ᴠà ʙậᴛ ᴛʜàɴʜ ᴄôɴɢ.'
+  plugin-dir: '&c&l(!)&7 ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴛʜư ᴍụᴄ plugins.'
+lookup:
+  found: '&a&l(!)&7 Lệɴʜ &e/{0} &7đượᴄ qᴜảɴ ʟý ʙởɪ ᴘʟᴜɢɪɴ &e{1}&7.'
+  not-found: '&c&l(!)&7 Lệɴʜ &e/{0} &7ᴋʜôɴɢ ᴛʜᴜộᴄ ᴠề ʙấᴛ ᴋỳ ᴘʟᴜɢɪɴ ɴàᴏ.'
+reload:
+  all: '&a&l(!)&7 ᴛấᴛ ᴄả ᴘʟᴜɢɪɴ đã đượᴄ ᴛảɪ ʟạɪ.'
+  all-failed: '&c&l(!)&7 ᴍộᴛ số ᴘʟᴜɢɪɴ ʟỗɪ ᴋʜɪ ᴛảɪ ʟạɪ: &e{0}'
+  reloaded: '&a&l(!)&e {0} &7đã đượᴄ ᴛảɪ ʟạɪ.'
+restart:
+  all: '&a&l(!)&7 ᴛấᴛ ᴄả ᴘʟᴜɢɪɴ đã đượᴄ ᴋʜởɪ độɴɢ ʟạɪ.'
+  restarted: '&a&l(!)&e {0} &7đã đượᴄ ᴋʜởɪ độɴɢ ʟạɪ.'
+unload:
+  failed: '&c&l(!)&7 Lỗɪ ᴋʜɪ ɢỡ (unload) ᴘʟᴜɢɪɴ &e{0}&7.'
+  gentle-failed: '&c&l(!)&7 ᴘʟᴜɢɪɴ ᴛừ ᴄʜốɪ ᴠɪệᴄ ɢỡ (unload).'
+  unloaded: '&a&l(!)&e {0} &7đã đượᴄ ɢỡ ᴋʜỏɪ sᴇʀᴠᴇʀ.'
+usage:
+  usage: '&e&l(!)&7 Cáᴄ ʟệɴʜ: &e{0}'
+  no-commands: '&c&l(!)&7 ᴘʟᴜɢɪɴ ɴàʏ ᴋʜôɴɢ ᴄó ʟệɴʜ ɴàᴏ.'

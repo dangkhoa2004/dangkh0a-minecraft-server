@@ -1,0 +1,18 @@
+part-separator: " "
+
+player:
+  text: "<#ED4245>[STAFF] <white>{prefix}{tag} {name}"
+  hover:
+    - "<#ED4245>[Kênh Staff]"
+    - "<white>{prefix}{tag} {name}"
+    - "<#888888>Tham gia: %player_first_join_date%"
+    - ""
+    - "<#E0E0E0>❖ Tin nhắn: <white>%lpcpro_messages%"
+    - "<#E0E0E0>❖ Giờ chơi: <white>%statistic_hours_played%h"
+  suggest: "/msg {name} "
+
+divider:
+  text: " <#ED4245>»"
+
+message:
+  text: "<#fcfcfc>{message}"

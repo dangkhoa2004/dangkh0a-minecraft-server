@@ -1,0 +1,13 @@
+enabled: true
+auto-detection:
+  enabled: true
+  join-threshold: 5
+  join-time-window: 30
+  message-threshold: 20
+  message-time-window: 10
+  similarity-threshold: 0.8
+  similar-message-count: 3
+new-player-duration: 300
+raid-mode-duration: 300
+slowmode-delay: 5
+trusted-players: []

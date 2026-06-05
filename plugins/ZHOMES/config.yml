@@ -1,0 +1,30 @@
+# ZHOMES Configuration File
+# Plugin by dev.tsumuri19
+
+# Language setting (en or vi)
+language: vi
+
+# Teleportation settings
+teleport:
+  # Delay in seconds before teleporting
+  delay: 5
+  # Cancel teleport if player moves
+  cancel-on-move: true
+
+# GUI settings
+gui:
+  # Title of the home GUI
+  title: "&#BDB2FF[ᴡɪʙᴜʟᴀɴᴅ]"
+  # Homes per page (14 max recommended)
+  homes-per-page: 14
+
+# Sound settings
+sounds:
+  # Play sounds for actions
+  enabled: true
+  # Sound when teleporting
+  teleport: entity.enderman.teleport
+  # Sound on success
+  success: entity.experience_orb.pickup
+  # Sound on error/denial
+  error: entity.villager.no

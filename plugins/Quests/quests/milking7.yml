@@ -1,0 +1,25 @@
+tasks:
+  milking:
+    type: "milking"
+    amount: 250
+display:
+  name: "&#A3C4F3&nᴠắᴛ ꜱữᴀ ʙò:&r &#FDFD96#VII"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ ᴠắᴛ ꜱữᴀ'
+    - '&#D1E8E2ɴʜữɴɢ ᴄᴏɴ ʙò ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴠắᴛ ꜱữᴀ 250 ᴄᴏɴ ʙò.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{milking:progress}/250 ʟầɴ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC02,350 ᴛɪềɴ'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "MILK_BUCKET"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 2350"
+options:
+  category: "milking"
+  repeatable: false
+  sort-order: 7

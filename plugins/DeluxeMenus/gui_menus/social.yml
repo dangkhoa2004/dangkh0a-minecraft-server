@@ -1,0 +1,251 @@
+menu_title: '&8Mạng Xã Hội'
+open_command:
+- socials
+- socialmedia
+- website
+- youtube
+- discord
+- support
+- twitter
+- tiktok
+- links
+- instagram
+- email
+- emailsupport
+register_command: true
+size: 36
+items:
+  #'twitter':
+  #  material: LIGHT_BLUE_CANDLE
+  #  slot: 11
+  #  display_name: '&#1DA1F2🐦 Twitter'
+  #  lore:
+  #  - '&8Theo dõi để nhận thông báo'
+  #  - ''
+  #  - '&#1DA1F2Cộng đồng'
+  #  - '&fCập nhật &#4FB3FFtin tức&f & &#4FB3FFsự kiện&f máy chủ.'
+  #  - '&fTham gia thảo luận cùng &#4FB3FFngười chơi&f &#4FB3FFtoàn cầu&f.'
+  #  - ''
+  #  - '&#1DA1F2• 🐦 &f@YourServerHandle'
+  #  - '&#1DA1F2• 🔗 &ftwitter.com/yourserver'
+  #  - ''
+  #  - '&#1DA1F2➥ &#29ABF3Nhấn &#3DB5F4để &#52BFF5theo dõi &#66C9F6chúng tôi'
+  #  click_commands:
+  #  - '[sound] ENTITY_PLAYER_LEVELUP'
+  #  - '[message] '
+  #  - '[message] &#1DA1F2&l[Twitter]'
+  #  - '[message] '
+  #  - '[message] &7Theo dõi chúng tôi để cập nhật tin tức và sự kiện máy chủ!'
+  #  - '[message] &#1DA1F2&ntwitter.com/yourserver'
+  #  - '[message] '
+  #  - '[close]'
+
+  'discord':
+    material: BLUE_CANDLE
+    slot: 13
+    display_name: '&#5865F2💬 Discord'
+    lore:
+    - '&8Tham gia cộng đồng'
+    - ''
+    - '&#5865F2Trò chuyện & Nhắn tin'
+    - '&fGiao lưu với &#7289DABan quản trị&f và &#7289DAngười chơi&f.'
+    - '&fNhận hỗ trợ và các &#8BA3E8đặc quyền&f &#8BA3E8độc quyền&f.'
+    - ''
+    - '&#5865F2• 💬 &fdiscord.gg/tDsSHDHPps'
+    - '&#5865F2• 👥 &fHơn 100 Thành viên Online'
+    - ''
+    - '&#5865F2➥ &#6A75F4Nhấn &#7C85F6để &#8E95F8vào &#A0A5FAserver'
+    click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[message] '
+    - '[message] &#5865F2&l[Discord]'
+    - '[message] '
+    - '[message] &7Tham gia máy chủ cộng đồng của chúng tôi!'
+    - '[message] &#5865F2&ndiscord.gg/tDsSHDHPps'
+    - '[message] '
+    - '[close]'
+
+  #'youtube':
+  #  material: RED_CANDLE
+  #  slot: 13
+  #  display_name: '&#FF0000📺 YouTube'
+  #  lore:
+  #  - '&8Đăng ký kênh'
+  #  - ''
+  #  - '&#FF0000Nội dung Video'
+  #  - '&fXem &#FF3333hướng dẫn&f, &#FF3333tiêu điểm&f & &#FF3333khám phá&f &#FF3333server&f.'
+  #  - '&fĐừng bỏ lỡ những &#FF6666khoảnh khắc&f &#FF6666chơi game&f &#FF6666đỉnh cao&f.'
+  #  - ''
+  #  - '&#FF0000• 📺 &f@YourServerGaming'
+  #  - '&#FF0000• 🔗 &fyoutube.com/@yourserver'
+  #  - ''
+  #  - '&#FF0000➥ &#FF1A1ANhấn &#FF3333để &#FF4D4Dđăng ký &#FF6666ngay'
+  #  click_commands:
+  #  - '[sound] ENTITY_PLAYER_LEVELUP'
+  #  - '[message] '
+  #  - '[message] &#FF0000&l[YouTube]'
+  #  - '[message] '
+  #  - '[message] &7Đăng ký kênh để xem hướng dẫn và các khoảnh khắc nổi bật!'
+  #  - '[message] &#FF0000&nyoutube.com/@yourserver'
+  #  - '[message] '
+  #  - '[close]'
+
+  #'instagram':
+  #  material: PINK_CANDLE
+  #  slot: 14
+  #  display_name: '&#E1306C📸 Instagram'
+  #  lore:
+  #  - '&8Thư viện ảnh'
+  #  - ''
+  #  - '&#E1306CChuyện qua ảnh'
+  #  - '&fKhám phá &#E75480ảnh chụp&f, &#E75480công trình&f & &#E75480cộng đồng&f.'
+  #  - '&fGắn thẻ chúng tôi vào &#FF7AA3tác phẩm&f &#FF7AA3của bạn&f.'
+  #  - ''
+  #  - '&#E1306C• 📸 &f@yourserver'
+  #  - '&#E1306C• 🔗 &finstagram.com/yourserver'
+  #  - ''
+  #  - '&#E1306C➥ &#E54478Nhấn &#E95885để &#ED6C91theo dõi &#F1809Echúng tôi'
+  #  click_commands:
+  #  - '[sound] ENTITY_PLAYER_LEVELUP'
+  #  - '[message] '
+  #  - '[message] &#E1306C&l[Instagram]'
+  #  - '[message] '
+  #  - '[message] &7Xem các ảnh chụp và công trình kiến trúc của chúng tôi!'
+  #  - '[message] &#E1306C&ninstagram.com/yourserver'
+  #  - '[message] '
+  #  - '[close]'
+
+  #'tiktok':
+  #  material: BLACK_CANDLE
+  #  slot: 15
+  #  display_name: '&#FF0000🎮 TikTok'
+  #  lore:
+  #  - '&8Video ngắn'
+  #  - ''
+  #  - '&#FF0000Clip Nhanh'
+  #  - '&fTận hưởng &#FF3366clip&f &#FF3366ngắn&f & &#FF3366khoảnh khắc&f &#FF3366hài hước&f.'
+  #  - '&fTheo dõi để nhận &#FF6699nội dung&f &#FF6699mỗi ngày&f.'
+  #  - ''
+  #  - '&#FF0000• 🎮 &f@yourserver'
+  #  - '&#FF0000• 🔗 &ftiktok.com/@yourserver'
+  #  - ''
+  #  - '&#FF0000➥ &#FF1A33Nhấn &#FF3366để &#FF4D99xem &#FF66CCngay'
+  #  click_commands:
+  #  - '[sound] ENTITY_PLAYER_LEVELUP'
+  #  - '[message] '
+  #  - '[message] &#FF0000&l[TikTok]'
+  #  - '[message] '
+  #  - '[message] &7Xem các video ngắn và khoảnh khắc hài hước của chúng tôi!'
+  #  - '[message] &#FF0000&ntiktok.com/@yourserver'
+  #  - '[message] '
+  #  - '[close]'
+
+  'website':
+    material: LIME_CANDLE
+    slot: 11
+    display_name: '&#00D95F🌐 Website'
+    lore:
+    - '&8Truy cập trang web'
+    - ''
+    - '&#00D95FThông tin Server'
+    - '&fTìm &#33E077cửa hàng&f, &#33E077luật lệ&f, &#33E077hướng dẫn&f & &#33E077cập nhật&f.'
+    - '&fMọi thứ bạn cần ở &#66E68Fcùng một&f &#66E68Fnơi&f.'
+    - ''
+    - '&#00D95F• 🌐 &fwww.dangkh0a.io.vn'
+    - '&#00D95F• 🛒 &fCó sẵn Cửa Hàng & Ranks'
+    - ''
+    - '&#00D95F➥ &#1AE06FNhấn &#33E77Fđể &#4DEE8Ftruy cập &#66F59Fngay'
+    click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[message] '
+    - '[message] &#00D95F&l[Website]'
+    - '[message] '
+    - '[message] &7Truy cập trang web để xem cửa hàng, luật lệ & hơn thế nữa!'
+    - '[message] &#00D95F&nwww.dangkh0a.io.vn'
+    - '[message] '
+    - '[close]'
+
+  'email':
+    material: ORANGE_CANDLE
+    slot: 15
+    display_name: '&#FF6B35📧 Email'
+    lore:
+    - '&8Liên hệ hỗ trợ'
+    - ''
+    - '&#FF6B35Hỗ trợ Trực tiếp'
+    - '&fLiên hệ để được &#FF8855hỗ trợ&f, &#FF8855hợp tác&f & &#FF8855hỏi đáp&f.'
+    - '&fChúng tôi sẽ phản hồi trong vòng &#FFA575hai mươi tư&f &#FFA575giờ&f.'
+    - ''
+    - '&#FF6B35• 📧 &fadmin@dangkh0a.io.vn'
+    - '&#FF6B35• ⏱ &fThời gian phản hồi 24h'
+    - ''
+    - '&#FF6B35➥ &#FF7D48Nhấn &#FF8F5Bđể &#FFA16Ecopy &#FFB381email'
+    click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[message] '
+    - '[message] &#FF6B35&l[Hỗ trợ Email]'
+    - '[message] '
+    - '[message] &7Liên hệ với chúng tôi để được trợ giúp hoặc hợp tác!'
+    - '[message] &#FF6B35&nadmin@dangkh0a.io.vn'
+    - '[message] '
+    - '[close]'
+
+  'close':
+    material: BARRIER
+    slot: 31
+    display_name: '&#ff3333❌ Đóng Menu'
+    lore:
+    - '&8Quay lại trò chơi'
+    - ''
+    - '&#ff3333Điều khiển Menu'
+    - '&fNhấn để &#ff6666đóng&f &#ff6666menu&f &#ff6666này&f.'
+    - ''
+    - '&#ff3333➥ &#ff4d4dNhấn &#ff6666để &#ff8080đóng &#ff9999menu'
+    click_commands:
+    - '[sound] BLOCK_CHEST_CLOSE'
+    - '[close]'
+
+  'filler_cyan':
+    material: CYAN_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 8
+    - 27
+    - 35
+    display_name: ' '
+
+  'filler_lightblue':
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    slots:
+    - 1
+    - 7
+    - 9
+    - 17
+    - 28
+    - 34
+    display_name: ' '
+
+  'filler_blue':
+    material: BLUE_STAINED_GLASS_PANE
+    slots:
+    - 2
+    - 6
+    - 18
+    - 26
+    - 29
+    - 33
+    display_name: ' '
+
+  'filler_purple':
+    material: PURPLE_STAINED_GLASS_PANE
+    slots:
+    - 3
+    - 5
+    - 30
+    - 32
+    display_name: ' '
+
+  'filler_magenta':
+    material: MAGENTA_STAINED_GLASS_PANE
+    slot: 4
+    display_name: ' '

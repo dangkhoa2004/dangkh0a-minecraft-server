@@ -1,0 +1,1551 @@
+# DeluxeTags version: 1.8.2-Release Main Configuration
+#
+# Create your tags using the following format:
+#
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+#
+# Placeholders for your chat plugin that supports PlaceholderAPI (Including DeluxeChat)
+#
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+#
+# Placeholders for your essentials/chat handling formats config:
+#
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+
+# DeluxeTags version: 1.8.2-Release Main Configuration
+force_tags: false
+check_updates: true
+legacy_hex: false
+papi_chat: true
+
+format_chat:
+  enabled: false
+  format: '{deluxetags_tag} <%1$s> %2$s'
+
+load_tag_on_join: true
+
+gui:
+  # Title: ᴛᴀɢѕ ᴄó ѕẵɴ
+  name: '&x&5&8&6&5&F&2✎___ ᴛᴀɢѕ ᴄó ѕẵɴ: &x&F&F&D&7&0&0%deluxetags_amount%'
+  tag_select_item:
+    data: 0
+    material: NAME_TAG
+    displayname: '&f✎ &x&5&8&6&5&F&2&lᴛᴀɢ: &f%deluxetags_tag%'
+    lore:
+    - ''
+    - '&x&5&8&6&5&F&2☄ &f&lᴛʜôɴɢ ᴛɪɴ'
+    - '&f⚡  &x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    - ''
+  divider_item:
+    data: 0
+    material: GRAY_STAINED_GLASS_PANE
+    displayname: ' '
+    lore: []
+  has_tag_item:
+    data: 0
+    material: BARRIER
+    displayname: '&f✎ &x&5&7&F&2&8&7&lᴛᴀɢ ʜɪệɴ ᴛạɪ: &f%deluxetags_tag%'
+    lore:
+    - ''
+    - '&x&5&8&6&5&F&2☄ &f&lᴛʜôɴɢ ᴛɪɴ'
+    - '&x&2&C&2&F&3&3 ▎  &x&A&A&A&A&A&Aɴʜấɴ để ɢỡ ᴛᴀɢ ʜɪệɴ ᴛạɪ'
+    - ''
+  no_tag_item:
+    data: 0
+    material: PLAYER_HEAD
+    displayname: '&f⚠ &x&E&D&4&2&4&5&lʙạɴ ᴄʜưᴀ đặᴛ ᴛᴀɢ!'
+    lore:
+    - ''
+    - '&x&5&8&6&5&F&2☄ &f&lᴛʜôɴɢ ᴛɪɴ'
+    - '&x&2&C&2&F&3&3 ▎  &x&A&A&A&A&A&Aɴʜấɴ ᴠàᴏ 1 ᴛᴀɢ để ᴄʜọɴ'
+    - ''
+  exit_item:
+    data: 0
+    material: IRON_DOOR
+    displayname: '&f❌ &x&E&D&4&2&4&5&lᴛʜᴏáᴛ'
+    lore:
+    - ''
+    - '&x&5&8&6&5&F&2☄ &f&lᴛʜôɴɢ ᴛɪɴ'
+    - '&x&2&C&2&F&3&3 ▎  &x&A&A&A&A&A&Ađóɴɢ ᴍᴇɴᴜ ᴛᴀɢѕ'
+    - ''
+  next_page:
+    data: 0
+    material: ARROW
+    displayname: '&f→ &x&F&F&D&7&0&0&lᴛʀᴀɴɢ ᴛɪếᴘ: &f%page%'
+    lore:
+    - ''
+    - '&x&5&8&6&5&F&2☄ &f&lᴛʜôɴɢ ᴛɪɴ'
+    - '&x&2&C&2&F&3&3 ▎  &x&A&A&A&A&A&Aᴄʜᴜʏểɴ ѕᴀɴɢ ᴛʀᴀɴɢ ᴛɪếᴘ ᴛʜᴇᴏ'
+    - ''
+  previous_page:
+    data: 0
+    material: ARROW
+    displayname: '&f← &x&F&F&D&7&0&0&lᴛʀᴀɴɢ ᴛʀướᴄ: &f%page%'
+    lore:
+    - ''
+    - '&x&5&8&6&5&F&2☄ &f&lᴛʜôɴɢ ᴛɪɴ'
+    - '&x&2&C&2&F&3&3 ▎  &x&A&A&A&A&A&Aǫᴜᴀʏ ʟạɪ ᴛʀᴀɴɢ ᴛʀướᴄ'
+    - ''
+
+deluxetags:
+  hacker:
+    order: 1
+    tag: '&f &k!!! &x&6&0&F&F&0&0&lʜ&x&4&F&E&1&0&4&lᴀ&x&3&D&C&3&0&8&lᴄ&x&2&C&A&4&0&B&lᴋ&x&1&A&8&6&0&F&lᴇ&x&0&9&6&8&1&3&lʀ&f
+      &k!!!'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.hacker
+  rich:
+    order: 2
+    tag: '&x&E&6&9&6&1&A&lʀ&x&E&9&B&2&2&E&lɪ&x&E&B&C&E&4&2&lᴄ&x&E&E&E&A&5&6&lʜ &x&D&A&D&4&1&C$'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.rich
+  cool:
+    order: 3
+    tag: '&x&D&A&1&C&B&D&lᴄ&x&C&B&2&4&C&0&lᴏ&x&B&D&2&B&C&4&lᴏ&x&A&E&3&3&C&7&lʟ &x&9&F&3&A&C&A✌'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.cool
+  danger:
+    order: 4
+    tag: '&x&F&0&A&C&1&5&lᴅ&x&E&3&A&F&2&1&lᴀ&x&D&7&B&2&2&E&lɴ&x&C&A&B&5&3&A&lɢ&x&B&7&9&D&3&1&lᴇ&x&A&4&8&5&2&8&lʀ
+      &x&F&0&A&C&1&5☣'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.danger
+  verified:
+    order: 5
+    tag: '&x&5&E&9&3&E&6&lᴠ&x&5&9&9&7&E&7&lᴇ&x&5&3&9&C&E&8&lʀ&x&4&E&A&0&E&9&lɪ&x&4&A&A&1&E&8&lꜰ&x&4&7&9&F&E&5&lɪ&x&4&5&9&C&E&3&lᴇ&x&4&2&9&A&E&0&lᴅ
+      &x&7&B&B&F&E&6✔'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.verified
+  iq200:
+    order: 6
+    tag: '&x&F&F&0&4&0&4&lI&x&E&B&1&9&1&9&lQ &x&D&6&2&E&2&E&l2&x&D&5&3&4&3&4&l0&x&D&3&3&9&3&9&l0'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.iq200
+  apostle:
+    order: 7
+    tag: '&x&F&F&A&7&0&4&lᴀ&x&E&A&B&7&1&2&lᴘ&x&D&4&C&6&2&0&lᴏ&x&B&F&D&6&2&E&lꜱ&x&C&6&C&3&3&2&lᴛ&x&C&C&B&0&3&5&lʟ&x&D&3&9&D&3&9&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.apostle
+  apple:
+    order: 8
+    tag: '&x&F&F&0&4&0&4&lᴀ&x&E&B&1&9&1&9&lᴘ&x&D&6&2&E&2&E&lᴘ&x&D&5&3&4&3&4&lʟ&x&D&3&3&9&3&9&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.apple
+  pear:
+    order: 9
+    tag: '&x&0&4&F&F&1&F&lᴘ&x&2&0&E&4&3&A&lᴇ&x&3&2&D&5&5&0&lᴀ&x&3&9&D&3&6&3&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.pear
+  male:
+    order: 10
+    tag: '&x&5&D&3&6&E&B&lᴍ&x&5&4&4&9&E&8&lᴀ&x&4&B&5&B&E&4&lʟ&x&4&9&6&8&D&F&lᴇ &x&4&7&7&5&D&A♂'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.male
+  female:
+    order: 11
+    tag: '&x&E&B&3&6&C&9&lꜰ&x&E&9&3&D&C&8&lᴇ&x&E&6&4&4&C&8&lᴍ&x&E&4&4&B&C&7&lᴀ&x&E&1&4&A&C&A&lʟ&x&D&D&4&8&C&D&lᴇ
+      &x&D&A&4&7&D&0♀'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.female
+  heart:
+    order: 12
+    tag: '&x&F&F&0&0&0&0❤'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.hearth
+  skull:
+    order: 13
+    tag: '&x&E&9&E&9&E&9&lꜱ&x&E&1&E&1&E&1&lᴋ&x&D&9&D&9&D&9&lᴜ&x&C&C&C&C&C&C&lʟ&x&B&9&B&9&B&9&lʟ
+      &x&A&7&A&7&A&7☠'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.skull
+  lgbtqia:
+    order: 14
+    tag: '&x&F&F&0&4&0&4&lL&x&F&F&6&1&0&1&lG&x&F&F&B&7&0&0&lB&x&E&1&E&8&0&1&lT&x&4&B&9&A&0&5&lQ&x&1&5&3&B&9&4&lI&x&3&2&0&0&D&D&lA&x&A&8&0&0&8&8&l+'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.lgbtqia
+  scammer:
+    order: 15
+    tag: '&x&E&4&1&4&1&4&lꜱ&x&E&3&1&4&1&4&lᴄ&x&E&2&1&4&1&4&lᴀ&x&E&1&1&4&1&4&lᴍ&x&D&D&1&5&1&5&lᴍ&x&D&6&1&7&1&7&lᴇ&x&D&0&1&8&1&8&lʀ
+      &x&C&9&1&A&1&A✖'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.scammer
+  sea:
+    order: 16
+    tag: '&x&1&4&B&1&E&4&lꜱ&x&1&4&B&7&E&0&lᴇ&x&1&A&A&C&C&9&lᴀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.sea
+  fbi:
+    order: 17
+    tag: '&x&1&4&4&C&E&4&lꜰ&x&1&4&6&4&E&0&lʙ&x&1&A&5&7&C&9&lɪ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.fbi
+  vote:
+    order: 18
+    tag: '&x&1&4&E&4&4&C&lᴠ&x&1&4&E&1&4&B&lᴏ&x&1&6&D&8&4&A&lᴛ&x&1&A&C&9&4&9&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.vote
+  coral:
+    order: 19
+    tag: '&x&1&4&C&B&E&4&lᴄ&x&1&4&D&6&D&6&lᴏ&x&1&4&E&0&C&8&lʀ&x&1&7&D&5&B&0&lᴀ&x&1&A&C&9&9&7&lʟ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.coral
+  noob:
+    order: 20
+    tag: '&x&E&1&E&4&1&4&lɴ&x&D&E&C&A&0&9&lᴏ&x&D&6&A&5&0&B&lᴏ&x&C&9&7&6&1&A&lʙ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.noob
+  melon:
+    order: 21
+    tag: '&x&5&4&F&A&0&E&lᴍ&x&6&7&E&9&0&F&lᴇ&x&7&9&D&7&1&0&lʟ&x&8&C&C&6&1&0&lᴏ&x&9&E&B&4&1&1&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.melon
+  cacti:
+    order: 22
+    tag: '&x&0&E&F&A&1&4&lᴄ&x&2&4&E&B&0&F&lᴀ&x&3&A&D&C&0&A&lᴄ&x&5&0&C&C&0&5&lᴛ&x&6&6&B&D&0&0&lɪ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.cacti
+  robot:
+    order: 23
+    tag: '&x&F&0&F&0&F&0&lʀ&x&D&4&D&4&D&4&lᴏ&x&B&7&B&7&B&7&lʙ&x&9&B&9&B&9&B&lᴏ&x&7&E&7&E&7&E&lᴛ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.robot
+  chaos:
+    order: 24
+    tag: '&x&D&D&1&7&D&0&lᴄ&x&E&1&1&5&C&6&lʜ&x&D&1&1&4&B&7&lᴀ&x&C&6&1&6&B&7&lᴏ&x&D&9&1&A&D&B&lꜱ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.chaos
+  chaotic:
+    order: 25
+    tag: '&x&D&D&1&7&D&0&lᴄ&x&E&0&1&6&C&A&lʜ&x&E&2&1&4&C&3&lᴀ&x&D&1&1&4&B&7&lᴏ&x&C&0&1&4&A&B&lᴛ&x&C&D&1&7&C&3&lɪ&x&D&9&1&A&D&B&lᴄ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.chaotic
+  pvpgod:
+    order: 26
+    tag: '&x&D&D&7&F&1&7&lᴘ&x&E&0&7&1&1&5&lᴠ&x&D&B&6&E&1&4&lᴘ&x&C&7&8&4&1&4&lɢ&x&C&B&9&6&1&6&lᴏ&x&D&B&A&7&1&A&lᴅ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.pvpgod
+  pvp:
+    order: 27
+    tag: '&x&D&D&7&F&1&7&lᴘ&x&E&2&9&A&1&4&lᴠ&x&C&A&8&1&2&1&lᴘ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.pvp
+  nitro:
+    order: 28
+    tag: '&x&D&D&1&7&D&0&lɴ&x&E&0&1&6&C&E&lɪ&x&E&2&1&4&C&C&lᴛ&x&D&2&1&B&C&B&lʀ&x&C&1&2&1&C&A&lᴏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.nitro
+  youtube:
+    order: 29
+    tag: '&x&D&D&1&7&1&7&lʏ&x&D&A&2&1&2&3&lᴏ&x&D&6&2&A&2&F&lᴜ&x&D&3&3&4&3&B&lᴛ&x&D&3&3&D&4&8&lᴜ&x&D&3&4&5&5&6&lʙ&x&D&3&4&E&6&3&lᴇ
+      &f▶'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.youtube
+  twitch:
+    order: 30
+    tag: '&x&A&2&1&7&D&D&lᴛ&x&A&0&2&3&D&9&lᴡ&x&9&E&2&E&D&5&lɪ&x&A&0&3&9&D&3&lᴛ&x&A&5&4&4&D&3&lᴄ&x&A&B&4&E&D&3&lʜ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.twitch
+  kick:
+    order: 31
+    tag: '&x&6&A&D&D&1&7&lᴋ&x&5&D&D&6&2&A&lɪ&x&5&C&C&B&3&0&lᴄ&x&6&6&B&B&2&8&lᴋ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.kick
+  senpai:
+    order: 32
+    tag: '&x&B&1&4&C&B&B&lꜱ&x&A&9&4&A&C&4&lᴇ&x&A&1&4&8&C&D&lɴ&x&9&8&4&7&D&5&lᴘ&x&9&0&4&5&D&E&lᴀ&x&8&8&4&3&E&7&lɪ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.senpai
+  rainbow:
+    order: 33
+    tag: '&x&F&F&0&0&0&0&lʀ&x&F&F&5&D&0&0&lᴀ&x&F&C&F&F&0&0&lɪ&x&0&0&F&F&2&6&lɴ&x&4&5&B&0&F&8&lʙ&x&0&0&0&7&F&F&lᴏ&x&F&2&0&A&F&F&lᴡ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.rainbow
+  artic:
+    order: 34
+    tag: '&x&0&0&C&B&F&F&lᴀ&x&0&0&D&8&E&D&lʀ&x&0&0&E&5&D&B&lᴛ&x&0&0&F&2&C&9&lɪ&x&0&0&F&F&B&7&lᴄ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.artic
+  greninja:
+    order: 35
+    tag: '&x&0&0&C&B&F&F&lɢ&x&0&0&D&D&F&F&lʀ&x&0&0&E&F&F&F&lᴇ&x&0&0&F&8&E&4&lɴ&x&0&0&F&C&B&D&lɪ&x&0&C&F&5&A&0&lɴ&x&3&0&D&7&9&B&lᴊ&x&5&4&B&9&9&5&lᴀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.greninja
+  scifi:
+    order: 36
+    tag: '&x&C&8&0&0&F&F&lꜱ&x&D&1&5&D&F&6&lᴄ&x&D&4&7&C&F&3&lɪ-&x&D&1&5&D&F&6&lꜰ&x&C&8&0&0&F&F&lɪ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.scifi
+  aphrodite:
+    order: 37
+    tag: '&x&F&9&2&5&F&8&lᴀ&x&F&7&4&A&F&0&lᴘ&x&F&4&7&0&E&9&lʜ&x&F&3&7&C&E&6&lʀ&x&F&3&7&C&E&6&lᴏ&x&F&3&7&C&E&6&lᴅ&x&F&4&7&0&E&9&lɪ&x&F&7&4&A&F&0&lᴛ&x&F&9&2&5&F&8&lᴇ
+      &x&F&C&0&0&F&F❤'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.aphrodite
+  griffin:
+    order: 38
+    tag: '&x&F&F&C&4&0&0&lɢ&x&F&9&D&5&3&E&lʀ&x&F&3&E&6&7&C&lɪ&x&F&3&E&6&7&C&lꜰ&x&F&3&E&6&7&C&lꜰ&x&F&9&D&5&3&E&lɪ&x&F&F&C&4&0&0&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.griffin
+  knight:
+    order: 39
+    tag: '&x&F&F&C&4&0&0&lᴋ&x&F&8&D&8&4&A&lɴ&x&F&3&E&6&7&C&lɪ&x&F&3&E&6&7&C&lɢ&x&F&8&D&8&4&A&lʜ&x&F&F&C&4&0&0&lᴛ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.knight
+  explorer:
+    order: 40
+    tag: '&x&F&1&0&0&F&F&lᴇ&x&D&B&3&5&F&A&lx&x&C&4&6&A&F&5&lᴘ&x&A&A&9&D&F&3&lʟ&x&8&F&C&D&F&3&lᴏ&x&8&6&D&A&E&D&lʀ&x&A&3&9&F&D&A&lᴇ&x&C&1&6&3&C&7&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.explorer
+  lord:
+    order: 41
+    tag: '&x&0&0&7&9&F&F&lʟ&x&2&9&9&6&F&B&lᴏ&x&5&3&B&4&F&7&lʀ&x&7&C&D&1&F&3&lᴅ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.lord
+  overlord:
+    order: 42
+    tag: '&x&0&0&7&9&F&F&lᴏ&x&1&2&8&6&F&D&lᴠ&x&2&3&9&2&F&C&lᴇ&x&3&5&9&F&F&A&lʀ&x&4&7&A&B&F&8&lʟ&x&5&9&B&8&F&6&lᴏ&x&6&A&C&4&F&5&lʀ&x&7&C&D&1&F&3&lᴅ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.overlord
+  starlight:
+    order: 43
+    tag: '&x&E&2&F&A&0&2&lꜱ&x&D&3&D&7&1&F&lᴛ&x&C&3&B&4&3&C&lᴀ&x&B&8&9&E&4&8&lʀ&x&B&3&A&3&3&3&lʟ&x&A&F&A&7&1&D&lɪ&x&B&E&B&F&1&4&lɢ&x&D&8&D&F&1&1&lʜ&x&F&2&F&F&0&E&lᴛ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.starlight
+  immortal:
+    order: 44
+    tag: '&x&C&E&7&1&1&9&lɪ&x&D&D&A&1&0&E&lᴍ&x&E&C&D&1&0&4&lᴍ&x&F&1&E&1&0&0&lᴏ&x&F&1&E&1&0&0&lʀ&x&E&C&D&1&0&4&lᴛ&x&D&D&A&1&0&E&lᴀ&x&C&E&7&1&1&9&lʟ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.immortal
+  snake:
+    order: 45
+    tag: '&x&0&B&C&A&3&F&lꜱ&x&6&A&C&D&5&E&lɴ&x&8&A&C&E&6&8&lᴀ&x&6&A&C&D&5&E&lᴋ&x&0&B&C&A&3&F&lᴇ
+      ⚕'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.snake
+  celestial:
+    order: 46
+    tag: '&x&5&8&B&9&D&8&lᴄ&x&5&4&A&4&D&5&lᴇ&x&4&F&8&E&D&1&lʟ&x&5&0&8&3&C&F&lᴇ&x&5&A&8&A&C&F&lꜱ&x&6&5&9&2&C&E&lᴛ&x&5&1&A&2&C&B&lɪ&x&2&E&B&6&C&7&lᴀ&x&0&B&C&A&C&2&lʟ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.celestial
+  ocelot:
+    order: 47
+    tag: '&x&E&2&7&4&1&B&lᴏ&x&D&8&8&7&2&A&lᴄ&x&C&F&9&8&3&D&lᴇ&x&C&7&A&9&5&9&lʟ&x&C&9&A&A&4&F&lᴏ&x&C&F&A&5&3&2&lᴛ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.ocelot
+  posedion:
+    order: 48
+    tag: '&x&1&B&A&A&E&2&lᴘ&x&3&9&A&6&D&6&lᴏ&x&5&8&A&2&C&9&lꜱ&x&6&1&9&9&C&A&lᴇ&x&6&0&8&D&D&3&lɪ&x&5&E&7&E&D&8&lᴅ&x&5&B&6&7&D&A&lᴏ&x&5&8&5&1&D&B&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.posedion
+  galactic:
+    order: 49
+    tag: '&x&A&7&1&B&E&2&lɢ&x&9&4&3&9&D&6&lᴀ&x&8&1&5&8&C&9&lʟ&x&7&8&6&1&C&A&lᴀ&x&7&2&6&0&D&3&lᴄ&x&7&D&5&D&D&8&lᴛ&x&A&5&5&7&D&A&lɪ&x&C&E&5&1&D&B&lᴄ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.galactic
+  ufo:
+    order: 50
+    tag: '&x&6&A&D&8&5&F&lᴜ&x&5&6&C&F&4&2&lꜰ&x&4&1&C&5&2&4&lᴏ ⚡'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.ufo
+  pharaoh:
+    order: 51
+    tag: '&x&F&F&D&0&0&4&lᴘ&x&E&D&D&4&0&F&lʜ&x&E&1&C&C&2&4&lᴀ&x&D&B&B&9&4&4&lʀ&x&D&3&B&C&3&1&lᴀ&x&D&5&B&7&2&A&lᴏ&x&E&0&A&C&2&D&lʜ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.pharaoh
+  soldier:
+    order: 52
+    tag: '&x&0&4&E&0&F&F&lꜱ&x&0&C&E&2&D&8&lᴏ&x&1&4&E&4&B&1&lʟ&x&2&C&E&0&B&4&lᴅ&x&4&4&D&B&B&7&lɪ&x&3&6&D&5&B&9&lᴇ&x&2&8&C&F&B&B&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.soldier
+  kitkat:
+    order: 53
+    tag: '&x&F&F&0&4&0&4&lᴋ&x&F&8&3&7&3&7&lɪ&x&F&2&6&2&6&2&lᴛ&x&F&1&7&F&7&F&lᴋ&x&E&D&9&2&9&4&lᴀ&x&E&9&A&2&A&5&lᴛ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.kitkat
+  snickers:
+    order: 54
+    tag: '&x&4&5&3&C&E&B&lꜱ&x&4&4&4&4&E&F&lɴ&x&4&3&4&C&F&4&lɪ&x&4&8&6&2&F&4&lᴄ&x&5&1&8&0&F&4&lᴋ&x&6&0&9&4&F&3&lᴇ&x&7&E&9&8&F&4&lʀ&x&9&C&9&B&F&5&lꜱ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.snickers
+  tnt:
+    order: 55
+    tag: '&x&F&F&3&1&3&1&lᴛ&x&F&F&F&F&F&F&lɴ&x&F&F&3&1&3&1&lᴛ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.tnt
+  starbound:
+    order: 56
+    tag: '&x&F&A&A&2&0&0&lꜱ&x&F&8&B&1&2&D&lᴛ&x&F&5&C&0&5&9&lᴀ&x&F&3&C&E&8&6&lʀ&x&F&0&D&D&B&2&lʙ&x&F&0&D&7&9&2&lᴏ&x&F&1&D&1&7&2&lᴜ&x&F&1&C&B&5&2&lɴ&x&F&1&C&5&3&2&lᴅ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.starbound
+  legacy:
+    order: 57
+    tag: '&x&7&3&F&A&0&0&lʟ&x&A&5&E&E&4&7&lᴇ&x&D&7&E&3&8&E&lɢ&x&C&A&E&1&9&D&lᴀ&x&7&E&E&9&7&2&lᴄ&x&3&2&F&1&4&7&lʏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.legacy
+  oreo:
+    order: 58
+    tag: '&x&B&E&9&A&6&B&lᴏ&x&B&1&9&8&6&B&lʀ&x&B&5&A&9&7&7&lᴇ&x&C&A&C&E&8&E&lᴏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.oreo
+  wizard:
+    order: 59
+    tag: '&x&D&D&3&5&B&D&lᴡ&x&C&A&3&2&B&B&lɪ&x&B&E&3&4&B&9&lᴢ&x&C&1&4&2&B&9&lᴀ&x&C&1&4&8&B&E&lʀ&x&B&F&4&C&C&5&lᴅ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.wizard
+  fisherman:
+    order: 60
+    tag: '&x&6&F&6&6&C&A&lꜰ&x&5&7&6&B&C&5&lɪ&x&4&0&7&0&C&0&lꜱ&x&3&3&7&6&B&E&lʜ&x&3&B&7&F&C&0&lᴇ&x&4&3&8&7&C&1&lʀ&x&4&8&9&5&C&3&lᴍ&x&4&A&A&6&C&4&lᴀ&x&4&C&B&6&C&5&lɴ
+      &#4CB6C5🎣'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.fisherman
+  jolly:
+    order: 61
+    tag: '&x&C&5&4&D&1&E&lᴊ&x&C&4&6&E&2&4&lᴏ&x&D&0&4&E&4&E&lʟ&x&D&B&2&4&6&2&lʟ&x&D&3&2&8&2&8&lʏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.jolly
+  p2w:
+    order: 62
+    tag: '&x&0&0&F&F&0&7&lP&x&0&B&8&5&3&1&l2&x&0&0&F&F&0&7&lW'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.p2w
+  wither:
+    order: 63
+    tag: '&x&B&E&0&0&F&F&lᴡ&x&C&8&0&C&E&D&lɪ&x&D&3&1&9&D&C&lᴛ&x&D&A&2&3&D&5&lʜ&x&D&D&2&A&D&8&lᴇ&x&E&0&3&2&D&C&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.wither
+  dragon:
+    order: 64
+    tag: '&x&B&E&0&0&F&F&lᴅ&x&C&8&0&C&E&D&lʀ&x&D&3&1&9&D&C&lᴀ&x&D&A&2&3&D&5&lɢ&x&D&D&2&A&D&8&lᴏ&x&E&0&3&2&D&C&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.dragon
+  penguin:
+    order: 65
+    tag: '&x&0&0&F&F&E&0&lᴘ&x&0&0&E&9&E&5&lᴇ&x&0&0&D&2&E&A&lɴ&x&0&0&B&C&F&0&lɢ&x&0&0&A&6&F&5&lᴜ&x&0&0&8&F&F&A&lɪ&x&0&0&7&9&F&F&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.penguin
+  farmer:
+    order: 66
+    tag: '&x&0&C&D&A&0&0&lꜰ&x&2&6&D&2&1&C&lᴀ&x&4&0&C&B&3&8&lʀ&x&5&8&C&9&5&1&lᴍ&x&6&E&C&D&6&8&lᴇ&x&8&4&D&1&7&F&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.farmer
+  redstoner:
+    order: 67
+    tag: '&x&D&A&0&0&0&0&lʀ&x&D&D&2&6&2&6&lᴇ&x&E&0&4&C&4&C&lᴅ&x&E&1&6&7&6&7&lꜱ&x&D&C&6&D&6&D&lᴛ&x&D&8&7&3&7&3&lᴏ&x&D&6&5&F&5&F&lɴ&x&D&5&3&E&3&E&lᴇ&x&D&5&1&D&1&D&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.redstoner
+  exotic:
+    order: 68
+    tag: '&x&0&0&D&A&D&A&lᴇ&x&3&D&D&F&C&4&lx&x&6&8&E&0&A&D&lᴏ&x&7&2&D&8&9&3&lᴛ&x&5&2&D&6&8&8&lɪ&x&1&D&D&5&8&3&lᴄ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.exotic
+  legendary:
+    order: 69
+    tag: '&x&D&A&B&9&0&0&lʟ&x&D&D&B&A&2&6&lᴇ&x&E&0&B&B&4&C&lɢ&x&E&1&B&8&6&7&lᴇ&x&D&C&B&0&6&D&lɴ&x&D&8&A&7&7&3&lᴅ&x&D&6&9&7&5&F&lᴀ&x&D&5&8&3&3&E&lʀ&x&D&5&6&F&1&D&lʏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.legendary
+  rare:
+    order: 70
+    tag: '&x&0&0&6&7&D&A&lʀ&x&1&0&7&6&C&B&lᴀ&x&2&0&8&4&B&B&lʀ&x&3&0&9&3&A&C&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.rare
+  common:
+    order: 71
+    tag: '&x&0&0&D&A&0&6&lᴄ&x&1&9&C&D&1&A&lᴏ&x&3&8&C&B&3&6&lᴍ&x&6&3&D&E&6&5&lᴍ&x&6&7&E&C&7&C&lᴏ&x&5&8&F&7&8&9&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.common
+  tulip:
+    order: 72
+    tag: '&x&A&B&0&0&D&A&lᴛ&x&C&5&3&2&D&6&lᴜ&x&D&8&5&A&D&D&lʟ&x&D&7&6&D&E&2&lɪ&x&B&7&6&2&D&B&lᴘ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.tulip
+  panda:
+    order: 73
+    tag: '&x&A&4&2&1&E&7&lᴘ&x&9&1&3&A&D&A&lᴀ&x&9&2&5&A&D&D&lɴ&x&7&F&6&C&D&E&lᴅ&x&3&4&5&D&C&C&lᴀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.panda
+  star:
+    order: 74
+    tag: '&x&E&7&C&A&2&1&lꜱ&x&E&F&C&1&1&6&lᴛ&x&F&7&B&9&0&B&lᴀ&x&F&F&B&0&0&0&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.star
+  solar:
+    order: 75
+    tag: '&x&E&7&2&1&B&A&lꜱ&x&E&D&4&5&8&C&lᴏ&x&F&3&6&9&5&D&lʟ&x&F&9&8&C&2&F&lᴀ&x&F&F&B&0&0&0&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.solar
+  mystic:
+    order: 76
+    tag: '&x&E&7&2&1&B&A&lᴍ&x&D&B&3&6&A&2&lʏ&x&C&F&4&B&8&A&lꜱ&x&C&4&6&0&7&1&lᴛ&x&B&8&7&5&5&9&lɪ&x&A&C&8&A&4&1&lᴄ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.mystic
+  sage:
+    order: 77
+    tag: '&x&0&3&F&C&0&0&lꜱ&x&1&F&E&6&3&E&lᴀ&x&3&B&C&F&7&B&lɢ&x&5&7&B&9&B&9&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.sage
+  legend:
+    order: 78
+    tag: '&x&F&C&C&2&0&0&lʟ&x&F&5&A&A&0&D&lᴇ&x&E&E&9&1&1&A&lɢ&x&E&8&7&9&2&8&lᴇ&x&E&1&6&0&3&5&lɴ&x&D&A&4&8&4&2&lᴅ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.legend
+  kitten:
+    order: 79
+    tag: '&x&F&C&E&0&0&0&lᴋ&x&F&5&C&2&0&D&lɪ&x&E&E&A&3&1&A&lᴛ&x&E&8&8&5&2&8&lᴛ&x&E&1&6&6&3&5&lᴇ&x&D&A&4&8&4&2&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.kitten
+  peach:
+    order: 80
+    tag: '&x&F&C&B&8&0&0&lᴘ&x&F&4&C&0&1&1&lᴇ&x&E&B&C&7&2&1&lᴀ&x&E&3&C&F&3&2&lᴄ&x&D&A&D&6&4&2&lʜ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.peach
+  infinite:
+    order: 81
+    tag: '&x&E&E&0&0&F&C&lɪ&x&E&B&1&F&E&1&lɴ&x&E&8&3&D&C&7&lꜰ&x&E&5&5&C&A&C&lɪ&x&E&3&7&A&9&2&lɴ&x&E&0&9&9&7&7&lɪ&x&D&D&B&7&5&D&lᴛ&x&D&A&D&6&4&2&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.infinite
+  grinder:
+    order: 82
+    tag: '&x&0&0&F&C&F&C&lɢ&x&2&4&D&D&F&6&lʀ&x&4&8&B&E&F&1&lɪ&x&6&C&9&F&E&B&lɴ&x&9&0&8&0&E&5&lᴅ&x&B&4&6&1&E&0&lᴇ&x&D&8&4&2&D&A&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.grinder
+  nuker:
+    order: 83
+    tag: '&x&D&A&F&C&0&0&lɴ&x&B&4&F&4&2&0&lᴜ&x&8&E&E&B&3&F&lᴋ&x&6&8&E&3&5&F&lᴇ&x&4&2&D&A&7&E&lʀ '
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.nuker
+  simp:
+    order: 84
+    tag: '&x&F&C&0&0&F&5&lꜱ&x&F&0&1&6&E&C&lɪ&x&E&4&2&C&E&3&lᴍ&x&D&8&4&2&D&A&lᴘ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.simp
+  gucci:
+    order: 85
+    tag: '&x&F&1&D&E&3&E&lɢ&x&E&D&C&E&4&1&lᴜ&x&E&8&B&F&4&5&lᴄ&x&E&4&A&F&4&8&lᴄ&#DF9F4B&lɪ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.gucci
+  nolife:
+    order: 86
+    tag: '&x&F&7&9&5&1&6&x&F&5&D&C&0&C&lɴ&x&E&9&D&2&1&8&lᴏ&x&D&C&C&9&2&5&lʟ&x&D&D&B&B&2&7&lɪ&x&E&A&A&8&1&E&lꜰ&x&F&7&9&5&1&6&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.nolife
+  king:
+    order: 87
+    tag: '&x&F&5&D&C&0&C&lᴋ&x&E&0&C&C&2&1&lɪ&x&E&1&B&4&2&4&lɴ&x&F&7&9&5&1&6&lɢ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.king
+  queen:
+    order: 88
+    tag: '&x&F&5&0&C&E&F&lQ&x&E&6&1&C&D&A&lᴜ&x&D&6&2&B&C&4&lᴇ&x&C&E&2&1&D&E&lᴇ&x&C&6&1&6&F&7&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.queen
+  gamer:
+    order: 89
+    tag: '&x&0&C&7&1&F&5&lɢ&x&1&C&7&3&E&6&lᴀ&x&2&B&7&5&D&6&lᴍ&x&2&1&9&6&E&7&lᴇ&x&1&6&B&7&F&7&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.gamer
+  og:
+    order: 90
+    tag: '&f &k !!! &x&F&F&0&0&0&0&lᴏ&x&F&F&0&0&0&0&lɢ&f&k !!!'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.og
+  ancient:
+    order: 91
+    tag: '&x&E&B&B&E&2&7&lᴀ&x&E&B&B&4&2&1&lɴ&x&E&A&A&B&1&A&lᴄ&x&E&A&A&1&1&4&lɪ&x&E&A&9&7&0&D&lᴇ&x&E&9&8&E&0&7&lɴ&x&E&9&8&4&0&0&lᴛ '
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.ancient
+  heroic:
+    order: 92
+    tag: '&x&E&B&2&7&C&6&lʜ&x&B&C&4&A&C&D&lᴇ&x&8&D&6&D&D&4&lʀ&x&5&E&9&0&D&B&lᴏ&x&2&F&B&3&E&2&lɪ&x&0&0&D&6&E&9&lᴄ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.heroic
+  getcandy:
+    order: 93
+    tag: '&x&5&A&2&D&F&F&lɢ&x&3&3&5&9&F&6&lᴇ&x&0&D&8&5&E&C&lᴛ&x&0&C&9&E&C&C&lᴄ&x&1&D&A&C&9&F&lᴀ&x&2&9&A&F&8&7&lɴ&x&2&9&9&8&9&6&lᴅ&x&2&9&8&2&A&5&lʏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.getcandy
+  demonlord:
+    order: 94
+    tag: '&x&F&F&2&D&2&D&lᴅ&x&F&7&3&5&1&C&lᴇ&x&E&F&3&D&0&B&lᴍ&x&E&3&4&A&0&5&lᴏ&x&D&0&6&1&1&5&lɴ&x&B&C&7&7&2&4&lʟ&x&B&9&9&3&2&E&lᴏ&x&B&D&B&1&3&5&lʀ&x&C&1&C&F&3&C&lᴅ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.demonlord
+  demonking:
+    order: 95
+    tag: '&x&F&F&2&D&2&D&lᴅ&x&F&7&3&5&1&C&lᴇ&x&E&F&3&D&0&B&lᴍ&x&E&3&4&A&0&5&lᴏ&x&D&0&6&1&1&5&lɴ&x&B&C&7&7&2&4&lᴋ&x&B&E&9&9&2&7&lɪ&x&C&9&C&0&2&3&lɴ&x&D&4&E&7&1&F&lɢ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.demonking
+  terminator:
+    order: 96
+    tag: '&x&D&3&2&2&2&2&lᴛ&x&D&A&3&6&1&7&lᴇ&x&E&2&4&A&0&B&lʀ&x&E&9&5&E&0&0&lᴍ&x&E&7&6&4&0&C&lɪ&x&E&6&6&B&1&7&lɴ&x&E&4&7&1&2&3&lᴀ&x&E&5&5&B&2&2&lᴛ&x&E&6&4&6&2&0&lᴏ&x&E&7&3&0&1&F&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.terminator
+  emperor:
+    order: 97
+    tag: '&x&C&9&D&3&2&2&lᴇ&x&B&1&D&1&3&7&lᴍ&x&9&8&C&F&4&C&lᴘ&x&B&5&D&6&5&A&lᴇ&x&D&2&D&D&6&7&lʀ&x&9&F&E&2&4&3&lᴏ&x&6&B&E&7&1&F&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.emperor
+  angler:
+    order: 98
+    tag: '&x&2&A&C&6&E&4&lᴀ&x&3&E&8&9&D&7&lɴ&x&5&0&5&C&D&0&lɢ&x&5&E&4&E&D&5&lʟ&x&5&6&3&9&D&D&lᴇ&x&4&3&1&F&E&7&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.angler
+  angel:
+    order: 99
+    tag: '&x&2&A&E&4&D&5&lᴀ&x&4&4&C&D&D&1&lɴ&x&4&B&C&E&C&A&lɢ&x&3&F&D&A&C&A&lᴇ&x&1&F&E&7&D&7&lʟ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.angel
+  retro:
+    order: 100
+    tag: '&x&B&4&3&C&C&0&lʀ&x&8&0&6&9&C&8&lᴇ&x&4&C&9&5&C&F&lᴛ&x&5&D&6&3&A&5&lʀ&x&6&D&3&1&7&A&lᴏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.retro
+  godly:
+    order: 101
+    tag: '&x&F&F&1&2&4&2&lɢ&x&F&7&3&4&3&D&lᴏ&x&E&E&5&5&3&7&lᴅ&x&E&1&3&B&2&C&lʟ&x&D&3&2&0&2&0&lʏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.godly
+  sheesh:
+    order: 102
+    tag: '&x&A&D&1&5&C&E&lꜱ&x&8&7&2&9&E&1&lʜ&x&6&E&3&7&E&E&lᴇ&x&6&E&3&7&E&E&lᴇ&x&8&7&2&9&E&1&lꜱ&x&A&D&1&5&C&E&lʜ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.sheesh
+  demon:
+    order: 103
+    tag: '&x&E&C&1&1&1&1&lᴅ&x&E&C&5&8&5&8&lᴇ&x&E&C&7&0&7&0&lᴍ&x&E&C&5&8&5&8&lᴏ&x&E&C&1&1&1&1&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.demon
+  genius:
+    order: 104
+    tag: '&x&E&C&1&1&D&D&lɢ&x&E&C&4&A&9&C&lᴇ&x&E&C&7&0&7&0&lɴ&x&E&C&7&0&7&0&lɪ&x&E&C&4&A&9&C&lᴜ&x&E&C&1&1&D&D&lꜱ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.genius
+  icecold:
+    order: 105
+    tag: '&x&1&1&8&A&E&C&lɪ&x&1&F&B&4&F&6&lᴄ&x&2&D&D&D&F&F&lᴇ&x&2&D&D&D&F&F&lᴄ&x&2&D&D&D&F&F&lᴏ&x&1&F&B&8&F&6&lʟ&x&1&1&9&3&E&C&lᴅ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.icecold
+  tiktok:
+    order: 106
+    tag: '&d♪&x&C&D&1&D&F&4&lᴛ&x&B&0&2&9&F&C&lɪ&x&A&7&2&D&F&F&lᴋ&x&A&7&2&D&F&F&lᴛ&x&B&0&2&9&F&C&lᴏ&x&C&D&1&D&F&4&lᴋ&x&E&9&1&1&E&C&d♪'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.tiktok
+  lucky:
+    order: 107
+    tag: '&x&1&D&E&C&1&1&l☘&x&2&5&F&6&4&D&lʟ&x&2&D&F&F&8&8&lᴜ&x&2&D&F&F&8&8&lᴄ&x&2&D&F&F&8&8&lᴋ&x&2&5&F&6&4&D&lʏ&x&1&D&E&C&1&1&l☘'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.lucky
+  supreme:
+    order: 108
+    tag: '&x&E&C&B&1&1&1&lꜱ&x&E&B&B&B&1&E&lᴜ&x&E&9&C&5&2&B&lᴘ&x&F&4&D&F&2&C&lʀ&x&F&F&F&9&2&D&lᴇ&x&F&6&D&5&1&F&lᴍ&x&E&C&B&1&1&1&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.supreme
+  ultra:
+    order: 109
+    tag: '&x&E&C&1&1&D&D&lᴜ&x&B&F&2&5&E&6&lʟ&x&9&F&2&C&F&4&lᴛ&x&8&C&2&6&F&A&lʀ&x&8&7&1&1&E&C&lᴀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.ultra
+  hero:
+    order: 110
+    tag: '&x&1&1&C&0&E&C&lʜ&x&2&2&D&B&E&5&lᴇ&x&2&C&F&0&E&0&lʀ&x&2&D&F&F&D&D&lᴏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.hero
+  bunny:
+    order: 111
+    tag: '&f✿&x&E&C&D&4&E&8&lʙ&x&E&3&B&1&E&2&lᴜ&x&E&2&9&9&D&A&lɴ&x&D&C&8&4&C&B&lɴ&x&C&3&6&D&B&3&lʏ&f✿'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.bunny
+  delusional:
+    order: 112
+    tag: '&x&9&E&6&2&E&4&lᴅ&x&A&F&7&8&E&3&lᴇ&x&C&0&8&F&E&1&lʟ&x&D&1&A&5&E&0&lᴜ&x&D&7&9&D&D&F&lꜱ&x&D&E&9&4&D&F&lɪ&x&E&4&8&C&D&E&lᴏ&x&B&F&8&2&D&5&lɴ&x&9&B&7&7&C&C&lᴀ&x&7&6&6&D&C&3&lʟ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.delusional
+  lemon:
+    order: 113
+    tag: '&x&F&F&E&E&0&0&lʟ&x&F&9&F&2&0&0&lᴇ&x&F&3&F&7&0&0&lᴍ&x&E&D&F&B&0&0&lᴏ&x&E&7&F&F&0&0&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀʏ ɴàʏ'
+    permission: deluxetags.tag.lemon
+  cloud:
+    order: 114
+    tag: '&x&0&0&E&A&F&F&lᴄ&x&0&0&E&0&F&F&lʟ&x&0&0&D&6&F&F&lᴏ&x&0&0&C&B&F&F&lᴜ&x&0&0&C&1&F&F&lᴅ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.cloud
+  monster:
+    order: 115
+    tag: '&x&F&C&0&0&F&F&lᴍ&x&E&D&0&0&F&F&lᴏ&x&D&D&0&0&F&F&lɴ&x&C&E&0&0&F&F&lꜱ&x&B&E&0&0&F&F&lᴛ&x&A&F&0&0&F&F&lᴇ&x&9&F&0&0&F&F&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.monster
+  clown:
+    order: 116
+    tag: '&x&D&D&0&0&F&F&lᴄ&x&A&4&0&0&F&F&lʟ&x&6&B&0&0&F&F&lᴏ&x&6&F&2&1&F&4&lᴡ&x&7&3&4&1&E&9&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.clown
+  donator:
+    order: 117
+    tag: '&x&0&0&F&F&4&5&lᴅ&x&0&0&F&F&3&7&lᴏ&x&0&0&F&F&2&A&lɴ&x&0&0&F&F&1&C&lᴀ&x&0&B&F&5&3&C&lᴛ&x&1&7&E&A&5&C&lᴏ&x&2&2&E&0&7&C&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.donator
+  milky:
+    order: 118
+    tag: '&x&9&9&0&B&C&0&lᴍ&x&A&D&0&A&C&6&lɪ&x&C&1&0&8&C&C&lʟ&x&D&1&1&5&D&0&lᴋ&x&E&0&2&2&D&4&lʏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.milky
+  skillissue:
+    order: 119
+    tag: '&x&0&B&1&E&C&0&lꜱ&x&0&A&3&3&C&3&lᴋ&x&0&A&4&8&C&5&lɪ&x&0&9&5&D&C&8&lʟ&x&0&8&7&2&C&B&lʟ&x&0&B&7&F&C&E&lɪ&x&1&1&8&2&D&3&lꜱ&x&1&6&8&5&D&7&lꜱ&x&1&C&8&9&D&C&lᴜ&x&2&2&8&C&E&0&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.skillissue
+  falseban:
+    order: 120
+    tag: '&x&C&0&0&B&0&B&lꜰ&x&C&3&2&E&0&A&lᴀ&x&C&7&5&2&0&9&lʟ&x&C&A&7&5&0&8&lꜱ&x&C&F&9&2&0&C&lᴇ&x&D&5&A&8&1&3&lʙ&x&D&A&B&E&1&B&lᴀ&x&E&0&D&4&2&2&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.falseban
+  archer:
+    order: 121
+    tag: '&x&C&0&0&B&0&B&lᴀ&x&C&5&3&D&0&A&lʀ&x&C&A&6&E&0&9&lᴄ&x&D&0&9&6&0&D&lʜ&x&D&8&B&5&1&8&lᴇ&x&E&0&D&4&2&2&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.archer
+  mage:
+    order: 122
+    tag: '&x&C&0&2&2&E&2&lᴍ&x&B&9&2&9&E&3&lᴀ&x&B&5&2&7&D&9&lɢ&x&B&4&1&C&C&3&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.mage
+  assassin:
+    order: 123
+    tag: '&x&2&2&9&4&E&2&lᴀ&x&1&C&6&B&E&7&lꜱ&x&1&7&4&3&E&C&lꜱ&x&1&5&3&5&E&E&lᴀ&x&1&5&3&5&E&E&lꜱ&x&1&7&4&3&E&C&lꜱ&x&1&C&6&B&E&7&lɪ&x&2&2&9&4&E&2&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.assassin
+  media:
+    order: 124
+    tag: '&x&E&2&2&2&C&6&lᴍ&x&D&9&1&F&D&0&lᴇ&x&D&1&1&C&D&A&lᴅ&x&C&8&1&8&E&4&lɪ&x&B&F&1&5&E&E&lᴀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.media
+  fake:
+    order: 125
+    tag: '&x&E&2&2&2&2&2&lꜰ&x&E&6&1&E&5&0&lᴀ&x&E&A&1&9&7&D&lᴋ&x&E&E&1&5&A&B&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.fake
+  carry:
+    order: 126
+    tag: '&x&E&E&1&E&4&0&lᴄ&x&F&7&0&8&6&C&lᴀ&x&F&D&0&0&7&B&lʀ&x&F&8&1&2&8&A&lʀ&x&E&4&4&9&B&4&lʏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.carry
+  kekw:
+    order: 127
+    tag: '&x&1&E&4&E&E&E&lᴋ&x&0&A&7&6&F&6&lᴇ&x&0&0&9&7&F&4&lᴋ&x&0&0&B&0&E&9&lᴡ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.kekw
+  quack:
+    order: 128
+    tag: '&x&E&E&C&7&1&E&lQ&x&F&4&A&1&0&F&lᴜ&x&F&A&7&A&0&0&lᴀ&x&F&2&8&E&0&0&lᴄ&x&E&9&A&1&0&0&lᴋ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.quack
+  cyan:
+    order: 129
+    tag: '&x&0&0&F&F&F&F&lᴄ&x&0&0&F&F&F&F&lʏ&x&0&0&F&F&F&F&lᴀ&x&0&0&F&F&F&F&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.cyan
+  ultimate:
+    order: 130
+    tag: '&x&9&A&0&0&F&8&lᴜ&x&A&C&0&D&F&0&lʟ&x&B&E&1&A&E&7&lᴛ&x&D&0&2&7&D&F&lɪ&x&D&5&3&5&D&A&lᴍ&x&C&C&4&3&D&8&lᴀ&x&C&3&5&0&D&5&lᴛ&x&B&A&5&E&D&3&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.ultimate
+  shard:
+    order: 131
+    tag: '&x&5&B&7&B&D&3&lꜱ&x&4&5&A&B&C&D&lʜ&x&2&E&D&B&C&6&lᴀ&x&4&6&D&7&B&5&lʀ&x&5&E&D&3&A&4&lᴅ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.shard
+  battlepass:
+    order: 132
+    tag: '&x&3&2&E&9&D&3&lʙ&x&2&F&D&E&B&8&lᴀ&x&2&C&D&4&9&D&lᴛ&x&2&9&C&9&8&2&lᴛ&x&2&6&B&E&6&7&lʟ&x&3&1&B&D&5&C&lᴇ&x&4&8&C&6&6&2&lᴘ&x&6&0&C&F&6&7&lᴀ&x&7&7&D&7&6&D&lꜱ&x&8&F&E&0&7&3&lꜱ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.battlepass
+  lover:
+    order: 133
+    tag: '&x&E&9&3&2&3&2&lʟ&x&D&1&2&C&5&3&lᴏ&x&B&9&2&5&7&3&lᴠ&x&C&D&4&C&9&9&lᴇ&x&E&0&7&3&B&E&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.lover
+  private:
+    order: 134
+    tag: '&x&E&9&3&2&3&2&lᴘ&x&D&9&5&A&2&E&lʀ&x&C&9&8&1&2&9&lɪ&x&B&9&A&9&2&5&lᴠ&x&C&6&B&B&3&F&lᴀ&x&D&2&C&E&5&9&lᴛ&x&D&F&E&0&7&3&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.private
+  booster:
+    order: 135
+    tag: '&x&E&9&3&2&E&4&lʙ&x&F&0&5&6&E&D&lᴏ&x&F&7&7&9&F&6&lᴏ&x&F&E&9&D&F&F&lꜱ&x&F&7&7&9&F&6&lᴛ&x&F&0&5&6&E&D&lᴇ&x&E&9&3&2&E&4&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.booster
+  dark:
+    order: 136
+    tag: '&x&5&A&4&7&7&4&lᴅ&x&4&D&3&C&5&5&lᴀ&x&4&E&3&6&4&D&lʀ&x&5&E&3&3&5&C&lᴋ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.dark
+  ark:
+    order: 137
+    tag: '&x&8&5&E&4&9&3&lᴀ&x&4&3&F&2&A&F&lʀ&x&0&0&F&F&C&B&lᴋ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.ark
+  black:
+    order: 138
+    tag: '&x&0&0&0&0&0&0&lʙ&x&0&0&0&0&0&0&lʟ&x&0&0&0&0&0&0&lᴀ&x&0&0&0&0&0&0&lᴄ&x&0&0&0&0&0&0&lᴋ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.black
+  odd:
+    order: 139
+    tag: '&x&F&3&2&5&E&5&lᴏ&x&8&B&6&F&B&F&lᴅ&x&2&2&B&8&9&9&lᴅ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.odd
+  event:
+    order: 140
+    tag: '&x&2&5&E&B&F&3&lᴇ&x&2&4&D&E&D&D&lᴠ&x&2&4&D&2&C&6&lᴇ&x&2&3&C&5&B&0&lɴ&x&2&2&B&8&9&9&lᴛ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.event
+  claw:
+    order: 141
+    tag: '&x&F&3&2&5&2&5&lᴄ&x&D&F&2&4&2&8&lʟ&x&C&C&2&3&2&B&lᴀ&x&B&8&2&2&2&E&lᴡ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.claw
+  cringe:
+    order: 142
+    tag: '&x&2&5&C&9&F&3&lᴄ&x&2&4&A&E&E&7&lʀ&x&2&4&9&4&D&B&lɪ&x&2&3&7&9&D&0&lɴ&x&2&3&5&F&C&4&lɢ&x&2&2&4&4&B&8&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.cringe
+  cringelord:
+    order: 143
+    tag: '&x&2&5&C&9&F&3&lᴄ&x&2&5&B&A&E&C&lʀ&x&2&4&A&B&E&6&lɪ&x&2&4&9&D&D&F&lɴ&x&2&4&8&E&D&9&lɢ&x&2&3&7&F&D&2&lᴇ&x&2&3&7&0&C&C&lʟ&x&2&3&6&2&C&5&lᴏ&x&2&2&5&3&B&F&lʀ&x&2&2&4&4&B&8&lᴅ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.cringelord
+  crimson:
+    order: 144
+    tag: '&x&F&3&2&5&2&5&lᴄ&x&E&9&2&5&3&7&lʀ&x&D&F&2&4&4&8&lɪ&x&D&6&2&4&5&A&lᴍ&x&C&C&2&3&6&C&lꜱ&x&C&2&2&3&7&D&lᴏ&x&B&8&2&2&8&F&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.crimson
+  terror:
+    order: 145
+    tag: '&x&C&7&2&5&F&3&lᴛ&x&B&5&2&4&E&7&lᴇ&x&A&3&2&4&D&B&lʀ&x&9&1&2&3&D&0&lʀ&x&7&F&2&3&C&4&lᴏ&x&6&D&2&2&B&8&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.terror
+  aurora:
+    order: 146
+    tag: '&x&0&0&4&F&F&F&lᴀ&x&0&0&6&C&F&F&lᴜ&x&0&0&8&9&F&F&lʀ&x&0&0&9&8&F&F&lᴏ&x&0&0&9&8&F&F&lʀ&x&0&0&9&8&F&F&lᴀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.aurora
+  iq2:
+    order: 147
+    tag: '&x&F&F&F&F&F&F&lI&x&F&F&F&F&F&F&lQ&x&F&F&F&F&F&F&l2'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.iq2
+  husk:
+    order: 148
+    tag: '&x&4&A&F&3&6&3&lʜ&x&3&D&F&1&4&3&lᴜ&x&3&0&E&E&2&4&lꜱ&x&2&3&E&C&0&4&lᴋ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.husk
+  shrek:
+    order: 149
+    tag: '&x&4&A&F&3&6&3&lꜱ&x&4&0&E&B&4&C&lʜ&x&3&6&E&3&3&5&lʀ&x&2&C&D&B&1&E&lᴇ&x&2&2&D&3&0&7&lᴋ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.shrek
+  clipped:
+    order: 150
+    tag: '&x&E&7&3&2&3&2&lᴄ&x&E&3&3&7&4&D&lʟ&x&D&E&3&B&6&8&lɪ&x&D&A&4&0&8&4&lᴘ&x&D&6&4&4&9&F&lᴘ&x&D&1&4&9&B&A&lᴇ&x&C&D&4&D&D&5&lᴅ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.clipped
+  antisocial:
+    order: 151
+    tag: '&x&E&7&D&4&3&2&lᴀ&x&E&5&C&5&3&F&lɴ&x&E&3&B&6&4&D&lᴛ&x&E&1&A&7&5&A&lɪ&x&D&F&9&8&6&7&lꜱ&x&D&D&8&9&7&5&lᴏ&x&D&B&7&A&8&2&lᴄ&x&D&9&6&B&8&F&lɪ&x&D&7&5&C&9&D&lᴀ&x&D&5&4&D&A&A&lʟ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.antisocial
+  broke:
+    order: 152
+    tag: '&x&F&1&E&B&1&1&lʙ&x&E&A&D&0&2&0&lʀ&x&E&3&B&5&2&F&lᴏ&x&D&C&9&9&3&E&lᴋ&x&D&5&7&E&4&D&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.broke
+  dealer:
+    order: 153
+    tag: '&x&F&1&1&1&1&1&lᴅ&x&E&B&2&7&1&D&lᴇ&x&E&6&3&D&2&9&lᴀ&x&E&0&5&2&3&5&lʟ&x&D&B&6&8&4&1&lᴇ&x&D&5&7&E&4&D&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.dealer
+  agro:
+    order: 154
+    tag: '&x&9&4&1&1&F&1&lᴀ&x&7&C&5&0&E&8&lɢ&x&6&5&9&0&D&E&lʀ&x&4&D&C&F&D&5&lᴏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.agro
+  cold:
+    order: 155
+    tag: '&x&1&1&F&1&C&D&lᴄ&x&2&5&E&6&D&0&lᴏ&x&3&9&D&A&D&2&lʟ&x&4&D&C&F&D&5&lᴅ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.cold
+  eboy:
+    order: 156
+    tag: '&x&E&5&1&1&F&1&lᴇ&x&A&0&5&1&D&5&lʙ&x&6&2&5&0&D&1&lᴏ&x&2&C&0&F&E&6&lʏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.eboy
+  egirl:
+    order: 157
+    tag: '&x&E&5&1&1&F&1&lᴇ&x&E&3&2&1&E&7&lɢ&x&E&0&3&0&D&C&lɪ&x&E&2&2&0&E&1&lʀ&x&E&3&0&F&E&6&lʟ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.egirl
+  owo:
+    order: 158
+    tag: '&x&E&2&8&2&E&0&lᴏ&x&E&C&7&C&E&E&lᴡ&x&E&1&7&D&E&2&lᴏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.owo
+  uwu:
+    order: 159
+    tag: '&x&F&1&1&1&E&B&lᴜ&x&D&E&3&0&E&0&lᴡ&x&E&3&0&F&E&6&lᴜ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.uwu
+  gambler:
+    order: 160
+    tag: '&x&8&2&E&2&9&0&lɢ&x&8&B&E&6&8&9&lᴀ&x&9&5&E&A&8&3&lᴍ&x&9&E&E&E&7&C&lʙ&x&7&7&E&8&6&A&lʟ&x&5&1&E&3&5&7&lᴇ&x&2&A&D&D&4&5&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.gambler
+  cute:
+    order: 161
+    tag: '&x&D&D&4&8&E&6&lᴄ&x&E&2&3&7&E&1&lᴜ&x&E&1&2&D&D&E&lᴛ&x&D&B&2&A&D&D&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.cute
+  furry:
+    order: 162
+    tag: '&x&D&D&4&8&E&6&lꜰ&x&C&D&3&B&E&5&lᴜ&x&B&C&2&E&E&4&lʀ&x&A&4&2&C&E&1&lʀ&x&8&B&2&A&D&D&lʏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.furry
+  tryhard:
+    order: 163
+    tag: '&x&4&8&8&C&E&6&lᴛ&x&3&F&7&1&E&5&lʀ&x&3&7&5&5&E&5&lʏ&x&2&E&3&A&E&4&lʜ&x&3&F&3&5&E&2&lᴀ&x&4&F&2&F&D&F&lʀ&x&6&0&2&A&D&D&lᴅ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.tryhard
+  prestige:
+    order: 164
+    tag: '&x&8&B&4&A&A&C&lᴘ&x&7&A&4&F&B&6&lʀ&x&6&A&5&3&C&0&lᴇ&x&5&9&5&8&C&A&lꜱ&x&5&3&5&3&D&1&lᴛ&x&5&7&4&5&D&5&lɪ&x&5&C&3&8&D&9&lɢ&x&6&0&2&A&D&D&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.prestige
+  young:
+    order: 165
+    tag: '&x&1&0&F&5&E&2&lʏ&x&3&1&E&2&B&8&lᴏ&x&5&1&C&F&8&D&lᴜ&x&3&E&D&6&7&F&lɴ&x&2&A&D&D&7&0&lɢ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.young
+  parkour:
+    order: 166
+    tag: '&x&1&0&F&5&E&2&lᴘ&x&2&6&E&8&C&6&lᴀ&x&3&B&D&C&A&9&lʀ&x&5&1&C&F&8&D&lᴋ&x&4&4&D&4&8&3&lᴏ&x&3&7&D&8&7&A&lᴜ&x&2&A&D&D&7&0&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.parkour
+  roblox:
+    order: 167
+    tag: '&x&D&5&1&6&1&6&lʀ&x&C&D&3&3&1&8&lᴏ&x&C&6&5&0&1&9&lʙ&x&C&7&6&8&1&D&lʟ&x&D&2&7&C&2&4&lᴏ&x&D&D&9&0&2&A&lx'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.roblox
+  bot:
+    order: 168
+    tag: '&x&F&F&0&0&0&0&lʙ&x&E&9&2&F&2&F&lᴏ&x&F&F&0&0&0&0&lᴛ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.bot
+  meta:
+    order: 169
+    tag: '&x&F&F&0&0&0&0&lᴍ&x&F&0&4&2&1&F&lᴇ&x&F&0&7&9&1&F&lᴛ&x&F&F&A&5&0&0&lᴀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.meta
+  meme:
+    order: 170
+    tag: '&x&F&F&A&5&0&0&lᴍ&x&F&0&7&9&1&F&lᴇ&x&F&0&4&2&1&F&lᴍ&x&F&F&0&0&0&0&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.meme
+  sweaty:
+    order: 171
+    tag: '&x&F&F&A&5&0&0&lꜱ&x&F&6&8&B&1&3&lᴡ&x&E&D&7&0&2&6&lᴇ&x&E&D&4&F&2&6&lᴀ&x&F&6&2&8&1&3&lᴛ&x&F&F&0&0&0&0&lʏ '
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.sweaty
+  clout:
+    order: 172
+    tag: '&x&0&0&3&B&F&F&lᴄ&x&1&8&6&9&F&4&lʟ&x&2&F&9&6&E&9&lᴏ&x&1&8&C&B&F&4&lᴜ&x&0&0&F&F&F&F&lᴛ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.clout
+  drunk:
+    order: 173
+    tag: '&x&0&0&F&F&8&D&lᴅ&x&1&8&F&4&7&7&lʀ&x&2&F&E&9&6&1&lᴜ&x&1&8&F&4&7&2&lɴ&x&0&0&F&F&8&3&lᴋ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.drunk
+  matrix:
+    order: 174
+    tag: '&x&C&8&0&0&F&F&lᴍ&x&9&5&1&3&F&6&lᴀ&x&6&2&2&6&E&D&lᴛ&x&3&A&3&8&E&D&lʀ&x&1&D&4&9&F&6&lɪ&x&0&0&5&A&F&F&lx'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.matrix
+  reaper:
+    order: 175
+    tag: '&x&F&F&A&5&0&0&lʀ&x&F&6&8&B&1&3&lᴇ&x&E&D&7&0&2&6&lᴀ&x&E&D&4&F&2&6&lᴘ&x&F&6&2&8&1&3&lᴇ&x&F&F&0&0&0&0&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.reaper
+  dope:
+    order: 176
+    tag: '&x&0&0&8&D&F&F&lᴅ&x&1&0&9&D&F&8&lᴏ&x&1&F&A&C&F&0&lᴘ&x&2&F&B&C&E&9&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.dope
+  dedicated:
+    order: 177
+    tag: '&x&0&0&8&D&F&F&lᴅ&x&0&C&9&9&F&A&lᴇ&x&1&8&A&5&F&4&lᴅ&x&2&3&B&0&E&F&lɪ&x&2&F&B&C&E&9&lᴄ&x&3&F&B&E&C&D&lᴀ&x&4&E&C&0&B&2&lᴛ&x&5&E&C&1&9&6&lᴇ&x&6&D&C&3&7&A&lᴅ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.dedicated
+  wheat:
+    order: 178
+    tag: '&x&F&F&9&B&0&0&lᴡ&x&F&8&9&E&0&6&lʜ&x&F&0&A&0&0&C&lᴇ&x&E&0&9&6&3&1&lᴀ&x&C&F&8&C&5&6&lᴛ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.wheat
+  wealthy:
+    order: 179
+    tag: '&x&F&F&E&E&0&0&lᴡ&x&F&6&D&4&0&B&lᴇ&x&E&D&B&9&1&6&lᴀ&x&E&4&9&F&2&1&lʟ&x&D&F&8&E&1&D&lᴛ&x&D&B&7&D&1&A&lʜ&x&D&6&6&C&1&6&lʏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.wealthy
+  famous:
+    order: 180
+    tag: '&x&E&7&0&0&F&F&lꜰ&x&E&1&0&D&F&4&lᴀ&x&D&C&1&A&E&9&lᴍ&x&D&2&2&8&E&2&lᴏ&x&C&3&3&7&D&E&lᴜ&x&B&4&4&6&D&A&lꜱ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.famous
+  zeus:
+    order: 181
+    tag: '&x&0&2&6&4&F&C&lᴢ&x&0&1&7&F&F&E&lᴇ&x&0&A&9&4&F&5&lᴜ&x&1&D&A&1&E&0&lꜱ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.zeus
+  vip:
+    order: 182
+    tag: '&x&4&C&C&E&1&F&lᴠ&x&5&5&D&1&2&A&lɪ&x&5&1&C&E&2&6&lᴘ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.vip
+  warrior:
+    order: 183
+    tag: '&x&4&1&F&F&0&0&lᴡ&x&6&7&F&F&0&0&lᴀ&x&8&D&F&F&0&0&lʀ&x&B&3&F&F&0&0&lʀ&x&C&C&E&F&0&0&lɪ&x&E&6&D&F&0&0&lᴏ&x&F&F&C&F&0&0&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.warrior
+  dangerous:
+    order: 184
+    tag: '&x&F&F&0&0&0&0&lᴅ&x&F&F&2&0&0&0&lᴀ&x&F&F&4&0&0&0&lɴ&x&F&F&6&1&0&0&lɢ&x&F&F&8&1&0&0&lᴇ&x&F&F&9&8&0&0&lʀ&x&F&F&A&6&0&0&lᴏ&x&F&F&B&3&0&0&lᴜ&x&F&F&C&1&0&0&lꜱ
+      &x&F&F&C&F&0&0☣'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.dangerous
+  vindicator:
+    order: 185
+    tag: '&x&0&0&6&E&F&F&lᴠ&x&0&0&8&3&F&F&lɪ&x&0&0&9&7&F&F&lɴ&x&0&0&A&C&F&F&lᴅ&x&0&0&C&1&F&F&lɪ&x&0&0&D&1&F&2&lᴄ&x&0&0&D&C&D&9&lᴀ&x&0&0&E&8&C&0&lᴛ&x&0&0&F&3&A&6&lᴏ&x&0&0&F&F&8&D&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.vindicator
+  master:
+    order: 186
+    tag: '&x&F&F&0&0&E&3&lᴍ&x&E&5&0&0&E&E&lᴀ&x&C&B&0&0&F&9&lꜱ&x&A&D&0&0&F&F&lᴛ&x&8&C&0&0&F&F&lᴇ&x&6&B&0&0&F&F&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.master
+  owner:
+    order: 187
+    tag: '&x&F&F&0&0&0&0&lᴏ&x&F&B&0&9&1&C&lᴡ&x&F&7&1&2&3&7&lɴ&x&E&3&2&9&3&B&lᴇ&x&C&F&3&F&3&F&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.owner
+  admin:
+    order: 188
+    tag: '&x&F&F&0&0&0&0&lᴀ&x&F&B&0&9&1&C&lᴅ&x&F&7&1&2&3&7&lᴍ&x&E&3&2&9&3&B&lɪ&x&C&F&3&F&3&F&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.admin
+  moderator:
+    order: 189
+    tag: '&x&F&F&E&E&0&0&lᴍ&x&F&D&C&7&0&5&lᴏ&x&F&B&A&1&0&9&lᴅ&x&F&9&7&A&0&E&lᴇ&x&F&7&5&3&1&2&lʀ&x&E&D&4&E&1&D&lᴀ&x&E&3&4&9&2&9&lᴛ&x&D&9&4&4&3&4&lᴏ&x&C&F&3&F&3&F&lʀ '
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.moderator
+  afk:
+    order: 190
+    tag: '&x&0&0&8&3&F&F&lᴀ&x&1&2&5&2&F&F&lꜰ&x&2&4&2&1&F&F&lᴋ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.afk
+  ez:
+    order: 191
+    tag: '&x&F&F&0&0&0&0&lᴇ&x&F&F&9&1&0&0&lᴢ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.ez
+  maze:
+    order: 192
+    tag: '&x&F&F&0&0&0&0&lᴍ&x&F&F&3&0&0&0&lᴀ&x&F&F&6&1&0&0&lᴢ&x&F&F&9&1&0&0&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.maze
+  rip:
+    order: 193
+    tag: '&x&9&A&E&B&1&7&lʀ&x&A&7&F&5&0&C&lɪ&x&B&3&F&F&0&0&lᴘ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.rip
+  hype:
+    order: 194
+    tag: '&x&E&B&1&7&D&C&lʜ&x&C&4&0&F&E&8&lʏ&x&9&C&0&8&F&3&lᴘ&x&7&5&0&0&F&F&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.hype
+  salty:
+    order: 195
+    tag: '&x&1&7&6&1&E&B&lꜱ&x&1&7&8&4&E&B&lᴀ&x&1&7&A&6&E&B&lʟ&x&1&7&C&9&E&B&lᴛ&x&1&7&E&B&E&B&lʏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.salty
+  alpha:
+    order: 196
+    tag: '&x&1&7&6&1&E&B&lᴀ&x&1&7&8&4&E&B&lʟ&x&1&7&A&6&E&B&lᴘ&x&1&7&C&9&E&B&lʜ&x&1&7&E&B&E&B&lᴀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.alpha
+  beta:
+    order: 197
+    tag: '&x&1&7&E&B&6&A&lʙ&x&1&7&E&B&9&5&lᴇ&x&1&7&E&B&C&0&lᴛ&x&1&7&E&B&E&B&lᴀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.beta
+  dank:
+    order: 198
+    tag: '&x&E&B&1&7&1&7&lᴅ&x&E&B&4&D&1&7&lᴀ&x&E&B&8&4&1&7&lɴ&x&E&B&B&A&1&7&lᴋ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.dank
+  skyblock:
+    order: 199
+    tag: '&x&3&3&E&B&1&7&lꜱ&x&2&F&E&7&3&5&lᴋ&x&2&B&E&4&5&4&lʏ&x&2&7&E&0&7&2&lʙ&x&2&3&D&C&9&0&lʟ&x&1&F&D&8&A&E&lᴏ&x&1&B&D&5&C&D&lᴄ&x&1&7&D&1&E&B&lᴋ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.skyblock
+  prison:
+    order: 200
+    tag: '&x&E&B&1&7&D&4&lᴘ&x&D&2&1&7&D&9&lʀ&x&B&A&1&7&D&D&lɪ&x&A&1&1&7&E&2&lꜱ&x&8&9&1&7&E&6&lᴏ&x&7&0&1&7&E&B&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.prison
+  lifesteal:
+    order: 201
+    tag: '&x&E&B&1&7&1&7&lʟ&x&E&B&2&6&1&7&lɪ&x&E&B&3&5&1&7&lꜰ&x&E&B&4&4&1&7&lᴇ&x&E&B&5&3&1&7&lꜱ&x&E&B&6&2&1&7&lᴛ&x&E&B&7&1&1&7&lᴇ&x&E&B&8&0&1&7&lᴀ&x&E&B&8&F&1&7&lʟ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.lifesteal
+  survival:
+    order: 202
+    tag: '&x&F&1&F&F&0&0&lꜱ&x&F&3&E&D&0&5&lᴜ&x&F&4&D&C&0&9&lʀ&x&F&6&C&A&0&E&lᴠ&x&F&5&B&6&1&1&lɪ&x&F&2&A&1&1&3&lᴠ&x&E&E&8&B&1&5&lᴀ&x&E&B&7&6&1&7&lʟ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.survival
+  keyall:
+    order: 203
+    tag: '&x&F&1&F&F&0&0&lᴋ&x&F&3&E&6&0&6&lᴇ&x&F&6&C&D&0&D&lʏ&x&F&5&B&2&1&1&lᴀ&x&F&0&9&4&1&4&lʟ&x&E&B&7&6&1&7&lʟ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.keyall
+  thunder:
+    order: 204
+    tag: '&x&0&0&7&9&F&F&lᴛ&x&0&5&9&6&F&C&lʜ&x&0&B&B&4&F&A&lᴜ&x&1&0&D&1&F&7&lɴ&x&1&2&D&4&F&3&lᴅ&x&1&5&D&7&E&F&lᴇ&x&1&7&D&A&E&B&lʀ
+      ⚡'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.thunder
+  number_333:
+    order: 205
+    tag: '&x&F&1&0&0&F&F&l3&x&B&B&1&0&F&7&l3&x&B&5&1&7&E&B&l3'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.333
+  number_666:
+    order: 206
+    tag: '&x&F&F&0&0&0&0&l6&x&F&7&9&4&9&4&l6&x&E&B&1&7&1&7&l6'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.666
+  kuribo:
+    order: 207
+    tag: '&x&F&F&6&7&0&0&lᴋ&x&F&F&6&B&0&0&lᴜ&x&F&F&7&0&0&lʀ&x&F&B&8&4&0&5&lɪ&x&F&3&A&7&0&E&lʙ&x&E&B&C&B&1&7&lᴏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.kuribo
+  kirby:
+    order: 208
+    tag: '&x&F&F&0&0&E&3&lᴋ&x&F&F&2&7&E&8&lɪ&x&F&F&4&E&E&C&lʀ&x&F&E&6&0&E&C&lʙ&x&F&C&7&1&E&C&lʏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.kirby
+  koth:
+    order: 209
+    tag: '&x&0&0&F&F&8&D&lᴋ&x&3&4&F&F&C&6&lᴏ&x&5&A&E&D&E&B&lᴛ&x&7&1&C&9&F&C&lʜ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.koth
+  poseidon:
+    order: 210
+    tag: '&x&0&0&F&F&E&A&lᴘ&x&1&6&F&F&E&8&lᴏ&x&2&D&F&F&E&5&lꜱ&x&4&3&F&F&E&3&lᴇ&x&5&3&F&7&E&6&lɪ&x&5&D&E&8&E&D&lᴅ&x&6&7&D&8&F&5&lᴏ&x&7&1&C&9&F&C&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.poseidon
+  fishy:
+    order: 211
+    tag: '&x&3&6&9&2&F&8&lꜰ&x&3&F&7&F&E&D&lɪ&x&4&8&6&C&E&2&lꜱ&x&4&7&5&1&E&7&lʜ&x&4&6&3&5&E&B&lʏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.fishy
+  rookie:
+    order: 212
+    tag: '&x&F&8&F&3&3&6&lʀ&x&E&F&D&7&3&D&lᴏ&x&E&6&B&A&4&4&lᴏ&x&E&4&A&6&4&4&lᴋ&x&E&7&9&9&3&D&lɪ&x&E&B&8&D&3&5&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.rookie
+  stealer:
+    order: 213
+    tag: '&x&E&6&3&6&F&8&lꜱ&x&D&5&3&C&F&1&lᴛ&x&C&5&4&2&E&9&lᴇ&x&B&4&4&8&E&2&lᴀ&x&A&A&4&2&E&5&lʟ&x&A&1&3&B&E&8&lᴇ&x&9&7&3&5&E&B&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.stealer
+  user:
+    order: 214
+    tag: '&x&6&3&6&3&6&3&lᴜ&x&6&5&6&4&6&5&lꜱ&x&5&E&5&D&5&E&lᴇ&x&4&E&4&E&4&E&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.user
+  grindr:
+    order: 215
+    tag: '&x&F&F&B&A&0&0&lɢ&x&F&F&B&6&0&0&lʀ&x&F&F&B&2&0&0&lɪ&x&F&C&B&0&0&0&lɴ&x&F&6&A&F&0&1&lᴅ&x&F&0&A&F&0&2&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.grindr
+  bard:
+    order: 216
+    tag: '&x&F&1&F&F&0&0&lʙ&x&F&A&E&C&0&0&lᴀ&x&F&A&D&5&0&1&lʀ&x&F&0&B&9&0&2&lᴅ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.bard
+  autoclicker:
+    order: 217
+    tag: '&x&0&5&A&0&3&B&lᴀ&x&0&4&A&9&4&2&lᴜ&x&0&3&B&2&4&A&lᴛ&x&0&2&B&A&5&1&lᴏ&x&0&1&C&3&5&9&lᴄ&x&0&0&C&C&6&0&lʟ&x&0&1&B&A&6&D&lɪ&x&0&2&A&9&7&A&lᴄ&x&0&3&9&7&8&6&lᴋ&x&0&4&8&6&9&3&lᴇ&x&0&5&7&4&A&0&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.autoclicker
+  xray:
+    order: 218
+    tag: '&x&F&F&8&6&0&0&lx&x&F&F&7&1&0&0&lʀ&x&F&F&5&D&0&0&lᴀ&x&F&F&4&8&0&0&lʏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.xray
+  baritone:
+    order: 219
+    tag: '&x&F&F&0&0&F&8&lʙ&x&F&F&1&0&D&5&lᴀ&x&F&F&2&1&B&1&lʀ&x&F&F&3&1&8&E&lᴛ&x&F&F&4&1&6&A&lɪ&x&F&F&5&1&4&7&lᴏ&x&F&F&6&2&2&3&lɴ&x&F&F&7&2&0&0&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.baritone
+  killaura:
+    order: 220
+    tag: '&x&F&F&0&0&0&0&lᴋ&x&F&F&1&0&0&0&lɪ&x&F&F&2&1&0&0&lʟ&x&F&F&3&1&0&0&lʟ&x&F&F&4&1&0&0&lᴀ&x&F&F&5&1&0&0&lᴜ&x&F&F&6&2&0&0&lʀ&x&F&F&7&2&0&0&lᴀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.killaura
+  xmas:
+    order: 221
+    tag: '&x&F&F&0&0&0&0&lx&x&F&8&B&7&B&7&lᴍ&x&F&F&0&0&0&0&lᴀ&x&F&8&B&7&B&7&lꜱ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.xmas
+  neon:
+    order: 222
+    tag: '&x&F&C&0&0&F&F&lɴ&x&F&D&0&4&E&3&lᴇ&x&F&E&0&8&C&6&lᴏ&x&F&F&0&C&A&A&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.neon
+  spring:
+    order: 223
+    tag: '&x&0&3&F&F&0&0&lꜱ&x&0&5&F&F&1&7&lᴘ&x&0&7&F&F&2&F&lʀ&x&0&8&F&F&4&6&lɪ&x&0&A&F&F&5&E&lɴ&x&0&C&F&F&7&5&lɢ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.spring
+  halloween:
+    order: 224
+    tag: '&x&F&F&C&F&0&0&lʜ&x&F&9&B&7&2&0&lᴀ&x&F&2&9&E&4&0&lʟ&x&E&C&8&6&6&0&lʟ&x&E&5&6&E&8&0&lᴏ&x&D&F&5&5&9&F&lᴡ&x&D&8&3&D&B&F&lᴇ&x&D&2&2&4&D&F&lᴇ&x&C&B&0&C&F&F&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.halloween
+  easter:
+    order: 225
+    tag: '&x&F&F&C&F&0&0&lᴇ&x&F&F&B&8&0&2&lᴀ&x&F&F&A&1&0&5&lꜱ&x&F&F&8&9&0&7&lᴛ&x&F&F&7&2&0&A&lᴇ&x&F&F&5&B&0&C&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.easter
+  santa:
+    order: 226
+    tag: '&b❄ &x&F&F&0&0&0&0&lꜱ&x&F&8&B&7&B&7&lᴀ&x&F&F&0&0&0&0&lɴ&x&F&8&B&7&B&7&lᴛ&x&F&F&0&0&0&0&lᴀ
+      &b❄'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.santa
+  timeless:
+    order: 227
+    tag: '&x&D&D&7&F&1&7ᴛ&x&D&F&7&5&1&6ɪ&x&E&1&6&A&1&4ᴍ&x&D&8&7&1&1&4ᴇ&x&C&A&8&1&1&4ʟ&x&C&4&8&F&1&5ᴇ&x&C&F&9&B&1&7ꜱ&x&D&B&A&7&1&Aꜱ
+      ⌛'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.timeless
+  envoy:
+    order: 228
+    tag: '&x&0&0&F&F&E&0&lᴇ&x&3&B&B&F&E&8&lɴ&x&7&6&8&0&F&0&lᴠ&x&B&0&4&0&F&7&lᴏ&x&E&B&0&0&F&F&lʏ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.envoy
+  dolphin:
+    order: 229
+    tag: '&x&2&0&D&1&B&C&lᴅ&x&1&B&B&F&C&7&lᴏ&x&1&5&A&D&D&2&lʟ&x&1&0&9&B&D&E&lᴘ&x&0&B&8&8&E&9&lʜ&x&0&5&7&6&F&4&lɪ&x&0&0&6&4&F&F&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.dolphin
+  giraffe:
+    order: 230
+    tag: '&x&E&4&8&0&2&1&lɢ&x&E&9&8&B&1&C&lɪ&x&E&D&9&7&1&6&lʀ&x&F&2&A&2&1&1&lᴀ&x&F&6&A&D&0&B&lꜰ&x&F&B&B&9&0&6&lꜰ&x&F&F&C&4&0&0&lᴇ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.giraffe
+  leaflet:
+    order: 231
+    tag: '&x&3&7&C&A&2&0&lʟ&x&2&E&D&3&1&C&lᴇ&x&2&5&D&C&1&8&lᴀ&x&1&C&E&5&1&4&lꜰ&x&1&2&E&D&0&F&lʟ&x&0&9&F&6&0&B&lᴇ&x&0&0&F&F&0&7&lᴛ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.leaflet
+  copper:
+    order: 232
+    tag: '&x&B&8&7&3&3&3&lᴄ&x&B&8&7&3&3&3&lᴏ&x&B&8&7&3&3&3&lᴘ&x&B&8&7&3&3&3&lᴘ&x&B&8&7&3&3&3&lᴇ&x&B&8&7&3&3&3&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.copper
+  doctor:
+    order: 233
+    tag: '&x&3&3&8&D&B&8&lᴅ&x&2&9&A&2&C&6&lᴏ&x&1&F&B&7&D&4&lᴄ&x&1&4&C&B&E&3&lᴛ&x&0&A&E&0&F&1&lᴏ&x&0&0&F&5&F&F&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.doctor
+  rabbit:
+    order: 234
+    tag: '&x&4&A&B&8&3&3&lʀ&x&6&B&C&6&2&9&lᴀ&x&8&D&D&4&1&F&lʙ&x&A&E&E&3&1&4&lʙ&x&D&0&F&1&0&A&lɪ&x&F&1&F&F&0&0&lᴛ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.rabbit
+  minecraft:
+    order: 235
+    tag: '&x&3&A&D&5&1&A&lᴍ&x&3&3&D&A&3&2&lɪ&x&2&C&E&0&4&9&lɴ&x&2&4&E&5&6&1&lᴇ&x&1&D&E&A&7&8&lᴄ&x&1&6&E&F&9&0&lʀ&x&0&F&F&5&A&7&lᴀ&x&0&7&F&A&B&F&lꜰ&x&0&0&F&F&D&6&lᴛ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.minecraft
+  creeper:
+    order: 236
+    tag: '&x&3&A&D&5&1&A&lᴄ&x&3&4&D&C&1&6&lʀ&x&2&F&E&3&1&1&lᴇ&x&2&9&E&A&0&D&lᴇ&x&2&3&F&1&0&9&lᴘ&x&1&E&F&8&0&4&lᴇ&x&1&8&F&F&0&0&lʀ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.creeper
+  warden:
+    order: 237
+    tag: '&x&8&E&1&A&D&5&lᴡ&x&A&0&1&5&D&D&lᴀ&x&B&2&1&0&E&6&lʀ&x&C&3&0&A&E&E&lᴅ&x&D&5&0&5&F&7&lᴇ&x&E&7&0&0&F&F&lɴ'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.warden
+  skeleton:
+    order: 238
+    tag: '&x&B&1&B&1&B&1&lꜱ&x&A&7&A&6&A&7&lᴋ&x&9&C&9&C&9&C&lᴇ&x&9&2&9&1&9&2&lʟ&x&8&7&8&6&8&7&lᴇ&x&7&D&7&B&7&D&lᴛ&x&7&2&7&1&7&2&lᴏ&x&6&8&6&6&6&8&lɴ
+      ☠'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.skeleton
+  murderer:
+    order: 239
+    tag: '&x&F&F&1&1&1&1&lM&x&F&F&2&5&2&5&lu&x&F&F&3&0&3&0&lr&x&F&F&3&A&3&A&ld&x&F&F&3&9&3&9&le&x&F&F&2&C&2&C&lr&x&F&F&2&0&2&0&le&x&F&F&1&3&1&3&lr'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.murderer
+  panic:
+    order: 240
+    tag: '&x&C&A&6&5&F&F&lP&x&C&2&8&4&F&A&la&x&B&A&A&3&F&5&ln&x&B&2&C&1&F&0&li&x&A&A&E&0&E&B&lc&x&A&2&F&F&E&6&l!'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.panic
+  jeb:
+    order: 241
+    tag: '&x&2&5&8&2&F&F&lj&x&4&D&A&1&F&F&le&x&7&5&B&F&F&F&lb&x&9&D&D&E&F&F&l_'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.jeb
+  dinnerbone:
+    order: 242
+    tag: '&x&E&C&F&F&C&B&lD&x&E&C&F&C&D&1&li&x&E&C&F&A&D&7&ln&x&E&B&F&7&D&C&ln&x&E&B&F&4&E&2&le&x&E&B&F&2&E&8&lr&x&E&B&E&F&E&E&lb&x&E&A&E&C&F&3&lo&x&E&A&E&A&F&9&ln&x&E&A&E&7&F&F&le'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.dinnerbone
+  hustler:
+    order: 243
+    tag: '&x&D&E&F&F&A&2&l♦ &x&D&B&F&F&B&9&lH&x&D&7&F&F&D&0&lu&x&D&4&F&F&E&7&ls&x&D&0&F&F&F&E&lt&x&D&C&E&E&F&A&ll&x&E&8&D&E&F&6&le&x&F&3&C&D&F&2&lr
+      &x&F&F&B&C&E&E&l♦'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.hustler
+  quantum:
+    order: 244
+    tag: '&x&C&4&2&F&F&F&lQ&x&C&E&4&1&F&E&lu&x&D&8&5&2&F&C&la&x&E&2&6&4&F&B&ln&x&E&B&7&5&F&A&lt&x&F&5&8&7&F&8&lu&x&F&F&9&8&F&7&lm'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.quantum
+  beatbox:
+    order: 245
+    tag: '&x&3&C&F&F&E&3&lB&x&5&6&F&2&E&8&le&x&6&F&E&4&E&C&la&x&8&9&D&7&F&1&lt&x&A&2&C&A&F&6&lb&x&B&C&B&C&F&A&lo&x&D&5&A&F&F&F&lx'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.beatbox
+  yinyang:
+    order: 246
+    tag: '&x&F&F&F&2&E&4&l☯ &x&F&E&E&F&E&7&lY&x&F&D&E&C&E&A&li&x&F&C&E&9&E&D&ln&x&F&B&E&6&F&0&l-&x&F&A&E&4&F&3&lY&x&F&9&E&1&F&6&la&x&F&8&D&E&F&9&ln&x&F&7&D&B&F&C&lg
+      &x&F&6&D&8&F&F&l☯'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.yinyang
+  mossy:
+    order: 247
+    tag: '&x&B&3&F&F&8&B&lM&x&9&E&F&8&8&5&lo&x&8&9&F&2&7&E&ls&x&7&4&E&B&7&8&ls&x&5&F&E&4&7&1&ly'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.mossy
+  undefeated:
+    order: 248
+    tag: '&x&1&3&F&F&A&5&lU&x&2&0&F&A&A&C&ln&x&2&D&F&6&B&3&ld&x&3&B&F&1&B&A&le&x&4&8&E&D&C&1&lf&x&5&5&E&8&C&8&le&x&6&2&E&4&C&F&la&x&7&0&D&F&D&6&lt&x&7&D&D&B&D&D&le&x&8&A&D&6&E&4&ld'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.undefeated
+  silly:
+    order: 249
+    tag: '&x&2&D&7&9&F&F&l❇ &x&4&5&7&D&F&B&lS&x&5&D&8&1&F&6&li&x&7&5&8&5&F&2&ll&x&8&D&8&9&E&D&ll&x&A&5&8&D&E&9&ly
+      &x&B&D&9&1&E&4&l❇'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.silly
+  idol:
+    order: 250
+    tag: '&x&9&D&F&F&A&A&l✒ &x&A&7&F&A&9&E&lI&x&B&1&F&4&9&2&ld&x&B&B&E&F&8&5&lo&x&C&5&E&9&7&9&ll
+      &x&C&F&E&4&6&D&l✒'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.idol
+  detained:
+    order: 251
+    tag: '&x&F&B&F&F&B&9&lD&x&F&2&F&4&B&F&le&x&E&A&E&8&C&5&lt&x&E&1&D&D&C&B&la&x&D&8&D&1&D&2&li&x&C&F&C&6&D&8&ln&x&C&7&B&A&D&E&le&x&B&E&A&F&E&4&ld'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.detained
+  destined:
+    order: 252
+    tag: '&x&4&1&E&D&F&F&lD&x&7&0&D&5&F&6&le&x&9&E&B&C&E&C&ls&x&C&D&A&4&E&3&lt&x&E&6&A&7&D&A&li&x&E&B&C&4&D&2&ln&x&E&F&E&2&C&B&le&x&F&4&F&F&C&3&ld'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.destined
+  goated:
+    order: 253
+    tag: '&x&F&F&F&5&A&F&l♨ &x&F&B&E&8&B&5&lG&x&F&7&D&A&B&B&lo&x&F&3&C&D&C&1&la&x&F&0&C&0&C&8&lt&x&E&C&B&3&C&E&le&x&E&8&A&5&D&4&ld
+      &x&E&4&9&8&D&A&l♨'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.goated
+  combine:
+    order: 254
+    tag: '&x&5&8&F&F&E&7☠ &x&6&C&F&F&E&2&lC&x&7&F&F&F&D&D&lo&x&9&3&F&F&D&8&lm&x&A&6&F&F&D&3&lb&x&B&A&F&F&C&D&li&x&C&D&F&F&C&8&ln&x&E&1&F&F&C&3&le
+      &x&F&4&F&F&B&E☠'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.combine
+  evil:
+    order: 255
+    tag: '&x&F&F&3&7&3&7&l😈 &x&F&F&5&C&5&C&lE&x&F&F&6&E&6&E&lv&x&F&F&8&0&8&0&li&x&F&F&9&2&9&2&ll
+      &x&F&F&A&5&A&5&l😈'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.evil
+  firstblood:
+    order: 256
+    tag: '&x&D&1&F&F&6&5&lF&x&D&6&F&8&6&D&li&x&D&A&F&0&7&5&lr&x&D&F&E&9&7&D&ls&x&E&3&E&1&8&5&lt&x&E&8&D&A&8&D&l-&x&E&D&D&2&9&4&lB&x&F&1&C&B&9&C&ll&x&F&6&C&3&A&4&lo&x&F&A&B&C&A&C&lo&x&F&F&B&4&B&4&ld'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.firstblood
+  kaboom:
+    order: 257
+    tag: '&x&2&0&F&F&A&9&l💥 &x&3&C&F&3&B&C&lK&x&4&B&E&D&C&6&la&x&5&9&E&7&C&F&lb&x&6&7&E&0&D&9&lo&x&7&5&D&A&E&2&lo&x&8&4&D&4&E&C&lm
+      &x&9&2&C&E&F&5&l💥'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.kaboom
+  magnificent:
+    order: 258
+    tag: '&x&F&F&C&D&A&2&lM&x&F&F&C&7&A&9&la&x&F&F&C&1&B&0&lg&x&F&F&B&C&B&8&ln&x&F&F&B&6&B&F&li&x&F&F&B&0&C&6&lf&x&F&F&A&A&C&D&li&x&F&F&A&4&D&4&lc&x&F&F&9&F&D&C&le&x&F&F&9&9&E&3&ln&x&F&F&9&3&E&A&lt'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.magnificent
+  citadel:
+    order: 259
+    tag: '&x&F&F&F&F&C&8&lC&x&E&E&F&E&D&A&li&x&D&C&F&E&E&D&lt&x&C&B&F&D&F&F&la&x&D&9&E&F&F&F&ld&x&E&7&E&1&F&F&le&x&F&5&D&3&F&F&ll'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.citadel
+  bread:
+    order: 260
+    tag: '&x&D&4&C&9&2&C&l$ &x&E&2&C&C&4&8&lB&x&F&1&C&E&6&4&lr&x&F&F&D&1&8&0&le&x&F&F&D&E&7&E&la&x&F&F&E&A&7&D&ld
+      &x&F&F&F&7&7&B&l$'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.bread
+  unreal:
+    order: 261
+    tag: '&x&C&0&F&B&6&E&l⭐ &x&B&7&F&B&8&2&lU&x&A&F&F&A&9&7&ln&x&A&6&F&A&A&B&lr&x&9&E&F&A&C&0&le&x&9&5&F&A&D&4&la&x&8&D&F&9&E&9&ll
+      &x&8&4&F&9&F&D&l⭐'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.unreal
+  cherry:
+    order: 262
+    tag: '&x&F&F&1&9&8&D&l✿ &x&F&F&2&E&9&4&lC&x&F&E&4&2&9&C&lh&x&F&E&5&7&A&3&le&x&F&E&6&C&A&A&lr&x&F&E&8&1&B&1&lr&x&F&D&9&5&B&9&ly
+      &x&F&D&A&A&C&0&l✿'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.cherry
+  frosty:
+    order: 263
+    tag: '&x&C&E&F&F&F&E❄ &x&B&F&F&9&F&E&lF&x&A&F&F&2&F&E&lr&x&A&0&E&C&F&E&lo&x&9&1&E&5&F&D&ls&x&8&2&D&F&F&D&lt&x&7&2&D&8&F&D&ly
+      &x&6&3&D&2&F&D❄'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.frosty
+  mechanic:
+    order: 264
+    tag: '&x&D&7&F&F&8&F&lM&x&D&1&F&A&9&F&le&x&C&C&F&6&A&E&lc&x&C&6&F&1&B&E&lh&x&C&0&E&C&C&E&la&x&B&A&E&7&D&E&ln&x&B&5&E&3&E&D&li&x&A&F&D&E&F&D&lc'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.mechanic
+  mrniceguy:
+    order: 265
+    tag: '&x&F&F&F&F&A&5&l✖ &x&E&C&F&E&B&7&lM&x&D&9&F&D&C&8&lr &x&C&6&F&C&D&A&lN&x&B&3&F&B&E&B&li&x&A&0&F&A&F&D&lc&x&A&E&E&E&F&D&le
+      &x&B&D&E&2&F&E&lG&x&C&B&D&5&F&E&lu&x&D&A&C&9&F&F&ly &x&E&8&B&D&F&F&l✖'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.mrniceguy
+  comeback:
+    order: 266
+    tag: '&x&6&D&9&A&F&F🏹 &x&6&7&A&5&F&6&lC&x&6&1&B&0&E&D&lo&x&5&A&B&B&E&5&lm&x&5&4&C&6&D&C&le&x&4&E&D&1&D&3&lb&x&4&8&D&C&C&A&la&x&4&1&E&7&C&2&lc&x&3&B&F&2&B&9&lk
+      &x&3&5&F&D&B&0🏹'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.comeback
+  rival:
+    order: 267
+    tag: '&x&B&A&F&F&C&C🛡 &x&C&0&E&D&D&4&lR&x&C&6&D&B&D&C&li&x&C&D&C&9&E&5&lv&x&D&3&B&7&E&D&la&x&D&9&A&5&F&5&ll
+      &x&D&F&9&3&F&D🛡'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.rival
+  detective:
+    order: 268
+    tag: '&x&F&F&9&B&9&B🔎 &x&F&2&A&F&A&7&lD&x&E&5&C&2&B&4&le&x&D&8&D&6&C&0&lt&x&C&B&E&9&C&D&le&x&B&E&F&D&D&9&lc&x&C&9&F&1&E&1&lt&x&D&4&E&5&E&8&li&x&D&F&D&8&F&0&lv&x&E&A&C&C&F&7&le
+      &x&F&5&C&0&F&F🔎'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.detective
+  smoker:
+    order: 269
+    tag: '&x&7&2&F&F&D&A&lS&x&8&E&F&C&C&B&lm&x&A&A&F&9&B&C&lo&x&C&5&F&6&A&E&lk&x&E&1&F&3&9&F&le&x&F&D&F&0&9&0&lr'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.smoker
+  vamos:
+    order: 270
+    tag: '&x&D&5&6&B&F&F&lV&x&D&5&9&0&F&2&la&x&D&6&B&4&E&5&lm&x&D&6&D&9&D&8&lo&x&D&6&F&D&C&B&ls'
+    description: '&x&A&A&A&A&A&Aɴʜᴀɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.vamos
+  international:
+    order: 271
+    tag: '&x&4&A&F&F&A&4✈ &x&5&9&F&B&B&1&lI&x&6&8&F&7&B&D&ln&x&7&7&F&3&C&A&lt&x&8&7&F&0&D&7&le&x&9&6&E&C&E&4&lr&x&A&5&E&8&F&0&ln&x&B&4&E&4&F&D&la&x&B&F&E&7&F&5&lt&x&C&9&E&B&E&D&li&x&D&4&E&E&E&5&lo&x&D&F&F&1&D&D&ln&x&E&A&F&4&D&5&la&x&F&4&F&8&C&D&ll
+      &x&F&F&F&B&C&5✈'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.international
+  speed:
+    order: 272
+    tag: '&x&E&A&A&3&F&F&lS&x&E&B&B&A&E&B&lp&x&E&D&D&0&D&7&le&x&E&E&E&7&C&3&le&x&E&F&F&D&A&F&ld'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.speed
+  handsome:
+    order: 273
+    tag: '&x&F&F&E&E&7&5&lH&x&F&D&E&7&8&8&la&x&F&A&E&0&9&C&ln&x&F&8&D&9&A&F&ld&x&F&6&D&3&C&3&ls&x&F&4&C&C&D&6&lo&x&F&1&C&5&E&A&lm&x&E&F&B&E&F&D&le'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.handsome
+  gentleman:
+    order: 274
+    tag: '&x&9&B&F&B&A&8&lG&x&A&7&E&C&B&2&le&x&B&4&D&D&B&D&ln&x&C&0&C&E&C&7&lt&x&C&C&C&0&D&2&ll&x&D&8&B&1&D&C&le&x&E&5&A&2&E&6&lm&x&F&1&9&3&F&1&la&x&F&D&8&4&F&B&ln'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.gentleman
+  undetected:
+    order: 275
+    tag: '&x&9&1&9&2&F&B&lU&x&9&D&9&D&E&F&ln&x&A&9&A&8&E&4&ld&x&B&5&B&3&D&8&le&x&C&1&B&E&C&D&lt&x&C&D&C&A&C&1&le&x&D&9&D&5&B&6&lc&x&E&5&E&0&A&A&lt&x&F&1&E&B&9&F&le&x&F&D&F&6&9&3&ld'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.undetected
+  jimmy:
+    order: 276
+    tag: '&x&F&B&D&4&8&F&lJ&x&F&5&D&2&A&B&li&x&F&0&D&1&C&6&lm&x&E&A&C&F&E&2&lm&x&E&4&C&D&F&D&ly'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.jimmy
+  ashes:
+    order: 277
+    tag: '&x&F&B&F&7&E&9&lA&x&E&B&E&3&D&F&ls&x&D&C&C&F&D&6&lh&x&C&C&B&B&C&C&le&x&B&C&A&7&C&2&ls'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.ashes
+  diamond:
+    order: 278
+    tag: '&x&2&0&F&B&B&4&lD&x&3&2&E&E&B&6&li&x&4&4&E&1&B&9&la&x&5&7&D&4&B&B&lm&x&6&9&C&7&B&D&lo&x&7&B&B&A&C&0&ln&x&8&D&A&D&C&2&ld'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.diamond
+  doom:
+    order: 279
+    tag: '&x&E&E&F&B&B&2&lD&x&D&7&F&6&C&4&lo&x&B&F&F&2&D&5&lo&x&A&8&E&D&E&7&lm'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.doom
+  crazed:
+    order: 280
+    tag: '&x&F&B&F&B&9&6👽 &x&F&A&F&C&C&1&lC&x&F&A&F&C&D&6&lr&x&F&9&F&D&E&B&la&x&F&2&F&D&F&7&lz&x&E&3&F&C&F&8&le&x&D&5&F&B&F&9&ld
+      &x&C&6&F&A&F&A👽'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.crazed
+  factor:
+    order: 281
+    tag: '&x&8&A&F&B&9&9&l⚕ &x&9&1&F&3&A&7&lF&x&9&8&E&B&B&6&la&x&9&F&E&3&C&4&lc&x&A&6&D&B&D&2&lt&x&A&D&D&3&E&0&lo&x&B&4&C&B&E&F&lr
+      &x&B&B&C&3&F&D&l⚕'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.factor
+  masked:
+    order: 282
+    tag: '&x&F&B&F&B&B&2&l🎭 &x&C&D&F&A&D&3&lM&x&B&6&F&A&E&4&la&x&9&F&F&9&F&5&ls&x&9&F&F&3&F&D&lk&x&B&6&E&7&F&C&le&x&C&D&D&A&F&B&ld
+      &x&E&4&C&E&F&B&l🎭'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.masked
+  cupcake:
+    order: 283
+    tag: '&x&F&B&7&1&9&5🧁 &x&F&4&8&D&9&E&lC&x&F&1&9&B&A&3&lu&x&E&E&A&9&A&7&lp&x&E&B&B&7&A&C&lc&x&E&7&C&5&B&1&la&x&E&4&D&3&B&5&lk&x&E&1&E&1&B&A&le
+      &x&D&D&E&B&B&E🧁'
+    description: '&x&A&A&A&A&A&Aɴʜấɴ để ᴄʜọɴ ᴛᴀɢ ɴàʏ'
+    permission: deluxetags.tag.cupcake

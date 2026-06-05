@@ -1,0 +1,114 @@
+menu_title: '&#BDB2FF&l❁ ᴄʜế độ ᴄʜơɪ (ɢᴀᴍᴇᴍᴏᴅᴇ) ❁'
+size: 27
+
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+      - "[message] &#ED4245✖ &8| &#ED4245Bạn không có quyền mở menu này!"
+
+items:
+  'Filler_Outer':
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+    - 0-9
+    - 17-26
+    display_name: ' '
+    priority: 10
+
+  'Filler_Inner':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 10
+    - 16
+    display_name: ' '
+    priority: 10
+
+  'gmsurvival':
+    material: LIME_DYE
+    slot: 11
+    priority: 1
+    update: true
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#57F287&l❁ sɪɴʜ ᴛồɴ (sᴜʀᴠɪᴠᴀʟ) ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Lệnh nhanh: &#57F287/gms'
+    - ''
+    - '&#57F287▶ &#E0E0E0Nhấn để đổi chế độ'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+
+    - '[player] gamemode survival'
+
+  'gmcreative':
+    material: YELLOW_DYE
+    slot: 12
+    priority: 1
+    update: true
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#FCD05C&l❁ sáɴɢ ᴛạᴏ (ᴄʀᴇᴀᴛɪᴠᴇ) ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Lệnh nhanh: &#FCD05C/gmc'
+    - ''
+    - '&#FCD05C▶ &#E0E0E0Nhấn để đổi chế độ'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+
+    - '[player] gamemode creative'
+
+  'gmspectator':
+    material: LIGHT_BLUE_DYE
+    slot: 13
+    priority: 1
+    update: true
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#AEC6CF&l❁ ǫᴜᴀɴ sáᴛ (sᴘᴇᴄᴛᴀᴛᴏʀ) ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Lệnh nhanh: &#AEC6CF/gmsp'
+    - ''
+    - '&#AEC6CF▶ &#E0E0E0Nhấn để đổi chế độ'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+
+    - '[player] gamemode spectator'
+
+  'gmadventure':
+    material: ORANGE_DYE
+    slot: 14
+    priority: 1
+    update: true
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#FFB7B2&l❁ ᴘʜɪêᴜ ʟưᴜ (ᴀᴅᴠᴇɴᴛᴜʀᴇ) ❁'
+    lore:
+    - ''
+    - ' &#fcfcfc❖ &#E0E0E0Lệnh nhanh: &#FFB7B2/gma'
+    - ''
+    - '&#FFB7B2▶ &#E0E0E0Nhấn để đổi chế độ'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+
+    - '[player] gamemode adventure'
+
+  'close':
+    material: BARRIER
+    slot: 15
+    priority: 1
+    update: true
+    item_flags:
+    - HIDE_ATTRIBUTES
+    display_name: '&#ED4245&l✖ Đóɴɢ ᴍᴇɴᴜ'
+    lore:
+    - ''
+    - '&#ED4245▶ &#E0E0E0Nhấn để quay lại'
+    click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[player] adminsettings'

@@ -1,0 +1,31 @@
+tasks:
+  mobkilling:
+    type: "mobkillingcertain"
+    amount: 1
+    mob: WITHER_SKELETON
+display:
+  name: "&#A3C4F3&nᴛɪêᴜ ᴅɪệᴛ ǫᴜáɪ ᴠậᴛ:&r &#FDFD96#XXXI"
+  lore-normal:
+    - "&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ᴘʜảɪ ᴛɪêᴜ ᴅɪệᴛ ᴡɪᴛʜᴇʀ ꜱᴋᴇʟᴇᴛᴏɴ"
+    - "&#D1E8E2ʜᴏàɴ ᴛʜàɴʜ ᴛʜử ᴛʜáᴄʜ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜầɴ ᴛʜưởɴɢ."
+    - ""
+    - "&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴛɪêᴜ ᴅɪệᴛ 1 ᴡɪᴛʜᴇʀ ꜱᴋᴇʟᴇᴛᴏɴ."
+    - "&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{mobkilling:progress}/1 ᴄᴏɴ."
+    - "&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$1500"
+    - ""
+  lore-started:
+    - "&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ."
+  type: "WITHER_SKELETON_SPAWN_EGG"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 1500"
+options:
+  category: "mobkilling"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 31
+  requires:
+    - "mobkilling30"

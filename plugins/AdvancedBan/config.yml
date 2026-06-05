@@ -1,0 +1,121 @@
+# AdvancedBan v2 - Được lập trình bởi Leoko
+# Mỗi cấu hình đều đi kèm mô tả ngắn gọn.
+# Vui lòng đọc kỹ trước khi thực hiện thay đổi.
+# Thông tin chi tiết: https://www.spigotmc.org/resources/advancedban.8695/
+
+# GHI CHÚ: Nếu tắt (false), mọi dữ liệu xử phạt sẽ được lưu trực tiếp trên máy chủ.
+# Hãy bật (true) nếu bạn dùng mạng lưới BungeeCord và cần đồng bộ hình phạt qua MySQL.
+UseMySQL: false
+
+MySQL:
+  IP: localhost
+  DB-Name: database-name
+  Username: admin
+  Password: superSecret
+  Port: 3306
+  Properties: 'verifyServerCertificate=false&useSSL=false&useUnicode=true&characterEncoding=utf8'
+
+# GHI CHÚ: Bật tính năng này để hiển thị chi tiết quá trình khởi động/tắt plugin trên console.
+DetailedEnableMessage: true
+DetailedDisableMessage: true
+
+# GHI CHÚ: QUAN TRỌNG: Nếu bật (true), máy chủ sẽ tự động khóa truy cập khi mất kết nối cơ sở dữ liệu (Database).
+# Việc này giúp ngăn chặn những người chơi đã bị cấm lợi dụng lỗi để trà trộn vào.
+LockdownOnError: true
+
+# GHI CHÚ: Lý do xử phạt mặc định khi quản trị viên không nhập lý do cụ thể.
+DefaultReason: "§x§F§F§5§5§5§5Vɪ ᴘʜạᴍ ɴộɪ ǫᴜʏ ᴍáʏ ᴄʜủ"
+
+# GHI CHÚ: Sử dụng để đồng bộ múi giờ nếu máy chủ của bạn đặt ở quốc gia khác.
+# Ví dụ: Giờ server là 16:43 | Giờ VN là 13:43 | Bạn cần điền TimeDiff là -3.
+# Kiểm tra giờ nội bộ của máy chủ bằng lệnh /systemPrefs
+TimeDiff: 0
+
+# GHI CHÚ: Các lệnh bị vô hiệu hóa khi người chơi đang bị cấm chat (Mute).
+# Giúp ngăn chặn việc lách luật qua tin nhắn riêng (/msg) hoặc hành động (/me).
+MuteCommands:
+- 'me'
+- 'say'
+- 'action'
+- 'eaction'
+- 'describe'
+- 'edescribe'
+- 'eme'
+- 'w'
+- 'm'
+- 'pm'
+- 'whisper'
+- 'ewhisper'
+- 'emsg'
+- 'msg'
+- 'etell'
+- 'tell'
+- 'er'
+- 'r'
+- 'reply'
+- 'ereply'
+- 'ac'
+- 'eac'
+- 'amsg'
+- 'eamsg'
+- 'ehelpop'
+- 'p msg'
+
+# GHI CHÚ: Danh sách đặc quyền. Những người chơi có tên tại đây sẽ KHÔNG BAO GIỜ bị xử phạt.
+# Tính năng này vẫn hoạt động ngay cả khi họ đang ngoại tuyến.
+ExemptPlayers:
+- 'Leoko'
+- 'md5'
+- 'TenCuaBanOday'
+
+# GHI CHÚ: Định dạng ngày tháng dùng cho biến %DATE%. Đã được chuyển về chuẩn Việt Nam (Ngày/Tháng/Năm - Giờ:Phút).
+DateFormat: "dd/MM/yyyy - HH:mm"
+
+# Bật tùy chọn này để sử dụng quyền 'ab.all' thay vì 'ab.*' nhằm cấp toàn quyền quản trị cho plugin.
+EnableAllPermissionNodes: false
+
+# GHI CHÚ: Hệ thống truy xuất UUID (hỗ trợ cả tài khoản bản quyền và crack).
+# Khuyến nghị: Giữ nguyên Dynamic là true để plugin tự động chọn phương thức trích xuất chuẩn xác nhất.
+UUID-Fetcher:
+  Dynamic: true
+  Enabled: true
+  Intern: false
+  REST-API:
+    URL: "https://api.mojang.com/users/profiles/minecraft/%NAME%?at=%TIMESTAMP%"
+    Key: "id"
+  BackUp-API:
+    URL: "https://us.mc-api.net/v3/uuid/%NAME%"
+    Key: "uuid"
+
+# GHI CHÚ: HỆ THỐNG XỬ PHẠT TỰ ĐỘNG.
+# Tự động thực thi lệnh khi người chơi đạt đến một số lượng cảnh cáo nhất định.
+# Hỗ trợ cả các lệnh máy chủ cơ bản (như kill, clear). Các biến hỗ trợ: %PLAYER%, %REASON%, %COUNT%
+WarnActions:
+  3: "kick %PLAYER% §x§F§F§A§A§0§0Bạɴ đã ʙị ᴍờɪ ᴋʜỏɪ ᴍáʏ ᴄʜủ ᴅᴏ ɴʜậɴ ᴄảɴʜ ᴄáᴏ ʟầɴ ᴛʜứ 3!"
+  4: "tempban %PLAYER% 30m §x§F§F§A§A§0§0Bạɴ ʙị ᴄấᴍ 30 ᴘʜúᴛ ᴅᴏ ɴʜậɴ ᴄảɴʜ ᴄáᴏ ʟầɴ ᴛʜứ 4!"
+  5: "tempban %PLAYER% 5h §x§F§F§5§5§5§5Bạɴ ʙị ᴄấᴍ 5 ɢɪờ ᴅᴏ ɴʜậɴ ᴄảɴʜ ᴄáᴏ ʟầɴ ᴛʜứ 5!"
+  6: "tempban %PLAYER% 7d §x§F§F§5§5§5§5Bạɴ ʙị ᴄấᴍ 7 ɴɢàʏ ᴅᴏ ɴʜậɴ ᴄảɴʜ ᴄáᴏ ʟầɴ ᴛʜứ 6!"
+  7: "tempban %PLAYER% 1mo §x§F§F§2§2§2§2Bạɴ ʙị ᴄấᴍ 1 ᴛʜáɴɢ ᴅᴏ ɴʜậɴ ᴄảɴʜ ᴄáᴏ ʟầɴ ᴛʜứ %COUNT%!"
+  10: "ban %PLAYER% §x§F§F§0§0§0§0Bạɴ đã ʙị ᴄấᴍ VĨNH VIỄN ᴅᴏ ᴠɪ ᴘʜạᴍ ᴛớɪ ʟầɴ ᴛʜứ 10!"
+
+# GHI CHÚ: Giới hạn thời gian xử phạt tối đa cho từng nhóm quyền (Tránh tình trạng nhân viên lạm quyền).
+# Ví dụ: "ab.tempban.dur.1" chỉ cho phép cấm tối đa 600 giây (10 phút).
+# Admin sở hữu quyền "ab.COMMAND.dur.max" sẽ được bỏ qua mọi giới hạn này.
+TempPerms:
+  1: 600
+  2: 3600
+  3: 43200
+
+# Chế độ gỡ lỗi (in báo cáo ra console). Nên tắt (false) để tránh rác console nếu plugin vẫn hoạt động bình thường.
+Debug: false
+
+# Thời gian lưu trữ tệp nhật ký xử phạt (nằm trong thư mục plugins/AdvancedBan/logs). 
+# Mặc định hệ thống sẽ tự dọn dẹp sau mỗi 10 ngày.
+Log Purge Days: 10
+
+# Ẩn tiền tố (Prefix) của plugin trong mọi thông báo.
+Disable Prefix: false
+
+# GHI CHÚ: Đăng ký lệnh thân thiện với máy chủ (Chỉ dành cho Spigot/Paper).
+# Nên tắt (false) để AdvancedBan ưu tiên ghi đè lên các lệnh xử phạt mặc định của Essentials.
+Friendly Register Commands: false

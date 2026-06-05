@@ -1,0 +1,22 @@
+{
+  "criteria":{
+    "aach_handled":{
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "requirements":[
+    [
+      "aach_handled"
+    ]
+  ],
+  "display":{
+    "icon":{
+      "id":"minecraft:trident"
+    },
+    "title":"\u00A7x\u00A7A\u00A7C\u00A7FT\u029C\u1EA7\u0274 \u0299\u026A\u1EC3\u0274 P\u1D0F\uA731\u1D07\u026A\u1D05\u1D0F\u0274",
+    "description":"\u00A7x\u00A7D\u00A7E\u00A7ED\u00F9\u0274\u0262 \u0111\u026A\u0274\u029C \u0299\u1D00 \u1D0D\u1D00 \u1D1B\u029C\u1D1C\u1EAD\u1D1B.",
+    "frame":"challenge",
+    "announce_to_chat":false
+  },
+  "parent":"advancedachievements:advanced_achievements_parent"
+}

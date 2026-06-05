@@ -1,0 +1,19 @@
+#
+# By Citymoon Dynamics - Symbol of Quality.
+#
+# Thanks for use my configuration
+# You are currently running version 1.0.1
+# https://builtbybit.com/resources/vulcan-grim-prime-configuration.95057
+#
+enabled: false
+webhook: ""
+embed-title: "**Grim Alert**"
+embed-color: "#00EEFF"
+violation-content:
+    - "**Player**: %player%"
+    - "**Check**: %check%"
+    - "**Violations**: %violations%"
+    - "**Client Version**: %version%"
+    - "**Brand**: %brand%"
+    - "**Ping**: %ping%"
+    - "**TPS**: %tps%"

@@ -1,0 +1,31 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    block: NETHER_QUARTZ_ORE
+    amount: 80
+display:
+  name: "&#A3C4F3&nᴛʜợ ᴍỏ:&r &#FDFD96#XXIV"
+  lore-normal:
+    - '&#D1E8E2ɴʜɪệᴍ ᴠụ ɴàʏ ꜱẽ ʏêᴜ ᴄầᴜ ʙạɴ ᴘʜảɪ ᴋʜᴀɪ ᴛʜáᴄ ǫᴜặɴɢ'
+    - '&#D1E8E2ᴘʜá ʜủʏ ᴋʜốɪ ᴛʀướᴄ ᴋʜɪ ɴʜậɴ ᴘʜậɴ ᴛʜưởɴɢ.'
+    - ''
+    - '&#FFB347◆ &#FDFD96ɴʜɪệᴍ ᴠụ: &#D1E8E2ᴋʜᴀɪ ᴛʜáᴄ ǫᴜặɴɢ ᴛʜạᴄʜ ᴀɴʜ.'
+    - '&#FFB347◆ &#FDFD96ᴛɪếɴ ᴛʀɪểɴ: &#D1E8E2{mining:progress}/80 ᴋʜốɪ.'
+    - '&#FFB347◆ &#FDFD96ᴘʜầɴ ᴛʜưởɴɢ: &#B9FBC0$3.000'
+    - ''
+  lore-started:
+    - '&#57F287▶ &#D1E8E2ʙạɴ đã ʙắᴛ đầᴜ ɴʜɪệᴍ ᴠụ ɴàʏ.'
+  type: "WOODEN_PICKAXE"
+  itemflags:
+    - "HIDE_ATTRIBUTES"
+rewards:
+  - "eco give {player} 3000"
+options:
+  category: "miner"
+  repeatable: false
+  cooldown:
+    enabled: true
+    time: 1440
+  sort-order: 24
+  requires:
+    - "miner23"

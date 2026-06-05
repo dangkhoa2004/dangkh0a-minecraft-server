@@ -1,0 +1,96 @@
+# DonutAuction Language File
+# Author: GamingHuzai
+# Translated & Optimized for sᴍᴀʟʟ ᴄᴀᴘs + Hex Colors
+
+# Colors (Đã chuyển sang Bungee Hex)
+colors:
+  primary: "&x&0&0&F&3&6&9"
+  secondary: "&x&E&0&E&0&E&0"
+  error: "&x&E&D&4&2&4&5"
+  success: "&x&5&7&F&2&8&7"
+  warning: "&x&F&F&D&7&0&0"
+
+# Messages
+messages:
+  # Plugin messages
+  plugin_enabled: "&x&5&7&F&2&8&7[DonutAuction] ᴘʟᴜɢɪɴ đã đượᴄ ʙậᴛ!"
+  plugin_disabled: "&x&E&D&4&2&4&5[DonutAuction] ᴘʟᴜɢɪɴ đã ʙị ᴛắᴛ!"
+
+  # Permission messages
+  no_permission: "&x&E&D&4&2&4&5ʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ѕử ᴅụɴɢ ʟệɴʜ ɴàʏ!"
+  no_permission_sell: "&x&E&D&4&2&4&5ʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ʙáɴ ᴠậᴛ ᴘʜẩᴍ!"
+
+  # Auction messages
+  auction_listed: "&x&5&7&F&2&8&7đã đăɴɢ ʙáɴ ᴛʜàɴʜ ᴄôɴɢ {item} &x&5&7&F&2&8&7ᴠớɪ ɢɪá &x&F&F&D&7&0&0{price}&x&5&7&F&2&8&7!"
+  auction_bought: "&x&5&7&F&2&8&7đã ᴍᴜᴀ ᴛʜàɴʜ ᴄôɴɢ {item}!"
+  auction_cancelled: "&x&5&7&F&2&8&7đã ʜủʏ đăɴɢ ʙáɴ ᴛʜàɴʜ ᴄôɴɢ!"
+  auction_expired: "&x&F&F&D&7&0&0ᴠậᴛ ᴘʜẩᴍ {item} &x&F&F&D&7&0&0ᴄủᴀ ʙạɴ đã ʜếᴛ ʜạɴ ᴠà đượᴄ ᴛʀả ʟạɪ!"
+  cannot_buy_own: "&x&E&D&4&2&4&5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴍᴜᴀ ᴠậᴛ ᴘʜẩᴍ ᴄủᴀ ᴄʜíɴʜ ᴍìɴʜ!"
+
+  # Error messages
+  invalid_price: "&x&E&D&4&2&4&5ɢɪá ᴋʜôɴɢ ʜợᴘ ʟệ! ᴠᴜɪ ʟòɴɢ ɴʜậᴘ ᴍộᴛ ᴄᴏɴ ѕố ʜợᴘ ʟệ."
+  price_too_low: "&x&E&D&4&2&4&5ɢɪá ᴘʜảɪ íᴛ ɴʜấᴛ ʟà &x&F&F&D&7&0&0{min_price}&x&E&D&4&2&4&5!"
+  no_item_in_hand: "&x&E&D&4&2&4&5ʙạɴ ᴘʜảɪ ᴄầᴍ ᴠậᴛ ᴘʜẩᴍ ᴛʀêɴ ᴛᴀʏ để ʙáɴ!"
+  no_item_to_sell: "&x&E&D&4&2&4&5ᴠᴜɪ ʟòɴɢ đặᴛ ᴍộᴛ ᴠậᴛ ᴘʜẩᴍ ᴠàᴏ ô ở ɢɪữᴀ!"
+  auction_not_found: "&x&E&D&4&2&4&5ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴠậᴛ ᴘʜẩᴍ đᴀɴɢ ʙáɴ!"
+  purchase_failed: "&x&E&D&4&2&4&5ᴍᴜᴀ ᴠậᴛ ᴘʜẩᴍ ᴛʜấᴛ ʙạɪ!"
+  not_enough_money: "&x&E&D&4&2&4&5ʙạɴ ᴋʜôɴɢ đủ ᴛɪềɴ!"
+  inventory_full: "&x&E&D&4&2&4&5ᴛúɪ đồ ᴄủᴀ ʙạɴ đã đầʏ!"
+
+  # Search messages
+  search_prompt: "&x&5&7&F&2&8&7ɴʜậᴘ ᴛêɴ ᴠậᴛ ᴘʜẩᴍ ʙạɴ ᴍᴜốɴ ᴛìᴍ ᴋɪếᴍ:"
+  search_cancelled: "&x&E&D&4&2&4&5đã ʜủʏ ᴛìᴍ ᴋɪếᴍ."
+  search_results: "&x&5&7&F&2&8&7đᴀɴɢ ᴛìᴍ ᴋɪếᴍ: &x&F&F&D&7&0&0{query}"
+  no_search_results: "&x&E&D&4&2&4&5ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴠậᴛ ᴘʜẩᴍ ɴàᴏ ᴘʜù ʜợᴘ ᴠớɪ ᴛìᴍ ᴋɪếᴍ ᴄủᴀ ʙạɴ."
+
+  # Price input messages
+  price_prompt: "&x&5&7&F&2&8&7ɴʜậᴘ ɢɪá ᴄʜᴏ ᴠậᴛ ᴘʜẩᴍ ɴàʏ:"
+  sell_cancelled: "&x&E&D&4&2&4&5đã ʜủʏ ʙáɴ ᴠậᴛ ᴘʜẩᴍ."
+
+  # GUI titles (using small font where possible)
+  gui:
+    auction_house: "ᴄʜợ đấᴜ ɢɪá"
+    sell_item: "ʙáɴ ᴠậᴛ ᴘʜẩᴍ"
+    confirm_item: "xáᴄ ɴʜậɴ ᴠậᴛ ᴘʜẩᴍ"
+    your_items: "ᴠậᴛ ᴘʜẩᴍ ᴄủᴀ ʙạɴ"
+    transactions: "ʟịᴄʜ ѕử ɢɪᴀᴏ ᴅịᴄʜ"
+    cancel_listing: "ʜủʏ đăɴɢ ʙáɴ"
+    search_results: "ᴋếᴛ ǫᴜả ᴛìᴍ ᴋɪếᴍ"
+
+  # GUI item names
+  gui_items:
+    back_page: "ᴛʀᴀɴɢ ᴛʀướᴄ"
+    next_page: "ᴛʀᴀɴɢ ᴛɪếᴘ"
+    sort: "ѕắᴘ xếᴘ"
+    filter: "ʙộ ʟọᴄ"
+    refresh: "ʟàᴍ ᴍớɪ"
+    search: "ᴛìᴍ ᴋɪếᴍ"
+    your_items: "ᴠậᴛ ᴘʜẩᴍ ᴄủᴀ ʙạɴ"
+    cancel: "ʜủʏ ʙỏ"
+    confirm: "xáᴄ ɴʜậɴ"
+    transactions: "ɢɪᴀᴏ ᴅịᴄʜ"
+    total_stats: "ᴛổɴɢ ᴄʜɪ ᴛɪêᴜ / ᴛổɴɢ ᴛʜᴜ ɴʜậᴘ"
+    search_transactions: "ᴛìᴍ ᴋɪếᴍ ɢɪᴀᴏ ᴅịᴄʜ"
+
+  # Lore messages
+  lore:
+    price: "&x&E&0&E&0&E&0ɢɪá ᴛʀị: &x&5&7&F&2&8&7{price}"
+    seller: "&x&E&0&E&0&E&0ɴɢườɪ ʙáɴ: &x&F&F&D&7&0&0{seller}"
+    time_left: "&x&E&0&E&0&E&0ᴛʜờɪ ɢɪᴀɴ ᴄòɴ: &x&F&F&D&7&0&0{time}"
+    click_to_cancel: "&x&E&0&E&0&E&0ɴʜấɴ ᴄʜᴜộᴛ ᴛʀáɪ để ʜủʏ đăɴɢ ʙáɴ."
+    drag_item_here: "&x&E&0&E&0&E&0ᴋéᴏ ᴠậᴛ ᴘʜẩᴍ ᴠàᴏ đâʏ"
+
+  # Transaction types
+  transaction_types:
+    buy: "ᴍᴜᴀ"
+    sell: "đăɴɢ ʙáɴ"
+    cancel: "đã ʜủʏ"
+    expire: "ʜếᴛ ʜạɴ"
+
+  # Time formatting
+  time:
+    days: "ɴ"
+    hours: "ɢ"
+    minutes: "ᴘ"
+    seconds: "ѕ"
+    expired: "đã ʜếᴛ ʜạɴ"

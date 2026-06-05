@@ -1,0 +1,14 @@
+enabled: false
+update-interval-ticks: 20
+header:
+- ''
+- <dark_gray>——«</dark_gray> <gradient:gold:yellow><bold>YOUR SERVER NAME</bold></gradient>
+  <dark_gray>»——</dark_gray>
+- <gray>play.yourserver.com</gray>
+- ''
+footer:
+- ''
+- <gray>Online <white>{online}</white><dark_gray>/</dark_gray><white>{max}</white></gray>  <dark_gray>|</dark_gray>  <gray>Ping
+  <white>{ping}ms</white></gray>  <dark_gray>|</dark_gray>  <gray>TPS <white>{tps}</white></gray>
+- <gray>Rank <white>{rank}</white></gray>  <dark_gray>|</dark_gray>  <gray>World <white>{world}</white></gray>
+- ''

@@ -1,0 +1,14 @@
+enabled: false
+required-playtime-minutes: 60
+required-message-count: 50
+newcomer-tag: <gray>[<green>New</green>]</gray>
+show-welcome-message: true
+welcome-messages:
+- <gradient:green:aqua>Welcome to the server, {player}!</gradient>
+- <gray>Use <yellow>/help</yellow> to see available commands.</gray>
+- <gray>Read our rules with <yellow>/rules</yellow>.</gray>
+- <gray>Need help? Ask in chat or message a staff member!</gray>
+apply-slowmode: true
+newcomer-slowmode-seconds: 5
+mention-restriction: false
+max-mentions-per-message: 1

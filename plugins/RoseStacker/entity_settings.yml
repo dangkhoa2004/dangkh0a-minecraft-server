@@ -1,0 +1,1263 @@
+ALLAY:
+  enabled: false
+  display-name: Allay
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-holding-items: false
+ARMADILLO:
+  enabled: false
+  display-name: Tatu
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+AXOLOTL:
+  enabled: false
+  display-name: Axolotl
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-different-color: false
+  dont-stack-if-playing-dead: false
+BAT:
+  enabled: false
+  display-name: Con dơi
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-sleeping: false
+BEE:
+  enabled: false
+  display-name: Con ong
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-angry: false
+  dont-stack-if-has-hive: false
+  dont-stack-if-different-hives: false
+  dont-stack-if-stung: false
+  dont-stack-if-has-flower: false
+  dont-stack-if-has-nectar: false
+BLAZE:
+  enabled: false
+  display-name: Quỷ lửa
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+BOGGED:
+  enabled: false
+  display-name: Quái đầm lầy
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-sheared: false
+BREEZE:
+  enabled: false
+  display-name: Quỷ gió
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+CAMEL:
+  enabled: false
+  display-name: Lạc đà
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-sitting: false
+  dont-stack-if-tamed: false
+  dont-stack-if-different-owners: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-saddled: false
+  dont-stack-if-dashing: false
+CAMEL_HUSK:
+  enabled: false
+  display-name: Lạc đà khô tàn
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-sitting: false
+  dont-stack-if-tamed: false
+  dont-stack-if-different-owners: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-saddled: false
+  dont-stack-if-dashing: false
+CAT:
+  enabled: false
+  display-name: Con mèo
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-sitting: false
+  dont-stack-if-tamed: false
+  dont-stack-if-different-owners: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-different-type: false
+  dont-stack-if-different-collar-color: false
+CAVE_SPIDER:
+  enabled: false
+  display-name: Nhện hang
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+CHICKEN:
+  enabled: false
+  display-name: Con gà
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-different-types: false
+  multiply-egg-drops-by-stack-size: false
+  max-egg-stack-size: -1
+COD:
+  enabled: false
+  display-name: Cá tuyết
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+COPPER_GOLEM:
+  enabled: false
+  display-name: Người đồng
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-oxidization: false
+  dont-stack-if-different-weathering: false
+COW:
+  enabled: false
+  display-name: Con bò
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+CREAKING:
+  enabled: false
+  display-name: Quái cọt kẹt
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+CREEPER:
+  enabled: false
+  display-name: Creeper
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-charged: false
+  explode-kill-entire-stack: false
+DOLPHIN:
+  enabled: false
+  display-name: Cá heo
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+DONKEY:
+  enabled: false
+  display-name: Con lừa
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-tamed: false
+  dont-stack-if-different-owners: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-saddled: false
+  dont-stack-if-chested: false
+DROWNED:
+  enabled: false
+  display-name: Kẻ đuối nước
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-converting: false
+ELDER_GUARDIAN:
+  enabled: false
+  display-name: Giám hộ cao niên
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+ENDERMAN:
+  enabled: false
+  display-name: Người Ender
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-holding-block: false
+ENDERMITE:
+  enabled: false
+  display-name: Endermite
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+ENDER_DRAGON:
+  enabled: false
+  display-name: Rồng Ender
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+EVOKER:
+  enabled: false
+  display-name: Kẻ chiêu hồn
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-patrol-leader: false
+FOX:
+  enabled: false
+  display-name: Con cáo
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-sitting: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-different-type: false
+FROG:
+  enabled: false
+  display-name: Con ếch
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-different-type: false
+GHAST:
+  enabled: false
+  display-name: Ghast
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+GIANT:
+  enabled: false
+  display-name: Người khổng lồ
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+GLOW_SQUID:
+  enabled: false
+  display-name: Mực phát sáng
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-dark: false
+GOAT:
+  enabled: false
+  display-name: Con dê
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-different-horns: false
+  dont-stack-if-screaming: false
+GUARDIAN:
+  enabled: false
+  display-name: Giám hộ
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+HAPPY_GHAST:
+  enabled: false
+  display-name: Ghast vui vẻ
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+HOGLIN:
+  enabled: false
+  display-name: Hoglin
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-unhuntable: false
+HORSE:
+  enabled: false
+  display-name: Con ngựa
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-tamed: false
+  dont-stack-if-different-owners: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-saddled: false
+  dont-stack-if-armored: false
+  dont-stack-if-different-style: false
+  dont-stack-if-different-color: false
+HUSK:
+  enabled: false
+  display-name: Quái khô tàn
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-converting: false
+ILLUSIONER:
+  enabled: false
+  display-name: Kẻ gây ảo giác
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-patrol-leader: false
+IRON_GOLEM:
+  enabled: false
+  display-name: Người sắt
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-player-created: false
+LLAMA:
+  enabled: false
+  display-name: Lạc đà không bướu
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-tamed: false
+  dont-stack-if-different-owners: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-saddled: false
+  dont-stack-if-chested: false
+  dont-stack-if-different-decor: false
+  dont-stack-if-different-color: false
+MAGMA_CUBE:
+  enabled: false
+  display-name: Khối dung nham
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-size: false
+  accurate-drops-with-kill-entire-stack-on-death: false
+MANNEQUIN:
+  enabled: false
+  display-name: Ma nơ canh
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+MOOSHROOM:
+  enabled: false
+  display-name: Mooshroom
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-different-type: false
+  extra-mushrooms-per-cow-in-stack: 5
+  drop-additional-mushrooms-for-each-cow-in-stack: false
+MULE:
+  enabled: false
+  display-name: Con la
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-tamed: false
+  dont-stack-if-different-owners: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-saddled: false
+  dont-stack-if-chested: false
+NAUTILUS:
+  enabled: false
+  display-name: Ốc anh vũ
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-tamed: false
+  dont-stack-if-different-owners: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+OCELOT:
+  enabled: false
+  display-name: Mèo rừng
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+PANDA:
+  enabled: false
+  display-name: Gấu trúc
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-sitting: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-different-main-gene: false
+  dont-stack-if-different-recessive-gene: false
+PARCHED:
+  enabled: false
+  display-name: Kẻ khô độc
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+PARROT:
+  enabled: false
+  display-name: Con vẹt
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-sitting: false
+  dont-stack-if-tamed: false
+  dont-stack-if-different-owners: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-different-type: false
+PHANTOM:
+  enabled: false
+  display-name: Phantom
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-size: false
+PIG:
+  enabled: false
+  display-name: Con heo
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-different-types: false
+  dont-stack-if-saddled: false
+PIGLIN:
+  enabled: false
+  display-name: Piglin
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-converting: false
+  dont-stack-if-immune-to-zombification: false
+  dont-stack-if-unable-to-hunt: false
+PIGLIN_BRUTE:
+  enabled: false
+  display-name: Piglin hung bạo
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-converting: false
+  dont-stack-if-immune-to-zombification: false
+PILLAGER:
+  enabled: false
+  display-name: Kẻ cướp
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-patrol-leader: false
+POLAR_BEAR:
+  enabled: false
+  display-name: Gấu Bắc Cực
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+PUFFERFISH:
+  enabled: false
+  display-name: Cá nóc
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-inflation: false
+RABBIT:
+  enabled: false
+  display-name: Con thỏ
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-different-type: false
+RAVAGER:
+  enabled: false
+  display-name: Quái thú cướp bóc
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-patrol-leader: false
+SALMON:
+  enabled: false
+  display-name: Cá hồi
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-size: false
+SHEEP:
+  enabled: false
+  display-name: Con cừu
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-color: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-sheared: false
+  dont-stack-if-different-shear-state: false
+  percentage-of-wool-to-regrow-per-grass-eaten: 25.0
+  shear-all-sheep-in-stack: false
+SHULKER:
+  enabled: false
+  display-name: Shulker
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-color: false
+SILVERFISH:
+  enabled: false
+  display-name: Con nhậy bạc
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+SKELETON:
+  enabled: false
+  display-name: Bộ xương
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+SKELETON_HORSE:
+  enabled: false
+  display-name: Ngựa xương
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-tamed: false
+  dont-stack-if-different-owners: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-saddled: false
+SLIME:
+  enabled: false
+  display-name: Quái vật chất nhờn
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-size: false
+  accurate-drops-with-kill-entire-stack-on-death: false
+SNIFFER:
+  enabled: false
+  display-name: Kẻ đánh hơi
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  multiply-dig-drops-by-stack-size: false
+  max-dig-drops-stack-size: -1
+SNOW_GOLEM:
+  enabled: false
+  display-name: Người tuyết
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-no-pumpkin: false
+  force-custom-named-stacking: false
+SPIDER:
+  enabled: false
+  display-name: Nhện
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+SQUID:
+  enabled: false
+  display-name: Con mực
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+STRAY:
+  enabled: false
+  display-name: Quái lang thang
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+STRIDER:
+  enabled: false
+  display-name: Kẻ sải bước
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-shivering: false
+  dont-stack-if-saddled: false
+TADPOLE:
+  enabled: false
+  display-name: Nòng nọc
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+TRADER_LLAMA:
+  enabled: false
+  display-name: Lạc đà không bướu của thương nhân
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-tamed: false
+  dont-stack-if-different-owners: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-saddled: false
+  dont-stack-if-chested: false
+  dont-stack-if-different-decor: false
+  dont-stack-if-different-color: false
+TROPICAL_FISH:
+  enabled: false
+  display-name: Cá nhiệt đới
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-body-color: false
+  dont-stack-if-different-pattern: false
+  dont-stack-if-different-pattern-color: false
+TURTLE:
+  enabled: false
+  display-name: Con rùa
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+VEX:
+  enabled: false
+  display-name: Hồn ma bay
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-charging: false
+VILLAGER:
+  enabled: false
+  display-name: Dân làng
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-trading: false
+  dont-stack-if-professioned: false
+  dont-stack-if-different-profession: false
+  dont-stack-if-different-type: false
+  dont-stack-if-different-level: false
+VINDICATOR:
+  enabled: false
+  display-name: Kẻ biện hộ
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-patrol-leader: false
+WANDERING_TRADER:
+  enabled: false
+  display-name: Thương nhân lang thang
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-trading: false
+WARDEN:
+  enabled: false
+  display-name: Kẻ cai ngục
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+WITCH:
+  enabled: false
+  display-name: Phù thủy
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-patrol-leader: false
+WITHER:
+  enabled: false
+  display-name: Wither
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+WITHER_SKELETON:
+  enabled: false
+  display-name: Bộ xương Wither
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+WOLF:
+  enabled: false
+  display-name: Chó sói
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-sitting: false
+  dont-stack-if-tamed: false
+  dont-stack-if-different-owners: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-different-type: false
+  dont-stack-if-angry: false
+  dont-stack-if-different-collar-color: false
+ZOGLIN:
+  enabled: false
+  display-name: Zoglin
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+ZOMBIE:
+  enabled: false
+  display-name: Thây ma
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-converting: false
+ZOMBIE_HORSE:
+  enabled: false
+  display-name: Ngựa thây ma
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-tamed: false
+  dont-stack-if-different-owners: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-saddled: false
+ZOMBIE_NAUTILUS:
+  enabled: false
+  display-name: Ốc anh vũ thây ma
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-tamed: false
+  dont-stack-if-different-owners: false
+  dont-stack-if-breeding: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-different-type: false
+ZOMBIE_VILLAGER:
+  enabled: false
+  display-name: Dân làng thây ma
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-converting: false
+  dont-stack-if-different-profession: false
+ZOMBIFIED_PIGLIN:
+  enabled: false
+  display-name: Piglin thây ma
+  min-stack-size: -1
+  max-stack-size: -1
+  kill-entire-stack-on-death: default
+  merge-radius: -1
+  only-stack-from-spawners: default
+  data-storage-type: default
+  disable-all-mob-ai: default
+  dont-stack-if-different-custom-name: false
+  dont-stack-if-different-age: false
+  dont-stack-if-baby: false
+  dont-stack-if-angry: false
+  dont-stack-if-converting: false

@@ -1,0 +1,114 @@
+enabled: false
+commands:
+  rules:
+    description: View the server rules
+    aliases:
+    - serverrules
+    - rule
+    player-only: false
+    actions:
+    - type: message
+      text: ''
+    - type: message
+      text: <gold><bold>========== Server Rules ==========</bold></gold>
+    - type: message
+      text: <yellow>1.</yellow> <white>Be respectful to all players and staff</white>
+    - type: message
+      text: <yellow>2.</yellow> <white>No cheating, hacking, or exploiting bugs</white>
+    - type: message
+      text: <yellow>3.</yellow> <white>No spamming, advertising, or excessive caps</white>
+    - type: message
+      text: <yellow>4.</yellow> <white>Keep chat family-friendly</white>
+    - type: message
+      text: <yellow>5.</yellow> <white>Have fun and enjoy your stay!</white>
+    - type: message
+      text: <gold><bold>===================================</bold></gold>
+    - type: message
+      text: ''
+  discord:
+    description: Get the Discord invite link
+    aliases:
+    - dc
+    - disc
+    actions:
+    - type: message
+      text: '<blue><bold>Discord</bold></blue> <dark_gray>|</dark_gray> <gray>Click
+        to join: <aqua><click:open_url:''https://discord.gg/YOUR_INVITE''><hover:show_text:''<green>Click
+        to join!''><underlined>discord.gg/YOUR_INVITE</underlined></hover></click></aqua>'
+    - type: sound
+      sound: BLOCK_NOTE_BLOCK_PLING
+      volume: 0.5
+      pitch: 1.5
+  website:
+    description: Get the server website link
+    aliases:
+    - web
+    - site
+    - store
+    - shop
+    actions:
+    - type: message
+      text: '<green><bold>Website</bold></green> <dark_gray>|</dark_gray> <gray>Visit
+        us at: <yellow><click:open_url:''https://example.com''><hover:show_text:''<green>Click
+        to visit!''><underlined>example.com</underlined></hover></click></yellow>'
+  vote:
+    description: Get voting links for rewards
+    aliases:
+    - voting
+    - votes
+    actions:
+    - type: message
+      text: <gold><bold>Vote for Rewards!</bold></gold>
+    - type: message
+      text: <gray>Vote on these sites to earn rewards:</gray>
+    - type: message
+      text: <yellow>1.</yellow> <aqua><click:open_url:'https://minecraft-server-list.com'><underlined>minecraft-server-list.com</underlined></click></aqua>
+    - type: message
+      text: <yellow>2.</yellow> <aqua><click:open_url:'https://minecraftservers.org'><underlined>minecraftservers.org</underlined></click></aqua>
+  staff:
+    description: View online staff members
+    permission: lpcpro.staff
+    permission-message: <red>This command is for staff members only.
+    actions:
+    - type: console-command
+      command: list
+  spawn:
+    description: Teleport to the server spawn
+    player-only: true
+    cooldown: 10
+    actions:
+    - type: message
+      text: <yellow>Teleporting to spawn...</yellow>
+    - type: delay
+      ticks: 60
+    - type: teleport
+      location: 0, 100, 0, world
+    - type: title
+      title: <green>Welcome to Spawn!
+      subtitle: <gray>Enjoy your stay</gray>
+      fade-in: 10
+      stay: 40
+      fade-out: 10
+    - type: sound
+      sound: ENTITY_ENDERMAN_TELEPORT
+      volume: 1.0
+      pitch: 1.0
+  help-staff:
+    description: Staff command reference
+    permission: lpcpro.staff
+    aliases:
+    - staffhelp
+    - modhelp
+    actions:
+    - type: message
+      text: <gold><bold>===== Staff Commands =====</bold></gold>
+    - type: message
+      text: <yellow>/kick <player> [reason]</yellow> <gray>- Kick a player</gray>
+    - type: message
+      text: <yellow>/ban <player> [reason]</yellow> <gray>- Ban a player</gray>
+    - type: message
+      text: <yellow>/mute <player> [duration]</yellow> <gray>- Mute a player</gray>
+    - type: message
+      text: <yellow>/vanish</yellow> <gray>- Toggle invisibility</gray>
+    - type: message
+      text: <gold><bold>==========================</bold></gold>

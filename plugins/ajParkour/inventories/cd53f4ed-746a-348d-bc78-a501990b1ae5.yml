@@ -1,0 +1,82 @@
+inventory:
+  armor:
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_boots
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:blast_protection":4,"minecraft:depth_strider":3,"minecraft:unbreaking":3}'
+      minecraft:damage: '172'
+    schema_version: 1
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_chestplate
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:protection":3,"minecraft:thorns":2,"minecraft:unbreaking":3}'
+      minecraft:damage: '284'
+    schema_version: 1
+  - null
+  content:
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_boots
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:blast_protection":4,"minecraft:depth_strider":3,"minecraft:unbreaking":3}'
+      minecraft:damage: '172'
+    schema_version: 1
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_chestplate
+    count: 1
+    components:
+      minecraft:enchantments: '{"minecraft:protection":3,"minecraft:thorns":2,"minecraft:unbreaking":3}'
+      minecraft:damage: '284'
+    schema_version: 1
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:cooked_porkchop
+    count: 62
+    schema_version: 1
+  - null
+  - null

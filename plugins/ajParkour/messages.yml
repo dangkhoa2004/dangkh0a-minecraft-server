@@ -1,0 +1,235 @@
+#
+#
+# This is the messsages file.
+# You can change any messages that are in this file
+#
+# If you want to reset a message back to the default,
+# delete the entire line the message is on and restart the server.
+# 	
+# 	
+
+prefix: ''
+alreadyin: §x§E§D§4§2§4§5ʙạɴ đã ở ᴛʀᴏɴɢ ᴘᴀʀᴋᴏᴜʀ ʀồɪ!
+start:
+  score: §x§5§7§F§2§8§7đã ʙắᴛ đầᴜ ᴘᴀʀᴋᴏᴜʀ! §x§A§A§A§A§A§Aʜãʏ ᴛʜử ᴘʜá ᴋỷ ʟụᴄ §x§F§F§F§F§F§F{SCORE}
+    §x§A§A§A§A§A§Aᴄủᴀ ʙạɴ!
+  first: §x§5§7§F§2§8§7đã ʙắᴛ đầᴜ ᴘᴀʀᴋᴏᴜʀ!
+  no-area-player: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴋʜᴜ ᴠựᴄ ʜᴏặᴄ ɴɢườɪ ᴄʜơɪ ɴàᴏ ᴛêɴ ʟà
+    '{INPUT}'!
+  unknown-player: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ɴɢườɪ ᴄʜơɪ đó!
+  unknown-area: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴋʜᴜ ᴠựᴄ đó!
+  started-other: §x§5§7§F§2§8§7đã ʙắᴛ đầᴜ ᴘᴀʀᴋᴏᴜʀ ᴄʜᴏ {PLY}!
+  started-other-area: §x§5§7§F§2§8§7đã ʙắᴛ đầᴜ ᴘᴀʀᴋᴏᴜʀ ᴄʜᴏ &l§x§F§F§F§F§F§F{PLY}&r§x§5§7§F§2§8§7
+    ᴛạɪ ᴋʜᴜ ᴠựᴄ &l§x§F§F§F§F§F§F{AREA}&r§x§5§7§F§2§8§7!
+noperm: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴄó ǫᴜʏềɴ ʟàᴍ đɪềᴜ ɴàʏ!
+score: §x§A§A§A§A§A§Ađɪểᴍ ѕố &r&l{SCORE}
+beatrecord: §x§5§7§F§2§8§7ᴄʜúᴄ ᴍừɴɢ!§x§A§A§A§A§A§A ʙạɴ đã ᴘʜá ᴋỷ ʟụᴄ §x§F§F§F§F§F§F{SCORE}§x§A§A§A§A§A§A
+  ᴄủᴀ ᴄʜíɴʜ ᴍìɴʜ!
+beatrecord-ingame: §x§5§7§F§2§8§7ᴄʜúᴄ ᴍừɴɢ! §x§A§A§A§A§A§Aʙạɴ ᴠừᴀ ᴘʜá ᴋỷ ʟụᴄ ᴄá ɴʜâɴ!
+  ᴛɪếᴘ ᴛụᴄ ᴘʜáᴛ ʜᴜʏ ɴʜé!
+disabledworld: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ʙắᴛ đầᴜ ᴘᴀʀᴋᴏᴜʀ ở ᴛʜế ɢɪớɪ ɴàʏ!
+block:
+  potion: §x§E§D§4§2§4§5ᴋʜôɴɢ đượᴄ!
+  place: §x§E§D§4§2§4§5ᴋʜôɴɢ đượᴄ!
+  break: §x§E§D§4§2§4§5ᴋʜôɴɢ đượᴄ!
+numberformatexception: §x§E§D§4§2§4§5đó ᴋʜôɴɢ ᴘʜảɪ ʟà ᴍộᴛ ᴄᴏɴ ѕố ʜợᴘ ʟệ!
+areafull: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛʜể ʙắᴛ đầᴜ ᴠì ᴋʜᴜ ᴠựᴄ ɴàʏ đã đầʏ! §x§A§A§A§A§A§Aᴠᴜɪ
+  ʟòɴɢ ᴛʜử ʟạɪ ѕᴀᴜ.
+must-be-ingame: §x§E§D§4§2§4§5ʙạɴ ᴘʜảɪ ở ᴛʀᴏɴɢ ɢᴀᴍᴇ để ʟàᴍ đɪềᴜ đó!
+not-in-game: §x§E§D§4§2§4§5ʙạɴ ᴘʜảɪ ᴅùɴɢ ʟệɴʜ ɴàʏ ᴛừ ᴄᴏɴѕᴏʟᴇ!
+couldnt-find-player: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ɴɢườɪ ᴄʜơɪ {PLAYER}
+list:
+  header: '§x§5§8§6§5§F§2ᴅᴀɴʜ ѕáᴄʜ ɴɢườɪ đᴀɴɢ ᴄʜơɪ ᴘᴀʀᴋᴏᴜʀ:'
+  format: §x§F§F§D§7§0§0{NAME} §x§A§A§A§A§A§A- §x§F§F§D§7§0§0{SCORE} ʙướᴄ ɴʜảʏ
+  none: §x§A§A§A§A§A§Aᴋʜôɴɢ ᴄó ᴀɪ
+nobodys-played-yet: §x§E§D§4§2§4§5ᴄʜưᴀ ᴄó ᴀɪ ᴄʜơɪ ᴘᴀʀᴋᴏᴜʀ ᴄả!
+first-position: §x§F§F§D§7§0§0đã đặᴛ ᴠị ᴛʀí ᴛʜứ ɴʜấᴛ!
+second-position: §x§F§F§D§7§0§0đã đặᴛ ᴠị ᴛʀí ᴛʜứ ʜᴀɪ!
+setup-done: §x§5§7§F§2§8§7ʙạɴ ᴄó ᴛʜể ᴅùɴɢ &2/ajParkour start§x§5§7§F§2§8§7 để ᴄʜơɪ
+  ᴘᴀʀᴋᴏᴜʀ ɴɢᴀʏ ʙâʏ ɢɪờ!
+reload:
+  usage: '§x§E§D§4§2§4§5ѕᴀɪ ᴄú ᴘʜáᴘ: /{CMD} reload <tệp>§x§A§A§A§A§A§A ᴄáᴄ ᴛệᴘ: {POSS}'
+fallpos:
+  set: §x§5§7§F§2§8§7đã đặᴛ ᴠị ᴛʀí ʀơɪ!
+  removed: §x§5§7§F§2§8§7đã xóᴀ ᴠị ᴛʀí ʀơɪ!
+top:
+  header: '§x§5§8§6§5§F§2ʙảɴɢ xếᴘ ʜạɴɢ đɪểᴍ ѕố:'
+  header-area: '§x§5§8§6§5§F§2ʙảɴɢ xếᴘ ʜạɴɢ ᴄủᴀ {AREA}:'
+  format: §x§5§7§F§2§8§7{#}. §x§F§F§D§7§0§0{NAME} §x§F§F§D§7§0§0{SCORE} ʙướᴄ ɴʜảʏ
+fall:
+  normal: §x§E§D§4§2§4§5ʙạɴ đã ʀơɪ! §x§A§A§A§A§A§Ađɪểᴍ ѕố ᴄủᴀ ʙạɴ ʟà &r{SCORE}
+  force:
+    base: '§x§E§D§4§2§4§5ʟượᴛ ᴄʜơɪ ᴘᴀʀᴋᴏᴜʀ ᴄủᴀ ʙạɴ đã ᴋếᴛ ᴛʜúᴄ ᴠì '
+    reasons:
+      teleport: ʙạɴ ᴠừᴀ ᴅịᴄʜ ᴄʜᴜʏểɴ
+      afk: ʙạɴ đᴀɴɢ ᴀꜰᴋ.
+errors:
+  blocknotair:
+    base: §x§E§D§4§2§4§5&lđã ᴄó ʟỗɪ xảʏ ʀᴀ:&r§x§E§D§4§2§4§5 ᴋʜốɪ ɴàʏ ᴋʜôɴɢ ᴘʜảɪ ʟà
+      ᴋʜôɴɢ ᴋʜí (ᴀɪʀ)!
+    player: §x§F§F§D§7§0§0ʜãʏ ʙáᴏ ᴄʜᴏ ᴀᴅᴍɪɴ ᴠà ᴛʜử ʟạɪ ѕᴀᴜ.
+    admin: §x§F§F§D§7§0§0đảᴍ ʙảᴏ ᴋʜᴜ ᴠựᴄ ᴘᴀʀᴋᴏᴜʀ ʜᴏàɴ ᴛᴏàɴ ʟà ᴋʜôɴɢ ᴋʜí, ᴠà ᴘʟᴜɢɪɴ
+      đượᴄ ᴄàɪ đặᴛ đúɴɢ ᴄáᴄʜ. xᴇᴍ ᴛʜêᴍ ᴛạɪ /{CMD} setup.
+  notsetup:
+    base: §x§E§D§4§2§4§5ᴀᴊᴘᴀʀᴋᴏᴜʀ ᴄʜưᴀ đượᴄ ᴛʜɪếᴛ ʟậᴘ.
+    player: §x§F§F§D§7§0§0ʜãʏ ʏêᴜ ᴄầᴜ ᴀᴅᴍɪɴ ᴛʜɪếᴛ ʟậᴘ ɴó!
+    admin: §x§F§F§D§7§0§0để ʙɪếᴛ ᴄáᴄʜ ᴛʜɪếᴛ ʟậᴘ, ʜãʏ ᴅùɴɢ /{CMD} setup
+  too-many-players: §x§E§D§4§2§4§5ʜɪệɴ đᴀɴɢ ᴄó ǫᴜá ɴʜɪềᴜ ɴɢườɪ ᴄʜơɪ ᴘᴀʀᴋᴏᴜʀ. ᴠᴜɪ ʟòɴɢ
+    ᴛʜử ʟạɪ ѕᴀᴜ.
+migrate:
+  more-args: §x§E§D§4§2§4§5ᴠᴜɪ ʟòɴɢ ᴄᴜɴɢ ᴄấᴘ ɴɢᴜồɴ ᴅữ ʟɪệᴜ để ᴄʜᴜʏểɴ đổɪ!
+  success: §x§5§7§F§2§8§7đã ᴄʜᴜʏểɴ đổɪ ᴛʜàɴʜ ᴄôɴɢ {COUNT} đɪểᴍ ѕố!
+  error: §x§E§D§4§2§4§5đã ᴄó ʟỗɪ xảʏ ʀᴀ. ᴠᴜɪ ʟòɴɢ ᴋɪểᴍ ᴛʀᴀ ᴄᴏɴѕᴏʟᴇ để ʙɪếᴛ ᴛʜêᴍ ᴄʜɪ
+    ᴛɪếᴛ.
+placeholders:
+  stats:
+    no-data: '---'
+    time-format: '{m}m {s}s'
+  current:
+    no-data: '0'
+commands:
+  help:
+    header: §x§5§7§F§2§8§7ᴀᴊᴘᴀʀᴋᴏᴜʀ đượᴄ ᴛạᴏ ʙởɪ &2ajgeiss0702§x§5§7§F§2§8§7!
+    start: §x§F§F§D§7§0§0 /{CMD} start §x§A§A§A§A§A§A- §x§5§8§6§5§F§2ʙắᴛ đầᴜ ᴄʜơɪ
+      ᴘᴀʀᴋᴏᴜʀ!
+    startarea: §x§F§F§D§7§0§0 /{CMD} start <khu_vực> §x§A§A§A§A§A§A- §x§5§8§6§5§F§2ʙắᴛ
+      đầᴜ ở ᴍộᴛ ᴋʜᴜ ᴠựᴄ ᴄụ ᴛʜể.
+    startothers: §x§F§F§D§7§0§0 /{CMD} start <người_chơi> [khu_vực] §x§A§A§A§A§A§A-
+      §x§5§8§6§5§F§2ʙắᴛ đầᴜ ᴘᴀʀᴋᴏᴜʀ ᴄʜᴏ ɴɢườɪ ᴋʜáᴄ.
+    top: §x§F§F§D§7§0§0 /{CMD} top §x§A§A§A§A§A§A- §x§5§8§6§5§F§2xᴇᴍ ᴛᴏᴘ 10 ɴɢườɪ
+      ᴄʜơɪ!
+    list: §x§F§F§D§7§0§0 /{CMD} list §x§A§A§A§A§A§A- §x§5§8§6§5§F§2xᴇᴍ ᴅᴀɴʜ ѕáᴄʜ ɴɢườɪ
+      đᴀɴɢ ᴄʜơɪ ᴠà đɪểᴍ ѕố.
+    setup: '§x§F§F§D§7§0§0 /{CMD} setup §x§A§A§A§A§A§A- §x§5§8§6§5§F§2ᴄáᴄ ʟệɴʜ ᴛʜɪếᴛ
+      ʟậᴘ. §x§A§A§A§A§A§A(ʏêᴜ ᴄầᴜ ǫᴜʏềɴ: ajparkour.setup)'
+    portals: §x§F§F§D§7§0§0 /{CMD} portals §x§A§A§A§A§A§A- §x§5§8§6§5§F§2ᴄáᴄ ʟệɴʜ
+      ᴛʜɪếᴛ ʟậᴘ ᴄổɴɢ (ᴘᴏʀᴛᴀʟ).
+    areas: §x§F§F§D§7§0§0 /{CMD} areas §x§A§A§A§A§A§A- §x§5§8§6§5§F§2ᴅᴀɴʜ ѕáᴄʜ ᴄáᴄ
+      ᴋʜᴜ ᴠựᴄ đã ᴛảɪ
+  setup:
+    header: §x§5§7§F§2§8§7ᴀᴊᴘᴀʀᴋᴏᴜʀ&2 ᴄáᴄ ʟệɴʜ ᴛʜɪếᴛ ʟậᴘ
+    create: §x§F§F§D§7§0§0 /{CMD} setup create §x§A§A§A§A§A§A- §x§5§8§6§5§F§2ᴛạᴏ ᴍộᴛ
+      ᴋʜᴜ ᴠựᴄ
+    pos1: §x§F§F§D§7§0§0 /{CMD} setup pos1 §x§A§A§A§A§A§A- §x§5§8§6§5§F§2đặᴛ ᴠị ᴛʀí
+      1
+    pos2: §x§F§F§D§7§0§0 /{CMD} setup pos2 §x§A§A§A§A§A§A- §x§5§8§6§5§F§2đặᴛ ᴠị ᴛʀí
+      2
+    we: §x§F§F§D§7§0§0 /{CMD} setup we §x§A§A§A§A§A§A- §x§5§8§6§5§F§2ᴄʜọɴ ᴠị ᴛʀí 1
+      ᴠà 2 ʙằɴɢ ᴡᴏʀʟᴅᴇᴅɪᴛ
+    fallpos: §x§F§F§D§7§0§0 /{CMD} setup fallpos §x§A§A§A§A§A§A- §x§5§8§6§5§F§2đặᴛ
+      ᴠị ᴛʀí ʀơɪ!
+    edit: §x§F§F§D§7§0§0 /{CMD} edit §x§A§A§A§A§A§A- §x§5§8§6§5§F§2ᴛảɪ ᴋʜᴜ ᴠựᴄ ᴄó
+      ѕẵɴ để ᴄʜỉɴʜ ѕửᴀ.
+    info: §x§F§F§D§7§0§0 /{CMD} setup info §x§A§A§A§A§A§A- §x§5§8§6§5§F§2xᴇᴍ ᴄáᴄ đɪểᴍ
+      ʙạɴ đã đặᴛ!
+    diff: §x§F§F§D§7§0§0 /{CMD} setup difficulty §x§A§A§A§A§A§A- §x§5§8§6§5§F§2đặᴛ
+      độ ᴋʜó ᴄʜᴏ ᴋʜᴜ ᴠựᴄ!
+    max: §x§F§F§D§7§0§0 /{CMD} setup max §x§A§A§A§A§A§A- §x§5§8§6§5§F§2đặᴛ ѕố ɴɢườɪ
+      ᴄʜơɪ ᴛốɪ đᴀ!
+    save: §x§F§F§D§7§0§0 /{CMD} setup save §x§A§A§A§A§A§A- §x§5§8§6§5§F§2ʟưᴜ ᴠà ʙậᴛ
+      ᴋʜᴜ ᴠựᴄ (ʙướᴄ ᴄᴜốɪ ᴄùɴɢ)
+  portals:
+    header: §x§5§7§F§2§8§7ᴀᴊᴘᴀʀᴋᴏᴜʀ&2 ᴄáᴄ ʟệɴʜ ᴘᴏʀᴛᴀʟ
+    list: §x§F§F§D§7§0§0 /{CMD} portals list §x§A§A§A§A§A§A- §x§5§8§6§5§F§2ᴅᴀɴʜ ѕáᴄʜ
+      ᴄổɴɢ ᴘᴏʀᴛᴀʟ.
+    create: §x§F§F§D§7§0§0 /{CMD} portals create §x§A§A§A§A§A§A- §x§5§8§6§5§F§2ᴛạᴏ
+      ᴍộᴛ ᴄổɴɢ ᴘᴏʀᴛᴀʟ.
+    remove: §x§F§F§D§7§0§0 /{CMD} portals remove §x§A§A§A§A§A§A- §x§5§8§6§5§F§2xóᴀ
+      ᴍộᴛ ᴄổɴɢ ᴘᴏʀᴛᴀʟ.
+  listareas:
+    header: '§x§5§8§6§5§F§2ᴄáᴄ ᴋʜᴜ ᴠựᴄ đượᴄ ᴛảɪ:'
+    format: '§x§A§A§A§A§A§A - §x§5§7§F§2§8§7{NAME} §x§A§A§A§A§A§Ađộ ᴋʜó: §x§5§8§6§5§F§2{DIFFICULTY}'
+    none: §x§A§A§A§A§A§Aᴋʜôɴɢ ᴄó ᴋʜᴜ ᴠựᴄ ɴàᴏ đượᴄ ᴛảɪ!
+  not-on-whitelist: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴅùɴɢ ʟệɴʜ ɴàʏ ᴋʜɪ đᴀɴɢ ᴄʜơɪ ᴘᴀʀᴋᴏᴜʀ!
+not-from-console: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể ᴄʜạʏ ʟệɴʜ ɴàʏ ᴛừ ᴄᴏɴѕᴏʟᴇ!
+setup:
+  no-name: §x§E§D§4§2§4§5ʙạɴ ᴘʜảɪ đặᴛ ᴛêɴ ᴄʜᴏ ᴋʜᴜ ᴠựᴄ!
+  invalid-name: §x§E§D§4§2§4§5ʙạɴ ᴋʜôɴɢ ᴛʜể đặᴛ ᴛêɴ ᴋʜᴜ ᴠựᴄ ɴʜư ᴠậʏ.
+  edit:
+    no-name: §x§E§D§4§2§4§5ᴠᴜɪ ʟòɴɢ ɴʜậᴘ ᴛêɴ ᴋʜᴜ ᴠựᴄ để ᴄʜỉɴʜ ѕửᴀ!
+    loaded: §x§5§7§F§2§8§7đã ᴛảɪ ᴋʜᴜ ᴠựᴄ để ᴄʜỉɴʜ ѕửᴀ! đặᴛ ʟạɪ ᴠị ᴛʀí ʙằɴɢ /{CMD}
+      setup
+    no-area: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛồɴ ᴛạɪ ᴋʜᴜ ᴠựᴄ ɴàᴏ ᴄó ᴛêɴ đó!
+  need-to-create: §x§5§7§F§2§8§7ʙạɴ ᴘʜảɪ ᴛạᴏ ᴋʜᴜ ᴠựᴄ ᴛʀướᴄ ᴋʜɪ ᴄʜỉɴʜ ѕửᴀ!
+  we:
+    not-installed: §x§E§D§4§2§4§5ʙạɴ ᴄầɴ ᴄàɪ đặᴛ ᴡᴏʀʟᴅᴇᴅɪᴛ để ᴅùɴɢ ʟệɴʜ ɴàʏ!§x§A§A§A§A§A§A
+      ʜãʏ ᴛʜử ᴅùɴɢ ʟệɴʜ pos1 ᴠà pos2 ᴄó ѕẵɴ.
+    incomplete-selection: §x§E§D§4§2§4§5ʙạɴ ᴘʜảɪ ᴄʜọɴ đầʏ đủ 2 đɪểᴍ ᴡᴏʀʟᴅᴇᴅɪᴛ ᴛʀướᴄ
+      ᴋʜɪ ʟàᴍ ᴠɪệᴄ ɴàʏ!
+  created: §x§5§7§F§2§8§7đã ᴛạᴏ ᴋʜᴜ ᴠựᴄ ᴠà ᴛʜêᴍ ᴠàᴏ ʜàɴɢ đợɪ ᴄʜỉɴʜ ѕửᴀ. xᴇᴍ &2/ajParkour
+    setup§x§5§7§F§2§8§7 để ʙɪếᴛ ᴄáᴄ ʙướᴄ ᴛʜɪếᴛ ʟậᴘ!
+  already-creating: §x§E§D§4§2§4§5ᴍộᴛ ᴋʜᴜ ᴠựᴄ đᴀɴɢ đượᴄ ᴛʜɪếᴛ ʟậᴘ. §x§5§7§F§2§8§7ᴠᴜɪ
+    ʟòɴɢ ʟưᴜ ᴋʜᴜ ᴠựᴄ đó, ʜᴏặᴄ ᴄʜạʏ ʟạɪ ʟệɴʜ để ɢʜɪ đè. (§x§E§D§4§2§4§5&lʟưᴜ ý:&r§x§E§D§4§2§4§5
+    ɢʜɪ đè ѕẽ xóᴀ ᴛᴏàɴ ʙộ ᴅữ ʟɪệᴜ ᴄủᴀ ᴋʜᴜ ᴠựᴄ đᴀɴɢ đượᴄ ᴛʜɪếᴛ ʟậᴘ!)
+  info:
+    header: '§x§F§F§D§7§0§0ᴍàᴜ ѕắᴄ: §x§5§7§F§2§8§7đã đặᴛ §x§A§A§A§A§A§Aᴄʜưᴀ đặᴛ (ᴛùʏ
+      ᴄʜọɴ) §x§E§D§4§2§4§5ᴄʜưᴀ đặᴛ (ʙắᴛ ʙᴜộᴄ)'
+  set:
+    pos1: §x§5§7§F§2§8§7đã đặᴛ ᴠị ᴛʀí 1!
+    pos2: §x§5§7§F§2§8§7đã đặᴛ ᴠị ᴛʀí 2!
+    fallpos: §x§5§7§F§2§8§7đã đặᴛ ᴠị ᴛʀí ʀơɪ!
+    we: §x§5§7§F§2§8§7đã đặᴛ ᴄáᴄ ᴠị ᴛʀí!
+    diff: §x§5§7§F§2§8§7đã đặᴛ độ ᴋʜó!
+    max: §x§5§7§F§2§8§7đã đặᴛ ѕố ɴɢườɪ ᴄʜơɪ ᴛốɪ đᴀ!
+  max:
+    need-args: §x§E§D§4§2§4§5ᴠᴜɪ ʟòɴɢ ɴʜậᴘ ᴍộᴛ ᴄᴏɴ ѕố!
+  diff:
+    not-valid: §x§E§D§4§2§4§5độ ᴋʜó ᴋʜôɴɢ ʜợᴘ ʟệ! §x§A§A§A§A§A§Aᴄáᴄ độ ᴋʜó ʜợᴘ ʟệ
+      ʟà &feasy§x§A§A§A§A§A§A, &fmedium§x§A§A§A§A§A§A, &fhard§x§A§A§A§A§A§A, &fexpert§x§A§A§A§A§A§A,
+      ᴠà &fbalanced
+    need-args: |-
+      §x§E§D§4§2§4§5ᴠᴜɪ ʟòɴɢ ɴʜậᴘ ᴍộᴛ độ ᴋʜó! §x§A§A§A§A§A§Aᴄáᴄ độ ᴋʜó ʜợᴘ ʟệ ʟà &feasy§x§A§A§A§A§A§A, &fmedium§x§A§A§A§A§A§A, &fhard§x§A§A§A§A§A§A, &fexpert§x§A§A§A§A§A§A, ᴠà &fbalanced§x§A§A§A§A§A§A.
+      §x§5§7§F§2§8§7độ ᴋʜó balanced ѕẽ ʟàᴍ ᴘᴀʀᴋᴏᴜʀ ᴋʜó ᴅầɴ ᴋʜɪ ɴɢườɪ ᴄʜơɪ đạᴛ đɪểᴍ ᴄᴀᴏ.
+  save:
+    not-done: §x§E§D§4§2§4§5ʙạɴ ᴄʜưᴀ đặᴛ đủ ᴄáᴄ ᴄàɪ đặᴛ ʙắᴛ ʙᴜộᴄ! §x§A§A§A§A§A§Aᴋɪểᴍ
+      ᴛʀᴀ &f/{CMD} setup info§x§A§A§A§A§A§A để xᴇᴍ ᴄòɴ ᴛʜɪếᴛ ʟậᴘ ɴàᴏ ᴛʜɪếᴛ.
+    success: §x§5§7§F§2§8§7ᴋʜᴜ ᴠựᴄ {NAME} đã đượᴄ ʟưᴜ ᴠà ᴛảɪ!
+  area:
+    too-small: |-
+      §x§E§D§4§2§4§5ᴋʜᴜ ᴠựᴄ ʙạɴ ᴠừᴀ ᴛạᴏ ᴋʜôɴɢ đạᴛ ᴋíᴄʜ ᴛʜướᴄ ᴛốɪ ᴛʜɪểᴜ ᴋʜᴜʏếɴ ɴɢʜị ʟà 20x20x20!
+      §x§A§A§A§A§A§Aʙạɴ ᴠẫɴ ᴄó ᴛʜể ᴛɪếᴘ ᴛụᴄ, ɴʜưɴɢ ᴄó ᴛʜể ɢặᴘ ʟỗɪ ɴɢườɪ ᴄʜơɪ ᴠᴀ ᴄʜạᴍ ɴʜᴀᴜ ʜᴏặᴄ ᴘᴀʀᴋᴏᴜʀ ᴠăɴɢ ʀᴀ ɴɢᴏàɪ!
+      §x§A§A§A§A§A§Aᴋʜᴜ ᴠựᴄ ᴄủᴀ ʙạɴ: {l}x{w}x{h} (XxZxY)
+portals:
+  list:
+    header: '&2ᴄổɴɢ ᴘᴀʀᴋᴏᴜʀ'
+    format:
+      area: '&2{NAME} §x§A§A§A§A§A§A- §x§5§7§F§2§8§7{COORDS} §x§A§A§A§A§A§A- §x§5§7§F§2§8§7{AREA}'
+      no-area: '&2{NAME} §x§A§A§A§A§A§A- §x§5§7§F§2§8§7{COORDS}'
+  create:
+    help: '§x§E§D§4§2§4§5ѕᴀɪ ᴄú ᴘʜáᴘ: /{CMD} portals create <tên> [khu_vực]'
+    success: §x§5§7§F§2§8§7đã ᴛạᴏ ᴄổɴɢ ᴛêɴ '{NAME}' ᴛạɪ ᴠị ᴛʀí ᴄủᴀ ʙạɴ! §x§A§A§A§A§A§Aᴄó
+      ᴛʜể ᴄầɴ ᴋʜởɪ độɴɢ ʟạɪ ᴍáʏ ᴄʜủ để ᴄổɴɢ ʜᴏạᴛ độɴɢ.
+  remove:
+    help: §x§E§D§4§2§4§5ᴠᴜɪ ʟòɴɢ ɴʜậᴘ ᴛêɴ ᴄổɴɢ ᴄầɴ xóᴀ!
+    cannot-find: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴄổɴɢ ɴàᴏ ᴄó ᴛêɴ ɴʜư ᴠậʏ! ʜãʏ đảᴍ ʙảᴏ
+      ʙạɴ ᴠɪếᴛ đúɴɢ ᴄʜíɴʜ ᴛả ᴠà ᴄả ᴄʜữ ʜᴏᴀ/ᴛʜườɴɢ.
+    success: §x§5§7§F§2§8§7đã xóᴀ ᴄổɴɢ '{NAME}'!
+    no-portals: §x§E§D§4§2§4§5ᴄʜưᴀ ᴄó ᴄổɴɢ ɴàᴏ đượᴄ ᴛʜɪếᴛ ʟậᴘ! ᴠᴜɪ ʟòɴɢ ᴛạᴏ ᴄổɴɢ ᴛʀướᴄ
+      ᴋʜɪ xóᴀ.
+gui:
+  selector:
+    title: ᴄʜọɴ ᴋʜốɪ ᴘᴀʀᴋᴏᴜʀ
+    items:
+      random:
+        title: '&rᴋʜốɪ ɴɢẫᴜ ɴʜɪêɴ'
+        lore: §x§A§A§A§A§A§Aѕẽ ᴄʜọɴ ᴍộᴛ ᴋʜốɪ ɴɢẫᴜ ɴʜɪêɴ.
+      selected:
+        lore: §x§5§7§F§2§8§7đᴀɴɢ đượᴄ ᴄʜọɴ
+      nextpage:
+        name: §x§5§7§F§2§8§7&lᴛʀᴀɴɢ ᴛɪếᴘ ᴛʜᴇᴏ
+      prevpage:
+        name: §x§5§7§F§2§8§7&lᴛʀᴀɴɢ ᴛʀướᴄ
+items:
+  blockselector:
+    name: §x§5§7§F§2§8§7ᴄʜọɴ ᴋʜốɪ ᴘᴀʀᴋᴏᴜʀ
+reset:
+  usage: '§x§E§D§4§2§4§5ѕᴀɪ ᴄú ᴘʜáᴘ: /{CMD} reset <người_chơi>'
+  success: §x§5§7§F§2§8§7đã đặᴛ ʟạɪ đɪểᴍ ᴄủᴀ {PLAYER} ᴠề 0
+blockselector:
+  openedfor: §x§5§7§F§2§8§7đã ᴍở ᴍᴇɴᴜ ᴄʜọɴ ᴋʜốɪ ᴄʜᴏ {PLAYER}
+areas:
+  remove:
+    help: §x§E§D§4§2§4§5ᴠᴜɪ ʟòɴɢ ɴʜậᴘ ᴛêɴ ᴋʜᴜ ᴠựᴄ ᴄầɴ xóᴀ!
+    cannot-find: §x§E§D§4§2§4§5ᴋʜôɴɢ ᴛìᴍ ᴛʜấʏ ᴋʜᴜ ᴠựᴄ ɴàᴏ ᴄó ᴛêɴ ɴʜư ᴠậʏ! ʜãʏ đảᴍ
+      ʙảᴏ ʙạɴ ᴠɪếᴛ đúɴɢ ᴄʜíɴʜ ᴛả.
+    success: §x§5§7§F§2§8§7đã xóᴀ ᴋʜᴜ ᴠựᴄ '{NAME}'!

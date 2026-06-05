@@ -1,0 +1,74 @@
+sellhistory:
+  title: "&x&B&D&B&2&F&F&l❁ ʟịᴄʜ ѕử ʙáɴ ❁"
+  rows: 6
+
+  previous-page-slot: 46
+  previous-page:
+    material: ARROW
+    displayname: '&x&E&D&4&2&4&5&lᴛʀᴀɴɢ ᴛʀướᴄ'
+    lore:
+    - '&x&F&C&D&0&5&C▶ &x&E&0&E&0&E&0ɴʜấɴ để ǫᴜᴀʏ ʟạɪ ᴛʀᴀɴɢ ᴛʀướᴄ'
+
+  next-page-slot: 53
+  next-page:
+    material: ARROW
+    displayname: '&x&5&7&F&2&8&7&lᴛʀᴀɴɢ ᴛɪếᴘ'
+    lore:
+    - '&x&F&C&D&0&5&C▶ &x&E&0&E&0&E&0ɴʜấɴ để ᴄʜᴜʏểɴ ѕᴀɴɢ ᴛʀᴀɴɢ ᴛɪếᴘ'
+
+  stats-book:
+    slot: 49
+    material: PLAYER_HEAD
+    displayname: '&x&F&F&D&7&0&0&lᴛʜốɴɢ ᴋê'
+    lore:
+    - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴛổɴɢ đã ʙáɴ: &x&5&7&F&2&8&7{total-sold}'
+    - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ᴛổɴɢ ᴛʜᴜ ɴʜậᴘ: &x&F&F&D&7&0&0{total-made} ⛃'
+
+  sort-button:
+    slot: 50
+    material: HOPPER
+    displayname: '&x&F&F&D&7&0&0&lᴄàɪ đặᴛ ѕắᴘ xếᴘ'
+    switch: '&x&F&C&D&0&5&C▶ &x&E&0&E&0&E&0ɴʜấɴ để ᴛʜᴀʏ đổɪ'
+    lore-inactive:
+    - ''
+    - '&x&8&8&8&8&8&8● ɢɪá: ᴄᴀᴏ ɴʜấᴛ'
+    - '&x&8&8&8&8&8&8● ɢɪá: ᴛʜấᴘ ɴʜấᴛ'
+    - '&x&8&8&8&8&8&8● ᴛêɴ: ᴀ-ᴢ'
+    - '&x&8&8&8&8&8&8● ᴛêɴ: ᴢ-ᴀ'
+    - ''
+    lore-active:
+    - ''
+    - '&x&5&7&F&2&8&7● ɢɪá: ᴄᴀᴏ ɴʜấᴛ'
+    - '&x&5&7&F&2&8&7● ɢɪá: ᴛʜấᴘ ɴʜấᴛ'
+    - '&x&5&7&F&2&8&7● ᴛêɴ: ᴀ-ᴢ'
+    - '&x&5&7&F&2&8&7● ᴛêɴ: ᴢ-ᴀ'
+    - ''
+
+  back-button:
+    slot: 45
+    material: RED_STAINED_GLASS_PANE
+    displayname: '&x&E&D&4&2&4&5&l✖ ǫᴜᴀʏ ʟạɪ'
+    lore:
+    - '&x&E&D&4&2&4&5▶ &x&E&0&E&0&E&0ɴʜấɴ để ǫᴜᴀʏ ʟạɪ ᴍᴇɴᴜ'
+
+  search-button:
+    slot: 48
+    material: OAK_SIGN
+    displayname: '&x&F&F&D&7&0&0&lᴛìᴍ ᴋɪếᴍ ᴠậᴛ ᴘʜẩᴍ'
+    lore:
+    - '&x&F&C&D&0&5&C▶ &x&E&0&E&0&E&0ɴʜấɴ để ᴛìᴍ ᴋɪếᴍ ᴠậᴛ ᴘʜẩᴍ'
+    - ''
+    - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ʙộ ʟọᴄ ʜɪệɴ ᴛạɪ: &x&5&7&F&2&8&7{filter}'
+    - '&x&E&D&4&2&4&5▶ &x&E&0&E&0&E&0ɴʜấɴ ᴄʜᴜộᴛ để xóᴀ ʙộ ʟọᴄ'
+
+  item:
+    displayname: '&x&F&C&D&0&5&C&l%item%'
+    lore:
+    - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ɢɪá ᴛʀị: &x&5&7&F&2&8&7%item-value% ⛃'
+    - '&x&F&C&F&C&F&C❖ &x&E&0&E&0&E&0ѕố ʟượɴɢ: &x&5&7&F&2&8&7%item-quantity%'
+
+  filler:
+    enabled: true
+    material: WHITE_STAINED_GLASS_PANE
+    displayname: ' '
+    lore: []

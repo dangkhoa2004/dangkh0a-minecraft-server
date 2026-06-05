@@ -1,0 +1,46 @@
+# LPC Pro V2 - Proxy/Network Configuration
+# This file controls cross-server communication for BungeeCord/Velocity networks
+
+# ===========================================
+# Proxy Support
+# ===========================================
+# Enable cross-server communication
+# Requires BungeeCord or Velocity proxy
+# Velocity users: set 'bungee-plugin-message-channel = true' in velocity.toml
+enabled: false
+
+# Unique name for this server (shown in cross-server messages)
+# Example: "survival", "skyblock", "hub"
+server-name: "server"
+
+# ===========================================
+# Sync Options
+# ===========================================
+
+# Sync channel messages across servers
+# Players on other servers will see messages from synced channels
+sync-channels: true
+
+# Allow private messages between players on different servers
+sync-private-messages: true
+
+# Sync player mutes across all servers
+# If a player is muted on one server, they're muted everywhere
+sync-mutes: true
+
+# Broadcast announcements to all servers
+sync-announcements: true
+
+# ===========================================
+# Cross-Server Channels
+# ===========================================
+# Channels to sync across servers (by channel ID)
+# Leave empty to sync all channels marked as "cross-server" in channels.yml
+synced-channels: []
+
+# ===========================================
+# Message Format
+# ===========================================
+# Format for cross-server messages
+# Placeholders: {server}, {player}, {message}, {channel}
+cross-server-format: "<gray>[{server}]</gray> {message}"

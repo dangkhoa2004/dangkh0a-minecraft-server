@@ -1,0 +1,62 @@
+enabled: true
+require-permission: false
+default:
+  height-offset: 2.5
+  display-duration-ticks: 100
+  max-line-length: 30
+  max-lines: 4
+  follow-player: true
+  bubble-format: <white>%message%</white>
+  show-player-name: false
+  text-shadow: false
+  background-color: '0xC8333333'
+  scale: 1.0
+styles:
+  member:
+    permission: lpcpro.bubble.style.member
+    priority: 5
+    background-color: '0xC8404040'
+    bubble-format: <gray>%message%</gray>
+  vip:
+    permission: lpcpro.bubble.style.vip
+    priority: 10
+    display-duration-ticks: 120
+    background-color: '0xC8805500'
+    scale: 1.05
+    bubble-format: <gold>%message%</gold>
+  mvp:
+    permission: lpcpro.bubble.style.mvp
+    priority: 20
+    display-duration-ticks: 140
+    background-color: '0xC800805A'
+    scale: 1.1
+    bubble-format: <aqua>%message%</aqua>
+  moderator:
+    permission: lpcpro.bubble.style.moderator
+    priority: 50
+    display-duration-ticks: 150
+    max-lines: 6
+    background-color: '0xC8006400'
+    scale: 1.1
+    bubble-format: <green>%message%</green>
+    show-player-name: true
+  admin:
+    permission: lpcpro.bubble.style.admin
+    priority: 100
+    display-duration-ticks: 180
+    max-lines: 8
+    background-color: '0xC8800000'
+    scale: 1.15
+    bubble-format: <red>%message%</red>
+    show-player-name: true
+    text-shadow: true
+  owner:
+    group: owner
+    priority: 200
+    display-duration-ticks: 200
+    max-lines: 10
+    background-color: '0xD0500050'
+    scale: 1.2
+    bubble-format: <light_purple>%message%</light_purple>
+    show-player-name: true
+    text-shadow: true

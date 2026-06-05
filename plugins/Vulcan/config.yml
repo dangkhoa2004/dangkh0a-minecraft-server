@@ -1,0 +1,3963 @@
+prefix: '#ff7109&lᴠᴜʟᴄᴀɴ &8»'
+alerts:
+  format: '%prefix% &e%player% &fnghi vấn &e%check%&f (&e%complex-type%&f) &8[#ff7109%vl%
+    &8| #ff7109%ping%ms&8]'
+  hover-message:
+  - '#DBD9D9• &fNgười chơi: &e%player%'
+  - '#DBD9D9• &fClient: &e%client-brand% #DBD9D9(%version%)'
+  - '#DBD9D9• &fKiểm tra: &e%check% #DBD9D9(Dạng &f%type%#DBD9D9)'
+  - '#DBD9D9• &fMức vi phạm: &e%vl% #DBD9D9/ &e%max-vl%'
+  - '#DBD9D9• &fPing: &e%ping%ms'
+  - '#DBD9D9• &fTPS: &e%tps%'
+  - ''
+  - '#DBD9D9Chi tiết: %description%'
+  - '#DBD9D9Thông số: %info%'
+  - ''
+  - '#DBD9D9• &fBấm vào để dịch chuyển đến &e%player%'
+  click-commands:
+  - /tp %player%
+  click-alert-command-commands:
+  - tp %player%
+  toggled-on-message: '%prefix% &fĐã &abật&f cảnh báo Anticheat.'
+  toggled-off-message: '%prefix% &fĐã &ctắt&f cảnh báo Anticheat.'
+  print-to-console: true
+  console-format: '[Vulcan] %player% vi pham %check% %dev%(Dang %type%)%dev% (%vl%/%max-vl%)'
+  custom-commands: []
+  severity:
+    violations:
+      '2': 2
+      '3': 4
+      '4': 6
+      '5': 8
+      '6': 10
+      '7': 12
+      '8': 14
+      '9': 16
+      '10': 18
+    colors:
+      '1': '&a'
+      '2': '&e'
+      '3': '&e'
+      '4': '&6'
+      '5': '&6'
+      '6': '&c'
+      '7': '&c'
+      '8': '&4'
+      '9': '&4'
+      '10': '&4'
+  experimental-symbol: ✦
+log-file:
+  enabled: true
+  alert-message: '&e%player% &fvi pham &e%check% (%type%) #DBD9D9| #ff7109x%vl%
+    #DBD9D9%ping%ms TPS: %tps% Version: %version% Client: %client-brand%]'
+  punishment-message: '&e%player% &fbi xu ly vi &e%check% (%type%) #DBD9D9| #ff7109x%vl%
+    #DBD9D9%ping%ms TPS: %tps% Client: %client-brand%'
+unloaded-chunks:
+  setback-enabled: true
+  message: '%prefix% &f%player% #DBD9D9bị kéo lại do đi vào chunk chưa được tải!'
+  max-ticks: 40
+punishment-file:
+  enabled: true
+violation-reset:
+  enabled: true
+  interval-in-minutes: 8
+  message-enabled: false
+  message: '%prefix% &6Đã làm mới điểm vi phạm của toàn bộ người chơi!'
+client-brand-alerts:
+  resolve: true
+  enabled: true
+  ignore-alerts-list:
+  - vanilla
+  message: '%prefix% &f%player% #DBD9D9vào server bằng &f%client-brand%'
+  blocked-client-brands: []
+  unallowed-client-brand-kick-message: '&cBạn không thể vào server bằng %client-brand%!'
+  console: false
+  console-message: '[Vulcan] %player% join bang %client-brand%!'
+  whitelist-enabled: false
+  whitelisted-client-brands: []
+connection:
+  debug-messages: false
+  ignore-ids-over-0: false
+  other-anticheat-support: false
+  invalid:
+    enabled: true
+    kick-message: '&cMất kết nối: Nhận được gói tin xác nhận không hợp lệ.'
+    staff-alert-message: '%prefix% &e%player% #DBD9D9bị ngắt kết nối do gửi gói tin xác nhận lỗi. &8(ID: &c%id%&8)'
+    console-alert-message: '[Vulcan] &e%player% bi kick vi loi goi tin. ID: &c%id%'
+  out-of-order:
+    enabled: true
+    kick-message: '&cMất kết nối: Các gói tin đến không đúng thứ tự.'
+    staff-alert-message: '%prefix% &e%player% #DBD9D9gửi gói tin sai thứ tự! &8(Nhận: &c%id% #DBD9D9| Đợi: &c%last-id%&8)'
+    console-alert-message: '[Vulcan] &e%player% gui goi tin sai thu tu. Nhan: %id%, Doi: %last-id%'
+  no-response:
+    delay-in-seconds: 45
+    kick-message: '&cMất kết nối: Không phản hồi gói tin kiểm tra mạng của máy chủ.'
+    staff-alert-message: '%prefix% &e%player% #DBD9D9không phản hồi máy chủ trong &c%delay%ms#DBD9D9.'
+    console-alert-message: '[Vulcan] &e%player% bi ngat ket noi do khong phan hoi trong &c%delay%ms.'
+    code-of-conduct-fix: true
+  max-size:
+    amount: 2000
+    kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+    staff-alert-message: '%prefix% &c%player% &7bị kick do nghẽn mạng hoặc thao tác tay quá nhiều! (&c%size%&7)'
+    console-alert-message: '[Vulcan] %player% was kicked for too many pending confirmations! (&c%size%&7)'
+  keepalive:
+    kick-enabled: true
+    max-delay: 45000
+    kick-message: '&cMất kết nối: Tín hiệu mạng quá yếu.'
+    staff-alert-message: '%prefix% &e%player% #DBD9D9không phản hồi tín hiệu keepalive trong &c%delay%ms#DBD9D9.'
+    console-message: '[Vulcan] &e%player% did not respond to keepalive packets in &c%delay%ms.'
+  max-ping:
+    kick-enabled: true
+    max-ping: 5000
+    max-ticks: 20
+    kick-message: '&cMất kết nối: Ping của bạn vượt quá giới hạn cho phép.'
+    staff-alert-message: '%prefix% &e%player% #DBD9D9bị kick do ping quá cao (&c%ping%ms#DBD9D9).'
+    console-message: '[Vulcan] &e%player% bi kick vi ping cao: &c%ping%ms.'
+punishments:
+  message: '%prefix% &e%player% &fbị văng khỏi máy chủ do &e%check% (%type%) #DBD9D9| #ff7109x%vl%'
+  broadcast:
+  - '&6× &f%player% #DBD9D9đã bị cấm vì &cGian lận (Hack/Cheat)#DBD9D9.'
+judgement-days:
+  started-broadcast:
+  - '&6&m---»--*-------------------------------------*--«---'
+  - '&cĐợt Quét Hack (Vulcan) đang bắt đầu...'
+  - '&6&m---»--*-------------------------------------*--«---'
+  ended-broadcast:
+  - '&6&m---»--*-------------------------------------*--«---'
+  - '&cĐợt Quét Hack kết thúc... Đã ban #ff7109%amount% tài khoản.'
+  - '&6&m---»--*-------------------------------------*--«---'
+  commands:
+  - ban %player% &cGian lận (Phát hiện từ Đợt Quét Hack)
+  broadcast:
+  - '&6&m---»--*-------------------------------------*--«---'
+  - '&e%player% &6đã bay màu trong &cĐợt Quét Hack&6.'
+  - '&6&m---»--*-------------------------------------*--«---'
+  cooldown: 1000
+  run-at-interval: false
+  interval: 36000
+freeze:
+  logged-out-while-frozen-commands: []
+ghost-blocks-fix:
+  enabled: true
+  ghost-water-fix: true
+  minimum-tps: 18.5
+  ignore-legacy-via: true
+  buffer:
+    max: 3
+    decay: 0.1
+  setback: true
+  update-blocks: true
+  ticks: 3
+  message-enabled: true
+  message: '&cBạn vừa kẹt vào block ảo. Máy chủ đã sửa lại vị trí của bạn!'
+  staff-message-enabled: true
+  staff-message: '%prefix% Vị trí của &f%player% #DBD9D9vừa được sửa lại do lỗi block ảo tại &e(&c%world%, %x%, %y%, %z%&e) &6[%ticks% ticks]'
+  print-to-console: true
+  console-message: '[Vulcan] %player%''s position fixed for ghost block at (%world%, %x%, %y%, %z%) &6[%ticks% ticks]'
+messages:
+  no-permission: '&6Anticheat #DBD9D9| &cBạn không có quyền dùng lệnh này.'
+  cant-execute-from-console: '%prefix% &fKhông thể chạy lệnh này từ Console!'
+  ban-command-syntax: '%prefix% &fCách dùng: &c/vulcan ban (tên)'
+  kb-command-syntax: '%prefix% &fCách dùng: &c/vulcan knockback (tên) &8hoặc &c/vulcan kb (tên)'
+  profile-command-syntax: '%prefix% &fCách dùng: &c/vulcan profile (tên)'
+  jday-command-syntax: '%prefix% &fCách dùng: &c/jday add (tên) &8| &c/jday execute &8| &c/jday list &8| &c/jday remove (tên)'
+  reload-success: '%prefix% &fĐã tải lại Anticheat &athành công&f!'
+  invalid-target: '%prefix% &fKhông tìm thấy người chơi này!'
+  kb-test-success: '%prefix% &aĐã đẩy %player%!'
+  jday-no-pending-bans: '%prefix% &fKhông có ai trong danh sách Quét Hack!'
+  jday-added-to-list: '%prefix% &fĐã thêm %player% vào danh sách Quét Hack!'
+  reset-command: '%prefix% &fĐã &axóa sạch&f điểm vi phạm của mọi người!'
+  no-next-page: '%prefix% &fBạn đang ở &ctrang cuối&f rồi!'
+  no-previous-page: '%prefix% &fBạn đang ở &ctrang đầu tiên'
+  enabled-all-checks: '%prefix% &aĐã bật mọi module kiểm tra!'
+  disabled-all-checks: '%prefix% &cĐã tắt mọi module kiểm tra!'
+  enabled-all-punishments: '%prefix% &aĐã bật mọi hình phạt!'
+  disabled-all-punishments: '%prefix% &cĐã tắt mọi hình phạt!'
+  disabled-check: '%prefix% &cĐã tắt module kiểm tra %check%!'
+  enabled-check: '%prefix% &aĐã bật module kiểm tra %check%!'
+  disabled-punishment: '%prefix% &cĐã tắt hình phạt cho module %check%!'
+  enabled-punishment: '%prefix% &aĐã bật hình phạt cho module %check%!'
+  disabled-hotbar-shuffle: '%prefix% &cTắt xáo trộn kho đồ cho module %check%!'
+  enabled-hotbar-shuffle: '%prefix% &aBật xáo trộn kho đồ cho module %check%!'
+  disabled-random-rotation: '%prefix% &cTắt xoay camera ngẫu nhiên cho module %check%!'
+  enabled-random-rotation: '%prefix% &aBật xoay camera ngẫu nhiên cho module %check%!'
+  disabled-broadcast-punishment: '%prefix% &cTắt thông báo vi phạm cho %check%!'
+  enabled-broadcast-punishment: '%prefix% &aBật thông báo vi phạm cho %check%!'
+  must-be-an-integer: '%prefix% &cPhải nhập vào một số nguyên!'
+  must-be-positive: '%prefix% &cSố phải lớn hơn 0!'
+  must-be-number: '%prefix% &cĐó không phải là số hợp lệ!'
+  set-max-buffer: '%prefix% &fSửa Max buffer cho &e%check% &fthành &a%value%'
+  set-hotbar-shuffle-minimum-violations: '%prefix% &fSửa Min violations để xáo kho đồ cho &e%check% &fthành &a%value%'
+  set-hotbar-shuffle-interval: '%prefix% &fSửa Hotbar shuffle interval cho &e%check% &fthành &a%value%'
+  set-random-rotation-minimum-violations: '%prefix% &fSửa Min violations để xoay camera cho &e%check% &fthành &a%value%'
+  set-random-rotation-interval: '%prefix% &fSửa Random rotation interval cho &e%check% &fthành &a%value%'
+  set-alert-interval: '%prefix% &fSửa Alert delay cho &e%check% &fthành &a%value%'
+  set-buffer-decay: '%prefix% &fSửa Buffer decay cho &e%check% &fthành &a%value%'
+  set-buffer-multiple: '%prefix% &fSửa Buffer multiple cho &e%check% &fthành &a%value%'
+  set-max-violations: '%prefix% &fSửa Max violations cho &e%check% &fthành &a%value%'
+  set-minimum-violations-to-alert: '%prefix% &fSửa Min violations báo cáo cho &e%check% &fthành &a%value%'
+  set-maximum-ping: '%prefix% &fSửa Max ping cho &e%check% &fthành &a%value%'
+  set-minimum-tps: '%prefix% &fSửa Min TPS cho &e%check% &fthành &a%value%'
+  removed-punishment-command: '%prefix% &fĐã xóa lệnh &c%command% &fkhi vi phạm &e%check%'
+  invalid-index-number: '%prefix% &cCon số đó không hoạt động!'
+  stopped-editing-punishment-commands: '%prefix% &fĐã dừng chỉnh sửa lệnh phạt!'
+  added-punishment-command: '%prefix% &fĐã thêm lệnh &a%command% &fvào &e%check%'
+  enter-punishment-command: '%prefix% &fGõ lệnh bạn muốn thêm. Gõ &cSTOP &fhoặc &cCANCEL &fđể thoát.'
+  remove-punishment-command: '%prefix% &fGõ số thứ tự muốn xóa. Gõ &cSTOP &fhoặc &cCANCEL &fđể thoát.'
+  disable-check-command-syntax: '%prefix% &fCách dùng: &c/vulcan disablecheck (tên module)'
+  invalid-check: '%prefix% &cKhông tồn tại module đó! Ví dụ: &fAimA, BadPacketsF...'
+  removed-check: '%prefix% &cĐã tắt module %check%!'
+  violations-command-syntax: '%prefix% &fCách dùng: &c/vulcan violations (tên)'
+  no-logs: '%prefix% &cKhông có lịch sử log của người chơi này!'
+  cps-command-syntax: '%prefix% &fCách dùng: &c/vulcan cps (tên)'
+  connection-command-syntax: '%prefix% &fCách dùng: &c/vulcan connection (tên)'
+  logs-command-syntax: '%prefix% &fCách dùng: &c/logs (tên) (trang)'
+  no-logs-file: '%prefix% &cKhông tìm thấy log!'
+  logs-command-no-logs: '%prefix% &cKhông có log cho &f%player%&c!'
+  no-page: '%prefix% &cTrang %page% không tồn tại cho &f%player%&c!'
+  update-available: '%prefix% &fĐã có bản cập nhật Vulcan mới! (&a%new-version%&f)'
+  latest-version: '%prefix% &aBạn đang dùng bản mới nhất!'
+  injection-failure: '%prefix% &cBạn vừa tham gia máy chủ quá nhanh. Hãy thử lại!'
+  frozen: '&cBạn đã bị Đóng Băng! Vui lòng làm theo hướng dẫn của Staff.'
+  logged-out-while-frozen: '%prefix% &e%player% đã thoát game trong lúc bị Đóng Băng!'
+  froze: '%prefix% &fBạn đã đóng băng &e%player%'
+  unfroze: '%prefix% &fBạn đã rã đông &a%player%'
+  freeze-command-syntax: '%prefix% &fCách dùng: &c/vulcan freeze (tên)'
+  shuffle-command-syntax: '%prefix% &fCách dùng: &c/vulcan shuffle (tên)'
+  shuffled-hotbar: '%prefix% &fĐã xáo trộn kho đồ của &a%player%'
+  rotate-command-syntax: '%prefix% &fCách dùng: &c/vulcan rotate (tên)'
+  randomly-rotated: '%prefix% &fĐã xoay camera của &a%player%&f!'
+  reset-command-syntax: '%prefix% &fCách dùng: &c/vulcan reset (tên)'
+  violations-reset: '%prefix% &fĐã xóa sạch điểm vi phạm của &a%player%'
+  unknown-command: '%prefix% &cKhông rõ lệnh!'
+  unfroze-staff-broadcast: '%prefix% &e%player% &fđã được rã đông bởi &e%staff%'
+  froze-staff-broadcast: '%prefix% &e%player% &fbị đóng băng bởi &e%staff%'
+  removed-from-jday: '%prefix% &fĐã loại &a%player% &fkhỏi danh sách Quét Hack!'
+  jday-remove-syntax: '%prefix% &fCách dùng: &c/jday remove (tên)'
+  punishlogs-syntax: '%prefix% &fCách dùng: &c/punishlogs (tên)'
+  sent-test-alert: '%prefix% &aĐã gửi thông báo thử nghiệm!'
+  description-command-syntax: '%prefix% &fCách dùng: &c/vulcan description (tên_check)'
+commands:
+  help:
+  - '#DBD9D9&m                                                        '
+  - '&#ff7109Vulcan &8» &eBảng Lệnh'
+  - '&r'
+  - '&6Lệnh Chung'
+  - ' #DBD9D9• &e/vulcan help #DBD9D9• &fBảng hướng dẫn này'
+  - ' #DBD9D9• &e/vulcan reload #DBD9D9• &fTải lại file config'
+  - ' #DBD9D9• &e/vulcan checks #DBD9D9• &fDanh sách các module đang chạy'
+  - ' #DBD9D9• &e/vulcan testalert #DBD9D9• &fThử thông báo Discord'
+  - '&r'
+  - '&6Lệnh Quản Trị'
+  - ' #DBD9D9• &e/vulcan profile #DBD9D9• &fXem hồ sơ Vulcan của người chơi'
+  - ' #DBD9D9• &e/vulcan ban (tên) #DBD9D9• &fBan người chơi qua Vulcan'
+  - ' #DBD9D9• &e/vulcan freeze (tên) #DBD9D9• &fĐóng băng/Rã đông người chơi'
+  - ' #DBD9D9• &e/vulcan disablecheck (module) #DBD9D9• &fTắt 1 module (phân biệt hoa/thường)'
+  - ' #DBD9D9• &e/vulcan violations (tên) #DBD9D9• &fXem lịch sử bị bắt lỗi'
+  - ' #DBD9D9• &e/vulcan cps (tên) #DBD9D9• &fKiểm tra số lần click chuột (CPS)'
+  - ' #DBD9D9• &e/vulcan connection (tên) #DBD9D9• &fXem thông tin mạng của người chơi'
+  - ' #DBD9D9• &e/vulcan logs (tên) (trang) #DBD9D9• &fĐọc log chi tiết'
+  - ' #DBD9D9• &e/vulcan top #DBD9D9• &fTop những người vi phạm nhiều nhất'
+  - '&r'
+  - '&6Công Cụ Phạt / Troll'
+  - ' #DBD9D9• &e/vulcan knockback (tên) #DBD9D9• &fĐẩy lùi người chơi'
+  - ' #DBD9D9• &e/vulcan rotate (tên) #DBD9D9• &fLàm xoay camera của người đó'
+  - ' #DBD9D9• &e/vulcan shuffle (tên) #DBD9D9• &fĐảo ngẫu nhiên thanh vật phẩm'
+  - '&r'
+  - '&6Ngày Quét Hack'
+  - ' #DBD9D9• &e/jday add (tên) #DBD9D9• &fĐưa vào danh sách Quét Hack'
+  - ' #DBD9D9• &e/jday execute #DBD9D9• &fTiến hành càn quét'
+  - '&r'
+  - '&6Lệnh Gọi Tắt'
+  - ' #DBD9D9• &e/verbose #DBD9D9• &fBật/Tắt chế độ báo cáo log chi tiết'
+  - ' #DBD9D9• &e/punishlogs (tên) #DBD9D9• &fXem lịch sử bị phạt của ai đó'
+  - ' #DBD9D9• &e/alerts #DBD9D9• &fBật/Tắt nhận thông báo nghi vấn hack'
+  - '&r'
+  - '#DBD9D9Config by &ediamondclass & (Optimized)'
+  - '#DBD9D9&m                                                        '
+  ban:
+    commands:
+    - tempban %player% Gian_lan_-_Hack 5d -s
+    broadcast:
+    - '&6Anticheat #DBD9D9đã loại &f%player% #DBD9D9do &cGian lận#DBD9D9.'
+  profile:
+  - '#DBD9D9&m                                                        '
+  - '&fHồ sơ Vulcan của #ff7109%player%'
+  - ' &e👥 &fID: &e%uuid%'
+  - ''
+  - ' #DBD9D9• &fPhiên bản: &e%client-version%'
+  - ' #DBD9D9• &fDùng Client: &e%client-brand%'
+  - ' #DBD9D9• &fĐộ nhạy chuột: &e%sensitivity%%'
+  - ' #DBD9D9• &fCPS Cuối: &e%cps% CPS'
+  - ' #DBD9D9• &fTốc chạy: &e%move-speed%'
+  - ''
+  - '&e🔥 &fTổng điểm vi phạm (#ff7109%total-violations%&f)'
+  - ' #DBD9D9• &fChiến đấu: &e%combat-violations%'
+  - ' #DBD9D9• &fDi chuyển: &e%movement-violations%'
+  - ' #DBD9D9• &fNgười chơi: &e%player-violations%'
+  - ''
+  - ' #DBD9D9• &fHiệu ứng: %potion-effects%'
+  - '#DBD9D9&m                                                        '
+  cps: '%prefix% &e%player% &fcó mức CPS trung bình: #ff7109%cps%'
+  connection:
+  - '#DBD9D9&m                                                        '
+  - ' #DBD9D9• &fThông tin mạng của #ff7109%player%'
+  - ''
+  - ' #DBD9D9• &fPing phản hồi (Transaction): &e%transaction-ping%ms'
+  - ' #DBD9D9• &fPing kết nối (KeepAlive): &e%keepalive-ping%ms'
+  - ''
+  - ' #DBD9D9• &fLần phản hồi gói tin cuối: &e%last-replied-transaction%ms trước'
+  - ' #DBD9D9• &fCác gói tin đang kẹt: &e%queued-transactions%'
+  - ''
+  - ' #DBD9D9• &fĐộ trễ khi bay: &e%flying-delay%ms'
+  - '#DBD9D9&m                                                        '
+  logs:
+    color: '&f'
+    header-footer: '&8&m---»--*--&r&6[ Log của #ff7109%player% &6(#ff7109%page%&8/#ff7109%max-pages%&6) ]&8&m--*--«---'
+  top:
+  - '#DBD9D9&m                                                        '
+  - '&6Top Vi Phạm Tổng'
+  - ' #DBD9D9• #ff7109❶ &f%total-1-name% &e(#ff7109%total-1-violations% VL&e)'
+  - ' #DBD9D9• #ff7109❷ &f%total-2-name% &e(#ff7109%total-2-violations% VL&e)'
+  - ' #DBD9D9• #ff7109❸ &f%total-3-name% &e(#ff7109%total-3-violations% VL&e)'
+  - ' #DBD9D9• #ff7109❹ &f%total-4-name% &e(#ff7109%total-4-violations% VL&e)'
+  - ' #DBD9D9• #ff7109❺ &f%total-5-name% &e(#ff7109%total-5-violations% VL&e)'
+  - ''
+  - '&6Top Vi Phạm Chiến Đấu (Combat)'
+  - ' #DBD9D9• #ff7109❶ &f%combat-1-name% &e(#ff7109%combat-1-violations% VL&e)'
+  - ' #DBD9D9• #ff7109❷ &f%combat-2-name% &e(#ff7109%combat-2-violations% VL&e)'
+  - ' #DBD9D9• #ff7109❸ &f%combat-3-name% &e(#ff7109%combat-3-violations% VL&e)'
+  - ' #DBD9D9• #ff7109❹ &f%combat-4-name% &e(#ff7109%combat-4-violations% VL&e)'
+  - ' #DBD9D9• #ff7109❺ &f%combat-5-name% &e(#ff7109%combat-5-violations% VL&e)'
+  - ''
+  - '&6Top Vi Phạm Di Chuyển (Movement)'
+  - ' #DBD9D9• #ff7109❶ &f%movement-1-name% &e(#ff7109%movement-1-violations% VL&e)'
+  - ' #DBD9D9• #ff7109❷ &f%movement-2-name% &e(#ff7109%movement-2-violations% VL&e)'
+  - ' #DBD9D9• #ff7109❸ &f%movement-3-name% &e(#ff7109%movement-3-violations% VL&e)'
+  - ' #DBD9D9• #ff7109❹ &f%movement-4-name% &e(#ff7109%movement-4-violations% VL&e)'
+  - ' #DBD9D9• #ff7109❺ &f%movement-5-name% &e(#ff7109%movement-5-violations% VL&e)'
+  - ''
+  - '&6Top Vi Phạm Thao Tác (Player)'
+  - ' #DBD9D9• #ff7109❶ &f%player-1-name% &e(#ff7109%player-1-violations% VL&e)'
+  - ' #DBD9D9• #ff7109❷ &f%player-2-name% &e(#ff7109%player-2-violations% VL&e)'
+  - ' #DBD9D9• #ff7109❸ &f%player-3-name% &e(#ff7109%player-3-violations% VL&e)'
+  - ' #DBD9D9• #ff7109❹ &f%player-4-name% &e(#ff7109%player-4-violations% VL&e)'
+  - ' #DBD9D9• #ff7109❺ &f%player-5-name% &e(#ff7109%player-5-violations% VL&e)'
+  - '#DBD9D9&m                                                        '
+  jday:
+    list-header-footer: '#DBD9D9&m                                                        '
+    list-format: ' #DBD9D9• &e%name%'
+  punishlogs:
+    header-footer: '&8&m---»--*--&r&6[ Lịch sử phạt của #ff7109%player% &6]&8&m--*--«---'
+  description: '%prefix% &eChi tiết cho #ff7109%check%&e: %description%'
+punishment-statistics-broadcast:
+  enabled: false
+  interval: 18000
+  broadcast:
+  - '#DBD9D9&m                                                        '
+  - '&fTrong 7 ngày qua, &#ff7109Vulcan &fđã thanh trừng #ff7109%amount% &fkẻ gian lận.'
+  - '#DBD9D9&m                                                        '
+settings:
+  toggle-alerts-on-join: true
+  per-check-severities: true
+  cinematic: false
+  debug: true
+  inject-early: true
+  max-logs-file-size: 7500
+  server-name: Default
+  async-alerts: false
+  enable-api: false
+  punishment-delay: 10000
+  ignore-floodgate: true
+  ignore-flags-geyser-client-brand: false
+  join-check-wait-time: 2500
+  ignore-geyser-uuids: true
+  ignore-geyser-prefixes: true
+  ignore-geyser-prefix: '*'
+  max-alert-violation: 250
+  flight-cooldown: 40
+  top-command-unresolved: Unresolved
+  ignore-if-in-judgement-day: false
+  ignore-vivecraft: false
+  lenient-scaffolding: true
+  bstats: true
+  entity-collision: true
+  hook-mcmmo: true
+  hook-mythicmobs: true
+  hook-gsit: true
+  hook-brewery: true
+  ignore-alerts-over-max-violations: false
+  ignore-alerts-over-max-violations-amount: 3
+  incompatability-manager: true
+  plugin-messaging: true
+  dont-setback-lower-positions: false
+  min-ticks-existed: 3
+  velocity-world-border: false
+  entity-cram-fix-enabled: true
+  entity-cram-entities-amount: 10
+  entity-cram-exempt-ticks: 30
+  dont-register-geyser: false
+  testing-stuff: false
+discord-webhook:
+  cooldown: false
+  cooldown-reset-ticks: 12000
+  cooldown-max-webhooks: 100
+  alerts:
+    enabled: false
+    url: your-webhook-here
+    avatar: https://cdn.discordapp.com/icons/1277353130518122538/b12babb0aeb97d25a8ea8dac5e1224dd.webp
+    thumbnail: http://cravatar.eu/avatar/%name%/64.png
+    color-r: 252
+    color-g: 140
+    color-b: 3
+    username: Detections
+    title: New Vulcan Alert
+    description: '**%player%** bi phat hien %check% (%type%) [%vl%/%max-vl%]'
+    content: ''
+    information-field: false
+    client-version-field: true
+    client-brand-field: true
+    server-name-field: false
+    description-field: true
+    location-field: false
+    ping-tps-field: true
+  punishments:
+    enabled: false
+    url: your-webhook-here
+    avatar: https://cdn.discordapp.com/icons/1277353130518122538/b12babb0aeb97d25a8ea8dac5e1224dd.webp
+    thumbnail: http://cravatar.eu/avatar/%name%/64.png
+    color-r: 255
+    color-g: 0
+    color-b: 0
+    username: Punishment
+    title: New Vulcan Punishment
+    description: '**%player%** da bi ban vi %check% (%type%) [VL: %vl%]'
+    content: ''
+    description-field: true
+    server-name-field: false
+    client-brand-field: true
+    client-version-field: true
+    ping-tps-field: true
+    location-field: false
+
+# PHẦN MODULE KIỂM TRA BÊN DƯỚI ĐÃ ĐƯỢC THAY LÝ DO PHẠT THÀNH "Gian_lan_-_Hack"
+checks:
+  combat:
+    aim:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.75
+          decay: 0.5
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      b:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.75
+          decay: 0.95
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      c:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 5
+          multiple: 0.5
+          decay: 0.75
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      d:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 8
+          multiple: 0.5
+          decay: 0.75
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      e:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.75
+          decay: 0.25
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      f:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 12
+          multiple: 0.5
+          decay: 0.45
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      g:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.5
+          decay: 0.75
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      h:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 7
+          multiple: 0.5
+          decay: 0.75
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      i:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 7
+          multiple: 0.5
+          decay: 0.75
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      k:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 6
+          multiple: 0.5
+          decay: 0.25
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      l:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 10
+          multiple: 0.45
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      m:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.4
+          decay: 0.25
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      n:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 5
+          multiple: 0.5
+          decay: 0.5
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      o:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 5
+          multiple: 0.5
+          decay: 0.25
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      p:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.4
+          decay: 0.25
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      q:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 6
+          multiple: 0.5
+          decay: 0.25
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      r:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 20
+          multiple: 0.3
+          decay: 0.5
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      s:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 20
+          multiple: 0.25
+          decay: 0.5
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      u:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      w:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 20
+          multiple: 0.25
+          decay: 0.125
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      x:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 12
+          multiple: 0.25
+          decay: 0.125
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      y:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+    autoblock:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      b:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      c:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.5
+          decay: 0.5
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      d:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+    autoclicker:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        max-cps: 22
+      b:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.5
+      c:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 1
+      d:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.5
+      e:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.75
+      f:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.5
+          decay: 1.25
+      g:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 5
+          multiple: 0.25
+          decay: 1.25
+      h:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.5
+          decay: 1
+      i:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 5
+          multiple: 0.5
+          decay: 1.25
+      j:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.5
+          decay: 1.25
+      k:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.5
+          decay: 0.75
+      l:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.25
+          decay: 1
+      m:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.25
+          decay: 0.75
+      n:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 25
+          multiple: 0.15
+          decay: 0.75
+      o:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 5
+          multiple: 0.25
+          decay: 1.25
+      p:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.25
+      q:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 35
+          multiple: 0.3
+          decay: 2.0
+      r:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 50
+          multiple: 0.15
+          decay: 10
+      s:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 30
+          multiple: 0.15
+          decay: 0.825
+      t:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 25
+          multiple: 0.15
+          decay: 0.75
+        min-kurtosis: 13
+    reach:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 4
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.25
+          decay: 0.035
+        max-reach: 3.02
+      b:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 6
+          multiple: 0.25
+          decay: 0.225
+        max-reach: 3.1
+    fastbow:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.125
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+    criticals:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 1
+          multiple: 0.5
+          decay: 0.05
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      b:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 1
+          multiple: 0.5
+          decay: 0.05
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+    killaura:
+      a:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.5
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      b:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 5
+          multiple: 0.6
+          decay: 0.5
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      c:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.5
+          decay: 0.25
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      d:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      f:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 10
+          multiple: 0.25
+          decay: 2
+      h:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      j:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 1
+          multiple: 0.5
+          decay: 0.5
+      k:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.75
+      l:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 5
+          multiple: 0.6
+          decay: 0.5
+        hotbar-shuffle:
+          enabled: true
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: true
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+    hitbox:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.25
+          decay: 0.3
+        max-angle: 0.38
+      b:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 6
+          multiple: 0.25
+          decay: 0.125
+        max-angle: 45
+    velocity:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.25
+          decay: 0.075
+      b:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.35
+          decay: 0.125
+      c:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 5
+          multiple: 0.25
+          decay: 0.175
+      d:
+        enabled: false
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.25
+          decay: 0.05
+  movement:
+    noslow:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.25
+          decay: 0.15
+      b:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 7
+          multiple: 0.25
+          decay: 0.075
+      c:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 7
+          multiple: 0.25
+          decay: 0.15
+      d:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 7
+          multiple: 0.25
+          decay: 0.15
+      e:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 7
+          multiple: 0.25
+          decay: 0.15
+    motion:
+      a:
+        enabled: true
+        punishable: false
+        setback: true
+        min-vl-to-setback: 1
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.25
+          decay: 0.25
+      b:
+        enabled: true
+        punishable: false
+        setback: true
+        min-vl-to-setback: 1
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.25
+          decay: 0.25
+      c:
+        enabled: true
+        punishable: false
+        setback: true
+        min-vl-to-setback: 1
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 1
+          multiple: 0.5
+          decay: 0.05
+      d:
+        enabled: true
+        punishable: false
+        setback: true
+        min-vl-to-setback: 1
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.25
+          decay: 0.05
+      e:
+        enabled: true
+        punishable: false
+        setback: true
+        min-vl-to-setback: 1
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 1
+          multiple: 0.5
+          decay: 0.05
+      g:
+        enabled: true
+        punishable: false
+        setback: true
+        min-vl-to-setback: 1
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 20
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.25
+          decay: 0.15
+      h:
+        enabled: true
+        punishable: false
+        setback: true
+        min-vl-to-setback: 1
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 20
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.25
+          decay: 0.15
+    jump:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.25
+          decay: 0.15
+      b:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.25
+          decay: 0.15
+      c:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.25
+          decay: 0.15
+    step:
+      a:
+        enabled: true
+        punishable: true
+        setback: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      b:
+        enabled: true
+        punishable: false
+        setback: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 6
+          multiple: 0.25
+          decay: 0.35
+      c:
+        enabled: true
+        punishable: false
+        setback: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.25
+          decay: 0.1
+    boatfly:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.33
+          decay: 0.125
+        kick-out: true
+      b:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 5
+          multiple: 0.25
+          decay: 0.25
+        kick-out: true
+      c:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 5
+          multiple: 0.25
+          decay: 0.125
+        kick-out: true
+    entityflight:
+      a:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 5
+          multiple: 0.5
+          decay: 0.25
+        kick-out: true
+      b:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 5
+          multiple: 0.5
+          decay: 0.25
+    antilevitation:
+      a:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 8
+          multiple: 0.25
+          decay: 0.075
+    nosaddle:
+      a:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 6
+          multiple: 0.5
+          decay: 0.125
+    entityspeed:
+      a:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 5
+          multiple: 0.5
+          decay: 0.25
+        kick-out: true
+        min-difference: 0.01
+    elytra:
+      a:
+        enabled: true
+        punishable: true
+        setback: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 1
+          multiple: 0.5
+          decay: 0.25
+        max-speed: 4.25
+      b:
+        enabled: true
+        punishable: true
+        setback: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 8
+          multiple: 0.25
+          decay: 0.125
+      c:
+        enabled: true
+        punishable: true
+        setback: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 6
+          multiple: 0.5
+          decay: 0.125
+      f:
+        enabled: true
+        punishable: true
+        setback: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 6
+          multiple: 0.25
+          decay: 0.125
+      g:
+        enabled: true
+        punishable: true
+        setback: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 25
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.25
+          decay: 0.1
+      i:
+        enabled: true
+        punishable: true
+        setback: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.25
+          decay: 0.1
+      k:
+        enabled: true
+        punishable: true
+        setback: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.25
+          decay: 0.1
+      l:
+        enabled: true
+        punishable: true
+        setback: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.25
+          decay: 0.1
+      m:
+        enabled: true
+        punishable: false
+        setback: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.25
+          decay: 0.1
+      n:
+        enabled: false
+        punishable: false
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 20
+        alert-interval: 1
+        dont-alert-until: 2
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.25
+          decay: 0.045
+    speed:
+      a:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 2
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 5
+          multiple: 0.35
+          decay: 0.125
+      b:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 2
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.25
+          decay: 0.045
+        min-difference: 0.0025
+      c:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 2
+        dont-alert-until: 2
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.25
+          decay: 0.045
+        min-difference: 0.001
+      d:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 2
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.25
+          decay: 0.045
+        min-difference: 0.0025
+      e:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 20
+        alert-interval: 1
+        dont-alert-until: 2
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.25
+          decay: 0.025
+    fastclimb:
+      a:
+        enabled: true
+        punishable: true
+        setback: true
+        min-vl-to-setback: 1
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.5
+          decay: 0.125
+    wallclimb:
+      a:
+        enabled: true
+        punishable: true
+        setback: true
+        min-vl-to-setback: 1
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.35
+          decay: 0.225
+    jesus:
+      a:
+        enabled: true
+        punishable: true
+        setback: true
+        min-vl-to-setback: 1
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 2
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.025
+      b:
+        enabled: true
+        punishable: false
+        setback: true
+        min-vl-to-setback: 1
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 2
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.5
+          decay: 0.175
+      c:
+        enabled: true
+        punishable: false
+        setback: true
+        min-vl-to-setback: 1
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 2
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 10
+          multiple: 0.45
+          decay: 0.75
+      d:
+        enabled: true
+        punishable: false
+        setback: true
+        min-vl-to-setback: 1
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.45
+          decay: 0.175
+      e:
+        enabled: true
+        punishable: false
+        setback: true
+        min-vl-to-setback: 1
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 2
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 10
+          multiple: 0.25
+          decay: 0.175
+    flight:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 20
+        alert-interval: 2
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.65
+          decay: 0.275
+        ignore-ghost-blocks: true
+      b:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 2
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.275
+      c:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 20
+        alert-interval: 2
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.75
+          decay: 0.225
+        ignore-ghost-blocks: true
+      d:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 20
+        alert-interval: 2
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.35
+          decay: 0.275
+        ignore-ghost-blocks: true
+      e:
+        enabled: false
+        punishable: false
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 20
+        alert-interval: 2
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.4
+          decay: 0.5
+        ignore-ghost-blocks: true
+      f:
+        enabled: false
+        punishable: false
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 2
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.4
+          decay: 0.04
+    vclip:
+      a:
+        enabled: true
+        punishable: true
+        setback: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+    sprint:
+      a:
+        enabled: false
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 6
+          multiple: 0.25
+          decay: 0.4
+    strafe:
+      a:
+        enabled: true
+        punishable: true
+        setback: true
+        min-vl-to-setback: 1
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 2
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.5
+          decay: 0.05
+      b:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.15
+          decay: 0.075
+  player:
+    fastuse:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+    fastplace:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        max-blocks: 15
+      b:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 1
+          multiple: 0.25
+          decay: 0.5
+        max-blocks: 4
+    fastbreak:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.25
+          decay: 0.5
+        min-difference: -125
+    tower:
+      a:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.5
+          decay: 0.75
+    scaffold:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      b:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.25
+          decay: 0.25
+      c:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.25
+          decay: 0.5
+      d:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.25
+          decay: 0.5
+      e:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.25
+          decay: 0.5
+      f:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.1
+      g:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.25
+          decay: 0.25
+      h:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 8
+          multiple: 0.25
+          decay: 0.35
+      i:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      j:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      k:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 1
+          multiple: 0.5
+          decay: 0.35
+        max-blocks: 6
+      m:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 12
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 1
+          multiple: 0.5
+          decay: 0.25
+      n:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 12
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.25
+      o:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 12
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+    timer:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 2
+        dont-alert-until: 3
+        maximum-ping: 5000
+        minimum-tps: 19.8
+        punishment-commands:
+        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        buffer:
+          max: 35
+          multiple: 0.425
+          decay: 1.85
+        max-speed: 1.05
+      d:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 35
+        alert-interval: 2
+        dont-alert-until: 8
+        maximum-ping: 5000
+        minimum-tps: 19.8
+        punishment-commands:
+        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.25
+        max-balance: 75
+    baritone:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 20
+          multiple: 0.5
+          decay: 0.25
+      b:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.5
+          decay: 0.05
+    ghosthand:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        cancel: true
+    airplace:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+    badpackets:
+      a:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.5
+          decay: 0.25
+      b:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      c:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      d:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.25
+          decay: 0.01
+      e:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      f:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      g:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      h:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      i:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      j:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      k:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.4
+      m:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 5
+          multiple: 0.33
+          decay: 0.25
+      n:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 20
+          multiple: 0.25
+          decay: 2.5
+      o:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.15
+      p:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.15
+      q:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.15
+      r:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 6
+          multiple: 0.5
+          decay: 0.25
+      s:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      t:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      u:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      v:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 8
+          multiple: 0.5
+          decay: 0.075
+        kick-out: false
+      w:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 8
+          multiple: 0.5
+          decay: 0.75
+      x:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 6
+          multiple: 0.5
+          decay: 0.35
+      y:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      z:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      '1':
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 12
+          multiple: 0.25
+          decay: 0.25
+      '2':
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 12
+          multiple: 0.25
+          decay: 0.25
+      '4':
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.25
+          decay: 0.025
+      '5':
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+      '6':
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.25
+          decay: 0.05
+      '7':
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 10
+          multiple: 0.25
+          decay: 0.05
+      '8':
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 5
+          multiple: 0.25
+          decay: 0.05
+      '9':
+        enabled: true
+        punishable: true
+        discord-alert-interval: 1
+        broadcast-punishment: false
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[Vulcan] Vui long tat phan mem thu 3!
+    inventory:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 20
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.25
+          decay: 0.25
+      b:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 20
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.25
+          decay: 0.25
+    invalid:
+      a:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.25
+          decay: 0.05
+      b:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 1
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[Vulcan] Vui long tat phan mem thu 3!
+      c:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.25
+          decay: 0.045
+      d:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 8
+          multiple: 0.25
+          decay: 0.5
+      e:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 1
+          multiple: 0.5
+          decay: 0.01
+      f:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 1
+          multiple: 0.5
+          decay: 0.01
+      g:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 20
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 2
+          multiple: 0.5
+          decay: 0.025
+      h:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 20
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.05
+      i:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 20
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.05
+      j:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        setback: true
+        min-vl-to-setback: 1
+        broadcast-punishment: true
+        max-violations: 20
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 1
+          multiple: 0.5
+          decay: 0.05
+    groundspoof:
+      a:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.5
+          decay: 0.125
+      b:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.5
+          decay: 0.125
+      c:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        buffer:
+          max: 4
+          multiple: 0.5
+          decay: 0.125
+    improbable:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        max-combat-violations: 25
+      b:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        max-movement-violations: 30
+      c:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        max-player-violations: 30
+      d:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        max-autoclicker-violations: 30
+      e:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        max-total-violations: 50
+      f:
+        enabled: true
+        punishable: false
+        discord-alert-interval: 5
+        broadcast-punishment: true
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 5000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% Gian_lan_-_Hack 5d -s
+        max-scaffold-violations: 25
