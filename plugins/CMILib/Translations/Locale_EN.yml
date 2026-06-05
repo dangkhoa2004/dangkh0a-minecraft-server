@@ -479,174 +479,174 @@ info:
     zombified_piglin: Zombified piglin
   # Avoid adding color codes to the enchant name
   EnchantNames:
-    wind_burst: Wind_Burst
-    technical/necromancy: Technical/necromancy
-    weapons/warped_bow: Weapons/warped_Bow
-    feather_falling: Feather_Falling
-    fire_protection: Fire_Protection
-    bane_of_arthropods: Bane_Of_Arthropods
-    riptide: Riptide
-    density: Density
-    technical/healing_flower: Technical/healing_Flower
-    piercing: Piercing
-    swift_sneak: Swift_Sneak
-    armor/lush_leggings: Armor/lush_Leggings
-    weapons/oceanic_spear: Weapons/oceanic_Spear
-    technical/grenade: Technical/grenade
-    technical/kinetic_bomb: Technical/kinetic_Bomb
-    weapons/barbaric_axe: Weapons/barbaric_Axe
-    lure: Lure
-    armor/nether_leggings: Armor/nether_Leggings
-    aqua_affinity: Aqua_Affinity
-    breach: Breach
-    infinity: Infinity
-    weapons/rift_axe: Weapons/rift_Axe
-    treasure/hypersonic: Treasure/hypersonic
-    vanishing_curse: Vanishing_Curse
-    armor/soul_valley_helmet: Armor/soul_Valley_Helmet
-    treasure/slow: Treasure/slow
-    luck_of_the_sea: Luck_Of_The_Sea
-    sharpness: Sharpness
-    knockback: Knockback
-    punch: Punch
-    thorns: Thorns
-    depth_strider: Depth_Strider
-    protection: Protection
-    armor/deep_dark_leggings: Armor/deep_Dark_Leggings
-    armor/ice_shoes: Armor/ice_Shoes
-    smite: Smite
-    armor/boomproof_cap: Armor/boomproof_Cap
-    channeling: Channeling
-    quick_charge: Quick_Charge
-    treasure/sloth: Treasure/sloth
-    frost_walker: Frost_Walker
-    armor/mushroom_boots: Armor/mushroom_Boots
-    power: Power
-    sweeping_edge: Sweeping_Edge
-    weapons/stray_bow: Weapons/stray_Bow
-    armor/ocean_chestplate: Armor/ocean_Chestplate
-    technical/floor_is_spikes: Technical/floor_Is_Spikes
-    weapons/soul_scythe: Weapons/soul_Scythe
-    armor/desert_chestplate: Armor/desert_Chestplate
-    technical/kinetic_blast: Technical/kinetic_Blast
-    fire_aspect: Fire_Aspect
-    treasure/standard: Treasure/standard
-    technical/giga_bore: Technical/giga_Bore
-    armor/swamp_chestplate: Armor/swamp_Chestplate
-    soul_speed: Soul_Speed
-    unbreaking: Unbreaking
-    mending: Mending
-    binding_curse: Binding_Curse
     lunge: Lunge
-    multishot: Multishot
-    armor/basalt_boots: Armor/basalt_Boots
-    efficiency: Efficiency
-    projectile_protection: Projectile_Protection
-    impaling: Impaling
-    armor/warped_helmet: Armor/warped_Helmet
-    armor/dark_forest_chestplate: Armor/dark_Forest_Chestplate
-    weapons/drylands_piercer: Weapons/drylands_Piercer
-    weapons/wither_sword: Weapons/wither_Sword
-    armor/flower_helmet: Armor/flower_Helmet
-    looting: Looting
-    technical/sense_of_urgency: Technical/sense_Of_Urgency
-    silk_touch: Silk_Touch
-    weapons/assassin_blade: Weapons/assassin_Blade
-    loyalty: Loyalty
-    respiration: Respiration
     armor/taiga_pants: Armor/taiga_Pants
-    armor/wind_chestplate: Armor/wind_Chestplate
-    weapons/hurricane_sword: Weapons/hurricane_Sword
-    armor/experient_trousers: Armor/experient_Trousers
-    armor/dripstone_helmet: Armor/dripstone_Helmet
-    fortune: Fortune
-    flame: Flame
-    armor/indestructia: Armor/indestructia
-    weapons/ice_sword: Weapons/ice_Sword
-    weapons/rumble_axe: Weapons/rumble_Axe
+    punch: Punch
+    technical/necromancy: Technical/necromancy
+    swift_sneak: Swift_Sneak
+    treasure/standard: Treasure/standard
+    looting: Looting
+    power: Power
+    treasure/slow: Treasure/slow
     blast_protection: Blast_Protection
     weapons/sharpened_sword: Weapons/sharpened_Sword
+    weapons/ice_sword: Weapons/ice_Sword
+    armor/dripstone_helmet: Armor/dripstone_Helmet
+    impaling: Impaling
+    respiration: Respiration
     treasure/fast: Treasure/fast
+    vanishing_curse: Vanishing_Curse
+    flame: Flame
+    feather_falling: Feather_Falling
+    breach: Breach
+    technical/floor_is_spikes: Technical/floor_Is_Spikes
+    wind_burst: Wind_Burst
+    armor/experient_trousers: Armor/experient_Trousers
+    loyalty: Loyalty
+    protection: Protection
+    treasure/hypersonic: Treasure/hypersonic
+    armor/boomproof_cap: Armor/boomproof_Cap
+    weapons/oceanic_spear: Weapons/oceanic_Spear
+    weapons/stray_bow: Weapons/stray_Bow
     weapons/warden_killer: Weapons/warden_Killer
+    unbreaking: Unbreaking
+    weapons/rift_axe: Weapons/rift_Axe
+    fortune: Fortune
+    luck_of_the_sea: Luck_Of_The_Sea
+    weapons/rumble_axe: Weapons/rumble_Axe
+    technical/sense_of_urgency: Technical/sense_Of_Urgency
+    fire_protection: Fire_Protection
+    weapons/wither_sword: Weapons/wither_Sword
+    aqua_affinity: Aqua_Affinity
+    treasure/sloth: Treasure/sloth
+    thorns: Thorns
+    armor/deep_dark_leggings: Armor/deep_Dark_Leggings
+    armor/flower_helmet: Armor/flower_Helmet
+    technical/kinetic_blast: Technical/kinetic_Blast
+    frost_walker: Frost_Walker
+    armor/lush_leggings: Armor/lush_Leggings
+    sharpness: Sharpness
+    infinity: Infinity
+    weapons/assassin_blade: Weapons/assassin_Blade
+    knockback: Knockback
+    technical/giga_bore: Technical/giga_Bore
+    armor/swamp_chestplate: Armor/swamp_Chestplate
+    binding_curse: Binding_Curse
+    depth_strider: Depth_Strider
+    weapons/drylands_piercer: Weapons/drylands_Piercer
+    soul_speed: Soul_Speed
+    channeling: Channeling
+    weapons/warped_bow: Weapons/warped_Bow
+    armor/mushroom_boots: Armor/mushroom_Boots
+    efficiency: Efficiency
+    weapons/barbaric_axe: Weapons/barbaric_Axe
+    armor/wind_chestplate: Armor/wind_Chestplate
+    silk_touch: Silk_Touch
+    fire_aspect: Fire_Aspect
+    armor/nether_leggings: Armor/nether_Leggings
+    armor/soul_valley_helmet: Armor/soul_Valley_Helmet
+    technical/kinetic_bomb: Technical/kinetic_Bomb
+    quick_charge: Quick_Charge
+    riptide: Riptide
+    armor/ocean_chestplate: Armor/ocean_Chestplate
+    projectile_protection: Projectile_Protection
+    bane_of_arthropods: Bane_Of_Arthropods
+    technical/grenade: Technical/grenade
+    mending: Mending
+    piercing: Piercing
+    armor/warped_helmet: Armor/warped_Helmet
+    multishot: Multishot
+    armor/dark_forest_chestplate: Armor/dark_Forest_Chestplate
+    technical/healing_flower: Technical/healing_Flower
+    lure: Lure
+    density: Density
+    armor/indestructia: Armor/indestructia
+    smite: Smite
+    sweeping_edge: Sweeping_Edge
+    armor/basalt_boots: Armor/basalt_Boots
+    armor/ice_shoes: Armor/ice_Shoes
+    weapons/hurricane_sword: Weapons/hurricane_Sword
+    weapons/soul_scythe: Weapons/soul_Scythe
+    armor/desert_chestplate: Armor/desert_Chestplate
   PotionEffectAliases:
-    levitation:
-    - Levitation
-    slowness:
-    - Slowness
-    infested:
-    - Infested
-    healthboost:
-    - Health boost
-    poison:
-    - Poison
-    heroofthevillage:
-    - Hero of the village
-    invisibility:
-    - Invisibility
-    absorption:
-    - Absorption
-    wither:
-    - Wither
-    luck:
-    - Luck
-    weakness:
-    - Weakness
-    nausea:
-    - Nausea
-    darkness:
-    - Darkness
-    fireresistance:
-    - Fire resistance
-    weaving:
-    - Weaving
-    blindness:
-    - Blindness
-    raidomen:
-    - Raid omen
-    trialomen:
-    - Trial omen
-    waterbreathing:
-    - Water breathing
-    miningfatigue:
-    - Mining fatigue
-    saturation:
-    - Saturation
-    oozing:
-    - Oozing
-    windcharged:
-    - Wind charged
-    badomen:
-    - Bad omen
-    instantdamage:
-    - Instant damage
-    resistance:
-    - Resistance
-    speed:
-    - Speed
-    strength:
-    - Strength
-    regeneration:
-    - Regeneration
-    hunger:
-    - Hunger
     slowfalling:
     - Slow falling
-    glowing:
-    - Glowing
+    nausea:
+    - Nausea
+    hunger:
+    - Hunger
+    slowness:
+    - Slowness
+    wither:
+    - Wither
+    waterbreathing:
+    - Water breathing
+    poison:
+    - Poison
+    trialomen:
+    - Trial omen
     jumpboost:
     - Jump boost
-    nightvision:
-    - Night vision
-    instanthealth:
-    - Instant health
-    unluck:
-    - Unluck
-    dolphinsgrace:
-    - Dolphins grace
-    conduitpower:
-    - Conduit power
+    resistance:
+    - Resistance
+    fireresistance:
+    - Fire resistance
+    absorption:
+    - Absorption
     haste:
     - Haste
+    unluck:
+    - Unluck
+    saturation:
+    - Saturation
+    weakness:
+    - Weakness
+    windcharged:
+    - Wind charged
+    glowing:
+    - Glowing
+    levitation:
+    - Levitation
+    badomen:
+    - Bad omen
+    blindness:
+    - Blindness
+    darkness:
+    - Darkness
+    nightvision:
+    - Night vision
+    weaving:
+    - Weaving
+    heroofthevillage:
+    - Hero of the village
+    regeneration:
+    - Regeneration
+    luck:
+    - Luck
+    oozing:
+    - Oozing
+    instanthealth:
+    - Instant health
+    raidomen:
+    - Raid omen
+    infested:
+    - Infested
+    conduitpower:
+    - Conduit power
+    healthboost:
+    - Health boost
+    invisibility:
+    - Invisibility
+    miningfatigue:
+    - Mining fatigue
+    speed:
+    - Speed
+    dolphinsgrace:
+    - Dolphins grace
+    instantdamage:
+    - Instant damage
+    strength:
+    - Strength
 dialog:
   signEditor: Sign Editor
   update: Update

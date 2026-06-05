@@ -8,10 +8,10 @@ GriefPrevention:
     lobby: -1
   Claims:
     Mode:
-      world_the_end: Disabled
-      world_nether: Disabled
       world: Survival
       lobby: Disabled
+      world_the_end: Disabled
+      world_nether: Disabled
     PreventGlobalMonsterEggs: true
     PreventTheft: true
     ProtectCreatures: true
